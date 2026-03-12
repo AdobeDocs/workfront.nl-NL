@@ -6,26 +6,23 @@ description: U kunt documenten toevoegen aan projecten, taken of problemen in me
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '1237'
+ht-degree: 0%
 
 ---
 
 # Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront
 
-U kunt documenten toevoegen aan projecten, taken of problemen in de volgende gebieden in Adobe Workfront:
+Workfront heeft momenteel twee versies van het gebied Documenten: het gebied met oudere documenten en het gebied met nieuwe documenten. De versie die uw organisatie gebruikt, hangt af van het feit of uw organisatie op verouderde Workfront-opslag of bedrijfsopslag werkt. Voor meer informatie over deze opslagtypes, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-* Het gebied Algemene documenten
-* Het gebied Documenten voor een Workfront-object
-* Een aangesloten kaart op een Workfront-kaart
+Het toevoegen van documenten aan Workfront is afhankelijk van de versie van het documentgebied dat uw organisatie gebruikt.
 
-U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen aan documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden. Voor informatie over het toevoegen van documenten van derdewolkenverkopers, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+* [Documenten vanuit uw bestandssysteem toevoegen in het gebied met oudere documenten](#add-documents-from-your-file-system-in-the-legacy-documents-area)
+* [Documenten aan Workfront toevoegen in het gebied Nieuwe documenten](#add-documents-to-workfront-in-the-new-documents-area)
 
-Er gelden geen beperkingen voor de bestandstypen en -grootten die u kunt uploaden naar Workfront. De upload kan echter alleen worden voltooid als deze binnen vijf minuten is voltooid en u over voldoende opslagruimte beschikt.
 
-Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 ## Toegangsvereisten
 
@@ -47,16 +44,35 @@ Als u informatie over het uploaden van nieuwe versies van een document aan Workf
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot documenten bewerken</p> </td> 
+   <td> <p>Oudere Workfront-opslag: toegang tot documenten bewerken</p> 
+   <p>Enterprise-opslag: toegang tot documenten bewerken is standaard ingeschakeld en kan niet worden gewijzigd</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Documenten toevoegen aan Workfront
+## Documenten van uw bestandssysteem toevoegen in het gebied met verouderde documenten
+
+Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [ Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+
+U kunt documenten toevoegen aan projecten, taken of problemen in de volgende gebieden in Adobe Workfront:
+
+* Het gebied Algemene documenten
+* Het gebied Documenten voor een Workfront-object
+* Een aangesloten kaart op een Workfront-kaart
+
+U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen aan documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden. Voor informatie over het toevoegen van documenten van derdewolkenverkopers, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+Er gelden geen beperkingen voor de bestandstypen en -grootten die u kunt uploaden naar Workfront. De upload kan echter alleen worden voltooid als deze binnen vijf minuten is voltooid en u over voldoende opslagruimte beschikt.
+
+Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+
+
+### Documenten toevoegen aan Workfront in het gebied met verouderde documenten
 
 U kunt nieuwe documenten vanuit het bestandssysteem op uw werkstation toevoegen aan Workfront. U kunt ook documenten koppelen van toepassingen van derden, zoals Google Drive en SharePoint.
 
@@ -71,7 +87,7 @@ Een document toevoegen:
 1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
 1. Klik het **lusje van Documenten**, dan klik **voeg Nieuw** drop-down menu toe.
 
-   ![&#x200B; voeg nieuw document &#x200B;](assets/add-new-doc.png) toe
+   ![ voeg nieuw document ](assets/add-new-doc.png) toe
 
 1. Voer afhankelijk van het type document dat u wilt toevoegen een van de volgende handelingen uit:
 
@@ -110,14 +126,72 @@ Een document toevoegen:
     </tbody> 
    </table>
 
-## Documentbeveiliging
 
-De Workfront-site voorkomt op de volgende manieren dat virussen en andere schadelijke inhoud de site betreden via documenten:
+## Documenten aan Workfront toevoegen in het gebied Nieuwe documenten
 
-* [&#x200B; Hoe Workfront bedorven dossiers &#x200B;](#how-workfront-detects-corrupted-files) ontdekt
-* [Beperkingen voor bestandsnaam](#file-name-restrictions)
+U kunt documenten aan projecten, taken, of kwesties toevoegen gebruikend het model van de ondernemingsopslag. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-### Hoe Workfront beschadigde bestanden detecteert {#how-workfront-detects-corrupted-files}
+Momenteel worden functies niet ondersteund op het gebied van nieuwe documenten:
+
+* Documenten uploaden naar het algemene gebied Documenten
+* Koppelingen toevoegen aan documenten van externe cloudleveranciers, zoals Google Drive, Dropbox en Microsoft OneDrive.
+* Documenten aanvragen
+* Een koppeling naar een map kopiëren
+* Documenten controleren
+* Afbeeldingen plakken van het klembord
+* Slimme mappen toevoegen
+
+
+### Documenten aan Workfront toevoegen in het gebied Nieuwe documenten
+
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+<!--
+>[!IMPORTANT]
+>
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
+-->
+
+Een document toevoegen:
+
+1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
+1. Klik de **Documenten** in het linkerpaneel.
+1. Klik **Nieuw** op de rechterkant van de pagina of sleep en laat vallen het dossier in de dalingsstreek die verschijnt. U kunt meerdere documenten tegelijk toevoegen.
+
+   ![ voeg een nieuw document ](assets/add-new-doc-new-doc.png) toe
+
+Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+
+## Documentbeveiliging voor bedrijfsopslag
+
+Workfront voorkomt op de volgende manieren dat virussen en andere schadelijke inhoud de site betreden via documenten:
+
+**Hoe Workfront bedorven dossiers** ontdekt
+
+Het scannen van documenten wordt automatisch ingeschakeld voor objecten die gebruikmaken van het opslagmodel voor bedrijven.
+
+Alle bestanden onder 500 MB worden gescand wanneer ze worden geüpload. Bestanden van meer dan 500 MB worden niet gescand. Als Workfront een beschadigd document detecteert, wordt dit automatisch verwijderd.
+
+**de naambeperkingen van het Dossier**
+
+Omdat deze integratie wordt gebouwd gebruikend de ondernemingsopslag van Adobe, zijn er sommige gedwongen structuur en noemende overeenkomsten om zich van bewust te zijn wanneer het beheren van projecten en documenten.
+
+* Objectnamen moeten uniek zijn en kunnen niet worden gedupliceerd
+* Adobe Enterprise Storage vereist unieke namen voor peer-objecten met hetzelfde bovenliggende element in de hiërarchiestructuur
+* Documenten kunnen niet dezelfde naam hebben als ze tot hetzelfde project behoren
+* Namen van documenten mogen geen van de volgende speciale tekens bevatten: `\ / : * ? " | < >`
+* Documentnamen mogen maximaal 255 tekens bevatten
+
+Met het oog op deze beperkingen wijzigt Workfront automatisch de naam van objecten of documenten om conflicten te voorkomen.
+
+
+## Documentbeveiliging voor verouderde Workfront-opslag
+
+Op de Workfront-site kunt u op de volgende manieren voorkomen dat virussen en andere schadelijke inhoud de site via documenten binnenkomen:
+
+**Hoe Workfront bedorven dossiers** ontdekt
 
 Het scannen van documenten wordt alleen op verzoek voor uw organisatie ingeschakeld.
 
@@ -127,6 +201,6 @@ Als Workfront een beschadigd document detecteert, wordt een bericht weergegeven 
 
 Beschadigde bestanden worden binnen 24 uur na detectie verwijderd, tenzij u deze handmatig verwijdert. Als u een beschadigd bestand verwijdert, houdt Workfront deze handeling bij als een update. Als u Workfront toestaat deze te verwijderen, worden er geen updates opgenomen.
 
-### Beperkingen voor bestandsnaam {#file-name-restrictions}
+**de naambeperkingen van het Dossier**
 
 Bestanden die naar Workfront zijn geüpload, kunnen bepaalde tekens in bestandsnamen niet bevatten. Als een bestand een van de volgende tekens in de bestandsnaam bevat, worden de tekens uit de bestandsnaam verwijderd wanneer het bestand wordt geüpload: `! # % * \ | ' " / ? < > { } [ ]` .

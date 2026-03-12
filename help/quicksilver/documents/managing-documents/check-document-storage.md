@@ -6,9 +6,9 @@ description: Hoewel er geen beperkingen zijn op de typen en formaten van afzonde
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Documentopslaglimieten controleren
 
 Hoewel er geen beperkingen zijn op de typen en formaten van afzonderlijke bestanden die gebruikers kunnen uploaden naar uw Workfront-instantie, is er een limiet in uw Workfront-abonnement voor de totale hoeveelheid opslagruimte die door uw Workfront-instantie wordt gebruikt. Als beheerder van Adobe Workfront, controleert u het documentopslag van uw instantie van het gebied van de Opstelling.
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -37,7 +42,7 @@ Hoewel er geen beperkingen zijn op de typen en formaten van afzonderlijke bestan
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

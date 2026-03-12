@@ -6,13 +6,13 @@ description: De Adobe Experience Manager gebruiken met de integratie Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
+exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
-
 
 # De Adobe Experience Manager gebruiken met de integratie Frame.io
 
@@ -77,7 +77,7 @@ U kunt uw werk in [!DNL Experience Manager Assets] &#x200B; met uw inhoud verbin
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +85,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint,
 
-* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] aan een Organisatie-id hebben gekoppeld in de [!DNL Adobe Admin Console] . Voor meer informatie zie, [&#x200B; Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] aan een Organisatie-id hebben gekoppeld in de [!DNL Adobe Admin Console] . Voor meer informatie zie, [ Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 * Uw Workfront-exemplaar moet gebruikmaken van Adobe Enterprise Storage.
 
 
@@ -98,9 +98,9 @@ Voordat u begint,
 1. Voer in het veld **[!UICONTROL Name]** de naam in die gebruikers moeten zien wanneer ze met deze integratie werken in Workfront en Experience Manager Assets.
 1. In het veld **[!UICONTROL Navigation URL]** vult het systeem automatisch de URL van de navigatie. Deze alleen-lezen URL wordt gebruikt om vanuit [!DNL Experience Manager] snel toegang te krijgen tot de [!UICONTROL Main Menu] -instantie van uw organisatie.
 1. Kies een gegevensopslagruimte in het vervolgkeuzemenu **[!UICONTROL [!DNL Experience Manager] Assets repository]** . Het systeem vult automatisch alle [!DNL Experience Manager] opslagplaatsen in die zijn gekoppeld aan de organisatie-id waaraan uw gebruikersprofiel is toegewezen.
-   ![&#x200B; kies de bewaarplaats van de ervaringsmanager &#x200B;](assets/setup-information.png)
+   ![ kies de bewaarplaats van de ervaringsmanager ](assets/setup-information.png)
 
-1. Klik **[!UICONTROL Save]** of beweging op [&#x200B; de meta-gegevens van de Opstelling (Facultatieve) &#x200B;](#set-up-metadata-optional) sectie in dit artikel.
+1. Klik **[!UICONTROL Save]** of beweging op [ de meta-gegevens van de Opstelling (Facultatieve) ](#set-up-metadata-optional) sectie in dit artikel.
 
    >[!IMPORTANT]
    >
@@ -121,10 +121,10 @@ Voordat u metagegevensvelden gaat toewijzen, moet u metagegevensvelden zowel in 
 
 U kunt als volgt metagegevensvelden configureren:
 
-1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [&#x200B; wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] bevat veel ingebouwde aangepaste velden die u kunt gebruiken. Nochtans, kunt u uw eigen douanegebieden ook tot stand brengen zoals die in [&#x200B; worden verklaard creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] bevat veel ingebouwde aangepaste velden die u kunt gebruiken. Nochtans, kunt u uw eigen douanegebieden ook tot stand brengen zoals die in [ worden verklaard creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 +++ **breid uit om meer informatie over gesteunde gebieden van Workfront en van Experience Manager Assets te zien** 
 
@@ -146,12 +146,12 @@ U kunt elk door Workfront ondersteund veld toewijzen aan een tag in Experience M
 >
 >Als u wilt dat het label het meest linkse item in de codestructuur is, moet het worden gevolgd door een dubbele punt. In dit voorbeeld zou de veldwaarde in Workfront `landscapes:` zijn om aan de landscapes-tag toe te wijzen.
 >
->![&#x200B; de structuur van de Omslag in AEM &#x200B;](assets/aem-folder-structure-with-red-boxes.png)
+>![ de structuur van de Omslag in AEM ](assets/aem-folder-structure-with-red-boxes.png)
 
 
 Nadat u de tags in Experience Manager Assets hebt gemaakt, worden deze weergegeven onder de vervolgkeuzelijst Codes in de sectie Metagegevens. Als u een veld aan een tag wilt koppelen, selecteert u `xcm:keywords` in het vervolgkeuzemenu Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
 
-Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [&#x200B; het Beheer Markeringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-64/administering/contentmanagement/tags).
+Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [ het Beheer Markeringen ](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **de gebieden van het de douaneschema-meta-gegevens van Experience Manager Assets**
 
@@ -159,7 +159,7 @@ U kunt zowel ingebouwde als aangepaste Workfront-velden toewijzen aan aangepaste
 
 Aangepaste metagegevensvelden die zijn gemaakt in Experience Manager Assets, worden in hun eigen sectie geordend in het instellingsgebied voor metagegevens.
 
-![&#x200B; sectie van douanemetagegevens &#x200B;](assets/custom-metadata.png)
+![ sectie van douanemetagegevens ](assets/custom-metadata.png)
 
 <!-- 
 link to documentation about creating schema - waiting on response from Anuj about best article to link to
@@ -199,8 +199,8 @@ Metagegevens toewijzen voor elementen:
 
 1. Doorzoek in het veld [!DNL Experience Manager Assets] de vooraf ingevulde categorieën of voer in het zoekveld ten minste twee letters in voor toegang tot extra categorieën.
 1. Herhaal stap 2 en 3 zo nodig.
-   ![&#x200B; meta-gegevensgebieden &#x200B;](assets/metadata-no-asset-toggle.png)
-1. Klik [!UICONTROL **sparen**] of beweging aan de [&#x200B; sectie van de meta-gegevenssynchronisatie van Objecten &#x200B;](#object-metadata-sync) in dit artikel.
+   ![ meta-gegevensgebieden ](assets/metadata-no-asset-toggle.png)
+1. Klik [!UICONTROL **sparen**] of beweging aan de [ sectie van de meta-gegevenssynchronisatie van Objecten ](#object-metadata-sync) in dit artikel.
 
 
 
@@ -225,7 +225,7 @@ Assets die naar Experience Manager door deze integratie wordt verzonden heeft ee
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
-Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Voor meer informatie bij het vormen meta-gegevensafbeelding, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Voor meer informatie bij het vormen meta-gegevensafbeelding, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
@@ -240,34 +240,39 @@ Wanneer een gebruiker een document van Workfront naar Experience Manager Assets 
 Een document verzenden:
 
 1. Ga naar het **gebied van Documenten** in Workfront, en selecteer het document u wilt verzenden.
-1. Klik **verzenden naar**, dan kies de integratie van Experience Manager uw beheerderopstelling.
+1. In de bar bij de bodem van het scherm, klik **verzenden naar**.
+
+1. Kies de integratie van Experience Manager uw beheerderopstelling, dan klik **verzend**.
 
    >[!NOTE]
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek vermeld.
 
-   ![&#x200B; verzendt naar &#x200B;](assets/send-to-aem.png)
 
 1. Kies waar u de activa wilt gaan, dan klik **Uitgezochte Omslag**.
-1. Wanneer u uw gewenste bestemming vindt, klik **sparen**.
 
-### Nieuwe versie verzenden
 
-U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [&#x200B; een nieuwe versie van een document &#x200B;](/help/quicksilver/documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de meest recente versie is geüpload, kunt u deze naar Elementen verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens in Elementen bij wanneer deze worden verzonden.
+<!-- not sure if this is in yet
+
+### Send a new version
+
+You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](/help/quicksilver/documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
 >[!IMPORTANT]
 >
->Voordat u een nieuwe versie naar Workfront uploadt, raden we u aan de naam van het bestand te wijzigen. Als u een nieuwe versie uploadt met precies dezelfde bestandsnaam als een vorige versie, kan alleen de meest recente versie worden gedownload van Workfront. Alle versies kunnen ongeacht de bestandsnaam worden gedownload van Experience Manager Assets of Assets Essentials. <!--Is this still a thing with ESM?-->
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. - is this accuate for ESM?
 
-De meest recente versie verzenden:
+To send the most recent version:
 
-1. Ga naar het **gebied van Documenten** in Workfront, en bepaal de plaats van het document.
-1. Selecteer **verzenden naar**, dan kies de integratie van Experience Manager uw beheerderopstelling.
+1. Go to the **Documents** area in Workfront, and locate the document.
+1. In the bar at the bottom of the screen, click **Send to**. 
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek genoemd.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![&#x200B; verzendt naar &#x200B;](assets/send-to-aem.png)
-
-1. Klik **sparen**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.
+1. Click **Save**. The new version saves in the same location as the previous version.
+ 
+ -->

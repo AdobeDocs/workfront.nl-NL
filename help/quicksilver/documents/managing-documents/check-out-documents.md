@@ -6,9 +6,9 @@ description: U kunt een document uitchecken om te voorkomen dat andere gebruiker
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Documenten controleren
 
 U kunt een document uitchecken om te voorkomen dat andere gebruikers het document verwijderen of een nieuwe versie ervan uploaden. Slechts één gebruiker kan een document tegelijk uitchecken. U kunt elk document dat naar Adobe Workfront is geüpload, uitchecken en documenten die zijn gekoppeld aan externe documentproviders (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint of een andere aangepaste provider). 
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -46,7 +51,7 @@ U kunt een document uitchecken om te voorkomen dat andere gebruikers het documen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +72,7 @@ Gebruikers met beheerde toegang tot het document kunnen het volgende doen:
 * Goedkeuren of een goedkeuring op het document toepassen.
 * Het document controleren in de proefdrukviewer
 
-  Voor meer informatie over het proef, zie [&#x200B; het Bewijzen &#x200B;](../../review-and-approve-work/proofing/proofing.md)
+  Voor meer informatie over het proef, zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md)
 
 ## Een document uitchecken
 
@@ -75,11 +80,11 @@ Als u beheerdersmachtigingen voor een document hebt, kunt u het uitchecken om be
 
 1. Ga naar het gebied waar het document is opgeslagen en selecteer het document. 
 
-   Voor informatie over het toevoegen van documenten, zie [&#x200B; documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
+   Voor informatie over het toevoegen van documenten, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
-1. Klik het **pictogram van de Controle uit** pictogram ![&#x200B; Controle uit &#x200B;](assets/check-out-25x23.png).
+1. Klik het **pictogram van de Controle uit** pictogram ![ Controle uit ](assets/check-out-25x23.png).
 
-1. Een slotpictogram ![&#x200B; het pictogram van het Slot &#x200B;](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam. Het document blijft uitgecheckt nadat u zich hebt afgemeld bij Workfront.
+1. Een slotpictogram ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam. Het document blijft uitgecheckt nadat u zich hebt afgemeld bij Workfront.
 1. Alleen de gebruiker die het document heeft uitgecheckt of de Workfront-beheerder kan het document inchecken.
 
 ## Uitgecheckte documenten beheren
@@ -91,7 +96,7 @@ Overweeg het volgende over uitgecheckte documenten:
 * Als de Workfront-beheerder een gebruiker verwijdert die een document dat hij of zij heeft uitgecheckt en het document op een object wordt geüpload, blijft het document uitgecheckt. Alleen een Workfront-beheerder kan deze weer inchecken.
 * Als de Workfront-beheerder een gebruiker verwijdert die een document dat hij of zij heeft uitgecheckt en het document alleen wordt geüpload in het gebied Documenten (niet in een object), wordt het document met de gebruiker verwijderd.
 
-  Voor informatie over het schrappen van gebruikers, zie [&#x200B; gebruikers van de Schrapping &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+  Voor informatie over het schrappen van gebruikers, zie [ gebruikers van de Schrapping ](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 * Als de Workfront-beheerder een gebruiker deactiveert, blijven alle uitgecheckte documenten uitgecheckt. Alleen een Workfront-beheerder kan ze weer inchecken. 
 
@@ -103,6 +108,6 @@ Een document inchecken:
 
 1. Ga naar het gebied waar het document is opgeslagen en selecteer het document. 
 
-   Een slotpictogram ![&#x200B; het pictogram van het Slot &#x200B;](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam.
+   Een slotpictogram ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam.
 
-1. Klik het **pictogram van de Controle binnen** ![&#x200B; Controle in pictogram &#x200B;](assets/check-in-25x22.png).
+1. Klik het **pictogram van de Controle binnen** ![ Controle in pictogram ](assets/check-in-25x22.png).

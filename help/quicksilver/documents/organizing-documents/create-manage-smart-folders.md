@@ -6,9 +6,9 @@ description: De slimme omslagen worden gebruikt om documenten buiten een project
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 De slimme omslagen worden gebruikt om documenten buiten een project, een taak, of een kwestie te beheren, en in het belangrijkste gebied van Documenten in het Belangrijkste Menu gevonden. U kunt een slimme map instellen om elementen te filteren en alleen die elementen weer te geven die voor u van belang zijn, in plaats van al uw elementen te doorzoeken.
 
 De eerste keer dat u het gebied Documenten opent, hebt u standaard toegang tot twee slimme mappen: Alle documenten en Recent. U kunt slimme standaardmappen bewerken, hernoemen of kopiëren, maar u kunt ze niet verwijderen. U kunt aanvullende slimme mappen maken om te voldoen aan andere behoeften op het gebied van middelenbeheer.
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -44,7 +49,7 @@ De eerste keer dat u het gebied Documenten opent, hebt u standaard toegang tot t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-![&#x200B; geef Slimme Omslag &#x200B;](assets/screenshot-2016-07-07-12.46.54.png) uit
+![ geef Slimme Omslag ](assets/screenshot-2016-07-07-12.46.54.png) uit
 
 ## Een slimme map maken 
 
@@ -68,7 +73,7 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 ## Een slimme map bewerken 
 
 1. Ga naar het **gebied van Documenten** dat de slimme omslag bevat die u wilt uitgeven.
-1. In de **Mappen** kolom, klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
+1. In de **Mappen** kolom, klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
 1. Klik **uitgeven**.
 
 1. Breng uw veranderingen aan, dan klik **sparen Omslag**.

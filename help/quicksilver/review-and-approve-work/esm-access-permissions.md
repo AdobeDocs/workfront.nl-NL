@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 89dcc972e2e29890763dba6b5f7a44489a2eee5a
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
+source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
-
 
 # Objectmachtigingen en overzicht van het toegangsniveau voor het Adobe-bedrijfsopslagmodel
 
@@ -39,7 +39,7 @@ De toegang tot documenten gedraagt zich verschillend afhankelijk van of het proj
 
 Als u Adobe Enterprise Storage hebt ingeschakeld in uw Workfront-omgeving, kunt u zowel Adobe Enterprise Storage-projecten als oudere Workfront-opslagprojecten maken. Bij verouderde Workfront-opslagprojecten wordt een pictogram weergegeven naast de projectnaam, waar deze ook wordt weergegeven in Workfront. Adobe Enterprise Storage-projecten geven geen pictogram weer.
 
-![&#x200B; pictogram van de erfeniswerkfront opslag naast projectnaam &#x200B;](assets/legacy-project-icon.png)
+![ pictogram van de erfeniswerkfront opslag naast projectnaam ](assets/legacy-project-icon.png)
 
 
 ### Omgevingen die alleen gebruikmaken van Adobe Enterprise Storage
@@ -55,15 +55,60 @@ U kunt de toegang tot overerving van documenten niet beperken.
 
 Geen wijzigingen in de toegangsniveaus of het gedrag van het document.
 
+## Objectmachtigingen
 
-## Projecten
+Objectmachtigingen bepalen wat u kunt zien en doen met projecten, taken, problemen en documenten in Workfront. Machtigingen worden toegewezen wanneer iemand een object met u deelt.
 
-De gebruikers met project-vlakke toestemmingen kunnen documenten voor projecten in andere producten van Adobe zoals Frame.io en Adobe Creative Cloud bekijken en beheren.
+>[!IMPORTANT]
+>
+>In Adobe Enterprise Storage werken documentmachtigingen anders dan in oudere Workfront-opslagsystemen. De documenten erven toestemmingen van het project, de taak, of uitgeven zij met verbonden zijn.
 
-Projectnamen zijn ook zichtbaar buiten Workfront voor ESM-projecten.
 
-Financiële gegevens zijn buiten Workfront voor ESM-projecten niet zichtbaar.
+### Documentmachtigingen werken
 
-## Taken en problemen
+Documentmachtigingen worden aangestuurd door het object waaraan het document is gekoppeld. U kunt geen machtigingen instellen voor afzonderlijke documenten.
 
-Documenten worden opgeslagen op projectniveau, maar kunnen zo nodig worden gedeeld met afzonderlijke taken en problemen. Gebruikers met taak- en uitgavetoegang nemen automatisch documenttoegang over van het project. U kunt hun toegangsniveau niet wijzigen. Ze hebben toegang of geen toegang beheerd.
+Wanneer u een document uploadt naar een taak of uitgave, wordt een door het systeem gegenereerde map gemaakt met de taak- of uitgavenaam. Deze map is gekoppeld aan de taak of uitgave en neemt de machtigingen ervan over.
+
+U kunt submappen maken in de door het systeem gegenereerde map om documenten verder te ordenen. Alle submappen overerven machtigingen van de bovenliggende map. Op projectniveau, kunt u documenten buiten een omslag uploaden, maar slechts kunnen de gebruikers met project-vlakke toegang hen zien.
+
+Op projectniveau, tonen de systeem-geproduceerde omslagen een verbonden voorwerp. Dit is meestal de taak- of uitgavennaam en het systeem weet welke taak of uitgave de map moet worden weergegeven.
+
+### Projectmachtigingen
+
+Wanneer u toestemmingen op projectniveau hebt, kunt u documenten voor dat project in Workfront en andere producten van Adobe zoals Frame.io en Adobe Creative Cloud bekijken en beheren. De projectnaam is ook zichtbaar in die hulpmiddelen. Andere projectgegevens zijn niet zichtbaar buiten Workfront.
+
+### Machtigingen voor taken en afgifte
+
+Taken en uitgaven nemen toestemmingen van het project over. Als u machtigingen voor taken of niveaus hebt, kunt u documenten die aan die taak of uitgave zijn gekoppeld, weergeven en beheren in Workfront en andere Adobe-producten, zoals Frame.io en Adobe Creative Cloud.
+
+**Systeem-geproduceerde omslagen**
+
+* Als u gebruikers uit een taak of uitgave verwijdert, wordt hun maptoegang niet automatisch verwijderd. Zij kunnen toegang door project-vlakke toestemmingen nog hebben.
+* Subtaken nemen door het systeem gegenereerde mapmachtigingen niet over van bovenliggende taken. U moet rechtstreeks aan een subtaak worden toegevoegd om tot zijn systeem-geproduceerde omslag toegang te hebben.
+* Wanneer u gebruikers aan een taak toevoegt of uitgeeft, wordt de door het systeem gegenereerde map met die taak gedeeld.
+
+**het bewegen en het anders noemen van systeem-geproduceerde omslagen:**
+
+* Door het systeem gegenereerde mappen kunnen worden hernoemd en verplaatst.
+* Als een door het systeem gegenereerde map naar een andere locatie wordt verplaatst, wordt het gekoppelde object bijgewerkt naar het nieuwe object. Rechten worden vervolgens overgenomen van het nieuwe bovenliggende object.
+
+Verzoeken volgen hetzelfde gedrag als taken en problemen.
+
+### Goedkeuringen
+
+Wanneer u aan een werkschema van de documentgoedkeuring wordt toegevoegd, kunt u het volgende zien ongeacht projecttoestemmingen:
+
+* Projectnaam
+* Documentnaam
+* Documentminiatuur
+
+
+
+
+
+
+
+
+
+

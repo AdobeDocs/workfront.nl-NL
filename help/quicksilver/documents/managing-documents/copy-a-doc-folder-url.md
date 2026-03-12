@@ -6,9 +6,9 @@ description: U kunt een koppeling kopiëren voor elke documentmap die zich in el
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 # Een koppeling naar een documentmap kopiëren en delen
 
 U kunt een directe koppeling kopiëren voor elke documentmap in een van de volgende [!DNL Workfront] -objecten: [!UICONTROL Program] , [!UICONTROL Portfolio] , [!UICONTROL Project] , [!UICONTROL Task] of [!UICONTROL Issue] . U kunt een koppeling voor mappen in het gebied [!UICONTROL Documents] niet kopiëren vanuit het hoofdmenu, omdat deze mappen rechtstreeks zijn gekoppeld aan uw gebruikersprofiel en niet met anderen kunnen worden gedeeld.
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -43,7 +48,7 @@ U kunt een directe koppeling kopiëren voor elke documentmap in een van de volge
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,4 +58,4 @@ Een koppeling naar een documentmap kopiëren:
 
 1. Navigeer naar het [!DNL Workfront] -object dat de documentmap bevat.
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Copy URL]** . U kunt deze koppeling delen om snel toegang tot de map te krijgen. Gebruikers moeten minimaal toegang tot het object hebben om de map te kunnen bekijken.
-   ![&#x200B; de omslag url van het exemplaardocument &#x200B;](assets/copy-doc-folder-url.png)
+   ![ de omslag url van het exemplaardocument ](assets/copy-doc-folder-url.png)

@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -62,18 +62,20 @@ U hebt mogelijk een aangepast formulier met een selectievakje met drie selectiev
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Documenten bulksgewijs bewerken
+## Samengevoegde documenten bewerken in het gebied met oudere documenten
+
+Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [ Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Documenten in bulk bewerken:
 
 1. Navigeer naar het tabblad Documenten van een project of het gebied Documenten vanuit het hoofdmenu.
 1. Druk op Ctrl of cmd op het toetsenbord en selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
-   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 
@@ -93,15 +95,39 @@ Documenten in bulk bewerken:
     </table>
 1. Klik **sparen**.
 
+## Documenten bulksgewijs bewerken in het nieuwe documentgebied
+
+
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Documenten in bulk bewerken:
+
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Druk op Ctrl of cmd op het toetsenbord en selecteer de documenten die u wilt bewerken.
+1. Klik op Bewerken onder aan de pagina.
+   ![ geef veelvoudige documenten uit ](assets/bulk-edit-documents.png)
+1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
+1. Breng de volgende wijzigingen aan in aangepaste formulieren:
+
+   <table>
+    <tr>
+    <td><strong>Formulieren toevoegen</strong></td>
+    <td>In de <strong> Vorm van de Douane </strong> sectie, kunt u een nieuwe douanevorm aan de geselecteerde documenten toevoegen. De vormen van de douane in bijlage aan alle geselecteerde documenten tonen in de <strong> vormen van de Douane in gemeenschappelijke </strong> sectie.  </td>
+    </tr>
+    <tr>
+    <td><strong>Formulieren bewerken</strong></td>
+    <td>Aangepaste formulieren bewerken. De gegevens die u wijzigt, overschrijven de bestaande gegevens in afzonderlijke documenten. Velden met verschillende waarden in verschillende documenten worden weergegeven als "Meerdere waarden". </td>
+    </tr>
+    </table>
+1. Klik **sparen**.
 
 ## Documenten in bulk bewerken in een documentrapport
 
 1. Navigeer naar een bestaand documentrapport.
 of
-Creeer een documentrapport zoals die in [&#x200B; wordt beschreven een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Creeer een documentrapport zoals die in [ wordt beschreven een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
-   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 

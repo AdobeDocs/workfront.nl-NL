@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
+source-git-commit: c5f726ec70b2caa7366ba5af7dac446554d2fa6b
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Als u ten minste één merk hebt ingesteld in Workfront, kunt u meerdere AI-revi
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in Workfront instellen. Voor meer informatie, zie [&#x200B; opstellingsmerken voor de AI Reviewer &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in Workfront instellen. Voor meer informatie, zie [ opstellingsmerken voor de AI Reviewer ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Een AI-revisor toevoegen
 
@@ -75,5 +75,5 @@ Een AI Reviewer toevoegen:
 
    Zie voor meer informatie
 
-   * [Een goedkeuringssjabloon maken voor elementen en documenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-   * [Een documentrevisie of goedkeuringsaanvraag maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+   * [Een sjabloon voor een goedkeuringswerkstroom maken voor documenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+   * [Een workflow voor documentgoedkeuring maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)

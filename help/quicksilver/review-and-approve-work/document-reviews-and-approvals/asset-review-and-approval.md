@@ -6,9 +6,9 @@ description: Overzicht van de systemen die beschikbaar zijn voor controle en goe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Belangrijke functies beschikbaar voor goedkeuringen van oudere documenten:
 * Goedkeuringsrapporten maken met oudere rapporten
 * Toegang tot goedkeuringsaanvragen in de widget Mijn goedkeuringen in het gebied Home
 
-Voor meer informatie, zie [&#x200B; Goedkeuringen van het document van de Oudheid &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
+Voor meer informatie, zie [ Goedkeuringen van het document van de Oudheid ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
 ## Verenigde Goedkeuringen
 
 De verenigde goedkeuringen zijn een herontwerp van het systeem van erfenisgoedkeuringen. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen.
 
-Voor meer gedetailleerde informatie over Verenigde Goedkeuringen, zie [&#x200B; Verenigd Overzicht van Goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Voor meer gedetailleerde informatie over Verenigde Goedkeuringen, zie [ Verenigd Overzicht van Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 De belangrijkste eigenschappen beschikbaar voor Verenigde Goedkeuringen:
 
@@ -51,23 +51,25 @@ De belangrijkste eigenschappen beschikbaar voor Verenigde Goedkeuringen:
 * Sjablonen maken en gebruiken
 
 * Reviseren, opmerkingen plaatsen en beslissingen maken in de proefdrukviewer
-Voor meer informatie over het gebruiken van de het proeven kijker, zie [&#x200B; Verenigde Goedkeuringen van het Gebruik en het proef samen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Voor meer informatie over het gebruiken van de het proeven kijker, zie [ Verenigde Goedkeuringen van het Gebruik en het proef samen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
 
 * De Dashboards van het Canvas van het gebruik, momenteel in bèta, om rapportdetails over Verenigde Goedkeuringen te bekijken
-Voor meer informatie bij het melden, zie [&#x200B; een rapportdashboard voor overzicht en goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
+Voor meer informatie bij het melden, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
-* Creeer veelvoudige stadium goedkeuringen [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+* Meerdere werkgebiedgoedkeuringen maken
 
 * De de overzicht en goedkeuringsverzoeken van de toegang in Mijn widget goedkeuringen in het gebied van het Huis
 
-* Gebruik de AI Reviewer om beoordelingen van de naleving van de merk te automatiseren. Voor meer informatie, zie [&#x200B; begonnen worden met de Reviewer van Workfront AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* Met de integratie Frame.io kunt u documenten controleren en goedkeuren. Voor meer informatie, zie [ begonnen worden met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+* Gebruik de AI Reviewer om beoordelingen van de naleving van de merk te automatiseren. Voor meer informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Goedkeuringen van proefdrukken
 
-Met goedkeuringen van proefdrukken kunt u standaard en geautomatiseerde workflows gebruiken voor het beheren van complexe revisies en het goedkeuren van processen. Voor meer informatie over het proef, zie [&#x200B; het Bewijzen &#x200B;](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Met goedkeuringen van proefdrukken kunt u standaard en geautomatiseerde workflows gebruiken voor het beheren van complexe revisies en het goedkeuren van processen. Voor meer informatie over het proef, zie [ het Bewijzen ](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
 Beschikbare functies voor proefdrukken:
 
@@ -88,7 +90,3 @@ Beschikbare functies voor proefdrukken:
 * Standaard of geautomatiseerde workflows gebruiken
 
 * Toegang tot goedkeuringsaanvragen in de widget Mijn goedkeuringen in het gebied Home
-
-<!--
-## Upcoming deprecations
--->

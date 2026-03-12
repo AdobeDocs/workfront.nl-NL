@@ -6,9 +6,9 @@ description: Wanneer Adobe Workfront voor het eerst een document uploadt van een
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,14 @@ ht-degree: 0%
 
 Wanneer Adobe Workfront voor het eerst een document uploadt van een willekeurige service, vraagt het de gebruiker om toestemming om toegang te krijgen tot de documentservice. Wanneer de gebruiker zijn aanmeldingsgegevens van de documentservice doorgeeft, wordt de documentservice gekoppeld aan Workfront.
 
-Voor informatie over het verbinden van externe documentdiensten aan Workfront, zie [&#x200B; het Verbinden van Documenten van Externe Toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie over het verbinden van externe documentdiensten aan Workfront, zie [ het Verbinden van Documenten van Externe Toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Aangezien de documentservice de service is die toestemming verleent om een koppeling naar Workfront te maken, is het voor Workfront niet mogelijk om de machtigingen die door de documentservice zijn verleend, te verwijderen. U moet de toestemming uit binnen de toepassing van de documentdienst verwijderen of u moet ons Team van de Steun roepen om deze verbinding uit onze servers te verwijderen.
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -46,7 +51,7 @@ Aangezien de documentservice de service is die toestemming verleent om een koppe
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,4 +83,4 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U moet ons ondersteuningsteam bellen om Microsoft One Drive of WebDAM van Workfront los te koppelen.
 
-Voor informatie over het contacteren van ons Team van de Steun, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Voor informatie over het contacteren van ons Team van de Steun, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

@@ -7,9 +7,9 @@ description: Op de pagina Documentdetails kunt u de eigenschappen van een docume
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 Op de pagina Documentdetails kunt u de eigenschappen van een document dat is gekoppeld aan een Adobe Workfront-object, weergeven, communiceren en beheren.
 
-## De pagina Documentdetails openen
+## Gebied met verouderde documenten
 
-{{step1-to-documents}}
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-1. Beweeg over het document, dan klik **Details van het Document**.
 
-   ![&#x200B; de details van het Document &#x200B;](assets/document-details-350x179.png)
 
-## Basishandelingen uitvoeren voor documenten en proefdrukken
+### Basishandelingen uitvoeren voor documenten en proefdrukken
 
 U kunt de volgende handelingen uitvoeren voor zowel documenten als proefdrukken op de pagina Documentdetails:
 
@@ -37,7 +35,7 @@ U kunt de volgende handelingen uitvoeren voor zowel documenten als proefdrukken 
 * De documentbeschrijving bewerken
 * Een document inchecken of uitchecken
 
-Bovendien kunt u het Meer pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
+Bovendien kunt u het Meer pictogram ![ Meer menu ](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
 
 * Delen
 * Verplaatsen
@@ -45,9 +43,9 @@ Bovendien kunt u het Meer pictogram ![&#x200B; Meer menu &#x200B;](assets/more-i
 * Downloaden
 * Verzenden
 
-## Handelingen uitvoeren die specifiek zijn voor proefdrukken
+### Handelingen uitvoeren die specifiek zijn voor proefdrukken
 
-U kunt de volgende handelingen uitvoeren vanaf de pagina met documentdetails als u dat doet in de proefdrukworkflow:
+U kunt de volgende acties uitvoeren vanaf de pagina met documentdetails als u zich in de proefdrukwerkstroom bevindt:
 
 * Verzonden, Openen, Opmerking, Besluit (SOCD) details bekijken
 * Een proefdruk openen
@@ -55,4 +53,50 @@ U kunt de volgende handelingen uitvoeren vanaf de pagina met documentdetails als
 * Een proefdruk vergrendelen of ontgrendelen
 * Aangepaste proefdrukvelden bewerken
 
-  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [&#x200B; douanegebieden in Workfront Proof &#x200B;](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
+  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [ douanegebieden in Workfront Proof ](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
+
+![ de details van het Document ](assets/doc-details-full-legacy.png)
+
+### De pagina Documentdetails openen in het gebied met oudere documenten
+
+{{step1-to-documents}}
+
+1. Beweeg over het document, dan klik **Details van het Document**.
+
+   ![ de details van het Document ](assets/doc-details-legacy.png)
+
+
+## Nieuw documentgebied
+
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+U kunt de volgende handelingen voor documenten uitvoeren vanaf de pagina Documentdetails:
+
+<table style="border: none; width: 80%; margin: 0 auto;">
+<tr style="border: none;">
+<td style="border: none; width: 50%; padding-right: 20px;">
+<ul>
+<li>Openen in Frame.io. <br> u moet een Frame.io ondernemingsvergunning hebben om deze eigenschap te gebruiken.</li>
+<li>Een document verwijderen</li>
+<li>Een document bewerken</li>
+</ul>
+</td>
+<td style="border: none; width: 50%; padding-left: 20px;">
+<ul>
+<li>Een document verplaatsen</li>
+<li>Een document verzenden naar Experience Manager Access</li>
+<li>Een document delen</li>
+</ul>
+</td>
+</tr>
+</table>
+
+![ de details van het Document meer menupictogram ](assets/more-menu-new-doc.png)
+
+
+### Open het deelvenster Documentdetails in het nieuwe documentgebied
+
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten** in het linkerpaneel.
+1. Selecteer het document, dan klik **Details van de Mening**.
+
+   ![ de details van het Document ](assets/doc-details.png)

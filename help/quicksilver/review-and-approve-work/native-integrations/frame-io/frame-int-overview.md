@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ De belangrijkste voordelen van Adobe Enterprise Storage zijn:
 * De zichtbaarheid van end-to-end elementen in Workfront en Frame.io <!--, and Creative Cloud apps -->
 * Schaalbare opslag en quotabeheer voor bedrijfsbehoeften
 
-Voor meer details, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer details, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Geïntegreerde revisie en goedkeuring
 
@@ -53,7 +53,7 @@ De integratie van Workfront en Frame.io maakt gebruik van de uniforme goedkeurin
 * AI Reviewers gebruiken om beoordelingen van naleving van merk te automatiseren
 * en meer
 
-Voor meer informatie, zie [&#x200B; Verenigde documentgoedkeuringen: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Voor meer informatie, zie [ Verenigde documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### De viewer Frame.io gebruiken
@@ -65,7 +65,7 @@ De integratie verbindt ook met de kijker Frame.io. De viewer Frame.io biedt
 * Opmerkingen met tijdstempel voor videorevisies
 * Mobiele toegang voor revisies en goedkeuringen onderweg
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Voor meer informatie, zie [ begonnen worden met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Limieten voor videorevisie
 
@@ -77,7 +77,7 @@ Deze limiet geldt niet voor Enterprise-klanten van Frame.io.
 
 #### Ondersteunde bestandstypen in de viewer Frame.io
 
-De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [&#x200B; Gesteunde Types van Dossier op Frame.io &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [ Gesteunde Types van Dossier op Frame.io ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Toegang tot en licenties voor de Frame.io-viewer
 
@@ -91,14 +91,14 @@ Workfront Proofing-functionaliteit is niet beschikbaar bij deze integratie.
 
 Met de integratie van Workfront en Frame.io kunnen projectcoördinatoren Workfront gebruiken om krachtige projectbeheermogelijkheden te plannen, te volgen en te beheren.
 
-Voor meer informatie over het beheren van projecten in Workfront, zie [&#x200B; Projecten: artikelindex &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Voor meer informatie over het beheren van projecten in Workfront, zie [ Projecten: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Gedwongen conventies voor structuur en naamgeving
 
-Omdat deze integratie is opgebouwd met behulp van Adobe Enterprise Storage, zijn er bepaalde gedwongen structuren en naamgevingsconventies die u bekend moeten maken bij het beheren van projecten en documenten.
+Omdat deze integratie wordt gebouwd gebruikend de ondernemingsopslag van Adobe, zijn er sommige gedwongen structuur en noemende overeenkomsten om zich van bewust te zijn wanneer het beheren van projecten en documenten.
 
 * Objectnamen moeten uniek zijn en kunnen niet worden gedupliceerd
-* Adobe Enterprise Storage vereist unieke namen voor peer-objecten met hetzelfde bovenliggende item in de hiërarchiestructuur
+* Adobe Enterprise Storage vereist unieke namen voor peer-objecten met hetzelfde bovenliggende element in de hiërarchiestructuur
 * Documenten kunnen niet dezelfde naam hebben als ze tot hetzelfde project behoren
 * Namen van documenten mogen de volgende speciale tekens niet bevatten: \ / : * ? &quot; | &lt; >
 * Documentnamen mogen maximaal 255 tekens bevatten
@@ -134,9 +134,7 @@ In de volgende tabel wordt aangegeven hoe Workfront-machtigingen worden toegewez
 
 ### Documentbeheer in Workfront
 
-Documenten worden op projectniveau met deze integratie beheerd en kunnen op dit moment niet worden geüpload naar taken of problemen.
-
-Documenttoegang wordt ook op projectniveau beheerd. Als een gebruiker toegang tot een project heeft, kunnen zij tot alle documenten toegang hebben verbonden aan dat project.
+Documenten die naar Workfront worden geüpload, worden opgeslagen in Adobe Enterprise Storage en zijn toegankelijk in zowel Workfront als Frame.io. Wanneer u een document uploadt naar een taak of uitgave in Workfront, wordt een door het systeem gegenereerde map gemaakt in Adobe Enterprise storage die de machtigingen van de taak of uitgave overneemt. Alle documenten die naar die taak of uitgave zijn geüpload, worden in die map opgeslagen en nemen er rechten van over. Voor meer informatie over documenten in Workfront, zie [ het nieuwe overzicht van het documentengebied ](/help/quicksilver/documents/managing-documents/documents-area.md) en [ de toestemmingen van Objecten en het overzicht van het toegangsniveau voor het model van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Beperkingen voor ervaring met documenten
 
@@ -151,13 +149,3 @@ De volgende mogelijkheden worden niet opgenomen in deze integratie:
 * Documentviewer in Workfront
 * Favoriete documenten
 * Documenten aanvragen
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->
