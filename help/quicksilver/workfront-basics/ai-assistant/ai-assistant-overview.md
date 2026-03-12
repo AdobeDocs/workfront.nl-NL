@@ -5,9 +5,9 @@ description: Meer informatie over AI-assistent in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Met Workfront AI Assistant kunt u uw werk uitvoeren door informatie en suggestie
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,18 +52,18 @@ Om AI Medewerker voor uw organisatie toe te laten, **allen** van het volgende mo
 * Uw organisatie moet een Select-, Prime- of Ultimate Workfront-abonnement hebben
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst hebben in het bestand
 
-  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in dit artikel ondertekenen.
+  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in dit artikel ondertekenen.
 
 ## Overwegingen over AI Assistant
 
 * AI Assistant is contextgevoelig voor de pagina die u hebt geopend. Als u bijvoorbeeld &quot;Dit project samenvatten&quot; opgeeft in AI Assistant op een projectpagina, wordt een overzicht van dat specifieke project geretourneerd.
 * De Workfront-beheerder moet AI Assistant inschakelen voor gebruikers in uw organisatie. De Medewerker van AI wordt toegelaten door toegangsniveaus.
 
-  Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 * Workfront Planning AI Assistant heeft andere functies dan Workfront AI Assistant.
 
-  Voor meer informatie over AI Medewerker in de Planning van Workfront, zie [&#x200B; de Planning AI van Adobe Workfront Hulpoverzicht &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+  Voor meer informatie over AI Medewerker in de Planning van Workfront, zie [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 * AI Assistant is momenteel alleen beschikbaar in het Engels.
 
@@ -74,15 +74,15 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
 * Samenvattend projecten, taken, kwesties, of documenten.
 
-  Voor meer informatie, zie [&#x200B; samenvatten gebruikend AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+  Voor meer informatie, zie [ samenvatten gebruikend AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 * Instructies of referentiemateriaal uit de documentatie van Workfront op Adobe Experience League.
 
-  Voor meer informatie, zie [&#x200B; hulp van AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md) krijgen.
+  Voor meer informatie, zie [ hulp van AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md) krijgen.
 
 * Specifieke items zoeken in Workfront.
 
-  Voor meer informatie, zie [&#x200B; Medewerker van het Gebruik AI om met projecten, taken, en kwesties &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
+  Voor meer informatie, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
 
 * Formules genereren of verfijnen voor berekende aangepaste velden.
 
@@ -90,11 +90,11 @@ AI Assistant biedt momenteel de volgende functionaliteit:
   >
   >Deze functionaliteit is alleen beschikbaar voor organisaties op de Prime- of Ultimate Workfront-plannen.
 
-  Voor meer informatie, zie [&#x200B; berekende gebiedsformules met AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) produceren of herzien.
+  Voor meer informatie, zie [ berekende gebiedsformules met AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) produceren of herzien.
 
 * Het samenvatten van updates, geüploade documenten, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen: 24 uren, 3 dagen, 7 dagen in Prioriteiten.
 
-Voor meer informatie, zie [&#x200B; Vangst op het werk in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 
 ## Objecttypen beschikbaar voor AI Assistant
@@ -113,7 +113,7 @@ De AI-assistent kan query&#39;s uitvoeren op gegevens die zijn gekoppeld aan de 
 
 ## AI-assistent openen
 
-1. Bij de bovenkant van om het even welke pagina van Workfront, klik het AI Hulppictogram ![&#x200B; AI Hulppictogram &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Bij de bovenkant van om het even welke pagina van Workfront, klik het AI Hulppictogram ![ AI Hulppictogram ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Typ uw vraag of vraag in het paneel rechts van het scherm.
 
    Als u niet in dit deelvenster kunt typen, heeft uw organisatie geen ondertekende Adobe Gen AI-overeenkomst in het bestand.
@@ -131,7 +131,7 @@ Als een gebruiker probeert om AI Assistant te gebruiken terwijl de Adobe Gen AI-
 
 De Adobe Gen AI-overeenkomst aanvragen:
 
-1. Als Beheerder van Workfront, klik het AI Hulppictogram ![&#x200B; AI Hulppictogram &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Als Beheerder van Workfront, klik het AI Hulppictogram ![ AI Hulppictogram ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Typ tekst in het deelvenster AI Assistant.
 1. Wanneer het de overeenkomstenbericht van Adobe Gen AI verschijnt, klik **overeenkomst van het Overzicht**.
 1. Voer de naam en het e-mailadres in van de persoon in uw organisatie die de Adobe Gen AI-overeenkomst zal ondertekenen.
@@ -140,7 +140,8 @@ De Adobe Gen AI-overeenkomst aanvragen:
 
    >[!NOTE]
    >
-   >Sta 1 tot 3 werkdagen na ondertekening en retournering van de overeenkomst voor Adobe toe om AI Assistant te beoordelen en in te schakelen.
+   >* Sta 1 tot 3 werkdagen na ondertekening en retournering van de overeenkomst voor Adobe toe om AI Assistant te beoordelen en in te schakelen.
+   >* If you do not see AI Assistant options available in your organization&#39;s instance after it has been enabled, contact Workfront customer support.
 
 ## Tips voor het maken van herinneringen in AI Assistant
 
