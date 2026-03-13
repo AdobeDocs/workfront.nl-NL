@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,23 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release Tweede kwartaal 2026 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Nieuwe verificatieopties voor gegevensverbinding
+
+>[!NOTE]
+>
+>Voorbeeld: 12 maart 2026
+>Snelle productie: 12 maart 2026
+>Productie voor iedereen: 16 april 2026
+
+U kunt nu verifiëren aan Gegevens verbinden gebruikend sleutels RSA of de verbindingen van de Tokens van de Toegang van de Programmatische (KLOPJE), toevoegend veiligere en flexibele alternatieven aan traditionele gebruikersbenaming/wachtwoordgeloofsbrieven.
+
+Met deze nieuwe opties kunnen organisaties stabiele verbindingen onderhouden vanuit Power BI, Tableau en andere BI-tools van derden zonder te vertrouwen op gebruikersgebaseerde aanmeldingsmethoden.
+
+>[!IMPORTANT]
+>
+>In juni 2026 zijn gebruikersgegevens/wachtwoordgegevens vereist voor het gebruik van meervoudige verificatie (MFA). Wij adviseren overschakeling aan of RSA of op PAT-Gebaseerde authentificatie voor de rekeningen van de de dienstgebruiker die worden gebruikt om gegevens van Gegevens te laden verbindt in derdevisualiseringshulpmiddelen, gegevensverwerkers, en manuscripten die niet met MFA in het authentificatieproces zullen werken.
 
 ## Aangepaste veldlabels die worden weergegeven bij het samenstellen van rapporten
 
@@ -30,7 +46,7 @@ Het label van het aangepaste veld wordt nu vóór de veldnaam en het object weer
 
 Het label van het aangepaste veld is bedoeld voor de systeeminterface, terwijl de veldnaam vaak wordt gebruikt voor de API- en back-endopslagdoeleinden en wellicht niet zo nuttig is bij het zoeken naar een veld.
 
-Voor meer informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Aandeelbare rapportmappen
 
@@ -47,10 +63,10 @@ U kunt rapporten nu organiseren en delen met behulp van deelbare rapportmappen. 
    * Weergeven: gebruikers kunnen rapporten openen en mappen delen
    * Beheer: gebruikers kunnen mapgegevens bewerken, items toevoegen/verwijderen en automatisch beheertoegang tot alle rapporten in de map ontvangen
 * **Geërfte toestemmingen**: De toestemmingen trapsgewijs van ouderomslagen aan alle subfolders en rapporten binnen de omslagboom
-* **Verbeterde lijstervaring**: Wanneer u sharable omslagen toelaat, zult u toegang tot de verbeterde lijstervaring hebben. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **Verbeterde lijstervaring**: Wanneer u sharable omslagen toelaat, zult u toegang tot de verbeterde lijstervaring hebben. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-Voor meer informatie, zie [&#x200B; Gebruik shareable rapportomslagen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
+Voor meer informatie, zie [ Gebruik shareable rapportomslagen ](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
 ## Verbeterde datumlabels voor grafiekgroepen in canvasdashboards
 
