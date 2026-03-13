@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 2%
+source-wordcount: '1505'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (26.4 dit kwartaal), gebruikers op het snelle versieschema één dag vroeg (15 april 2026) de versie zullen ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -62,7 +62,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> de Kwarten van de Douane die van de Voorkeur van het Project worden verwijderd </a><p>BWe heeft het gebied van het Kwartaal van de Douane van de sectie van de Voorkeur van het Project verplaatst. Het is nu een standalone sectie in Opstelling.</p>
         </td>
-        <td><p>donderdag 5 maart 2025</p></td>
+        <td><p>vrijdag 5 maart 2026</p></td>
         <td><p>donderdag 15 april 2026</p></td>
         <td><p>vrijdag 16 april 2026</p></td>
     </tr>
@@ -70,7 +70,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Vouw de sectie van de douanevorm door gebrek samen </a><p>Standaard worden alle secties in een aangepast formulier uitgebreid wanneer het formulier zelf wordt uitgevouwen. Met een nieuwe optie in de aangepaste formulierontwerper kunt u een sectie markeren die standaard moet worden samengevouwen wanneer een gebruiker het formulier opent. Deze optie wordt toegepast op sectieniveau, niet op velden.</p>
         </td>
-        <td><p>donderdag 26 februari 2025</p></td>
+        <td><p>vrijdag 26 februari 2026</p></td>
         <td><p>vrijdag 12 maart 2026</p></td>
         <td><p>vrijdag 16 april 2026</p></td>
     </tr>
@@ -112,42 +112,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
-<!--
-
-### Document enhancements
+### Documentverbeteringen
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
                <tr>
-        <td><strong>Feature</strong>
+        <td><strong> Eigenschap </strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
-            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}"> Verenigde Overzicht &amp; Goedkeuring aangedreven door Workfront en Frame.io </a><p></p>
+            <p>Wij zijn opgetogen om Verenigde Overzicht &amp; Goedkeuring toe te voegen aangedreven door Workfront en Frame.io, een gestroomlijnde overzicht en goedkeuringservaring die planning, proef, en samenwerking in één enkele, verbonden werkschema samenbrengt.
+ </p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>vrijdag 12 maart 2026</p></td>
+        <td><p>donderdag 15 april 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
-            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}"> Multi-stage goedkeuringswerkschema's beschikbaar voor verenigde goedkeuringen </a><p></p>
+            <p>De werkschema's van de meerfasengoedkeuring zijn nu beschikbaar in verenigde goedkeuringen, die organisaties helpen gestructureerde, herhaalbare goedkeuringsprocessen afdwingen die weerspiegelen hoe het werk in de echte wereld wordt herzien. </p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>vrijdag 12 maart 2026</p></td>
+        <td><p>donderdag 15 april 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}"> opstelling en gebruik multi-stage de malplaatjes van het goedkeuringswerkschema </a><p></p>
+            <p>U kunt nu sjablonen voor de goedkeuringsworkflow in meerdere fasen configureren en opnieuw gebruiken, waardoor het eenvoudiger wordt om consistent beheer toe te passen in herhaalbare goedkeuringswerkstromen. </p>
+        </td>
+        <td><p>vrijdag 12 maart 2026</p></td>
+        <td><p>donderdag 15 april 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
     </tr>
              </tbody>
-        </table>   
+        </table>
 
--->
 
 ### Projectverbeteringen
 
@@ -192,12 +199,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Voorvertoning</strong></td>
         <td><strong>Snelle release</strong></td>
         <td><strong>Driemaandelijks</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}"> Nieuwe Opties van de Authentificatie voor Gegevens verbinden </a><p></p>
+            <p>U kunt nu verifiëren aan Gegevens verbinden gebruikend sleutels RSA of de verbindingen van de Tokens van de Toegang van de Programmatische (KLOPJE), toevoegend veiligere en flexibele alternatieven aan traditionele gebruikersbenaming/wachtwoordgeloofsbrieven. </p>
+        </td>
+        <td><p>vrijdag 12 maart 2026</p></td>
+        <td><p>vrijdag 12 maart 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}"> de gebiedslabels van de Douane getoond wanneer het bouwen van rapporten </a><p></p>
             <p>Het label van het aangepaste veld wordt nu vóór de veldnaam en het object weergegeven in de gereedschappen voor het samenstellen van rapporten, zodat u gemakkelijker velden kunt vinden. Veldlabels worden ook weergegeven wanneer u filters, weergaven en groepen in lijsten definieert.</p>
         </td>
-        <td><p>donderdag 26 februari 2025</p></td>
+        <td><p>vrijdag 26 februari 2026</p></td>
         <td><p>vrijdag 12 maart 2026</p></td>
         <td><p>vrijdag 16 april 2026</p></td>
     </tr>
@@ -206,7 +223,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}"> Aandeelbare Mappen van het Rapport </a><p></p>
             <p>U kunt rapporten nu organiseren en delen met behulp van deelbare rapportmappen. Deze nieuwe eigenschap helpt teams die grote volumes van rapporten beheren scalable en verenigbare toegangsbeheer handhaven.</p>
         </td>
-        <td><p>donderdag 26 februari 2025</p></td>
+        <td><p>vrijdag 26 februari 2026</p></td>
         <td><p>vrijdag 12 maart 2026</p></td>
         <td><p>vrijdag 16 april 2026</p></td>
     </tr>
@@ -215,7 +232,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}"> Verbeterde Etiketten van de Datum voor de Groepen van de Grafiek in de Dashboards van het Canvas </a><p></p>
             <p>Grafieken die gegevens op datum groeperen tonen nu duidelijkere, beter leesbare datumetiketten. Met deze update worden datumlabels dynamisch aangepast op basis van de geselecteerde groep per optie, zoals dag, week, maand of jaar. Hierdoor worden grafieken in één oogopslag beter leesbaar en geïnterpreteerd.</p><p>Opmerking: Canvasdashboards worden momenteel in bèta weergegeven.</p>
         </td>
-        <td><p>donderdag 26 februari 2025</p></td>
+        <td><p>vrijdag 26 februari 2026</p></td>
         <td><p>vrijdag 12 maart 2026</p></td>
         <td><p>vrijdag 16 april 2026</p></td>
     </tr>
@@ -239,7 +256,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}"> Bijgewerkte het delen ervaring voor verbeterde meningen </a><p></p>
             <p>Wanneer u in het gebied Nieuwe verzoeken een verbeterde weergave deelt met een gebruiker en deze weergavemachtigingen geeft, kan de gebruiker de weergave-elementen wijzigen. Deze wijzigingen worden opgeslagen in de persoonlijke voorkeuren van de gebruiker. Ze hebben nu de optie om een kopie van de weergave met de wijzigingen op te slaan of om de gedeelde weergave opnieuw in te stellen op de oorspronkelijke instellingen. Ze kunnen de gekopieerde weergave verder delen met anderen. </p>
         </td>
-           <td><p>donderdag 26 februari 2025</p></td>
+           <td><p>vrijdag 26 februari 2026</p></td>
         <td><p>vrijdag 12 maart 2026</p></td>
         <td><p>vrijdag 16 april 2026</p></td>
  </tr>
@@ -285,11 +302,11 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Tweede Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Tweede Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
 
@@ -313,7 +330,7 @@ Deze update geldt voor zowel Mac als Windows.
 
 ### De Workfront Planning-proefversie is nu beschikbaar
 
-[!BADGE &#x200B; Van programma &#x200B;]{type=Neutral}
+[!BADGE  Van programma ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -333,7 +350,7 @@ Het gratis Workfront-planningsonderzoek biedt het volgende:
 * Duidelijke aanwijzing van mijlpalen tijdens uw opstelling die voor specifieke rollen worden gemaakt.
 * De Planning Designer - een AI aangedreven medewerker die u kan helpen het milieu bouwen u wilt
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de vrije proef van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/trial-workfront-planning.md).
+Voor meer informatie, zie [ begonnen worden met de vrije proef van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 ### API-versie 21
 
@@ -345,9 +362,9 @@ Workfront API versie 21 is uitgebracht op 23 oktober 2025. Voor API versie 21 he
 >
 > Voor velden met meerdere selecties verzendt versie 2 van Event-abonnementen altijd als een array. Versie 1 heeft een array verzonden als er meer dan één waarde is geselecteerd. Als er slechts één waarde is geselecteerd, wordt een tekenreeks verzonden.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 21 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Andere Workfront-integratieovergangen
 
@@ -358,13 +375,13 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2026 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
