@@ -1,13 +1,13 @@
 ---
 title: De montages van een Team van het Gebied van de Opstelling uitgeven
 description: Als beheerder van Adobe Workfront, kunt u de montages van een team van het gebied van de Opstelling uitgeven. U kunt gebruikers aan een team toevoegen, het lay-outmalplaatje van een team plaatsen, en plaatsen hoe de status wordt geregistreerd wanneer de het werkpunten door een team worden voltooid.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Als beheerder van Adobe Workfront, kunt u de montages van een team van het gebied van de Opstelling uitgeven. U kunt gebruikers aan een team toevoegen, het lay-outmalplaatje van een team plaatsen, en plaatsen hoe de status wordt geregistreerd wanneer de het werkpunten door een team worden voltooid.
 
-Voor informatie over teams, zie [&#x200B; Overzicht van Teams &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+Voor informatie over teams, zie [ Overzicht van Teams ](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
->* Een groepsbeheerder kan de instellingen van een team bewerken voor een groep die hij of zij beheert. Voor meer informatie, zie [&#x200B; de teams van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
->* Een gebruiker met een Standard- of Plan-licentie kan de instellingen van een team bewerken in het gedeelte Teams. Voor meer informatie, zie [&#x200B; teammontages &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) uitgeven.
+>* Een groepsbeheerder kan de instellingen van een team bewerken voor een groep die hij of zij beheert. Voor meer informatie, zie [ de teams van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
+>* Een gebruiker met een Standard- of Plan-licentie kan de instellingen van een team bewerken in het gedeelte Teams. Voor meer informatie, zie [ teammontages ](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -40,9 +40,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -52,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 {{step-1-to-setup}}
 
 1. Klik **Teams** in het linkerpaneel.
-1. Selecteer een team, dan klik **uitgeven** ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeeft.
+1. Selecteer een team, dan klik **uitgeven** ![ pictogram ](assets/edit-icon.png) uitgeeft.
 
 1. Breng een van de volgende wijzigingen aan:
 
