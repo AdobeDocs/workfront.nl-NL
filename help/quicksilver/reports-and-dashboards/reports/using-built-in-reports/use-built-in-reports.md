@@ -23,4 +23,4 @@ Deze sectie bevat de volgende artikelen:
 * [&#x200B; Ingebouwde pictogrammen van de Status in Meningen &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [&#x200B; de ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [&#x200B; Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [&#x200B; Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
