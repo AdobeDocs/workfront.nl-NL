@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ het overzicht van de de burndown grafiek van de Gelijkheid ](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-* [ overzicht van de de voltooiingsstatus van de herhaling ](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-* [ resize en doen ineenstorten de burndown grafiek ](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-* [ synchroniseer gegevens in de burndown grafiek ](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+* [&#x200B; het overzicht van de de burndown grafiek van de Gelijkheid &#x200B;](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+* [&#x200B; overzicht van de de voltooiingsstatus van de herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+* [&#x200B; resize en doen ineenstorten de burndown grafiek &#x200B;](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+* [&#x200B; synchroniseer gegevens in de burndown grafiek &#x200B;](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [Een alternatief teamschema gebruiken voor burndown-grafieken](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

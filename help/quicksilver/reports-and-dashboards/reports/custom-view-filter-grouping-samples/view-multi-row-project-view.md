@@ -21,13 +21,13 @@ ht-degree: 0%
 In deze projectweergave kunt u:
 
 * Projectinformatie weergeven in een indeling met meerdere rijen.\
-  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
+  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [&#x200B; Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 
 * Gebruik een kolom van de plaatshouder die een markering van de de regelonderbreking van HTML (`<br>`) bevat om de Beschrijving te dwingen om onder de projectnaam, bijvoorbeeld te tonen.
 * Geef de eigenaar van het project tussen haakjes weer achter de projectnaam.
 * Toon de Naam van het Project als verbinding aan het project.
 
-![ rij van het Project met gestapelde mening ](assets/project-multi-row-stacked-view-350x219.png)
+![&#x200B; rij van het Project met gestapelde mening &#x200B;](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ In deze projectweergave kunt u:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 This page describes all document management enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2025 release.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Edit multiple documents at once
 

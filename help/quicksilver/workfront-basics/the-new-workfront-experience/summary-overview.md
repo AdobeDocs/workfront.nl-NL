@@ -99,19 +99,19 @@ In de volgende tabel worden de gebieden weergegeven waar u het deelvenster [!UIC
 
 In dit artikel wordt beschreven hoe u het deelvenster [!UICONTROL Summary] kunt openen en gebruiken voor taken en problemen in lijsten.
 
-Voor informatie over de toegang tot van [!UICONTROL Summary] in [!UICONTROL Workload Balancer], zie [ werk punten in [!UICONTROL Workload Balancer] bijwerken gebruikend [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Voor informatie over de toegang tot van [!UICONTROL Summary] in [!UICONTROL Workload Balancer], zie [&#x200B; werk punten in [!UICONTROL Workload Balancer] bijwerken gebruikend [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Voor informatie over de toegang tot van [!UICONTROL Summary] voor documenten, zie [[!UICONTROL Summary] voor documentoverzicht ](../../documents/managing-documents/summary-for-documents.md).
+Voor informatie over de toegang tot van [!UICONTROL Summary] voor documenten, zie [[!UICONTROL Summary] voor documentoverzicht &#x200B;](../../documents/managing-documents/summary-for-documents.md).
 
 
 ## Het deelvenster [!UICONTROL Summary] weergeven in een lijst met taken of problemen
 
 1. Ga naar een taak of kwestie en selecteer een punt in de lijst.
-1. Klik het **[!UICONTROL Summary]** pictogram ![ Samenvatting in nieuwe toolbar ](assets/qs-summary-in-new-toolbar-small.png)
+1. Klik het **[!UICONTROL Summary]** pictogram ![&#x200B; Samenvatting in nieuwe toolbar &#x200B;](assets/qs-summary-in-new-toolbar-small.png)
 
    of
 
-   Klik het **[!UICONTROL Open Summary]** pictogram ![ Open Samenvatting met tekst ](assets/open-summary-with-text-nwe.png) in de [!UICONTROL Submitted] sectie van het [!UICONTROL Requests] gebied.
+   Klik het **[!UICONTROL Open Summary]** pictogram ![&#x200B; Open Samenvatting met tekst &#x200B;](assets/open-summary-with-text-nwe.png) in de [!UICONTROL Submitted] sectie van het [!UICONTROL Requests] gebied.
 
    Nadat u het Overzicht opent, blijft het open aangezien u klikt of andere taken of kwesties selecteert en blijft open tot u het manueel sluit.
 
@@ -119,17 +119,17 @@ Voor informatie over de toegang tot van [!UICONTROL Summary] voor documenten, zi
    >
    >U kunt slechts één taak of één uitgave tegelijk selecteren om hun details in het deelvenster [!UICONTROL Summary] weer te geven.
 
-   ![ Samenvattings paneel ](assets/summary-panel-for-task-new-comments.png)
+   ![&#x200B; Samenvattings paneel &#x200B;](assets/summary-panel-for-task-new-comments.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit om het deelvenster [!UICONTROL Summary] te sluiten:
 
-   * In een taak of een lijst van de kwestie, klik het **[!UICONTROL Open Summary]** pictogram van het pictogram ![ Summiere paneel ](assets/summary-panel-icon.png)
+   * In een taak of een lijst van de kwestie, klik het **[!UICONTROL Open Summary]** pictogram van het pictogram ![&#x200B; Summiere paneel &#x200B;](assets/summary-panel-icon.png)
 
      of
 
      Klik het **X** pictogram in de hoger-juiste hoek van het [!UICONTROL Summary] paneel.
 
-   * In de [!UICONTROL Submitted] sectie van het [!UICONTROL Requests] gebied, klik het **[!UICONTROL Close Summary]** pictogram ![ Dichte Samenvatting met tekst ](assets/close-summary-with-text-nwe.png)
+   * In de [!UICONTROL Submitted] sectie van het [!UICONTROL Requests] gebied, klik het **[!UICONTROL Close Summary]** pictogram ![&#x200B; Dichte Samenvatting met tekst &#x200B;](assets/close-summary-with-text-nwe.png)
 
      of
 
@@ -141,19 +141,19 @@ Gebruik de blauw voortgangsballon boven aan de [!UICONTROL Summary] om het perce
 
 Wanneer u de bel in het deelvenster Samenvatting sleept en neerzet, wordt de waarde Percentage voltooid in stappen van één punt bijgewerkt. U kunt geen decimaal getal invoeren.
 
-![ Percentage volledig in Samenvattend paneel ](assets/summary-overview-percent-complete.png)
+![&#x200B; Percentage volledig in Samenvattend paneel &#x200B;](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 In de sectie [!UICONTROL Updates] van [!UICONTROL Summary] kunt u recente updates weergeven en updates uitvoeren op de taak of uitgave die u hebt geselecteerd. Klik op **[!UICONTROL See all]** om rechtstreeks naar het tabblad [!UICONTROL Updates] van de taak te gaan.
 
-![ sectie van Updates in Samenvattend paneel ](assets/summary-updates-section.png)
+![&#x200B; sectie van Updates in Samenvattend paneel &#x200B;](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documents]
 
 Gebruik de sectie [!UICONTROL Documents] van de [!UICONTROL Summary] om documenten te bekijken die aan de taak zijn gekoppeld of die u hebt geselecteerd. Klik op de miniatuur om een documentvoorbeeld te openen. Als u rechtstreeks naar het tabblad [!UICONTROL Documents] van de taak of uitgave wilt gaan, klikt u op de titel **[!UICONTROL Documents]** .
 
-![ sectie van Documenten in Samenvattend paneel ](assets/summary-documents-section.png)
+![&#x200B; sectie van Documenten in Samenvattend paneel &#x200B;](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
@@ -161,7 +161,7 @@ In de sectie [!UICONTROL Details] van de [!UICONTROL Summary] kunt u gedetaillee
 
 
 
-![ sectie van Details in Samenvattend paneel ](assets/summary-details-section.png)
+![&#x200B; sectie van Details in Samenvattend paneel &#x200B;](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtasks]
 
@@ -169,7 +169,7 @@ Deze sectie is alleen beschikbaar voor taken. In de sectie [!UICONTROL Subtasks]
 
 Als u geen subtaken aan de taak hebt toegevoegd, klikt u op **[!UICONTROL Add one here]** om rechtstreeks naar het tabblad [!UICONTROL Subtasks] van de taak te gaan.
 
-![ subtasks sectie in Samenvattend paneel ](assets/summary-subtasks-section.png)
+![&#x200B; subtasks sectie in Samenvattend paneel &#x200B;](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Hours]
 
@@ -179,7 +179,7 @@ Het aantal uren in [!UICONTROL Summary] toont de uren u registreert. Andere gebr
 
 Als er geen gepland [!UICONTROL hours] op de taak of de kwestie zijn en u tijd hebt geregistreerd, toont de urenbar rood.
 
-![ sectie van Uren in Samenvattend paneel ](assets/summary-hours-section.png)
+![&#x200B; sectie van Uren in Samenvattend paneel &#x200B;](assets/summary-hours-section.png)
 
 ## Goedkeuringen
 
@@ -187,4 +187,4 @@ Gebruik de sectie [!UICONTROL Approvals] van [!UICONTROL Summary] om goedkeuring
 
 Als u rechtstreeks naar het tabblad [!UICONTROL Approvals] van de taak of uitgave wilt gaan, klikt u op de titel **[!UICONTROL Approvals]** .
 
-![ goedkeurt sectie in Samenvattend paneel ](assets/summary-approvals-section.png)
+![&#x200B; goedkeurt sectie in Samenvattend paneel &#x200B;](assets/summary-approvals-section.png)

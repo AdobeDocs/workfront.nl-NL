@@ -19,7 +19,7 @@ ht-degree: 0%
 
 You can remove an External Page from a dashboard if it&#39;s no longer needed.
 
-U kunt een externe pagina echter niet verwijderen nadat u deze hebt gemaakt in Adobe Workfront. You can delete an external page only using the API. Voor informatie over Workfront API, zie [ API basiscs ](../../../wf-api/general/api-basics.md). For information about creating external pages, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+U kunt een externe pagina echter niet verwijderen nadat u deze hebt gemaakt in Adobe Workfront. You can delete an external page only using the API. Voor informatie over Workfront API, zie [&#x200B; API basiscs &#x200B;](../../../wf-api/general/api-basics.md). For information about creating external pages, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U kunt een externe pagina echter niet verwijderen nadat u deze hebt gemaakt in A
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Acties van het Dashboard**, dan klik **uitgeven**.
 
-   ![ geef dashboard ](assets/unshimmed-edit-dashboard.png) uit
+   ![&#x200B; geef dashboard &#x200B;](assets/unshimmed-edit-dashboard.png) uit
 
 1. On the right side of the screen, locate the external page you want to remove and click the **Delete** icon ![Delete icon](assets/delete.png).
 

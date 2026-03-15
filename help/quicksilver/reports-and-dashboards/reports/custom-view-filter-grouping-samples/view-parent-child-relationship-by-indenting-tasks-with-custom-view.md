@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt het onderscheid tussen bovenliggende en onderliggende relaties in een geÃ«xporteerde takenlijst behouden door een aangepaste weergave toe te voegen aan de takenlijst en ervoor te zorgen dat deze weergave is geselecteerd voordat u de lijst exporteert.
 
-![ de kindinspringing van de Ouder ](assets/parent-child-indented-custom-view-350x94.png)
+![&#x200B; de kindinspringing van de Ouder &#x200B;](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U kunt het onderscheid tussen bovenliggende en onderliggende relaties in een geÃ
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -60,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar het project met de taaklijst u zou willen uitvoeren.
 1. Klik het **drop-down menu van de Mening**, en selecteer **Nieuwe Mening**.
-1. Klik in de **kolomkopbal 0} Naam van de Taak {.**
+1. Klik in de **kolomkopbal 0&rbrace; Naam van de Taak &lbrace;.**
 1. Selecteer **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek.
 1. Klik **uitgeven de Wijze van de Tekst** en verwijder al bestaande tekst.
 1. Plak de volgende tekst:

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Het doel van een team in [!DNL Adobe Workfront] is om de levensechte dynamiek van functionele werkgroepen op de werkplek vast te leggen.
 
-Voor informatie over hoe te om teams in plaats van groepen te gebruiken, zie [ Groepen vs. teams in  [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Voor informatie over hoe te om teams in plaats van groepen te gebruiken, zie [&#x200B; Groepen vs. teams in  [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 ## Teamorganisatie
 
@@ -28,10 +28,10 @@ Een [!DNL Workfront Team] verschilt van een projectteam. [!DNL Workfront] -teams
 
 ## Teamontwerp
 
-Teams worden doorgaans gemaakt door een [!DNL Workfront] -beheerder, maar een gebruiker met de juiste toegang kan ook teams maken. Zodra een team wordt gecreeerd, kan de Manager van het Project een volledig team aan een taak in plaats van het beslissen over een individu of baanrol toewijzen. Voor meer informatie, zie [ een team ](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
+Teams worden doorgaans gemaakt door een [!DNL Workfront] -beheerder, maar een gebruiker met de juiste toegang kan ook teams maken. Zodra een team wordt gecreeerd, kan de Manager van het Project een volledig team aan een taak in plaats van het beslissen over een individu of baanrol toewijzen. Voor meer informatie, zie [&#x200B; een team &#x200B;](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
 ## Teamtoewijzingen
 
 Een Projectmanager weet niet altijd welk individu een opdracht-eenvoudig zal voltooien dat een bepaalde het werkeenheid of een team werk van die specifieke aard voltooit.
 
-Leden van een toegewezen team kunnen ook naar het gebied [!UICONTROL Teams] > [!UICONTROL Team] Verzoeken gaan en de taken bekijken die aan hun team zijn toegewezen. Ze kunnen de impact van een taak beoordelen en vrijwilligers om eraan te werken. Voor meer informatie, zie [ het verzoekenoverzicht van het Team ](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Leden van een toegewezen team kunnen ook naar het gebied [!UICONTROL Teams] > [!UICONTROL Team] Verzoeken gaan en de taken bekijken die aan hun team zijn toegewezen. Ze kunnen de impact van een taak beoordelen en vrijwilligers om eraan te werken. Voor meer informatie, zie [&#x200B; het verzoekenoverzicht van het Team &#x200B;](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).

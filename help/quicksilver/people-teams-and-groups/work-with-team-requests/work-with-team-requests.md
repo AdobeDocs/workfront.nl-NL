@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ overzicht van de verzoeken van het Team ](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+* [&#x200B; overzicht van de verzoeken van het Team &#x200B;](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
 * [Werk- en teamverzoeken beheren](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)

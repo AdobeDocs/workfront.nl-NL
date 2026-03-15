@@ -23,7 +23,7 @@ U kunt de onderstaande taakfilters toepassen om werktaken weer te geven. De werk
 >[!TIP]
 >
 >* Als u overweegt toevoegend meer dan één filter aan een rapport, adviseren wij dat u al uw filters gebruikend de interface van de rapportbouwer toevoegt, en het klikken van Schakelaar aan de Wijze van de Tekst nadat alle andere filterregels zijn toegevoegd. Vervolgens kunt u de code voor het bovenliggende taakfilter toevoegen, zoals hierboven is aangegeven. 
->* Wij adviseren ook dat u een groepering voor de Naam van het Project toevoegt om het rapport gemakkelijker te maken te lezen. Voor meer informatie over het toevoegen van groeperingen aan uw rapporten, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+>* Wij adviseren ook dat u een groepering voor de Naam van het Project toevoegt om het rapport gemakkelijker te maken te lezen. Voor meer informatie over het toevoegen van groeperingen aan uw rapporten, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 >
 
 ## Toegangsvereisten
@@ -55,7 +55,7 @@ U kunt de onderstaande taakfilters toepassen om werktaken weer te geven. De werk
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,16 +63,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt het volgende filter op een taakrapport toepassen om taken zonder kinderen te tonen. Ze zouden zelf ouders kunnen hebben en kinderen kunnen zijn van andere taken.
 
-1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
+1. Van het **Belangrijkste Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![&#x200B; Belangrijkste lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
 
 1. Klik **Nieuw Rapport**.
-1. Selecteer het Rapport van de Taak van a ****.
+1. Selecteer het Rapport van de Taak van a **&#x200B;**.
 1. Klik **Filters**.
 1. Klik **toevoegen een Regel van de Filter**.
 1. In het **Begin typend gebiedsnaam..** lijn, begin **Aantal Kinderen** te typen, dan klik **Taak >> Aantal Kinderen** wanneer het in de lijst toont.
 
 1. Selecteer **Gelijk (Gevoelig van het Geval)** voor uw bepaling, dan ga **0** voor het aantal kinderen in.\
-   ![ de taakfilter van de Ouder ](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![&#x200B; de taakfilter van de Ouder &#x200B;](assets/parent-task-filter-from-the-ui-350x76.png)
 
    of
 
@@ -92,16 +92,16 @@ U kunt het volgende filter op een taakrapport toepassen om taken zonder kinderen
 
 U kunt het volgende filter op een taakrapport toepassen om taken met ouders te tonen, betekenend zijn zij kindtaken. Deze taken kunnen echter ook eigen onderliggende items hebben, omdat het filter de onderliggende items niet uitsluit. Kindertaken die ook ouders zijn voor andere taken worden niet beschouwd als werktaken.
 
-1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
+1. Van het **Belangrijkste Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![&#x200B; Belangrijkste lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
 
 1. Klik **Nieuw Rapport**.
-1. Selecteer het Rapport van de Taak van a ****.
+1. Selecteer het Rapport van de Taak van a **&#x200B;**.
 1. Klik **Filters**.
 1. Klik **toevoegen een Regel van de Filter**.
 1. In het **Begin typend gebiedsnaam..** lijn, begin **identiteitskaart van de Ouder** te typen, dan uitgezochte **Taak >> identiteitskaart van de Ouder** wanneer het in de lijst toont.
 1. Selecteer **is niet leeg** voor uw bepaling.
 
-   ![ identiteitskaart van de Ouder is niet leeg ](assets/filter-parent-id-not-blank-350x100.png)
+   ![&#x200B; identiteitskaart van de Ouder is niet leeg &#x200B;](assets/filter-parent-id-not-blank-350x100.png)
 
    of
 
@@ -117,10 +117,10 @@ U kunt het volgende filter op een taakrapport toepassen om taken met ouders te t
 
 U kunt het volgende filter op een taakrapport toepassen om standalone het werken taken te tonen. Deze taken hebben geen ouder en ze hebben geen eigen kinderen.
 
-1. Van het **Belangrijkste Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
+1. Van het **Belangrijkste Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **HoofdMenu** ![&#x200B; Belangrijkste lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Rapporten**.
 
 1. Klik **Nieuw Rapport**.
-1. Selecteer het Rapport van de Taak van a ****.
+1. Selecteer het Rapport van de Taak van a **&#x200B;**.
 1. Klik **Filters**.
 1. Klik **toevoegen een Regel van de Filter**.
 1. In het **Begin typend gebiedsnaam..** lijn begint **Aantal Kinderen** te typen, dan uitgezochte **Taak >> Aantal Kinderen** van de lijst.
@@ -129,7 +129,7 @@ U kunt het volgende filter op een taakrapport toepassen om standalone het werken
 1. In het **Begin typend gebiedsnaam..** lijn begint **identiteitskaart van de Ouder** te typen, dan uitgezochte **Taak >> identiteitskaart van de Ouder** van de lijst.
 1. Selecteer **is leeg** voor de bepaling.
 
-   ![ identiteitskaart van de Ouder is leeg en geen kinderen ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![&#x200B; identiteitskaart van de Ouder is leeg en geen kinderen &#x200B;](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    of
 

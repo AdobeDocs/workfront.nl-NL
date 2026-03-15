@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle thuisverbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [&#x200B; Tweede Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Kolomopties die worden toegevoegd aan de besturingselementen voor beheerders voor nieuwe startpagina met behulp van lay-outsjablonen
 
@@ -26,4 +26,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 Beheerders kunnen nu met lay-outsjablonen aanpassen welke kolommen beschikbaar zijn voor gebruikers in specifieke nieuwe thuiswidgets. U kunt onder andere standaardkolommen verbergen of weergeven en bestaande velden als nieuwe kolommen toevoegen.
 
-Voor meer informatie, zie [ nieuw Huis aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Voor meer informatie, zie [&#x200B; nieuw Huis aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).

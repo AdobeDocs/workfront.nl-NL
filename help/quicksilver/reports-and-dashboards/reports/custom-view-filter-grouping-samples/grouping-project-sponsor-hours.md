@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze uurgroepering organiseert uren door de sponsor van het project waar de uren worden geregistreerd. De standaardinterface van de rapportbouwer voor uurgroepen verstrekt geen afbeelding aan het gebied van de Sponsor van het Project. U moet de interface van de Wijze van de Tekst gebruiken om tot dit gebied toegang te hebben.
 
-![ hour_report_grouped_by_sponsor.png ](assets/hour-report-grouped-by-sponsor-350x39.png)
+![&#x200B; hour_report_grouped_by_sponsor.png &#x200B;](assets/hour-report-grouped-by-sponsor-350x39.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Deze uurgroepering organiseert uren door de sponsor van het project waar de uren
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

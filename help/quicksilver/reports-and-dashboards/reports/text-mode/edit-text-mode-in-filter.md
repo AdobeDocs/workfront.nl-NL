@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot gebieden toegang te hebben die niet beschikbaar in de standaardinterface zijn en complexere filters creëren.
 
-Voor meer tekst-wijze voorbeelden wanneer het creëren van een filter, zie ook de sectie [ Steekproeven van douanefilters ](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) in de artikel [ mening van de Douane, filter, en groeperingssteekproeven: artikelindex ](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Voor meer tekst-wijze voorbeelden wanneer het creëren van een filter, zie ook de sectie [&#x200B; Steekproeven van douanefilters &#x200B;](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) in de artikel [&#x200B; mening van de Douane, filter, en groeperingssteekproeven: artikelindex &#x200B;](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Voor meer tekst-wijze voorbeelden wanneer het creëren van een filter, zie ook d
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,8 +61,8 @@ Voordat u de tekstmodus in een rapport of lijst gaat gebruiken, moet u altijd op
 
 Zie voor meer informatie:
 
-* [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [&#x200B; overzicht van de de wijzesyntaxis van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Tekstmodus in een filter bewerken
@@ -73,13 +73,13 @@ Het bewerken van een filter in de tekstmodus is identiek voor rapporten en lijst
 >
 >We raden u aan om zoveel mogelijk van het filter te maken in de standaardmodus en het filter vervolgens om te zetten in de tekstmodus om het te bewerken.
 
-Voor meer informatie over de bouw van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie over de bouw van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Voer een van de volgende handelingen uit:
 
-   Om tot de filter van een lijst toegang te hebben, ga naar de lijst en klik het **pictogram van de Filter**, dan over de filter in het zij **paneel van Filters** dat u wilt wijzigen en **klikken geeft** pictogram ![ uit uitgeven pictogram ](assets/edit-icon.png) uit. Of het **zijpaneel van Filters** toont uw geselecteerde filter of de bouwer van de erfenisfilter opent.
+   Om tot de filter van een lijst toegang te hebben, ga naar de lijst en klik het **pictogram van de Filter**, dan over de filter in het zij **paneel van Filters** dat u wilt wijzigen en **klikken geeft** pictogram ![&#x200B; uit uitgeven pictogram &#x200B;](assets/edit-icon.png) uit. Of het **zijpaneel van Filters** toont uw geselecteerde filter of de bouwer van de erfenisfilter opent.
 
    OF
 
@@ -163,7 +163,7 @@ Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../
 
       Elke lijn van de nieuwe verklaring moet door &quot;OF worden voorafgegaan:`<number>`:&quot;.
 
-      Voor informatie over het creëren van &quot;OF&quot;verklaringen in een filter, zie [ &quot;OF&quot;verklaringen op de filters van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md) tot stand brengen.
+      Voor informatie over het creëren van &quot;OF&quot;verklaringen in een filter, zie [&#x200B; &quot;OF&quot;verklaringen op de filters van de tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md) tot stand brengen.
 
       >[!NOTE]
       >

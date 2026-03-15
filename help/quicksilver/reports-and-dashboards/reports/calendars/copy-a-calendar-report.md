@@ -51,7 +51,7 @@ Additionally, if you have [!UICONTROL Manage] access to a calendar to which you 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Go to the calendar you want to copy.
 1. Click the **More** menu next to the Calendar drop-down menu.
-   ![ kalender meer menu ](assets/more-menu-calendar.png)
+   ![&#x200B; kalender meer menu &#x200B;](assets/more-menu-calendar.png)
 
 1. Selecteer **[!UICONTROL Copy]** in de vervolgkeuzelijst. The calendar is copied and you are taken to the new copy.
 

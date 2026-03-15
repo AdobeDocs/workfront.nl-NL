@@ -26,13 +26,13 @@ These videos will introduce you to the different types of boards available in Ad
 
 Met een eenvoudig board kun je snel aan de slag met boards om het werk bij te houden. De standaardkolommen worden opgenomen in de sjabloon en u kunt kaarten toevoegen en werk toewijzen.
 
-[ bekijk een videodemonstratie van een basisboard.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[&#x200B; bekijk een videodemonstratie van een basisboard.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Kanban-bord
 
 Een KanaBord kan een backlog bevatten, of een innamekolom, die met filters wordt geconfigureerd om taken en problemen van Workfront op de board te krijgen.
 
-[ bekijk een videodemonstratie van een Kana- board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[&#x200B; bekijk een videodemonstratie van een Kana- board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
 ### Dynamisch board
 
@@ -44,7 +44,7 @@ Met een dynamisch board kunt u een board automatisch vullen met kaarten die zijn
 
 Boards zijn beschikbaar in de mobiele Adobe Workfront-app. Wanneer u kaarten in de mobiele app bijwerkt, worden deze updates gesynchroniseerd met Workfront.
 
-[ bekijk een videodemonstratie van een mobiel board.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[&#x200B; bekijk een videodemonstratie van een mobiel board.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
 ## Voorbeelden van boards
 
@@ -52,7 +52,7 @@ Boards zijn beschikbaar in de mobiele Adobe Workfront-app. Wanneer u kaarten in 
 
 U kunt de kolom Opname gebruiken om taken te bekijken die aan u op één plaats worden toegewezen. Aangezien de nieuwe taken in Workfront worden toegewezen, worden zij automatisch toegevoegd aan de inputkolom.
 
-[ bekijk een videodemonstratie van een &quot;mijn takenbord&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[&#x200B; bekijk een videodemonstratie van een &quot;mijn takenbord&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
 ### Planningsbord
 
@@ -64,4 +64,4 @@ Boards can help you plan out work for yourself or your team over a period of tim
 
 Sommige teams werken liever op een board, terwijl andere de projectweergave van Workfront verkiezen. Omdat verbonden kaarten op een board worden gesynchroniseerd met de Workfront-taken en -problemen, kunt u altijd de meest actuele gegevens zien, ongeacht de weergave die u gebruikt.
 
-[ Bekijk een videodemonstratie van hybride het werkbeheer.](https://video.tv.adobe.com/v/3416381/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van hybride het werkbeheer.](https://video.tv.adobe.com/v/3416381/){target=_blank}

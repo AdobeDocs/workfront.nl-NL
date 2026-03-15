@@ -34,7 +34,7 @@ To give you a consistent experience throughout the application, we have added th
 
 We hebben de schakelknop Nieuwe opmerkingen in het gedeelte Updates verwijderd voor projecten, taken, problemen en documenten. De nieuwe opmerking is nu de standaardoptie en de enige optie voor deze objecten. Door deze wijziging kunt u niet meer terugkeren naar de oudere ervaring voor opmerkingen. Bovendien hebben we de instelling &#39;Percentage volledig tonen bij bijwerken&#39; verwijderd uit het profiel van een gebruiker.
 
-Voor meer informatie, zie [ Nieuwe het opmerken ervaring ](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor meer informatie, zie [&#x200B; Nieuwe het opmerken ervaring &#x200B;](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## New commenting stream now available in quick actions for new Home widgets
 
@@ -82,9 +82,9 @@ Om u een chronologisch samenhangende mening van zowel commentaren als de logboek
 
 Het tabblad Alles is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. To reply to a specific comment, use the link from the All tab to the Comments tab.
 
-Voor meer informatie, zie [ het sectieoverzicht van Updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Voor meer informatie, zie [&#x200B; het sectieoverzicht van Updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint bij 0 :31 )
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3427992/){target=_blank} (De bespreking van deze specifieke functie begint bij 0 :31 )
 
 ## Nieuwe commentaarstroom is nu beschikbaar in het deelvenster Samenvatting
 
@@ -94,6 +94,6 @@ Voor meer informatie, zie [ het sectieoverzicht van Updates ](/help/quicksilver/
 
 De nieuwe functie voor opmerkingen is nu toegevoegd aan het deelvenster Overzicht voor taak- en probleemlijsten.
 
-Voor meer informatie, zie [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3427991/){target=_blank}

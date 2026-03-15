@@ -18,7 +18,7 @@ ht-degree: 0%
 
 In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op een taak wordt geregistreerd getoond over de uren die voor elke taak worden gepland. De variantie van het uren tussen Gepland en de Ware Uren toont ook in een afzonderlijke kolom.
 
-![ actual_vs_scheduled_in_task_report.png ](assets/actual-vs-planned-in-task-report-350x58.png)
+![&#x200B; actual_vs_scheduled_in_task_report.png &#x200B;](assets/actual-vs-planned-in-task-report-350x58.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op een taak wor
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

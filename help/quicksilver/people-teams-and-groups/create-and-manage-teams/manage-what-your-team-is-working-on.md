@@ -21,4 +21,4 @@ U kunt niet-toegewezen items toewijzen, de huidige toewijzingen aanpassen, de hu
 
 Zie [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) voor meer informatie over het beheren van taken die aan uw team zijn toegewezen.
 
-![ pagina van het Team die de Balancer van de Werkbelasting toont ](assets/team-page-workload-balancer.png)
+![&#x200B; pagina van het Team die de Balancer van de Werkbelasting toont &#x200B;](assets/team-page-workload-balancer.png)

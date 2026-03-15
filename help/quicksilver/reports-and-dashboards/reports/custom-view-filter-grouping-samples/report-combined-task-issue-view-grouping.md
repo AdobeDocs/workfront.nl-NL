@@ -20,13 +20,13 @@ ht-degree: 0%
 
 Dit rapport Werkitem toont zowel taken als problemen waarmee gebruikers hebben ingestemd in één rapport. Deze optie is het meest geschikt in combinatie met een aangepaste groepering.
 
-Dit rapport gebruikt `sharecol=true` in de weergave om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [ Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Dit rapport gebruikt `sharecol=true` in de weergave om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [&#x200B; Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
 >  In de weergave Werkitem worden alleen taken en problemen weergegeven die zijn geaccepteerd door de gebruikers die aan hen zijn toegewezen. Dit rapport toont het werkpunten niet die niet van de Verzoeken van het Werk of de lijsten van de Verzoeken van het Team in het Werken van de gebruiker aan lijst zijn bewogen.
 
-![ work_item_report.png ](assets/work-item-report-350x46.png)
+![&#x200B; work_item_report.png &#x200B;](assets/work-item-report-350x46.png)
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ Dit rapport gebruikt `sharecol=true` in de weergave om meerdere velden onder dez
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Om een rapport met dit standpunt op te stellen:
 
-1. Klik het **pictogram van het 1} Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-main-menu.png) Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu** pictogram van het Menu ![&#x200B; in de hoger-juiste hoek, of het &#x200B;](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![&#x200B; in de upper-left hoek, als beschikbaar, dan klik &#x200B;](assets/lines-main-menu.png) Rapporten **.**
 
 1. Klik **Nieuw Rapport** > **Meer** > **Punt van het Werk** van het drop-down menu.
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 This page describes all proofing enhancements made with the Third Quarter 2024 release to the Preview environment. Deze verbeteringen zijn beschikbaar in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Security updates for the Desktop Proofing Viewer
 

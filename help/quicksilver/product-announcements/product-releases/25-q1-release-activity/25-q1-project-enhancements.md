@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverbeteringen die zijn aangebracht met de Eerste Kwartaal 2025-release voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving, zoals aangegeven.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Meer relevante toewijzingen verwijderd uit Voorvertoning en Productie voor omgevingen met snelle release
 
@@ -32,4 +32,4 @@ Dankzij deze wijziging werken slimme toewijzingen nu op dezelfde manier in Previ
 
 * Bij het toevoegen van toewijzingen aan een bestaande taak
 
-Voor meer informatie, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

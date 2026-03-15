@@ -47,7 +47,7 @@ Een aanvraag vertegenwoordigt een taak die in behandeling is of geeft een toewij
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Om een verzoek aan een team van de teampagina manueel toe te wijzen:
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![&#x200B; team van de Schakelaar &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Klik op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) en selecteer vervolgens **[!UICONTROL Send work request]** .
 
@@ -80,7 +80,7 @@ Om een verzoek aan een team van de teampagina manueel toe te wijzen:
 
 1. Vul de gegevens in in het vak dat wordt geopend.
 1. Klik op **[!UICONTROL Send Request]**.\
-   Het team wordt nu toegewezen een nieuwe taak die op het lusje van de Verzoeken van het Team wordt getoond. Deze taak wordt momenteel niet geassocieerd met een project, maar het kan worden bewogen, zoals die in [ worden beschreven de taken van de Beweging ](../../manage-work/tasks/manage-tasks/move-tasks.md).
+   Het team wordt nu toegewezen een nieuwe taak die op het lusje van de Verzoeken van het Team wordt getoond. Deze taak wordt momenteel niet geassocieerd met een project, maar het kan worden bewogen, zoals die in [&#x200B; worden beschreven de taken van de Beweging &#x200B;](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Aanvragen opnieuw toewijzen {#reassign-requests}
 
@@ -88,7 +88,7 @@ U kunt verzoeken opnieuw toewijzen die aan uw team zijn toegewezen:
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![&#x200B; team van de Schakelaar &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 1. Selecteer **[!UICONTROL Team Requests]** in het navigatievenster aan de linkerkant.
 1. Klik op het pictogram **[!UICONTROL Reassign]** .
 

@@ -28,7 +28,7 @@ Lees de volgende artikelen om meer inzicht te krijgen in kalenderrapporten in Ad
 * [[!UICONTROL Planned Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
 * [[!UICONTROL Projected Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Kalenderrapporten en gebeurtenisdetails weergeven](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
-* [ Deel een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+* [&#x200B; Deel een kalenderrapport &#x200B;](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 * [Een bestaand kalenderrapport bewerken](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
 * [Een kalenderrapport verwijderen](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
 * [Een kalenderrapport kopiëren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)

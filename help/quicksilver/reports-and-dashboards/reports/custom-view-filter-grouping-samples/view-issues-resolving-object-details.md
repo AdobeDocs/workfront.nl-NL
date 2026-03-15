@@ -20,9 +20,9 @@ ht-degree: 0%
 
 In deze weergave worden de naam en het percentage weergegeven dat is voltooid met het object dat het probleem heeft opgelost, zodat de maker van het probleem insight kan hebben in de voortgang van het probleem, zelfs zonder toegang tot de taak of het project die het probleem heeft opgelost.
 
-In deze weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [ Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+In deze weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [&#x200B; Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-![ issue_custom_view_with_resolving_object_name_and_percent_complete.png ](assets/issue-custom-view-350x77.png)
+![&#x200B; issue_custom_view_with_resolving_object_name_and_percent_complete.png &#x200B;](assets/issue-custom-view-350x77.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ In deze weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Verbeteringen in Workfront for Experience Manager Assets en Assets Essentials
 
@@ -26,6 +26,6 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 We hebben de volgende verbeteringen aangebracht voor de integratie van Workfront for Experience Manager Assets en Assets Essentials:
 
-* De integratie ondersteunt nu GCP als cloudserviceprovider. AWS en Azure werden eerder ondersteund. Voor meer informatie, zie [ Overzicht van de integratie van Adobe Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+* De integratie ondersteunt nu GCP als cloudserviceprovider. AWS en Azure werden eerder ondersteund. Voor meer informatie, zie [&#x200B; Overzicht van de integratie van Adobe Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
-* De maximale grootte voor bestanden die via de integratie naar Experience Manager worden verzonden, is verhoogd tot 30 GB. Eerder was de limiet 5 GB. Voor meer informatie, zie [ een Document naar Experience Manager Assets of de Hoofdzaak van Activa ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) verzenden.
+* De maximale grootte voor bestanden die via de integratie naar Experience Manager worden verzonden, is verhoogd tot 30 GB. Eerder was de limiet 5 GB. Voor meer informatie, zie [&#x200B; een Document naar Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) verzenden.

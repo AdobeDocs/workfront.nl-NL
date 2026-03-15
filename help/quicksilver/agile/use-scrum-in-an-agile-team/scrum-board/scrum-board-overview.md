@@ -20,14 +20,14 @@ ht-degree: 0%
 
 Het [!UICONTROL Scrum] Google-artikelbord wordt samen met de voltooiingsstatus en het uitvouwdiagram weergegeven. Deze componenten van het Geavanceerd systeem zijn beschikbaar in de volgende situaties in [!UICONTROL Adobe Workfront]:
 
-* Op mobiele iteraties. Voor meer details over het gebruiken van de het verhaalraad van de Stijl, burndown grafiek, en voltooiingsstatus in een zuiver milieu van de Stijl (met backlogs en een herhaling), zie [ Werk in een milieu van de Stijl ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Wanneer u een project weergeeft in een Google-weergave. Voor informatie over hoe u hefboomwerking de het verhaalraad van de Gelijkheid, burndown grafiek, en voltooiingsstatus binnen een bestaand project kunt, zie [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+* Op mobiele iteraties. Voor meer details over het gebruiken van de het verhaalraad van de Stijl, burndown grafiek, en voltooiingsstatus in een zuiver milieu van de Stijl (met backlogs en een herhaling), zie [&#x200B; Werk in een milieu van de Stijl &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Wanneer u een project weergeeft in een Google-weergave. Voor informatie over hoe u hefboomwerking de het verhaalraad van de Gelijkheid, burndown grafiek, en voltooiingsstatus binnen een bestaand project kunt, zie [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
-![ de iteratie van de Gelijkheid ](assets/agile-iteration-with-callouts.png)
+![&#x200B; de iteratie van de Gelijkheid &#x200B;](assets/agile-iteration-with-callouts.png)
 
 ## Layout en functies van het artikelbord
 
-![ het verhaalbord van de Gelijkheid ](assets/agile-storyboard-callouts.png)
+![&#x200B; het verhaalbord van de Gelijkheid &#x200B;](assets/agile-storyboard-callouts.png)
 
 De whiteboard bestaat uit de volgende elementen:
 
@@ -40,7 +40,7 @@ De whiteboard bestaat uit de volgende elementen:
 
      In een project, lijkt deze kolom wanneer een taak minstens één subtaak heeft.
 
-     ![ de kolom van het het verhaal van de ouder ](assets/agile-parentstory-swimlane.png)
+     ![&#x200B; de kolom van het het verhaal van de ouder &#x200B;](assets/agile-parentstory-swimlane.png)
 
 * **Statussen van de Taak**: Wijs op hoe een verhaal door de herhaling of het project vordert dat op welke statuskolom wordt gebaseerd het verhaal binnen is.
 
@@ -73,4 +73,4 @@ Bijvoorbeeld, veronderstel dat Artikel A Subtask 1 en Subtask 2 bevat (en beide 
 
 Deze zelfde logica is op subtaken op het tweede niveau (subtaken van subtaken) van toepassing. Als een subtask één of meerdere subtasks op het tweede niveau heeft die aan het zelfde team van gal worden toegewezen en tot de herhaling behoren, slechts wordt de subtask van het tweede niveau getoond in de backlog.
 
-Voor meer informatie over de backlog, zie [ leiden de Agile backlog ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Voor meer informatie over de backlog, zie [&#x200B; leiden de Agile backlog &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

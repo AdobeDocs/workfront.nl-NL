@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release van het tweede kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [&#x200B; Tweede Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.
 
-Voor meer informatie, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
+Voor meer informatie, zie [&#x200B; een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 ## Goedkeuringssjablonen maken en gebruiken
 
@@ -45,7 +45,7 @@ U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordeli
 
 U kunt goedkeuringssjablonen toepassen vanuit het gebied Documenten wanneer u een goedkeuringsproces maakt voor een document.
 
-Voor meer informatie, zie [ een Malplaatje van de Goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+Voor meer informatie, zie [&#x200B; een Malplaatje van de Goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 ## Informatie over al uw goedkeuringen tegelijk weergeven
 

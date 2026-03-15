@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in Prioriteiten beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Overzicht van prioriteiten en verbeteringen
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Zie [ de video van de verbeteringsdemonstratie van Prioriteiten ](#priorities-enhancements-demo-video) hieronder voor een volledige demonstratie van de eigenschappen inbegrepen in dit overzicht.
+Zie [&#x200B; de video van de verbeteringsdemonstratie van Prioriteiten &#x200B;](#priorities-enhancements-demo-video) hieronder voor een volledige demonstratie van de eigenschappen inbegrepen in dit overzicht.
 
 ## Gebruik slimme filters om uw werk in Prioriteiten te vinden
 
@@ -38,7 +38,7 @@ Gebruik natuurlijke taal om werk in de werklijst Prioriteiten snel te filteren. 
 
 Alleen beschikbaar voor IMS-instanties.
 
-Voor meer informatie, zie [ Filter en groepeer uw werk met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Voor meer informatie, zie [&#x200B; Filter en groepeer uw werk met Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Vangst van werk in prioriteiten
 
@@ -52,7 +52,7 @@ U kunt Vangst gebruiken omhoog helpen de hoeveelheid tijd verminderen zoekend in
 
 Met deze functie, die wordt ondersteund door Workfront AI Assistant, kunt u updates, geüploade documenten en andere belangrijke wijzigingen in uw projecten samenvatten binnen de volgende termijnen: 24 uur, 3 dagen of 7 dagen.
 
-Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Voor meer informatie, zie [&#x200B; Vangst op het werk in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Wijzigingen live weergeven op de pagina Details in Prioriteiten
 
@@ -62,7 +62,7 @@ Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilv
 
 U kunt nu realtime updates weergeven op de pagina Details van een taak of uitgave. U kunt ook zien of anderen de pagina tegelijkertijd bekijken zoals u met real-time aanwezigheidsindicatoren hebt.
 
-Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Voor meer informatie, zie [&#x200B; project en taakdetails van de Mening in de werklijst van Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Documenten en proefdrukken uploaden en weergeven in prioriteiten
 
@@ -77,7 +77,7 @@ U kunt nu werken met documenten en proefdrukken voor taken en problemen in de we
 * De proefdrukviewer starten
 * En meer
 
-Voor meer informatie, zie [ Documenten uploaden en proeven in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md) creëren.
+Voor meer informatie, zie [&#x200B; Documenten uploaden en proeven in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md) creëren.
 
 ## De kalenderweergave is nu beschikbaar in Prioriteiten
 
@@ -92,7 +92,7 @@ U kunt uw werk nu bijhouden met een duidelijke, visuele kalender. Met de Priorit
 * Kleuren toepassen voor snelle organisatie
 * En meer
 
-Voor meer informatie, zie [ uw werk in de kalender van Prioriteiten beheren ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
+Voor meer informatie, zie [&#x200B; uw werk in de kalender van Prioriteiten beheren &#x200B;](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Updates van de werklijst Prioriteiten
 
@@ -109,7 +109,7 @@ We hebben de prioriteitswerklijst bijgewerkt om de mogelijkheden te verbeteren e
 * Totaal aantal lijstitems nu in de rechterbenedenhoek van de werklijst
 * Nieuwe uitgevouwen zoekbalk rechts van de koptekst van de werklijst
 
-Voor meer informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 ### Functionele wijzigingen
 
@@ -118,7 +118,7 @@ U kunt nu
 * Items in de groepen sorteren
 * Items slepen en neerzetten tijdens groeperen op Mijn prioriteit of Status
 
-Voor meer informatie, zie [ Filter en groepeer uw werk met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Voor meer informatie, zie [&#x200B; Filter en groepeer uw werk met Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Verwijderd
 
@@ -132,7 +132,7 @@ Voor meer informatie, zie [ Filter en groepeer uw werk met Prioriteiten ](/help/
 
 U kunt nu rechtstreeks vanuit de prioriteitswerklijst naar een project in Workfront navigeren.
 
-Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Voor meer informatie, zie [&#x200B; project en taakdetails van de Mening in de werklijst van Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Bijgewerkte opties in Mijn Focus kolom in Prioriteiten
 
@@ -147,7 +147,7 @@ We hebben de opties in de kolom Mijn focus bijgewerkt om u te helpen uw werk op 
 * Normaal
 * Laag
 
-Deze wijziging maakt het gemakkelijker om werk te bekijken en te organiseren op basis van urgentie. Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
+Deze wijziging maakt het gemakkelijker om werk te bekijken en te organiseren op basis van urgentie. Voor meer informatie, zie [&#x200B; belangrijke het werkpunten &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
 
 ## Projectdetails in Prioriteiten weergeven
 
@@ -157,7 +157,7 @@ Deze wijziging maakt het gemakkelijker om werk te bekijken en te organiseren op 
 
 U kunt nu projectdetails en commentaren van de werklijst in Prioriteiten bekijken.
 
-Voor meer informatie, zie [ project en taakdetails van de Mening in de werklijst van Prioriteiten ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Voor meer informatie, zie [&#x200B; project en taakdetails van de Mening in de werklijst van Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Video over demodemogelijkheden met prioriteiten
 

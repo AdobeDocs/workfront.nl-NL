@@ -28,9 +28,9 @@ Wanneer een kwestie in een taak of een project wordt omgezet wordt een het oplos
 * Naam van maker
 * Toegewezen aan gebruiker
 
-![ task_with_resolving_issue_fields.png ](assets/task-with-resolving-issue-fields-350x38.png)
+![&#x200B; task_with_resolving_issue_fields.png &#x200B;](assets/task-with-resolving-issue-fields-350x38.png)
 
-Voor meer informatie, zie ook [ Mening: toon originele uitgifteinformatie over taak of projectlijsten ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Voor meer informatie, zie ook [&#x200B; Mening: toon originele uitgifteinformatie over taak of projectlijsten &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Toegangsvereisten
 
@@ -61,7 +61,7 @@ Voor meer informatie, zie ook [ Mening: toon originele uitgifteinformatie over t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

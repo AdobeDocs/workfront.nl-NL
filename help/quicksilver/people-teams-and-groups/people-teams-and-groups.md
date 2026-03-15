@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ creeer en beheer teams ](../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
-* [ werk direct met anderen ](../people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
-* [ Werk met groepen en teams ](../people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-* [ Werk met teamverzoeken ](../people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
+* [&#x200B; creeer en beheer teams &#x200B;](../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
+* [&#x200B; werk direct met anderen &#x200B;](../people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
+* [&#x200B; Werk met groepen en teams &#x200B;](../people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
+* [&#x200B; Werk met teamverzoeken &#x200B;](../people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
 * [Tips, trucs en probleemoplossing voor personen, teams en groepen](../people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)

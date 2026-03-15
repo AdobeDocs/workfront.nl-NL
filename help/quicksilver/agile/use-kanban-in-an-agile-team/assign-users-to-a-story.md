@@ -39,7 +39,7 @@ U kunt gebruikers rechtstreeks aan artikelen op het Kanban-bord toewijzen.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,7 +47,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de Agile [!UICONTROL Kanban] -board waar u gebruikers wilt toewijzen.
 1. Ga naar de artikeltegel op het [!UICONTROL Kanban] -bord waar u een gebruiker wilt toevoegen.
@@ -57,4 +57,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >U kunt ook een taakrol toewijzen aan een artikel. U kunt alleen actieve gebruikers en actieve rollen toewijzen.
 
-   ![ voeg taak aan verhaalkaart toe ](assets/addassignmenttostorycard-350x472.png)
+   ![&#x200B; voeg taak aan verhaalkaart toe &#x200B;](assets/addassignmenttostorycard-350x472.png)

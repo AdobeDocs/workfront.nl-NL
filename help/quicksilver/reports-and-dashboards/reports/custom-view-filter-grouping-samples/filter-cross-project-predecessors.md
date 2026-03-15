@@ -49,7 +49,7 @@ Deze taakfilter retourneert onvolledige voordecessors voor meerdere projecten.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,4 +64,4 @@ Dit filter toepassen:
 1. Plak in het nieuwe gebied de volgende code:
    <pre>predecessorsMM:projectID=FIELD:projectID <br> predecessorsMM:projectID_Mod=ne <br> percentComplete=100 <br> percentComplete_Mod=ne</pre>
 
-1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **** van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.
+1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **&#x200B;**&#x200B;van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.

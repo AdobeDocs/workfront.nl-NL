@@ -30,7 +30,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (24.10 dit kwartaal), gebruikers met de snelle releaseplanning de release een dag eerder zullen ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -63,7 +63,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> niveau van de Toegang nu beschikbaar in milieubevordering </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breiden, hebben wij de capaciteit toegevoegd om toegangsniveaus te omvatten. Nu, kunt u een toegangsniveau in een milieu vormen Sandbox, en dan dat toegangsniveau bevorderen aan uw productiemilieu.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -80,7 +80,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> Teller A op douanevormen toont het aantal gebieden </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Aangepaste formulieren zijn beperkt tot 500 velden. In een lang formulier kan het moeilijk zijn om te weten hoeveel velden er op het formulier staan en of u de limiet bijna hebt bereikt. Linksonder is een teller toegevoegd aan aangepaste formulieren. De teller geeft weer hoeveel velden er op het formulier worden gebruikt en deze is altijd zichtbaar wanneer u in de formulierontwerper schuift.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -97,7 +97,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> A "Uitgezocht allen"optie is nu beschikbaar in lay-outmalplaatjes </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Om velden met lay-outsjablonen gemakkelijker weer te geven en te verbergen, is het selectievakje Alles selecteren toegevoegd aan de gebieden Overzicht en Financiën van de weergave Details in een lay-outsjabloon. Deze optie is beschikbaar als u Project, Taak, Uitgave, Portfolio of Programma hebt geselecteerd onder "Aanpassen wat gebruikers zien".</p>
                 </td>
                 <td><p><b>Beschikbaar op deze datums:</b></p>
@@ -114,7 +114,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> het milieu bevorderingspakketten van de Terugdraaiing </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te maken, hebben wij terugschroeven van prijzen functionaliteit toegelaten. Nu kunt u pakketten binnen 24 uur terugdraaien, zodat u eerdere configuraties die zijn beïnvloed door een milieubevorderingspakket eenvoudiger kunt herstellen.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -193,7 +193,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> voeg snel vorige recensenten en goedkeurders aan nieuwe documentversies toe </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>U kunt nu snel revisoren en fiatteurs uit eerdere documentversies toevoegen.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -229,7 +229,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> Updates aan Awaiting my goedkeuring widget in nieuw Huis </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>We hebben de volgende wijzigingen aangebracht in de wachtende goedkeuringswidget:</p>
                         <ul>
                             <li>De naam van de widget is gewijzigd. De naam van deze widget is Mijn goedkeuring.</li>
@@ -251,7 +251,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> introducerend Prioriteiten: een eenvoudigere, gestroomlijnde, en intuïtieve ervaring van Workfront voor taakeigenaars </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>De prioriteiten verbeteren nadruk en productiviteit om klanten te helpen meer in minder tijd verwezenlijken.</p>
                     <p>Met Prioriteiten kunt u genieten van:</p>
                         <ul>
@@ -293,7 +293,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> de ervaringsverbeteringen van de de integratielogin van Vooruitzichten </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>De aanmeldingservaring voor Outlook-integratie is gestroomlijnd, zodat alle klanten dezelfde knop zien om zich aan te melden bij Workfront, ongeacht of ze IMS-functionaliteit hebben. De volgende aanmeldstappen verschillen voor IMS- en niet-IMS-instanties, maar de eerste pagina is voor alle gebruikers hetzelfde.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze datums:</b></p>
@@ -329,7 +329,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere toewijzingen die aan het Nieuwe werkschema van de Taak </a> worden toegevoegd</p>
-                    [!BADGE In productie voor Snelle Versie ]{type=Positive}
+                    [!BADGE In productie voor Snelle Versie &#x200B;]{type=Positive}
                     <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -347,7 +347,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme toewijzingen </a></p>
-                    [!BADGE In productie voor Snelle Versie ]{type=Positive}
+                    [!BADGE In productie voor Snelle Versie &#x200B;]{type=Positive}
                     <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied Toewijzingen in de taakkoptekst, Home en het deelvenster Samenvatting.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze datums:</b></p>
@@ -384,7 +384,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> de kwestie van het Exemplaar/van de deeg moeilijke situatie voor de Kijker van het Proofing van de Desktop </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Er is een probleem opgelost waarbij inhoud onjuist wordt geplakt in het gedeelte Updates van de Desktop Proofing Viewer.</p>
                     <p>Nieuwe versie: 2.1.39</p>
                 </td>
@@ -402,7 +402,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Lege het schermmoeilijke situatie voor de gebruikers van Vensters van de Kijker van de Desktop het Proofing </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>We hebben een probleem verholpen met de nieuwe versie van 2.1.36 Desktop Proofing Viewer. Hierdoor kregen sommige Windows-gebruikers een leeg scherm te zien nadat ze de viewer hadden geopend. </p>
                     <p>Nieuwe versie voor Windows-gebruikers: 2.1.37</p>
                 </td>
@@ -420,7 +420,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Chromiumupdate voor de Desktop Proofing Viewer </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>We upgraden de Desktop Proofing Viewer naar ondersteuning voor Chromium 126.0.6478.127, waarmee problemen met UI-elementen in interactieve proefdrukken worden opgelost.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -456,7 +456,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Gegevens van Workfront verbinden beschikbaar voor nieuwe plannen </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Workfront Data Connect wordt beschikbaar voor organisaties op een van de nieuwe Workfront-plannen. Met Data Connect hebben organisaties toegang tot hun gegevens als een beveiligd en schaalbaar gegevenspeer, dat kan worden geanalyseerd en weergegeven met behulp van zakelijke intelligentiegereedschappen of extern kan worden opgeslagen. Bovendien kunnen organisaties Data Connect gebruiken om gegevensanalyses weer te geven die voorheen niet beschikbaar waren, zoals tijdgebaseerde trendanalyse, variabele mapping en analyse van externe systeemgegevens in combinatie met Workfront-gegevens.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze data:</b></p>
@@ -480,7 +480,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> vat projecten of updates met één klik samen </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Om het gemakkelijker te maken om hoogtepunten van een project of een updatestroom snel te zien, hebben wij samenvattingsknopen aan die gebieden van Workfront toegevoegd. U kunt nu op de knop klikken om een overzicht te genereren in de AI-assistent.</p><p>Eerder konden gebruikers AI Assistant openen en een vraag typen om een overzicht van het project of de updatestream te maken.</p>
                 </td>
                 <td><p><b>Beschikbaar op deze datums:</b></p>
@@ -497,7 +497,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}"> Algemene beschikbaarheid van de Planning van Adobe Workfront </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Workfront Planning is beschikbaar voor alle klanten die een Workfront Planning-licentie hebben aangeschaft, naast hun Workfront-licentie. Neem contact op met uw accountvertegenwoordiger voor meer informatie over Workfront Planning.</p>
                     <p>Voor de recentste de versieinformatie van de Planning van Workfront elk kwartaal, zie de <a href="#workfront-planning-enhancements"> hieronder sectie van de Verbeteringen van de Planning van Workfront </a>.</p>
                 </td>
@@ -512,7 +512,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de vier
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Medewerker van Adobe AI beschikbaar in Workfront </a></p>
-                    [!BADGE in productie ]{type=Informative}
+                    [!BADGE in productie &#x200B;]{type=Informative}
                     <p>Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij Adobe Workfront AI Medewerker aan toegevoegd. AI Assistant kan u helpen door:</p>
                     <ul>
                         <li>Samenvattend werkitems en documenten, zodat u snel een algemeen inzicht krijgt in taken, projecten en assets.</li>
@@ -563,11 +563,11 @@ Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd h
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het 4e kwartaal van 2024 releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het 4e kwartaal van 2024 releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Adobe Workfront die Vierde Kwartaal 2024 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md) plant.
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Adobe Workfront die Vierde Kwartaal 2024 versieactiviteit &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md) plant.
 
 ### Verbeteringen in Workfront Scenario-planner
 
@@ -585,14 +585,14 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 19 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 19 ](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 19 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Vierde Versie van het Kwartaal 2024 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de Vierde Versie van het Kwartaal 2024 worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

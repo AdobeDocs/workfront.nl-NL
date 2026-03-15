@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt de volgende kolom in een projectmening toevoegen om de Ware Duur te tonen die als gemiddelde in een groepering wordt bijeengevoegd.
 
-![ project_with_aggregate_actual_duration_in_grouping_view.png ](assets/project-with-aggregate-actual-duration-in-grouping-view-350x65.png)
+![&#x200B; project_with_aggregate_actual_duration_in_grouping_view.png &#x200B;](assets/project-with-aggregate-actual-duration-in-grouping-view-350x65.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U kunt de volgende kolom in een projectmening toevoegen om de Ware Duur te tonen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Deze kolom toevoegen aan een projectweergave:
 
 1. Ga naar een projectlijst.
 1. (Vereist) om de samengevoegde gemiddelde waarde van de Ware Duur van het project te zien, moet u een groepering hebben die aan uw projectlijst wordt toegevoegd.\
-   Voor meer informatie over het creëren van groeperingen, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie over het creëren van groeperingen, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 1. Vouw het **drop-down menu van de Mening** uit, en selecteer **aanpassen Mening**.
 1. Klik **toevoegen Kolom**.
 1. Klik **Schakelaar aan de Wijze van de Tekst**, dan klik **uitgeven de Wijze van de Tekst**.

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Blauwdrukken zijn sets Workfront-objecten die betrekking hebben op veelvoorkomende gebruiksgevallen in Workfront. U kunt een blauwdruk downloaden en installeren, en dan de voorwerpen voor uw specifiek gebruiksgeval vormen.
 
-![ de belangrijkste pagina van blauwdrukken ](assets/blueprints-main-page-catalog.png)
+![&#x200B; de belangrijkste pagina van blauwdrukken &#x200B;](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
@@ -40,10 +40,10 @@ Blauwdrukken zijn sets Workfront-objecten die betrekking hebben op veelvoorkomen
 >
 >    Deze blauwdruk bevat een projectmalplaatje (of controlelijst) dat u met een korte lijst van vragen, middelen, en verbindingen voor een duidelijk inzicht in kunt herzien hoe uw instantie van Workfront is gevormd. Gebruik dit wanneer u onlangs een Workfront-exemplaar hebt geërfd en hulp nodig hebt bij het opstarten van het programma.
 >
->Om de huidige blauwdrukken te herzien, zie [ Lijst van beschikbare blauwdrukken ](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+>Om de huidige blauwdrukken te herzien, zie [&#x200B; Lijst van beschikbare blauwdrukken &#x200B;](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 
-De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen, dashboards en organisatiestructuren installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Voor meer informatie, zie [ doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken ](../../administration-and-setup/blueprints/browse-catalog.md).
+De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen, dashboards en organisatiestructuren installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Voor meer informatie, zie [&#x200B; doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken &#x200B;](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Elke blauwdruk is gericht aan een afdeling en specifiek rijpheidsniveau om u te helpen bewezen beste praktijken in uw systeem sneller uitvoeren. De hieronder beschreven rijpingsniveaus worden aangegeven in de blauwdrukcataloguskaart en in de details.
 
@@ -61,8 +61,8 @@ Het blauwdruktype laat zien wat er in de blauwdruk staat. Het type wordt onder a
 
 De volgende typen blauwdrukken zijn beschikbaar:
 
-* **malplaatjes van het Project**: Omvat standaardvoorwerpen verbonden aan een projectmalplaatje (taken, kwesties, rollen, en teams), en sommige voorkeur met betrekking tot die voorwerpen. Voor meer informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
-* **Organisatorische structuren**: Omvat voorwerpen verbonden aan de structuur van een organisatie (bedrijven, groepen, rollen, en teams). Voor meer informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+* **malplaatjes van het Project**: Omvat standaardvoorwerpen verbonden aan een projectmalplaatje (taken, kwesties, rollen, en teams), en sommige voorkeur met betrekking tot die voorwerpen. Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+* **Organisatorische structuren**: Omvat voorwerpen verbonden aan de structuur van een organisatie (bedrijven, groepen, rollen, en teams). Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 * **dashboards**: Omvat één of meerdere dashboards voor een specifiek gebruiksgeval, zoals implementatieservices.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
@@ -70,7 +70,7 @@ De volgende typen blauwdrukken zijn beschikbaar:
 * Setup features: Includes one or more elements that are configured in the Setup area of Workfront, such as layout templates.
 -->
 
-Om de huidige blauwdrukken te herzien, zie [ Lijst van beschikbare blauwdrukken ](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+Om de huidige blauwdrukken te herzien, zie [&#x200B; Lijst van beschikbare blauwdrukken &#x200B;](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 ### Details weergeven
 
@@ -82,13 +82,13 @@ Elke blauwdruk bevat een detailpagina. Op deze pagina kunt u:
 * Zie rol, team, bedrijf, en groepsbeschrijvingen
 * Bekijk een visueel voorbeeld van de specifieke blauwdruk, zoals een projectsjabloon (u kunt de volledige afbeelding voorvertonen in de browser of deze downloaden)
 
-![[!UICONTROL Blueprint Details] page ](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Blueprint Details] page &#x200B;](assets/blueprint-details-page-2022.png)
 
 ## Een blauwdruk installeren
 
-Een Workfront-beheerder kan een blauwdruk rechtstreeks in elke omgeving installeren (productie-, voorvertoning- of sandboxomgeving). Meer leren, zie [ een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md) installeren of [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+Een Workfront-beheerder kan een blauwdruk rechtstreeks in elke omgeving installeren (productie-, voorvertoning- of sandboxomgeving). Meer leren, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/blueprints-install.md) installeren of [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
-Na installatie, zou u over de beste volgende te nemen acties kunnen onzeker zijn. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+Na installatie, zou u over de beste volgende te nemen acties kunnen onzeker zijn. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
 ## Aanvullende opmerkingen over blauwdrukken en sjablonen
 

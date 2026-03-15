@@ -53,13 +53,13 @@ U kunt een Time-off-rapport samenstellen om de tijd van informatie voor gebruike
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Persoonlijke tijd van gebruiker weergeven
 
-1. Klik het **Belangrijkste pictogram van het Menu** pictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Rapporten > Nieuw Rapport**.
+1. Klik het **Belangrijkste pictogram van het Menu** pictogram ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Rapporten > Nieuw Rapport**.
 1. Van het drop-down menu, uitgezochte **Tijd van**.
 1. Klik **sparen + Sluiten**.
 
@@ -79,7 +79,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    * Filters
    * Diagram
 
-   Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
    >[!TIP]
    >

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle rapportage- en dashboardverbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Documentgoedkeuring en beslissingsgegevens zijn nu beschikbaar in Data Connect
 
@@ -41,4 +41,4 @@ We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontw
 * U kunt weekends niet meer verbergen
 * En meer
 
-Voor meer informatie, zie de [ Kalenders ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) artikelen.
+Voor meer informatie, zie de [&#x200B; Kalenders &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) artikelen.

@@ -57,7 +57,7 @@ U kunt op gebruiker-gebaseerde vervangingen gebruiken wanneer het bouwen van de 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U moet een rapport creëren alvorens u een vervangingsvariabele aan het kunt toevoegen.
 
-Voor instructies bij het creëren van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor instructies bij het creëren van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Procedure
 
@@ -86,7 +86,7 @@ Om een op gebruiker-gebaseerde vervanging in een rapport op te nemen:
 
 1. In het **Begin typend naam...** doos, type: `$$USER.ID` of `$$USER.name` als u het rapport informatie over de gebruiker wilt tonen die binnen, gebaseerd op hun naam het programma opent. U kunt andere vervangingen opnemen die naar de het programma geopende Groep van de gebruiker, het Team, het Bedrijf, of andere informatie verwijzen.
 
-   Voor een volledige lijst van op gebruiker-gebaseerde vervangingen, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Voor een volledige lijst van op gebruiker-gebaseerde vervangingen, zie [&#x200B; overzicht van de de filtervariabelen van de Vervanging &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -95,8 +95,8 @@ Om een op gebruiker-gebaseerde vervanging in een rapport op te nemen:
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [ overzicht van de de filtervariabelen van de Verjaring ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [ creeer of geef filters in Adobe Workfront uit ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [ voeg een herinnering aan een rapport toe ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [&#x200B; overzicht van de de filtervariabelen van de Verjaring &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [&#x200B; voeg een herinnering aan een rapport toe &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

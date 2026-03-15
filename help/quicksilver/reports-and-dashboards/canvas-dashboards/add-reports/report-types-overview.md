@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze pagina beschrijft functionaliteit die als deel van de bèta van de Dashboards van het Canvas beschikbaar is. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
+>Deze pagina beschrijft functionaliteit die als deel van de bèta van de Dashboards van het Canvas beschikbaar is. Zie [&#x200B; de bèta-informatie van de Dashboards van het Canvas &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 Er zijn een aantal verschillende rapporten die u aan een dashboard van het Canvas kunt toevoegen die uw gegevens van Workfront op verschillende manieren visualiseren. De volgende typen rapporten kunnen worden toegevoegd aan een Canvasdashboard:
 

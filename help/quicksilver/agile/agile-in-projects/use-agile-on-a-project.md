@@ -16,4 +16,4 @@ ht-degree: 0%
 
 # Hulpprogramma gebruiken voor een project
 
-U kunt de functionaliteit van de Gelijkheid voor uw project zonder de administratieve uitdagingen hefboomwerking die de praktijken van Agile typisch begeleiden (zoals het beheren van een teamachterstand, het creëren van herhalingen, etc.). Voor meer informatie, zie [ een project in de [!UICONTROL Agile] Mening ](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+U kunt de functionaliteit van de Gelijkheid voor uw project zonder de administratieve uitdagingen hefboomwerking die de praktijken van Agile typisch begeleiden (zoals het beheren van een teamachterstand, het creëren van herhalingen, etc.). Voor meer informatie, zie [&#x200B; een project in de [!UICONTROL Agile] Mening &#x200B;](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.

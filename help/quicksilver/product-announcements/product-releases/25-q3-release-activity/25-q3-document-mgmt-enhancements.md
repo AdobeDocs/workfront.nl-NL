@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [&#x200B; Derde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 
 ## Verenigde Goedkeuringen Geleidelijke Uitvoer
@@ -37,7 +37,7 @@ De verenigde goedkeuringen vervangen de goedkeuringen van het Verouderd document
 * Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
 * De Dashboards van het Canvas van het gebruik om rapportdetails over Verenigde Goedkeuringen te bekijken
 
-Voor meer informatie zie [ Verenigde Goedkeuringen Overzicht ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Voor meer informatie zie [&#x200B; Verenigde Goedkeuringen Overzicht &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Desktop Proofing Viewer-update
 
@@ -69,7 +69,7 @@ We zijn erg blij dat we een nieuwe integratie tussen Proofing en GenStudio for P
 
 Workfront en GenStudio for Performance Marketing moeten worden geïmplementeerd in dezelfde IMS Org.
 
-Voor meer informatie, zie [ begonnen worden met de integratie van GenStudio for Performance Marketing en Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met de integratie van GenStudio for Performance Marketing en Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
 ## Desktop Proofing Viewer-update
 
@@ -86,7 +86,7 @@ Deze update geldt voor zowel Mac als Windows.
 >
 >* Voorvertoningsrelease: 2 juni 2025; Productieversie voor alle klanten: 2 juni 2025
 
-Google is [ verbeterend veiligheidscontroles ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) voor derdetoepassingen die tot de Aandrijving van Google toegang hebben, die toepassingen vereisen om een model van de per-gebruikerstoestemming goed te keuren. Dit betekent dat afzonderlijke elementen een voor een moeten worden gekoppeld om in Workfront zichtbaar te zijn. Zie [ documentintegratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) voor meer informatie vormen.
+Google is [&#x200B; verbeterend veiligheidscontroles &#x200B;](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) voor derdetoepassingen die tot de Aandrijving van Google toegang hebben, die toepassingen vereisen om een model van de per-gebruikerstoestemming goed te keuren. Dit betekent dat afzonderlijke elementen een voor een moeten worden gekoppeld om in Workfront zichtbaar te zijn. Zie [&#x200B; documentintegratie &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) voor meer informatie vormen.
 
 Belangrijke mogelijkheden die ongewijzigd blijven:
 
@@ -116,4 +116,4 @@ Eerder moest u de proefdrukviewer afsluiten om een beslissing te nemen.
 
 Goedkeuringen die vóór deze release zijn gemaakt, geven de knoppen in de proefdrukviewer niet weer.
 
-Voor meer informatie, zie [ de goedkeuringen van het nieuwe document van het Gebruik samen en het proef ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Voor meer informatie, zie [&#x200B; de goedkeuringen van het nieuwe document van het Gebruik samen en het proef &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).

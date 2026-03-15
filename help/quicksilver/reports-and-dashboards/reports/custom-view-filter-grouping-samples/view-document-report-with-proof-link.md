@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze documentweergave kunt u een koppeling invoegen naar een proefdruk van de huidige versie van het document.
 
-![ document van de Mening met proefdruk verbinding ](assets/view-document-with-proof-link-350x92.png)
+![&#x200B; document van de Mening met proefdruk verbinding &#x200B;](assets/view-document-with-proof-link-350x92.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze documentweergave kunt u een koppeling invoegen naar een proefdruk van de
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

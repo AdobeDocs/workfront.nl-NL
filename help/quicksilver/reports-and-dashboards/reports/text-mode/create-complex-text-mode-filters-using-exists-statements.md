@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel vereist een grondig inzicht in de Adobe Workfront API en de rapportinterface voor de tekstmodus. Voor informatie over Workfront API, zie [ API basiscs ](../../../wf-api/general/api-basics.md).\
->Voor informatie over het gebruiken van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>Dit artikel vereist een grondig inzicht in de Adobe Workfront API en de rapportinterface voor de tekstmodus. Voor informatie over Workfront API, zie [&#x200B; API basiscs &#x200B;](../../../wf-api/general/api-basics.md).\
+>Voor informatie over het gebruiken van tekstwijze, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Overzicht van objectrelaties in Workfront
 
@@ -36,7 +36,7 @@ Alle objecten zijn gekoppeld aan andere objecten in de Workfront-database.
 
 Als u de hiërarchie en de onderlinge afhankelijkheid van objecten begrijpt, kunt u beter achterhalen naar welke objecten in rapporten kan worden verwezen.
 
-Voor informatie over welke voorwerpen in Workfront en over hun hiërarchie en onderlinge afhankelijkheid zijn, zie [ de objecten van Adobe Workfront overzicht ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor informatie over welke voorwerpen in Workfront en over hun hiërarchie en onderlinge afhankelijkheid zijn, zie [&#x200B; de objecten van Adobe Workfront overzicht &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Wanneer u filters maakt, kunt u naar andere objecten verwijzen die met het object van het filter zijn verbonden binnen maximaal twee relatieniveaus met behulp van de standaardrapportinterface.
 
@@ -44,15 +44,15 @@ U kunt bijvoorbeeld naar de Portfolio-id in een emissiefilter verwijzen om allee
 
 U kunt echter niet naar de Portfolio-eigenaar verwijzen in een emissiefilter met de standaardinterface om alleen problemen weer te geven van projecten die zijn gekoppeld aan portfolio&#39;s waarbij de eigenaar een specifieke gebruiker is. U moet de tekstmodus gebruiken om toegang te krijgen tot het veld Naam eigenaar van Portfolio, dat drie niveaus verwijderd is van de problemen.
 
-![ Uitgave aan de pictogrammen van de portfolioeigenaar ](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![&#x200B; Uitgave aan de pictogrammen van de portfolioeigenaar &#x200B;](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-Voor een volledige lijst van voorwerpen in Workfront, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+Voor een volledige lijst van voorwerpen in Workfront, zie de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
-Voor informatie over hoe te om de API Ontdekkingsreiziger te navigeren en voorwerpen te vinden, zie [ Gebruikend de API Ontdekkingsreiziger ](../../../wf-api/general/using-api-explorer.md).
+Voor informatie over hoe te om de API Ontdekkingsreiziger te navigeren en voorwerpen te vinden, zie [&#x200B; Gebruikend de API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/using-api-explorer.md).
 
 Wanneer u filters maakt, moet u complexe instructies maken in de interface voor tekstmodus om naar deze typen objecten te verwijzen.
 
-Voor informatie over de bouw van complexe filters, zie het [ Overzicht van de complexe filters van de tekstwijze die het 1} sectie van verklaringen van het Gebruik {van dit artikel BESTAAN.](#overview-of-complex-text-mode-filters-that-use-exists-statements)
+Voor informatie over de bouw van complexe filters, zie het [&#x200B; Overzicht van de complexe filters van de tekstwijze die het 1&rbrace; sectie van verklaringen van het Gebruik &lbrace;van dit artikel BESTAAN.](#overview-of-complex-text-mode-filters-that-use-exists-statements)
 
 ## Overzicht van complexe tekstmodusfilters die EXISTS-instructies gebruiken {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -80,11 +80,11 @@ Houd rekening met de volgende regels wanneer u EXISTS-instructies in een filter 
 
 * U moet de objectcode van het object Koppelen gebruiken om uw instructies te verbinden.\
   U kunt de objectcode van alle objecten vinden in de API Explorer.\
-  Voor informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+  Voor informatie over de API Ontdekkingsreiziger, zie [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
 * Wanneer een object Koppelen ontbreekt omdat het origineel en de doelobjecten rechtstreeks met elkaar zijn verbonden, kunt u de objectcode van het doelobject gebruiken in plaats van het object Koppelen.
 * U kunt naar meerdere velden (doelvelden) op hetzelfde object (doelobject) verwijzen. In dat geval moet u de regels verbinden die naar de velden verwijzen door AND.\
-  Voor een voorbeeld van het filtreren voor meer dan één gebied dat tot het Voorwerp van het Doel behoort, zie [ Voorbeeld 4: Filter door veelvoudige gebieden: taken door de Naam van de Eigenaar van Portfolio en de sectie van identiteitskaart van het Scorecard van de Uitlijning van Portfolio ](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in dit artikel.
+  Voor een voorbeeld van het filtreren voor meer dan één gebied dat tot het Voorwerp van het Doel behoort, zie [&#x200B; Voorbeeld 4: Filter door veelvoudige gebieden: taken door de Naam van de Eigenaar van Portfolio en de sectie van identiteitskaart van het Scorecard van de Uitlijning van Portfolio &#x200B;](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in dit artikel.
 
 * De enige bepaling die voor een EXISTS verklaring wordt gesteund is NOTEXISTS.
 
@@ -118,7 +118,7 @@ Houd rekening met de volgende regels wanneer u EXISTS-instructies in een filter 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -132,7 +132,7 @@ U kunt een filter maken dat naar objecten verwijst op meerdere niveaus van de ob
 
 U moet altijd een EXISTS verklaring en de interface van de tekstwijze gebruiken om dit filter te bouwen.
 
-Voor voorbeelden van filters, zie [ Voorbeeld 1: Filter voor kwesties door de sectie van de Naam van de Eigenaar van Portfolio ](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
+Voor voorbeelden van filters, zie [&#x200B; Voorbeeld 1: Filter voor kwesties door de sectie van de Naam van de Eigenaar van Portfolio &#x200B;](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
 
 Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchie:
 
@@ -145,15 +145,15 @@ Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchi
 1. (Voorwaardelijk) als het Oorspronkelijke Voorwerp (Uitgave) en het Gebied van het Doel (ownerID) niet direct met elkaar worden verbonden, moet u een derde voorwerp vinden, een Verbonden Voorwerp (Project) dat hen verbindt. Het object Koppelen moet ten minste één veld hebben waarnaar wordt verwezen op de tabbladen Velden of Verwijzingen van het oorspronkelijke object (het veld Koppelen dat wordt weergegeven op het oorspronkelijke object) en het moet ook een koppelingsveld hebben naar het doelobject dat wordt weergegeven op de tabbladen Velden of Verwijzingen van het object Koppelen. Het veld Koppelen aan het doelobject dat wordt weergegeven op het object Koppelen (of het veld Koppelen dat wordt weergegeven op het object Koppelen) moet overeenkomen met het veld Doel.
 
    Bijvoorbeeld, (Project) identiteitskaart (het Gebied van de Verbinding die op het Oorspronkelijke Voorwerp wordt getoond) van Kwesties (Origineel Voorwerp) van verwijzingen wordt voorzien. (Portfolio) ownerID (het Gebied van de Verbinding met het Voorwerp van het Doel) wordt getoond op het lusje van Gebieden van het Project (het Verbindende Voorwerp). Portfolio ownerID is ook een veld op het doelobject (Portfolio). Het koppelingsveld op het koppelingsobject komt overeen met het doelveld.\
-   ![ portfolio_id_in_the_project_api_object.PNG ](assets/portfolio-id-in-the-project-api-object-350x88.png)
+   ![&#x200B; portfolio_id_in_the_project_api_object.PNG &#x200B;](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
 1. Gebruikend de API Ontdekkingsreiziger, identificeer de **Code van Objecten** van het Linking Voorwerp (Project).\
    De Objectcode voor Project is bijvoorbeeld PROJ.\
-   ![ project_objCode_in_the_API.PNG ](assets/project-objcode-in-the-api-350x84.png)
+   ![&#x200B; project_objCode_in_the_API.PNG &#x200B;](assets/project-objcode-in-the-api-350x84.png)
 
 1. Maak een filter voor het oorspronkelijke object.\
    Maak bijvoorbeeld een filter Uitgave.\
-   Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het creëren van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Plak het volgende voorbeeld van de formule in de tekstmodusinterface van het nieuwe filter en vervang de voorbeeldtekst door de juiste objecten en velden:
@@ -164,7 +164,7 @@ Een filter maken dat zich uitstrekt over meerdere niveaus in de objecthiërarchi
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   Voor een voorbeeld dat de gebieden gebruikt die wij hierboven hebben geïdentificeerd, zie [ Voorbeeld 1: Filter voor kwesties door de sectie van de Naam van de Eigenaar van Portfolio ](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
+   Voor een voorbeeld dat de gebieden gebruikt die wij hierboven hebben geïdentificeerd, zie [&#x200B; Voorbeeld 1: Filter voor kwesties door de sectie van de Naam van de Eigenaar van Portfolio &#x200B;](#example-1-filter-for-issues-by-portfolio-owner-name) in dit artikel.
 
 1. Klik **sparen Filter**.
 
@@ -180,7 +180,7 @@ U moet altijd gebruiken *BESTAAT* verklaring en de interface van de tekstwijze o
 
 Zie de volgende secties in dit artikel voor voorbeelden van filters voor ontbrekende objecten:
 
-* [ Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in enige douaneformulieren ](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) verschijnen
+* [&#x200B; Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in enige douaneformulieren &#x200B;](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) verschijnen
 * [Voorbeeld 3: Filter voor ontbrekende objecten: gebruikers die de tijd gedurende een bepaalde periode niet hebben geregistreerd](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 Een filter maken dat naar ontbrekende objecten verwijst:
@@ -197,11 +197,11 @@ Een filter maken dat naar ontbrekende objecten verwijst:
 
 1. Gebruikend de API Ontdekkingsreiziger, identificeer de **Code van Objecten** van het Gekoppelde Voorwerp (de Parameter van de Categorie).\
    Bijvoorbeeld, is de Code van Objecten voor de Parameter van de Categorie CTGYPA.\
-   ![ category_parameter_objcode_in_api.PNG ](assets/category-parameter-objcode-in-api-350x79.png)
+   ![&#x200B; category_parameter_objcode_in_api.PNG &#x200B;](assets/category-parameter-objcode-in-api-350x79.png)
 
 1. Maak een filter voor het oorspronkelijke object.\
    Maak bijvoorbeeld een parameterfilter.\
-   Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het creëren van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. (Voorwaardelijk) Als u filtert voor objecten die ontbreken, plakt u het volgende voorbeeld van de formule in de tekstmodusinterface van het nieuwe filter en vervangt u de voorbeeldtekst door de juiste objecten en velden:
@@ -212,7 +212,7 @@ Een filter maken dat naar ontbrekende objecten verwijst:
    EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Voor een voorbeeld om op de Gebieden van de Douane te melden die niet met Douane Forms worden geassocieerd, zie [ Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in om het even welke 1} sectie van douaneformulieren {in dit artikel verschijnen.](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+   Voor een voorbeeld om op de Gebieden van de Douane te melden die niet met Douane Forms worden geassocieerd, zie [&#x200B; Voorbeeld 2: Filter voor ontbrekende voorwerpen: douanegebieden die niet in om het even welke 1&rbrace; sectie van douaneformulieren &lbrace;in dit artikel verschijnen.](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 
 1. Klik **sparen Filter**.
 
@@ -227,7 +227,7 @@ Met de interface van de tekstmodus kunt u een filter maken voor een lijst met ui
 Om kwesties door de Naam van de Eigenaar van Portfolio te filtreren:
 
 1. Maak een filter Uitgave.\
-   Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het creëren van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Raadpleeg de volgende algemene code:
@@ -269,7 +269,7 @@ Met behulp van de interface van de tekstmodus kunt u een filter maken om aangepa
 Filteren voor aangepaste velden die niet zijn gekoppeld aan een aangepast formulier:
 
 1. Maak een parameter of een filter Aangepast veld.\
-   Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het creëren van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Raadpleeg de volgende algemene code:
@@ -306,7 +306,7 @@ Gebruikend de interface van de tekstwijze, kunt u een filter bouwen om gebruiker
 Hiermee filtert u voor gebruikers die zich vorige week niet hebben aangemeld:
 
 1. Maak een gebruikersfilter.\
-   Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het creëren van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Raadpleeg de volgende algemene code:
@@ -353,7 +353,7 @@ U kunt bijvoorbeeld een takenlijst filteren om alleen taken weer te geven die aa
 U kunt als volgt taken filteren op de Portfolio Owner Name en Portfolio Alignment Scorecard ID:
 
 1. Maak een taakfilter.\
-   Voor informatie over het creëren van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het creëren van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **Schakelaar aan de Wijze van de Tekst** dan **uitgeven de Wijze van de Tekst**.
 1. Plak de volgende code in het **Vastgestelde Regels van de Filter voor uw gebied van het Rapport**:

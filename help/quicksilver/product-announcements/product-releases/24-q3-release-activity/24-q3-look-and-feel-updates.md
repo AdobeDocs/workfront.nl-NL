@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van kleine updates voor de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die zijn aangebracht binnen de releaseperiode van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar met de Derde Versie van het Kwartaal 2024, zie [ Derde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de Derde Versie van het Kwartaal 2024, zie [&#x200B; Derde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -28,7 +28,7 @@ Voor een lijst van alle veranderingen beschikbaar met de Derde Versie van het Kw
 
 We hebben de lijst met toewijzingssuggesties bijgewerkt naar een moderner ontwerp dat consistent is in alle gebieden van Workfront. Wanneer u een toewijzing aan een taak of uitgave toevoegt vanuit de koptekst, lijstweergave of het scherm Geavanceerde toewijzing, is de ervaring hetzelfde. De suggesties zijn onderverdeeld in secties waarmee u snel de juiste persoon, het juiste team of de juiste taakrol voor de toewijzing kunt vinden.
 
-Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) toewijzen, [ wijs kwesties ](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) toe, en [ creeer geavanceerde toewijzingen ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) toewijzen, [&#x200B; wijs kwesties &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) toe, en [&#x200B; creeer geavanceerde toewijzingen &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Wijzigingen voor aangepaste formulieren weergeven op documentdetails
 
@@ -38,7 +38,7 @@ Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/assign-tasks/
 
 We hebben de pagina Documentdetails > Aangepaste Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. De pagina ondersteunt nu geavanceerde aangepaste formulierfuncties, zoals Externe zoekvelden.
 
-Voor informatie, zie [ Overzicht van de Details van het Document ](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+Voor informatie, zie [&#x200B; Overzicht van de Details van het Document &#x200B;](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
 ## Zoeken naar updates voor aangepaste formulieren op basis van iteratiedetails
 
@@ -48,7 +48,7 @@ Voor informatie, zie [ Overzicht van de Details van het Document ](/help/quicksi
 
 We hebben de pagina Interferinggegevens > Aangepaste Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. De pagina ondersteunt nu geavanceerde aangepaste formulierfuncties, zoals Externe zoekvelden.
 
-Voor informatie, zie [ een verhaal van het Agile in een herhaling ](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md) creëren.
+Voor informatie, zie [&#x200B; een verhaal van het Agile in een herhaling &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md) creëren.
 
 ## Wijzigingen weergeven voor het gebied Groepen
 
@@ -58,7 +58,7 @@ Voor informatie, zie [ een verhaal van het Agile in een herhaling ](/help/quicks
 
 We hebben de lijst met hoofdgroepen in het gebied Setup > Groepen bijgewerkt naar een moderner ontwerp dat aansluit bij andere gebieden van Workfront. Alle dialoogvensters voor groepen en subgroepen (toevoegen, bewerken, kopiëren, deactiveren, verwijderen), of deze nu worden geopend in de lijst Groepen of in het menu Meer voor een specifieke groep of subgroep, hebben ook het bijgewerkte ontwerp.
 
-Voor informatie, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ leiden een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Voor informatie, zie [&#x200B; een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [&#x200B; leiden een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Zoeken naar actuele informatie over de lijst met wisselkoersen
 
@@ -68,7 +68,7 @@ Voor informatie, zie [ een groep ](/help/quicksilver/administration-and-setup/ma
 
 Wij hebben het scherm van de Tarieven van de Uitwisseling aan een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
 
-Voor informatie, zie [ de wisselkoersen van de opstellings ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Voor informatie, zie [&#x200B; de wisselkoersen van de opstellings &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Updates voor de functielijst met weergaven
 
@@ -78,4 +78,4 @@ Voor informatie, zie [ de wisselkoersen van de opstellings ](/help/quicksilver/a
 
 We hebben het scherm Taakrollen bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 
-Voor informatie, zie [ banen creëren en leiden rollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Voor informatie, zie [&#x200B; banen creëren en leiden rollen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

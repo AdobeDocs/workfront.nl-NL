@@ -30,4 +30,4 @@ Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van 
 
 Previously, the board owner could not be changed without intervention on the back end.
 
-Voor meer informatie, zie [ leden toevoegen of verwijderen uit een raad ](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Voor meer informatie, zie [&#x200B; leden toevoegen of verwijderen uit een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).

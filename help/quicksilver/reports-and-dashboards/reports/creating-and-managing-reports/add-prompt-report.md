@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Filters en herinneringen zijn gelijkaardig in die zin dat zij allebei de hoeveelheid informatie beperken die u in een rapport toont.
 
-U bouwt een filter wanneer u de informatie die in het rapport wordt getoond door de zelfde criteria wilt worden gefiltreerd telkens als u het rapport in werking stelt. Filters worden één keer gemaakt en zijn hard gecodeerd in het rapport. Voor meer informatie over de bouw van filters, zie het overzicht van artikel [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+U bouwt een filter wanneer u de informatie die in het rapport wordt getoond door de zelfde criteria wilt worden gefiltreerd telkens als u het rapport in werking stelt. Filters worden één keer gemaakt en zijn hard gecodeerd in het rapport. Voor meer informatie over de bouw van filters, zie het overzicht van artikel [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 De herinnering is open filters die kunnen worden aangepast en verschillend worden toegepast telkens als u een rapport in werking stelt.
 
@@ -67,7 +67,7 @@ Met een filter kan Adobe Workfront alleen de uren laten zien die tussen juni en 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U moet een rapport creëren alvorens u een herinnering aan het kunt toevoegen.
 
-Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren
+Voor instructies bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren
 
 ## Een prompt maken
 
@@ -84,11 +84,11 @@ Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../
 
 1. Klik de **knoop van de Montages van het Rapport**.
 1. Klik het **Prompts van het Rapport** lusje, dan klik **toevoegen een Herinnering**.\
-   ![ de herinneringen van het Rapport tabel ](assets/create-report-prompt-tab.png)
+   ![&#x200B; de herinneringen van het Rapport tabel &#x200B;](assets/create-report-prompt-tab.png)
 
 1. (Voorwaardelijk) Selecteer het gebied dat u de herinnering wilt worden gebaseerd op. Typ de naam van het veld en klik om het te selecteren wanneer het veld in de lijst wordt weergegeven.\
    Welke opties beschikbaar zijn voor gebruikers die het rapport uitvoeren, is afhankelijk van het veld dat u selecteert.\
-   Als u bijvoorbeeld een datumveld selecteert, zoals Datum van feitelijke voltooiing in een taakrapport, is &quot;Datum van werkelijke voltooiing&quot; de naam van de vraag. Wanneer het uitgeven van deze herinnering aangezien u dit rapport in werking stelt, kunt u van een reeks bepalingen kiezen om uw het filtreren verklaring te bouwen. Dit proces is identiek aan het bouwen van een filter. Voor meer informatie over bepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Als u bijvoorbeeld een datumveld selecteert, zoals Datum van feitelijke voltooiing in een taakrapport, is &quot;Datum van werkelijke voltooiing&quot; de naam van de vraag. Wanneer het uitgeven van deze herinnering aangezien u dit rapport in werking stelt, kunt u van een reeks bepalingen kiezen om uw het filtreren verklaring te bouwen. Dit proces is identiek aan het bouwen van een filter. Voor meer informatie over bepalingen, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Voorwaardelijk) klik **Herinnering van de Douane** om een douaneherinnering tot stand te brengen.
 
@@ -103,7 +103,7 @@ Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../
    * **Voorwaarde:** ga een voorwaarde in die de herinnering bepaalt.
    * **Gebrek:** u kunt één punt selecteren om de standaardoptie voor deze herinnering te zijn.
 
-   Gebruik dezelfde syntaxis als u zou gebruiken bij het invoeren van een tekstmodusfilter en sluit u uw instructies aan op &quot;&amp;&quot;. Voor meer informatie over het uitgeven van een filter op tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Gebruik dezelfde syntaxis als u zou gebruiken bij het invoeren van een tekstmodusfilter en sluit u uw instructies aan op &quot;&amp;&quot;. Voor meer informatie over het uitgeven van een filter op tekstwijze, zie [&#x200B; een filter uitgeven gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
    Bijvoorbeeld, kon het **gebied van de Voorwaarde** van de douaneherinnering voor de volgende scenario&#39;s als dit kijken:
 
@@ -119,7 +119,7 @@ Voor instructies bij het creëren van een rapport, zie [ een rapport ](../../../
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   Voor meer informatie over de bepalingen van de tekstwijze, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor meer informatie over de bepalingen van de tekstwijze, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
@@ -136,7 +136,7 @@ Om een rapport met een herinnering in werking te stellen:
 
 1. Ga naar het rapport met de prompt.
 
-   ![ het rapportherinneringen van de Looppas ](assets/run-report-prompts.png)
+   ![&#x200B; het rapportherinneringen van de Looppas &#x200B;](assets/run-report-prompts.png)
 
 1. Kies een voorwaarde voor één of alle herinneringen die op **worden getoond Vragen** tabel.\
    (Optioneel) U kunt de vragen leeg laten en het rapport niet filteren op basis van de voorwaarden voor de vraag.
@@ -159,10 +159,10 @@ Hieronder volgt een beperking voor het delen van rapporten die worden gevraagd d
 
 * Wanneer u een rapport openbaar deelt, kunnen de gebruikers niet het rapport met toegepaste herinneringen in werking stellen, tenzij zij: hebben de geloofsbrieven van Workfront, login eerst, en navigeren aan het rapport direct in Workfront (niet door de openbare aandeelverbinding).
 
-  Voor meer informatie over het delen van rapporten, zie het artikel [ een rapport in Adobe Workfront ](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
+  Voor meer informatie over het delen van rapporten, zie het artikel [&#x200B; een rapport in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
 
 * Wanneer u een veroorzaakt rapport voor levering plant omvat het rapport in de e-mailgehechtheid ongevraagd de gegevens van het rapport. Wanneer de gebruiker de verbinding in e-mail klikt om tot het rapport toegang te hebben, moeten zij login eerst om het rapport te bekijken en de herinnering zelf in werking te stellen.
 
-  Voor informatie over het plannen van een geleverd rapport, zie [ Plan een automatische rapportlevering ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Voor informatie over het plannen van een geleverd rapport, zie [&#x200B; Plan een automatische rapportlevering &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 * Wanneer het runnen van een rapport met een op datum-gebaseerde herinnering, zullen de rapportresultaten worden gefiltreerd gebaseerd op de montages van de de tijdzone van uw browser. Dit kan lichte verschillen in de datumwaaiers veroorzaken die in een veroorzaakt rapport voor data worden getoond die aan het begin of eind van een maand zijn. Als de de tijdzonemontages van uw browser aan een specifieke plaats gebonden zijn, zullen de variaties in de lokale tijd van die plaats (zoals gehechtheid aan zomertijd) ook in de data worden verwerkt die voor een veroorzaakt rapport worden getoond. Dit kan leiden tot kleine verschillen in datumbereik tussen gebruikers in dezelfde tijdzone, maar met verschillende locatie-instellingen.

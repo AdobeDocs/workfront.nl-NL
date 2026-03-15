@@ -16,7 +16,7 @@ ht-degree: 0%
 
 This page describes all financial management enhancements made with the Third Quarter 2024 release to the Preview environment. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Billable and non-billable expenses fields available for projects and tasks
 
@@ -35,4 +35,4 @@ The Baseline, Template, and Project (Financial Data) reports also include the ne
 
 Billable expenses are marked as billable to the customer. Non-billable expenses are not marked as billable.
 
-Voor meer informatie over het merken van een uitgave als factureerbaar, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Voor meer informatie over het merken van een uitgave als factureerbaar, zie [&#x200B; projectuitgaven beheren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

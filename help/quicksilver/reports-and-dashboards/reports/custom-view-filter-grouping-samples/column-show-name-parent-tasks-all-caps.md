@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt deze kolom aan een taakmening toevoegen om de naam van de oudertaken in alle hoofdletters te tonen.
 
-![ Kolom met oudertaak in alle kapitalen ](assets/column-task-with-all-caps-parent-350x112.png)
+![&#x200B; Kolom met oudertaak in alle kapitalen &#x200B;](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U kunt deze kolom aan een taakmening toevoegen om de naam van de oudertaken in a
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 Deze kolom bouwen in een taakmening:
 
 1. Ga naar een takenlijst.
-1. Van het **drop-down menu van de Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. Van het **drop-down menu van de Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
 of\
    Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 

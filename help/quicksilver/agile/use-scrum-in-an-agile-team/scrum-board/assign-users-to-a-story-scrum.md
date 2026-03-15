@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -44,9 +44,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Ga naar de iteratie of het project van het Giele dat het verhaalbord bevat waar u gebruikers wilt toewijzen. Voor informatie over hoe te om aan een herhaling te navigeren, zie [ Mening een herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Ga naar de iteratie of het project van het Giele dat het verhaalbord bevat waar u gebruikers wilt toewijzen. Voor informatie over hoe te om aan een herhaling te navigeren, zie [&#x200B; Mening een herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Ga naar de artikeltegel op het artikelbord waar u een gebruiker wilt toevoegen.
 1. Klik op de teamavatar op de artikeltegel (of een gebruikersavatar als er al een is toegewezen), typ de naam van de gebruiker die u aan het artikel wilt toewijzen en klik op de naam wanneer deze wordt weergegeven. U kunt ook een gesuggereerde gebruiker kiezen.
 
@@ -54,4 +54,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >U kunt ook een taakrol toewijzen aan een artikel. U kunt alleen actieve gebruikers en actieve rollen toewijzen.
 
-   ![ voeg taak aan verhaalkaart toe ](assets/addassignmenttostorycard-350x472.png)
+   ![&#x200B; voeg taak aan verhaalkaart toe &#x200B;](assets/addassignmenttostorycard-350x472.png)

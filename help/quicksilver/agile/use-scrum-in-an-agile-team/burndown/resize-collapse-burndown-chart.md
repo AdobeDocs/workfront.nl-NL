@@ -41,7 +41,7 @@ Wijzigingen die u aanbrengt in het formaat of de zichtbaarheid van het inbouwdia
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,17 +49,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de herhaling die de burndown grafiek bevat u resize.
 1. Houd de cursor boven de onderste lijn van het onderste diagram en sleep het diagram naar de gewenste grootte.
-   ![ resize de burndown grafiek ](assets/burndown-resize.png)
+   ![&#x200B; resize de burndown grafiek &#x200B;](assets/burndown-resize.png)
 
 ## Het uitvouwdiagram samenvouwen
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Scrum] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de herhaling die de burndown grafiek bevat u wilt ineenstorten.
 1. Klik op het pijlpictogram links van de statusbalk van [!UICONTROL Percent Complete] .

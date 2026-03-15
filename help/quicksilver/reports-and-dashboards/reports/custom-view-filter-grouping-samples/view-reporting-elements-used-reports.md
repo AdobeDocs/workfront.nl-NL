@@ -22,7 +22,7 @@ Deze mening toont de Mening, de Filter, en de Groepering die worden gebruikt om 
 
 U kunt zien welke `valuefields` of `valueexpressions` in elk element van het rapport wordt gebruikt.
 
-![ report_with_elements_definitions.png ](assets/report-with-elements-definitions-350x130.png)
+![&#x200B; report_with_elements_definitions.png &#x200B;](assets/report-with-elements-definitions-350x130.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U kunt zien welke `valuefields` of `valueexpressions` in elk element van het rap
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

@@ -53,7 +53,7 @@ Eerst, moet u URL aan de verzoekrij verkrijgen. Ten tweede kunt u de URL insluit
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -62,17 +62,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Beide volgende elementen moeten worden gemaakt voordat u een aanvraagwachtrij kunt insluiten in een dashboard:
 
-* **het dashboard**: Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+* **het dashboard**: Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
-* **de verzoekrij**: Voor informatie bij het creëren van verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren
+* **de verzoekrij**: Voor informatie bij het creëren van verzoekrijen, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren
 
 ## Verkrijg URL van de verzoekrij {#obtain-the-url-of-the-request-queue}
 
 U kunt URL van een verzoekrij op veelvoudige manieren verkrijgen, afhankelijk van welk gedeelte van de verzoekrij u aan de gebruikers wilt blootstellen wanneer zij tot het van een dashboard toegang hebben.
 
-* [ verkrijg een verbinding aan een specifiek rijonderwerp met capaciteit om het verzoektype te veranderen ](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+* [&#x200B; verkrijg een verbinding aan een specifiek rijonderwerp met capaciteit om het verzoektype te veranderen &#x200B;](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
 
-* [ verkrijg een verbinding aan een verzoekrij en capaciteit om het verzoektype te veranderen ](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+* [&#x200B; verkrijg een verbinding aan een verzoekrij en capaciteit om het verzoektype te veranderen &#x200B;](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
 
 * [Verkrijg een verbinding aan een verzoekrij zonder capaciteit om het verzoektype te veranderen](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
@@ -83,7 +83,7 @@ Wanneer u een verbinding met een specifiek rijonderwerp met andere gebruikers de
 De gebruikers kunnen het verzoektype veranderen of een ander onderwerp kiezen als zij moeten. De navigatie van het gebied van Verzoeken toont ook.
 
 1. Klik het **Belangrijkste Menu** > **Verzoeken** > **Nieuwe Verzoek**.
-1. Ga door het selecteren van onderwerpgroepen en rijonderwerpen tot u de rij bereikt u op het dashboard wilt delen, als u specifieke rij wilt delen. Voor informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+1. Ga door het selecteren van onderwerpgroepen en rijonderwerpen tot u de rij bereikt u op het dashboard wilt delen, als u specifieke rij wilt delen. Voor informatie over het voorleggen van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
    >[!TIP]
    >
@@ -93,7 +93,7 @@ De gebruikers kunnen het verzoektype veranderen of een ander onderwerp kiezen al
 
    Dit kopieert de verbinding aan de verzoekrij of het rijonderwerp aangezien u het op het scherm toont. De gebruikers kunnen het Type van Verzoek of om het even welke onderwerpgroepen en rijonderwerpen bijwerken beschikbaar.
 
-   ![ rij van het Verzoek met aandeelweg ](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![&#x200B; rij van het Verzoek met aandeelweg &#x200B;](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Verkrijg een verbinding aan een verzoekrij en capaciteit om het verzoektype te veranderen {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -101,7 +101,7 @@ Wanneer u een koppeling naar een aanvraagtype deelt, wordt het aanvraagtype gese
 
 1. Ga naar een project dat als verzoekrij wordt aangewezen.
 
-   Voor informatie over het creëren van een verzoekrij van een project, ga [ tot een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) leiden.
+   Voor informatie over het creëren van een verzoekrij van een project, ga [&#x200B; tot een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) leiden.
 
 1. Ga naar **Details van de Rij**.
 1. Kopieer de code die u in het **Directe gebied van de Toegang URL** vindt.
@@ -114,7 +114,7 @@ Wanneer u een koppeling naar een aanvraagtype deelt, wordt het aanvraagtype gese
 
    De gebruikers kunnen om het even welk onderwerpgroep of rijonderwerp selecteren zij hebben vereist, of zij kunnen een ander verzoektype kiezen.
 
-   ![ de rij URL van het Verzoek ](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![&#x200B; de rij URL van het Verzoek &#x200B;](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Verkrijg een verbinding aan een verzoekrij zonder capaciteit om het verzoektype te veranderen {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -122,7 +122,7 @@ Wanneer u een koppeling deelt naar een vooraf geselecteerd aanvraagtype, wordt h
 
 1. Ga naar een project dat als verzoekrij wordt aangewezen.
 
-   Voor informatie over het creëren van een verzoekrij van een project, ga [ tot een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) leiden.
+   Voor informatie over het creëren van een verzoekrij van een project, ga [&#x200B; tot een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) leiden.
 
 1. Ga naar **Details van de Rij**.
 1. Kopieer de code die u op het **Ingebedde gebied van de Code** vindt.
@@ -143,13 +143,13 @@ Wanneer u een koppeling deelt naar een vooraf geselecteerd aanvraagtype, wordt h
 
    De gebruikers kunnen om het even welk onderwerpgroep of rijonderwerp selecteren zij voor het geselecteerde verzoektype nodig hebben. Gebruikers kunnen geen ander aanvraagtype selecteren.
 
-   ![ de rijcode van het Verzoek ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![&#x200B; de rijcode van het Verzoek &#x200B;](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Een aanvraagwachtrij insluiten in een dashboard
 
 U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat onder een verzoekrij in een dashboard wordt genesteld om gebruikers directe toegang tot het ingaan van verzoeken te geven.
 
-1. Verkrijg een verzoekrij URL gebruikend één van de methodes die in [ worden beschreven verkrijgen URL van de 1} sectie van de verzoekrij {van dit artikel.](#obtain-the-url-of-the-request-queue)
+1. Verkrijg een verzoekrij URL gebruikend één van de methodes die in [&#x200B; worden beschreven verkrijgen URL van de 1&rbrace; sectie van de verzoekrij &lbrace;van dit artikel.](#obtain-the-url-of-the-request-queue)
 
 1. Klik het **Belangrijkste Menu** > **Dashboards** > **Nieuw Dashboard**.
 
@@ -157,7 +157,7 @@ U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat ond
 
 1. Klik **toevoegen Externe Pagina**.
 
-   ![ Externe pagina ](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![&#x200B; Externe pagina &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. In **voeg Externe de doos van de Pagina** toe, geef de volgende gebieden uit:
 
@@ -177,7 +177,7 @@ U kunt een verbinding aan de verzoekrij of aan een rijonderwerp inbedden dat ond
 
 1. (Facultatief) klik **Acties van het Dashboard**, dan **geef** uit om rapporten, kalenders, of extra externe pagina&#39;s aan het zelfde dashboard toe te voegen.
 
-   Voor informatie over het toevoegen van componenten aan een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+   Voor informatie over het toevoegen van componenten aan een dashboard, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

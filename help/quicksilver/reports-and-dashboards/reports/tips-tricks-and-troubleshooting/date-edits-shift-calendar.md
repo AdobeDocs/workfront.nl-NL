@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Probleem
 
 Bij inline bewerkingsdatums in een lijst met objecten worden in de kalender meer datums weergegeven dan u zou mogen. Hierdoor worden de dagen buiten het kalendervak weergegeven.\
-![ de mening van de Kalender ](assets/calendar-view-350x134.png)
+![&#x200B; de mening van de Kalender &#x200B;](assets/calendar-view-350x134.png)
 
 ## Oorzaak
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
 
-U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aangesloten kaart, afhankelijk van de instellingen voor e-mailmeldingen. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
+U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aangesloten kaart, afhankelijk van de instellingen voor e-mailmeldingen. Voor meer informatie, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aanges
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,7 +53,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik [!UICONTROL **Voorkeur**] op het borden dashboard.
 1. Selecteer of u e-mails wilt ontvangen die u aan een kaart wilt toevoegen en aan een kaart wilt toewijzen.
 
-   ![ Borden e-mailvoorkeur ](assets/boards-email-preferences.png)
+   ![&#x200B; Borden e-mailvoorkeur &#x200B;](assets/boards-email-preferences.png)
 
    De voorkeuren die u instelt voor e-mailberichten, gelden voor al uw borden.
 

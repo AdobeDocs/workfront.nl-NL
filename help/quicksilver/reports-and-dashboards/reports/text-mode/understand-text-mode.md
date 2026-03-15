@@ -35,7 +35,7 @@ Zie de sectie Leren op de website van de Adobe Experience League voor meer infor
 
 >[!TIP]
 >
->U kunt ook de mogelijkheden van berekende aangepaste velden uitbreiden met een versie van de tekstmodus voor aangepaste velden. De syntaxis en regels voor het maken van een berekend aangepast veld verschillen van de syntaxis en regels die u gebruikt in rapporten en lijsten. Voor informatie over het toevoegen van een berekend douanegebied, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+>U kunt ook de mogelijkheden van berekende aangepaste velden uitbreiden met een versie van de tekstmodus voor aangepaste velden. De syntaxis en regels voor het maken van een berekend aangepast veld verschillen van de syntaxis en regels die u gebruikt in rapporten en lijsten. Voor informatie over het toevoegen van een berekend douanegebied, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus.
 * We recommend that you use standard mode to ensure the reports you create remain intact when the Workfront software is updated. In de tekstmodus kunt u complexere weergaven, filters en groepen maken, maar het is ook moeilijker om deze te onderhouden en het is niet gegarandeerd wanneer de Workfront-software wordt bijgewerkt.
@@ -47,7 +47,7 @@ Zie de sectie Leren op de website van de Adobe Experience League voor meer infor
 
 * There are a set of rules and a unique syntax that you must use in order to successfully build reports and lists in text mode. Make sure you are familiar with the Workfront syntax for text mode before you begin.
 
-  Voor informatie over de syntaxis en de regels voor het gebruiken van tekstwijze, zie [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Voor informatie over de syntaxis en de regels voor het gebruiken van tekstwijze, zie [&#x200B; overzicht van de de wijzesyntaxis van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Nadat u een rapporteringselement op tekstwijze aanpast, zou u of niet op standaardwijze (in een mening) kunnen kunnen kunnen terugschakelen of de code voor het element zou kunnen worden geschrapt u creeerde (in filters en groepen.) Niet alle velden die in de tekstmodus worden ondersteund, worden in de standaardmodus ondersteund.
 
@@ -57,7 +57,7 @@ De Standaardinterface van de Wijze toont gebieden om de toepassingselementen in 
 
 Voor meer informatie over de standaardwijzeinterface en leren hoe te om een rapport of een lijst tot stand te brengen, zie:
 
-* [ creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [&#x200B; creeer een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [Elementen rapporteren: filters, weergaven en groepen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Text Mode interface
@@ -76,8 +76,8 @@ Toegang tot de interface van de tekstmodus is vergelijkbaar voor weergaven, groe
 
 Zie voor meer informatie over het gebruik van de tekstmodus in weergaven, filters en groepen:
 
-* [ geef een mening uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [ geef een filter uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [&#x200B; geef een mening uit gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [&#x200B; geef een filter uit gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Een groep bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 Custom prompts can only be edited in text mode. You can access prompts only from a report.
@@ -88,4 +88,4 @@ For information about accessing the text mode interface for custom prompts, see 
 
 Buiten het creëren van douaneherinneringen die slechts gebruikend tekstwijze kunnen worden gevormd, adviseren wij dat u de rapportbouwer gebruikt om uw meningen, filters en groeperingen te bouwen. In sommige gevallen kunt u echter de tekstmodus gebruiken om uw rapporten en lijsten te verbeteren.
 
-Voor meer informatie over gemeenschappelijk gebruik voor tekstwijze, zie [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Voor meer informatie over gemeenschappelijk gebruik voor tekstwijze, zie [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

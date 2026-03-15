@@ -25,4 +25,4 @@ Met gebruiksrapporten kunt u de voortgang of kosten van een of meer projecten in
 
 U moet beheertoegang tot de projecten hebben om toegang te krijgen tot gebruiksinformatie in de sectie Gebruik van het gebied Bronnen. Neem contact op met uw Adobe Workfront-beheerder als u deze gegevens nog steeds niet kunt openen.
 
-Voor informatie over om tot het gebruiksrapport toegang te hebben en te gebruiken, zie de het middelgebruiksinformatie van het artikel [ van de Mening ](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+Voor informatie over om tot het gebruiksrapport toegang te hebben en te gebruiken, zie de het middelgebruiksinformatie van het artikel [&#x200B; van de Mening &#x200B;](../../../resource-mgmt/resource-utilization/view-utilization-information.md).

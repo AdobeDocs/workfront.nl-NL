@@ -20,21 +20,21 @@ ht-degree: 0%
 
 In de volgende secties krijgt u meer inzicht in de werking van het [!UICONTROL Kanban] -board.
 
-Voor een beschrijving van K [!UICONTROL anban] methodologie, zie [ een team van de Gelijkheid ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
+Voor een beschrijving van K [!UICONTROL anban] methodologie, zie [&#x200B; een team van de Gelijkheid &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
 
-Als u in het migreren van een de teamraad van de Gibel [!UICONTROL Kanban] aan [!DNL Workfront] [!UICONTROL Boards] geinteresseerd bent, zie [ Gelijke teamkaarten [!UICONTROL Kanban] aan  [!DNL Workfront]  boards ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) migreren.
+Als u in het migreren van een de teamraad van de Gibel [!UICONTROL Kanban] aan [!DNL Workfront] [!UICONTROL Boards] geinteresseerd bent, zie [&#x200B; Gelijke teamkaarten [!UICONTROL Kanban] aan  [!DNL Workfront]  boards &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) migreren.
 
 ## [!UICONTROL Kanban] boardlayout en -functies
 
 De [!UICONTROL Kanban] -board bestaat uit de volgende elementen:
 
-**Achtergrondkolom**: Toont alle taken die momenteel op de backlog zijn. Deze kolom wordt niet standaard weergegeven. Voor meer informatie over de backlog, met inbegrip van hoe te om het op de [!UICONTROL Kanban] raad te tonen, zie [ de Agile backlog ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) leiden.
+**Achtergrondkolom**: Toont alle taken die momenteel op de backlog zijn. Deze kolom wordt niet standaard weergegeven. Voor meer informatie over de backlog, met inbegrip van hoe te om het op de [!UICONTROL Kanban] raad te tonen, zie [&#x200B; de Agile backlog &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) leiden.
 
 **de Statussen van het Verhaal**: Wijst erop hoe een verhaal gebaseerd op welke statuskolom voortschrijdt het verhaal binnen is.
 
-Voor meer informatie, zie [ Update de status van verhalen op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
+Voor meer informatie, zie [&#x200B; Update de status van verhalen op de [!UICONTROL Kanban] raad &#x200B;](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-De statussen van het verhaal kunnen voor het project worden aangepast door de mening van de Gelijkheid te wijzigen, zoals die in de sectie [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [ wordt beschreven creeer of geef meningen in  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
+De statussen van het verhaal kunnen voor het project worden aangepast door de mening van de Gelijkheid te wijzigen, zoals die in de sectie [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [&#x200B; wordt beschreven creeer of geef meningen in  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
 
 >[!NOTE]
 >

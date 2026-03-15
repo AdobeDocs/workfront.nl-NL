@@ -28,7 +28,7 @@ valueformat=currencyStringCurrencyRounded
 valuefield=budget
 ```
 
-Voor meer informatie over het toepassen van voorwaardelijk het formatteren in de rapporten en lijsten van Workfront gebruikend tekstwijze, zie [ Voorwaardelijk het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+Voor meer informatie over het toepassen van voorwaardelijk het formatteren in de rapporten en lijsten van Workfront gebruikend tekstwijze, zie [&#x200B; Voorwaardelijk het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 U kunt getallen opmaken met de volgende waarden voor de `valueformat` -regel van uw kolom:
 

@@ -60,7 +60,7 @@ U kunt het verschil tussen het volgende berekenen:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum en de Werkelijke Voltooiingsdatum van een taak.
 
-![ de datumverschil van de Mening ](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![&#x200B; de datumverschil van de Mening &#x200B;](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
@@ -95,10 +95,10 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
 
 ## Het tijd- en datumverschil berekenen tussen het veld op een object en een ander veld op een bovenliggend object
 
-Voor een lijst van voorwerpen en hun ouders, zie het &quot;Begrijpen van de Interdependentie en de Hiërarchie van de sectie van Objecten&quot;in [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.\
+Voor een lijst van voorwerpen en hun ouders, zie het &quot;Begrijpen van de Interdependentie en de Hiërarchie van de sectie van Objecten&quot;in [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.\
 Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van een taak en de Geplande Datum van Voltooiing van zijn oudertaak, of van het project berekenen dat de taak is.
 
-![ Mening gepland verschil van de voltooiingsdatum ](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![&#x200B; Mening gepland verschil van de voltooiingsdatum &#x200B;](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.

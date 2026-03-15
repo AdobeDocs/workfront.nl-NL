@@ -23,14 +23,14 @@ U kunt een matrixrapport voor om het even welk rapport tot stand brengen dat 2 o
 
 Bijvoorbeeld, wilt u een rapport van het Uur tot stand brengen dat de uren toont die tijdens een periode van drie maanden worden geregistreerd, en u wilt dat het rapport volgens wie de uren, evenals door maand en week ingaan wordt georganiseerd.
 
-![ de matrixoverzicht van het Rapport ](assets/report-matrix-overview-350x123.png)
+![&#x200B; de matrixoverzicht van het Rapport &#x200B;](assets/report-matrix-overview-350x123.png)
 
 ## Hoe gegevens in een matrixrapport worden weergegeven
 
 De informatie in het matrixrapport wordt altijd getoond als numerieke waarde. In de meeste gevallen, zijn de kolommen die een numerieke waarde bevatten best voor het tonen in een matrixrapport (zoals het geregistreerde uren en daadwerkelijke kosten).
 
 Andere kolommen (zoals Status) kunnen echter nog steeds worden weergegeven in het matrixrapport, zoals in de volgende afbeelding wordt getoond:\
-![ status van de Matrijs ](assets/report-matrix-status-350x73.png)
+![&#x200B; status van de Matrijs &#x200B;](assets/report-matrix-status-350x73.png)
 
 ## Toegangsvereisten
 
@@ -62,14 +62,14 @@ Andere kolommen (zoals Status) kunnen echter nog steeds worden weergegeven in he
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een matrixrapport instellen
 
 1. Creeer een traditioneel rapport dat numerieke gegevens in de rapportoutput bevat.\
-   Voor informatie over hoe te om een rapport tot stand te brengen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor informatie over hoe te om een rapport tot stand te brengen, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Ga naar het rapport dat u in Stap 1 creeerde, klik **Acties van het Rapport**, dan uitgezocht **geef** uit.
 
@@ -83,7 +83,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       >
       >Als deze optie niet is geselecteerd, wordt de informatie uit de kolom niet correct weergegeven in het matrixrapport.
 
-      ![ Samengevatte Matrijs ](assets/qs-report-matrix-summarized-350x392.png)
+      ![&#x200B; Samengevatte Matrijs &#x200B;](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Herhaal dit proces voor elke kolom in het lusje van Kolommen (Mening), dan klik **Gedaan**.
 
@@ -97,10 +97,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    1. In de **sectie van de Groepen van de Kolom**, identificeer de kolomgroepering, die de verticale groeperingen van de lijst vestigt.
    1. (Facultatief) om een extra kolom toe te voegen groeperen, **voeg secundaire Kolomgroepering** toe.
    1. (Voorwaardelijk) Als u een groepering door datum toevoegt, specificeer ook of de resultaten door dag, week, maand, kwartaal of jaar worden gegroepeerd.\
-      ![ Groepering door datumopties ](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![&#x200B; Groepering door datumopties &#x200B;](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Voorwaardelijk) als u aan groep door datum selecteerde en resultaten door kwartaal te tonen, bijvoorbeeld, specificeer of u kwarten zonder gegevens wilt tonen door **te selecteren toont kwarten zonder resultaten** checkbox.\
-      ![ toon kwarten zonder resultaten ](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![&#x200B; toon kwarten zonder resultaten &#x200B;](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >
@@ -126,14 +126,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      >   * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken. Als u het matrixrapport aan vertoning Geplande Uren of Werkelijke Uren in de **kolom van de Waarde** creeerde, ben zich ervan bewust dat uren of kosteninformatie voor om het even welke oudervoorwerpen (zoals oudertaken) niet in het matrixrapport worden getoond. Om uren op oudervoorwerpen te bekijken, moet u de **Details** tabel bekijken.
      >   
      >   
-     >
+     >**Voorwaardelijke Regels:** opstelling om het even welke het formatteren regels voor waarden die worden bijeengevoegd.\
 
-   **Voorwaardelijke Regels:** opstelling om het even welke het formatteren regels voor waarden die worden bijeengevoegd.\
    Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik **toevoegen Regel** nadat u het bepalen van de regel gebeëindigd hebt, toen **Gedaan** om de regel te bewaren.
 
 1. Klik het **lusje van Filters** om te bepalen welke informatie in het rapport zal tonen.
 1. (Voorwaardelijk) als u reeds een Filter creeerde en u het op dit rapport wilt toepassen, klik **een Bestaand Filter** toepassen, dan selecteer de Filter van de drop-down lijst.
-1. (Voorwaardelijk) Als u een nieuwe Filter voor dit rapport wilt tot stand brengen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+1. (Voorwaardelijk) Als u een nieuwe Filter voor dit rapport wilt tot stand brengen, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

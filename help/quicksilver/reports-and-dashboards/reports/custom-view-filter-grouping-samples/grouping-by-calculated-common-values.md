@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U zou uw taken kunnen willen bekijken die door Percentage wordt gegroepeerd Voltooien in waaiers van 0-25, 26-50, 51-75, 75-99, en 100. Hiervoor kunt u een groepering maken in de tekstmodus.
 
-![ Groepering door berekende waarde ](assets/grouping-calculated-value-column-to-all-objects.png)
+![&#x200B; Groepering door berekende waarde &#x200B;](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U zou uw taken kunnen willen bekijken die door Percentage wordt gegroepeerd Volt
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

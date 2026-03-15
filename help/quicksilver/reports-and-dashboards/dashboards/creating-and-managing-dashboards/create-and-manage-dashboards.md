@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
-* [ voeg een rapport aan een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md) toe
-* [ Exemplaar een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
-* [ geef een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uit
-* [ Schrap een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
-* [ Druk een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
-* [ Uitvoer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
-* [ deel een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-* [ bed een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) in
-* [ bed een verzoekrij in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) in
+* [&#x200B; creeer een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+* [&#x200B; voeg een rapport aan een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md) toe
+* [&#x200B; Exemplaar een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
+* [&#x200B; geef een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uit
+* [&#x200B; Schrap een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
+* [&#x200B; Druk een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
+* [&#x200B; Uitvoer een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
+* [&#x200B; deel een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+* [&#x200B; bed een externe Web-pagina in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) in
+* [&#x200B; bed een verzoekrij in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) in
 * [Een externe pagina verwijderen van een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
 * [Overzicht van canvasdashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

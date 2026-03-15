@@ -16,4 +16,4 @@ ht-degree: 0%
 
 # Aangepaste statussen die niet worden weergegeven op het whitepaper
 
-Als u een aangepaste status wilt gebruiken op een artikel in een artikel in een artikel, moet uw [!DNL Adobe Workfront] -beheerder eerst die aangepaste status maken als een status voor het hele systeem. Voor meer informatie, heb uw [!DNL Workfront] beheerder zien [ creeer of geef een status ](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+Als u een aangepaste status wilt gebruiken op een artikel in een artikel in een artikel, moet uw [!DNL Adobe Workfront] -beheerder eerst die aangepaste status maken als een status voor het hele systeem. Voor meer informatie, heb uw [!DNL Workfront] beheerder zien [&#x200B; creeer of geef een status &#x200B;](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt dashboards tot stand brengen om tot informatie in Adobe Workfront snel toegang te hebben. U kunt maximaal 25 rapporten, kalenders en externe pagina&#39;s toevoegen aan dashboards die u met anderen kunt delen voor optimale samenwerking.
 
-Meer over dashboards leren, zie [ begonnen met dashboards ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Meer over dashboards leren, zie [&#x200B; begonnen met dashboards &#x200B;](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Meer over dashboards leren, zie [ begonnen met dashboards ](../../../reports-and
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ You must create any of the following objects before you can add them to a dashbo
 
 * **Calendars**: For information on creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-U kunt bestaande externe pagina&#39;s toevoegen aan een dashboard of u kunt een pagina maken van het nieuwe dashboard. Voor informatie bij het creëren van externe pagina&#39;s, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
+U kunt bestaande externe pagina&#39;s toevoegen aan een dashboard of u kunt een pagina maken van het nieuwe dashboard. Voor informatie bij het creëren van externe pagina&#39;s, zie [&#x200B; een externe Web-pagina in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
 ## Een dashboard maken
 
@@ -93,7 +93,7 @@ U kunt bestaande externe pagina&#39;s toevoegen aan een dashboard of u kunt een 
 
    De lay-out met één kolom is de standaardinstelling.
 
-   Voor informatie over rapportlay-out op dashboards, zie [ begrijpen hoe de rapporten op een dashboard ](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md) tonen.
+   Voor informatie over rapportlay-out op dashboards, zie [&#x200B; begrijpen hoe de rapporten op een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md) tonen.
 
    <!--
    Consider adding the information from this article above here, at some point, instead of linking to it.)
@@ -109,7 +109,7 @@ U kunt bestaande externe pagina&#39;s toevoegen aan een dashboard of u kunt een 
 
 1. (Optioneel) Klik op **Externe pagina toevoegen** om een nieuwe externe pagina aan het dashboard toe te voegen.
 
-   Voor meer informatie over het creëren van externe pagina&#39;s en het inbedden van hen in dashboards, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
+   Voor meer informatie over het creëren van externe pagina&#39;s en het inbedden van hen in dashboards, zie [&#x200B; een externe Web-pagina in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
 1. Klik **sparen + Sluiten**.
 

@@ -17,8 +17,8 @@ ht-degree: 0%
 
 De iteraties van het iegel bestaan uit drie gebieden: voltooiingsstatus, begraving, en de verhaalraad.
 
-![ mening van de Interlatie ](assets/agile-iteration-with-callouts.png)
+![&#x200B; mening van de Interlatie &#x200B;](assets/agile-iteration-with-callouts.png)
 
 Zie de sectie [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) voor meer informatie over het uitvouwdiagram en de voltooiingsstatus.
 
-Zie de sectie [[!UICONTROL Scrum] board ](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) voor meer informatie over het artikelbord.
+Zie de sectie [[!UICONTROL Scrum] board &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) voor meer informatie over het artikelbord.

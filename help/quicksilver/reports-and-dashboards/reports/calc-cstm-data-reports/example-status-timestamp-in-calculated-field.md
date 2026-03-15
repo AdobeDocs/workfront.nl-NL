@@ -51,7 +51,7 @@ In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
    >
    >Deze berekening is identiek voor alle objecten en voor alle statussen. U moet altijd de drie-letterige sleutel gebruiken, en niet de statusnaam voor de objecten status in deze berekening.
    >
-   >Voor meer informatie over de sleutels voor Statussen, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+   >Voor meer informatie over de sleutels voor Statussen, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 1. Klik **sparen+Sluiten**.
 
