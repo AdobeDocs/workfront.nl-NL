@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Automatische herinneringen instellen
 description: U kunt automatische herinneringen instellen om e-mailmeldingen te activeren wanneer alle taken of problemen opeisbaar zijn, te laat of bijna op de geplande voltooiingsdatum.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Een automatische herinnering kan naar één of meerdere van het volgende worden 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,10 +111,10 @@ Als u de aangewezen entiteit bent in een Automatische herinnering, ontvangt u ee
 
 De taken met bepaalde gebiedstypes kunnen na de gespecificeerde begindatum leveren, alhoewel zij achterstallig zijn. Bijvoorbeeld, als een taak een voorganger met een eind-Begin (fs) gebiedsdeel heeft, zal het niet in e-mail worden omvat, zelfs als het de gespecificeerde begindatum is overgegaan, omdat u niet de taak kunt beginnen tot voorganger volledig is.
 
-Voor meer informatie over het ontvangen van Automatische herinneringen e-mails, zie de [&#x200B; Automatische herinneringen &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) sectie in [&#x200B; de berichten van Adobe Workfront &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie over het ontvangen van Automatische herinneringen e-mails, zie de [ Automatische herinneringen ](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) sectie in [ de berichten van Adobe Workfront ](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatische herinneringen verzenden
 
 Automatische herinneringen worden verzonden zodra de door de Workfront-beheerder geselecteerde tijd is verstreken.
 
-Als u het handmatig verzenden van de automatische herinneringse-mails wilt activeren, kunt u dit doen met Diagnostics. Voor meer informatie over de toegang tot van en het gebruiken van Diagnostiek in Workfront, zie [&#x200B; Diagnose van het Gebruik om geautomatiseerde processen &#x200B;](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.
+Als u het handmatig verzenden van de automatische herinneringse-mails wilt activeren, kunt u dit doen met Diagnostics. Voor meer informatie over de toegang tot van en het gebruiken van Diagnostiek in Workfront, zie [ Diagnose van het Gebruik om geautomatiseerde processen ](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.

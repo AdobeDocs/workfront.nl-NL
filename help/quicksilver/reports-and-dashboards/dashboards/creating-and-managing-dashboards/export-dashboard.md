@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Een dashboard exporteren
 description: U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de drukopties beschikbaar in uw Webbrowser.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -54,7 +54,7 @@ U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de drukopties b
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,14 +62,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Het dashboard moet worden gemaakt voordat u het kunt exporteren.
 
-Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard exporteren naar een .pdf-bestand:
 
 1. Ga naar het dashboard dat u wilt exporteren.
 1. Klik {de acties van 0} Dashboard **, dan selecteren** Voorproef van de Druk **.**
 
-   ![&#x200B; de drukvoorproef van het dashboard &#x200B;](assets/dashboard-actions-print-350x254.png)
+   ![ de drukvoorproef van het dashboard ](assets/dashboard-actions-print-350x254.png)
 
    Het venster Afdrukvoorbeeld wordt geopend.
 
@@ -91,15 +91,15 @@ Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x
        <ol> 
         <li value="1">Op het <strong> gebied van de Bestemming </strong>, uitgezocht <strong> sparen als PDF </strong>, dan wijzig om het even welke andere drukopties u wilt veranderen.</li> 
         <li value="2">Klik <strong> sparen </strong>.</li> 
-        <li value="3">(Optioneel) Bewerk de <strong> naam van het Dossier </strong>, dan selecteer een nieuwe omslagbestemming voor het dossier.</li> 
-        <li value="4">Klik <strong> sparen </strong> om het .pdf- dossier aan uw harde aandrijving te bewaren.<br><br></li> 
+        <li value="3">(Facultatief) geef <strong> Naam van het Dossier </strong> uit, dan selecteer een nieuwe omslagbestemming voor het dossier.</li> 
+        <li value="4">Klik <strong> sparen </strong> om het .pdf- dossier aan uw harde aandrijving op te slaan.<br><br></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge en Mozilla Firefox</td> 
       <td> <p>Opmerking: als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
        <ol> 
-        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3&rbrace; gebied van de Printer, de uitgezochte </strong> Afdruk van Microsoft aan PDF <strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
+        <li value="1">In het <strong> 3} gebied van de Printer </strong> of <strong> Uitgezochte Printer </strong>, selecteer <strong> de Druk van Microsoft aan PDF </strong>, dan wijzig om het even welke andere drukopties u wilt veranderen.</li> 
         <li value="2">Klik <strong> Druk </strong>.</li> 
         <li value="3">Ga a <strong> Naam van het Dossier </strong> in</li> 
         <li value="4">(Optioneel) Selecteer een nieuwe mapbestemming voor het bestand.</li> 
@@ -110,8 +110,8 @@ Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x
       <td>Safari</td> 
       <td> 
        <ol> 
-        <li value="1">In de bodem-linkerhoek, klik de drop-down pijl, dan uitgezocht <strong> sparen als PDF </strong>.</li> 
-        <li value="2">Ga a <strong> naam van het Dossier </strong> in.</li> 
+        <li value="1">In de laag-linkerhoek, klik de drop-down pijl, dan uitgezocht <strong> sparen als PDF </strong>.</li> 
+        <li value="2">Ga a <strong> Naam van het Dossier </strong> in.</li> 
         <li value="3">(Optioneel) Wijzig andere afdrukopties die u wilt wijzigen, zoals het selecteren van een nieuwe mapbestemming voor het bestand.</li> 
         <li value="4">Klik <strong> sparen </strong>.</li> 
        </ol> </td> 

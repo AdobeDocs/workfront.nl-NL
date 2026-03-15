@@ -4,10 +4,10 @@ keywords: gebruiker,delegatie,rapport,afgevaardigde,goedkeuring
 navigation-topic: create-and-manage-reports
 title: Rapport gebruikersdelegatie maken
 description: Een gebruikersdelegatierapport maken
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -22,14 +22,14 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-In Adobe Workfront, kunnen de gebruikers project delegeren, taak, en goedkeuringen aan andere gebruikers uitgeven om ervoor te zorgen dat hun goedkeuringen worden beheerd wanneer zij uit bureau zijn. De gebruikers met een vergunning van het Plan kunnen een rapport van de Delegatie van de Gebruiker tot stand brengen om te zien:
+In Adobe Workfront, kunnen de gebruikers project delegeren, taak, en goedkeuringen aan andere gebruikers uitgeven om ervoor te zorgen dat hun goedkeuringen worden beheerd wanneer zij uit bureau zijn. Gebruikers met een licentie voor een abonnement kunnen een gebruikersdelegatierapport maken om te zien:
 
-* Wie zijn taak, kwestie, en projectgoedkeuringen aan een andere gebruiker heeft gedelegeerd
-* Welke gebruikers taak, kwestie, en projectgoedkeuringen hebben gedelegeerd die aan hen worden toegewezen
+* Wie zijn taak-, uitgave- en projectgoedkeuringen heeft gedelegeerd aan een andere gebruiker
+* Aan welke gebruikers toegewezen taken, uitgaven en projectgoedkeuringen hebben gedelegeerd
 
 * Begindatum en einddatum van de delegaties
 
-Meer leren over het delegeren van goedkeuringen, zie [&#x200B; de goedkeuringsverzoek van de Afgevaardigde &#x200B;](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Meer over het delegeren van goedkeuringen leren, zie [ de goedkeuringsverzoek van de Delegatie ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -41,7 +41,7 @@ Meer leren over het delegeren van goedkeuringen, zie [&#x200B; de goedkeuringsve
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
++++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,37 +69,37 @@ Meer leren over het delegeren van goedkeuringen, zie [&#x200B; de goedkeuringsve
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een gebruikersdelegatierapport maken
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) Rapporten **.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) Rapporten **.**
 
 1. Klik **Nieuw Rapport**, dan uitgezochte **Delegatie van de Gebruiker**.
 
-   ![&#x200B; Nieuwe delegatie van de rapportgebruiker &#x200B;](assets/classic-new-report-user-delegation-350x644.png)
+   ![ Nieuwe delegatie van de rapportgebruiker ](assets/classic-new-report-user-delegation-350x644.png)
 
-   De volgende gebieden tonen in dit rapport door gebrek:
+   Standaard worden de volgende velden in dit rapport weergegeven:
 
    | Veld | Beschrijving |
    |---|---|
-   | **van Gebruiker** | Dit is de gebruiker die hun taak, kwestie, en projectgoedkeuringen aan een andere gebruiker delegeert. |
+   | **van Gebruiker** | Dit is de gebruiker die zijn taak, kwestie, en projectherkenningen aan een andere gebruiker delegeert. |
    | **aan Gebruiker** | Dit is de gebruiker die taak, kwestie, en projectgoedkeuringen heeft die aan hen worden gedelegeerd. |
    | **Datum van het Begin** | Dit is het begin van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
    | **Datum van het Eind** | Dit is het einde van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
 
    {style="table-layout:auto"}
 
-1. (Optioneel) In de rapportbuilder wijzigt u het volgende:
+1. (Optioneel) Wijzig de volgende opties in de rapportbuilder:
 
    * Kolommen (weergave)
    * Groepen
    * Filters
    * Diagram
 
-   Meer over deze eigenschappen leren, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Meer over deze eigenschappen leren, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Nadat u klaar bent met het bouwen van uw rapport, klik **sparen + Sluiten**.
 

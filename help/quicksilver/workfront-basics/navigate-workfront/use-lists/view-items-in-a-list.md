@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Aan de slag met lijsten in  [!DNL Adobe Workfront]
 description: U kunt lijsten van voorwerpen in  [!DNL Adobe Workfront]  bekijken om informatie over hen, zoals hun begin en vervaldata, gebruikers te krijgen die aan hen, en andere voorwerpen worden toegewezen die met hen worden geassocieerd.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -27,14 +27,14 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
 
 * Een [!DNL Workfront] -beheerder kan aangepaste lijsten maken die op verschillende gebieden van [!DNL Workfront] worden toegepast.
 
-  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [&#x200B; creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [ creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 * Hier volgen de typen lijsten in Workfront:
 
    * Standaardlijsten
    * Verbeterde lijsten
 
-  Voor meer informatie, zie de sectie [&#x200B; het verschil tussen de norm en de verbeterde lijsten &#x200B;](#the-difference-between-the-standard-and-the-enhanced-lists) in dit artikel.
+  Voor meer informatie, zie de sectie [ het verschil tussen de norm en de verbeterde lijsten ](#the-difference-between-the-standard-and-the-enhanced-lists) in dit artikel.
 
 ## Toegangsvereisten
 
@@ -66,7 +66,7 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -121,7 +121,7 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
  </thead> 
  <tbody> 
   <tr> 
-   <td>Lijst van portefeuilles</td> 
+   <td>Lijst met portfolio's</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Portfolios]</p> </li> 
@@ -311,13 +311,13 @@ Hieronder vindt u de elementen van een lijst:
  <thead> 
   <tr> 
    <th><strong>Element</strong></th> 
-   <th><strong>Toelichting</strong></th> 
+   <th><strong>Uitleg</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filter]</strong></td> 
-   <td> <p>De filters houden onnodige informatie uit een lijst, die op de criteria wordt gebaseerd die u specificeert. </p> <p>Voor meer informatie, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref"> Overzicht van Filters </a>.</p> </td> 
+   <td> <p>Filters houden overbodige informatie uit een lijst op basis van de criteria die u opgeeft. </p> <p>Voor meer informatie, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref"> Overzicht van Filters </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL View]</strong></td> 
@@ -325,23 +325,23 @@ Hieronder vindt u de elementen van een lijst:
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Grouping]</strong></td> 
-   <td> <p>Groepen scheiden de objecten in de lijst in gebieden op basis van de criteria die u opgeeft.</p> <p>De problemen in een lijst kunnen bijvoorbeeld in secties worden weergegeven op basis van status of prioriteit.</p> <p>U kunt maximaal drie lagen groepering in een standaardgroepering hebben, en u kunt een vierde laag toevoegen als u een groepering op tekstwijze vormt.</p> <p>Voor meer informatie over groeperingen, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref"> Overzicht van Groepen in [!DNL Adobe Workfront]</a>.</p> <p>Voor meer informatie over tekstwijze, zie <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref"> Overzicht van de Wijze van de Tekst </a>.</p> </td> 
+   <td> <p>Groepen scheiden de objecten in de lijst in gebieden op basis van de criteria die u opgeeft.</p> <p>Zo kunnen de problemen in een lijst worden weergegeven in secties op status of prioriteit.</p> <p>U kunt maximaal drie lagen groepering in een standaardgroepering hebben, en u kunt een vierde laag toevoegen als u een groepering op tekstwijze vormt.</p> <p>Voor meer informatie over groeperingen, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref"> Overzicht van Groepen in [!DNL Adobe Workfront]</a>.</p> <p>Voor meer informatie over tekstwijze, zie <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref"> Overzicht van de Wijze van de Tekst </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Deze elementen worden standaard boven aan elke lijst weergegeven. Ze zijn vast en bewegen niet als u door de lijst schuift. Plaats de muis boven het pictogram voor elk element om het te identificeren.
 
-![&#x200B; de elementen van de Lijst &#x200B;](assets/nwe-list-elements.png)
+![ de elementen van de Lijst ](assets/nwe-list-elements.png)
 
 U kunt lijstelementen in de volgende gebieden aanpassen en hen met andere gebruikers delen:
 
-* Om het even welk systeem standaardlijst die in de sectie [&#x200B; wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
+* Om het even welk systeem standaardlijst die in de sectie [ wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
 * Elk rapport dat met u wordt gedeeld
 
 De bouwelementen voor lijsten zijn het zelfde als de bouwstenen voor rapporten.
 
-Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Handelingen weergeven
 
@@ -352,7 +352,7 @@ U kunt de volgende handelingen in een lijst uitvoeren:
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Handeling</strong></th> 
+   <th><strong>Actie</strong></th> 
    <th><strong>Informatie</strong></th> 
   </tr> 
  </thead> 
@@ -607,9 +607,9 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen lijsten en r
  </tbody> 
 </table>
 
-*U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-**U moet toegang tot filters, meningen, en groeperingen evenals rapporten, dashboards, en kalenders hebben om hen te kunnen tot stand brengen. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**U moet toegang tot filters, meningen, en groeperingen evenals rapporten, dashboards, en kalenders hebben om hen te kunnen tot stand brengen. Voor meer informatie, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ***U kunt lijsten voor rapporten aanpassen die op een dashboard worden geplaatst slechts als de schepper van het rapport de lijstelementen heeft gevormd om op het dashboard zichtbaar te zijn.
 
@@ -617,7 +617,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen lijsten en r
 >
 >U kunt geen lijst aan een dashboard toevoegen zonder eerst een rapport te creëren en het toe te voegen aan het dashboard.
 
-Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [&#x200B; douanetabellen of secties &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
 
 ## Het verschil tussen de standaard en de verbeterde lijsten
 
@@ -625,15 +625,15 @@ Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerappo
 
 * Standaardlijsten
 
-  ![&#x200B; Standaard projectlijst &#x200B;](assets/standard-list-screen-shot-gray-groupings.png)
+  ![ Standaard projectlijst ](assets/standard-list-screen-shot-gray-groupings.png)
 
 * Verbeterde lijsten
 
-  ![&#x200B; Verbeterde lijsten &#x200B;](assets/enhanced-status-list.png)
+  ![ Verbeterde lijsten ](assets/enhanced-status-list.png)
 
 De mogelijkheden van elke verbeterde lijst zijn afhankelijk van de pagina waarvan u de lijst opent.
 
-Voor informatie over verbeterde lijsten, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor informatie over verbeterde lijsten, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 
@@ -649,19 +649,19 @@ In de volgende tabel ziet u enkele verschillen tussen de standaard- en de verbet
   </tr> 
   <tr>
   <td> <p>Toon <strong> allen </strong> of tot <strong> 2000 </strong> punten door gebrek</p> </td> 
-   <td> Alle items in de lijst weergeven nadat u handmatig hebt geschoven </td> 
+   <td> Alle items in de lijst weergeven na handmatig schuiven </td> 
   </tr>
 
 <tr> 
-   <td>Interactie met de items in de lijst is consistent voor alle objecttypen en u doet dit door de pictogrammen boven aan de lijst te gebruiken.  </td> 
-   <td>De interactie met de items in de lijst kan afhankelijk van het objecttype verschillen. Dit gebeurt met behulp van de pictogrammen boven aan de lijst en de blauwe werkbalk die worden geactiveerd nadat lijstitems zijn geselecteerd. </td> 
+   <td>De interactie met de items in de lijst is consistent voor alle objecttypen en gebeurt door gebruik te maken van de pictogrammen boven aan de lijst.  </td> 
+   <td>De interactie met de items in de lijst kan afhankelijk van het objecttype verschillen. Dit gebeurt door gebruik te maken van de pictogrammen boven aan de lijst en de blauwe werkbalk die wordt geactiveerd na het selecteren van lijstitems. </td> 
   </tr>
 
 </td> 
   </tr> 
   <tr> 
    <td><p>U kunt wijzigingen in de celkleur toepassen op items in een lijst</p></td>
-   <td><p>U kunt wijzigingen in de celkleur niet toepassen op items in een lijst. </p></td>
+   <td><p>U kunt de celkleurwijzigingen niet toepassen op items in een lijst. </p></td>
    </td> 
    <td></td> 
   </tr> 

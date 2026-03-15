@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: Oplosbare objecten in een taak- of projectrapport'
 description: U kunt een lijst van alle Resolvable Voorwerpen in een project of taakmening of rapport tonen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt een lijst van alle Resolvable Voorwerpen in een project of taakmening of rapport tonen.
 
-Voor meer informatie over Oplosbare Voorwerpen, zie het artikel [&#x200B; Overzicht van het Oplossen en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor meer informatie over Oplosbare Voorwerpen, zie het artikel [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-![&#x200B; list_of_resolvables_in_report.png &#x200B;](assets/list-of-resolvables-in-report-350x54.png)
+![ list_of_resolvables_in_report.png ](assets/list-of-resolvables-in-report-350x54.png)
 
 Deze weergave wordt op dezelfde manier toegepast voor taken en projecten.
 
@@ -55,7 +55,7 @@ Deze weergave wordt op dezelfde manier toegepast voor taken en projecten.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

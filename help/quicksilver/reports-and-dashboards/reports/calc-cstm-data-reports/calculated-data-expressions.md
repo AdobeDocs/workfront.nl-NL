@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Overzicht van berekende gegevensexpressies
 description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegevensvelden in Adobe Workfront te definiëren. Berekende expressies verbinden bestaande Workfront-velden met instructies die een nieuw veld genereren.
-author: Jenny, Lisa
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -24,11 +24,11 @@ U kunt berekende gegevensexpressies gebruiken in:
 
 * Een berekend aangepast veld op een aangepast formulier
 
-  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Een berekende aangepaste kolom in een rapport of lijst wanneer u de tekstmodus gebruikt
 
-  Voor meer informatie over het gebruiken van tekstwijze in rapporten en meningen, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Voor meer informatie over het gebruiken van tekstwijze in rapporten en meningen, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen
 
@@ -77,17 +77,17 @@ Bijvoorbeeld:
   >
   >Dezelfde syntaxis is van toepassing op alle rapportelementen in de tekstmodus waarvoor berekende expressies worden gebruikt: weergaven, filters, groepen en aanwijzingen.
 
-Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Gegevensexpressies die u kunt gebruiken
 
 In de onderstaande lijsten worden de beschikbare expressies gedefinieerd die u kunt gebruiken wanneer u een van de drie verschillende typen berekende aangepaste velden maakt in Workfront:
 
-* [&#x200B; Datum en tijd berekende douanevelden &#x200B;](#date-time-calculated-custom-fields)
-* [&#x200B; Wiskundige berekende douanevelden &#x200B;](#mathematical-calculated-custom-fields)
-* [Berekende tekst, aangepaste velden](#text-calculated-custom-fields)
+* [ Datum en tijd berekende douanevelden ](#date-time-calculated-custom-fields)
+* [ Wiskundige berekende douanevelden ](#mathematical-calculated-custom-fields)
+* [Berekende aangepaste tekstvelden](#text-calculated-custom-fields)
 
-U kunt de hieronder vermelde uitdrukkingen gebruiken om berekende douanekolommen te bouwen. Nochtans, moet u de correcte syntaxis voor een berekende douanekolom gebruiken, zoals die in de sectie [&#x200B; Syntaxis van berekende douanegebieden vs. berekende douanekolommen &#x200B;](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel wordt beschreven.
+U kunt de hieronder vermelde expressies gebruiken om berekende aangepaste kolommen te maken. Nochtans, moet u de correcte syntaxis voor een berekende douanekolom gebruiken, zoals die in de sectie [ Syntaxis van berekende douanevelden vs. berekende douanekolommen ](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel wordt beschreven.
 
 ### Berekende datum en tijd, aangepaste velden {#date-time-calculated-custom-fields}
 
@@ -158,7 +158,7 @@ U kunt een datum- of tijdberekend aangepast veld maken met de volgende expressie
   </tr> 
   <tr> 
    <td><strong> DAYOFMONTH </strong> </td> 
-   <td> <p>Retourneert de dag van de maand voor de datum als een getal tussen 1 en 31.</p> <p>De expressie wordt als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
+   <td> <p>Retourneert de dag van de maand voor de datum als een getal tussen 1 en 31.</p> <p>De expressie is als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>DAYOFMONTH({entryDate})</code></p> </td> 
   </tr> 
@@ -218,13 +218,13 @@ U kunt een datum- of tijdberekend aangepast veld maken met de volgende expressie
   </tr> 
   <tr> 
    <td><strong> TWEEDE </strong> </td> 
-   <td> <p>Retourneert de tweede van de datum als een getal tussen 0 en 60, opgemaakt als volgt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
+   <td> <p>Retourneert de seconde van de datum als een getal tussen 0 en 60, opgemaakt als volgt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong> WEEKDAYDIFF </strong> </td> 
-   <td> <p>Geeft als resultaat het aantal weekdagen tussen twee datums, rekening houdend met de begin- en einddagen van de geselecteerde periode en de tijdstempels op die dagen. Als de begintijd van de begindatum bijvoorbeeld 3 PM is, wordt de begindag niet als een volledige dag geteld.</p> <p>De expressie wordt als volgt opgemaakt:</p>
+   <td> <p>Geeft als resultaat het aantal weekdagen tussen twee datums, rekening houdend met de begin- en einddagen van de geselecteerde periode en de tijdstempels op die dagen. Als de begintijd van de begindatum bijvoorbeeld 15.00 uur is, wordt de begindag niet geteld als een volledige dag.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>WEEKDAYDIFF(date2, date1)</code></p> </td> 
   </tr> 
@@ -252,8 +252,8 @@ U kunt een berekend aangepast veld maken dat een aantal van de volgende wiskundi
  <col> 
  <thead> 
   <tr> 
-   <th>Uitdrukking</th> 
-   <th>Toelichting</th> 
+   <th>Expressie</th> 
+   <th>Uitleg</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -328,7 +328,7 @@ U kunt een berekend aangepast veld maken dat een aantal van de volgende wiskundi
 <p><code>PROD(number1, number2, ....)</code></p>
    <p><b>OPMERKING</b></p>
 
-<p>Wanneer u velden met uren vermenigvuldigt, dient u te weten of de database de uren in geselecteerde velden in minuten, uren of seconden opslaat. Als de uren in notulen of seconden maar vertoning in uren in de interface van Workfront worden bewaard, zou u voor de omzetting van notulen of seconden aan uren kunnen rekenschap moeten geven wanneer het schrijven van een uitdrukking gebruikend deze berekening. </p>
+<p>Wanneer u velden met uren vermenigvuldigt, moet u ervoor zorgen dat u weet of de database de uren in geselecteerde velden in minuten, uren of seconden opslaat. Als de uren in minuten of seconden worden opgeslagen maar in uren worden weergegeven in de Workfront-interface, moet u mogelijk rekening houden met de conversie van minuten of seconden naar uren wanneer u een expressie schrijft met deze berekening. </p>
    </td> 
   </tr> 
   <tr> 
@@ -410,16 +410,16 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
   <tr> 
    <td><strong> ARRAYELEMENT </strong> </td> 
    <td> <p>Retourneert het element bij het opgegeven getal in de array. Als de index buiten de grenzen valt, wordt leeg geretourneerd.</p> 
-   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p>De expressie is als volgt opgemaakt:</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
 
 <tr>   
-   <td><strong> ZAAK </strong> </td> 
-   <td> <p>Wordt gebruikt met andere expressies om een waarde in een lijst te kiezen op basis van een indexnummer. </p>
-   <p>Een indexnummer is een veld of functie die een numerieke waarde retourneert (gewoonlijk in een bekend bereik).</p> 
-   <p>De expressie wordt als volgt opgemaakt:</p>
+   <td><strong> HOOFDLETTERS </strong> </td> 
+   <td> <p>Wordt samen met andere expressies gebruikt om een waarde in een lijst te kiezen op basis van een indexnummer. </p>
+   <p>Een indexgetal is een veld of functie die een numerieke waarde retourneert (gewoonlijk in een bekend bereik).</p> 
+   <p>De expressie is als volgt opgemaakt:</p>
    <p><code>CASE(indexNumber, value1, value2, ...)</code></p>
 
 <p>De volgende expressie retourneert bijvoorbeeld de naam van de dag van de week, waarbij 1=zondag, 2=maandag enzovoort, in een berekende kolom:</p>
@@ -453,7 +453,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
   </tr> 
   <tr> 
    <td><strong> FORMAAT </strong> </td> 
-   <td><p>Retourneert opgemaakte tekst. Alleen de hier vermelde parameteropties zijn toegestaan met INDELING.</p>
+   <td><p>Retourneert opgemaakte tekst. Alleen de hier vermelde parameteropties zijn toegestaan met FORMAT.</p>
    <p>De kleuropties zijn $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE en de andere opmaakopties zijn $$BOLD, $$ITALIC, $$UNDERLINE. Er is slechts één kleuroptie toegestaan, samen met maximaal drie andere opmaakopties. Als er geen kleuroptie is opgegeven, wordt de standaardkleur van het systeem toegepast.</p>
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
@@ -473,7 +473,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 
 <p>In de dagelijkse toespraak betekent deze verklaring: "ALS de Geprojecteerde Voltooiingsdatum van mijn voorwerp "Groter dan"de Geplande VoltooiingsDatum van mijn zelfde voorwerp is, dan tonen de woorden "Van Spoor"op dit gebied; anders, tonen de woorden "Op Spoor".</p>
 
-<p>Als u geen label wilt toewijzen aan de expressie true of false, moet u een leeg label in de instructie invoegen, zoals:</p>
+<p>Als u de true- of false-expressies niet wilt labelen, moet u een leeg label in uw instructie invoegen, zoals:</p>
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"","On Track")</code></p> 
    <p>of</p>
@@ -538,14 +538,14 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
   <tr> 
    <td><strong> VERWIJDEREN </strong> </td> 
    <td> <p>Verwijdert diakritische tekens uit alle tekens met accent in de invoertekenreeks. </p> 
-   <p>De expressie wordt als volgt opgemaakt:</p>
+   <p>De expressie is als volgt opgemaakt:</p>
    <p><code>REMOVEACCENTS(string)</code></p> 
-   <p>"Héllo wörld met àcénts" wordt bijvoorbeeld "Hello world with accents". </p>
+   <p>"Héllo wörld met àccénts" wordt bijvoorbeeld "Hello world with accents". </p>
    </td> 
   </tr>
   <tr> 
    <td><strong> VERVANGEN </strong> </td> 
-   <td> <p>Vervangt alle instanties van string2 door string3 in string1.</p> <p>De expressie wordt als volgt opgemaakt:</p>
+   <td> <p>Vervangt alle instanties van string2 door string3 in string1.</p> <p>De expressie is als volgt opgemaakt:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr>
@@ -583,7 +583,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
    <td> <p>De arrayelementen worden in aflopende volgorde gesorteerd en omgezet in het type van het eerste element.</p>
    <p>De expressie wordt als volgt opgemaakt:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
-   <p>["-12.6", -13.0] wordt bijvoorbeeld ["-13", "-12.6"].</p>
+   <p>["-12,6", -13,0] wordt bijvoorbeeld ["-13", "-12,6"].</p>
    <p>Opmerking: deze expressie wordt niet ondersteund in Workfront Planning.</p></td> 
   </tr>
   <tr> 

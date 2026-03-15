@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groepering: Uitsplitsing projectpercentage 1'
 description: In deze groepering van douaneproject, kunt u projecten tonen die door een waaier van hun percenten volledige waarden worden gegroepeerd.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -29,7 +29,7 @@ De volgende groepering organiseert projecten door het percentage volledige waard
 * 76-99%
 * 100%
 
-![&#x200B; percent_complete_break_custom_project_grouping_25__increment.png &#x200B;](assets/percent-complete-breakdown-custom-350x56.png)
+![ percent_complete_break_custom_project_grouping_25__increment.png ](assets/percent-complete-breakdown-custom-350x56.png)
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ De volgende groepering organiseert projecten door het percentage volledige waard
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

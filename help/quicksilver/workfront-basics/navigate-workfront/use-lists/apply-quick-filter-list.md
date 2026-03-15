@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Het snelle filter toepassen op een lijst
 description: U kunt het snelle filter in een lijst van voorwerpen gebruiken om u van slechts punten te helpen de plaats bepalen die voor u belangrijk zijn, zodat kunt u hen snel herzien, bijwerken, of delen met anderen.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -23,25 +23,25 @@ U kunt het snelle filter in een lijst van voorwerpen gebruiken om u van slechts 
 >U kunt met behulp van snelle filters zoeken naar items die een zoekwoord bevatten. Of dat item nu fysiek op het scherm is weergegeven of dat item wordt weergegeven nadat u naar de onderkant van de pagina hebt geschoven. Wanneer u de zoekmogelijkheden van uw browser gebruikt, kunt u alleen zoeken naar items die fysiek op het scherm worden weergegeven. Als uw lijst meerdere pagina&#39;s bevat, worden met snelfilters geen items gevonden die zich op pagina&#39;s bevinden die niet worden weergegeven.
 
 Als u een snel filter wilt opslaan, raden we u aan een permanent filter voor uw lijst te maken.\
-Voor informatie over hoe te om filters in [!DNL Adobe Workfront] te bouwen, zie het overzicht van artikel [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor informatie over hoe te om filters in [!DNL Adobe Workfront] te bouwen, zie het overzicht van artikel [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Het snelfilter is momenteel beschikbaar in de volgende gebieden
 
 
 U kunt tijdelijke snelle filters in alle lijsten gebruiken, behalve het volgende:
 
-* Het [!UICONTROL Reports] -gebied
+* Het gebied [!UICONTROL Reports]
 * Documentlijsten en -rapporten
 * Meerdere [!UICONTROL Setup] gebieden
 
   >[!NOTE]
   >
-  >Snelle filters zijn beschikbaar in de volgende instellingsgebieden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates] en [!UICONTROL Custom Forms] .
+  >Er zijn snelle filters beschikbaar in de volgende instellingsgebieden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates] en [!UICONTROL Custom Forms] .
 
 
 Houd rekening met het volgende wanneer u snelle filters toepast op een lijst:
 
-* Met trefwoorden kunt u filteren op elk veld dat in de weergave van de lijst wordt weergegeven. Dit omvat aangepaste velden of complexe velden zoals [!UICONTROL Predecessors] , [!UICONTROL Assignments] , [!UICONTROL Assignment] en [!UICONTROL Status] , [!UICONTROL Approver] en [!UICONTROL Status] , enzovoort.
+* U kunt trefwoorden gebruiken om te filteren op elk veld dat wordt weergegeven in de weergave van de lijst. Dit omvat aangepaste velden of complexe velden zoals [!UICONTROL Predecessors] , [!UICONTROL Assignments] , [!UICONTROL Assignment] en [!UICONTROL Status] , [!UICONTROL Approver] en [!UICONTROL Status] , enzovoort.
 * Als uw lijst samengevouwen groeperingen heeft, worden zij automatisch uitgebreid wanneer u snelle filters gebruikt. Wanneer u het snelle filter verwijdert, worden groepen weer samengevouwen.
 * Groepen behouden de geaggregeerde informatie van de oorspronkelijke lijst, ongeacht de toegepaste snelfilters of wijzigingen die zijn aangebracht in de objecten in de lijst.
 * Snelle filters zijn tijdelijk. Als u de groep, weergave, filter of sortering van de lijst wijzigt, worden de snelle filtercriteria verwijderd.
@@ -51,7 +51,7 @@ Houd rekening met het volgende wanneer u snelle filters toepast op een lijst:
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -70,8 +70,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <ul><li><p>Medewerker of hoger </p></li>
    </ul>
 
-<p>Huidige:</p>
-   <ul><li><p>Aanvraag of hoger</p></li>
+<p>Huidig:</p>
+   <ul><li><p>Verzoek of hoger</p></li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -85,14 +85,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
 ## Een snel filter toepassen op een lijst
 
-1. Ga naar een lijst of een rapport dat snelle filters steunt, dan klik het **[!UICONTROL Quick Filter]pictogram** ![&#x200B; Snelle filterpictogram &#x200B;](assets/qs-quick-filter-icon.png) in de toolbar.
+1. Ga naar een lijst of een rapport dat snelle filters steunt, dan klik het **[!UICONTROL Quick Filter]pictogram** ![ Snelle filterpictogram ](assets/qs-quick-filter-icon.png) in de toolbar.
 
    of
 
@@ -111,23 +111,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Als u een woord gebruikt dat op een andere pagina van de lijst zou kunnen tonen, vindt de snelle filter geen resultaten.
+   >Als u een woord gebruikt dat op een andere pagina van de lijst kan worden weergegeven, geeft het filter Snel geen resultaten.
 
-   Een lijst met items die voldoen aan de zoekcriteria wordt dynamisch weergegeven in de lijst terwijl u typt en alle andere items worden verborgen. Het trefwoord dat u in de zoekopdracht hebt gebruikt, wordt in alle zelfstandige en complexe velden geel gemarkeerd. Enkele voorbeelden van complexe velden zijn gedeelde kolommen of een van de volgende: [!UICONTROL Assignments] , [!UICONTROL Assignments] en [!UICONTROL Status] , [!UICONTROL Percent Complete] , [!UICONTROL Predecessors] , [!UICONTROL Approvers and Status] , [!UICONTROL Resource Managers] , [!UICONTROL Categories] , [!UICONTROL Condition] , [!UICONTROL Condition Update] , enz.
+   Er wordt dynamisch een lijst weergegeven met items die voldoen aan de zoekcriteria terwijl u typt en alle andere items worden verborgen. Het trefwoord dat u in de zoekopdracht hebt gebruikt, wordt geel gemarkeerd in alle zelfstandige en complexe velden. Enkele voorbeelden van complexe velden zijn gedeelde kolommen of een van de volgende: [!UICONTROL Assignments] , [!UICONTROL Assignments] en [!UICONTROL Status] , [!UICONTROL Percent Complete] , [!UICONTROL Predecessors] , [!UICONTROL Approvers and Status] , [!UICONTROL Resource Managers] , [!UICONTROL Categories] , [!UICONTROL Condition] , [!UICONTROL Condition Update] , enz.
 
-1. (Optioneel) Als u de items die door het snelfilter worden gevonden, bulksgewijs wilt bewerken:
+1. (Optioneel) De items die door het snelle filter worden gevonden, bulksgewijs bewerken:
 
    1. Selecteer alle of meerdere items in de lijst en klik op **[!UICONTROL Edit]** om de items in bulk te bewerken.
    1. Klik op **[!UICONTROL Save Changes]** nadat u de bewerkingen hebt voltooid.
 
-1. (Facultatief) om de punten uit te voeren die door de snelle filter worden gevonden, selecteer allen of verscheidene punten in de lijst, dan klik het **[!UICONTROL Export]** pictogram ![&#x200B; pictogram van de Uitvoer &#x200B;](assets/export.png).
+1. (Facultatief) om de punten uit te voeren die door de snelle filter worden gevonden, selecteer allen of verscheidene punten in de lijst, dan klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png).
 
-   ![&#x200B; select_all_projects_with_highlight__1_.png &#x200B;](assets/select-all-projects-with-highlight--1--350x173.png)
+   ![ select_all_projects_with_highlight__1_.png ](assets/select-all-projects-with-highlight--1--350x173.png)
 
    >[!NOTE]
    >
    >Alleen de items die u hebt gevonden in de zoekopdracht met snel filter worden geëxporteerd naar het bestand dat u hebt geselecteerd. Als u geen items selecteert voordat u de lijst exporteert, wordt de volledige, ongefilterde lijst geëxporteerd.\
-   >Voor meer informatie, zie [&#x200B; Uitvoer een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
+   >Voor meer informatie, zie [ Uitvoer een lijst ](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
 1. (Optioneel) Als u de gefilterde resultaten wilt wissen, klikt u op het pictogram **[!UICONTROL Quick Filter]** in de rechterbovenhoek van het venster.
 of

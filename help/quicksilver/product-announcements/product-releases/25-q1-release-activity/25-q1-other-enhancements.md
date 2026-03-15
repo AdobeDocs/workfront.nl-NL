@@ -1,11 +1,11 @@
 ---
 title: Andere verbeteringen tijdens de releaseperiode van het eerste kwartaal van 2025
 description: Andere verbeteringen tijdens het eerste kwartaal van 2025-releasetijdframe
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Bijwerken hoe verplaatste of verwijderde elementen in gekoppelde mappen worden beheerd
 
@@ -26,7 +26,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 We hebben de manier gewijzigd waarop verplaatste en verwijderde middelen worden verwerkt bij het gebruik van de Adobe Workfront-integratie met Experience Manager Assets en Assets Essentials:
 
-* Verwijderde elementen: wanneer een element wordt verwijderd uit een gekoppelde map in Assets of Assets Essentials, blijft het verwijderde element behouden in het gebied Projectdocumenten.
+* Verwijderde elementen: wanneer een element wordt verwijderd uit een gekoppelde map in Assets of Elementen, blijft het verwijderde element behouden in het gebied Projectdocumenten.
 * Verplaatste activa: Wanneer een activa buiten een verbonden omslag in de essentiële elementen van Assets of van Assets worden bewogen, zal het bewogen middel in het gebied van de Documenten van Projecten worden behouden.
 
 ## Secties in een aangepast formulier kunnen nu worden samengevouwen en uitgebreid
@@ -37,7 +37,7 @@ We hebben de manier gewijzigd waarop verplaatste en verwijderde middelen worden 
 
 Wanneer een aangepast formulier met meerdere secties aan een object is gekoppeld, kunt u nu alle secties samenvouwen en uitvouwen, behalve de standaardsectie boven aan het formulier. De beheerder kan deze functionaliteit ook zien wanneer u een voorbeeld van het formulier weergeeft in de formulierontwerper.
 
-Voor informatie over het toevoegen van een sectie aan een douanevorm, zie [&#x200B; organiseren en voorproef een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor informatie over het toevoegen van een sectie aan een douanevorm, zie [ organiseren en voorproef een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## AI Assistant kan nu werken met projecten, taken en problemen
 
@@ -50,4 +50,4 @@ Voorheen kon AI Assistant niet rechtstreeks werken met projecten, taken en probl
 
 Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de abonnementen Selecteren, Prime en Ultimate.
 
-Voor meer informatie, zie [&#x200B; Medewerker van het Gebruik AI om met projecten, taken, en kwesties &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
+Voor meer informatie, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.

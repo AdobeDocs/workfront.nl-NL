@@ -2,11 +2,11 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Aangepaste datumvelden gebruiken in een kalenderrapport
-description: Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt de gebieden van de douanedatum in een kalenderrapport voor taken, kwesties, en projecten gebruiken.
-author: Jenny
+description: Een kalenderrapport is een dynamisch rapport dat een visuele weergave van uw werk biedt. U kunt aangepaste datumvelden in een kalenderrapport gebruiken voor taken, problemen en projecten.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Aangepaste datumvelden gebruiken in een kalenderrapport
 
-Een [!UICONTROL calendar] rapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt aangepaste datumvelden in een kalenderrapport gebruiken voor de volgende objecten:
+Een [!UICONTROL calendar] -rapport is een dynamisch rapport dat een visuele weergave van uw werk biedt. U kunt aangepaste datumvelden in een kalenderrapport gebruiken voor de volgende objecten:
 
 * Taken
 * Problemen
@@ -23,7 +23,7 @@ Een [!UICONTROL calendar] rapport is een dynamisch rapport dat een visuele verte
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,14 +51,14 @@ Een [!UICONTROL calendar] rapport is een dynamisch rapport dat een visuele verte
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-1. U moet aangepaste datumvelden hebben en een waarde binnen het veld dat beschikbaar is in uw [!DNL Workfront] -instantie. Als u geen opstelling van de douanevorm met douanedata hebt, volg de instructies in [&#x200B; creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Voeg het aangepaste formulier toe aan een project, taak of uitgave die u wilt toevoegen aan de kalender en geef een datum op. Voor meer informatie, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+1. U moet aangepaste datumvelden hebben en een waarde in het veld dat beschikbaar is in uw [!DNL Workfront] -instantie. Als u geen opstelling van de douanevorm met douanedata hebt, volg de instructies in [ creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Koppel het aangepaste formulier aan een project, taak of uitgave die u wilt toevoegen aan de kalender en geef een datum op. Voor meer informatie, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## De groep items instellen
 
@@ -67,14 +67,14 @@ U kunt kiezen hoe de groep items moet worden weergegeven in uw kalender.
 {{step1-to-calendars}}
 
 1. Selecteer de kalender u een nieuwe groep punten wilt toevoegen, klik het Meer menu, dan **geeft** uit.
-of
+Of
 Klik op **[!UICONTROL + New Calendar]** , voer de projectnaam in en klik op **[!UICONTROL Add advanced items]** .
 
    >[!NOTE]
    >
    >U moet [!UICONTROL Edit] toegang hebben tot [!UICONTROL Reports] , [!UICONTROL Dashboards] en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te maken.
 
-1. Geef het volgende op:
+1. Geef de volgende instellingen op:
 
    <table style="table-layout:auto">
     <col>
@@ -121,13 +121,13 @@ Nadat u hebt ingesteld hoe de items moeten worden weergegeven, moet u de objecte
 
 1. Klik **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]**, **[!UICONTROL Add Issues]**, of **Tijd van** afhankelijk van het objecten type u aan de kalender toevoegt.
 
-1. Typ in het keuzemenu eerst de veldnaam en selecteer vervolgens de veldbron van het object dat u in de kalender wilt weergeven (bijvoorbeeld **[!UICONTROL Late Tasks]** ).
-1. Stel een voorwaardelijke instructie in voor de kalendergroep.
+1. Typ in de vervolgkeuzelijst de veldnaam en selecteer vervolgens de veldbron van het object dat u op de kalender wilt weergeven (bijvoorbeeld **[!UICONTROL Late Tasks]** ).
+1. Stel een voorwaarde-instructie in voor de kalendergroep.
 
 
-   Om over het plaatsen van voorwaarden te leren, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Om over het plaatsen van voorwaarden te leren, zie [ Filter en voorwaardensbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   ![&#x200B; Uitgezochte voorwerp voor kalender &#x200B;](assets/calendar-field-name.png)
+   ![ Uitgezochte voorwerp voor kalender ](assets/calendar-field-name.png)
 
 1. (Optioneel) Geef aanvullende objecten voor de kalendergroep op door stap 1-4 te herhalen.
 1. Selecteer in het veld **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** hoe de objecten in deze kalendergroep worden gelabeld in de kalender.
@@ -136,6 +136,6 @@ Nadat u hebt ingesteld hoe de items moeten worden weergegeven, moet u de objecte
    >
    >Als de standaardlabelopties niet beschikbaar zijn voor een bepaald object, wordt in plaats daarvan de naam van het object weergegeven. Wanneer u bijvoorbeeld het label [!UICONTROL Parent Task] hebt geselecteerd en er geen bovenliggende taak aan het object is gekoppeld, geeft [!DNL Adobe Workfront] de objectnaam weer die u in de kalender weergeeft.
 
-   ![&#x200B; vastgestelde taaketiketten &#x200B;](assets/set-task-labels.png)
+   ![ vastgestelde taaketiketten ](assets/set-task-labels.png)
 1. Klik op **[!UICONTROL Save]**.
 

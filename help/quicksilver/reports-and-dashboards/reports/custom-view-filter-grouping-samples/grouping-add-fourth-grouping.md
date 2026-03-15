@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groeperen: een vierde groep toevoegen aan een lijst'
 description: U kunt 4 groepen in een matrixrapport hebben. Zie Een matrixrapport maken voor meer informatie over matrixrapporten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-U kunt 4 groepen in een matrixrapport hebben. Voor meer informatie over matrixrapporten, zie [&#x200B; een matrixrapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
+U kunt 4 groepen in een matrixrapport hebben. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
 U kunt slechts 3 groeperingen in een standaardrapport door de standaardinterface hebben. Om een vierde groepering in een standaardrapport toe te voegen, moet u tekstwijze gebruiken.
 
-![&#x200B; Four_groupings_in_a_standard_report.png &#x200B;](assets/four-tier-grouping-for-tasks-350x239.png)
+![ Four_groupings_in_a_standard_report.png ](assets/four-tier-grouping-for-tasks-350x239.png)
 
 Bijvoorbeeld, zou u een taakrapport kunnen hebben dat door de Naam van het Project, de Status van de Voortgang en Geplande Datum van de Voltooiing wordt gegroepeerd, maar u wilt ook het rapport groeperen door Toegewezen aan Naam.
 
@@ -55,7 +55,7 @@ Bijvoorbeeld, zou u een taakrapport kunnen hebben dat door de Naam van het Proje
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

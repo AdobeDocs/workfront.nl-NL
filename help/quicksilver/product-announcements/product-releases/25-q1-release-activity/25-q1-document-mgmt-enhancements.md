@@ -1,39 +1,39 @@
 ---
-title: Verbeteringen voor documentbeheer in eerste kwartaal 2025
-description: Verbeteringen voor documentbeheer in eerste kwartaal 2025
-author: Nolan
+title: First Quarter 2025 Document management enhancements
+description: First Quarter 2025 Document management enhancements
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen voor documentbeheer in eerste kwartaal 2025
+# First Quarter 2025 Document management enhancements
 
-Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release Eerste kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2025.
+This page describes all document management enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2025 release.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-## Meerdere documenten tegelijk bewerken
-
->[!NOTE]
->
->Voorvertoningsrelease: 21 november 2024; productie voor snelle release: met de release van 24.12 (12 december 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
-
-U kunt nu meerdere documenten tegelijk bewerken. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.
-
-Voor meer informatie, zie [&#x200B; documenten in bulk &#x200B;](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) uitgeven.
-
-## Nieuwe intrekkingsstatus beschikbaar voor goedkeuringen van documentversies
+## Edit multiple documents at once
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 7 november 2024; productie voor snelle release: met de release van 24.11 (14 november 2024); productie voor driemaandelijkse release: met de release van 25.1 (16 januari 2025)
+>Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
-Wanneer een nieuwe versie wordt toegevoegd aan een document met in behandeling zijnde goedkeuringen, wordt de goedkeuring voor de vorige versie nu weergegeven als &quot;Ingetrokken&quot;, wat aangeeft dat het voorafgaande goedkeuringsproces is afgesloten omdat de nieuwe versie is toegevoegd.
+You can now edit multiple documents at once. You can edit the descriptions and update custom forms.
 
-Voor meer informatie, zie [&#x200B; een nieuwe documentversie uploaden en om goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) verzoeken.
+For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
+
+## New Withdrawn status available for document version approvals
+
+>[!NOTE]
+>
+>Preview release: November 7, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
+
+When a new version is added to a document with pending approvals, the approval for the previous version will now display as &quot;Withdrawn,&quot; indicating that the prior approval process has closed due to the new version being added.
+
+For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).

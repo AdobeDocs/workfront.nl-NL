@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 'Elementen rapporteren: filters, weergaven en groepen'
 description: De belangrijkste elementen die elke lijst en het rapport in Workfront moeten hebben zijn een filter, een mening, en een groepering. Elk element verstrekt verschillende informatie binnen om het even welk rapport.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -33,13 +33,13 @@ Houd rekening met het volgende wanneer u werkt met filters, weergaven en groepen
 * Rapporten in Workfront zijn specifiek voor één object. U moet uw belangrijkste voorwerp voor een rapport bepalen alvorens u het rapport kunt bouwen. Alle rapportelementen zijn dus objectspecifiek.
 * Uw Workfront-beheerder moet u toegang verlenen tot filters, weergaven en groeperingen op uw toegangsniveau om deze in lijsten en rapporten te kunnen weergeven of bewerken.
 
-  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Uw beheerder van Workfront moet u toegang tot rapporten, dashboards, en kalenders in uw toegangsniveau verlenen om rapporten te kunnen bekijken of uitgeven.
+* Your Workfront administrator must grant you access to reports, dashboards, and calendars in your access level to be able to view or edit reports.
 
-  Voor informatie over het verlenen van toegang tot rapporten, dashboards, en kalenders, zie [&#x200B; de toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  For information about granting access to reports, dashboards, and calendars, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Als u een filter, weergave of groepering voor een rapport of lijst selecteert, behoudt Workfront deze selectie voor de lijsten van dat object zelfs nadat u zich hebt afgemeld of de browser hebt gesloten. Als u bijvoorbeeld een specifieke weergave voor een taakrapport selecteert, wordt die selectie weergegeven voor andere takenlijsten, zoals de takenlijst van een project.
+* If you select a filter, view, or grouping on a report or list, Workfront retains this selection for that object&#39;s lists even after you log out or close your browser. Als u bijvoorbeeld een specifieke weergave voor een taakrapport selecteert, wordt die selectie weergegeven voor andere takenlijsten, zoals de takenlijst van een project.
 
 ## Filters
 
@@ -52,7 +52,7 @@ Enkele kenmerken van filters zijn:
 * Workfront biedt standaard een aantal filters voor verschillende objecten.
 * U kunt filters aanpassen die u bezit of beheert.
 
-  Voor meer informatie over filters, zie het artikel [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor meer informatie over filters, zie het artikel [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Weergaven
 
@@ -66,34 +66,34 @@ Enkele weergavekenmerken zijn:
 * U kunt extra meningen van het drop-down gebied van de Mening toepassen na het runnen van een rapport.
 * De extra meningen vervangen tijdelijk de mening die wanneer het creëren van het rapport wordt bepaald; nochtans, wordt de standaardmening getoond de volgende tijd u aan het rapport terugkeert.
 
-  Voor meer informatie over meningen, zie het artikel [&#x200B; overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Voor meer informatie over meningen, zie het artikel [ overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Groepen
 
-Een groepering bepaalt hoe u gegevens ordent, waardoor het makkelijker wordt om te lezen en te begrijpen. Groepen leiden tot horizontale bars door een rapport dat resultaten toont die samen door gemeenschappelijke attributen worden vermeld. U bepaalt de criteria voor hoe u de resultaten van uw rapport wilt groeperen wanneer het creëren van de groepering.
+A grouping controls how you organize data, making it easier to read and understand. Groupings create horizontal bars throughout a report that display results listed together by common attributes. You define the criteria for how you want to group the results of your report when creating the grouping.
 
-Bijvoorbeeld, organiseert het groeperen van een lijst van taken die veelvoudige projecten door hun projectnaam overspannen alle respectieve taken die tot één enkel project onder die naam behoren.
+For example, grouping a list of tasks that span multiple projects by their project name organizes all respective tasks that belong to a single project under that name.
 
-Enkele kenmerken van groepen zijn:
+Some attributes of groupings are:
 
 * Groepen zijn een verplicht rapporteringselement als u een grafiek aan uw rapport wilt later toevoegen.
 * Groepen geven een geaggregeerde waarde in de resultaten weer. &#x200B;
 * Groepen bepalen de as in grafieken.
 * Groepen bepalen de headeridentificatie in matrixrapporten.\
-  Voor meer informatie over matrixrapporten, zie het artikel [&#x200B; een matrixrapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
+  Voor meer informatie over matrixrapporten, zie het artikel [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
 * De hulp van groeperingen bouwt de Samenvatting tabel van een rapport, die de samengevoegde waarden van het rapport verstrekt.
 * Workfront biedt standaard een aantal groepen voor verschillende objecten.
 * U kunt groepen aanpassen die u hebt of beheert.
 
-  Voor meer informatie over groeperingen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Voor meer informatie over groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Overige rapporteringselementen
 
 Naast filters, meningen, en groeperingen, kon u de volgende elementen aan een rapport ook toevoegen:
 
 * **Herinnering**: Een open filter dat kan worden aangepast en verschillend worden toegepast telkens als u een rapport in werking stelt.\
-  Voor meer informatie over herinneringen, zie het artikel [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+  Voor meer informatie over herinneringen, zie het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 * **Grafiek**: U kunt uw rapporten verbeteren door een grafiek aan hen toe te voegen en de informatie op een visuele manier te tonen.\
-  Voor meer informatie over grafieken in rapporten, zie het artikel [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+  For more information about charts in reports, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

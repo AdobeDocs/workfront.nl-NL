@@ -2,11 +2,11 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Voorwaardelijke opmaak gebruiken in weergaven
-description: Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwegen de weergave van de rapporten aan te passen om bepaalde informatie beter leesbaar te maken, of gewoon op te vallen.
-author: Nolan
+description: Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwegen de weergave van de rapporten aan te passen om bepaalde informatie beter leesbaar te maken, of gewoon opvallen.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwegen de weergave van de rapporten aan te passen om bepaalde informatie beter leesbaar te maken, of gewoon op te vallen.
+Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwegen de weergave van de rapporten aan te passen om bepaalde informatie beter leesbaar te maken, of gewoon opvallen.
 
-U kunt het tabblad Details van uw rapporten aanpassen door speciale of voorwaardelijke opmaak toe te voegen aan de weergave van uw rapporten.
+U kunt het tabblad Details van uw rapporten aanpassen door een speciale of voorwaardelijke opmaak toe te voegen aan de weergave van uw rapporten.
 
-Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Door kolommen in de mening van het rapport voorwaardelijk te formatteren, kunt u opstellingsregels die de manier beïnvloeden de rapportvertoningen. Wanneer aan deze voorwaarden of regels is voldaan, wordt de speciale opmaak toegepast.
 
-Als een taak bijvoorbeeld voor minder dan 20 procent is voltooid, kunt u het veld markeren door het percentagenummer weer te geven in vette, rode tekst en een gele achtergrondkleur.
+Als een taak bijvoorbeeld voor minder dan 20 procent wordt voltooid, kunt u het veld markeren door het percentagenummer weer te geven in vette, rode en gele achtergrondkleur.
 
 In een voorwaardelijk opgemaakte weergave kunt u:
 
@@ -67,7 +67,7 @@ De veranderingen u in de mening van het rapport aanbrengt worden van kracht slec
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 U moet een rapport maken voordat u voorwaardelijke opmaak aan de weergave kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een weergave met voorwaardelijke opmaak maken
 
@@ -105,11 +105,11 @@ Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x2
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Veldindeling</strong></td> 
-      <td>Kies de indeling waarin de waarde in de kolom wordt weergegeven. Afhankelijk van wat het kolomveld is, kunt u zo instellen hoe datums, getallen of valuta worden weergegeven. Deze optie wordt niet in alle kolommen weergegeven.</td> 
+      <td>Kies de indeling waarin de waarde in de kolom wordt weergegeven. Afhankelijk van wat het kolomveld is, kunt u hiermee instellen hoe datums, getallen of valuta worden weergegeven. Deze optie wordt niet in alle kolommen weergegeven.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Deze kolom tonen wanneer deze zich op een dashboard bevindt</strong></td> 
-      <td>Selecteer dit gebied als u de kolom wilt tonen wanneer het rapport op een dashboard wordt geplaatst. De kolom toont altijd wanneer u het rapport buiten een dashboard bekijkt.</td> 
+      <td role="rowheader"><strong>Deze kolom tonen op een dashboard</strong></td> 
+      <td>Selecteer dit veld als u wilt dat de kolom wordt weergegeven wanneer het rapport op een dashboard wordt geplaatst. De kolom wordt altijd weergegeven wanneer u het rapport buiten een dashboard bekijkt.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -142,8 +142,8 @@ Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x2
       <td>Selecteer of tekst vet of cursief moet worden weergegeven.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Tekstuitlijning</strong></td> 
-      <td>Selecteer of de tekst rechts, midden of links in de kolom moet worden uitgelijnd.</td> 
+      <td role="rowheader"><strong>Tekst uitlijnen</strong></td> 
+      <td>Selecteer of u de tekst rechts, midden of links in de kolom wilt uitlijnen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Achtergrond</strong></td> 
@@ -155,7 +155,7 @@ Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x2
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tekst tonen</strong></td> 
-      <td> <p>Selecteer deze optie om een aangepast label voor deze kolom weer te geven in plaats van de werkelijke waarde ervan. Geef de tekst op die u wilt weergeven in plaats van de waarde in het opgegeven veld.</p> <p><b>BELANGRIJK</b></p> <p>Het selecteren van <strong> toont Tekst </strong> maakt de capaciteit onbruikbaar om de tekst in deze kolom gealigneerd uit te geven.<br> ook, kunt u niet de waarde van een kolom veranderen van de Voorganger omdat het ingebouwde logica bevat.</p> </td> 
+      <td> <p>Selecteer deze optie om een aangepast label voor deze kolom weer te geven in plaats van de werkelijke waarde ervan. Geef de tekst op die u wilt weergeven in plaats van de waarde in het opgegeven veld.</p> <p><b>BELANGRIJK</b></p> <p>Het selecteren van <strong> toont Tekst </strong> maakt de capaciteit onbruikbaar om de tekst in deze kolom in te geven inline.<br> ook, kunt u niet de waarde van een kolom veranderen Predecessor omdat het ingebouwde logica bevat.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Toepassen op de hele rij</strong></td> 

@@ -4,10 +4,10 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groepering: Home Group of Project Owner in a List of Hours'
 description: U kunt de naam van de Groep van het Huis van de Eigenaar van het Project in een lijst of een rapport van het Uur tonen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -22,7 +22,7 @@ U kunt de naam van de Groep van het Huis van de Eigenaar van het Project in een 
 
 De groepering groepeert ook de resultaten door de naam van de Eigenaar van het Project en de Naam van het Project.
 
-![&#x200B; grouping_for_project_owner_home_group.png &#x200B;](assets/grouping-for-project-owner-home-group-350x51.png)
+![ grouping_for_project_owner_home_group.png ](assets/grouping-for-project-owner-home-group-350x51.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ De groepering groepeert ook de resultaten door de naam van de Eigenaar van het P
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

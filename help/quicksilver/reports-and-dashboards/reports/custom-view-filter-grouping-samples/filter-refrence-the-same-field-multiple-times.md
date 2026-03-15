@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: meerdere filterregels maken die verwijzen naar hetzelfde veld (''EN''-instructies)'
 description: In de standaardwijzeinterface, wanneer het proberen om veelvoudige filters tot stand te brengen die het zelfde gebied (gebruiken EN bepalend) van verwijzingen voorzien, wordt één van de filters geschrapt wanneer u sparen het rapport en de rapportaannemer weggaat.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -56,7 +56,7 @@ U kunt dit filter echter maken in de tekstmodus.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Ingebouwde Adobe Workfront-rapporten gebruiken
 description: Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporten die klaar zijn om te gebruiken. Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporten die u kunt gebruiken.
 
-Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [&#x200B; ingebouwde rapporten van de Huid &#x200B;](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ingebouwde rapporten van de Huid ](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Toegangsvereisten
 
@@ -37,7 +37,7 @@ Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
       <p>Medewerker of hoger</p>
-      <p>Aanvraag of hoger</p>
+      <p>Verzoek of hoger</p>
    </td>
   </tr>
   <tr> 
@@ -51,13 +51,13 @@ Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overzicht van ingebouwde rapporten {#overview-of-built-in-reports}
 
-U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [&#x200B; een nieuwe versie van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [&#x200B; creëren een exemplaar van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [ een nieuwe versie van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [ creëren een exemplaar van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikbaar aan alle gebruikers die minstens de rechten van de Mening aan ingebouwde rapporten in hun toegangsniveau hebben.
 
@@ -141,11 +141,11 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
   </tr> 
   <tr> 
    <td>Uren per week</td> 
-   <td>Een matrixuurrapport dat het aantal geregistreerde uren in de afgelopen vier weken en de Datum van de Ingang van de uren toont. Het rapport wordt veroorzaakt door de Datum van de Ingang van de uren en door de Naam van de Eigenaar en de maand van de Datum van de Ingang van de uren gegroepeerd.</td> 
+   <td>Een matrixuurrapport dat het aantal geregistreerde uren in de afgelopen vier weken en de Datum van de Ingang van de uren toont. Het rapport wordt veroorzaakt door de Invoerdatum van de uren en wordt gegroepeerd op Naam eigenaar en de maand van de Invoerdatum van de uren.</td> 
   </tr> 
   <tr> 
    <td>Problemen op basis van status</td> 
-   <td>An Issue report that displays the Status of issues. Het rapport wordt gegroepeerd door Status van de kwesties, en het omvat een grafiek.</td> 
+   <td>Een Issue-rapport waarin de status van problemen wordt weergegeven. Het rapport wordt gegroepeerd op Status van de uitgaven, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Problemen per status en project</td> 
@@ -157,7 +157,7 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
   </tr> 
   <tr> 
    <td>Arbeidskosten vs. onkosten per programma</td> 
-   <td>Een projectrapport waarin de geplande loonkosten, de werkelijke loonkosten, de geplande onkostenkosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd door de Naam van Portfolio en de Naam van het Programma, en het omvat een grafiek.</td> 
+   <td>Een projectrapport waarin de geplande arbeidskosten, de werkelijke arbeidskosten, de geplande kosten voor de uitgaven en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt gegroepeerd op de Naam van het Portfolio en de Naam van het Programma, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Maandelijkse geplande Portfolio-kosten in verhouding tot werkelijke kosten per project</td> 
@@ -240,12 +240,12 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
    <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Programma wordt gegroepeerd, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Geplande Portfolio-kosten per project</td> 
-   <td>Een projectrapport waarin de geplande kosten en de werkelijke kosten van de projecten worden weergegeven. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Project wordt gegroepeerd, en het omvat een grafiek.</td> 
+   <td>Voorziene kosten Portfolio per project</td> 
+   <td>Een projectrapport met de geplande kosten en werkelijke kosten van de projecten. Het rapport wordt veroorzaakt door de Naam van het Portfolio, gegroepeerd door de Naam van het Project, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
-   <td>Geplande Portfolio-inkomsten per programma</td> 
-   <td>Een projectrapport met de geplande inkomsten en werkelijke inkomsten van de projecten. Het rapport wordt veroorzaakt door de Naam van Portfolio, die door de Naam van het Programma wordt gegroepeerd, en het omvat een grafiek.</td> 
+   <td>Geplande ontvangsten uit Portfolio per programma</td> 
+   <td>Een projectrapport met de geplande inkomsten en werkelijke opbrengsten van de projecten. Het rapport wordt veroorzaakt door de Naam van het Portfolio, gegroepeerd door de Naam van het Programma, en het omvat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Geplande Portfolio-inkomsten per project</td> 
@@ -337,11 +337,11 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
   </tr> 
   <tr> 
    <td>Taken op status</td> 
-   <td>Een rapport van de Taak dat de Status van alle taken toont. Het rapport wordt gegroepeerd door Status, en het omvat een grafiek.</td> 
+   <td>Een taakrapport waarin de status van alle taken wordt weergegeven. Het rapport wordt gegroepeerd op Status en bevat een grafiek.</td> 
   </tr> 
   <tr> 
    <td>Te controleren tijdbladen</td> 
-   <td>Een rapport Timesheet dat Voorgelegde en Geweigerde chronologiebladen toont de waarvan fiatteur de het programma geopende gebruiker is. Het rapport geeft de volgende velden weer: Datumbereik, Eigenaar, Totaal aantal uren, Overwerk, Naam fiatteur en Status van de tijdbladen.</td> 
+   <td>Een Timesheet-rapport waarin de ingediende en geweigerde tijdbladen worden weergegeven waarvan de fiatteur de aangemelde gebruiker is. Het rapport geeft de volgende velden weer: Datumbereik, Eigenaar, Totaal aantal uren, Overuren, Naam fiatteur en Status van de tijdbladen.</td> 
   </tr> 
   <tr> 
    <td>Problemen met taken</td> 
@@ -373,8 +373,8 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
 1. Onder het **voorwerp van het Rapport**, uitgezochte **Globale identiteitskaart**.
 
 1. In het drop-down menu van de filterbepaling, uitgezocht **is niet Leeg**.\
-   ![&#x200B; Globale filter van identiteitskaart voor systeemrapporten &#x200B;](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![ Globale filter van identiteitskaart voor systeemrapporten ](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Klik **sparen Filter**.\
    De rapportenlijst toont slechts ingebouwde rapporten.\
-   Voor meer informatie over welke ingebouwde rapporten beschikbaar zijn, zie het sectie [&#x200B; Overzicht van ingebouwde rapporten &#x200B;](#overview-of-built-in-reports) in dit artikel.
+   Voor meer informatie over welke ingebouwde rapporten beschikbaar zijn, zie het sectie [ Overzicht van ingebouwde rapporten ](#overview-of-built-in-reports) in dit artikel.

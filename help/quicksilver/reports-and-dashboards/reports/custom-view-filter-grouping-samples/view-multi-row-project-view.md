@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: projectweergave met meerdere rijen'
 description: Meer informatie over de projectweergave in meerdere rijen vindt u in rapporten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -21,13 +21,13 @@ ht-degree: 0%
 In deze projectweergave kunt u:
 
 * Projectinformatie weergeven in een indeling met meerdere rijen.\
-  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [&#x200B; Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
+  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 
 * Gebruik een kolom van de plaatshouder die een markering van de de regelonderbreking van HTML (`<br>`) bevat om de Beschrijving te dwingen om onder de projectnaam, bijvoorbeeld te tonen.
 * Geef de eigenaar van het project tussen haakjes weer achter de projectnaam.
 * Toon de Naam van het Project als verbinding aan het project.
 
-![&#x200B; rij van het Project met gestapelde mening &#x200B;](assets/project-multi-row-stacked-view-350x219.png)
+![ rij van het Project met gestapelde mening ](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ In deze projectweergave kunt u:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

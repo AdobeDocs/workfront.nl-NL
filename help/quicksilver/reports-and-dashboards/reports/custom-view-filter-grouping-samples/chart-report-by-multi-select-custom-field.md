@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Een rapport in kaart brengen op basis van een aangepast veld met meerdere selecties
 description: U kunt een rapport alleen in een diagram weergeven op basis van een aangepast veld met meerdere selecties nadat u een extra berekend veld hebt gemaakt waarin de geselecteerde keuzen in het aangepaste veld met meerdere selecties worden vastgelegd.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Voorbeelden van aangepaste velden met meerdere selecties zijn:
 * Selectievakjes
 * Meerdere vervolgkeuzemenu&#39;s selecteren
 
-Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [&#x200B; &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [ ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Als het echter niet mogelijk is afzonderlijke velden te hebben voor elke optie van een veld met meerdere selecties, kunt u een rapport aan de hand van een aangepast veld met meerdere selecties weergeven door berekende aangepaste velden te gebruiken om de keuzen van het veld met meerdere selecties eerst te groeperen. Daarna, kunt u het rapport door de berekende gebieden in kaart brengen.
 
@@ -35,9 +35,9 @@ Als het echter niet mogelijk is afzonderlijke velden te hebben voor elke optie v
 >
 >Items waarvoor een van de gekozen opties is geselecteerd, worden slechts één keer geteld.
 >
->Als u bijvoorbeeld een aangepast veld Selectievakje hebt met Keuze 1 en Keuze 2 als opties, en u het formulier koppelt aan taken, worden de taken die zowel Keuze 1 als Keuze 2 hebben, weergegeven in een afzonderlijk diagramelement dan de taken waarvoor Alleen Keuze 1 of Keuze 2 is geselecteerd.
+>For example, if you have a Checkbox custom field with Choice 1 and Choice 2 as options, and you attach the form to tasks, the tasks that have both Choice 1 and Choice 2 display in a separate chart element than the tasks that have only Choice 1 or Choice 2 selected.
 >
->De taken die Keuze 1 hebben geselecteerd tonen niet in het zelfde grafiekelement zoals de taken die Keuze 1 en Keuze 2 hebben geselecteerd.
+>Tasks that have Choice 1 selected do not display in the same chart element as the tasks which have the Choice 1 and Choice 2 selected.
 
 ## Toegangsvereisten
 
@@ -68,13 +68,13 @@ Als het echter niet mogelijk is afzonderlijke velden te hebben voor elke optie v
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u begint, moet u een berekend aangepast veld maken waarin de waarden worden weergegeven die in het aangepaste veld voor meerdere selecties zijn geselecteerd. Voor informatie, zie [&#x200B; een berekend douanegebied bouwen dat verwijzingen een multi-uitgezochte sectie van het douanegebied &#x200B;](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in dit artikel.
+Voordat u begint, moet u een berekend aangepast veld maken waarin de waarden worden weergegeven die in het aangepaste veld voor meerdere selecties zijn geselecteerd. Voor informatie, zie [ een berekend douanegebied bouwen dat verwijzingen een multi-uitgezochte sectie van het douanegebied ](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in dit artikel.
 
 ## Een rapport weergeven op basis van meerdere geselecteerde aangepaste velden
 
@@ -84,26 +84,26 @@ Voordat u begint, moet u een berekend aangepast veld maken waarin de waarden wor
 
 U kunt geen grafiek in een rapport bouwen door naar een multi-select douanegebied van verwijzingen te verwijzen. In plaats daarvan kunt u een berekend veld maken waarmee de waarden van het aangepaste veld voor meerdere selecties voor een bepaald object en een bepaalde groep worden vastgelegd in het berekende veld. 
 
-* [&#x200B; bouwt een berekend douanegebied dat verwijzingen een multi-uitgezochte douanegebied &#x200B;](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
+* [ bouwt een berekend douanegebied dat verwijzingen een multi-uitgezochte douanegebied ](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [Bouw een grafiek die verwijzingen een berekend douanegebied](#build-a-chart-that-references-a-calculated-custom-field)
 
-### Een berekend aangepast veld maken dat verwijst naar een aangepast veld met meerdere selecties {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
+### Build a calculated custom field that references a multi-select custom field {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
 
-Als u een berekend veld wilt maken dat verwijst naar een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
+To build a calculated field that references a multi-select custom field, you must have the following prerequisites:
 
-* Een aangepast veld met meerdere selecties in een aangepast formulier.\
-  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+* A multi-select custom field in a custom form.\
+  For information about building custom forms and adding custom fields to them, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Een aangepast formulier waaraan het aangepaste veld voor meerdere selecties is gekoppeld.
+* A custom form with the multi-select custom field attached to objects.
 * Waarden voor het aangepaste veld met meerdere selecties voor elk object.
 
-U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aangepaste veld voor meerdere selecties:
+To build the calculated custom field that references the multi-select custom field:
 
-1. Een aangepast formulier maken of een bestaand formulier bewerken.
+1. Create a custom form, or edit an existing one.
 
-   Voor informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Selecteer het object of de objecten die u wilt gebruiken voor het aangepaste formulier.
+1. Select the object or objects that you plan to use with the custom form.
 1. Klik **toevoegen een Gebied**, dan **Berekend** om het multi-uitgezochte douanegebied aan de vorm toe te voegen.
 
 1. In het **vakje van het Etiket**, noem het nieuwe berekende gebied om erop te wijzen dat het multi-select douanegebied van verwijzingen voorziet.
@@ -116,13 +116,13 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
    Hiermee voegt u de geselecteerde keuzen in het aangepaste veld voor meerdere selecties toe aan het berekende aangepaste veld. Als het formulier bijvoorbeeld is gekoppeld aan taken en Keuze 1 is geselecteerd in het aangepaste veld voor meerdere selecties, wordt in het berekende aangepaste veld de waarde Keuze 1 weergegeven. Als Keus 1 en Keuze 2 voor een verschillende taak worden geselecteerd, toont het berekende douanegebied de waarde &quot;Keus 1, Keuze 2&quot;.
 
-1. Vervang &quot;Aangepast veld met meerdere selecties&quot; door de werkelijke naam van het aangepaste veld met meerdere selecties, zoals dit wordt weergegeven in Workfront.
+1. Replace &quot;Multi-select Custom Field&quot; with the actual name of your multi-select custom field, as it appears in Workfront.
 
-   ![&#x200B; Berekende multi-uitgezochte gebied van de douane &#x200B;](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Calculated multi select custom field](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Facultatief) als multi-uitgezochte douanegebied reeds op deze vorm is en als deze vorm reeds in bijlage aan voorwerpen is, laat **toe van toepassing zijn op bestaande berekeningen** optie.
+1. (Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the **Apply to existing calculations** option.
 
-   Dit zorgt ervoor dat het nieuwe berekende veld automatisch wordt gevuld met de waarde uit het aangepaste veld voor meerdere selecties, aangezien dit veld wordt toegevoegd aan de formulieren die al aan de objecten zijn gekoppeld.
+   This ensures that the new calculated field is automatically populated with the value from the multi-select custom field as it is added to the forms already attached to the objects.
 
 1. Klik **toepassen**.
 1. Klik **sparen en Sluiten**.
@@ -132,7 +132,7 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 ### Bouw een grafiek die verwijzingen een berekend douanegebied {#build-a-chart-that-references-a-calculated-custom-field}
 
 1. (Optioneel) Als u wilt dat alle berekende velden waarop u een diagram wilt maken, zijn gevuld met waarden, moet u de aangepaste expressies opnieuw berekenen voor alle objecten in uw rapport.
-Voor informatie over het opnieuw berekenen van uitdrukkingen, zie [&#x200B; informatie op douanegebieden &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor informatie over het opnieuw berekenen van uitdrukkingen, zie [ informatie op douanegebieden ](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
    <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
    1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
@@ -155,4 +155,4 @@ Voor informatie over het opnieuw berekenen van uitdrukkingen, zie [&#x200B; info
 
    Het rapport toont de resultaten die door het Berekende Multi uitgezochte Gebied in een grafiek worden gegroepeerd.
 
-   ![&#x200B; Multi uitgezochte gebied in grafiek &#x200B;](assets/chart-multi-select-field-column-chart-example.png)
+   ![ Multi uitgezochte gebied in grafiek ](assets/chart-multi-select-field-column-chart-example.png)

@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: vorige details'
 description: Deze taakmening toont details van predecessors van de taken gebruikend een inzamelingsmening. In een verzamelingsweergave kunt u informatie weergeven over objecten die een 'een-op-veel'-relatie hebben. In dit geval kan elke taak (één) meerdere voordecessors (vele) hebben. De weergave bevat de naam van de taken, de namen van de voorgangers, de projectnamen van de voorgangers, de geplande afsluitdatums van de voorgangers en de statussen van de voorgangers.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Deze taakmening toont details van predecessors van de taken gebruikend een inzamelingsmening. In een verzamelingsweergave kunt u informatie weergeven over objecten die een &#39;een-op-veel&#39;-relatie hebben. In dit geval kan elke taak (één) meerdere voordecessors (vele) hebben. De weergave bevat de naam van de taken, de namen van de voorgangers, de projectnamen van de voorgangers, de geplande afsluitdatums van de voorgangers en de statussen van de voorgangers.
 
-Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten, zie [&#x200B; inzamelingen van de Verwijzing in een rapport &#x200B;](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten, zie [ inzamelingen van de Verwijzing in een rapport ](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-![&#x200B; predecessor_details_task_view.png &#x200B;](assets/predecessor-details-task-view-350x34.png)
+![ predecessor_details_task_view.png ](assets/predecessor-details-task-view-350x34.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

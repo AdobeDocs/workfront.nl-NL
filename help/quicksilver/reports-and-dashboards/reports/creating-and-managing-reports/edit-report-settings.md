@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Rapportinstellingen bewerken
 description: U kunt de montages van een rapport uitgeven om te bepalen hoe het voor andere gebruikers toont, of welk soort informatie gebruikers voor kan roepen alvorens zij het rapport in werking stellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -49,7 +49,7 @@ U kunt de montages van een rapport uitgeven om te bepalen hoe het voor andere ge
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -120,7 +120,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    </table>
 
 1. Klik **Vragen van het Rapport** aan opstelling om het even welke herinneringen voor het rapport.\
-   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. Klik **Gedaan,** dan klik **sparen + Sluiten**.
 
@@ -129,6 +129,6 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [&#x200B; worden begonnen met rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [&#x200B; de ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [ worden begonnen met rapporten ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

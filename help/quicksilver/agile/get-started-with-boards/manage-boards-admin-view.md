@@ -1,31 +1,31 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: De Admin-weergave voor raden beheren
-description: De mening van Admin van Boards bevat een lijst van elke Raad in uw rekening die de Beheerders van het Systeem kunnen gebruiken om een snelle momentopname van de algemene details van Boards te krijgen.
-author: Jenny
+title: De Admin View van de boards beheren
+description: De Boards Admin View bevat een lijst van elke raad in uw rekening die de Beheerders van het Systeem kunnen gebruiken om een snelle momentopname van de algemene details van Boards te krijgen.
+author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
-# De Admin-weergave voor raden beheren
+# De Admin View van de boards beheren
 
 De mening van Admin van Boards bevat een lijst van elke Raad in uw rekening die de Beheerders van het Systeem kunnen gebruiken om een snelle momentopname van de algemene details van Boards te krijgen, met inbegrip van toen zij het laatst werden bijgewerkt, hoeveel kaarten elk heeft, en meer.
 
 Vanuit dit gebied kunt u de volgende handelingen uitvoeren:
 
-* De lijst met deelvensters filteren
-* De kolommen in de lijst met raden configureren
-* Groeperen in de lijst van kamers
+* De lijst met boards filteren
+* De kolommen in de lijst met boards configureren
+* De lijst met boards groeperen
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de toegangsvereisten weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Vanuit dit gebied kunt u de volgende handelingen uitvoeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,42 +58,42 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 U moet een raad creëren alvorens u het van de Admin Mening kunt bekijken.
 
-Voor meer informatie, zie [&#x200B; creeer of geef een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
+Voor meer informatie, zie [ creeer of geef een raad ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
 
-## De lijst met deelvensters filteren
+## De lijst met boards filteren
 
 {{step1-to-boards}}
 
-1. Voor de **Borden** pagina, selecteer de **Mening Admin** tabel.
+1. Voor de **pagina van Boards**, selecteer de **Mening Admin** tabel.
 
 1. Selecteer **Filter**. Het **paneel van Filters** opent.
 
 1. Voer de onderstaande stappen uit om het filter te configureren:
 
-   1. (Facultatief) klik het **pictogram van de Kalender** Kalender ![&#x200B; en selecteer dan een datumwaaier aan filter door Boards die het laatst binnen dat timeframe werden gewijzigd.](assets/calendar-icon.png)
+   1. (Facultatief) klik het **pictogram van de Kalender** Kalender ![ en selecteer dan een datumwaaier aan filter door Boards die het laatst binnen dat timeframe werden gewijzigd.](assets/calendar-icon.png)
 
-   1. (Facultatief) in de **sectie van het Malplaatje**, selecteer het type van malplaatje van de Raad dat de lijst door zal filtreren. U kunt meerdere sjabloontypen selecteren.
-Voor meer informatie over de malplaatjetypes van de Raad, zie [&#x200B; creeer of geef een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
+   1. (Facultatief) in de **sectie van het Malplaatje**, selecteer het type van het malplaatje van de Raad waardoor de lijst zal filtreren. U kunt meerdere sjabloontype selecteren.
+Voor meer informatie over de types van het malplaatje van de Raad, zie [ een board ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) creëren of uitgeven.
 
    1. (Facultatief) in **wordt Gearchiveerd** sectie, uitgezocht als gearchiveerde of niet-gearchiveerde Borden zullen tonen. U kunt meerdere opties selecteren.
 
-      ![&#x200B; is Gearchiveerde sectie &#x200B;](assets/is-archived-section.png)
+      ![ is Gearchiveerde sectie ](assets/is-archived-section.png)
 
-1. Klik buiten het **paneel van Filters** om het te sluiten. De filterselecties blijven toegepast op de lijst met kamers totdat de standaardweergave wordt hersteld.
+1. Klik buiten het **paneel van Filters** om het te sluiten. Uw filterselecties blijven op de lijst van boards van toepassing tot het terug naar de standaardmening is veranderd.
 
    >[!NOTE]
    >
-   >Om een filter te verwijderen, open het **paneel van Filters** en klik **terug aan gebrek** in de hoger-juiste hoek.
+   >Om een filter te verwijderen, open het **paneel van Filters** en klik **terug naar gebrek** in de hoger-juiste hoek.
 
-## De kolommen in de lijst met raden configureren
+## De kolommen in de lijst met boards configureren
 
 {{step1-to-boards}}
 
-1. Voor de **Borden** pagina, selecteer de **Mening Admin** tabel.
+1. Voor de **pagina van Boards**, selecteer de **Mening Admin** tabel.
 
-1. Selecteer **Kolommen**. Het **zicht van Gebieden en orde** paneel opent.
+1. Selecteer **Kolommen**. Het **zicht van Gebieden en orde** opent paneel.
 
-1. Configureer welke kolommen in de lijst met kamers worden weergegeven door de schakeloptie in regel met elke kolom in of uit te schakelen:
+1. Configureer welke kolommen in de lijst Boards worden weergegeven door de schakelknop in regel met elke kolom te selecteren of uit te schakelen:
 
    * **Eigenaar**
    * **laatst bijgewerkt**
@@ -104,7 +104,7 @@ Voor meer informatie over de malplaatjetypes van de Raad, zie [&#x200B; creeer o
 
 1. (Facultatief) om de orde aan te passen de gebieden binnen verschijnen, klik en houd het **pictogram van de Belemmering** links van een gebied, dan sleep het aan een nieuwe positie.
 
-   ![&#x200B; klik en sleep &#x200B;](assets/click-and-drag.png)
+   ![ klik en sleep ](assets/click-and-drag.png)
 
 1. Klik buiten het **zicht van Gebieden en orde** paneel om het te sluiten. Uw kolomconfiguraties blijven van toepassing op de lijst van Boeken tot zij worden gewijzigd.
 
@@ -112,15 +112,15 @@ Voor meer informatie over de malplaatjetypes van de Raad, zie [&#x200B; creeer o
    >
    > Wanneer de de lijstkolomvertoning van Borden wordt gewijzigd, verschijnt een blauwe punt boven het **pictogram van Kolommen** om erop te wijzen dat de huidige mening van het gebrek is gewijzigd.
 
-## Groepeer de lijst met kamers per specifiek veld
+## De lijst met boards groeperen op een specifiek veld
 
 {{step1-to-boards}}
 
-1. Voor de **Borden** pagina, selecteer de **Mening Admin** tabel.
+1. Voor de **pagina van Boards**, selecteer de **Mening Admin** tabel.
 
 1. Selecteer **Groep**. De **Groep door** paneel opent.
 
-1. Selecteer het veld waarop u de lijst Boeken wilt groeperen:
+1. Selecteer het veld waarvan u de lijst met boards wilt groeperen als volgt:
 
    * **Gearchiveerd**
    * **Eigenaar**
@@ -128,15 +128,15 @@ Voor meer informatie over de malplaatjetypes van de Raad, zie [&#x200B; creeer o
 
 1. (Facultatief) om de groepering van de **Groep door** paneel uit te breiden of samen te vouwen, **samen te vouwen allen** of **allen** uitbreiden.
 
-   ![&#x200B; Vouw allen &#x200B;](assets/collapse-all.png) samen
+   ![ Vouw allen ](assets/collapse-all.png) samen
 
 1. (Facultatief) om de de vertoningsorde van de groepering van A-Z in z-A te veranderen, selecteer het gebied de lijst momenteel door wordt gegroepeerd, dan uitgezocht **z-A** van drop-down.
 
-   ![&#x200B; Vertoning door orde &#x200B;](assets/display-by-order.png)
+   ![ Vertoning door orde ](assets/display-by-order.png)
 
-1. Klik buiten de **Groep door** paneel om het te sluiten. Van hieruit kunt u de toegepaste groepering in de lijst samenvouwen of uitvouwen door de pijl naast de groeperingstitel te selecteren.
+1. Klik buiten de **Groep door** paneel om het te sluiten. Vanaf hier kunt u de toegepaste groepering in de lijst samenvouwen of uitvouwen door de pijl naast de groeperingstitel te selecteren.
 
-   ![&#x200B; Vouw samen of breid &#x200B;](assets/collapse-or-expand.png) uit
+   ![ Vouw samen of breid uit ](assets/collapse-or-expand.png)
 
    >[!NOTE]
    >   

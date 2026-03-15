@@ -1,38 +1,38 @@
 ---
-title: Verbeteringen voor financieel beheer in het derde kwartaal van 2024
-description: Verbeteringen voor financieel beheer in het derde kwartaal van 2024
-author: Nolan
+title: Third Quarter 2024 Financial management enhancements
+description: Third Quarter 2024 Financial management enhancements
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
-source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen voor financieel beheer in het derde kwartaal van 2024
+# Third Quarter 2024 Financial management enhancements
 
-Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
+This page describes all financial management enhancements made with the Third Quarter 2024 release to the Preview environment. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
-## Voor projecten en taken beschikbare velden voor aanpasbare en niet-aanpasbare uitgaven
+## Billable and non-billable expenses fields available for projects and tasks
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 10 mei 2024; Productie voor alle klanten: 10 mei 2024
+>Preview release: May 10, 2024; Production for all customers: May 10, 2024
 
-Om u gemakkelijker te helpen uitgaventypes bekijken, zijn de uitgaven in factureerbare en niet factureerbare uitgaven op projecten en taken gescheiden. U kunt de volgende velden toevoegen aan weergaven en rapporten:
+To help you more easily view expense types, expenses have been separated into billable and non-billable expenses on projects and tasks. The following fields are available for you to add to views and reports:
 
-* Geplande aanpasbare kosten
-* Geplande niet-aanpasbare kosten
-* Werkelijke niet-aanpasbare kosten
-* Werkelijke niet-aanpasbare kosten
+* Planned Billable Expense Cost
+* Planned Non-Billable Expense Cost
+* Actual Non-Billable Expense Cost
+* Actual Non-Billable Expense Cost
 
-De basislijn, het Malplaatje, en de rapporten van het Project (Financiële Gegevens) omvatten ook de nieuwe gebieden. Deze velden zijn niet beschikbaar op de pagina&#39;s met project- en taakdetails.
+The Baseline, Template, and Project (Financial Data) reports also include the new fields. These fields are not available on the project and task details pages.
 
-Facultatieve kosten worden gemarkeerd als factureerbaar aan de klant. Niet-factureerbare uitgaven worden niet als factureerbaar geboekt.
+Billable expenses are marked as billable to the customer. Non-billable expenses are not marked as billable.
 
-Voor meer informatie over het merken van een uitgave als factureerbaar, zie [&#x200B; projectuitgaven beheren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Voor meer informatie over het merken van een uitgave als factureerbaar, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

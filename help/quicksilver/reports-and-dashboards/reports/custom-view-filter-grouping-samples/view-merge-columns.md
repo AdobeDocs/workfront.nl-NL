@@ -2,27 +2,27 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: Informatie uit meerdere kolommen samenvoegen in één gedeelde kolom'
-description: U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond samenvoegen en het tonen in één gedeelde kolom.
-author: Nolan
+title: 'Weergeven: Informatie uit meerdere kolommen samenvoegen in één gedeelde kolom'
+description: U kunt de informatie die wordt weergegeven in meerdere afzonderlijke kolommen samenvoegen en deze weergeven in één gedeelde kolom.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 0%
 
 ---
 
-# Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom
+# Weergave: informatie uit meerdere kolommen samenvoegen in één gedeelde kolom
 
 <!-- Audited: 11/2024 -->
 
-U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond samenvoegen en het tonen in één gedeelde kolom.
+U kunt de informatie die wordt weergegeven in meerdere afzonderlijke kolommen samenvoegen en deze weergeven in één gedeelde kolom.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond sam
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Bijdrager of verzoek om een weergave te wijzigen </p>
    <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond sam
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -63,15 +63,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
   De volgende uitzonderingen bestaan:
 
-   * Wanneer u informatie in Workfront weergeeft, blijft de opmaak van de eerste kolom behouden en wordt de opmaak van alle andere kolommen genegeerd als de kolommen waaruit een samengevoegde kolom bestaat, een andere opmaak hebben.
+   * Wanneer u informatie bekijkt in Workfront, blijft de opmaak van de eerste kolom behouden en wordt de opmaak van alle andere kolommen genegeerd als de kolommen waaruit een samengevoegde kolom bestaat, een andere opmaak hebben.
    * Bij het exporteren van de weergave naar een PDF-bestand wordt voorwaardelijke opmaak toegepast op de eerste kolom in een samengevoegde kolom.
    * Wanneer u de weergave naar een Excel-bestand exporteert, worden samengevoegde kolommen weergegeven als afzonderlijke kolommen. De afzonderlijke kolommen geven ook hun respectievelijke voorwaardelijke opmaakregels weer.
 
-* De kolommen met het **viewalias** attribuut kunnen de hoeveelheid kolommen beperken die u kunt samenvoegen. Om deze grenzen te vermijden, vermijd gebruikend het **viewalias** attribuut. Als u het **viewalias** attribuut in een kolom moet omvatten, zorg ervoor dat het het laatste die punt in de kolom wordt vermeld is.
+* De kolommen met het **viewalias** attribuut kunnen de hoeveelheid kolommen beperken die u kunt samenvoegen. Vermijd gebruikend het **viewalias** attribuut. Als u het **viewalias** attribuut in een kolom moet omvatten, zorg ervoor dat het het laatste punt is dat in de kolom wordt vermeld.
 
-* Als u een lijst met gedeelde kolommen naar een formaat van Excel of van het Lusje Gescheiden uitvoert, worden deze kolommen gescheiden uit in het uitgevoerde dossier.
+* Als u een lijst met gedeelde kolommen exporteert naar een Excel- of tabgescheiden indeling, worden deze kolommen in het geëxporteerde bestand gescheiden.
 
-* Wanneer een of beide kolommen een tekstveld `tile` weergeven, wordt automatisch een geforceerd regeleinde ingevoegd in de samengevoegde kolom. Tekstvelden met opmaak zijn bijvoorbeeld `tile` tekstvelden. In dit geval is er een regelcode `type=tile` wanneer u de kolommen in de tekstmodus bekijkt.
+* Als een of beide kolommen een tekstveld `tile` weergeven, wordt er automatisch een geforceerd regeleinde ingevoegd in de samengevoegde kolom. Tekstvelden met opmaak zijn bijvoorbeeld `tile` tekstvelden. In dit geval is er een lijncode van `type=tile` wanneer u de kolommen bekijkt in de Tekstmodus.
 
 ## Gegevens uit twee kolommen samenvoegen zonder een regeleinde
 
@@ -84,7 +84,7 @@ U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weerg
 Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
 1. Ga naar de eerste kolom u wilt samenvoegen, dan klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**.
 1. Voeg de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 
@@ -94,7 +94,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
    U moet het kolomaantal van de eerste kolom met het aantal van die kolom voorafgaan. Kolom tellen begint altijd met de kolom geheel links in de lijst of het rapport met het label `column.0.` .
 
-   Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie voor elke kolom bevatten.
+   Als u meerdere kolommen deelt, moet u het kolomnummer toevoegen in de coderegels die de informatie over delen voor elke kolom bevatten.
 
 
    **VOORBEELD:** het volgende is de code van de tekstwijze voor een samengevoegde kolom die drie afzonderlijke kolommen bevat, die met de tweede kolom van de lijst beginnen. De samengevoegde waarden zijn Projectnaam, Geplande Begindatum en de naam van de eigenaar van het project en er is geen onderbreking tussen de drie waarden:
@@ -110,7 +110,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
    column.3.valueformat=HTML
    ```
 
-   ![&#x200B; Gedeelde kolom zonder lijnonderbrekingen &#x200B;](assets/shared-column-no-line-breaks-350x142.png)
+   ![ Gedeelde kolom zonder lijnonderbrekingen ](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Klik **Gedaan**, dan **sparen Mening**.
@@ -120,7 +120,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en weer te geven in één gemeenschappelijke kolom met een regeleinde tussen de waarden van elke kolom:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
 1. Voeg een derde kolom toe tussen de twee kolommen die u wilt samenvoegen.
 
    >[!TIP]
@@ -145,7 +145,7 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
 
    Als de gecombineerde kolom zich in het midden van de weergave bevindt, worden de kolommen genummerd op basis van hun plaats in de weergave. Kolom tellen begint altijd met de kolom geheel links in de lijst of het rapport met het label `column.0.` .
 
-   Als u meer dan één kolom deelt, zorg ervoor u het kolomaantal in de lijnen van code toevoegt die de het delen informatie bevatten.
+   Als u meerdere kolommen deelt, moet u het kolomnummer toevoegen in de coderegels die de delende informatie bevatten.
 
    **VOORBEELD:** het volgende is de code van de tekstwijze voor een gedeelde kolom die de Naam van het Project, Geplande Datum van het Begin, en de naam van de Eigenaar van het Project met een lijnonderbreking bevat. De gedeelde kolom is de tweede kolom van een projectweergave.
 
@@ -171,6 +171,6 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
    column.5.valueformat=HTML 
    ```
 
-   ![&#x200B; Gedeelde kolom met lijnonderbrekingen &#x200B;](assets/shared-column-with-line-breaks-350x199.png)
+   ![ Gedeelde kolom met lijnonderbrekingen ](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Klik **Gedaan**, dan **sparen Mening**.

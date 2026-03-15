@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergeven: problemen met goedkeuringsgegevens'
 description: De volgende probleemweergave toont het goedkeuringsproces, de stap, de namen van de fiatteurs en de status van de kwestie voordat de goedkeuring werd verleend. Sommige van deze gebieden zijn niet toegankelijk door de standaardinterfacebouwer.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De volgende probleemweergave toont het goedkeuringsproces, de stap, de namen van de fiatteurs en de status van de kwestie voordat de goedkeuring werd verleend. Sommige van deze gebieden zijn niet toegankelijk door de standaardinterfacebouwer.
 
-![&#x200B; custom_issue_view_with_approval_info.png &#x200B;](assets/custom-issue-view-with-approval-info-350x46.png)
+![ custom_issue_view_with_approval_info.png ](assets/custom-issue-view-with-approval-info-350x46.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ De volgende probleemweergave toont het goedkeuringsproces, de stap, de namen van
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

@@ -3,12 +3,12 @@ content-type: reference
 navigation-topic: betas
 title: 'Bèta Canvas-dashboards: releaseactiviteit'
 description: Wekelijkse releaseactiviteit voor de bètaversie van Adobe Workfront Canvas Dashboards
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze pagina bevat wekelijks een overzicht van de ontwikkelingsupdates die worden uitgebracht voor de bètaversie van Canvasdashboards.
 
-Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Week van 14 augustus
 
@@ -31,4 +31,4 @@ Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [&#
 
 * **rapporten van de Grafiek**
 
-  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een Dashboard van het Canvas, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een Dashboard van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

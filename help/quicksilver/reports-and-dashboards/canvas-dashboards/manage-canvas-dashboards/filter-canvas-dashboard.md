@@ -2,11 +2,11 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Een canvasdashboard filteren
-description: U kunt een filter op een dashboard van het Canvas toepassen nadat het is gecreeerd.
-author: Courtney and Jenny
+description: U kunt een filter toepassen op een canvasdashboard nadat het is gemaakt.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet voltooid of werken zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in te volgen [ geef terugkoppel ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de Dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -66,14 +66,14 @@ U kunt een filter op een dashboard van het Canvas toepassen dat herinneringen be
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
 
 U moet een dashboard maken voordat u het kunt filteren.
 
-Voor meer informatie, zie [&#x200B; een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
 
 ## Een dashboard filteren
 
@@ -101,7 +101,7 @@ Met een dashboardfilter, kunt u een gemeenschappelijke filter over alle rapporte
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Op de **pagina van de Dashboards van het Canvas**, selecteer het dashboard u een filter op wilt toepassen.
+1. Voor de **pagina van de Dashboards van het Canvas**, selecteer het dashboard u een filter op wilt toepassen.
 
 1. In de upper-left hoek van de pagina van dashboarddetails, klik **Filters**. Het paneel Filters wordt geopend.
 
@@ -111,15 +111,15 @@ Met een dashboardfilter, kunt u een gemeenschappelijke filter over alle rapporte
 
    1. Selecteer **uitgeven** pictogram aan het recht van de regeldoos.
 
-      ![&#x200B; geef pictogram &#x200B;](assets/edit-icon.png) uit
+      ![ geef pictogram ](assets/edit-icon.png) uit
 
-   1. Klik **toevoegen voorwaarde** en voeg dan de volgende informatie toe:
+   1. Klik **voeg voorwaarde** toe en voeg dan de volgende informatie toe:
       * Selecteer een veld waarop u wilt filteren.
-      * Selecteer een optie (of filtermodifier) om te bepalen aan welke voorwaarde het veld moet voldoen.
+      * Selecteer een optie (of filteroptie) om te definiëren aan welke voorwaarde het veld moet voldoen.
 
-   1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
+   1. (Optioneel) Klik op **Filtergroep toevoegen** om een andere set filtercriteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Ga aan [&#x200B; Deel 2 te werk: Creeer een dashboardherinnering &#x200B;](#part-2-define-a-dashboard-prompt).
+1. Ga aan [ Deel 2 te werk: Creeer een dashboardherinnering ](#part-2-define-a-dashboard-prompt).
 
 
 ### Deel 2: Een dashboardprompt definiëren
@@ -130,9 +130,9 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 >
 >De opties voor de dashboardprompt kunnen alleen worden geconfigureerd door een gebruiker met beheertoegang tot het dashboard.
 
-1. Volg onderstaande stappen om een vraag toe te voegen:
+1. Volg de onderstaande stappen om een vraag toe te voegen:
 
-   1. Selecteer **toevoegen herinnering**. Nieuwe velden worden rechts op het scherm weergegeven.
+   1. Selecteer **toevoegen herinnering**. Rechts van het scherm worden nieuwe velden weergegeven.
 
    1. Ga een etiket op het **in aanpassen etiket** gebied.
 
@@ -140,13 +140,13 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 
 1. Volg onderstaande stappen om een aangepaste prompt toe te voegen:
 
-   1. Selecteer **toevoegen douaneherinnering**. Nieuwe velden worden rechts op het scherm weergegeven.
+   1. Selecteer **toevoegen douaneherinnering**. Rechts van het scherm worden nieuwe velden weergegeven.
 
-   1. (Facultatief) ga een nieuw etiket op het **aanpassen etiket** gebied in. Door gebrek, wordt de etiket *Nieuwe douaneherinnering* toegewezen.
+   1. (Facultatief) ga een nieuw etiket op het **aanpast etiket** gebied in. Door gebrek, wordt de etiket *Nieuwe douaneherinnering* toegewezen.
 
-   1. Klik **toevoegen nieuwe optie**.
+   1. Klik **voeg nieuwe optie** toe.
 
-   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0&rbrace; in.**
+   1. Ga de snelle naam op het **gebied van de Waarde van de Optie** in.
 
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
 
@@ -159,7 +159,7 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 
 1. Klik **sparen** om de filter op het dashboard toe te passen.
 
-1. Ga aan [&#x200B; Deel 3 te werk: Pas een dashboardherinnering &#x200B;](#step-3-apply-a-dashboard-prompt) toe.
+1. Ga aan [ Deel 3 te werk: Pas een dashboardherinnering ](#step-3-apply-a-dashboard-prompt) toe.
 
 ### Stap 3: Een dashboardprompt toepassen
 
@@ -173,9 +173,9 @@ Alle gebruikers met toegang tot een dashboard kunnen een dashboardherinnering op
 
 1. In de upper-left hoek van de pagina van dashboarddetails, klik **Filters**. Het paneel Filters wordt geopend.
 
-1. In **toon verslagen waar...** sectie, kies een voorwaarde voor één of alle getoonde herinneringen. De herinnering wordt toegepast en de toegepaste filters van het a **dashboard** markering verschijnt in de hoek van de rapportwidget.
-   ![&#x200B; Uitgezochte voorwaarde &#x200B;](assets/prompts-list.png)
+1. In **toon verslagen waar...** sectie, kies een voorwaarde voor één of alle getoonde herinneringen. De herinnering wordt toegepast en de toegepaste filters van het a **Dashboard** markering verschijnt in de hoek van de rapportwidget.
+   ![ Uitgezochte voorwaarde ](assets/prompts-list.png)
 
-1. Klik het **Dichte** pictogram ![&#x200B; dicht pictogram &#x200B;](assets/close-icon.png) in de hoger-juiste hoek om het paneel te verbergen.
+1. Klik het **Dichte** pictogram ![ dicht pictogram ](assets/close-icon.png) in de hoger-juiste hoek om het paneel te verbergen.
 
 

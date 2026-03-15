@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Typen gebeurtenismeldingen
 description: Gebeurtenismeldingen worden geactiveerd door verschillende typen gebeurtenissen voor objecten, zoals projecten, taken en problemen. In dit artikel worden de beschikbare typen gebeurtenismeldingen weergegeven en beschreven.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-De berichten van de gebeurtenis worden e-mail teweeggebracht door diverse soorten gebeurtenissen op voorwerpen zoals projecten, taken, en kwesties, zoals die in [&#x200B; berichten van de Gebeurtenis &#x200B;](../../../workfront-basics/using-notifications/event-notifications.md) worden verklaard.
+De berichten van de gebeurtenis worden e-mail teweeggebracht door diverse soorten gebeurtenissen op voorwerpen zoals projecten, taken, en kwesties, zoals die in [ berichten van de Gebeurtenis ](../../../workfront-basics/using-notifications/event-notifications.md) worden verklaard.
 
 Deze meldingen kunnen op systeem- en groepsniveau worden geconfigureerd:
 
-* Voor informatie over het vormen van gebeurtenisberichten op het systeemniveau, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
-* Voor informatie over het vormen van gebeurtenisberichten op het groepsniveau, zie [&#x200B; Mening en vorm gebeurtenisberichten voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* Voor informatie over het vormen van gebeurtenisberichten op het systeemniveau, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+* Voor informatie over het vormen van gebeurtenisberichten op het groepsniveau, zie [ Mening en vorm gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Individuele gebruikers kunnen hun individuele gebeurtenismeldingen ook in hun afzonderlijke profiel activeren en deactiveren. Voor meer informatie, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Individuele gebruikers kunnen hun individuele gebeurtenismeldingen ook in hun afzonderlijke profiel activeren en deactiveren. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In de volgende tabellen staan alle Adobe Workfront-gebeurtenismeldingen, een korte beschrijving van de gebeurtenis en of de gebeurtenis standaard actief of inactief is.
 
@@ -36,7 +36,7 @@ In de volgende tabellen staan alle Adobe Workfront-gebeurtenismeldingen, een kor
 
 ## Actie vereist
 
-Zie ook [&#x200B; Meldingen: Actie nodig &#x200B;](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Zie ook [ Meldingen: Actie nodig ](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,7 +171,7 @@ Zie ook [&#x200B; Meldingen: Actie nodig &#x200B;](../../../workfront-basics/usi
 
 ## Verzoeken die ik heb ingediend
 
-Zie ook [&#x200B; Meldingen: Verzoeken ik &#x200B;](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) heb gemaakt.
+Zie ook [ Meldingen: Verzoeken ik ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) heb gemaakt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -276,7 +276,7 @@ Zie ook [&#x200B; Meldingen: Verzoeken ik &#x200B;](../../../workfront-basics/us
 
 ## Communicatie
 
-Zie ook [&#x200B; Meldingen: Communicatie &#x200B;](../../../workfront-basics/using-notifications/notifications-communication.md).
+Zie ook [ Meldingen: Communicatie ](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -360,7 +360,7 @@ Zie ook [&#x200B; Meldingen: Communicatie &#x200B;](../../../workfront-basics/us
 
 ## Goedkeuringsinformatie
 
-Zie ook [&#x200B; Meldingen: De informatie van de Goedkeuring &#x200B;](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Zie ook [ Meldingen: De informatie van de Goedkeuring ](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -424,7 +424,7 @@ Zie ook [&#x200B; Meldingen: De informatie van de Goedkeuring &#x200B;](../../..
 
 ## Informatie over werk dat aan mij is toegewezen
 
-Zie ook [&#x200B; Meldingen: Informatie over het werk dat aan me &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md) wordt toegewezen.
+Zie ook [ Meldingen: Informatie over het werk dat aan me ](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md) wordt toegewezen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -535,7 +535,7 @@ Zie ook [&#x200B; Meldingen: Informatie over het werk dat aan me &#x200B;](../..
 
 ## Informatie over projecten die ik op
 
-Zie ook [&#x200B; Meldingen: Informatie over projecten ik op &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md) ben.
+Zie ook [ Meldingen: Informatie over projecten ik op ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md) ben.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -634,7 +634,7 @@ Zie ook [&#x200B; Meldingen: Informatie over projecten ik op &#x200B;](../../../
 
 ## Informatie over projecten die ik bezit
 
-Zie ook [&#x200B; Meldingen: Informatie over projecten ik &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md) bezit.
+Zie ook [ Meldingen: Informatie over projecten ik ](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md) bezit.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -733,7 +733,7 @@ Zie ook [&#x200B; Meldingen: Informatie over projecten ik &#x200B;](../../../wor
 
 ## Informatie over door mij gefinancierde projecten
 
-Zie ook [&#x200B; Meldingen: Informatie over projecten ik &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md) sponsor.
+Zie ook [ Meldingen: Informatie over projecten ik ](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md) sponsor.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -818,7 +818,7 @@ Zie ook [&#x200B; Meldingen: Informatie over projecten ik &#x200B;](../../../wor
 
 ## Overige informatie
 
-Zie ook [&#x200B; Meldingen: Diverse informatie &#x200B;](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Zie ook [ Meldingen: Diverse informatie ](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -926,7 +926,7 @@ Zie ook [&#x200B; Meldingen: Diverse informatie &#x200B;](../../../workfront-bas
 
 ## Delegatie
 
-Zie ook [&#x200B; Meldingen: Delegatie &#x200B;](../../../workfront-basics/using-notifications/notifications-delegation.md).
+Zie ook [ Meldingen: Delegatie ](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Objecttype | Gebeurtenis | Ontvanger | Beschrijving | Standaardstatus |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|

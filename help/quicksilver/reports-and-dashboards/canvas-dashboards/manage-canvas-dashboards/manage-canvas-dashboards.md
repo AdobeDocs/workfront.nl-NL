@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: 'Canvasdashboards beheren: artikelindex'
 description: Bekijk de artikelen in deze sectie.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze pagina beschrijft functionaliteit die als deel van de bèta van de Dashboards van het Canvas beschikbaar is. Zie [&#x200B; de bèta-informatie van de Dashboards van het Canvas &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
+>Deze pagina beschrijft functionaliteit die als deel van de bèta van de Dashboards van het Canvas beschikbaar is. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 Deze sectie bevat de volgende artikelen:
 

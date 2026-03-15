@@ -1,23 +1,23 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Artikelinformatie weergeven en bewerken op het plakbord
-description: Wanneer u een artikeltegel weergeeft op het Kanban-bord, kunt u bepaalde informatie inline bewerken, rechtstreeks vanuit de artikeltegel.
-author: Jenny
+title: View and Edit Story Information on the Scrum Board
+description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
+author: Courtney
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# Artikelinformatie op de [!UICONTROL Scrum] -board weergeven en bewerken
+# View and edit story information on the [!UICONTROL Scrum] board
 
-## Begrijp welke informatie kan worden bekeken en worden uitgegeven
+## Understand what information can be viewed and edited
 
-Wanneer u een artikeltegel weergeeft op het artikelbord, is de informatie in de volgende tabel beschikbaar. U kunt de meeste informatie inline bewerken, rechtstreeks vanuit de artikeltegel.
+Wanneer u een artikeltegel weergeeft op het artikelbord, is de informatie in de volgende tabel beschikbaar. You can edit most information inline, directly from the story tile.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,14 +25,14 @@ Wanneer u een artikeltegel weergeeft op het artikelbord, is de informatie in de 
  <col> 
  <thead> 
   <tr> 
-   <th><strong> Informatie </strong> </th> 
-   <th><strong> Zichtbaar </strong> </th> 
-   <th><strong> Bewerkbaar Inline </strong> </th> 
+   <th><strong>Information</strong> </th> 
+   <th><strong>Visible</strong> </th> 
+   <th><strong>Editable Inline</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>De artikelnaam met een koppeling die rechtstreeks naar de taak of uitgave verwijst</td> 
+   <td>The story name with a link directly to the task or issue</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -52,17 +52,17 @@ Wanneer u een artikeltegel weergeeft op het artikelbord, is de informatie in de 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Aan wie is het artikel toegewezen</p> </td> 
+   <td> <p>Who the story is assigned to</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>De kleur of categorie van de tegel</p> </td> 
+   <td> <p>The color or category of the tile</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Om het even welke extra gebieden (met inbegrip van douanevelden) die aan de Gelijke mening door de Gelijke mening te wijzigen zouden kunnen zijn toegevoegd, zoals die in "het Creëren van en het Aanpassen van een [!UICONTROL Agile] Mening"in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> overzicht van Meningen in [!UICONTROL Adobe Workfront]</a> wordt beschreven.</p> </td> 
+   <td> <p>Any additional fields (including custom fields) that might have been added to the Agile view by modifying the Agile view, as described in "Creating and Customizing an [!UICONTROL Agile] View" in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -94,22 +94,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Informatie over een artikeltegel weergeven en bewerken
+## View and edit information on a story tile
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
+1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 
-1. Ga naar het [!UICONTROL Scrum] artikel.
-1. Vouw het element [!UICONTROL story] uit om alle velden weer te geven die aan het artikel zijn gekoppeld.
+1. Go to the [!UICONTROL Scrum] Agile story board.
+1. Expand the [!UICONTROL story] tile to view all fields associated with the story.
 
-   ![&#x200B; verhaalkaart &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ verhaalkaart ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Optioneel) Als u een veld wilt bewerken, klikt u op het veld en brengt u de gewenste wijzigingen aan.
 

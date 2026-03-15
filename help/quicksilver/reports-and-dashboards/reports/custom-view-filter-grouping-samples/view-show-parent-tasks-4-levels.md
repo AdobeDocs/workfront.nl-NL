@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: bovenliggende taken tot 4 niveaus diep tonen'
 description: Deze taakmening toont de taaknaam in de eerste kolom en (als zij bestaan) tot 4 oudertaken in afzonderlijke kolommen in de zelfde lijst.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze taakmening toont de taaknaam in de eerste kolom en (als zij bestaan) tot 4 oudertaken in afzonderlijke kolommen in de zelfde lijst.
 
-![&#x200B; parent_tasks_4_levels_deep.png &#x200B;](assets/parent-tasks-4-levels-deep-350x29.png)
+![ parent_tasks_4_levels_deep.png ](assets/parent-tasks-4-levels-deep-350x29.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Deze taakmening toont de taaknaam in de eerste kolom en (als zij bestaan) tot 4 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

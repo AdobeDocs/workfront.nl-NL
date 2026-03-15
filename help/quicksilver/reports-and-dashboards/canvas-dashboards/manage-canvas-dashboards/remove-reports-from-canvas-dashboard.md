@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Rapporten verwijderen van een dashboard
 description: U kunt rapporten uit een dashboard verwijderen nadat zij zijn toegevoegd.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Zodra een dashboard wordt gecreeerd en u rapporten aan het hebt toegevoegd, kunt
 
 Het verwijderen van een rapport uit een dashboard is permanent. Als u een rapport opnieuw moet toevoegen nadat het is geschrapt, zult u het rapport moeten opnieuw creëren.
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,7 +60,7 @@ Het verwijderen van een rapport uit een dashboard is permanent. Als u een rappor
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -77,8 +77,8 @@ U moet rapporten aan een dashboard toevoegen alvorens zij kunnen worden verwijde
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Op de **pagina van de Dashboards van het Canvas**, selecteer **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de hoger-juiste hoek van het dashboard u wilt bijwerken, dan **verwijderen**.
+1. Op de **pagina van de Dashboards van het Canvas**, selecteer **Meer** ![ Meer pictogram ](assets/more-icon.png) in de hoger-juiste hoek van het dashboard u wilt bijwerken, dan **verwijderen**.
 
-   ![&#x200B; verwijdert rapport &#x200B;](assets/delete-a-report.png)
+   ![ verwijdert rapport ](assets/delete-a-report.png)
 
 1. In het **rapport van de Schrapping** dialoogvakje dat verschijnt, klik **Schrapping**. Het rapport wordt verwijderd uit het dashboard.

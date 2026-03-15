@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront proof 23.3 release activity Week van 5 juni 2023
 description: Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht met de versie 23.3 voor Adobe Workfront Proof voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 5 juni 2023.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -33,4 +33,4 @@ DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 De maximale grootte van PowerPoint- en Word-bestanden is nu 512 MB.
 
-Voor meer informatie, zie [&#x200B; Ondersteunde het proef dossiertypes en groottegrenzen overzicht &#x200B;](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Voor meer informatie, zie [ Ondersteunde het proef dossiertypes en groottegrenzen overzicht ](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

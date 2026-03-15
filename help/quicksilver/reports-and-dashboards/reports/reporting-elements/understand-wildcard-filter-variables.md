@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variabelen van jokerfilter
 description: Door vervangingen in filters te gebruiken, kunt u een generische gebruiker of een datum in plaats van een specifieke gebruiker of een datum van verwijzingen voorzien. Op deze manier zijn de elementen die u maakt dynamisch en veranderen de resultaten afhankelijk van de context waarin ze worden gebruikt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -46,12 +46,12 @@ U kunt filtervariabelen, ook wel jokertekens genoemd, gebruiken wanneer u de vol
         <td></td>
     </tr>
     <tr>
-        <td>Voorwaardelijke opmaak in weergaven</td>
-        <td>Voor informatie over voorwaardelijk formatteren, zie het artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md"> Voorwaardelijke het formatteren van het Gebruik in meningen </a>.
+        <td>Conditional formatting in views</td>
+        <td>For information about conditional formatting, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Use conditional formatting in views</a>.
     </tr>
     <tr>
-        <td>Berekende aangepaste velden</td>
-        <td>Variabelen van jokertekenfilters worden niet ondersteund wanneer wordt verwezen naar geneste verzamelingen in een berekende kolom.
+        <td>Calculated custom fields</td>
+        <td>Wildcard filter variables are not supported when referencing nested collections in a calculated column.
 
 Voor informatie over berekende douanegebieden en kolommen, zie het artikel <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md"> Berekende douanegebieden vs. berekende kolommen </a>.
 </td>
@@ -60,7 +60,7 @@ Voor informatie over berekende douanegebieden en kolommen, zie het artikel <a hr
 
 ## Filtervariabelen voor jokertekens op basis van datum
 
-De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Het jokerteken `$$TODAYb+2w` verwijst bijvoorbeeld naar &quot;2 weken vanaf het 
 >
 >Als een filter of een rapport een op gebruiker-gebaseerde variabele van de vervangingsfilter bevat, tonen de resultaten altijd informatie die door de gebruiker wordt gefilterd die momenteel het programma wordt geopend. Wanneer u zulk een filter of rapport met een andere gebruiker deelt, wint het vervanging informatie voor de gebruiker terug die het rapport bekijken. De twee gebruikers zien verschillende resultaten.
 >
->Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+>Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
 U kunt uit de volgende op gebruiker-gebaseerde variabelen kiezen:
 
@@ -136,12 +136,12 @@ U kunt uit de volgende op gebruiker-gebaseerde variabelen kiezen:
      <li>Mijn projecten</li> 
      <li>Mijn taken</li> 
      <li>Mijn problemen</li> 
-     <li>Mijn uren</li> 
+     <li>My Hours</li> 
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.categoryID</strong> </p> </td> 
-   <td> <p>De variabele $$USER.categoryID verwijst naar een specifiek aangepast formulier dat is gekoppeld aan de aangemelde gebruiker.</p> </td> 
+   <td> <p>The $$USER.categoryID variable refers to a specific custom form associated with the logged-in user.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.accessLevelID</strong> </p> </td> 

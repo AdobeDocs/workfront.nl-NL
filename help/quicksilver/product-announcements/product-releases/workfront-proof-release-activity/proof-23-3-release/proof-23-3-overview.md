@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront Proof met 23.3 release
 description: Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Proof in de nieuwe Adobe Workfront-ervaring die met de release 23.3 wordt vrijgegeven voor de productieomgeving.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Proof die binnen de releaseperiode van 23.3 wordt vrijgegeven voor de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.3 versiecyclus, zie [&#x200B; 23.3 Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.3 versiecyclus, zie [ 23.3 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />

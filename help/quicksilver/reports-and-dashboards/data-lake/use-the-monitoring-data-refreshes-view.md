@@ -3,9 +3,10 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: De weergave Gegevensvernieuwingen controleren in Data Connect gebruiken
 description: Met Data Connect kunnen Workfront-beheerders toegang krijgen tot gedetailleerde records van de recente updates die tijdens de meest recente vernieuwingen zijn aangebracht op de datum van het datumpigment.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -87,4 +88,3 @@ De weergavekolommen voor het vernieuwen van monitoringgegevens bevatten de volge
         <br><b> Nota </b>: Dit is niet het zelfde als het totale aantal verslagen die door CREATE, UPDATE, of de gebeurtenissen van DELETE worden beïnvloed aangezien het zelfde verslag kon worden gecreeerd en worden bijgewerkt veelvoudige tijden binnen het interval tussen vernieuwingen.  </td>
     </tr>
    </table>
-

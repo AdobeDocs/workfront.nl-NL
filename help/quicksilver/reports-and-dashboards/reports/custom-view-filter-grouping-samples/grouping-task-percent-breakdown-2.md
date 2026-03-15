@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groepering: Taakpercentage Uitsplitsing 2'
 description: 'In deze aangepaste taakgroep kunt u taken weergeven die zijn gegroepeerd op een bereik van hun procentuele volledige waarden. De uitsplitsingen geven het percentage aan dat de volledige waarde is in stappen van 10 procentpunten: 1-10%, 11-20% enzovoort.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -35,7 +35,7 @@ De volgende groepering organiseert projecten door het percentage volledige waard
 * 91-99%
 * 100%
 
-![&#x200B; task_10__break_grouping.png &#x200B;](assets/task-10--breakdown-grouping-350x547.png)
+![ task_10__break_grouping.png ](assets/task-10--breakdown-grouping-350x547.png)
 
 ## Toegangsvereisten
 
@@ -66,7 +66,7 @@ De volgende groepering organiseert projecten door het percentage volledige waard
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

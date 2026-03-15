@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Weergaven maken of bewerken in Adobe Workfront
 description: U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
-In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt.
+In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten kunt maken en bewerken.
 
-Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,12 +55,12 @@ Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Een weergave maken of aanpassen
 
-Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave of een weergave op het toetsenbord maakt of aanpast.
+Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave of een toetsenbordweergave maakt of aanpast.
 
 ### Een standaardweergave maken of aanpassen {#create-or-customize-a-standard-view}
 
@@ -69,15 +69,15 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 1. Klik het **drop-down menu van de Mening** op om het even welke lijst waar u een mening tot stand wilt brengen of aanpassen.
 
 1. Klik op de knop **+ Nieuwe weergave** om een nieuwe weergave te maken.
-of
-Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
-**past de vertoningen van de de dialoogdoos van de Mening** aan.
+Of
+Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
+De **Customize de vertoningen van de de dialoogdoos van de Mening**.
 
 1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
 
-   * Wijzig de waarde van om het even welke kolom door de kolomtitel te klikken en dan een nieuw gebied te selecteren.
-   * Voeg een kolom toe door **te klikken voeg Kolom** toe, begin typend de naam van de kolom die u wilt toevoegen, dan het klikken wanneer het in de drop-down lijst verschijnt.
-   * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
+   * Wijzig de waarde van een kolom door op de kolomtitel te klikken en vervolgens een nieuw veld te selecteren.
+   * Voeg een kolom door **toe te klikken Kolom**, begin typend de naam van de kolom die u wilt toevoegen, dan klik het wanneer het in de drop-down lijst verschijnt.
+   * Pas de volgorde waarin kolommen worden weergegeven aan door de kolomtitel naar een nieuwe locatie te slepen.
 
    * In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** samen, en kies hoe u de gegevens in de kolom wilt tonen. Deze optie is beschikbaar voor de volgende kolomtypen:
      <table style="table-layout:auto"> 
@@ -117,7 +117,7 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
      > * Werkelijke uren geeft een overzicht van de waarden voor de hoofdbovenliggende taken en de zelfstandige taken; deze geven geen overzicht van de getallen voor de bovenliggende taken of de onderliggende taken.
      > * De gegevensgebieden van de douane voor aantal en muntwaarden vatten alle taken samen: ouders, kinderen, ouders van ouders, en standalone taken.
      >
-     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
@@ -138,25 +138,25 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
            <td><p>Selecteer deze optie om deze kolom op een dashboard te tonen, wanneer het rapport naast elkaar met een ander rapport wordt getoond. Als deze optie is uitgeschakeld, wordt deze kolom niet weergegeven wanneer u het rapport weergeeft op een dashboard waar rapporten naast elkaar worden weergegeven.</p></td> 
           </tr> 
           <tr> 
-           <td role="rowheader"><strong>Kolomregels</strong></td> 
+           <td role="rowheader"><strong>Kolomlijnen</strong></td> 
            <td><p>Klik <strong>+ voeg een Regel voor deze Kolom </strong> toe om een regel voor de kolom te bepalen. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik <strong> toevoegen Regel </strong> nadat u het bepalen van de regel hebt gebeëindigd.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) als u **Geavanceerde Opties** klikte, klik **Gedaan**.
 
 1. Klik **sparen Mening** om een nieuwe mening tot stand te brengen of de huidige mening met uw veranderingen te vervangen.\
-   of\
+   Of\
    Klik **sparen als Nieuwe Mening** om uw veranderingen als nieuwe mening te bewaren.
 
    >[!TIP]
    >
    >**sparen als Nieuwe Mening** is de enige beschikbare optie wanneer u een ingebouwde mening van Workfront aanpast.
 
-   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
+   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan; anders wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
 
 ### Een toetsenbordweergave maken of aanpassen {#create-or-customize-an-agile-view}
 
@@ -166,7 +166,7 @@ De meningen van de raad zijn beschikbaar slechts voor lijsten van taken en kwest
 
 Zij zijn preconfigured, maar u kunt bepaalde montages voor hen wijzigen.
 
-Voor meer informatie over de meningen van de Gelijkheid of van de Raad, zie het artikel [&#x200B; leiden een project van de Gelijkheid in de mening van de Raad &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor meer informatie over de meningen van de Gelijkheid of van de Raad, zie het artikel [ leiden een project van de Gelijkheid in de mening van de Raad ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

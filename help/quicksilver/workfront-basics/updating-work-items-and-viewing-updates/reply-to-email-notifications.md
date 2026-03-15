@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: E-mailberichten beantwoorden
 description: U kunt reageren op Workfront-e-mailmeldingen die zijn gegenereerd vanuit opmerkingen die zijn gemaakt voor projecten, taken, problemen en andere objecten, om reacties toe te voegen op de oorspronkelijke opmerkingen die zijn gemaakt in de Adobe Workfront-toepassing.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -78,7 +78,7 @@ U kunt reageren op Workfront-e-mailberichten die worden gegenereerd op basis van
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,14 +113,14 @@ Wanneer u een e-mailbericht ontvangt, kunt u het bijbehorende Workfront-object s
 
 1. Open de e-mailmelding die door een update wordt gegenereerd in Workfront.
 
-   ![&#x200B; email.png &#x200B;](assets/email-350x202.png)
+   ![ email.png ](assets/email-350x202.png)
 1. Klik **Commentaar** van het e-mailbericht.
 
    De pagina Details voor het object wordt geopend in Workfront.
 
 1. Ga naar de update waaraan u een antwoord wilt toevoegen.
 
-   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Om meer gebruikers te etiketteren, zie [&#x200B; Tags anderen op updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Om meer gebruikers te etiketteren, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. Klik **Antwoord,** ga uw antwoord in, dan klik **antwoordt**.
 

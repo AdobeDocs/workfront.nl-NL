@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: De knop Gereed voor problemen configureren
 description: Met de knop Gereed kunt u automatisch de status van een taak of een uitgave instellen. Adobe Workfront markeert standaard een probleem dat is opgelost wanneer een toegewezen persoon op Gereed klikt voor het betreffende werkitem.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -25,10 +25,10 @@ Met de knop [!UICONTROL Done] kunt u automatisch de status van een taak of een u
 
 Gebruikers met bepaalde machtigingen kunnen de knop [!UICONTROL Done] zo configureren dat bepaalde statussen in het systeem worden weerspiegeld. Er zijn drie verschillende manieren waarop de knop [!UICONTROL Done] werkt voor problemen in [!DNL Workfront] :
 
-* Als de gebruiker een toegewezen [!UICONTROL Home Team] heeft, kan een [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] licentie de [!UICONTROL Done] knop configureren om bepaalde statussen voor teamleden te weerspiegelen. Zie [&#x200B; de [!UICONTROL Done] knoop voor een Team &#x200B;](#configure-the-uicontrol-done-button-for-a-team) in dit artikel vormen.
-* Als de gebruiker geen [!UICONTROL Home Team] heeft maar [!UICONTROL Other Teams] in zijn profiel, zoekt Workfront naar de instelling van de knop [!UICONTROL Done] in een van de teams die aan de gebruiker zijn gekoppeld. De selectie is willekeurig en de status verbonden aan om het even welke teams wordt gebruikt voor de kwestie.
-* Als de gebruiker geen [!UICONTROL Home Team] toegewezen heeft, is de [!UICONTROL Done] knop voor uitgaven gekoppeld aan een door het systeem gegenereerde [!UICONTROL Resolved] status met de drielettercode [!UICONTROL RLV] . Er zijn geen configuratieopties beschikbaar in dit scenario. Deze status wordt automatisch ingesteld op de knop [!UICONTROL Done] .
-* Als de status [!UICONTROL Resolved] ([!UICONTROL RLV]) wordt verwijderd en de gebruiker die de uitgave als [!UICONTROL Done] markeert geen [!UICONTROL Home Team] heeft, is de standaarduitgavestatus gekoppeld aan wat als standaard voor [!UICONTROL Closed] wordt ingesteld voor de groep die is toegewezen aan het project waartoe de uitgave behoort. De Workfront-beheerder kan een standaardinstelling voor de groep configureren voor het hele systeem. Zie [&#x200B; vormen de [!UICONTROL Done] knoop wanneer de [!UICONTROL Resolved] status &#x200B;](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in dit artikel is geschrapt.
+* Als de gebruiker een toegewezen [!UICONTROL Home Team] heeft, kan een [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] licentie de [!UICONTROL Done] knop configureren om bepaalde statussen voor teamleden te weerspiegelen. Zie [ de [!UICONTROL Done] knoop voor een Team ](#configure-the-uicontrol-done-button-for-a-team) in dit artikel vormen.
+* Als de gebruiker geen [!UICONTROL Home Team] heeft, maar [!UICONTROL Other Teams] in zijn profiel heeft, zoekt Workfront naar de instelling van de knop [!UICONTROL Done] in een van de teams die bij de gebruiker horen. De selectie is willekeurig en de status die is gekoppeld aan een van de teams wordt gebruikt voor de uitgave.
+* Als er geen [!UICONTROL Home Team] aan de gebruiker is toegewezen, is de knop [!UICONTROL Done] voor uitgaven gekoppeld aan een door het systeem gegenereerde [!UICONTROL Resolved] status met de drielettercode [!UICONTROL RLV] . Er zijn geen configuratieopties beschikbaar in dit scenario. Deze status wordt automatisch ingesteld op de knop [!UICONTROL Done] .
+* Als de status [!UICONTROL Resolved] ([!UICONTROL RLV]) wordt verwijderd en de gebruiker die de uitgave markeert als [!UICONTROL Done] geen [!UICONTROL Home Team] heeft, is de standaarduitgiftestatus gekoppeld aan wat als de standaardinstelling is ingesteld voor [!UICONTROL Closed] voor de groep die is toegewezen aan het project waartoe de uitgave behoort. De Workfront-beheerder kan een standaardinstelling voor de groep configureren voor het hele systeem. Zie [ vormen de [!UICONTROL Done] knoop wanneer de [!UICONTROL Resolved] status ](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in dit artikel is geschrapt.
 
 ## Toegangsvereisten
 
@@ -55,7 +55,7 @@ Gebruikers met bepaalde machtigingen kunnen de knop [!UICONTROL Done] zo configu
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,17 +73,17 @@ U kunt met de knop [!UICONTROL Done] wijzigen welke status wordt toegepast op he
 
    >[!NOTE]
    >
-   >Houd rekening met het volgende wanneer u statussen selecteert voor taken of problemen:
+   >Houd rekening met het volgende wanneer u statussen voor taken of problemen selecteert:
    >
-   >* Wanneer u één status voor elk type werkitem selecteert, wordt de taak- of uitgiftestatus ingesteld op die status wanneer een gebruiker op [!UICONTROL Done] op het item klikt. Als u meerdere statussen instelt voor elk type werkitem, wordt een vervolgkeuzemenu toegevoegd aan de knop [!UICONTROL Done] en moet de gebruiker een status kiezen om de status van het werkitem te wijzigen.
-   >* U kunt alleen statussen op systeemniveau aan de knop [!UICONTROL Done] koppelen. U kunt geen groepsspecifieke statussen koppelen aan de status van het werkitem.
+   >* Wanneer u één status voor elk type werkitem selecteert, wordt de taak- of uitgiftestatus op die status ingesteld wanneer een gebruiker op [!UICONTROL Done] op het desbetreffende item klikt. Als u meerdere statussen instelt voor elk type werkitem, wordt een vervolgkeuzemenu toegevoegd aan de knop [!UICONTROL Done] en moet de gebruiker een status kiezen om de status van het werkitem te wijzigen.
+   >* U kunt alleen statussen op systeemniveau aan de knop [!UICONTROL Done] koppelen. U kunt geen groepspecifieke statussen koppelen aan de status van het werkitem.
    >* Wanneer een gebruiker die aan het item is toegewezen het item in de status plaatst die aan de knop [!UICONTROL Done] is gekoppeld, wordt het item weergegeven als [!UICONTROL Done] voor die gebruiker, ongeacht of de status die u selecteert een [!UICONTROL Completed] - of [!UICONTROL Closed] -status of een werkstatus is.
    >   
    >   
    >  Als u bijvoorbeeld de knop [!UICONTROL Done] koppelt aan Bezig, wordt het werkitem weergegeven als [!UICONTROL Done] voor de gebruiker die de status wijzigt van Nieuw in Bezig.
    >   
    >* De types van kwestie zijn aanpasbaar en zij zouden verschillende namen kunnen hebben dan hieronder vermeld in uw milieu.\
-   >  Hier volgen de standaardtaken en -typen:
+   >  Hier volgen de standaardtaken en typen problemen:
    >     
    >   * [!UICONTROL Tasks]
    >   * [!UICONTROL Issue]
@@ -107,21 +107,21 @@ Om gebruikers met een Team van het Huis te associëren:
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. Selecteer in de sectie **[!UICONTROL Organization]** het veld **[!UICONTROL Home Team]** . Begin de naam van het team te typen waarvan montages u met de gebruikers wilt associëren. Klik op de naam van het team wanneer deze wordt weergegeven in de lijst.
+1. Selecteer in de sectie **[!UICONTROL Organization]** het veld **[!UICONTROL Home Team]** . Begin de naam van het team te typen waarvan montages u met de gebruikers wilt associëren. Klik op de naam van het team wanneer u het in de lijst ziet.
 
 1. Klik op **[!UICONTROL Save Changes]**.\
-   De gebruikers u selecteerde worden nu geassocieerd met een Team van het Huis.
+   De gebruikers die u hebt geselecteerd, zijn nu gekoppeld aan een Home Team.
 Alle teaminstellingen, inclusief de statussen die zijn gekoppeld aan de knop [!UICONTROL Done] , zijn nu zichtbaar voor deze gebruikers.
 
-## De knop [!UICONTROL Done] configureren wanneer de status [!UICONTROL Resolved] is verwijderd
+## Configureer de knop [!UICONTROL Done] wanneer de status [!UICONTROL Resolved] is verwijderd
 
-Als een gebruiker geen Team van het Huis heeft en het systeem-brede gebrek voor [!UICONTROL Resolved] ([!UICONTROL RLV]) is geschrapt, kan een [!DNL Workfront] beheerder de [!UICONTROL Closed] status voor de groep vormen op aan het project. [!DNL Workfront] selecteert deze status voor een afgesloten uitgave wanneer de gebruiker op de knop [!DNL Done] klikt.
+Als een gebruiker geen Home Team heeft en de systeembrede standaardinstelling voor [!UICONTROL Resolved] ([!UICONTROL RLV]) is verwijderd, kan een [!DNL Workfront] -beheerder de [!UICONTROL Closed] -status voor de groep configureren voor het project. [!DNL Workfront] selecteert deze status voor een afgesloten uitgave wanneer de gebruiker op de knop [!DNL Done] klikt.
 
 ### Zoek de groep die aan het project is gekoppeld
 
-Wanneer een gebruiker een project creeert, wordt hun Groep van het Huis automatisch toegewezen aan het project. Gebruikers met [!UICONTROL Manage] toegang tot het project kunnen deze groep op elk gewenst moment wijzigen in de sectie [!UICONTROL Project Details] . Als u wilt weten welke status [!DNL Workfront] in dit geval gebruikt voor een voltooid probleem, moet u weten welke groep is gekoppeld aan het project waarop het probleem betrekking heeft en wat de standaardstatus voor [!UICONTROL Closed] deze groep heeft voor problemen.
+Wanneer een gebruiker een project creeert, wordt hun Groep van het Huis automatisch toegewezen aan het project. Gebruikers met [!UICONTROL Manage] toegang tot het project kunnen deze groep op elk gewenst moment wijzigen in de sectie [!UICONTROL Project Details] . Als u wilt weten welke status [!DNL Workfront] in dit geval gebruikt voor een voltooid probleem, moet u weten welke groep is gekoppeld aan het project waarop het probleem betrekking heeft en wat de standaardstatus is voor problemen in [!UICONTROL Closed] deze groep.
 
-U kunt als volgt de groep vinden die aan het project is gekoppeld:
+De groep zoeken die is gekoppeld aan het project:
 
 1. Ga naar een project.
 1. Klik links op de pagina op **[!UICONTROL Project Details]** .

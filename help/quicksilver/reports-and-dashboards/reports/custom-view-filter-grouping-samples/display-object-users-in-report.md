@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Rapporten of lijsten: gebruikers weergeven die zijn gekoppeld aan een object'
 description: U kunt gebruikers, baanrollen, en teams tonen verbonden aan voorwerpen in rapporten of lijsten evenals van verwijzingen voorzien hen in filters. U kunt niet groeperen op gebruikers, baanrollen, of teams verbonden aan voorwerpen.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Rapporten of lijsten: gebruikers weergeven die zijn gekoppeld aan een object
 
-U kunt gebruikers, baanrollen, en teams tonen verbonden aan voorwerpen in rapporten of lijsten evenals van verwijzingen voorzien hen in filters. U kunt niet groeperen op gebruikers, baanrollen, of teams verbonden aan voorwerpen.
+U kunt gebruikers, baanrollen, en teams tonen verbonden aan voorwerpen in rapporten of lijsten evenals van verwijzingen voorzien hen in filters. U kunt niet groeperen op gebruikers, taakrollen of teams die aan objecten zijn gekoppeld.
 
 U kunt door gebruikers, baanrollen, of teams tonen of filtreren verbonden aan de volgende voorwerpen:
 
@@ -34,19 +34,19 @@ U kunt door gebruikers, baanrollen, of teams tonen of filtreren verbonden aan de
   </tr> 
   <tr> 
    <td role="rowheader">Taken</td> 
-   <td>U kunt door alle gebruikers, baanrollen, en teams tonen en filtreren die aan een taak in een taakrapport worden toegewezen.</td> 
+   <td>U kunt door alle gebruikers, taakrollen en teams die aan een taak zijn toegewezen, in een taakrapport weergeven en filteren.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Problemen</td> 
-   <td>U kunt door alle gebruikers, baanrollen, en teams tonen en filtreren die aan een kwestie in een puntrapport worden toegewezen.</td> 
+   <td>U kunt filteren op alle gebruikers, taakrollen en teams die aan een probleem zijn toegewezen in een probleemrapport.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portfolio's</td> 
-   <td>U kunt alle gebruikers en de baanrollen tonen zij op het project in een projectrapport vervullen en het rapport groeperen door Portfolio. U kunt niet door de gebruikers of hun bijbehorende baanrollen in een projectrapport filtreren.</td> 
+   <td>U kunt alle gebruikers en de baanrollen tonen zij op het project in een projectrapport vervullen en het rapport groeperen door Portfolio. U kunt niet filteren op de gebruikers of hun bijbehorende taakrollen in een projectrapport.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Programma's</td> 
-   <td>U kunt alle gebruikers en de baanrollen tonen zij op het project in een projectrapport vervullen en het rapport groeperen door Programma. U kunt niet door de gebruikers of hun bijbehorende baanrollen in een projectrapport filtreren.</td> 
+   <td>U kunt alle gebruikers en de baanrollen tonen zij op het project in een projectrapport vervullen en het rapport groeperen door Programma. U kunt niet filteren op de gebruikers of hun bijbehorende taakrollen in een projectrapport.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,9 +55,9 @@ U kunt door gebruikers, baanrollen, of teams tonen of filtreren verbonden aan de
 
 U kunt alle gebruikers tonen verbonden aan in het project in de mening van een projectlijst of een rapport. Dit omvat alle gebruikers die in de sectie van Mensen van het project worden vermeld. U kunt de rollen ook bekijken zij met wanneer toegewezen aan taken of kwesties op het project in een projectrapport worden geassocieerd.
 
-![&#x200B; Project met gebruiker en rolinformatie &#x200B;](assets/project-with-user-and-role-information-report-350x100.png)
+![ Project met gebruiker en rolinformatie ](assets/project-with-user-and-role-information-report-350x100.png)
 
-Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [&#x200B; Mening: lijst van projectgebruikers met baanrollen &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [ Mening: lijst van projectgebruikers met baanrollen ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
 U kunt niet filteren voor gebruikers of baanrollen verbonden aan projecten in een projectfilter.
 
@@ -65,7 +65,7 @@ U kunt niet filteren voor gebruikers of baanrollen verbonden aan projecten in ee
 
 U kunt alle gebruikers, rollen, of teams tonen die aan een taak in de mening van een taaklijst of een rapport worden toegewezen door het gebied van Toewijzingen aan de mening toe te voegen.
 
-![&#x200B; gebied van de Toewijzing &#x200B;](assets/assignments-field-task-view-350x124.png)
+![ gebied van de Toewijzing ](assets/assignments-field-task-view-350x124.png)
 
 U kunt filteren door de gebruikers, de baanrollen, of de teams die aan taken worden toegewezen door de volgende gebieden in een taakfilter van verwijzingen te voorzien:
 
@@ -73,13 +73,13 @@ U kunt filteren door de gebruikers, de baanrollen, of de teams die aan taken wor
 * Toewijzingsrollen
 * Team
 
-![&#x200B; de gebruikers en rollen van de Taak in taakfilter &#x200B;](assets/assignment-users-roles-task-filter-350x334.png)
+![ de gebruikers van de Toewijzing en rollen in taakfilter ](assets/assignment-users-roles-task-filter-350x334.png)
 
-## Alle gebruikers, taakrollen of teams weergeven die aan een probleem zijn toegewezen
+## Alle gebruikers, taakrollen of teams weergeven die zijn toegewezen aan een probleem
 
-U kunt alle gebruikers, rollen, of teams tonen die aan een kwestie in de mening van een een lijst of rapport worden toegewezen van de kwestie door het gebied van Toewijzingen aan de mening toe te voegen.
+U kunt alle gebruikers, rollen of teams weergeven die aan een probleem zijn toegewezen in de weergave van een lijst met problemen of rapport door het veld Toewijzingen aan de weergave toe te voegen.
 
-U kunt filteren door de gebruikers, de baanrollen, of de teams die aan kwesties worden toegewezen door de volgende gebieden in een uitgevende filter van verwijzingen te voorzien:
+U kunt filteren op de gebruikers, taakrollen of teams die aan uitgaven zijn toegewezen door in een uitgavefilter te verwijzen naar de volgende velden:
 
 * Toewijzingsgebruikers
 * Toewijzingsrollen
@@ -89,14 +89,14 @@ U kunt filteren door de gebruikers, de baanrollen, of de teams die aan kwesties 
 
 U kunt alle gebruikers en rollen tonen verbonden aan een portefeuille door hen in een projectrapport te tonen en dan het rapport te groeperen door Portfolio.
 
-Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [&#x200B; Mening: lijst van projectgebruikers met baanrollen &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [ Mening: lijst van projectgebruikers met baanrollen ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-U kunt niet filteren voor gebruikers of baanrollen verbonden aan projecten in een portefeuille of een projectfilter.
+U kunt niet filteren op gebruikers of taakrollen die zijn gekoppeld aan projecten in een portfolio- of projectfilter.
 
 ## Alle gebruikers en taakrollen weergeven die aan een programma zijn gekoppeld
 
 U kunt alle gebruikers en rollen tonen verbonden aan een programma door hen in een projectrapport te tonen en dan het rapport te groeperen door Programma.
 
-Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [&#x200B; Mening: lijst van projectgebruikers met baanrollen &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+Voor informatie over de bouw van een projectrapport om alle gebruikers en hun rollen op het project te tonen, zie [ Mening: lijst van projectgebruikers met baanrollen ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-U kunt niet filteren voor gebruikers of baanrollen verbonden aan projecten in een programma of projectfilter.
+U kunt niet filteren op gebruikers of taakrollen die zijn gekoppeld aan projecten in een programma- of projectfilter.

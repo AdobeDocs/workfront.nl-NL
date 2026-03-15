@@ -1,26 +1,27 @@
 ---
-title: Verbeteringen voor proefdrukken in derde kwartaal 2024
-description: Verbeteringen voor proefdrukken in derde kwartaal 2024
-author: Nolan
+title: Third Quarter 2024 Proofing enhancements
+description: Third Quarter 2024 Proofing enhancements
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+exl-id: ae93f709-2942-4649-a535-ecf279fe34cb
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen voor proefdrukken in derde kwartaal 2024
+# Third Quarter 2024 Proofing enhancements
 
-Op deze pagina worden alle verbeteringen op het gebied van proefdrukken beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
+This page describes all proofing enhancements made with the Third Quarter 2024 release to the Preview environment. Deze verbeteringen zijn beschikbaar in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
-## Beveiligingsupdates voor de Desktop Proofing Viewer
+## Security updates for the Desktop Proofing Viewer
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 4 juli 2024; Productieversie voor alle klanten: 4 juli 2024.
+>Preview release: July 4, 2024; Production release for all customers: July 4, 2024.
 
-De beveiligingsupdate Workfront Proof Desktop Proofing Viewer 2.1.35 biedt oplossingen voor beveiligingsproblemen voor kwetsbaarheden die zijn geïdentificeerd in eerdere releases.
+The Workfront Proof Desktop Proofing Viewer 2.1.35 security update provides security bug fixes for vulnerabilities that have been identified in previous releases.

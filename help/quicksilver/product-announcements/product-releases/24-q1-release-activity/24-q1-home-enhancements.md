@@ -1,10 +1,11 @@
 ---
 title: Verbeteringen startpunt eerste kwartaal 2024
 description: Verbeteringen startpunt eerste kwartaal 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle thuisverbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [&#x200B; Eerste Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Nieuwe widget voor goedkeuringen in behandeling beschikbaar
 
@@ -28,7 +29,7 @@ Beheerders kunnen nu nieuwe startpagina aanpassen aan gebruikers die lay-outsjab
 
 Houd er rekening mee dat de sjablonen voor de lay-out van de beheerder de aanpassing van individuele gebruikers overschrijven. Wanneer wijzigingen in een lay-outsjabloon worden opgeslagen, worden de nieuwe startpagina van gebruikers gewijzigd zodat deze overeenkomt met de lay-outsjabloon en worden hun bestaande widgetselecties onder aan de pagina geplaatst. Widgets die door de beheerder zijn geselecteerd, kunnen door een gebruiker worden verplaatst, maar kunnen niet worden verwijderd.
 
-Voor meer informatie, zie [&#x200B; nieuw Huis aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Voor meer informatie, zie [ nieuw Huis aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## De knoppen voor snelle actie voor Mijn werk zijn gewijzigd en alleen weergegeven bij mouseover
 

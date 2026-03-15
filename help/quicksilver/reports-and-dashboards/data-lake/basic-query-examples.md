@@ -4,10 +4,10 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Voorbeelden van query's voor Data Connect
 description: Met voorbeeldquery's kunt u uzelf vertrouwd maken met de syntaxis en structuur van specifieke soorten query's.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -182,10 +182,10 @@ Het onderzoeken van de vraag van binnenuit: 
 >[!NOTE]
 >
 >Het is raadzaam deze query als een eigen &quot;Weergave&quot; in PowerBI of Tableau te gebruiken.  Als u andere velden vanuit de `<object>_event view` wilt inbrengen, voegt u de uitvoer van deze query terug naar de `<object>_event view` .  De samenvoegvelden zijn als volgt: <br>
->&#x200B;>Voor project_event: 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>Voor project_event: 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

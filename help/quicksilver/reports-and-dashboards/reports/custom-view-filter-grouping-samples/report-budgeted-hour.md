@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Verslag: Budgeted Hour'
 description: 'Verslag: Budgeted Hour'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Wanneer u de informatie van het BoedgetedUur met andere gebruikers wilt delen di
 >
 >De begrote Uren worden normaal elk uur bijgewerkt (zelden, kan het een maximum van drie uren) in het gegevensbestand van Adobe Workfront vergen. Het verfrissen van het rapport verfrist noodzakelijk niet de uurinformatie in het. U kunt de tijd bekijken die sinds de laatste update in de hoger-juiste hoek van elk Boekgeted rapport van het Uur is verlopen. Als u het rapport vernieuwt, wordt de informatie in het rapport alleen vernieuwd als er meer dan een uur is verstreken sinds de laatste update.
 >
->![&#x200B; de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd &#x200B;](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![ de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd ](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Toegangsvereisten
 
@@ -59,28 +59,28 @@ Wanneer u de informatie van het BoedgetedUur met andere gebruikers wilt delen di
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een rapport over een &#39;Budgeted Hour&#39; maken
 
-1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu** pictogram van het Menu ![&#x200B; in de hoger-juiste hoek, of het &#x200B;](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![&#x200B; in de upper-left hoek, als beschikbaar, dan klik &#x200B;](assets/lines-main-menu.png) Rapporten **.**
+1. Klik het **pictogram van het 1} Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-main-menu.png) Rapporten **.**
 
 1. Klik **Nieuw Rapport** > **Meer** > **Beoogde Uur**.
 
-   De standaardmening wordt toegepast op het rapport.
+   The default view is applied to the report.
 
-1. (Facultatief) om het rapport gemakkelijker te maken te lezen, klik **Bud. Uren** kolom, toen **Schakelaar aan de Wijze van de Tekst**, dan klik **geeft de Wijze van de Tekst** uit.
+1. (Optional) To make the report easier to read, click the **Bud. Hours** column, then **Switch to Text Mode**, then click **Edit Text Mode**.
 1. Wijzig de `valuefield` lijn in `valueexpreesion` en voer de ronde expressie in.
 
    Hiermee wordt het aantal begrotingsuren afgerond op een aantal decimalen dat u opgeeft.
 
-   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klik **Gedaan**.
 1. (Facultatief) klik **Kolom** toevoegen om extra kolommen toe te voegen.
-1. (Optioneel) Om het rapport beter leesbaar te maken, raden we u aan een groep aan het rapport toe te voegen. Wij stellen de volgende groepering voor:
+1. (Optioneel) Om het rapport beter leesbaar te maken, raden we u aan een groep aan het rapport toe te voegen. We suggest the following grouping:
 
    Klik het **lusje van Groepen**, dan doe één of verscheidene van het volgende:
 
@@ -89,12 +89,12 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    * Klik **toevoegen groeperend** en beginnen &quot;Datum van de Toewijzing&quot;te typen, het te selecteren wanneer het in de lijst verschijnt, dan selecteer timeframe u door van de **Datums van de Groep door** gebied wilt groeperen.
 
 1. (Facultatief) klik **Filters** om filters aan het rapport toe te voegen.
-1. (Facultatief) klik **Grafiek** om een grafiek aan het rapport toe te voegen.
+1. (Optional) Click **Chart** to add a chart to the report.
 1. Klik **sparen + Sluiten**.
 
-## Herzie het verslag over het begrote uur
+## Review the Budgeted Hour report
 
-De volgende informatie is standaard beschikbaar in het rapport Boedgeted Hour:
+The following information is available in the Budgeted Hour report by default:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ De volgende informatie is standaard beschikbaar in het rapport Boedgeted Hour:
   </tr> 
   <tr> 
    <td role="rowheader">Gebruiker</td> 
-   <td>Dit is de naam van de gebruiker verbonden aan de Begrotingshuur.</td> 
+   <td>This is the name of the user associated with the Budgeted Hour.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Alloc. Datum</td> 
@@ -118,11 +118,11 @@ De volgende informatie is standaard beschikbaar in het rapport Boedgeted Hour:
   </tr> 
   <tr> 
    <td role="rowheader">Bud. Uren</td> 
-   <td>Dit zijn de begrotingsuren die aan de Gebruiker in de Planner van het Middel worden toegewezen.</td> 
+   <td>These are the Budgeted Hours allocated to the User in the Resource Planner.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Pln. Bud. Uren</td> 
-   <td>Dit zijn de begrotingsuren die aan de Rol van de Baan of het Project in de Planner van het Middel worden toegewezen.</td> 
+   <td>These are the Budgeted Hours allocated to the Job Role or the Project in the Resource Planner.</td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Een blauwdruk configureren
 description: U kunt details van het projectmalplaatje of de organisatorische structuur vormen alvorens u de blauwdruk installeert.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1749'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Een blauwdruk configureren
 
-U kunt details van een blauwdruk vormen alvorens u het installeert. Voor de blauwdruktypen van projectsjablonen en organisatiestructuren moeten meestal enkele voorkeuren worden ingesteld en moeten bepaalde eigenschappen worden toegewezen. Voor andere typen blauwdrukken is mogelijk geen configuratie vereist en u installeert deze ongewijzigd. Voor meer informatie over installatie, zie [&#x200B; een blauwdruk &#x200B;](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md) installeren.
+U kunt details van een blauwdruk vormen alvorens u het installeert. Voor projectsjablonen en typen ontwerpen voor de organisatiestructuur moeten gewoonlijk enkele voorkeuren worden ingesteld en moeten bepaalde eigenschappen worden toegewezen. Voor andere typen blauwdrukken is mogelijk geen configuratie vereist en u installeert deze ongewijzigd. Voor meer informatie over installatie, zie [ een blauwdruk ](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md) installeren.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ U kunt details van een blauwdruk vormen alvorens u het installeert. Voor de blau
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,9 +80,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Kies hoe u de sjabloon wilt installeren.
 
-U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt deze velden wijzigen nadat de sjabloon is geïnstalleerd. Voor meer informatie, zie [&#x200B; projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt deze velden wijzigen nadat de sjabloon is geïnstalleerd. Voor meer informatie, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-![[!UICONTROL Template Preferences] section &#x200B;](assets/Blueprints_TemplatePreferences.png)
+![[!UICONTROL Template Preferences] section ](assets/Blueprints_TemplatePreferences.png)
 
 1. Geef in de sectie [!UICONTROL Template Preferences] een nieuwe sjabloonnaam op.
 1. Geef het volgende op:
@@ -94,15 +94,15 @@ U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt
     </tr>
     <tr>
         <td><strong>[!UICONTROL Template sponsor]</strong></td>
-        <td>Deze persoon is gewoonlijk een manager, uitvoerend, of belanghebbende die moet weten wat met het project gebeurt. De projectsponsor krijgt geen extra toegang tot het project, maar wordt toegevoegd aan de e-mailmeldingen voor het project.</td>
+        <td>Deze persoon is doorgaans een manager, manager of stakeholder die moet weten wat er met het project gebeurt. De projectsponsor krijgt geen aanvullende toegang tot het project, maar wordt toegevoegd aan de e-mailmeldingen voor het project.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Portfolio]</strong></td>
-        <td>Dit is de portefeuille het project tot zal behoren wanneer het wordt gecreeerd.</td>
+        <td>Dit is de portfolio waartoe het project behoort wanneer het wordt gemaakt.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Program]</strong></td>
-        <td>Dit is het programma waar het project bij hoort wanneer het is gemaakt.</td>
+        <td>Dit is het programma waartoe het project behoort wanneer het wordt gemaakt.</td>
     </tr>
    </table>
 
@@ -117,15 +117,15 @@ U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>De het onderwerpgroepen van de Rij</strong></td> 
-      <td> <p>De het onderwerpgroepen van de rij bepalen het hoogste niveau van categorieën voor de kwesties of de verzoeken. De gebruikers bekijken onderwerpgroepen als menuopties wanneer het selecteren waar te om verzoeken voor te leggen. Een onderwerpgroep kan veelvoudige rijonderwerpen bevatten. Voor meer informatie, zie <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref"> de Groepen van het Onderwerp </a> creëren. </p> </td> 
+      <td> <p>De het onderwerpgroepen van de rij bepalen het hoogste niveau van categorieën voor de kwesties of de verzoeken. De gebruikers bekijken onderwerpgroepen als menuopties wanneer het selecteren waar te om verzoeken voor te leggen. Een onderwerpgroep kan meerdere rijonderwerpen bevatten. Voor meer informatie, zie <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref"> de Groepen van het Onderwerp </a> creëren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Werkvoorraadonderwerpen</strong></td> 
+      <td role="rowheader"><strong>Queue-onderwerpen</strong></td> 
       <td> <p>De onderwerpen van de rij werken samen met het verpletteren van regels om kwesties of verzoeken toe te wijzen. Het zijn de menuopties die de gebruikers selecteren wanneer het ingaan van een kwestie of een verzoek, na het selecteren van een onderwerpgroep. Voor meer informatie, zie <a href="../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref"> de Onderwerpen van de Rij </a> creëren. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Routeringsregels</strong></td> 
-      <td>Het verpletteren van regels verzendt kwesties of verzoeken naar specifieke baanrollen, gebruikers, of teams. Zij kunnen de verzoeken aan specifieke projecten, buiten verbonden aan de verzoekrij ook verzenden. Voor meer informatie, zie <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref"> het Verpletteren van Regels </a> creëren. </td> 
+      <td>Verpletterend regels verzend kwesties of verzoeken naar specifieke baanrollen, gebruikers, of teams. Zij kunnen de verzoeken aan specifieke projecten, buiten verbonden aan de verzoekrij ook verzenden. Voor meer informatie, zie <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref"> het Verpletteren van Regels </a> creëren. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -133,14 +133,14 @@ U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt
    >[!INFO]
    >
    >**Voorbeeld:** de nieuwe uitgiftevoorkeur in deze blauwdruk verstrekt vier rijonderwerpen. De gebruiker selecteert één van deze onderwerpen wanneer het creëren van een kwestie. (Omdat slechts één onderwerpgroep bestaat, wordt het automatisch toegepast en de gebruiker moet het niet selecteren.) Wanneer de gebruiker voltooit en de kwestie voorlegt, bepaalt het verpletteren van regels welke baanrol of team het aan wordt toegewezen.
-   >![&#x200B; Voorkeur van de Steekproef nieuwe kwestie &#x200B;](assets/Blueprints_IssuePrefsDetails.png)
-   >![&#x200B; de onderwerpen van de Rij voor nieuwe kwestie &#x200B;](assets/blueprints-newissueqtopicsexample-350x204.png)
-   >![&#x200B; Uitgave verpletterde aan baanrol &#x200B;](assets/Blueprints_ProjectShowsIssueAssignment.png)
+   >![ Voorkeur van de Steekproef nieuwe kwestie ](assets/Blueprints_IssuePrefsDetails.png)
+   >![ de onderwerpen van de Rij voor nieuwe kwestie ](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![ Uitgave verpletterde aan baanrol ](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
    >
    >* Met de voorkeuren voor uitgaven kunt u zorgen voor consistentie bij de manier waarop nieuwe problemen of verzoeken worden vastgelegd in uw projecten.
-   >* Als u deze voorkeuren instelt, worden de projecten die op basis van de sjabloon zijn gemaakt, niet automatisch omgezet in aanvraagwachtrijen. Voor informatie over vestiging ziet een verzoekrij, [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   >* Als u deze voorkeuren instelt, worden de projecten die op basis van de sjabloon zijn gemaakt, niet automatisch omgezet in aanvraagwachtrijen. Voor informatie over vestiging ziet een verzoekrij, [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
    >* Niet alle blauwdrukken bevatten nieuwe uitgiftevoorkeuren.
 
 
@@ -150,19 +150,19 @@ U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt
 >
 >Deze sectie wordt mogelijk niet in alle blauwdrukken weergegeven.
 
-Sommige sjablonen bevatten verplichte taakrollen. De rollen van de baan helpen u de juiste mensen toewijzen wanneer het malplaatje in een project wordt omgezet. U kunt aanpassen hoe rollen in kaart worden gebracht alvorens u de blauwdruk installeert. Klik op **[!UICONTROL See role descriptions]** voor meer informatie over de rollen in de blauwdruk.
+Sommige sjablonen bevatten voorgeschreven taakrollen. Met taakrollen kunt u de juiste personen toewijzen wanneer de sjabloon wordt omgezet in een project. U kunt aanpassen hoe rollen worden toegewezen voordat u de blauwdruk installeert. Klik op **[!UICONTROL See role descriptions]** voor meer informatie over de rollen in de blauwdruk.
 
-De blauwdruk zoekt door de rolnaam om te zien of om het even welke bestaande rollen aanpassen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande rollen overeenkomen, kunt u de blauwdruk deze voor u maken.
+De blauwdruk zoekt op naam van de rol om te zien of bestaande rollen overeenkomen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande rollen overeenkomen, kunt u de blauwdruk deze voor u laten maken.
 
-![[!UICONTROL Role Mapping] section &#x200B;](assets/Blueprints_RoleMapping.png)
+![[!UICONTROL Role Mapping] section ](assets/Blueprints_RoleMapping.png)
 
-1. Als een rol bestaat, kunt u één van de volgende opties kiezen:
+1. Als er een rol bestaat, kunt u een van de volgende opties kiezen:
 
-   1. Maak een nieuwe rol met een andere naam en typ vervolgens de naam in het tekstvak.
+   1. Maak een nieuwe rol met een andere naam en typ de naam in het tekstvak.
    1. Gebruik een bestaande rol en selecteer vervolgens een rol in het selectievak.
    1. Gebruik geen toegewezen rol. Deze optie wordt niet aanbevolen omdat aan sommige taken geen rollen worden toegewezen.
 
-1. Als een rol niet bestaat, kunt u één van de volgende opties kiezen:
+1. Als een rol niet bestaat, kunt u een van de volgende opties kiezen:
 
    1. Maak een nieuwe rol. Met deze optie krijgt u de rol die de blauwdruk aanbeveelt.
    1. Maak een nieuwe rol met een andere naam en typ vervolgens de naam in het tekstvak.
@@ -171,9 +171,9 @@ De blauwdruk zoekt door de rolnaam om te zien of om het even welke bestaande rol
 
 >[!NOTE]
 >
->Het installatieproces past geen rollen op specifieke mensen toe. U zou de mensen in die rollen na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Het installatieproces past geen rollen op specifieke mensen toe. U zou de mensen in die rollen na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor meer informatie over baanrollen in [!DNL Workfront], zie [&#x200B; creëren en baanrollen beheren &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Voor meer informatie over baanrollen in [!DNL Workfront], zie [ creëren en baanrollen beheren ](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## [!UICONTROL Team mapping] {#team-mapping}
 
@@ -185,7 +185,7 @@ Sommige sjablonen bevatten voorgeschreven teams. Het werk dat aan een team wordt
 
 De blauwdruk zoekt door de teamnaam om te zien of om het even welke bestaande teams aanpassen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande teams overeenkomen, kunt u de blauwdruk voor u maken.
 
-![[!UICONTROL Team Mapping] section &#x200B;](assets/Blueprints_TeamMapping.png)
+![[!UICONTROL Team Mapping] section ](assets/Blueprints_TeamMapping.png)
 
 1. Als een team bestaat, kunt u één van de volgende opties kiezen:
 
@@ -202,9 +202,9 @@ De blauwdruk zoekt door de teamnaam om te zien of om het even welke bestaande te
 
 >[!NOTE]
 >
->Het installatieproces voegt geen mensen toe aan de teams. U zou de mensen op de teams na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Er worden geen personen aan de teams toegevoegd tijdens het installatieproces. Controleer de mensen in de teams na het installeren van de blauwdrukoplossing en wijs zo nodig mensen toe. Voor informatie, zie [ te nemen Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Voor meer informatie over hoe de teamfunctie in [!DNL Workfront] werkt, zie [&#x200B; teams &#x200B;](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
+Voor meer informatie over hoe de teamfunctie in [!DNL Workfront] werkt, zie [ teams ](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
 
 ## Bedrijfstoewijzing {#company-mapping}
 
@@ -216,7 +216,7 @@ Sommige blauwdrukken omvatten voorgeschreven bedrijven. Een bedrijf is een organ
 
 De blauwdruk zoekt door de bedrijfsnaam om te zien of om het even welke bestaande bedrijven aanpassen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen overeenkomende bestaande bedrijven zijn, kunt u de blauwdruk voor u maken. Het primaire bedrijf in de blauwdruk wordt in kaart gebracht aan het primaire bedrijf in uw milieu, zelfs als zij niet de zelfde naam hebben.
 
-![[!UICONTROL Company Mapping] section &#x200B;](assets/Blueprints_CompanyMapping.png)
+![[!UICONTROL Company Mapping] section ](assets/Blueprints_CompanyMapping.png)
 
 1. Als een bedrijf bestaat, kunt u één van de volgende opties kiezen:
 
@@ -235,11 +235,11 @@ De blauwdruk zoekt door de bedrijfsnaam om te zien of om het even welke bestaand
 
 >[!NOTE]
 >
->Om de bedrijven na het installeren van de blauwdruk te vormen, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Om de bedrijven na het installeren van de blauwdruk te vormen, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor informatie over het associëren van een malplaatje met een bedrijf, zie [&#x200B; projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+Voor informatie over het associëren van een malplaatje met een bedrijf, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-Voor informatie over hoe de bedrijven in [!DNL Workfront] functioneren, zie [&#x200B; bedrijven &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor informatie over hoe de bedrijven in [!DNL Workfront] functioneren, zie [ bedrijven ](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 ## [!UICONTROL Group mapping] {#group-mapping}
 
@@ -247,15 +247,15 @@ Voor informatie over hoe de bedrijven in [!DNL Workfront] functioneren, zie [&#x
 >
 >Deze sectie wordt mogelijk niet in alle blauwdrukken weergegeven.
 
-Sommige blauwdrukken bevatten voorgeschreven groepen. Een groep is een groep gebruikers die samenvalt met de afdelingsstructuur. Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven in Workfront. Voordat u de blauwdruk installeert, kunt u aanpassen hoe groepen worden toegewezen. Klik op **[!UICONTROL See group descriptions]** voor meer informatie over de groepen die beschikbaar zijn in de blauwdruk.
+Sommige blauwdrukken bevatten voorgeschreven groepen. Een groep is een groep gebruikers die samenvalt met uw afdelingsstructuur. Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven in Workfront. Voordat u de blauwdruk installeert, kunt u aanpassen hoe groepen worden toegewezen. Klik op **[!UICONTROL See group descriptions]** voor meer informatie over de groepen die beschikbaar zijn in de blauwdruk.
 
-De blauwdruk zoekt op de groepsnaam of er bestaande groepen overeenkomen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande groepen overeenkomen, kunt u de blauwdruk voor u maken.
+De blauwdruk wordt op groepsnaam gezocht om te zien of bestaande groepen overeenkomen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande groepen overeenkomen, kunt u de blauwdruk deze voor u laten maken.
 
-![[!UICONTROL Group Mapping] section &#x200B;](assets/Blueprints_GroupMapping.png)
+![[!UICONTROL Group Mapping] section ](assets/Blueprints_GroupMapping.png)
 
 1. Als er een groep bestaat, kunt u **[!UICONTROL Remap Group]** selecteren en een van de volgende opties kiezen:
 
-   1. **[!UICONTROL Create a new group with a different name]** typt u vervolgens de naam die u aan deze groep wilt toewijzen. Verwijzingen naar de groep in de ontwerpdefinitie worden aan deze nieuwe groep gekoppeld.
+   1. **[!UICONTROL Create a new group with a different name]** typt u de naam die u aan deze groep wilt toewijzen. Verwijzingen naar de groep in de ontwerpdefinitie worden in plaats daarvan aan deze nieuwe groep gekoppeld.
    1. **[!UICONTROL Replace with an existing group]** , zoekt en selecteert u vervolgens een groep in het selectievak.
 
       >[!NOTE]
@@ -270,6 +270,6 @@ De blauwdruk zoekt op de groepsnaam of er bestaande groepen overeenkomen. De zoe
 
 >[!NOTE]
 >
->Om de groepen na het installeren van de blauwdruk te vormen, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Om de groepen na het installeren van de blauwdruk te vormen, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor informatie over het gebruiken van groepen in [!DNL Workfront], zie [&#x200B; Overzicht van Groepen &#x200B;](../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Voor informatie over het gebruiken van groepen in [!DNL Workfront], zie [ Overzicht van Groepen ](../../administration-and-setup/manage-groups/groups-overview/groups.md).

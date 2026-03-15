@@ -5,11 +5,11 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: U kunt toegang tot  [!DNL Adobe Workfront]  mobiele app toelaten of onbruikbaar maken.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -43,7 +43,7 @@ U kunt de toegang tot de mobiele app van [!DNL Adobe Workfront] in- of uitschake
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,6 +60,6 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Klik op **[!UICONTROL Save].**
 
-Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [&#x200B; Gebruik  [!DNL Adobe Workfront]  mobiele app &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [ Gebruik  [!DNL Adobe Workfront]  mobiele app ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [&#x200B; Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.
+Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [ Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.

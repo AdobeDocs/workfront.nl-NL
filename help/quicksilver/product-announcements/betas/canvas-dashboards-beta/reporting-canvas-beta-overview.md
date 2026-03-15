@@ -3,12 +3,12 @@ content-type: reference
 navigation-topic: betas
 title: 'Bewerken van canvas melden: overzicht'
 description: Informatie over het bètaprogramma voor het aanstaande hulpmiddel van het Canvas van de Rapportering voor Adobe Workfront
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Dit artikel bevat informatie over de huidige persoonlijke bètaversie, die beper
 
 We bevinden ons in de laatste fase van het oplossen van een probleem op het gebied van gegevenskwaliteit dat we al eerder in de bètaversie van Reporting Canvas hebben gezien. Binnenkort zullen we opnieuw werken aan nieuwe visualisaties, de selectie van te rapporteren Workfront-objecten uitbreiden en de ervaringen met het maken en verspreiden van rapporten verbeteren. Deze zijn allemaal van wezenlijk belang voor het realiseren van onze doelstellingen voor het rapporteren van Canvas.
 
-We bieden deze nieuwe ervaringen incrementeel, te beginnen met de release 23.2, via de nieuwe pagina Canvas-dashboards die nu beschikbaar is in uw voorvertoningsomgeving. De Dashboards van het canvas staan u toe om bestaande rapporten naast de nieuwe rapporteringsmogelijkheden te tonen wij bouwen, en zullen als onze primaire milieu voor het opstellen van en het testen van nieuwe eigenschappen voor het Melden van Canvas dienen. Voor meer informatie bij het toelaten van en het gebruiken van de Dashboards van het Canvas, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+We bieden deze nieuwe ervaringen incrementeel, te beginnen met de release 23.2, via de nieuwe pagina Canvas-dashboards die nu beschikbaar is in uw voorvertoningsomgeving. De Dashboards van het canvas staan u toe om bestaande rapporten naast de nieuwe rapporteringsmogelijkheden te tonen wij bouwen, en zullen als onze primaire milieu voor het opstellen van en het testen van nieuwe eigenschappen voor het Melden van Canvas dienen. Voor meer informatie bij het toelaten van en het gebruiken van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Deelnemen aan de bètaversie
 
@@ -61,7 +61,7 @@ Andere gebruikers die geen Workfront-beheerders zijn, aanmelden:
    >De gebruikers die u toegang tot het Melden van Canvas verleent zullen toegang tot **alle** gegevens in het systeem in een read-only capaciteit, ongeacht hun standaardtoestemmingen hebben om deze gegevens te bekijken.
 
 1. Klik **sparen**.
-1. Voeg het **Melden (bèta)** pictogram in het belangrijkste lay-outmalplaatje van elke gebruiker toe die werd geselecteerd. Voor meer informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Voeg het **Melden (bèta)** pictogram in het belangrijkste lay-outmalplaatje van elke gebruiker toe die werd geselecteerd. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 1. Elke gebruiker moet dan individueel aan **het Melden (bèta)** pictogram in hun belangrijkste menu navigeren en de voorwaarden goedkeuren.
 
 ### Feedback verzenden
@@ -73,7 +73,7 @@ Feedback over de bètaversie verzenden:
 
 ## Veelgestelde vragen over Beta
 
-+++Kan ik mijn oudere rapporten migreren naar het Rapporteren van Canvas?
++++Kan ik mijn erfenisrapporten migreren naar het Rapporteren van Canvas?
 
 Kortom, migrerende rapporten uit oudere versies zijn niet beschikbaar tijdens de bètaversie. Het is echter een gepland onderdeel (met een aantal punten die hieronder worden beschreven) voor de officiële lancering.
 
@@ -95,7 +95,7 @@ Onze huidige strategie voor migratie in de officiële release moet u in staat st
 1. Bij het Melden van Canvas, zorg ervoor dat alle rapporten en dashboards u selecteerde werden gemigreerd.
 +++
 
-+++Waarom kan ik niet alle voorwerpen zien ik normaal doe?
++++Waarom kan ik niet alle voorwerpen zien die ik normaal doe?
 
 Om de bètaversie zo snel mogelijk aan onze klanten te kunnen leveren, hebben we er slechts een subset van de vele objecttypen beschikbaar in Workfront beschikbaar gesteld. Hieronder ziet u de objecttypen die momenteel in de bètaversie worden ondersteund:
 
@@ -114,18 +114,18 @@ Om de bètaversie zo snel mogelijk aan onze klanten te kunnen leveren, hebben we
 * Werkitem
 +++
 
-+++Als iets in het Melden van Canvas tijdens bèta verkeerd gaat, zullen de gegevens van mijn organisatie worden beïnvloed?
++++Als er iets mis gaat in Reporting Canvas tijdens de bètaversie, zullen de gegevens van mijn organisatie dan worden beïnvloed?
 
 Nee. De bètaversie gebruikt een kopie van de gegevens van uw organisatie die in het rapportcanvas zijn ingevuld. Hoewel dit betekent dat u veilig kunt experimenteren tijdens de bètaversie zonder het risico te lopen belangrijke gegevens te beïnvloeden, betekent dit ook dat inline bewerken van gegevens in Reporting Canvas niet beschikbaar zal zijn tot de officiële start.
 +++
 
-+++Kan ik me uit de bètaversie opzeggen zodra ik lid ben?
++++Kan ik me afmelden voor de bètaversie zodra ik lid ben geworden?
 
 Een Workfront-beheerder kan niet de bètaversie uitschakelen, maar niet-systeembeheerders kunnen als volgt worden verwijderd:
 
 1. Meld u aan als systeembeheerder.
 1. Navigeer naar het rapportcanvas.
-1. Klik het Melden van de toestemmingen van het Canvas **&#x200B;**.
+1. Klik het Melden van de toestemmingen van het Canvas ****.
 1. Verwijder de gebruikers die u wilt uitschakelen uit de bètalijst die u hebt geselecteerd.
 1. Klik **sparen**.
 +++

@@ -1,11 +1,11 @@
 ---
 title: Andere verbeteringen tijdens de releaseperiode van het vierde kwartaal van 2024
 description: Andere verbeteringen tijdens de releaseperiode van het vierde kwartaal van 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van de verbeteringen die zijn aangebracht met de release Vierde kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Geef met één klik een overzicht van projecten of updates
 
@@ -28,9 +28,9 @@ Om het gemakkelijker te maken om hoogtepunten van een project of een updatestroo
 
 Eerder konden gebruikers AI Assistant openen en een vraag typen om een overzicht van het project of de updatestream te maken.
 
-Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.
+Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de abonnementen Selecteren, Prime en Ultimate.
 
-Voor meer informatie, zie [&#x200B; samenvatten gebruikend AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+Voor meer informatie, zie [ samenvatten gebruikend AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 ## Adobe AI Assistant beschikbaar in Workfront
 
@@ -38,12 +38,12 @@ Voor meer informatie, zie [&#x200B; samenvatten gebruikend AI Medewerker &#x200B
 >
 >Voorvertoningsrelease: 28 augustus 2024; Productie-release: 28 augustus 2024
 
-Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij de Medewerker van AI van Adobe aan Workfront toegevoegd. AI Assistant kan u helpen door:
+Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij Adobe Workfront AI Medewerker aan toegevoegd. AI Assistant kan u helpen door:
 
 * Het samenvatten van het werkpunten en documenten, toestaand u om een algemeen inzicht in taken, projecten, en activa snel te bereiken.
-* Het verstrekken van informatie van de documentatie van het Experience League, het brengen van instructies en verwijzingsmateriaal in Workfront, terwijl het verbinden aan meer diepgaande documentatie.
+* Het verstrekken van informatie van de documentatie van Experience League, het brengen van instructies en verwijzingsmateriaal in Workfront, terwijl het verbinden aan meer diepgaande documentatie.
 * Formules maken en verfijnen voor berekende aangepaste formuliervelden, formules genereren op basis van tekstaanwijzingen of fouten zoeken in bestaande formules.
 
-Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.
+Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de abonnementen Selecteren, Prime en Ultimate.
 
-Voor meer informatie over AI Medewerker in Workfront, zie [&#x200B; AI Medewerker: artikelindex &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md).
+Voor meer informatie over AI Medewerker in Workfront, zie [ AI Medewerker: artikelindex ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md).

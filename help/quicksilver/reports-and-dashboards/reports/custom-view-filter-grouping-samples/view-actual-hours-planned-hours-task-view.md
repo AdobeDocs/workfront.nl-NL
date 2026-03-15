@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: Werkelijke uren over geplande uren in dezelfde kolom van een taakweergave'
 description: In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op een taak wordt geregistreerd getoond over de uren die voor elke taak worden gepland. De variantie van het uren tussen Gepland en de Ware Uren toont ook in een afzonderlijke kolom.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op een taak wordt geregistreerd getoond over de uren die voor elke taak worden gepland. De variantie van het uren tussen Gepland en de Ware Uren toont ook in een afzonderlijke kolom.
 
-![&#x200B; actual_vs_scheduled_in_task_report.png &#x200B;](assets/actual-vs-planned-in-task-report-350x58.png)
+![ actual_vs_scheduled_in_task_report.png ](assets/actual-vs-planned-in-task-report-350x58.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op een taak wor
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

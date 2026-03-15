@@ -2,11 +2,11 @@
 navigation-topic: announcements
 title: Verbeterde handleiding voor Analytics-veroudering
 description: Deze pagina bevat informatie over de aanstaande veroudering van Verbeterde Analytics.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Verbeterde handleiding voor Analytics-veroudering
 
-Vanwege het afnemende gebruik en de beperkte functionaliteit is Enhanced Analytics binnenkort niet meer beschikbaar in Adobe Workfront. We hebben Workfront Data Connect uitgebracht als een alternatief waarmee u de verbeterde analytische visualisaties die u momenteel gebruikt, kunt repliceren. Bovendien maken we krachtige nieuwe visualisaties die niet mogelijk waren met Enhanced Analytics. Om ervoor te zorgen dat de overgang voor uw organisatie succesvol verloopt, bevat deze pagina informatie over wat precies verandert, advies over hoe u zich op de overgang kunt voorbereiden en antwoorden op veelgestelde vragen.
+Due to declining use and limited functionality, Enhanced Analytics will soon be deprecated from Adobe Workfront. We have released Workfront Data Connect as an alternative that can replicate the Enhanced Analytics visualizations you currently use, in addition to creating powerful new visualizations that were not possible with Enhanced Analytics. To ensure a successful transition for your organization, this page contains information about what exactly will change, advice on how to prepare for the transition, and answers to frequently asked questions.
 
 ## Informatie over afzetting
 
@@ -29,15 +29,15 @@ Vanwege het afnemende gebruik en de beperkte functionaliteit is Enhanced Analyti
 
 **wat kan ik in plaats daarvan gebruiken?**
 
-* Workfront Data Connect kan verbeterde analytische visualisaties repliceren. Zie [&#x200B; Replicate Verbeterde analytische visualisaties in de Gegevens van Workfront verbinden &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) hieronder voor meer informatie.
+* Workfront Data Connect kan verbeterde analytische visualisaties repliceren. Zie [ Replicate Verbeterde analytische visualisaties in de Gegevens van Workfront verbinden ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) hieronder voor meer informatie.
 
 ## Voorbereiden op de afleiding
 
 Om verstoring voor u en uw organisatie te minimaliseren, hebben wij hieronder aanbevelingen verstrekt die de overgang van Verbeterde Analytics aan de Gegevens van Workfront zullen vergemakkelijken verbinden.
 
-### Beginnen met Workfront Data Connect
+### Begin using Workfront Data Connect
 
-Onze eerste aanbeveling is ervoor te zorgen dat uw organisatie toegang heeft tot Workfront Data Connect en dat u zo snel mogelijk vertrouwd bent met het gebruik ervan. Meer over Gegevens verbind mogelijkheden en hoe te beginnen het te gebruiken, zie [&#x200B; de Gegevens van Workfront verbinden overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Onze eerste aanbeveling is ervoor te zorgen dat uw organisatie toegang heeft tot Workfront Data Connect en dat u zo snel mogelijk vertrouwd bent met het gebruik ervan. Meer over Gegevens verbind mogelijkheden en hoe te beginnen het te gebruiken, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Gegevens verbinden is inbegrepen in het nieuwe plan van Ultimate <!--, and can be purchased as an add-on to the new Select and Prime plans-->. Gegevensverbinding is niet beschikbaar voor organisaties met oudere Workfront-plannen. Neem contact op met uw Workfront-accountvertegenwoordiger om te weten welk abonnement uw organisatie op dit moment heeft en hoe u Data Connect kunt aanschaffen.
 
@@ -51,7 +51,7 @@ Gebruik de query&#39;s in de onderstaande artikelen om gegevensvisualisaties te 
 * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
 * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [&#x200B; de vragen van de de treemap van het Project &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
 * [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Hulp vragen

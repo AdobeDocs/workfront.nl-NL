@@ -4,11 +4,11 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront proof 23.3 release activity Week van 8 mei 2023
 description: Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht met de versie 23.3 voor Adobe Workfront Proof voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 8 mei 2023.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -31,4 +31,4 @@ De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.24! Deze update bevat C
 * Markeringen die zijn verbonden met opmerkingen worden nu correct weergegeven wanneer ze worden geselecteerd.
 * De vervolgkeuzelijsten voor Rol proef en Waarschuwing e-mail werken nu naar behoren.
 
-Voor informatie bij het downloaden van de update, zie [&#x200B; Update de Desktop het Proofing Kijker &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Voor informatie bij het downloaden van de update, zie [ Update de Desktop het Proofing Kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

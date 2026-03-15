@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: elementen rapporteren die worden gebruikt in rapporten'
 description: Deze mening toont de Mening, de Filter, en de Groepering die worden gebruikt om elk rapport in Adobe Workfront te bouwen wanneer u het in een lijst van rapporten gebruikt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Deze mening toont de Mening, de Filter, en de Groepering die worden gebruikt om 
 
 U kunt zien welke `valuefields` of `valueexpressions` in elk element van het rapport wordt gebruikt.
 
-![&#x200B; report_with_elements_definitions.png &#x200B;](assets/report-with-elements-definitions-350x130.png)
+![ report_with_elements_definitions.png ](assets/report-with-elements-definitions-350x130.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U kunt zien welke `valuefields` of `valueexpressions` in elk element van het rap
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

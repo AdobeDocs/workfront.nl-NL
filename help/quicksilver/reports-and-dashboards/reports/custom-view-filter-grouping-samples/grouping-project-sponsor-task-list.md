@@ -4,10 +4,10 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Groepering: Projectsponsor voor een Taaklijst'
 description: Met deze taakgroep kunt u taken groeperen op basis van de projectsponsor.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met deze taakgroep kunt u taken groeperen op basis van de projectsponsor.
 
-![&#x200B; Groep door projectsponsor &#x200B;](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![ Groep door projectsponsor ](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Met deze taakgroep kunt u taken groeperen op basis van de projectsponsor.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

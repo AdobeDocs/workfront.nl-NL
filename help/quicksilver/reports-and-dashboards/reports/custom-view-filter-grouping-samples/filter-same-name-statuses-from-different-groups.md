@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Items weergeven op basis van dezelfde naam wanneer de statussen aan verschillende groepen zijn gekoppeld'
 description: U kunt een taakstatus hebben die aan Groep A wordt toegewezen genoemd Nieuwe Status met de 3-letterige sleutel NST. U kunt een andere taakstatus hebben die aan Groep B ook wordt toegewezen genoemd Nieuwe Status met de 3-letterige sleutel NES. Hoewel de namen voor de twee statussen identiek kunnen zijn, is de 3-letterige code altijd uniek. Zie Een groepsstatus maken of bewerken voor meer informatie over groepsstatussen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt een taakstatus hebben die aan Groep A wordt toegewezen genoemd *Nieuwe Status* met de 3 brief sleutel *NST*. U kunt een andere taakstatus hebben die aan Groep B ook wordt toegewezen genoemd *Nieuwe Status* met 3 brief sleutel *NES.* Hoewel de namen voor de twee statussen identiek kunnen zijn, is de 3-letterige code altijd uniek.
 
-Voor meer informatie over groepsstatussen, zie [&#x200B; tot stand brengen of een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
+Voor meer informatie over groepsstatussen, zie [ tot stand brengen of een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
 
 Met de filterbuilder kunt u zich niet identificeren tussen de twee statussen met dezelfde naam. U moet de Tekstmodus in een aangepast filter gebruiken om onderscheid te maken tussen de twee statussen.
 
@@ -53,7 +53,7 @@ Met de filterbuilder kunt u zich niet identificeren tussen de twee statussen met
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

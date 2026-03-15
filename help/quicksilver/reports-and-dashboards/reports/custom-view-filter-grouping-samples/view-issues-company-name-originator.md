@@ -4,10 +4,10 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergave: problemen met de bedrijfsnaam van de maker'
 description: In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitgave heeft verzonden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitgave heeft verzonden.
 
-![&#x200B; custom_view_for_issues_with_originator_company_name.png &#x200B;](assets/custom-view-for-issues-350x33.png)
+![ custom_view_for_issues_with_originator_company_name.png ](assets/custom-view-for-issues-350x33.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitga
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

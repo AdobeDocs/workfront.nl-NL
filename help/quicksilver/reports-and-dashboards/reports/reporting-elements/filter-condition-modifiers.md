@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filter- en voorwaardenmodificatoren
 description: Met de filter- en voorwaardemodities kunt u filters maken en voorwaarden instellen voor het opmaken van de rapportresultaten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 0%
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 Met de filter- en voorwaardemodities kunt u filters maken en voorwaarden instellen voor het opmaken van de rapportresultaten.
 
-Voor meer informatie over de bouw van filters, zie het overzicht van artikel [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie over de bouw van filters, zie het overzicht van artikel [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Voor meer informatie over het gebruiken van voorwaardelijke het formatteren in Meningen, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in meningen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Voor meer informatie over het gebruiken van voorwaardelijke het formatteren in Meningen, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Filter- en voorwaardenmodificatoren
 
 Sommige bepalingen zijn ingebouwd en u kunt hen van een drop-down menu binnen uw filter of voorwaardelijke het formatteren verklaring kiezen. Andere wijzigingstoetsen kunnen alleen worden gebruikt in tekstmodusfilters.
 
-Voor meer informatie over het begrip van tekstwijze, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over het begrip van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Voor een lijst van ingebouwde tijdkaderbepalingen, zie de artikel [&#x200B; rapporten van de Filter door timeframes &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Voor een lijst van ingebouwde tijdkaderbepalingen, zie de artikel [ rapporten van de Filter door timeframes ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 U kunt de volgende voorwaardelijke wijzigingstoetsen in filters en voorwaardelijke het formatteren verklaringen gebruiken:
 
