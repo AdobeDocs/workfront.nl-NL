@@ -6,9 +6,10 @@ description: Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -398,7 +399,7 @@ Een object Categorie is een aangepast formulier.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Handelingen</td>
+      <td role="rowheader">Acties</td>
       <td>
         <ul>
           <li>
@@ -483,7 +484,7 @@ Een object Parameter is een aangepast veld.
             <p>De volgende mogelijke waarde is toegevoegd:</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (Lexische RTF-tekst)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -630,7 +631,7 @@ Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het g
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Handelingen</td>
+      <td role="rowheader">Acties</td>
       <td>
         <ul>
           <li>
@@ -983,5 +984,3 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
     </tr>
   </tbody>
 </table>
-
-
