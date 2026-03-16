@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ We raden u aan ook de volgende artikelen te bekijken:
    * **Voltooid**: Als alle fiatteurs het verzoekvoorwerp goedkeuren, zijn statusveranderingen in **Voltooid**, of als het verzoek geen goedkeuring verwierf.
    * **Verworpen**: Als om het even welke fiatteur het verzoekvoorwerp verwerpt, wordt de status **Geweigerd**. Er wordt geen record gemaakt en er moet een nieuw verzoek worden ingediend om de record te maken.
 
-* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Toegangsvereisten
 
@@ -80,11 +80,11 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Een verzoek tot het maken van een record goedkeuren
+## Een planningsverzoek goedkeuren om een record te maken
 
 Nadat gebruikers aanvragen hebben toegevoegd aan een aanvraagformulier voor een recordtype dat is gekoppeld aan een goedkeuring, wordt het verzoek verzonden naar de fiatteurs.
 
@@ -93,65 +93,66 @@ De fiatteurs ontvangen de volgende meldingen over een verzoek in afwachting van 
 * Een melding in de app
 * Een e-mailmelding
 
+Raadpleeg de volgende artikelen voor informatie over het goedkeuren van aanvragen van meldingen:
+
+* [E-mailberichten voor Adobe Workfront Planning beheren](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [In-app-berichten voor Adobe Workfront-planning beheren](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >Het exemplaar van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden ingezien zodat de gebruikers e-mail en in-app berichten kunnen ontvangen.
 
 U kunt verzoeken goedkeuren om verslagen van het verzoek zelf, of van Mijn goedkeurt widget in Huis tot stand te brengen.
 
-* [Een verzoek van het bedrijf in Workfront Planning goedkeuren](#approve-a-request-from-the-request-in-workfront-planning)
-* [Een verzoek goedkeuren van de widget Mijn goedkeuringen in Home](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Goedkeuren van een planningsverzoek uit een kennisgeving of uit het gebied Verzoeken
 
-### Een verzoek van het bedrijf in Workfront Planning goedkeuren
+1. Open het verzoek door een van de volgende handelingen uit te voeren:
 
-1. (Voorwaardelijk) Als u de ervaring voor het aanvragen van oudere bestanden in Workfront gebruikt, kunt u het verzoek op een van de volgende manieren openen:
-
-   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu** Dots ![&#x200B; in de hoger-juiste hoek van het scherm, of &#x200B;](assets/dots-menu.png) Belangrijkste Menu **&#x200B;**&#x200B;het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek, als beschikbaar, dan klik &#x200B;](assets/lines-menu.png) Verzoeken **>** > **2&rbrace; Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.**&#x200B;**
+   * Klik **** Belangrijkste menu van het Menu van de Lijnen ![ in de upper-left hoek, dan klik ](assets/lines-menu.png) Verzoeken **>** Gebruik nieuwe ervaring **, en klik het verzoek met het statuut van** In afwachting van Overzicht **.**
 
      >[!TIP]
      >
-     >Als u geen toegang hebt tot Workfront Planning, of als u geen toegang hebt tot om het even welke werkruimten te bekijken, kunt u tot een verzoek slechts toegang hebben om het goed te keuren gebruikend uw e-mail of in-app berichten.
+     >* Als u geen toegang hebt tot Workfront Planning, of als u geen toegang hebt tot om het even welke werkruimten te bekijken, kunt u tot een verzoek slechts toegang hebben om het goed te keuren gebruikend uw e-mail of in-app berichten.
+     >* U hebt geen toegang tot planningsverzoeken vanuit de ervaring met oudere aanvragen.
 
-   * Klik het **pictogram van het het gebiedspictogram van Meldingen** in Verenigde Shell ![&#x200B; in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.](assets/notifications-area-icon-unified-shell.png)
-   * Ga naar het e-mailbericht in uw e-mail die u over een verzoek in afwachting van uw goedkeuring op de hoogte brengt, dan klik **Open verzoek** om het verzoek te openen. <!--add the name of the button here, from the email-->
+   * Klik het **pictogram van het het gebiedspictogram van Meldingen** in Verenigde Shell ![ in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.](assets/notifications-area-icon-unified-shell.png)
+   * Ga naar het e-mailbericht in uw e-mail die u over een verzoek in afwachting van uw goedkeuring op de hoogte brengt, dan klik **Open verzoek** om het verzoek te openen.
 
    De aanvraagpagina wordt geopend in de modus Alleen-lezen.
 
-   ![&#x200B; read-only verzoekpagina in overzichtsstatus &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
-1. Als u nieuwe het vragen ervaring in Workfront gebruikt, klik **het HoofdMenu** Dots belangrijkste menu ![&#x200B; in de hoger-juiste hoek van het scherm, of het &#x200B;](assets/dots-menu.png) Belangrijkste Menu **&#x200B;**&#x200B;Belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek, als beschikbaar, dan klik &#x200B;](assets/lines-menu.png) Verzoeken **, en klik het verzoek dat u met de status van** in afwachting van overzicht wilt goedkeuren **.**
-1. (Optioneel) Klik op het pictogram **Goedkeuringen** pictogram ![&#x200B; in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.](assets/approvals-icon.png)
+   ![ read-only verzoekpagina in overzichtsstatus ](assets/read-only-reqeust-page-in-review-status.png)
+1. (Optioneel) Klik op het pictogram **Goedkeuringen** pictogram ![ in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.](assets/approvals-icon.png)
 1. Klik **Overzicht en keur** goed, dan kies één van het volgende:
 
    * **keur** goed: Dit keurt het verzoek goed. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld, nadat alle fiatteurs het verzoek hebben goedgekeurd.
    * **Weigeren**: Dit verwerpt het verzoek, zelfs wanneer u de enige fiatteur bent die het verwerpt. Er wordt geen record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
 
-   De gebruiker die het verzoek heeft ingediend, ontvangt een e-mail en in een app-melding wanneer zijn aanvraag is goedgekeurd of afgewezen.
+   De gebruiker die het verzoek heeft ingediend, ontvangt een e-mail en een melding in een app wanneer zijn aanvraag is goedgekeurd of afgewezen.
 
    De status van het verzoek verandert in het volgende, afhankelijk van het goedkeuringsbesluit:
 
    * **Voltooid**: Het verzoek wordt goedgekeurd.
    * **Verworpen**: Het verzoek wordt verworpen.
 
-   Het verzoek blijft op het gebied van verzoeken van Workfront.
+   Het verzoek blijft op het **gebied van Verzoeken** van Workfront.
 
 ### Een verzoek goedkeuren van de widget Mijn goedkeuringen in Home
 
 {{step1-to-home}}
 
-of
+1. Ga naar **Mijn goedkeurt** widget in **Huis**.
 
-Klik het [!UICONTROL Home] pictogram van het pictogram van het pictogram ![&#x200B; Huis &#x200B;](/help/_includes/assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront, dan bepaal de plaats van Mijn Bevestiging widget.
+   ![ Mijn widget goedkeurt in Huis ](assets/my-approvals-widget-in-home.png)
+1. Zoek het planningsverzoek dat u wilt goedkeuren of afwijzen.
 
-1. Zoek het object dat u wilt goedkeuren of afwijzen.
+1. (Facultatief) voeg een commentaar toe door de drop-down pijl naast **te klikken goedkeuren** of **Afwijzen**, typend in de nota, en klikkend **** toevoegt.
 
-1. (Optioneel) Voeg een opmerking toe door op de vervolgkeuzepijl naast Goedkeuren of Afwijzen te klikken, de notitie te typen en op Toevoegen te klikken.
-
-1. Kies een van de volgende opties:
+1. Klik op een van de volgende opties:
 
    * **keur** goed: Dit keurt het verzoek goed. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld, nadat alle fiatteurs het verzoek hebben goedgekeurd.
    * **Weigeren**: Dit verwerpt het verzoek, zelfs wanneer u de enige fiatteur bent die het verwerpt. Er wordt geen record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
 
-   De gebruiker die het verzoek heeft ingediend, ontvangt een e-mail en in een app-melding wanneer zijn aanvraag is goedgekeurd of afgewezen.
+   De gebruiker die het verzoek heeft ingediend, ontvangt een e-mail en een melding in een app wanneer zijn aanvraag is goedgekeurd of afgewezen.
 
    De status van het verzoek verandert in het volgende, afhankelijk van het goedkeuringsbesluit:
 
