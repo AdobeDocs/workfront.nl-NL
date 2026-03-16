@@ -7,9 +7,10 @@ description: U kunt Adobe Enterprise-opslag voor uw organisatie inschakelen om e
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Adobe Enterprise Storage is een centrale opslagoplossing voor alle Adobe-product
 
 Adobe Enterprise storage is standaard ingeschakeld voor nieuwe klanten en kan voor bestaande klanten worden ingeschakeld bij contractvernieuwing.
 
-Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer informatie over de ondernemingsopslag van Adobe, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -45,7 +46,7 @@ Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzic
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,6 +65,11 @@ Adobe Enterprise-opslag voor uw organisatie inschakelen:
    >
    >Als u deze optie inschakelt, kunnen gebruikers de opslagprovider selecteren wanneer ze een nieuw project maken. de opslag van de onderneming wordt geëtiketteerd als &quot;Nieuw project&quot;aangezien het de standaardopslagleverancier is. Legacy Workfront Storage heet &quot;Legacy project&quot;.
    >
-   >![&#x200B; nieuw project en erfenisprojectopties &#x200B;](assets/new-esm-project.png)
+   >![ nieuw project en erfenisprojectopties ](assets/new-esm-project.png)
+
+1. Kies een van de volgende opties in het vervolgkeuzemenu Toepassen op:
+
+   - **Volledige organisatie**: Deze optie past de standaard opslagleverancier op uw volledig milieu van Workfront toe. Telkens wanneer een gebruiker een nieuw project maakt, wordt de standaard opslagprovider gebruikt.
+   - **Specifieke groepen**: Deze optie past de standaardopslagleverancier slechts op specifieke groepen binnen uw organisatie toe. Wanneer een gebruiker in de opgegeven groepen een nieuw project maakt, wordt de standaardopslagprovider gebruikt
 
 1. Klik **sparen**.
