@@ -8,16 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
+source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
 
 # Zakelijke regels maken en bewerken
 
-Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bedrijfsregels helpen gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+-->
+
+Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bevestiging van bedrijfsregels helpt om gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
+
+<!--
+
+<div class="preview">
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+
+</div>
+
+-->
 
 Eén bedrijfsregel kan slechts aan één object worden toegewezen. Bijvoorbeeld, als u een bedrijfsregel creeert voor het niet uitgeven van projecten onder bepaalde voorwaarden, kunt u niet de zelfde regel op taken toepassen. U zou een afzonderlijke bedrijfsregel met de zelfde voorwaarden voor taken moeten tot stand brengen.
 
@@ -42,8 +58,9 @@ De bedrijfsregels zijn van toepassing op het creëren van, het uitgeven van, en 
   <tr>
    <td>Adobe Workfront-pakket
    </td>
-   <td> <p>Ultimate</p>
-    <p>Workflow Ultimate</p>
+   <td> <p>Validatie van bedrijfsregels:<ul><li><p>Ultimate</p></li><li>
+    <p>Workflow Ultimate</p></li></ul></p><p>Automatisering van bedrijfsregels:<ul><li>
+    <p>Workflow Ultimate</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -57,21 +74,26 @@ De bedrijfsregels zijn van toepassing op het creëren van, het uitgeven van, en 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Scenario&#39;s voor bedrijfsregels
 
-De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
+* [Scenario&#39;s voor validatie van bedrijfsregels](#scenarios-for-business-rule-validation)
+* [Scenario&#39;s voor bedrijfsregelautomatisering](#scenarios-for-business-rule-automation)
 
-De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [&#x200B; berekende gebieden met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+### Scenario&#39;s voor validatie van bedrijfsregels
 
-Voor informatie over IF- verklaringen, zie [&#x200B; &quot;IF&quot;verklaringenoverzicht &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [&#x200B; de exploitanten van de Voorwaarde in berekende douanevelden &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+De indeling van een validatie van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, kan de gebruiker de actie op het object niet uitvoeren en wordt het bericht weergegeven.&quot;
 
-Voor informatie over op gebruiker-gebaseerde vervangingen, zie [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-Voor informatie over op datum-gebaseerde vervangingen, zie [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over IF- verklaringen, zie [ &quot;IF&quot;verklaringenoverzicht ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [ de exploitanten van de Voorwaarde in berekende douanevelden ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+
+Voor informatie over op gebruiker-gebaseerde vervangingen, zie [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+
+Voor informatie over op datum-gebaseerde vervangingen, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 Een API-jokerteken is ook beschikbaar in bedrijfsregels. Gebruik `$$ISAPI` om de regel alleen in de API te activeren. Gebruik `!$$ISAPI` om de regel alleen in de gebruikersinterface af te dwingen en gebruikers toe te staan de regel via de API te omzeilen.
 
@@ -117,15 +139,53 @@ IF(
 )
 ```
 
+
+<!--
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
+
 ## Voeg een nieuwe bedrijfsregel toe
 
 {{step-1-to-setup}}
 
 1. Klik **BedrijfsRegels** in het linkerpaneel.
 1. Klik **Nieuwe bedrijfsregel**.
-1. Selecteer het objecten type om de bedrijfsregel aan toe te wijzen, dan klik **verdergaan**.
 
-   ![&#x200B; Uitgezocht een voorwerp &#x200B;](assets/object-for-business-rule3.png)
+1. Typ de **Naam** voor de bedrijfsregel op de dialoog van de regelbouwer.
+1. Op **is Actief** gebied, selecteer of de regel actief zou moeten zijn wanneer u het bewaart.
+
+   Als u **Nr** selecteert, wordt de regel bewaard als inactief, en u kunt het later activeren.
+
+1. (Facultatief) ga a **Beschrijving** van de bedrijfsregel in en wat gebeurt wanneer het wordt toegepast.
+
+
+1. Selecteer het objecttype waaraan u de bedrijfsregel wilt toewijzen.
+
+   ![ Uitgezocht een voorwerp ](assets/object-for-business-rule4.png)
 
    U kunt bedrijfsregels toepassen op de volgende objecten:
 
@@ -150,6 +210,17 @@ IF(
    * Sjabloon
    * Tijd uit
    * Bronpool
+<!--
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
+-->
 
 1. Typ de **Naam** voor de bedrijfsregel op de dialoog van de regelbouwer.
 1. Op **is Actief** gebied, selecteer of de regel actief zou moeten zijn wanneer u het bewaart.
@@ -158,11 +229,10 @@ IF(
 
 1. Selecteer a **Trekker** voor de bedrijfsregel. De opties zijn:
 
-   * **op objecten verwezenlijking:** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp tot stand te brengen.
-   * **op voorwerp uitgeven:** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp uit te geven.
-   * **op voorwerp schrapt:** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp te schrappen.
+   * **creeerde** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp tot stand te brengen.
+   * **Bewerkte** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp uit te geven.
+   * **schrapte** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp te schrappen.
 
-1. (Facultatief) ga a **Beschrijving** van de bedrijfsregel in en wat gebeurt wanneer het wordt toegepast.
 1. Bouw de formule in de formules redacteur, in het centrum van de dialoog van de bedrijfsregel.
 
    De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
@@ -172,17 +242,17 @@ IF(
    * Het &quot;object&quot; is het objecttype dat u hebt geselecteerd bij het maken van de bedrijfsregel. Deze wordt weergegeven in de kop van het dialoogvenster.
    * De &quot;actie&quot; is de trigger die u voor de regel hebt geselecteerd: maak, bewerk of verwijder het object.
    * Omdat het object en de actie al zijn gedefinieerd, neemt u ze niet op in de formule.
-   * Het aangepaste foutbericht wordt aan de gebruiker weergegeven wanneer deze de bedrijfsregel activeert. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
+   * Het aangepaste foutbericht <!--<span class="preview">is included only if the rule is for validation, and </span>--> wordt aan de gebruiker weergegeven wanneer deze de bedrijfsregel activeert. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
 
      U kunt een statische URL in het foutbericht opnemen om een koppeling te maken naar documentatie of andere nuttige pagina&#39;s om de gebruiker te begeleiden bij het wijzigen van de handeling binnen de beperking van de regel.
 
      In dit voorbeeld wordt &quot;Meer informatie&quot; gekoppeld aan de URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt de volledige URL weergeven en het wordt een klikbare koppeling.
 
-   ![&#x200B; voeg bedrijfsregeldialoog &#x200B;](assets/add-business-rule-dialog-no-ai-button.png) toe
+   ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-dialog-no-ai-button.png) toe <!--UPDATE ME-->
 
    Dit voorbeeld is een bedrijfsregel voor projecten. Als de huidige maand November is, dan worden de gebruikers toegelaten om geen nieuwe projecten tot stand te brengen, en het bericht verklaart dit.
 
-   Voor meer voorbeelden van bedrijfsregels, zie [&#x200B; Scenario&#39;s voor bedrijfsregels &#x200B;](#scenarios-for-business-rules) in dit artikel.
+   Voor meer voorbeelden van bedrijfsregels, zie [ Scenario&#39;s voor bedrijfsregels ](#scenarios-for-business-rules) in dit artikel.
 
 1. (Facultatief) gebruik de formule **Uitdrukkingen** en **Gebieden** in het juiste paneel om bij de bouw van de regel bij te wonen.
 
@@ -190,11 +260,46 @@ IF(
 
    De lijst met beschikbare velden is beperkt tot velden die betrekking hebben op het objecttype voor de bedrijfsregel.
 
+1. (Voorwaardelijk) als u de actie bevestigt, als uw organisatie op het pakket van Workfront Ultimate, op het toen gebied is, selecteer **bevestigen het voorwerp**.
+
+   Voor andere pakketten is deze optie vooraf geselecteerd.
+
+<!--
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+   -->
+
 1. Klik **sparen** wanneer u klaar bent met het bouwen van de bedrijfsregel.
 
 >[!NOTE]
 >
 >Nadat u een bedrijfsregel hebt toegevoegd, moet u deze testen door het bijbehorende object toe te voegen, te bewerken of te verwijderen om ervoor te zorgen dat de regel correct wordt toegepast.
+
+<!--
+
+<div class="preview">
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+-->
 
 ## Een bedrijfsregel activeren
 
