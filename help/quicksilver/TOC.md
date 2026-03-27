@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: c2c32716d8c08c6aa7f9f408db29b8a645cf2e68
+source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
 workflow-type: tm+mt
 source-wordcount: '13813'
 ht-degree: 0%
@@ -138,7 +138,7 @@ ht-degree: 0%
          * [23.3 Andere verbeteringen](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Updates weergeven en voelen tijdens de releaseperiode van 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Release {#release-23-2}
-         * [&#x200B; 23.2 Overzicht van de Versie &#x200B;](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [ 23.2 Overzicht van de Versie ](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Beheerdersverbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Verbeteringen aan mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Verbeteringen van het projectbeheer](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -809,8 +809,8 @@ ht-degree: 0%
       * [Lijst met beschikbare blauwdrukken](administration-and-setup/blueprints/list-of-available-blueprints.md)
    * Beheer in de Adobe Admin Console {#admin-in-admin-console}
       * [Workfront Administration in de Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-      * [&#x200B; voorbereidingen treffen voor Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [&#x200B; Begrijpend de Migratie van Workfront aan Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [ voorbereidingen treffen voor Adobe Admin Console ](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [ Begrijpend de Migratie van Workfront aan Adobe Admin Console ](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Tips, trucs en probleemoplossing voor beheer en installatie {#admin-setup-tips}
       * [Tips, trucs en probleemoplossing](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Groepbeheerders moeten een hogere toegang hebben dan de beheerders die ze beheren](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1020,7 +1020,7 @@ ht-degree: 0%
          * [Updates toevoegen in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
       * Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
          * [Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-         * [&#x200B; Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+         * [ Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tips, trucs en probleemoplossing voor Adobe Workfront Basics {#tips-tricks-for-basics}
       * [Tips, trucs en probleemoplossing voor Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Je snelle gids voor hulp in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
@@ -1184,7 +1184,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [&#x200B; los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1783,7 +1783,7 @@ ht-degree: 0%
          * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; de vragen van de de treemap van het Project &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Tips, trucs en probleemoplossing voor Data Connect{#troubleshooting-data-connect}
          * [Tips, trucs en probleemoplossing voor Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -1841,6 +1841,8 @@ ht-degree: 0%
       * [Werk de werkitems in de werklastbalans bij met de samenvatting](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Werk beoordelen en goedkeuren {#review-and-approve-work}
    * [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
+   * [Algemeen overzicht van revisie en goedkeuring](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+   * [Ga aan de slag met Unified Review en Approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
    * [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](review-and-approve-work/proof-doc-decision-limits.md)
    * Goedkeuring van werkzaamheden {#work-approvals}
       * [Goedkeuring van werkzaamheden](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1857,7 +1859,6 @@ ht-degree: 0%
    * Verenigde goedkeuringen {#document-reviews-and-approvals}
       * [Uniforme documentgoedkeuringen: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Beschikbare functionaliteit voor documentgoedkeuringen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-      * [Overzicht van Unified Approval](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Aan de slag met de Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Overzicht van opslag in Adobe-bedrijven](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -1996,8 +1997,6 @@ ht-degree: 0%
          * [Proefversies kunnen niet worden gedownload of bekeken wanneer een interactieve proefdruk wordt toegevoegd als een nieuwe versie](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Native integratie {#native-integrations}
       * [Native integratie controleren en goedkeuren: artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-      * [Overzicht van de integratie van Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-      * [Begin met de integratie Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
       * [Ga aan de slag met de integratie van GenStudio for Performance Marketing en Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
       * [Ga aan de slag met de proefdrukken en Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Ga aan de slag met het proefdrukken en de GenStudio for Performance Marketing-integratie](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
@@ -2119,7 +2118,7 @@ ht-degree: 0%
    * Aanbevolen procedures voor Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [Tips en trucs voor Adobe Workfront: artikelindex](planning/best-practices.md/best-practices-article-index.md)
       * [Leer uw strategische huis: een 30-daagse lancering](planning/best-practices.md/30-day-launchpad.md)
-      * [&#x200B; architect uw succes: het modelleren van uw campagnehiërarchie &#x200B;](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [ architect uw succes: het modelleren van uw campagnehiërarchie ](planning/best-practices.md/model-campaign-hierarchy.md)
       * [Uw marketingkalender samenstellen: geen dekken, alleen helderheid](planning/best-practices.md/marketing-calendar.md)
       * [Maak van uw eerste win een duurzame impuls: een speelboek voor beheerde schaling](planning/best-practices.md/playbook-how-to-scale.md)
       * [Bouw de brug: verbindend strategische intentie met projecten](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
@@ -2149,8 +2148,8 @@ ht-degree: 0%
       * [Overzicht van velden](planning/fields/fields-overview.md)
       * [Velden maken](planning/fields/create-fields.md)
       * [Veldinstellingen bewerken](planning/fields/edit-fields.md)
-      * [&#x200B; schrapt gebieden &#x200B;](planning/fields/delete-fields.md)
-      * [&#x200B; overzicht van de gebieden van de Formule &#x200B;](planning/fields/formula-fields.md)
+      * [ schrapt gebieden ](planning/fields/delete-fields.md)
+      * [ overzicht van de gebieden van de Formule ](planning/fields/formula-fields.md)
       * [Velden importeren uit Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)
    * Toegang tot Adobe Workfront Planning {#adobe-workfront-planning-access}
@@ -2164,7 +2163,7 @@ ht-degree: 0%
       * [Records delen](planning/access/share-records.md)
       * [Machtigingen aanvragen voor een weergave of werkruimte](planning/access/request-permissions.md)
    * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
-      * [&#x200B; Verslagen: artikelindex &#x200B;](planning/records/records-information.md)
+      * [ Verslagen: artikelindex ](planning/records/records-information.md)
       * [Records maken](planning/records/create-records.md)
       * [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](planning/records/import-file-to-create-records.md)
       * [Overzicht van verbonden records](planning/records/connected-records-overview.md)
@@ -2208,7 +2207,7 @@ ht-degree: 0%
       * [E-mailberichten voor Adobe Workfront Planning beheren](planning/notifications/manage-planning-email-notifications.md)
       * [In-app-berichten voor Adobe Workfront-planning beheren](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [&#x200B; de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [ de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Ga aan de slag met de Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integratie](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [De GenStudio-werkruimte beheren in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Een Workfront-planningswerkruimte promoten naar GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2233,7 +2232,7 @@ ht-degree: 0%
          * [Werk bij met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Werkitems markeren die zijn voltooid met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Logtijd met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen {#upload-docs-proofs-wf-cc}
          * [Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2555,11 +2554,11 @@ ht-degree: 0%
       * [Geslaagde tekens in API-reacties](wf-api/api/escaped-characters-api.md)
       * [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](wf-api/api/oauth-app-code-token-flow.md)
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
-      * [&#x200B; vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken &#x200B;](wf-api/api/oauth-app-pkce-flow.md)
+      * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; wat in API versie 21  nieuw is](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; wat in API versie 20  nieuw is](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is
+      * [ wat in API versie 20 ](/help/quicksilver/wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)
