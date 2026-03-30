@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -18,31 +18,35 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die in Documenten zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Verenigde overzicht en goedkeuringen aangedreven door Workfront en Frame.io
 
-Wij zijn opgetogen om Verenigde Overzicht &amp; Goedkeuring toe te voegen aangedreven door Workfront en Frame.io, een gestroomlijnde overzicht en goedkeuringservaring.
 
-Deze nieuwe capaciteit is beschikbaar aan netto nieuwe klanten en aan bestaande klanten bij vernieuwing.
+>[!IMPORTANT]
+>
+>Deze nieuwe capaciteit is beschikbaar aan netto nieuwe klanten en aan bestaande klanten bij vernieuwing.
+
+
+Wij zijn opgetogen om Verenigde Overzicht &amp; Goedkeuring toe te voegen aangedreven door Workfront en Frame.io, een gestroomlijnde overzicht en goedkeuringservaring.
 
 ### Nieuwe functies
 
 #### Een nieuwe documentervaring
 
-Geniet van een volledig vernieuwde ervaring met documenten met een modern uiterlijk. De bijgewerkte interface vereenvoudigt navigatie, verbetert duidelijkheid, en maakt het voor teams gemakkelijker om overzichten en goedkeuringen in één verenigde milieu te beheren. Voor meer informatie, zie het [&#x200B; het gebiedsoverzicht van Documenten &#x200B;](/help/quicksilver/documents/managing-documents/documents-area.md).
+Geniet van een volledig vernieuwde ervaring met documenten met een modern uiterlijk. De bijgewerkte interface vereenvoudigt navigatie, verbetert duidelijkheid, en maakt het voor teams gemakkelijker om overzichten en goedkeuringen in één verenigde milieu te beheren. Voor meer informatie, zie het [ het gebiedsoverzicht van Documenten ](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 #### Meerfasengoedkeuringen
 
-U kunt gestructureerde en geavanceerdere goedkeuringswerkstromen maken met meerfasentegoedkeuringen. Het werk van de route door opeenvolgende overzichtsstadia, wijst belanghebbenden bij elke stap toe, en verzekert de juiste mensen weg bij juiste tijd-brengend groter bestuur en zichtbaarheid aan uw proces ondertekenen. Voor meer informatie, zie [&#x200B; een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
+U kunt gestructureerde en geavanceerdere goedkeuringswerkstromen maken met meerfasentegoedkeuringen. Het werk van de route door opeenvolgende overzichtsstadia, wijst belanghebbenden bij elke stap toe, en verzekert de juiste mensen weg bij juiste tijd-brengend groter bestuur en zichtbaarheid aan uw proces ondertekenen. Voor meer informatie, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 #### Inhoud in Frame.io controleren en goedkeuren
 
-Controleer en keur inhoud in de kijker Frame.io direct goed en elimineer de behoefte om tussen platforms te schakelen. Dankzij deze integratie kunnen er sneller feedback-cycli worden uitgevoerd en blijven alle revisies op één plaats actief. Voor meer informatie, zie [&#x200B; begonnen worden met verenigde overzicht en goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+Controleer en keur inhoud in de kijker Frame.io direct goed en elimineer de behoefte om tussen platforms te schakelen. Dankzij deze integratie kunnen er sneller feedback-cycli worden uitgevoerd en blijven alle revisies op één plaats actief. Voor meer informatie, zie [ begonnen worden met verenigde overzicht en goedkeuring ](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Verbinding met Adobe Experience Manager
 
-Verzend naadloos goedgekeurde middelen rechtstreeks naar Adobe Experience Manager. Deze integratie helpt de activering van inhoud te versnellen door de workflows voor revisie en goedkeuring aan te sluiten bij het beheer van downstreaminhoud. Voor meer informatie, zie [&#x200B; Gebruik Adobe Experience Manager met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Verzend naadloos goedgekeurde middelen rechtstreeks naar Adobe Experience Manager. Deze integratie helpt de activering van inhoud te versnellen door de workflows voor revisie en goedkeuring aan te sluiten bij het beheer van downstreaminhoud. Voor meer informatie, zie [ Gebruik Adobe Experience Manager met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 #### Toegang tot Adobe Enterprise-opslag
 
@@ -50,7 +54,7 @@ Adobe Enterprise Storage is een op cloud gebaseerde opslagoplossing die fungeert
 
 Toegang tot Adobe Enterprise Storage maakt ook de weg vrij voor toekomstige integratie van bedrijfsmiddelen met andere Adobe-producten, zoals Adobe Creative Cloud.
 
-Voor meer informatie, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer informatie, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Workflows voor meerfasentegoedkeuring beschikbaar voor uniforme goedkeuringen
 
@@ -68,7 +72,7 @@ De werkschema&#39;s van de meerfasengoedkeuring zijn nu beschikbaar in verenigde
 * Ervoor zorgen dat goedkeuringen alleen worden uitgevoerd wanneer de vereiste beslissingen zijn voltooid
 * Zichtbaarheid behouden tijdens goedkeuringsprocedure
 
-Voor meer informatie, zie [&#x200B; een werkschema van de documentgoedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
+Voor meer informatie, zie [ een werkschema van de documentgoedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 ## Workflowsjablonen voor meerfasengoedkeuring instellen en gebruiken
 
@@ -86,4 +90,4 @@ Met goedkeuringswerkstroomsjablonen kunt u:
 * Verminder handmatige opstellingstijd tijdens het starten van de goedkeuring
 * Ervoor zorgen dat de vereiste belanghebbenden op het juiste moment worden betrokken
 
-Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
