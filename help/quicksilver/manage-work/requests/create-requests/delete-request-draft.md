@@ -1,28 +1,33 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Een verzonden aanvraag verwijderen en concept aanvragen
-description: U kunt ingediende aanvragen verwijderen of concepten aanvragen.
+title: Een verzonden aanvraag of aanvraagconcept verwijderen
+description: U kunt ingediende aanvragen verwijderen of concepten aanvragen in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
 # Een verzonden verzoek of concept van een verzoek verwijderen
 
-U kunt ingediende verzoeken verwijderen of concepten aanvragen die u in de nieuwe ervaring voor aanvragen hebt gemaakt. Workfront-beheerders en planningswerkruimtebeheerders kunnen ook aanvragen verwijderen.
+U kunt door Adobe Workfront of Adobe Workfront Planning ingediende aanvragen verwijderen of concepten aanvragen die u hebt gemaakt of waarvoor u beheermachtigingen hebt.
 
-In de erfenis die om ervaring verzoekt, kunt u verzoekconcepten schrappen. U kunt ingediende aanvragen niet verwijderen.
+Workfront-beheerders en Workfront-werkruimtemanagers kunnen ook aanvragen en concepten aanvragen die ze niet hebben gemaakt.
+
+U kunt planningsverzoeken niet weergeven in de ervaring met oudere aanvragen.
+
+In dit artikel wordt beschreven hoe u aanvraagconcepten uit de nieuwe aanvraagervaring kunt verwijderen. Het verwijderen van Workfront- en planningsverzoeken of de bijbehorende concepten is identiek.
 
 Zie voor meer informatie:
 
-* [&#x200B; creeer en verzend Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [ creeer en verzend Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Verzoeken maken op basis van concepten](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
+* [Adobe Workfront-planningsverzoeken verzenden om records te maken](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Toegangsvereisten
 
@@ -34,7 +39,9 @@ Zie voor meer informatie:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Een Workfront- of workflowpakket</p>
+
+<p>Willekeurig Workfront-planningspakket voor het beheer van planningsaanvragen </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -44,44 +51,48 @@ Zie voor meer informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een beheerder van de de beheerder of van de Planning van de werkruimte van Workfront zijn om verzoeken te schrappen die u niet creeerde.</p><p>U moet toegang tot problemen bewerken om concepten uit de oudere aanvraagervaring te verwijderen.</p>  </td> 
+   <td> <p>U moet een beheerder van Workfront of de Manager van de werkruimte van de Planning zijn om verzoeken te schrappen die u niet creeerde.</p><p>U moet Edit toegang tot Kwesties hebben.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>U moet het verzoek of concept hebben gemaakt om het te verwijderen uit de nieuwe ervaring voor aanvragen.</p><p>U moet toegang tot problemen bewerken om concepten uit de oudere aanvraagervaring te verwijderen.</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
-  </tr> 
- </tbody> 
+   <td> <p>U moet het verzoek of het ontwerp tot stand hebben gebracht om het in de nieuwe het vragen ervaring te schrappen, of een beheerder van Workfront of de Manager van de Planning werkruimte zijn om concepten van verzoeken te schrappen u niet voorlegde.
+   </p><p>U moet over bewerkingsmachtigingen beschikken voor de problemen die u verwijdert.</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Verzoeken verwijderen of concepten aanvragen in de nieuwe ervaring die u opvraagt
 
-U kunt aanvragen verwijderen in het gedeelte Verzoeken van Workfront of in de widget Mijn verzoeken in Home.
+U kunt aanvragen en concepten verwijderen op de volgende gebieden:
 
-* Workfront-beheerders kunnen aanvragen en concepten in hun organisatie verwijderen.
-* De de werkruimtebeheerders van de Planning van Workfront kunnen verzoeken en concepten in de werkruimte van de Planning schrappen die zij beheren.
+* Op het gebied van verzoeken van Workfront
+* In de widget Mijn verzoeken thuis
+* Van een aanvraagpagina
+
+De volgende gebruikers kunnen aanvraagconcepten verwijderen:
+
+* Workfront-beheerders kunnen aanvragen en concepten verwijderen die ze of anderen hebben verzonden.
+* De de werkruimtemanagers van de Planning van Workfront kunnen verzoeken en concepten in de werkruimte van de Planning schrappen die zij beheren.
 * Gebruikers kunnen verzoeken en concepten verwijderen die ze hebben verzonden.
 
-### Een aanvraag verwijderen uit het menu met drie punten
+### Een verzoek of concept verwijderen uit het gebied Verzoeken of de widget Mijn verzoeken in Home
 
 {{step1-to-requests}}
 
-1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
+1. Om tot **toegang te hebben mijn Verzoeken** widget in **Huis**:
 
    {{step1-to-home}}
 
-   1. Zoek de widget Mijn verzoeken.
+   1. Zoek **Mijn Verzoeken** widget.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over **Mijn Verzoeken** widget, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In de **lijst van Verzoeken** of **Mijn 3&rbrace; widget van Verzoeken &lbrace;in Huis, bewaar over het verzoek of het ontwerp dat u wilt schrappen, dan klik het** Meer **menu** Meer menu ![](assets/more-menu.png)
+1. In de **lijst van Verzoeken** of **Mijn 3} widget van Verzoeken {in** Huis **, bewaar over het verzoek of het ontwerp dat u wilt schrappen, dan het** Meer **menu** Meer menu ![ klikken](assets/more-menu.png)
 
 1. Klik **Schrapping**
 
@@ -97,30 +108,26 @@ U kunt aanvragen verwijderen in het gedeelte Verzoeken van Workfront of in de wi
 
    Het verzoek of concept wordt verwijderd.
 
-### Verzoeken om bulkverwijdering
+   Verwijderde aanvragen worden opgeslagen in de prullenbak en een Workfront-beheerder kan ze tot 30 dagen herstellen. Concepten kunnen niet worden hersteld.
+
+### Aanvragen voor het verwijderen van opsommingstekens uit een lijst
 
 {{step1-to-requests}}
 
-1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
+1. Om tot **toegang te hebben mijn Verzoeken** widget in **Huis**:
 
    {{step1-to-home}}
 
-   1. Zoek de widget Mijn verzoeken.
+   1. Zoek **Mijn Verzoeken** widget.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Klik in de lijst Verzoeken of de widget Mijn verzoeken op het vakje links van elke aanvraag die u wilt verwijderen.
+1. In de **lijst van Verzoeken** of **Mijn Verzoeken** widget, klik de doos links van elk verzoek dat u wilt schrappen.
 1. In de blauwe bar bij de bodem van de pagina, klik **Schrapping**.
 
    >[!NOTE]
    >
-   >Als de optie Verwijderen niet zichtbaar is in de blauwe balk, hebt u geen toestemming om een of meer geselecteerde aanvragen te verwijderen.
-
-</div>
-
-## Concepten van verzoeken in de oudere aanvraagervaring verwijderen
-
-U kunt opgestelde verzoeken verwijderen nadat deze als concepten zijn opgeslagen als ze niet meer relevant zijn. U kunt verwijderde conceptaanvragen niet herstellen.
+   >Als de **schrapping** optie niet zichtbaar in de blauwe bar is, hebt u geen toestemming om één of meerdere geselecteerde verzoeken te schrappen.
 
 ### Vereisten voor het verwijderen van aanvraagconcepten
 
@@ -128,18 +135,27 @@ U moet het volgende doen alvorens u een verzoekontwerp kunt schrappen:
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-  Voor informatie over het creëren van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
-### Een aanvraagconcept verwijderen
+## Concepten van verzoeken in de oudere aanvraagervaring verwijderen
+
+U kunt opgestelde verzoeken verwijderen nadat deze als concepten zijn opgeslagen als ze niet meer relevant zijn. U kunt verwijderde conceptaanvragen niet herstellen.
+
+U hebt geen toegang tot planningsverzoeken of de concepten daarvan uit de oudere aanvraagervaring.
 
 {{step1-to-requests}}
 
-1. Selecteer **Concepten** in het linkerpaneel.
+1. Klik **Concepten** in het linkerpaneel.
 
    Alle concepten voor alle aanvraagrijen worden in deze lijst weergegeven.
 
-1. (Facultatief) klik **Filter door verzoektype** in de hoger-juiste hoek van de lijst van concepten, dan selecteer de verzoekrij die de concepten bevat u wilt tonen.
 1. Selecteer een ontwerp in de lijst, dan klik **Schrapping** bij de bovenkant van de lijst.
 1. Klik **ja, schrap het**.
 
    Het concept wordt verwijderd en kan niet worden hersteld.
+
+
+
+
+
+

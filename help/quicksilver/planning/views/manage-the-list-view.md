@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,21 @@ ht-degree: 0%
 
 <span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
-U kunt projecten en hun gebieden in een lijstmening tonen, wanneer het toegang tot hen in de Verbonden verslagenpagina van een verslag, in de Planning van Adobe Workfront. <!--change 'projects' to other objects when they become available and the location of the list view-->
+U kunt objecten in de lijstweergave bekijken in de volgende gebieden van Workfront Planning:
 
-Dit artikel beschrijft hoe u een lijstmening kunt tot stand brengen of uitgeven die projecten in de Verbonden verslagenpagina van een verslag en hoe u de projecten in de mening kunt uitgeven. <!--change 'projects' to other objects when they become available and the location of the list view-->
+* Een verbonden registratiepagina voor projecten in het detailsgebied van een verslag
+
+  ![ Projecten op verbonden verslagenpagina in lijstmening ](assets/projects-on-connected-records-page-list-view.png)
+
+* Een lijst met aanvraagformulieren op recordtypeniveau
+
+  ![ de vormen van het verzoek in lijstmening ](assets/request-forms-in-list-view.png)
+
+In dit artikel wordt beschreven hoe u door een lijstweergave kunt navigeren, deze kunt maken of bewerken die objecten weergeeft in Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Toegangsvereisten
 
@@ -66,45 +74,72 @@ Dit artikel beschrijft hoe u een lijstmening kunt tot stand brengen of uitgeven 
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
 ## Overwegingen over lijstweergaven
 
-* U kunt niet alle objecttypen weergeven op de recordtypepagina&#39;s in een lijstweergave.
+* Neem het volgende in overweging voor de weergave van de lijst met verbonden records:
 
-  U kunt de volgende objecten alleen weergeven in een lijstweergave wanneer u ze bekijkt op de pagina Verbonden records van een record:
+   * U kunt projecten in de lijstmening in de verbonden verslagenpagina van een verslag slechts bekijken. De lijstweergave is niet beschikbaar voor andere objecten of recordtypen in een verbonden recordpagina.
 
-   * Workfront-projecten
+  Voor informatie over het creëren van een verbonden verslagenpagina, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+   * Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * U kunt veelvoudige lijstmeningen voor projecten in de verbonden verslagenpagina van een verslag tot stand brengen.
 
-  Voor informatie over het creëren van een verbonden verslagenpagina, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
-* Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Bekijk het volgende voor de lijstweergave voor aanvraagformulieren:
+
+   * U kunt geen extra lijstweergaven maken of bewerken voor het plannen van aanvraagformulieren. Workfront maakt één lijstweergave voor aanvraagformulieren. <!--this will change-->
+
+     Voor informatie over verzoekvormen, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* Afhankelijk van waar deze wordt weergegeven, heeft niet elke lijstweergave dezelfde elementen die in dit artikel worden beschreven.
 
 
 ## Een lijstweergave beheren {#manage-a-list-view}
 
-Lijstweergaven lijken op uitgebreide lijsten. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Lijstweergaven lijken op uitgebreide lijsten. De meeste elementen van verbeterde weergaven bestaan ook in lijstweergaven in Workfront Planning.
 
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
 {{step1-to-planning}}
 
-1. Klik op een werkruimtekaart en klik vervolgens op een opnametype.
-1. Klik vanuit een willekeurige weergave op de naam van een record om de voorvertoning of detailpagina van de record te openen.
-1. Voeg a **Verbonden verslagenpagina** voor verbonden projecten toe zoals die in het artikel [&#x200B; worden beschreven een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+1. (Conditional) To access a projects connected page, do the following: 
 
-   Op de pagina Verbonden records worden projecten weergegeven die zijn verbonden met de record in de lijstweergave.
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   ![&#x200B; Projecten op verbonden verslagenpagina in lijstmening &#x200B;](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. (Optioneel) Voer een van de volgende handelingen uit om de lijstweergave te wijzigen:
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. Vouw het menu van dropdown meningen in de hoger-juiste hoek van de lijst uit om een andere mening te selecteren, of klik **Nieuwe mening** en creeer een andere.
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. Ga naar een lijstweergave in een van de volgende gebieden:
+
+   * Verbonden recordpagina in het detailgebied van een record
+   * De pagina met aanvraagformulieren van een record
+
+1. (Voorwaardelijk) Voer, indien beschikbaar, een van de volgende handelingen uit om de lijstweergave te wijzigen:
+
+   1. Vouw het menu van dropdown meningen in de upper-left hoek van de lijst uit om een andere mening te selecteren, of klik **Nieuwe mening** en creeer een andere.
 
       Weergaven worden door het hele systeem gedeeld. Als u een mening van Projecten voor één verslagtype creeert, kunt u het op andere verslagtypes bekijken die verbonden projecten tonen.
 
-   1. Beweeg over de naam van een bestaande mening en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik één van het volgende:
+   1. Beweeg over de naam van een bestaande mening en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van het volgende:
       * **noem** anders, om de mening een nieuwe naam te geven
       * **Aandeel**, om de mening met anderen te delen
       * **Schrapping**, om de mening te schrappen.
@@ -115,10 +150,21 @@ Lijstweergaven lijken op uitgebreide lijsten. Voor meer informatie, zie [&#x200B
       >
       >* U kunt de systeemweergaven niet wijzigen.
       >
-      >* <span class="preview"> u kunt een mening terugstellen die met u werd gedeeld waaraan u slechts toestemmingen aan Mening hebt, nadat u het wijzigde om zijn originele voorkeur te herstellen, of u kunt het met uw veranderingen kopiëren en het exemplaar delen. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview"> u kunt een mening terugstellen die met u werd gedeeld waaraan u slechts toestemmingen aan Mening hebt, nadat u het wijzigde om zijn originele voorkeur te herstellen, of u kunt het met uw veranderingen kopiëren en het exemplaar delen. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
-   1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png) om een filter aan de mening toe te voegen. De resultaten worden direct in de lijst gefilterd. U kunt filters niet opslaan en een naam geven. Filters worden onthouden wanneer u de pagina in de toekomst opent en maken deel uit van gedeelde weergaven.
-   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; &#x200B;](assets/columns-icon.png) om te selecteren welke kolommen aan vertoning of in de mening te verbergen.
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
+
+   1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-icon.png) om een filter aan de mening toe te voegen. De resultaten worden direct in de lijst gefilterd. U kunt filters niet opslaan en een naam geven. Filters worden onthouden wanneer u de pagina in de toekomst opent en maken deel uit van gedeelde weergaven.
+   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![ ](assets/columns-icon.png) om te selecteren welke kolommen aan vertoning of in de mening te verbergen.
    1. Houd de cursor boven de naam van een kolom en klik op de pijl omlaag links van de kolomnaam en klik op een van de volgende opties:
       * **noem** anders, om a **Eigen etiket** voor de kolom toe te voegen. De naam van het oorspronkelijke veld in Workfront verandert niet.
       * **Soort**, om de lijst door het geselecteerde gebied te sorteren. Aan de kolomkop wordt een sorteerpictogram toegevoegd dat de richting van het sorteren aangeeft.
@@ -129,11 +175,17 @@ Lijstweergaven lijken op uitgebreide lijsten. Voor meer informatie, zie [&#x200B
       U kunt alleen bestaande velden toevoegen aan de lijstweergave.
 U kunt het primaire veld niet verwijderen in de lijstweergave die in de eerste kolom wordt weergegeven.
 
-   1. <span class="preview"> klik het **pictogram van de cellen van het Formaat** pictogram ![&#x200B; de celpictogram van het Formaat &#x200B;](assets/format-cells-icon.png). Het **vakje van het Formaat** opent.</span> <!--change the name of the box when they update it-->
+   1. <span class="preview"> klik het **pictogram van de cellen van het Formaat** pictogram ![ de celpictogram van het Formaat ](assets/format-cells-icon.png). Het **vakje van het Formaat** opent.</span> <!--change the name of the box when they update it-->
       <span class="preview"> doe het volgende: </span>
 
       1. Klik **toevoegen voorwaarde**.
-      1. <span class="preview"> op **als** lijn, een gebied selecteren en een gebiedswaarde kiezen, dan klik **toevoegen voorwaarde**. </span>
+      1. <span class="preview"> op **als** lijn, selecteer een gebied en kies een gebiedswaarde en voeg een bepaling toe. De opties veranderen, afhankelijk van het gebiedstype u kiest. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview"> slechts zijn de gebieden zichtbaar in de lijstmening beschikbaar voor voorwaardelijk formatteren.</span>
+
+      1. <span class="preview"> (Facultatief) in plaats van het toevoegen van een gebiedswaarde, klik **vergelijken met een ander gebied** pictogram ![ vergelijk met een ander gebied ](assets/compare-to-another-field-icon.png) en kies een gebied waarvan waarde u met de waarde van uw geselecteerd gebied wilt vergelijken. U kunt bijvoorbeeld filteren voor projecten waarvan de projecteigenaar overeenkomt met de projectsponsor. </span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ U kunt het primaire veld niet verwijderen in de lijstweergave die in de eerste k
 
       1. Klik de **of** schakelaar tussen voorwaarden om in **en** te veranderen en erop te wijzen dat de veelvoudige voorwaarden tezelfdertijd moeten worden vervuld. **Of** is de standaardschakelaar.
       1. In de **lijn van het Formaat**, selecteer een gebied om erop te wijzen welke kolom zal worden geformatteerd. <!--edit this area, if it changes names??-->
-      1. (Facultatief) klik het **pictogram** pictogram van de de cirkelcirkel van de Kleur ![&#x200B; naast het geselecteerde gebied, om het uit te breiden en een andere kleur te kiezen.](assets/color-circle.png)
+      1. (Facultatief) klik het **pictogram van de de kleurencirkel** kring van de Kleur ![ naast het geselecteerde gebied, om het uit te breiden en een andere kleur te kiezen ](assets/color-circle.png). <!--for a cell or the text of the cell that matches your criteria--><!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. Zet **toe is op rij** het plaatsen om het formatteren op de volledige rij van het gebied toe te passen dat aan de voorwaarden voldoet.
       1. (Facultatief) klik **toevoegen voorwaarde** in het **vakje van het Formaat** om een andere regel voor een ander gebied toe te voegen en de herhaling hierboven de stappen.
       1. (Optioneel) Klik op **Alles wissen** om alle opmaak te verwijderen.
@@ -160,6 +212,8 @@ De opmaak wordt direct toegepast op de lijstweergave.
 Er is een blauw punt naast het **pictogram van de Cellen van het Formaat** om erop te wijzen dat de mening speciale toegepaste het formatteren heeft.
 
       </div>
+
+   <!--leave these here-->
 
 1. (Optioneel) Voeg een trefwoord toe in het zoekvak rechtsboven in de lijst om naar een item te zoeken.
 
@@ -174,14 +228,14 @@ Er is een blauw punt naast het **pictogram van de Cellen van het Formaat** om er
 
    Sommige velden zijn alleen-lezen. Het percentage voltooide van een project is bijvoorbeeld een veld dat door het systeem wordt berekend en u kunt het niet handmatig bewerken.
 
-1. Beweeg over de naam van een punt in de lijst en klik **Meer** menu [&#x200B; Meer menu &#x200B;](assets/more-menu.png) en klik **Mening** om het project in een ander lusje te openen
+1. Beweeg over de naam van een punt in de lijst en klik **Meer** menu [ Meer menu ](assets/more-menu.png) en klik **Mening** om het project in een ander lusje te openen
 
    of
 
-   Selecteer een of meer items en bekijk de actiebalk onder aan de lijst en klik op een van de volgende opties:
+   Selecteer een of meer items, bekijk de actiebalk onder aan de lijst en klik op een van de volgende items, indien beschikbaar:
 
-   * **Schrapping** om het project te schrappen. Als u een project verwijdert, wordt de verbinding met het project verbroken en verplaatst naar de prullenbak van Workfront. Workfront-beheerders kunnen verwijderde projecten herstellen tot 30 dagen nadat ze zijn verwijderd.
+   * **Schrapping** om het punt te schrappen. Als u een project verwijdert, wordt de verbinding met het project verbroken en verplaatst naar de prullenbak van Workfront. Workfront-beheerders kunnen verwijderde projecten herstellen tot 30 dagen nadat ze zijn verwijderd. Als u een formulier verwijdert, worden de aanvragen of records die bij het verzenden van het formulier zijn gemaakt, niet verwijderd.
    * **maak** los om het project van het verslag los te maken. Als u een project loskoppelt, verwijdert u het project en alle waarden van de opzoekvelden uit de huidige record.
 
-   ![&#x200B; bar van Acties in de Verbonden mening van de Lijst van de verslagenpagina &#x200B;](assets/actions-bar-connected-records-page-list-view.png)
+   ![ bar van Acties in de Verbonden mening van de Lijst van de verslagenpagina ](assets/actions-bar-connected-records-page-list-view.png)
 

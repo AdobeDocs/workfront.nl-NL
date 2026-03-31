@@ -6,9 +6,9 @@ description: U kunt aanvragen verzenden in de widget Mijn verzoeken. U kunt de w
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Op de widget Mijn verzoeken worden de verzoeken weergegeven die u hebt verzonden
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,39 +70,61 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U kunt een verzoek rechtstreeks vanuit de widget Mijn verzoeken maken.
 
-Voor instructies, zie de sectie [&#x200B; een verzoek &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) in het artikel [&#x200B; creeer het werkpunten en projecten van het gebied van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Voor instructies, zie de sectie [ een verzoek ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) in het artikel [ creeer het werkpunten en projecten van het gebied van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Een verzoek kopiëren
 
 U kunt een verzoek kopiëren in Mijn verzoeken widget, het uitgeven, en het voorleggen als nieuw verzoek.
 
-Voor instructies, zie [&#x200B; Exemplaar en verzend verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Voor instructies, zie [ Exemplaar en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filterverzoeken
+## Informatie beheren in de lijst met verzoeken in de widget Mijn verzoeken
 
-De widget Mijn verzoeken heeft een aanpasbaar filter waarmee u kunt bepalen welke verzoeken in de widget worden weergegeven. U kunt dit filter configureren voor verschillende velden en waarden en u kunt voorwaarden stapelen met de operatoren AND en OR.
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-Om de filter in Mijn widget van Verzoeken te vormen:
+To configure the filter in the My Requests widget:
+-->
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
-1. In **Mijn Verzoeken** widget, klik **Filter**.
-1. Selecteer het veld waarop u wilt filteren. Beschikbare opties zijn:
+1. (Optioneel) Als u de manier wilt beheren waarop de informatie in de lijst met aanvragen wordt weergegeven, werkt u de volgende weergaveelementen voor de lijst bij:
+
+   * Weergave
+   * Filter
+   * Kolommen
+
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
+
+   Voor meer informatie bij het beheren van informatie in de verzoekenlijst, zie [ Uitgebreide lijsten van het Gebruik ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
 
    * Workspace
-   * Objecttype
-   * Invoerdatum
-   * Formulier aanvragen
+   * Object type
+   * Entry date
+   * Request form
    * Status
-   * Ingevoerd door
-   * Aangepaste velden uit de aanvraag of het gemaakte object
+   * Entered by
+   * Custom fields from the request or from the created object   
 
-1. Selecteer in het volgende veld de operator die u voor deze filtervoorwaarde wilt gebruiken. Beschikbare operatoren zijn afhankelijk van het gekozen veld.
-1. (Voorwaardelijk) Als rechts van de operator een veld wordt weergegeven, selecteert u de waarde waarop u wilt filteren.
-1. (Facultatief) om een andere filtervoorwaarde toe te voegen, **voeg voorwaarde** toe en herhaal stappen 4-6.
-1. (Facultatief en voorwaardelijk) als u veelvoudige voorwaarden hebt, schakelaar en of de waarde door **te klikken en** of **of** links van de voorwaarde.
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
 
-Het filter wordt automatisch opgeslagen.
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
@@ -111,51 +133,59 @@ Het filter wordt automatisch opgeslagen.
 >* Om voor slechts Workfront verzoeken te filtreren, plaats het filter aan **Type van Objecten** > **heeft om het even welk van** > **Kwesties**.
 >* Om voor slechts Workfront te filtreren plannend verzoeken, plaats het filter aan **type van Objecten** > **heeft geen van** > **Kwesties**.
 
-## Kolommen aanpassen of toevoegen
+<!--
 
-U kunt kiezen welke van de beschikbare kolommen op Mijn verzoeken widget verschijnen, en hun orde plaatsen.
+## Adjust or add columns
 
-Beschikbare kolommen zijn:
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* Onderwerp
-* Object gemaakt
-* Objecttype
+Available columns include:
+
+* Subject
+* Created object
+* Object type
 * Status
-* Formulier aanvragen
-* Invoerdatum
-* Ingevoerd door
+* Request form
+* Entry date
+* Entered by
 
-U kunt als volgt de kolommen op de widget Mijn verzoeken aanpassen:
+To adjust the columns on the My Requests widget:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
-1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
-1. In **Mijn Verzoeken** widget, klik **Kolommen**.
-1. (Facultatief) om kolommen opnieuw in orde te brengen, klik de belemmering handvat ![&#x200B; belemmering handvat &#x200B;](assets/drag-handle.png) van de kolom u het aan de gewenste plaatsen bewegen en wilt slepen. De kolom boven aan de lijst wordt in de widget Mijn verzoeken weergegeven als de eerste kolom.
-1. (Optioneel) Met de schakeloptie kunt u de kolom in de lijst met aanvragen verbergen of weergeven.
-1. Om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![&#x200B; toevoegen kolom &#x200B;](assets/add-column.png) in de hoger-juiste hoek van de lijst, en klik het plusteken naast het douanegebied dat u als kolom aan widget wilt toevoegen.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-   U kunt aangepaste velden op formulieren die aan het object in de lijst zijn gekoppeld, toevoegen als kolommen.
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-Kolomvoorkeuren worden automatisch opgeslagen.
+Column preferences are saved automatically.
 
-## Een weergave maken
+-->
 
-U kunt meningen in Mijn widget van Verzoeken tot stand brengen om de manier te veranderen de informatie in de verzoeklijst toont.
+<!--
 
-Houd rekening met het volgende wanneer u werkt met weergaven in de widget Mijn verzoeken:
+## Create a view
 
-* Een weergave in de widget Mijn verzoeken bevat de kolommen en filters die op de weergave zijn toegepast.
-* U kunt weergaven maken en deze met anderen delen. De filters en kolommen die u voor de weergave selecteert voordat u deze deelt, worden opgenomen in de weergaven die u deelt.
-* Hieronder volgt een systeemweergave die u niet kunt bewerken, delen of verwijderen:
+You can create views in the My Requests widget to change the way the information displays in the request list. 
 
-   * Standaardweergave van widget Unified Requests
-* Het maken en bewerken van een weergave in de widget Mijn verzoeken is vergelijkbaar met uitgebreide lijsten. Voor informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## Zoekverzoeken
 
 Om naar specifieke verzoeken in Mijn widget van Verzoeken te zoeken:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. Voer in de zoekbalk rechtsboven in de widget Mijn verzoeken de term in waarnaar u wilt zoeken.
 
@@ -171,7 +201,7 @@ U kunt objecten die door een aanvraag zijn gemaakt, zoeken in de widget Mijn ver
 >
 >Koppelingen naar gemaakte objecten zijn alleen beschikbaar in de nieuwe verzoekervaring voor planningsverzoeken, in gevallen waarin het verzoek zelf een object heeft gemaakt. Als een Workfront-verzoek wordt geconverteerd naar een project of ander object, is een koppeling naar dat geconverteerde object niet beschikbaar in de lijst met aanvragen in de nieuwe verzoekervaring.
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. Zoek de aanvraag waarmee het object is gemaakt.
 1. Klik de objecten naam in de **Gemaakt objecten** kolom voor dat verzoek.
