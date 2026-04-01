@@ -22,8 +22,8 @@ Verlaat één **lege lijn** na het onderwerp vóór het lichaam.
 
 - De lijnen van de terugslag bij ongeveer **72 karakters** (met inbegrip van de kogelprefix en de ruimte).
 - Gebruik **kogellijnen** voor de verklaring. Elk opsommingsteken moet beginnen met precies een van de volgende:
-   - **📖** — gebruik wanneer de verandering **** iets nieuw toevoegt: nieuwe dossiers, nieuwe secties, nieuwe eigenschappen, nieuwe kopballen, net-nieuwe lijnen, of andere greenfield inhoud.
-   - **✏️** — gebruik wanneer de verandering **** bestaand werk wijzigt: geeft aan bestaande lijnen uit, werkt aan bestaande secties, heractoren van bestaande code, of verandert in huidige inhoud.
+   - **📖** — gebruik wanneer de verandering **&#x200B;**&#x200B;iets nieuw toevoegt: nieuwe dossiers, nieuwe secties, nieuwe eigenschappen, nieuwe kopballen, net-nieuwe lijnen, of andere greenfield inhoud.
+   - **✏️** — gebruik wanneer de verandering **&#x200B;**&#x200B;bestaand werk wijzigt: geeft aan bestaande lijnen uit, werkt aan bestaande secties, heractoren van bestaande code, of verandert in huidige inhoud.
 
 Pas **📖** of **✏️** toe op elk opsommingsteken, zodat duidelijk is wat er is geïntroduceerd en wat er is gewijzigd.
 
