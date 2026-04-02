@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden de gewenste verbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Verbeteringen aan de zichtbaarheid van het gemaakte object in aanvraaglijsten
 
@@ -32,7 +32,7 @@ U kunt taken en projecten die vanuit Workfront-problemen zijn geconverteerd, nu 
 
 Daarnaast hebben we het statusveld Gemaakt object toegevoegd om de status van het omgezette object aan te geven.
 
-Voor informatie, zie [ Mening voorgelegde verzoeken ](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+Voor informatie, zie [&#x200B; Mening voorgelegde verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Bijgewerkte ervaring bij delen voor verbeterde weergaven
 
@@ -46,4 +46,4 @@ Wanneer u in het gebied Nieuwe verzoeken een verbeterde weergave deelt met een g
 
 Deze update is alleen beschikbaar voor de verbeterde weergave in het gebied Nieuwe aanvragen.
 
-Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
