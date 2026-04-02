@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '13813'
+source-wordcount: '13913'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
          * [Overzicht tweede release 2026, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Tweede kwartaal 2026 Verbeteringen voor beheerders](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Verbeteringen voor tweede kwartaal 2026-documenten](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [Verbeteringen voor bedrijfsactiviteiten in tweede kwartaal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
          * [Verbeteringen van projecten in het tweede kwartaal van 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [Tweede kwartaal 2026 Rapportverbeteringen](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [Tweede kwartaal 2026 - Verbeteringen aanvragen](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -138,7 +139,7 @@ ht-degree: 0%
          * [23.3 Andere verbeteringen](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Updates weergeven en voelen tijdens de releaseperiode van 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Release {#release-23-2}
-         * [&#x200B; 23.2 Overzicht van de Versie &#x200B;](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [ 23.2 Overzicht van de Versie ](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Beheerdersverbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Verbeteringen aan mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Verbeteringen van het projectbeheer](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -463,9 +464,8 @@ ht-degree: 0%
          * [Snelle releases voor uw organisatie in- of uitschakelen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Adobe Enterprise-opslag voor uw organisatie inschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [Zakelijke regels maken en bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-         * [Locaties configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-         * [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-         * [Tariefkaarten importeren uit een sjabloon](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+         * [Aangepaste lokalisatie configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+         * [AI-medewerkers configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
       * Plan- en tijdlijnvoorkeuren configureren {#configure-timesheets-schedules}
          * [Plan- en tijdlijnvoorkeuren configureren](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Overzicht van schema&#39;s](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -561,7 +561,9 @@ ht-degree: 0%
          * [Toegang verlenen tot filters, weergaven, groepen](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
          * [Toegang verlenen tot Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Toegang verlenen tot beheer van hulpbronnen](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+         * [Toegang verlenen tot betaalkaarten](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
          * [Toegang tot Workfront-doelen verlenen](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+         * [Toegang tot merkrechten verlenen](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
       * Single Sign-On in Workfront {#sso}
          * [Single Sign-On: artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Overzicht van Single Sign-On](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
@@ -588,6 +590,7 @@ ht-degree: 0%
          * [Het hoofdmenu aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [Objectkoppen aanpassen met een lay-outsjabloon](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Het linkerdeelvenster aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+         * [Het menu Meer aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
          * [De weergave Details aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Het deelvenster Samenvatting aanpassen met een lay-outsjabloon](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Nieuwe startpagina aanpassen](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -611,6 +614,7 @@ ht-degree: 0%
             * [Berekende velden toevoegen aan een formulier](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Logische regels toevoegen aan aangepaste formulieren en velden](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Voorbeelden van geavanceerde logica in aangepaste formulieren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+            * [Toegang tot financiële gegevens in aangepaste velden beperken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
             * [Voorbeelden van het externe opzoekveld in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Een formulier ordenen en een voorbeeld ervan bekijken](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * Aangepaste formulieren beheren {#manage-custom-forms}
@@ -783,6 +787,15 @@ ht-degree: 0%
          * [Groepsprojectsjablonen beheren](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [Verwijderde items van een groep beheren](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [Teruggezette items van een groep beheren](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+   * Bedrijfsbewerkingen beheren {#manage-enterprise-operations}
+      * [Bedrijfsbewerkingen beheren: artikelindex](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+      * [Overzicht van mogelijkheden voor Enterprise-bewerkingen](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+      * [Locaties configureren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+      * [Definieer tariefkenmerken](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+      * [Creditcards beheren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+      * [Tariefkaarten importeren uit een sjabloon](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+      * [Wijzigingen in pushsnelheid voor projecten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+      * [ Deel een tariefkaart ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * Integraties configureren {#configure-integrations}
       * [Integraties configureren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integratie](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -809,8 +822,8 @@ ht-degree: 0%
       * [Lijst met beschikbare blauwdrukken](administration-and-setup/blueprints/list-of-available-blueprints.md)
    * Beheer in de Adobe Admin Console {#admin-in-admin-console}
       * [Workfront Administration in de Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-      * [&#x200B; voorbereidingen treffen voor Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [&#x200B; Begrijpend de Migratie van Workfront aan Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [ voorbereidingen treffen voor Adobe Admin Console ](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [ Begrijpend de Migratie van Workfront aan Adobe Admin Console ](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Tips, trucs en probleemoplossing voor beheer en installatie {#admin-setup-tips}
       * [Tips, trucs en probleemoplossing](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Groepbeheerders moeten een hogere toegang hebben dan de beheerders die ze beheren](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -879,7 +892,7 @@ ht-degree: 0%
       * [Prioriteiten: artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Aan de slag met prioriteiten](workfront-basics/priorities/get-started-with-priorities.md)
       * [Details van project- en werkitems weergeven in Prioriteiten](workfront-basics/priorities/view-task-project-details.md)
-      * [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [Filter, groepeer en sorteer uw werk met Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [De kolommen in de werklijst aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Prioriteit geven aan belangrijke werkitems](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
       * [Taken en problemen in prioriteiten maken](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
@@ -1020,7 +1033,7 @@ ht-degree: 0%
          * [Updates toevoegen in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
       * Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
          * [Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-         * [&#x200B; Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+         * [ Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tips, trucs en probleemoplossing voor Adobe Workfront Basics {#tips-tricks-for-basics}
       * [Tips, trucs en probleemoplossing voor Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Je snelle gids voor hulp in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
@@ -1184,7 +1197,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [&#x200B; los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1224,6 +1237,7 @@ ht-degree: 0%
          * [Een project maken met een sjabloon](manage-work/projects/create-projects/create-project-from-template.md)
          * [Een project importeren uit Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Projectbasislijnen maken](manage-work/projects/create-projects/create-baselines.md)
+         * [Projectmomentopnamen maken en weergeven](manage-work/projects/create-projects/create-snapshots.md)
       * Werk aan een project bijwerken {#update-work-on-a-project}
          * [Werk aan een project bij: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Statussen toepassen op werk dat aan een groep is gekoppeld](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1298,13 +1312,18 @@ ht-degree: 0%
          * [Informatie beheren in het gebied Projectfinanciering](manage-work/projects/project-finances/manage-project-finance-area.md)
          * [De projectvaluta wijzigen](manage-work/projects/project-finances/change-project-currency.md)
          * [Trackkosten](manage-work/projects/project-finances/track-costs.md)
+         * [Override user cost rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
          * [Projectkosten beheren](manage-work/projects/project-finances/manage-project-expenses.md)
+         * [Overzicht van inkomsten en kostenhiërarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
          * [Overzicht van facturering en inkomsten](manage-work/projects/project-finances/billing-and-revenue-overview.md)
          * [Factureringsrecords maken](manage-work/projects/project-finances/create-billing-records.md)
          * [Override project-Level het Factureren Tarieven met het bedrijf-Vlakke FactureringsTarieven](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-         * [Overzicht van het overschrijven van de Billing Rates van de Rol en het berekenen van Inkomsten op een project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+         * [Overzicht van de overschrijdende factureringstarieven en het berekenen van inkomsten voor een project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Opheffing van factureringstarieven voor gebruikers op projectniveau](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
          * [Een tariefkaart aan een project koppelen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+         * [Een taakrol instellen voor facturering](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+         * [Een overloopverhouding definiëren](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
          * [Overzicht van het geplande project](manage-work/projects/project-finances/project-planned-benefit.md)
          * [De PIM-methode (Performance Index) instellen](manage-work/projects/project-finances/set-pim.md)
          * [Rendement op investering berekenen (ROI)](manage-work/projects/project-finances/calculate-roi.md)
@@ -1783,7 +1802,7 @@ ht-degree: 0%
          * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; de vragen van de de treemap van het Project &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Tips, trucs en probleemoplossing voor Data Connect{#troubleshooting-data-connect}
          * [Tips, trucs en probleemoplossing voor Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -1860,23 +1879,22 @@ ht-degree: 0%
       * [Uniforme documentgoedkeuringen: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Beschikbare functionaliteit voor documentgoedkeuringen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Aan de slag met de Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Aan de slag met de Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Overzicht van opslag in Adobe-bedrijven](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * [Objectmachtigingen en overzicht van het toegangsniveau voor het Adobe-bedrijfsopslagmodel](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * Goedkeuringen van middelen en documenten instellen en beheren {#manage-asset-review-and-approval}
          * [Uniforme goedkeuringen instellen en beheren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-         * [AI-revisoren maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [Brandmerken instellen voor de AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [Een workflow voor documentgoedkeuring maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Extra fiatteurs of revisoren toevoegen aan een workflow voor documentgoedkeuring](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [fiatteurs of revisoren verwijderen uit een workflow voor documentgoedkeuring](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Een sjabloon voor een goedkeuringswerkstroom maken voor documenten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Merken maken en beheren voor de Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [Een documentrevisie of goedkeuringsaanvraag maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Extra revisoren of fiatteurs toevoegen aan een element of document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [fiatteurs of revisoren verwijderen uit een middel of document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Een goedkeuringssjabloon maken voor elementen en documenten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Verenigde goedkeuringen en proefdrukken samen gebruiken](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Een nieuwe documentversie uploaden en goedkeuring aanvragen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [Een rapportdashboard maken voor revisie en goedkeuring](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Elementen en documenten controleren en goedkeuren {#review-and-approve-documents}
          * [Documenten controleren en goedkeuren: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Bekijk de score en feedback van AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+         * [score en feedback van Content Reviewer weergeven](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Een document goedkeuren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
          * [Een document in de viewer Frame.io reviseren en goedkeuren](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2118,7 +2136,7 @@ ht-degree: 0%
    * Aanbevolen procedures voor Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [Tips en trucs voor Adobe Workfront: artikelindex](planning/best-practices.md/best-practices-article-index.md)
       * [Leer uw strategische huis: een 30-daagse lancering](planning/best-practices.md/30-day-launchpad.md)
-      * [&#x200B; architect uw succes: het modelleren van uw campagnehiërarchie &#x200B;](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [ architect uw succes: het modelleren van uw campagnehiërarchie ](planning/best-practices.md/model-campaign-hierarchy.md)
       * [Uw marketingkalender samenstellen: geen dekken, alleen helderheid](planning/best-practices.md/marketing-calendar.md)
       * [Maak van uw eerste win een duurzame impuls: een speelboek voor beheerde schaling](planning/best-practices.md/playbook-how-to-scale.md)
       * [Bouw de brug: verbindend strategische intentie met projecten](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
@@ -2148,8 +2166,8 @@ ht-degree: 0%
       * [Overzicht van velden](planning/fields/fields-overview.md)
       * [Velden maken](planning/fields/create-fields.md)
       * [Veldinstellingen bewerken](planning/fields/edit-fields.md)
-      * [&#x200B; schrapt gebieden &#x200B;](planning/fields/delete-fields.md)
-      * [&#x200B; overzicht van de gebieden van de Formule &#x200B;](planning/fields/formula-fields.md)
+      * [ schrapt gebieden ](planning/fields/delete-fields.md)
+      * [ overzicht van de gebieden van de Formule ](planning/fields/formula-fields.md)
       * [Velden importeren uit Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)
    * Toegang tot Adobe Workfront Planning {#adobe-workfront-planning-access}
@@ -2163,7 +2181,7 @@ ht-degree: 0%
       * [Records delen](planning/access/share-records.md)
       * [Machtigingen aanvragen voor een weergave of werkruimte](planning/access/request-permissions.md)
    * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
-      * [&#x200B; Verslagen: artikelindex &#x200B;](planning/records/records-information.md)
+      * [ Verslagen: artikelindex ](planning/records/records-information.md)
       * [Records maken](planning/records/create-records.md)
       * [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](planning/records/import-file-to-create-records.md)
       * [Overzicht van verbonden records](planning/records/connected-records-overview.md)
@@ -2207,7 +2225,7 @@ ht-degree: 0%
       * [E-mailberichten voor Adobe Workfront Planning beheren](planning/notifications/manage-planning-email-notifications.md)
       * [In-app-berichten voor Adobe Workfront-planning beheren](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [&#x200B; de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [ de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Ga aan de slag met de Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integratie](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [De GenStudio-werkruimte beheren in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Een Workfront-planningswerkruimte promoten naar GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2232,7 +2250,7 @@ ht-degree: 0%
          * [Werk bij met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Werkitems markeren die zijn voltooid met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Logtijd met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen {#upload-docs-proofs-wf-cc}
          * [Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2554,11 +2572,11 @@ ht-degree: 0%
       * [Geslaagde tekens in API-reacties](wf-api/api/escaped-characters-api.md)
       * [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](wf-api/api/oauth-app-code-token-flow.md)
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
-      * [&#x200B; vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken &#x200B;](wf-api/api/oauth-app-pkce-flow.md)
+      * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; wat in API versie 21  nieuw is](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; wat in API versie 20  nieuw is](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is
+      * [ wat in API versie 20 ](/help/quicksilver/wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

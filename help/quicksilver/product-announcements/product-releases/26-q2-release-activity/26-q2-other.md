@@ -4,9 +4,10 @@ description: Andere verbeteringen tijdens de releaseperiode van het tweede kwart
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
+exl-id: be95161b-2443-464a-b91c-82a96d5354a2
+source-git-commit: d2fcb0725672f1b8a976e3f55046af99b56a6412
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -15,8 +16,84 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
+## Nieuwe mogelijkheid om rijhoogte te verhogen voor verbeterde lijsten
+
+>[!NOTE]
+>
+>Voorbeeld: 2 april 2026
+>Snelle productie: 15 april 2026
+>Productie voor iedereen: 16 april 2026
+
+We hebben een nieuwe instelling toegevoegd om de rijhoogte aan te passen in uitgebreide lijsten.
+
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Aangepaste namen voor filters toegevoegd aan uitgebreide lijsten
+
+>[!NOTE]
+>
+>Voorbeeld: 2 april 2026
+>Snelle productie: 15 april 2026
+>Productie voor iedereen: 16 april 2026
+
+Wij hebben de volgende gepersonaliseerde namen voor een team, een groep, een bedrijf, en rolfilter in verbeterde lijsten toegevoegd:
+
+* Mijn thuisteam, Mijn teams
+
+* Mijn thuisgroep, Mijn groepen
+
+* Mijn primaire rol, Mijn rollen
+
+* Mijn bedrijf
+
+De filteropties zijn alleen zichtbaar als de velden aanwezig zijn op objecten die in de weergave worden weergegeven.
+
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Pas voorwaardelijke het formatteren op de voorgelegde verzoeklijsten op het gebied van Verzoeken en Mijn Verzoeken widget toe
+
+>[!NOTE]
+>
+>Voorbeeld: 2 april 2026
+>Snelle productie: 15 april 2026
+>Productie voor iedereen: 16 april 2026
+
+U kunt nu voorwaardelijke opmaak toepassen op aanvraaglijsten in het gebied Verzoeken en op de widget Mijn verzoeken in Home. Deze functionaliteit bestond niet in de lijstmening vóór deze verbetering.
+
+Voor informatie, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
+
+## Vooraf gedefinieerde weergaven die zijn toegevoegd aan de lijst met aanvragen in het gebied Verzoeken en de widget Mijn verzoeken
+
+>[!NOTE]
+>
+>Voorbeeld: 2 april 2026
+>Snelle productie: 15 april 2026
+>Productie voor iedereen: 16 april 2026
+
+Om u te helpen uw verzoeklijst beter organiseren, hebben wij de volgende vooraf bepaalde meningen aan de verzoekenlijst in het gebied van Verzoeken en Mijn Verzoeken widget in Huis toegevoegd:
+
+* Mijn verzoeken
+* Mijn open verzoeken
+* Mijn concepten
+* Open Verzoeken. Niet beschikbaar in de widget Mijn verzoeken.
+
+Een Workfront-beheerder kan de weergaven toevoegen aan of verwijderen uit een lay-outsjabloon. U kunt de weergaven niet bewerken, verwijderen of delen. U kunt deze kopiëren en bijwerken of een kopie delen.
+
+Voor informatie, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
+
+## Groepen maken in de lijst Verzoeken en de widget Mijn verzoeken
+
+>[!NOTE]
+>
+>Voorbeeld: 2 april 2026
+>Snelle productie: 15 april 2026
+>Productie voor iedereen: 16 april 2026
+
+Om het voor u gemakkelijker te maken om de verzoeken te vinden u nodig hebt, hebben wij groeperingen aan de lijst van Verzoeken en de Mijn widget van Verzoeken toegevoegd. Nu, kunt u verzoeken door om het even welke kolom op de lijst groeperen. Deze groepen maken deel uit van de weergave die u gebruikt wanneer u de groep maakt.
+
+Voor meer informatie bij het creëren van meningen voor de lijst van het Verzoek en Mijn widget van Verzoeken, met inbegrip van het toevoegen van groeperingen, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties
 
@@ -36,6 +113,6 @@ De Adobe Unified Experience omvat:
 
 Uw beheerder van Workfront zal een bericht van het Centrum van de Aankondiging betreffende de datum ontvangen waarop uw organisatie naar de Adobe Verenigde Ervaring zal bewegen.
 
-Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}

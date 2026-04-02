@@ -5,9 +5,11 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,23 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen die door de beheerder zijn aangebracht in de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## AI-medewerkers nu beschikbaar
+
+>[!NOTE]
+>
+>Voorbeeld: 2 april 2026
+>Snelle productie: 15 april 2026
+>Productie voor iedereen: 16 april 2026
+
+Om het voor u gemakkelijker te maken om van AI in uw dagelijks werk te profiteren, hebben wij AI Medewerkers gecreeerd. AI-medewerkers zijn een manier om AI-agents in uw projecten en taken op te nemen. U kunt een AI Medewerker met merkrichtlijnen vormen, dan het toewijzen aan een taak aangezien u een gebruiker zou.
+
+Momenteel kunnen AI-medewerkers worden gebruikt om inhoud te reviseren. In de toekomst zijn er meer mogelijkheden voor AI Collaborator beschikbaar.
+
+<!--
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+-->
 
 ## Aangepaste kwartalen zijn nu beschikbaar als een afzonderlijke pagina in Setup
 
@@ -33,7 +51,7 @@ Deze update bevat het volgende:
 * De sectie Aangepaste kwartsen wordt toegevoegd aan het linkerdeelvenster van Setup. De functionaliteit blijft ongewijzigd. 
 * De sectie Aangepaste kwartsen is verwijderd uit de sectie Projectvoorkeuren van een groep. De beheerders van de groep hebben geen zicht meer in de opstelling van Kwarten van de Douane. 
 
-Voor informatie, zie [&#x200B; douanekwarten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
+Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
 
 ## Aangepaste formuliersectie standaard samenvouwen
 
@@ -45,7 +63,7 @@ Voor informatie, zie [&#x200B; douanekwarten &#x200B;](/help/quicksilver/adminis
 
 Standaard worden alle secties in een aangepast formulier uitgebreid wanneer het formulier zelf wordt uitgevouwen. Met een nieuwe optie in de aangepaste formulierontwerper kunt u een sectie markeren die standaard moet worden samengevouwen wanneer een gebruiker het formulier opent. Deze optie wordt toegepast op sectieniveau, niet op velden.
 
-Voor meer informatie, zie [&#x200B; organiseren en voorproef een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor meer informatie, zie [ organiseren en voorproef een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Type RTF-veld is nu beschikbaar op aangepaste formulieren
 
@@ -61,7 +79,7 @@ Het nieuwe **rijke tekst** gebiedstype in douanevormen is een robuuste tekstreda
 
 Het RTF-veldtype vervangt de tekst door het opmaakveldtype. U kunt bestaande tekst met opmaakvelden snel omzetten in RTF-tekst door op de knop in de veldopties aan de rechterkant te klikken. Wanneer u converteert, blijven historische gegevens in het veld staan en worden deze gegevens in rapporten op dezelfde manier gebruikt.
 
-Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Nieuwe IP-adressen voor e-mailberichten van Workfront
 
@@ -82,4 +100,4 @@ EU:
 * 24.110.76.224
 * 24.110.76.223
 
-Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
