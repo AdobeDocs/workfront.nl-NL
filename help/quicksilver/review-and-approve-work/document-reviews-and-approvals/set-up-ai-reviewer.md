@@ -50,13 +50,13 @@ Als u ten minste één merk hebt ingesteld in Workfront, kunt u meerdere Content
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in Workfront instellen. Voor meer informatie, zie [ merken voor de Recensent van de Inhoud ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) creëren en leiden.
+Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in Workfront instellen. Voor meer informatie, zie [&#x200B; merken voor de Recensent van de Inhoud &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) creëren en leiden.
 
 ## Een Content Reviewer toevoegen
 

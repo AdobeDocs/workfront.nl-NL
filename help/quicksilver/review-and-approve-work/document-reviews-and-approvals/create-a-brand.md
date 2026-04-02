@@ -50,7 +50,7 @@ De Content Reviewer gebruikt richtlijnen van het merk om de inhoud tijdens het r
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,12 +61,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 * Uw organisatie moet GenStudio Foundation hebben.
    * Content Reviewer in Workfront biedt de functionaliteit die in GenStudio Foundation beschikbaar is voor workflows voor het beoordelen en goedkeuren van bedrijfsmiddelen. U hoeft GenStudio Foundation niet rechtstreeks te openen om uw werk te voltooien. Je toegang tot GenStudio Foundation-functionaliteit via Content Reviewer valt onder de voorwaarden van je Workfront-contract.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 
 ## Vereisten
 
-1. Voordat u merken kunt maken, moet u toegang verlenen tot merkmachtigingen in de Admin Console en in Workfront. Voor instructies, zie [ toegang van de Verlening tot merktoestemmingen ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
+1. Voordat u merken kunt maken, moet u toegang verlenen tot merkmachtigingen in de Admin Console en in Workfront. Voor instructies, zie [&#x200B; toegang van de Verlening tot merktoestemmingen &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
 
 
 ## Een merk maken met een PDF
@@ -77,7 +77,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekene
 1. Klik **voeg merk** in de hoger-juiste hoek van het scherm toe.
 1. Geef het merk een naam.
 1. Klik **uploaden PDFs** om merkdossiers te uploaden.
-   ![ uploadt brandmerk pdfs ](assets/upload-PDF.png)
+   ![&#x200B; uploadt brandmerk pdfs &#x200B;](assets/upload-PDF.png)
 1. Klik **verdergaan**.
 1. Upload één of meerdere dossiers van PDF die uw merkrichtlijnen bevatten, dan klik **merk** toevoegen.
 1. Nadat de bestanden zijn geüpload, controleert u de geëxtraheerde merkelementen om te controleren of deze overeenkomen met de richtlijnen voor uw merk.
@@ -86,7 +86,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekene
    >
    >Richtlijnen worden gegenereerd op basis van uw bestanden en generatieve AI-technologie en zijn mogelijk onjuist. Lees de uitgepakte richtlijnen voor ontbrekende of onjuiste details en bewerk deze voordat u dit merk publiceert.
 
-1. Wanneer gebeëindigd, publiceer **** om het merk voor de Recensent van de Inhoud beschikbaar te maken.
+1. Wanneer gebeëindigd, publiceer **&#x200B;**&#x200B;om het merk voor de Recensent van de Inhoud beschikbaar te maken.
 
 ## Handmatig een merk maken
 
@@ -125,7 +125,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekene
     </tr>
     </table>
 
-   ![ voeg merkelementen manueel toe ](assets/brand-elements.png)
+   ![&#x200B; voeg merkelementen manueel toe &#x200B;](assets/brand-elements.png)
 
 
-1. Wanneer gebeëindigd, publiceer **** om het merk voor de Recensent van de Inhoud beschikbaar te maken.
+1. Wanneer gebeëindigd, publiceer **&#x200B;**&#x200B;om het merk voor de Recensent van de Inhoud beschikbaar te maken.
