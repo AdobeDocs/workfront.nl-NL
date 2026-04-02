@@ -6,14 +6,22 @@ description: U kunt aanvragen verzenden in de widget Mijn verzoeken. U kunt de w
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
 # De widget Mijn verzoeken gebruiken
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 >[!IMPORTANT]
 >
@@ -62,7 +70,7 @@ Op de widget Mijn verzoeken worden de verzoeken weergegeven die u hebt verzonden
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,42 +78,44 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U kunt een verzoek rechtstreeks vanuit de widget Mijn verzoeken maken.
 
-Voor instructies, zie de sectie [&#x200B; een verzoek &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) in het artikel [&#x200B; creeer het werkpunten en projecten van het gebied van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Voor instructies, zie de sectie [ een verzoek ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in het artikel [ creeer het werkpunten en projecten van het gebied van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Een verzoek kopiëren
 
 U kunt een verzoek kopiëren in Mijn verzoeken widget, het uitgeven, en het voorleggen als nieuw verzoek.
 
-Voor instructies, zie [&#x200B; Exemplaar en verzend verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Voor instructies, zie [ Exemplaar en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Informatie beheren in de lijst met verzoeken in de widget Mijn verzoeken
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
 -->
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
-1. (Optioneel) Als u de manier wilt beheren waarop de informatie in de lijst met aanvragen wordt weergegeven, werkt u de volgende weergaveelementen voor de lijst bij:
+1. (Optioneel) Als u de manier wilt beheren waarop de informatie in de lijst met aanvragen wordt weergegeven, maakt of werkt u de volgende weergaveelementen voor de lijst bij:
 
    * Weergave
    * Filter
    * Kolommen
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Voor meer informatie bij het beheren van informatie in de verzoekenlijst, zie [&#x200B; Uitgebreide lijsten van het Gebruik &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   * Groep
+   * Cellen opmaken
+   * Rijhoogte
+
+   </div>
+
+   Voor meer informatie bij het bijwerken van meningselementen in de verzoekenlijst, zie [ Uitgebreide lijsten van het Gebruik ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* Om voor slechts Workfront te filtreren plannend verzoeken, plaats het filter aan **type van Objecten** > **heeft geen van** > **Kwesties**.
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 Om naar specifieke verzoeken in Mijn widget van Verzoeken te zoeken:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. Voer in de zoekbalk rechtsboven in de widget Mijn verzoeken de term in waarnaar u wilt zoeken.
 
@@ -199,12 +208,25 @@ U kunt objecten die door een aanvraag zijn gemaakt, zoeken in de widget Mijn ver
 
 >[!NOTE]
 >
->Koppelingen naar gemaakte objecten zijn alleen beschikbaar in de nieuwe verzoekervaring voor planningsverzoeken, in gevallen waarin het verzoek zelf een object heeft gemaakt. Als een Workfront-verzoek wordt geconverteerd naar een project of ander object, is een koppeling naar dat geconverteerde object niet beschikbaar in de lijst met aanvragen in de nieuwe verzoekervaring.
+>De volgende objecten hebben koppelingen van de lijst met aanvragen in de widget Mijn verzoeken wanneer u de nieuwe ervaring voor aanvragen inschakelt in het gebied Verzoeken:
+>
+>* De plannen en Workfront verzoeken op het gebied van Onderwerp.
+>* Planningsrecords die zijn gemaakt op basis van planningsverzoeken in het veld Object dat is gemaakt.
+>* <span class="preview"> de taken en de kwesties van Workfront die van de verzoeken van Workfront op het gecreeerde Voorwerp gebied, in het milieu van de Voorproef worden omgezet.</span>
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. Zoek de aanvraag waarmee het object is gemaakt.
 1. Klik de objecten naam in de **Gemaakt objecten** kolom voor dat verzoek.
 
    De objectpagina wordt geopend.
+
+   >[!TIP]
+   >
+   >In het milieu van de Productie, slechts hebben de verslagen van de Planning een verbinding op het **Gemaakt objecten** gebied.
+   >   
+   ><span class="preview"> in het milieu van de Voorproef, de taken en de projecten van Workfront die van kwesties evenals verslagen worden omgezet van de Planning van verzoeken worden gecreeerd hebben een verbinding in het **Gemaakt voorwerp** gebied.</span>
+   >
+
+
 

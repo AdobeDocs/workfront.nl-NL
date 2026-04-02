@@ -6,9 +6,11 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1615'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,9 @@ Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzon
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Een Workfront- of workflowpakket</p>
+
+<p>Willekeurig Workfront-planningspakket voor het kopiëren en verzenden van planningsverzoeken </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -44,20 +48,27 @@ Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzon
    <td role="rowheader">Objectmachtigingen</td> 
    <td><p>Toegang tot het toevoegen van verzoeken aan een aanvraagwachtrij</p> <p>De toestemmingen van de mening of hoger op het bestaande verzoek</p> <p>Voor informatie bij vestiging ziet een verzoekrij, <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren. </p> </td> 
   </tr>
+  <!--
   <tr> 
    <td role="rowheader"> Product</td> 
-   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
 U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingediend om het te kunnen kopiëren en opnieuw verzenden. Als het verzoek van iemand anders is, moet u ten minste toegang hebben tot Beeld om het als nieuw te kunnen kopiëren en verzenden.
+
+U kunt een van de volgende typen verzoeken kopiëren en opnieuw verzenden:
+
+* Een Workfront-verzoek, verzonden naar een aanvraagwachtrij
+* Een Workfront-planningsverzoek dat wordt ingediend bij een formulier voor planningsaanvragen, als uw bedrijf een planningspakket heeft aangeschaft.
 
 ## Overwegingen bij het kopiëren en verzenden van verzoeken als nieuwe
 
@@ -68,7 +79,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [&#x200B; creeer een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [ creeer een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * U kunt de kopie van de oorspronkelijke aanvraag bijwerken voordat u deze opnieuw indient als een nieuwe aanvraag.
@@ -81,18 +92,62 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als het rijonderwerp slechts in de verzoekrij was, kunt u nog het verzoek kopiëren en voorleggen en het zal onder de verzoekrij zelf worden bewaard.
 
-   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
    * Als de verzoekrij geen rijonderwerp heeft en het originele verzoek werd voorgelegd vóór Januari 2022.
 
    * De status van het project verbonden aan de verzoekrij is niet meer Huidig.
 
-* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
   >De gekopieerde aanvraag is niet gekoppeld aan een oplossend object.
 
+## Verzoeken kopiëren en verzenden met de nieuwe ervaring die u opvraagt
+
+U kunt aanvragen kopiëren en verzenden in het gebied Verzoeken van Workfront of vanuit de widget Mijn verzoeken in Home.
+
+1. Voer een van de volgende handelingen uit:
+
+   {{step1-to-requests}}
+
+   1. Om tot **toegang te hebben mijn Verzoeken** widget in **Huis**:
+
+   {{step1-to-home}}
+
+   1. Zoek **Mijn Verzoeken** widget.
+
+      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In de **lijst van Verzoeken** of **Mijn 3} widget van Verzoeken {in Huis, houd over het verzoek dat u wilt kopiëren, dan het** Meer **menu naast zijn naam klikken.**
+
+   ![ Meer menu ](assets/more-menu.png)
+
+1. Klik **Exemplaar**
+
+   of
+
+   Klik op het geselecteerde verzoek met de rechtermuisknop aan, dan klik **Exemplaar**.
+
+   >[!TIP]
+   >
+   >Wanneer u geen toegang hebt om kwesties tot stand te brengen, ontvangt u een waarschuwing dat uw beheerder u van het creëren van verzoeken beperkte.
+
+1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Welke velden beschikbaar zijn, is afhankelijk van de aanvraagwachtrij of het aanvraagformulier dat voor de aanvraag wordt gebruikt.
+
+   Wanneer u veldwaarden in de gekopieerde aanvraag invoert of wijzigt, wordt deze opgeslagen als concept.
+
+1. Klik **voorleggen**.
+
+   Het gekopieerde verzoek wordt als een nieuw verzoek ingediend.
+
+   Objecten uit de oorspronkelijke aanvraag worden niet gekopieerd.
+
+   Wanneer u een planningsverzoek kopieert en opnieuw indient, leidt het tot een ander verslag voor het verslagtype verbonden aan de vorm van het originele verzoek.
+
 ## Verzoeken in de oudere aanvraagervaring kopiëren en verzenden
+
+Als uw bedrijf een Workfront-planningspakket heeft aangeschaft, kunt u geen planningsaanvragen kopiëren en verzenden in het verouderde verzoekproces.
 
 {{step1-to-requests}}
 
@@ -104,19 +159,19 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
 1. Zoek het verzoek dat u wilt kopiëren en verzenden als nieuw en voer een van de volgende handelingen uit:
 
-   * Selecteer het, dan klik **&#x200B;**&#x200B;Exemplaar van het 0&rbrace; Exemplaar en voorlegt pictogram ![&#x200B; in de upper-left hoek van de Voorgelegde lijst van verzoeken.](assets/copy-and-submit-as-new-requests-area-nwe.png)
+   * Selecteer het, dan klik **** Exemplaar van het 0} Exemplaar en voorlegt pictogram ![ in de upper-left hoek van de Voorgelegde lijst van verzoeken.](assets/copy-and-submit-as-new-requests-area-nwe.png)
 
    >[!TIP]
    >
    > Als u niet eerst een aanvraag hebt geselecteerd, wordt het pictogram Kopiëren grijs weergegeven.
 
-   * Klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de verzoeknaam, dan klik **Exemplaar en verzend als nieuw**
+   * Klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de verzoeknaam, dan klik **Exemplaar en verzend als nieuw**
 
      of
 
      Klik op het geselecteerde verzoek met de rechtermuisknop aan, dan klik **Exemplaar en verzend als nieuw**.
 
-     ![&#x200B; Verzoek selecteerde meer menuopties &#x200B;](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![ Verzoek selecteerde meer menuopties ](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -131,7 +186,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als de weg van de weg van het originele verzoek verandert, dan wijzigde de maker van de verzoekrij de rij.
 
-1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **&#x200B;**&#x200B;subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
+1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **** subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -222,42 +277,6 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
    Het gekopieerde verzoek wordt verzonden als een nieuw verzoek in de aanvraagwachtrij die u hebt opgegeven.
 
-## Verzoeken kopiëren en verzenden met de nieuwe ervaring die u opvraagt
 
-U kunt aanvragen kopiëren en verzenden in het gebied Verzoeken van Workfront of vanuit de widget Mijn verzoeken in Home.
-
-1. Voer een van de volgende handelingen uit:
-
-   {{step1-to-requests}}
-
-   1. Om tot **toegang te hebben mijn Verzoeken** widget in **Huis**:
-
-   {{step1-to-home}}
-
-   1. Zoek **Mijn Verzoeken** widget.
-
-      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. In de **lijst van Verzoeken** of **Mijn 3&rbrace; widget van Verzoeken &lbrace;in Huis, houd over het verzoek dat u wilt kopiëren, dan het** Meer **menu naast zijn naam klikken.**
-
-   ![&#x200B; Meer menu &#x200B;](assets/more-menu.png)
-
-1. Klik **Exemplaar**
-
-   of
-
-   Klik op het geselecteerde verzoek met de rechtermuisknop aan, dan klik **Exemplaar**.
-
-   >[!TIP]
-   >
-   >Wanneer u geen toegang hebt om kwesties tot stand te brengen, ontvangt u een waarschuwing dat uw beheerder u van het creëren van verzoeken beperkte.
-
-1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Welke velden beschikbaar zijn, is afhankelijk van de aanvraagwachtrij of het aanvraagformulier dat voor de aanvraag wordt gebruikt.
-
-   Wanneer u veldwaarden in de gekopieerde aanvraag invoert of wijzigt, wordt deze opgeslagen als concept.
-
-1. Klik **voorleggen**.
-
-   Het gekopieerde verzoek wordt als een nieuw verzoek ingediend.
 
 

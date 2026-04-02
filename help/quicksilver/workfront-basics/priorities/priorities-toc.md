@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Deze sectie bevat de volgende subsecties:
 
 * [Aan de slag met prioriteiten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Details van project- en werkitems weergeven in Prioriteiten](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
-* [Uw werk filteren en groeperen in Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+* [Filter, groepeer en sorteer uw werk met Prioriteiten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [De kolommen in de werklijst Prioriteiten aanpassen](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [Prioriteit geven aan belangrijke werkitems](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
 * [Taken en problemen in prioriteiten maken](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
