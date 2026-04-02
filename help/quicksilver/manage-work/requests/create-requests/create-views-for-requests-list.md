@@ -6,9 +6,11 @@ description: Als u gebruikmaakt van de nieuwe ervaring voor aanvragen, kunt u we
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -18,19 +20,17 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
-Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voor het gebied van Verzoeken tot stand brengen en bewaren. Deze weergaven omvatten filters en kolomschikkingen.
-
-<!--<span class="preview"> and groupings.</span>-->
+Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voor het gebied van Verzoeken tot stand brengen en bewaren. Deze weergaven zijn onder andere filters en kolomschikkingen <span class="preview"> en groepen. </span>
 
 
 >[!IMPORTANT]
 >
 >* Deze functionaliteit is alleen beschikbaar in de nieuwe ervaring die u opvraagt op het gebied Verzoeken.
 >* De weergave-instellingen zijn ook beschikbaar in de widget Mijn verzoeken in Home. De weergaven in het gebied Verzoeken zijn echter gescheiden van die in de widget Mijn verzoeken.
->* De lijst met verzoeken in het gebied Verzoeken gebruikt de uitgebreide lijst in Workfront. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+>* De lijst met aanvragen in het gebied Verzoeken en in de widget Mijn werk gebruikt de uitgebreide lijst in Workfront. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Toegangsvereisten
 
@@ -45,8 +45,7 @@ Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voo
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Een Workfront- of workflowpakket</p>
-
-<p>Om het even welke vergunning van de Planning van de Wereld, om de verzoeken van de Planning van Workfront in verzoeklijsten te bekijken</p>
+   <p>Om het even welke vergunning van de Planning van de Wereld, om de verzoeken van de Planning van Workfront in verzoeklijsten te bekijken</p>
     </td> 
   </tr> 
   <tr> 
@@ -68,79 +67,112 @@ Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
+<div class="preview">
+
+## Systeemweergaven voor aanvragen
+
+Naast de weergaven die u zelf kunt maken, biedt Workfront de volgende systeemweergaven voor het gebied Aanvragen en de widget Mijn verzoeken in Home:
+
+* **Alle Verzoeken**: Alle verzoeken die u of iedereen anders in rijen of werkruimten voorlegde u toestemmingen aan mening hebt. Dit is niet beschikbaar voor de widget Mijn verzoeken.
+* **Mijn Verzoeken**: Verzoeken u, ongeacht status voorlegde.
+* **Mijn Open Verzoeken**: Verzoeken u voorlegde en nog open bent.
+* **Mijn concepten**: Concepten van uw vraag die nog niet zijn voorgelegd.
+* **Open Verzoeken**: Verzoeken dat u of iedereen anders in rijen of voor werkruimten voorlegde u toestemmingen hebt om te bekijken die nog open zijn. Dit is niet beschikbaar voor de widget Mijn verzoeken.
+
+U kunt de systeemweergaven niet bewerken. U kunt de elementen wijzigen en vervolgens de weergave kopiëren en de kopie bewerken of delen.
+
+</div>
+
 ## Een weergave voor aanvragen maken
 
-U kunt een weergave maken in het gebied Verzoeken van Workfront wanneer u de nieuwe aanvraagervaring gebruikt.
+U kunt een weergave maken in het gebied Verzoeken van Workfront wanneer u de nieuwe aanvraagervaring gebruikt. Nadat u de functie hebt ingeschakeld en nieuwe aanvragen hebt uitgevoerd, kunt u ook weergaven maken voor de widget Mijn verzoeken in Home.
 
-1. U kunt als volgt de lijst met verzoeken openen:
+1. Om tot de **lijst van Verzoeken** toegang te hebben:
 
    {{step1-to-requests}}
 
-1. Verzeker het **gebruik nieuwe ervaring** het plaatsen wordt aangezet.
+   1. Verzeker het **gebruik nieuwe ervaring** het plaatsen wordt aangezet.
 
-1. In de **lijst van Verzoeken**, klik de **3&rbrace; dropdown menu van Meningen** dropdown ![&#x200B; en klik &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
+1. Om tot **toegang te hebben mijn Verzoeken** widget in huis:
 
-   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
+   {{step1-to-home}}
+
+   1. Voeg of ga aan **Mijn Verzoeken** widget toe.
+
+1. In de lijst van verzoeken, klik de **dropdown menu van Meningen** dropdown ![ en klik ](assets/view-icon-requests.png) Nieuwe mening **.**
+
+   ![ Nieuwe mening ](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [&#x200B; uit uitgeven een mening op het gebied van Verzoeken &#x200B;](#edit-a-view-in-the-requests-area).
+1. Ga aan [ uit uitgeven een mening voor verzoeken ](#edit-a-view-for-requests).
 
 ## Een weergave voor aanvragen bewerken
 
-U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt gemaakt in het gedeelte Aanvragen van Workfront.
+U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt gemaakt in het gedeelte Verzoeken of de widget Mijn verzoeken in Home.
 
-Door een weergave te bewerken in het gebied Verzoeken kunt u de volgende elementen van de weergave wijzigen:
+Door een weergave te bewerken, kunt u de volgende elementen van de weergave wijzigen:
 
 * Naam
 * Filters
 * Kolommen
 
-De wijzigingen die u aanbrengt in een weergave, zijn zichtbaar voor alle gebruikers met wie u de weergave deelt.
+<div class="preview">
 
-1. Een lijst met verzoeken in de verzoeken kan als volgt worden geopend:
+* Groepering
+* Cellen opmaken
+* Rijhoogte
 
+</div>
+
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!-- 
+hide these details - all the information is in "Use enhanced lists" - we need one point of messaging for this feature: 
+
+1. To access a list of requests in the Requests are: 
+   
    {{step1-to-requests}}
 
-1. Verzeker het **gebruik nieuwe ervaring** het plaatsen wordt aangezet.
-1. In de **lijst van Verzoeken**, bepaal de plaats van de mening die u van het **&#x200B;**&#x200B;dropdown menu van Meningen ![&#x200B; dropdown &#x200B;](assets/view-icon-requests.png) wilt uitgeven Meningen.
+1. Ensure the **Use new experience** setting is turned on.
+1. In the **Requests** list, locate the view that you want to edit from the **Views** dropdown menu ![Views dropdown](assets/view-icon-requests.png).
 
-1. Klik de **dropdown** Meningen 1&rbrace; van Meningen ![&#x200B; en klik het drie-punt menu naast de mening, uitgezocht &#x200B;](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
-1. Druk op Enter om de nieuwe naam op te slaan.
-1. Klik de **dropdown** drop-down Meningen ![&#x200B; en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
-1. Om een gebied als kolom toe te voegen, klik **kolom** pictogram ![&#x200B; toevoegen kolom &#x200B;](assets/add-column.png) in de hoger-juiste hoek van de lijst.
+1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
+1. Press Enter to save the new name. 
+1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
+1. To add a field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list. 
 
-   De **manager van de Kolom** opent.
-1. Klik het plusteken naast het gebied dat u als kolom aan de mening wilt toevoegen, dan klik **sparen**.
+   The **Column manager** opens.
+1. Click the plus icon next to the field that you want to add as a column to the view, then click **Save**.
 
-   Velden die aan de objecten in de lijst zijn gekoppeld, kunnen als kolommen worden toegevoegd. <!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
+   Fields associated with the objects in the list are available to add as columns. <!-keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future->
 
    >[!TIP]
    >
-   >De gebieden u aan de kolommen toevoegt moeten bestaan alvorens zij in de **manager van de Kolom** beschikbaar zijn.
+   >Fields you add to the columns must exist before they are available in the **Column manager**.
 
-1. (Facultatief) klik **Kolommen** om het **zicht van Gebieden en orde** doos te openen.
-1. Schakel de instelling in voor elk veld dat u in de lijst wilt weergeven, schakel deze uit om het te verbergen of sleep de velden in een andere volgorde.
+1. (Optional) Click **Columns** to open the **Fields visibility and order** box. 
+1. Turn on the setting for each field  you want to show in the list, turn it off to hide it, or drag and drop the fields in a different order.
 
-1. (Facultatief) klik **Filters** en begin voorwaarden toe te voegen voor welke verzoeken u wilt bekijken.
+1. (Optional) Click **Filters** and start adding conditions for what requests you want to view. 
 
-   U kunt filteren op de volgende aanvraagvelden:
+    You can filter by the following request fields:  
 
-   * **Workspace**: De werkruimte de verzoekvorm wordt geassocieerd met.
-   * **Type van Objecten**: Het verslagtype het verzoekvorm wordt geassocieerd met.
-   * **Datum van de Ingang**: De datum toen het verzoek werd voorgelegd.
-   * **vorm van het Verzoek**: De naam van de verzoekvorm die wordt gebruikt om het verzoek voor te leggen.
-   * **Status**: De status van het verzoek.
-   * **ingegaan door**: De naam van de gebruiker die het verzoek toevoegde. Als het verzoek door iemand buiten Workfront werd toegevoegd, **ingegaan door** gebied toont `N/A`.
+    * **Workspace**: The workspace the request form is associated with.
+    * **Object type**: The record type the request form is associated with.
+    * **Entry date**: The date when the request was submitted.
+    * **Request form**: The name of the request form used to submit the request.
+    * **Status**: The status of the request.
+    * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
 
-   U kunt ook filteren door alle velden die aan de weergave zijn toegevoegd voor elk object dat zichtbaar is in de weergave.
+    You can also filter by any fields that have been added to the view for any object visible in the view.
 
-   U kunt veelvoudige filters hebben die door of **worden aangesloten en** of **of**.
-De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden toevoegt.
-
+    You can have multiple filters joined by either **And** or **Or**.
+    The request list is filtered automatically, as you add the filter conditions. 
+-->
 
 <!--
 1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
@@ -150,27 +182,37 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 >[!IMPORTANT]
 >
 > * Wijzigingen in weergaven worden automatisch opgeslagen.
-> * Wijzigingen in weergaven zijn zichtbaar voor iedereen die de weergave gebruikt.
+> * De veranderingen in meningen zijn zichtbaar aan iedereen die de mening <span class="preview"> gebruikt slechts wanneer u een nieuw exemplaar van de mening deelt nadat u veranderingen in het aanbracht.</span>
 > * Gebruik **me (het programma geopende gebruiker)** filtervervanging op om het even welk gebied dat gebruikers als waarde heeft.
 
-## Voeg de verzoekmening aan een lay-outmalplaatje toe.
+## De weergave met aanvragen toevoegen aan een lay-outsjabloon
 
-Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
+Een Workfront-beheerder kan een nieuwe weergave toevoegen aan lay-outsjablonen voor het gebied Aanvragen.
 
-Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Een weergave delen
 
-U kunt weergaven delen die u maakt met andere gebruikers, teams of groepen.
+U kunt weergaven delen die u maakt met andere gebruikers, teams, groepen of bedrijven.
 
-1. Een lijst met verzoeken in de verzoeken kan als volgt worden geopend:
+Na het delen van een weergave kunnen andere gebruikers de bijgewerkte weergave-elementen bekijken die u voor de weergave hebt bewerkt voordat ze deze delen.
 
+<span class="preview"> als zij de mening bijwerken, zullen hun veranderingen niet zichtbaar aan anderen, tenzij zij een exemplaar van de zelfde mening maken en hun veranderingen bewaren alvorens zij het exemplaar delen.
+
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
+<!--
+Let's just redirect to Use enhanced lists so we avoid duplicating information. 
+
+1. To access a list of requests in the Requests are: 
+   
    {{step1-to-requests}}
 
-1. Verzeker het **gebruik nieuwe ervaring** het plaatsen wordt aangezet.
-1. In de **lijst van Verzoeken**, bepaal de plaats van de mening die u wilt delen.
-1. Beweeg over de mening die u wilt delen, dan klik op het drie-punt menu rechts van de meningsnaam, dan klik **Aandeel**.
-1. In het **vakje van het Aandeel**, ga de mensen, de teams, de rollen, de groepen, of de bedrijven in die u de mening met wilt delen, dan hen van de lijst selecteren wanneer zij verschijnen.
-1. Klik **sparen**.
+1. Ensure the **Use new experience** setting is turned on.
+1. In the **Requests** list, locate the view that you want to share.
+1. Hover over the view that you want to share, then click on the three-dot menu to the right of the view name, then click  **Share**.
+1. In the **Share** box, enter the people, teams, roles, groups, or companies that you want to share the view with, then select them from the list when they appear.
+1. Click **Save**.
 
-   De weergave wordt gedeeld met de entiteiten die u aangeeft. Ze kunnen de bijgewerkte weergave-elementen die u voor de weergave hebt bewerkt, bekijken voordat ze deze delen. <span class="preview"> als zij de mening bijwerken, zullen hun veranderingen niet zichtbaar aan anderen, tenzij zij een exemplaar van de zelfde mening maken en hun veranderingen bewaren alvorens zij het exemplaar delen. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+   The view is shared with the entities you indicate. 
+-->
