@@ -1,26 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Brandmerken instellen voor de AI Reviewer
-description: Brandmerken instellen voor de AI Reviewer
+title: Merken maken en beheren voor de Content Reviewer
+description: Merken maken en beheren voor de Content Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
-source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
-# Brandmerken instellen voor de AI Reviewer
+# Merken maken en beheren voor de Content Reviewer
 
->[!IMPORTANT]
->
->Deze functie is momenteel in bèta.
+{{highlighted-preview-article-level}}
 
-De AI Reviewer gebruikt merkrichtlijnen om inhoud tijdens het revisieproces te evalueren. U kunt in Workfront merken maken door PDF-bestanden te uploaden die uw merkrichtlijnen bevatten of door handmatig merkelementen in te voeren.
+De Content Reviewer gebruikt richtlijnen van het merk om de inhoud tijdens het revisieproces te evalueren. U kunt in Workfront merken maken door PDF-bestanden te uploaden die uw merkrichtlijnen bevatten of door handmatig merkelementen in te voeren.
 
 ## Toegangsvereisten
 
@@ -44,29 +44,29 @@ De AI Reviewer gebruikt merkrichtlijnen om inhoud tijdens het revisieproces te e
   </tr> 
   <tr> 
    <td role="rowheader">Admin Console-machtigingen*</td> 
-   <td> <p>Je moet GenStudio Brand Manager gebruiken.</p>
-    <p>NOTA: Om de Manager van het Merk van GenStudio te selecteren, moet u de stappen volgen die in <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> worden geschetst de toestemmingen van het Merk toewijzen </a>.</p>
+   <td> <p>Je moet GenStudio Brand Manager zijn.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Vereisten
+
+* Uw instantie van Workfront moet Verenigde Goedkeuringen hebben toegelaten.
+
+* Uw organisatie moet GenStudio Foundation hebben.
+   * Content Reviewer in Workfront biedt de functionaliteit die in GenStudio Foundation beschikbaar is voor workflows voor het beoordelen en goedkeuren van bedrijfsmiddelen. U hoeft GenStudio Foundation niet rechtstreeks te openen om uw werk te voltooien. Je toegang tot GenStudio Foundation-functionaliteit via Content Reviewer valt onder de voorwaarden van je Workfront-contract.
+* Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 
 ## Vereisten
 
-* Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System).
-* Uw instantie van Workfront moet Verenigde Goedkeuringen hebben toegelaten.
-* Uw organisatie moet GenStudio Foundation hebben.
-* Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+1. Voordat u merken kunt maken, moet u toegang verlenen tot merkmachtigingen in de Admin Console en in Workfront. Voor instructies, zie [ toegang van de Verlening tot merktoestemmingen ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
 
 
 ## Een merk maken met een PDF
@@ -76,8 +76,8 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
 1. In het linkerpaneel, ga naar **Overzicht en Goedkeuring** > **Merken**.
 1. Klik **voeg merk** in de hoger-juiste hoek van het scherm toe.
 1. Geef het merk een naam.
-1. Klik op PDF&#39;s uploaden om bestanden met een merk te uploaden.
-   ![&#x200B; uploadt brandmerk pdfs &#x200B;](assets/upload-PDF.png)
+1. Klik **uploaden PDFs** om merkdossiers te uploaden.
+   ![ uploadt brandmerk pdfs ](assets/upload-PDF.png)
 1. Klik **verdergaan**.
 1. Upload één of meerdere dossiers van PDF die uw merkrichtlijnen bevatten, dan klik **merk** toevoegen.
 1. Nadat de bestanden zijn geüpload, controleert u de geëxtraheerde merkelementen om te controleren of deze overeenkomen met de richtlijnen voor uw merk.
@@ -86,7 +86,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
    >
    >Richtlijnen worden gegenereerd op basis van uw bestanden en generatieve AI-technologie en zijn mogelijk onjuist. Lees de uitgepakte richtlijnen voor ontbrekende of onjuiste details en bewerk deze voordat u dit merk publiceert.
 
-1. Wanneer gebeëindigd, publiceer **&#x200B;**&#x200B;om het merk voor de AI Recensent beschikbaar te maken.
+1. Wanneer gebeëindigd, publiceer **** om het merk voor de Recensent van de Inhoud beschikbaar te maken.
 
 ## Handmatig een merk maken
 
@@ -116,7 +116,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
         <td>Geef een overzicht van de geschikte kanalen voor merkcommunicatie.</td>
     </tr>
     <tr>
-        <td>logo</td>
+        <td>Logo</td>
         <td>Neem de officiële logo's van het merk op.</td>
     </tr>
     <tr>
@@ -125,7 +125,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
     </tr>
     </table>
 
-   ![&#x200B; voeg merkelementen manueel toe &#x200B;](assets/brand-elements.png)
+   ![ voeg merkelementen manueel toe ](assets/brand-elements.png)
 
 
-1. Wanneer gebeëindigd, publiceer **&#x200B;**&#x200B;om het merk voor de AI Recensent beschikbaar te maken.
+1. Wanneer gebeëindigd, publiceer **** om het merk voor de Recensent van de Inhoud beschikbaar te maken.

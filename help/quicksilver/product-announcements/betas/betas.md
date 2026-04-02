@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: 78c2fd4afbe24062cbaea935e9b548ffe6e528ea
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,18 @@ De volgende functies zijn momenteel beschikbaar in bèta:
 
 * Projectgezondheid
 
-  Voor informatie, zie [&#x200B; Overzicht van de Gezondheid van het Project &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Voor informatie, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
-* De Workfront AI Reviewer
-Voor informatie, zie [&#x200B; begonnen worden met de Reviewer van Workfront AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* De Workfront Content Reviewer
+
+   * Richtlijnen voor afbeeldingen zijn momenteel in bèta. De Content Reviewer gebruikt de merkrichtlijnen die u in Workfront hebt ingesteld om inhoud te beoordelen en feedback te geven aan makers van inhoud tijdens het beoordelings- en goedkeuringsproces.
+   * De stemrichtlijnen van het merk zijn beschikbaar voor algemene beschikbaarheid.
+
+  Voor informatie, zie [ begonnen worden met de Recensent van de Inhoud van Workfront ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 * De Adobe Workfront Planning Designer is beschikbaar in Gesloten Beta. U kunt ons via e-mail verzoeken om toegang tot dit programma.
 
-  Voor informatie, zie [&#x200B; begonnen worden met de Planning Designer van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md).
+  Voor informatie, zie [ begonnen worden met de Planning Designer van Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 
 <!--
