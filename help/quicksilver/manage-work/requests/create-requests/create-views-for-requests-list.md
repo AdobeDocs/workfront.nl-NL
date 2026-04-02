@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voor het gebied van Verzoeken tot stand brengen en bewaren. Deze weergaven zijn onder andere filters en kolomschikkingen <span class="preview"> en groepen. </span>
@@ -30,7 +30,7 @@ Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voo
 >
 >* Deze functionaliteit is alleen beschikbaar in de nieuwe ervaring die u opvraagt op het gebied Verzoeken.
 >* De weergave-instellingen zijn ook beschikbaar in de widget Mijn verzoeken in Home. De weergaven in het gebied Verzoeken zijn echter gescheiden van die in de widget Mijn verzoeken.
->* De lijst met aanvragen in het gebied Verzoeken en in de widget Mijn werk gebruikt de uitgebreide lijst in Workfront. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+>* De lijst met aanvragen in het gebied Verzoeken en in de widget Mijn werk gebruikt de uitgebreide lijst in Workfront. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Toegangsvereisten
 
@@ -67,7 +67,7 @@ Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,12 +103,12 @@ U kunt een weergave maken in het gebied Verzoeken van Workfront wanneer u de nie
 
    1. Voeg of ga aan **Mijn Verzoeken** widget toe.
 
-1. In de lijst van verzoeken, klik de **dropdown menu van Meningen** dropdown ![ en klik ](assets/view-icon-requests.png) Nieuwe mening **.**
+1. In de lijst van verzoeken, klik de **dropdown menu van Meningen** dropdown ![&#x200B; en klik &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
 
-   ![ Nieuwe mening ](assets/create-new-view.png)
+   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [ uit uitgeven een mening voor verzoeken ](#edit-a-view-for-requests).
+1. Ga aan [&#x200B; uit uitgeven een mening voor verzoeken &#x200B;](#edit-a-view-for-requests).
 
 ## Een weergave voor aanvragen bewerken
 
@@ -128,7 +128,7 @@ Door een weergave te bewerken, kunt u de volgende elementen van de weergave wijz
 
 </div>
 
-Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!-- 
 hide these details - all the information is in "Use enhanced lists" - we need one point of messaging for this feature: 
@@ -189,7 +189,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 Een Workfront-beheerder kan een nieuwe weergave toevoegen aan lay-outsjablonen voor het gebied Aanvragen.
 
-Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Een weergave delen
 
@@ -199,7 +199,7 @@ Na het delen van een weergave kunnen andere gebruikers de bijgewerkte weergave-e
 
 <span class="preview"> als zij de mening bijwerken, zullen hun veranderingen niet zichtbaar aan anderen, tenzij zij een exemplaar van de zelfde mening maken en hun veranderingen bewaren alvorens zij het exemplaar delen.
 
-Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 
