@@ -27,11 +27,11 @@ ht-degree: 0%
 >
 >Met de versie 25.11 is de valuta van de Overschrijving voor baanrollen afgekeurd in Productie. (De veroudering vond plaats op 30 oktober in de voorvertoningsomgeving.) In plaats van een basisvaluta te hebben en valuta&#39;s te overschrijven, is er nu één valuta beschikbaar voor functies, en de kosten en factureringstarieven worden bepaald met behulp van die valuta.
 
-Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
->De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Voor informatie, zie [ begonnen worden met het Beheer van het Middel ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+>De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Voor informatie, zie [&#x200B; begonnen worden met het Beheer van het Middel &#x200B;](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegan
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ Een taakrol maken:
    * **Beschrijving**: Ga een beschrijving voor de rol in die erop wijst wat over het uniek is.
    * **is Actief**: Selecteer **ja** als u de rol actief en beschikbaar overal in Workfront wilt zijn om met gebruikers, het werkpunten, enz. worden geassocieerd. Selecteer **Nr** als u de rol wilt worden gedeactiveerd en niet beschikbaar aan gebruikers, het werkpunten, enz. toewijzen.
 
-     Voor informatie over het deactiveren van baanrollen, zie [ werkrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+     Voor informatie over het deactiveren van baanrollen, zie [&#x200B; werkrollen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
 
    * **Valuta**: De Valuta van de Basis wordt getoond door gebrek. De beheerder van Workfront voegt de Valuta van de Basis in het gebied van de Opstelling toe. U kunt de selectie wijzigen in een andere beschikbare valuta en u kunt de valuta wijzigen voor effectieve gedateerde tijdbereiken.
 
@@ -90,9 +90,9 @@ Een taakrol maken:
      >
      >Alleen valuta&#39;s die beschikbaar zijn in het gebied Wisselkoersen in uw systeem zijn beschikbaar in dit veld. Als er maar één valuta is ingesteld, is alleen die valuta beschikbaar.
 
-     Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [ de wisselkoers van de Opstelling ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+     Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [&#x200B; de wisselkoers van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-     Voor informatie over het veranderen van de munt van een project, zie [ de projectmunt ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
+     Voor informatie over het veranderen van de munt van een project, zie [&#x200B; de projectmunt &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
 
    * **Tarief van Kosten**: Dit is de kosten per uurtarief van de baanrol. Deze waarde berekent de geplande en de werkelijke kosten van taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke kosten van de projecten. Voer de koers in met de geselecteerde valuta.
 
@@ -100,7 +100,7 @@ Een taakrol maken:
 
      Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei 2025, wordt een einddatum van 30 april 2025 toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.
 
-     Voor informatie over hoe Workfront kosten berekent, zie [ Kosten van het Spoor ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+     Voor informatie over hoe Workfront kosten berekent, zie [&#x200B; Kosten van het Spoor &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
      >[!TIP]
      >
@@ -112,7 +112,7 @@ Een taakrol maken:
 
      Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei 2025, wordt een einddatum van 30 april 2025 toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.
 
-     Voor informatie over hoe Workfront opbrengst berekent, zie [ Overzicht van Facturering en Ontvangsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+     Voor informatie over hoe Workfront opbrengst berekent, zie [&#x200B; Overzicht van Facturering en Ontvangsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
      >[!TIP]
      >
@@ -120,7 +120,7 @@ Een taakrol maken:
 
 <!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
 
-1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [ het overzicht van de rol van de Baan ](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het schrappen van een baanrol, zie [ baanrollen van de Schrapping ](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [&#x200B; het overzicht van de rol van de Baan &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het schrappen van een baanrol, zie [&#x200B; baanrollen van de Schrapping &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <div class="preview">
 
@@ -130,7 +130,7 @@ Facturerings- en kostenpercentages voor een functie worden in financiële bereke
 
 Snelheidskenmerken worden ondersteund in gebieden van Workfront waar tarieven bestaan, zoals taakrollen en gebruikers. Wanneer kenmerken op een taakrol worden toegepast, worden hun toewijzingen automatisch omgezet in de juiste percentages.
 
-Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
+Voor meer informatie, zie [&#x200B; tariefattributen &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
 
 {{step-1-to-setup}}
 
@@ -139,7 +139,7 @@ Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-
 1. Om de details van de baanrol bij te werken, klik **Details** in het linkerpaneel.
 1. (Facultatief) om een douaneformulier aan de baanrol vast te maken, klik **voeg douanevorm** gebied in de hoger-juiste hoek van de pagina van Details toe, en selecteer een douaneformulier van de lijst die toont.
 
-   Voor meer informatie bij het vastmaken van een douanevorm, zie [ een douanevorm aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+   Voor meer informatie bij het vastmaken van een douanevorm, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 1. Klik [!UICONTROL **Tarieven**] in het linkerpaneel.
 1. Klik [!UICONTROL **het Factureren**] of [!UICONTROL **Kosten**] om het tarieftype te selecteren.
@@ -147,7 +147,7 @@ Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-
 
    of
 
-   Selecteer een bestaand tarief en klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) om het bij te werken.
+   Selecteer een bestaand tarief en klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) om het bij te werken.
 
    >[!NOTE]
    >
@@ -157,7 +157,7 @@ Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-
 
    >[!NOTE]
    >
-   >Deze eigenschappen worden afzonderlijk gedefinieerd en kunnen de opbrengsten- en kostprijsberekeningen beïnvloeden. Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
+   >Deze eigenschappen worden afzonderlijk gedefinieerd en kunnen de opbrengsten- en kostprijsberekeningen beïnvloeden. Voor meer informatie, zie [&#x200B; tariefattributen &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
 
 1. Selecteer de **Valuta** voor het tarief. De beheerder van Workfront voegt de Valuta van de Basis in het gebied van de Opstelling toe. U kunt de selectie wijzigen in een andere beschikbare valuta en u kunt de valuta wijzigen voor effectieve gedateerde tijdbereiken.
 
@@ -165,9 +165,9 @@ Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-
    >
    >Alleen valuta&#39;s die beschikbaar zijn in het gebied Wisselkoersen in uw systeem zijn beschikbaar in dit veld. Als er maar één valuta is ingesteld, is alleen die valuta beschikbaar.
 
-   Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [ de wisselkoers van de Opstelling ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [&#x200B; de wisselkoers van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-   Voor informatie over het veranderen van de munt van een project, zie [ de projectmunt ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
+   Voor informatie over het veranderen van de munt van een project, zie [&#x200B; de projectmunt &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
 
 1. (Voorwaardelijk) voor een het factureren tarief, ga het **Facturerings Tarief** voor deze baanrol in.
 
@@ -179,7 +179,7 @@ Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-
 
    Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei, wordt een einddatum van 30 april toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.
 
-   Voor informatie over hoe Workfront opbrengst berekent, zie [ Overzicht van Facturering en Ontvangsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+   Voor informatie over hoe Workfront opbrengst berekent, zie [&#x200B; Overzicht van Facturering en Ontvangsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
    >[!TIP]
    >
@@ -195,7 +195,7 @@ Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-
 
    Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei, wordt een einddatum van 30 april toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.
 
-   Voor informatie over hoe Workfront kosten berekent, zie [ Kosten van het Spoor ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+   Voor informatie over hoe Workfront kosten berekent, zie [&#x200B; Kosten van het Spoor &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
    >[!TIP]
    >

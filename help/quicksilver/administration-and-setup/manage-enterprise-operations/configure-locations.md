@@ -21,7 +21,7 @@ ht-degree: 0%
 
 U kunt de standaardplaatsen vormen beschikbaar om als attributen aan baanrollen in tariefkaarten toe te wijzen. Dit zorgt ervoor dat de rentekaarten de markttarieven in elke plaats nauwkeurig weerspiegelen.
 
-De kaarten van het tarief staan uw organisatie toe om het facturerings tarieven voor projecten gemakkelijk te beheren. Voor meer informatie, zie [ tariefkaarten ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) beheren.
+De kaarten van het tarief staan uw organisatie toe om het facturerings tarieven voor projecten gemakkelijk te beheren. Voor meer informatie, zie [&#x200B; tariefkaarten &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) beheren.
 
 ## Toegangsvereisten
 
@@ -46,7 +46,7 @@ De kaarten van het tarief staan uw organisatie toe om het facturerings tarieven 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik [!UICONTROL **toevoegen meer Plaatsen**] bij de bodem van de lijst.
 1. Voer de naam en beschrijving van de locatie in.
 1. Klik buiten het invoergebied om de locatie op te slaan.
-1. Om een plaats te schrappen, het in de lijst te selecteren en **te klikken schrap** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
+1. Om een plaats te schrappen, het in de lijst te selecteren en **te klikken schrap** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
 
 >[!NOTE]
 >
@@ -81,6 +81,6 @@ Elke sublocatie kan op dezelfde manier als een hoofdlocatie als een kenmerk op e
 
    De sublocatie springt in onder de locatie op het hoogste niveau.
 
-   ![ Plaats en sub-locations ](assets/locations-sublocations.png)
+   ![&#x200B; Plaats en sub-locations &#x200B;](assets/locations-sublocations.png)
 
 

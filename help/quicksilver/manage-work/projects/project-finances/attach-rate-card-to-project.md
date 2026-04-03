@@ -24,9 +24,9 @@ Wanneer u een tariefkaart aan een project vastmaakt, worden alle rollen en hun b
 >
 >Het vastmaken van een tariefkaart treedt om het even welke bestaande tarief kaartfacturerings tarieven op het project met voeten. Overschrijvingen van factureringssnelheden die rechtstreeks aan het project zijn toegevoegd, worden niet verwijderd.
 
-Voor informatie over het creëren van tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Voor informatie over het creëren van tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Voor algemene informatie over het met voeten treden van het factureringspercentage van de baanrol voor projecten en het berekenen van projectopbrengst, zie [ Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project ](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor algemene informatie over het met voeten treden van het factureringspercentage van de baanrol voor projecten en het berekenen van projectopbrengst, zie [&#x200B; Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Toegangsvereisten
 
@@ -55,7 +55,7 @@ Voor algemene informatie over het met voeten treden van het factureringspercenta
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    **maak een tariefkaart** doos vast opent. U kunt naar een tariefkaart in de lijst zoeken.
 
-   ![ maak een doos van de tariefkaart vast ](assets/attach-rate-card-dialog.png)
+   ![&#x200B; maak een doos van de tariefkaart vast &#x200B;](assets/attach-rate-card-dialog.png)
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    De tariefkaart en alle bijbehorende roltarieven worden toegevoegd aan de lijst met factureringssnelheden.
 
-   ![ kaart van het Tarief die aan project ](assets/rate-card-on-project.png) wordt toegevoegd
+   ![&#x200B; kaart van het Tarief die aan project &#x200B;](assets/rate-card-on-project.png) wordt toegevoegd
 
 ## Een tariefkaart uit een project verwijderen
 
@@ -89,6 +89,6 @@ Het tarief van de facturatie treedt voor gebruikers of baanrollen met voeten die
 
 1. Ga naar het project.
 1. Klik **Tarieven** in het linkerpaneel, dan selecteren **Facturering**.
-1. Klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-icon.png).
+1. Klik **verwijderen** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/remove-icon.png).
 1. Klik **bevestigen** op het bevestigingsbericht om de tariefkaart te verwijderen.
 

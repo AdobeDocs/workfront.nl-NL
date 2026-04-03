@@ -59,7 +59,7 @@ De systeembeheerder van Adobe Workfront is verantwoordelijk voor het bepalen van
 
 De systeembeheerder van Workfront leidt tot het toegangsniveau met de noodzakelijke toegang en bepaalt om het even welke beperkte gebieden zoals nodig.
 
-Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
+Voor meer informatie, zie [&#x200B; douanetoegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 ### Bedrijfsprofiel aan gebruiker toevoegen
 
@@ -73,13 +73,13 @@ Meerdere bedrijfsprofielen zijn toegestaan voor één gebruiker.
 
 <!--image?-->
 
-Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven. <!--may be separate article now since it's not in the profile-->
+Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven. <!--may be separate article now since it's not in the profile-->
 
 ### Lay-outsjablonen toewijzen aan toegangsniveau
 
 De systeembeheerder van Workfront kan naar keuze een lay-outmalplaatje aan het toegangsniveau toewijzen, om ervoor te zorgen dat de gebruikers met het verwante bedrijfsprofiel relevante informatie en acties zien die op hun rol binnen het systeem worden gebaseerd.
 
-Voor meer informatie, zie [ gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Voor meer informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Hoe bedrijfsprofielen werken
 
@@ -107,9 +107,9 @@ Als een gebruiker een bedrijfsprofiel krijgt toegewezen nadat een object al met 
 
 Wanneer een bedrijfsprofiel veelvoudige toegangsniveaus heeft, neemt het niveau met de hoogste hoeveelheid toegang belangrijkheid.
 
-Voor informatie bij het delen, zie [ een voorwerp ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+Voor informatie bij het delen, zie [&#x200B; een voorwerp &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
-Voor informatie over hoe de toegangsniveaus en de toestemmingen samenwerken, zie [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+Voor informatie over hoe de toegangsniveaus en de toestemmingen samenwerken, zie [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 ## Overwegingen bij bedrijfsprofielen
 

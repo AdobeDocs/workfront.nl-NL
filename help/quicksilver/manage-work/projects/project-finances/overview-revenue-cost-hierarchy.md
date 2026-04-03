@@ -23,7 +23,7 @@ Om precieze financiële berekeningen te kunnen maken, gebruikt Workfront de juis
 
 De secties in dit artikel schetsen het geleidelijke proces om de aangewezen facturerings en kostentarieven voor baanrollen en gebruikers voor het de opbrengsttype en het kostentype van de Gebruiker en van de Rol te bepalen.
 
-Voor meer informatie over het factureren van tarieven, opbrengsttypes, en hoe de opbrengst wordt berekend, zie [ Overzicht van het Factureren en de Ontvangsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie over het factureren van tarieven, opbrengsttypes, en hoe de opbrengst wordt berekend, zie [&#x200B; Overzicht van het Factureren en de Ontvangsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Overzicht van effectieve datums
 
@@ -49,7 +49,7 @@ Wanneer een baanrol voor het factureren op of de gebruikerstaak of het projectni
 >
 >Terwijl een gebruiker met een verschillende rol voor factureringsdoeleinden kan handelen, blijven de kostenberekeningen hun primaire baanrol gebruiken. De functie voor facturering is alleen van invloed op factureringsberekeningen.
 
-Voor meer informatie, zie [ Opstelling een baanrol voor het factureren ](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
+Voor meer informatie, zie [&#x200B; Opstelling een baanrol voor het factureren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
 
 ## Overzicht van de bewaarde rentevoeten
 
@@ -68,7 +68,7 @@ De vlag kan op een project worden geactiveerd wanneer het werk is begonnen en ta
 >Als de vlag is ingeschakeld om de factureringssnelheden te behouden, kan deze niet worden uitgeschakeld tenzij het project geen toewijzingen en geen uren heeft. Dit zorgt ervoor dat alle financiële verslaggeving de ware contractuele tarieven weerspiegelt.
 >Wanneer de vlag weg is, staat het systeem toe dat de het facturerings tarieven worden opnieuw berekend of dynamisch aangepast. Wijzigingen in de rol, het salaris of de factureringssnelheid van de gebruiker worden direct weerspiegeld in de factureringssnelheid van de toewijzing.
 
-Voor meer informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven en [ tariefkaarten ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) beheren.
+Voor meer informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven en [&#x200B; tariefkaarten &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) beheren.
 
 ## Geplande inkomsten - Uur gebruiker en rol
 
@@ -76,13 +76,13 @@ Wanneer het opbrengsttype op de taak Gebruiker en Rol Hourly is, gebruikt Workfr
 
 Dit beeld toont de stroom van de geplande opbrengsthiërarchie:
 
-![ Geplande Inkomsten voor Gebruiker en Rol het type van opbrengst van de Uur ](assets/planned-revenue-chart.png)
+![&#x200B; Geplande Inkomsten voor Gebruiker en Rol het type van opbrengst van de Uur &#x200B;](assets/planned-revenue-chart.png)
 
 Wanneer een gebruiker aan de taak wordt toegewezen, zoekt Workfront volgens deze hiërarchie:
 
 1. Het systeem zoekt eerst naar een bewaarde snelheid bij de toewijzing voor de gebruiker.
 
-   Een bewaarde tarief volgt nog de hiërarchie, maar het tarief wordt bevroren wanneer het project wordt bewaard. Voor meer informatie, zie [ Overzicht van bewaarde tarieven ](#overview-of-preserved-rates).
+   Een bewaarde tarief volgt nog de hiërarchie, maar het tarief wordt bevroren wanneer het project wordt bewaard. Voor meer informatie, zie [&#x200B; Overzicht van bewaarde tarieven &#x200B;](#overview-of-preserved-rates).
 
 1. Vervolgens zoekt het systeem naar de factureringsfrequentie op een tariefkaart, voor de primaire taakrol of de taakrol voor het factureren van de gebruiker die aan de taak is toegewezen. Als een tarief bestaat en het gesloten is, dan wordt dat tarief gebruikt in de opbrengstberekening.
 
@@ -140,13 +140,13 @@ De &quot;gebruiker&quot;in de hiërarchieën is de persoon die aan de taak wordt
 
 Deze afbeelding toont de stroom van de eigenlijke inkomstenhiërarchie:
 
-![ Ware Ware Inkomsten voor Gebruiker en Rol het kostentype van de Uur ](assets/actual-revenue-chart.png)
+![&#x200B; Ware Ware Inkomsten voor Gebruiker en Rol het kostentype van de Uur &#x200B;](assets/actual-revenue-chart.png)
 
 ### Wanneer de eigenaar van de geregistreerde uren en de toegewezen gebruiker op de taak het zelfde zijn
 
 Workfront zoekt eerst naar een factureringssnelheid op basis van de gebruikerstoewijzing. Als een gebruiker niet aan de taak wordt toegewezen, dan zoekt het naar een het factureren tarief door de baan roltoewijzing.
 
-De hiërarchie voor dit scenario is het zelfde als de geplande opbrengsthiërarchie. Zie [ Geplande opbrengst - Gebruiker en Rol Uur ](#planned-revenue--user-and-role-hourly) voor dit werkschema.
+De hiërarchie voor dit scenario is het zelfde als de geplande opbrengsthiërarchie. Zie [&#x200B; Geplande opbrengst - Gebruiker en Rol Uur &#x200B;](#planned-revenue--user-and-role-hourly) voor dit werkschema.
 
 ### Wanneer de eigenaar van de geregistreerde uren niet de toegewezen gebruiker op de taak is
 
@@ -187,7 +187,7 @@ Wanneer het kostentype op de taak Gebruiker en Rol Hourly is, gebruikt Workfront
 
 Deze afbeelding toont de stroom van de geplande kostenhiërarchie:
 
-![ Geplande Kosten voor Gebruiker en Rol het kostentype van de Uur ](assets/planned-cost-chart.png)
+![&#x200B; Geplande Kosten voor Gebruiker en Rol het kostentype van de Uur &#x200B;](assets/planned-cost-chart.png)
 
 Wanneer een gebruiker aan de taak wordt toegewezen, zoekt Workfront volgens deze hiërarchie:
 
@@ -211,13 +211,13 @@ De &quot;gebruiker&quot;in de hiërarchieën is de persoon die aan de taak wordt
 
 Deze afbeelding laat de stroom zien van de werkelijke kostenhiërarchie:
 
-![ Ware Kosten voor Gebruiker en Rol het kostentype van de Uur ](assets/actual-cost-chart.png)
+![&#x200B; Ware Kosten voor Gebruiker en Rol het kostentype van de Uur &#x200B;](assets/actual-cost-chart.png)
 
 ### Wanneer de eigenaar van de geregistreerde uren en de toegewezen gebruiker op de taak het zelfde zijn
 
 Workfront zoekt eerst naar een kostenpercentage op basis van de gebruikerstoewijzing. Als een gebruiker niet aan de taak wordt toegewezen, dan zoekt het naar een kostenpercentage door de baan roltoewijzing.
 
-De hiërarchie voor dit scenario is het zelfde als de geplande kostenhiërarchie. Zie [ Geplande kosten - Gebruiker en Rol Uur ](#planned-cost--user-and-role-hourly) voor dit werkschema.
+De hiërarchie voor dit scenario is het zelfde als de geplande kostenhiërarchie. Zie [&#x200B; Geplande kosten - Gebruiker en Rol Uur &#x200B;](#planned-cost--user-and-role-hourly) voor dit werkschema.
 
 ### Wanneer de eigenaar van de geregistreerde uren niet de toegewezen gebruiker op de taak is
 

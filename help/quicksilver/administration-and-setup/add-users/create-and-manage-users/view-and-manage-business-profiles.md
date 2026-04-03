@@ -26,7 +26,7 @@ Om een bedrijfsprofiel aan een gebruiker toe te wijzen, moet u een groep en een 
 
 Als beheerder van Workfront, kunt u het bedrijfsprofiel van een gebruiker plaatsen door combinaties toegangsniveaus en groepen toe te wijzen. Dit wordt beheerd vanaf de gebruikerspagina in Workfront.
 
-Voor meer informatie over Bedrijfs Profielen, zie [ overzicht Bedrijfs van profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+Voor meer informatie over Bedrijfs Profielen, zie [&#x200B; overzicht Bedrijfs van profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor meer informatie over Bedrijfs Profielen, zie [ overzicht Bedrijfs van profi
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

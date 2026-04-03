@@ -48,7 +48,7 @@ U kunt de volgende toewijzingsgegevens aanpassen bij het maken van geavanceerde 
 
 >[!NOTE]
 >
->Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+>Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 ## Gebieden in Adobe Workfront waar u geavanceerde toewijzingen kunt maken
 
@@ -57,9 +57,9 @@ In dit artikel wordt beschreven hoe u toegang krijgt tot Geavanceerde toewijzing
 Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Workfront:
 
 * In lijsten en rapporten wanneer het gebied van Toewijzingen in de mening toont.
-* In de sectie Toewijzingen wanneer u een taak bewerkt. Voor meer informatie, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven. <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* In de sectie Toewijzingen wanneer u een taak bewerkt. Voor meer informatie, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven. <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * In de taak of de uitgiftekopbal, in het gebied van Taken.
-* In het werklastevenwicht. Voor meer informatie, zie [ werk manueel toewijzen gebruikend de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* In het werklastevenwicht. Voor meer informatie, zie [&#x200B; werk manueel toewijzen gebruikend de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Toegangsvereisten
 
@@ -90,7 +90,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,7 +98,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Geavanceerde toewijzingen maken - Workflow Ultimate-pakket
 
-Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. Voor kwesties, zie [ Geavanceerde Toewijzingen creëren - alle andere pakketten ](#create-advanced-assignments--all-other-packages).
+Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. Voor kwesties, zie [&#x200B; Geavanceerde Toewijzingen creëren - alle andere pakketten &#x200B;](#create-advanced-assignments--all-other-packages).
 
 1. Ga naar het project waar u een taak wilt toewijzen.
 1. Klik **Taken** of **Kwesties** in het linkerpaneel, dan klik de naam van een taak in de lijst.
@@ -106,9 +106,9 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
    >[!TIP]
    >
    >U kunt geavanceerde taken rechtstreeks in de takenlijst plaatsen. Klik binnen het **gebied van Taken** op de zelfde lijn zoals de taak, dan klik **Geavanceerd** bij de bodem van de lijst, of het **pictogram van Mensen** in de hoger-juiste hoek van de toewijzingsdoos, om het Geavanceerde venster van Toewijzingen te openen. Ga verder met stap 5 om door te gaan met het maken van geavanceerde toewijzingen.
-   >![ klik Geavanceerd of het pictogram van Mensen ](assets/access-aa-from-lists.png)
+   >![&#x200B; klik Geavanceerd of het pictogram van Mensen &#x200B;](assets/access-aa-from-lists.png)
 
-1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak**
+1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak**
 
    of
 
@@ -116,21 +116,21 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
 
 1. Klik **Geavanceerd**.
 
-   ![ klik Geavanceerde ](assets/assignments-from-task-header-0825.png)
+   ![&#x200B; klik Geavanceerde &#x200B;](assets/assignments-from-task-header-0825.png)
 
    Het venster Geavanceerde toewijzingen wordt weergegeven.
 
-   ![ Geavanceerde het venster van Taken ](assets/advanced-assignments-031826.png)
+   ![&#x200B; Geavanceerde het venster van Taken &#x200B;](assets/advanced-assignments-031826.png)
 
 1. Controleer indien nodig de informatie over de taakduur. Deze velden zijn allemaal alleen-weergeven van Geavanceerde toewijzingen en u kunt ze in de taak bijwerken.
 
-   Voor informatie over de taakduur, de types van duur, de eenheden van tijd, en geplande uren, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Voor informatie over de taakduur, de types van duur, de eenheden van tijd, en geplande uren, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Optioneel) Selecteer **Uren**, **FTE**, of **Percentage** voor het bekijken van de toewijzingen.
 
    U kunt zien hoeveel een gebruiker in geplande uren, als percentage van hun capaciteit, of in VTE (voltijdequivalent, 0-1 schaal) wordt toegewezen. De standaardinstelling is Uren.
 
-   Voor informatie over FTE, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+   Voor informatie over FTE, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 1. Klik **Nieuwe rij** om een taak aan de taak toe te voegen.
 
@@ -144,7 +144,7 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
 
    Als aan de gebruiker kenmerken zijn toegewezen aan hun profiel, worden deze in de taaktoewijzing ingevuld.
 
-1. Om een baanrol toe te voegen wanneer u niet de gebruiker kent die aan de taak zal werken, klik in de **kolom van de Rol 0} Toegewezen {.** Typ de naam van de taakrol en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+1. Om een baanrol toe te voegen wanneer u niet de gebruiker kent die aan de taak zal werken, klik in de **kolom van de Rol 0&rbrace; Toegewezen &lbrace;.** Typ de naam van de taakrol en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
    >[!NOTE]
    >
@@ -158,7 +158,7 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
    * Gedeeltelijke overeenkomst: taakrol en enkele kenmerken
    * Alleen taakrollen
 
-   Voor informatie over het geavanceerde onderzoek, zie [ Gebruik het geavanceerde onderzoek ](#use-the-advanced-search) in dit artikel.
+   Voor informatie over het geavanceerde onderzoek, zie [&#x200B; Gebruik het geavanceerde onderzoek &#x200B;](#use-the-advanced-search) in dit artikel.
 
 1. (Optioneel) Voeg desgewenst toewijzingen toe aan nieuwe rijen om meerdere bronnen aan de taak toe te voegen.
 
@@ -169,7 +169,7 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
    >
    >* Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* Als een gebruiker, een baanrol, of een team werden toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
@@ -185,7 +185,7 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
 
    >[!IMPORTANT]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw projectvoorkeuren heeft ingesteld, kan Workfront het schema van de taakeigenaar gebruiken om de tijdlijn van de taak te berekenen wanneer meerdere gebruikers aan de taak zijn toegewezen. Voor informatie over veelvoudige taaktoegewezen, zie de [ Overwegingen voor veelvoudige taken aan baanrollen, teams, en gebruikers ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) sectie in het artikel [ toewijzen taken ](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw projectvoorkeuren heeft ingesteld, kan Workfront het schema van de taakeigenaar gebruiken om de tijdlijn van de taak te berekenen wanneer meerdere gebruikers aan de taak zijn toegewezen. Voor informatie over veelvoudige taaktoegewezen, zie de [&#x200B; Overwegingen voor veelvoudige taken aan baanrollen, teams, en gebruikers &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) sectie in het artikel [&#x200B; toewijzen taken &#x200B;](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
 1. Voor elke gebruiker in de **Assignee** kolom, specificeer de volgende informatie:
 
@@ -197,27 +197,27 @@ Deze indeling van Geavanceerde toewijzingen is alleen van toepassing op taken. V
 
      Een de baanrol op projectniveau voor het factureren kan ook voor een gebruiker worden geplaatst, en die waarde wordt gebruikt op alle taken van de gebruiker op dat project.
 
-     Voor meer informatie, zie [ Opstelling een Rol van de Baan voor het Factureren ](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
+     Voor meer informatie, zie [&#x200B; Opstelling een Rol van de Baan voor het Factureren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
 
    * **Toewijzing**: Wanneer het Type van Duur van een taak Eenvoudig is, specificeer het aantal uren elke gebruiker of baanrol aan de taak zou moeten worden toegewezen. De som van alle toegewezen uren voor elke gebruiker is gelijk aan het aantal op het **Geplande Uren** gebied bij de bovenkant van het Geavanceerde venster van Toewijzingen. In alle andere gevallen geeft u het percentage aan tijd (of toewijzing) op dat de toegewezen persoon moet besteden aan het oplossen van de taak.
 
      >[!TIP]
      >
-     >Nadat u de toewijzing van taken handmatig hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Merk op dat u geen toewijzingen voor teams kunt manueel wijzigen die aan taken worden toegewezen. Voor meer informatie, zie de sectie [ Geplande taak van de Update Uren wanneer het beheren van gebruikerstoewijzingen ](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) in het artikel [ Geplande overzicht van Uren ](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+     >Nadat u de toewijzing van taken handmatig hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Merk op dat u geen toewijzingen voor teams kunt manueel wijzigen die aan taken worden toegewezen. Voor meer informatie, zie de sectie [&#x200B; Geplande taak van de Update Uren wanneer het beheren van gebruikerstoewijzingen &#x200B;](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) in het artikel [&#x200B; Geplande overzicht van Uren &#x200B;](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
 
-   * **Attributen**: Om het even welke attributen beschikbaar voor de gebruiker worden getoond op de attributengebieden. De beheerder stelt de kenmerken in en deze worden toegevoegd aan het gebruikersprofiel of gekoppeld aan een taakrol in een tariefkaart. Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen en [ geef het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
+   * **Attributen**: Om het even welke attributen beschikbaar voor de gebruiker worden getoond op de attributengebieden. De beheerder stelt de kenmerken in en deze worden toegevoegd aan het gebruikersprofiel of gekoppeld aan een taakrol in een tariefkaart. Voor meer informatie, zie [&#x200B; tariefattributen &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen en [&#x200B; geef het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
 
      Kenmerken zijn momenteel alleen-lezen bij gebruikerstoewijzingen. Ze zijn bewerkbaar voor functies.
 
    * **de munteenheid van het Tarief**: De valuta voor het factureren en kostentarieven wordt in gebreke gesteld van het project, maar u kunt de munt voor deze taak veranderen.
 
-   * (Facultatief) **het Facturerings tarief**: Het factureringstarief kan uit andere gebieden van het systeem, zoals tariefkaarten komen. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). U kunt de factureringssnelheid voor deze specifieke toewijzing op dit gebied manueel met voeten treden, en het zal alle andere tarieven voor de gebruiker in opbrengstberekeningen met voeten treden.
-   * (Facultatief) **Tarief van Kosten**: Het kostentarief kan uit andere gebieden van het systeem komen. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). U kunt de kostenvoet voor deze specifieke taak op dit gebied manueel met voeten treden, en het zal alle andere tarieven voor de gebruiker in kostenberekeningen met voeten treden.
+   * (Facultatief) **het Facturerings tarief**: Het factureringstarief kan uit andere gebieden van het systeem, zoals tariefkaarten komen. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). U kunt de factureringssnelheid voor deze specifieke toewijzing op dit gebied manueel met voeten treden, en het zal alle andere tarieven voor de gebruiker in opbrengstberekeningen met voeten treden.
+   * (Facultatief) **Tarief van Kosten**: Het kostentarief kan uit andere gebieden van het systeem komen. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). U kunt de kostenvoet voor deze specifieke taak op dit gebied manueel met voeten treden, en het zal alle andere tarieven voor de gebruiker in kostenberekeningen met voeten treden.
    * **is Billable**: Selecteer deze optie om de taak in financiële berekeningen te omvatten. Schakel deze optie uit om de toewijzing uit te sluiten van financiële berekeningen.
 
      Dit veld is standaard ingeschakeld voor alle toewijzingen wanneer de taak een type inkomsten heeft.
 
-1. (Facultatief) om toewijzingsgegevens door datum voor een gebruiker of een rol te bekijken, selecteer de lijstrij en klik **Mening tegen data** in de actiebar bij de bodem van het Geavanceerde venster van Toewijzingen. Voor meer informatie, zie [ de taakgegevens van de Mening door data ](#view-assignment-data-by-dates) in dit artikel.
+1. (Facultatief) om toewijzingsgegevens door datum voor een gebruiker of een rol te bekijken, selecteer de lijstrij en klik **Mening tegen data** in de actiebar bij de bodem van het Geavanceerde venster van Toewijzingen. Voor meer informatie, zie [&#x200B; de taakgegevens van de Mening door data &#x200B;](#view-assignment-data-by-dates) in dit artikel.
 1. (Facultatief) om één of meerdere taken van de lijst te schrappen, de controledoos voor elke rij te selecteren, en **Schrapping** in de actiebar bij de bodem van het Geavanceerde venster van Toewijzingen te klikken.
 1. Klik **sparen** of **sparen en sluit** wanneer u gebeëindigd het uitgeven van de Geavanceerde Toewijzingen bent.
 
@@ -227,7 +227,7 @@ Velden moeten bestaan voordat u ze aan de lijst kunt toevoegen.
 
 1. Klik **+** op het hoogste recht van de lijst om de **manager van de Kolom** te openen.
 
-   ![ Geavanceerde Manager van de Kolom van Toewijzingen ](assets/aa-column-manager.png)
+   ![&#x200B; Geavanceerde Manager van de Kolom van Toewijzingen &#x200B;](assets/aa-column-manager.png)
 
 1. Selecteer het **lusje van Eigenschappen** of het **KPIs** lusje om het type van gebied te kiezen u wilt toevoegen.
 
@@ -237,7 +237,7 @@ Velden moeten bestaan voordat u ze aan de lijst kunt toevoegen.
 1. Klik **-** rechts van een gebied in de **Geselecteerde** sectie om het uit de lijst te verwijderen.
 1. Klik **sparen**.
 
-   Voor meer informatie over de manager van de Kolom, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Voor meer informatie over de manager van de Kolom, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ### Een weergave toepassen op de lijst Geavanceerde toewijzingen
 
@@ -251,7 +251,7 @@ Een weergave is een gepersonaliseerde set kolomregelingen die u op de lijst kunt
 
    Wanneer u de kolommen toevoegt, verwijdert of opnieuw rangschikt, worden de wijzigingen automatisch in de weergave opgeslagen. De volgende keer dat u deze weergave toepast, blijven de kolommen behouden zoals u ze instelt.
 
-   Voor meer informatie over meningen, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Voor meer informatie over meningen, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ### De geavanceerde zoekopdracht gebruiken
 
@@ -271,13 +271,13 @@ Met de geavanceerde zoekopdracht kunt u de juiste gebruiker of taakrol zoeken di
    1. Selecteer een filtermodifier, zoals &quot;Heeft een van de opties,&quot; &quot;Heeft geen van de opties&quot;, &quot;Is ervoor&quot; of &quot;Is erna&quot;. De opties voor wijzigingstoetsen zijn afhankelijk van het type veld waarop u filtert.
    1. Selecteer de veldwaarde(n). Afhankelijk van het veldtype waarop u filtert, wordt u mogelijk gevraagd het item in een lijst te selecteren, ernaar te zoeken of een kalender te gebruiken om een datumbereik te selecteren.
 
-   Het filter wordt automatisch toegepast op de lijst. Voor meer informatie over filters, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Het filter wordt automatisch toegepast op de lijst. Voor meer informatie over filters, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. Zoeken naar een taakrol of gebruiker.
 
    Bij het zoeken naar een gebruiker die een taakroltoewijzing aanpast, worden alleen volledige overeenkomsten (taakrol en alle kenmerken) weergegeven.
 
-1. Klik **+** om kolommen aan de lijst toe te voegen. Voor meer informatie, zie [ kolommen op de Geavanceerde lijst van Toewijzingen toevoegen en verwijderen ](#add-and-remove-columns-on-the-advanced-assignments-list).
+1. Klik **+** om kolommen aan de lijst toe te voegen. Voor meer informatie, zie [&#x200B; kolommen op de Geavanceerde lijst van Toewijzingen toevoegen en verwijderen &#x200B;](#add-and-remove-columns-on-the-advanced-assignments-list).
 1. Selecteer één of meerdere gebruikers of baanrollen, en de klik **voegt Gebruikers** toe of **voegt Rollen** in de actiebar bij de bodem van het venster toe.
 
    De toewijzingen worden toegevoegd in het venster Geavanceerde toewijzingen.
@@ -306,7 +306,7 @@ U kunt toewijzingsgegevens alleen op datums weergeven voor één gebruiker of ro
 
    Elke rij in de tabel vertegenwoordigt een datum-effectieve wijziging in de toewijzing. Als er geen datum-effectieve wijzigingen zijn aangebracht, bevat de tabel één rij met de huidige gegevens. Gemarkeerde velden geven aan wat is gewijzigd en de begin- en einddatum voor elke update worden vermeld. Als bijvoorbeeld de factureringssnelheid op 21 augustus van 202 tot 205 is veranderd, wordt de frequentie gemarkeerd. De tekst tussen haakjes geeft aan waar de wijziging in de frequentie is aangebracht, zoals een project.
 
-   ![ Mening door datumvenster ](assets/resource-changes-view-by-dates.png)
+   ![&#x200B; Mening door datumvenster &#x200B;](assets/resource-changes-view-by-dates.png)
 
    Wanneer u de gegevens hebt gecontroleerd, klikt u op de pijl linksboven om terug te keren naar het venster Geavanceerde toewijzingen.
 
@@ -322,9 +322,9 @@ Deze indeling van Geavanceerde toewijzingen is van toepassing op zowel taken als
    >[!TIP]
    >
    >U kunt geavanceerde taken rechtstreeks in de taak- of uitgavelijst plaatsen. Klik binnen het **gebied van Taken** op de zelfde lijn zoals de taak of de kwestie, dan klik **Geavanceerd** bij de bodem van de lijst, of het **pictogram van Mensen** in de hoger-juiste hoek van de toewijzingsdoos, om het Geavanceerde venster van Toewijzingen te openen. Ga verder met stap 5 om door te gaan met het maken van geavanceerde toewijzingen.
-   >![ klik Geavanceerd of het pictogram van Mensen ](assets/access-aa-from-lists.png)
+   >![&#x200B; klik Geavanceerd of het pictogram van Mensen &#x200B;](assets/access-aa-from-lists.png)
 
-1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak of de kwestie**
+1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak of de kwestie**
 
    of
 
@@ -332,7 +332,7 @@ Deze indeling van Geavanceerde toewijzingen is van toepassing op zowel taken als
 
 1. Klik **Geavanceerd**.
 
-   ![ klik Geavanceerde ](assets/assignments-from-task-header-0825.png)
+   ![&#x200B; klik Geavanceerde &#x200B;](assets/assignments-from-task-header-0825.png)
 
 1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen, dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
 
@@ -349,7 +349,7 @@ Deze indeling van Geavanceerde toewijzingen is van toepassing op zowel taken als
    >
    >* Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen.
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* Als een gebruiker, een baanrol, of een team werden toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
@@ -363,27 +363,27 @@ Deze indeling van Geavanceerde toewijzingen is van toepassing op zowel taken als
 
      >[!IMPORTANT]
      >
-     >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw projectvoorkeuren heeft ingesteld, kan Workfront het schema van de taakeigenaar gebruiken om de tijdlijn van de taak te berekenen wanneer meerdere gebruikers aan de taak zijn toegewezen. Voor informatie over veelvoudige taaktoegewezen, zie de [ Overwegingen voor veelvoudige taken aan baanrollen, teams, en gebruikers ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) sectie in het artikel [ toewijzen taken ](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw projectvoorkeuren heeft ingesteld, kan Workfront het schema van de taakeigenaar gebruiken om de tijdlijn van de taak te berekenen wanneer meerdere gebruikers aan de taak zijn toegewezen. Voor informatie over veelvoudige taaktoegewezen, zie de [&#x200B; Overwegingen voor veelvoudige taken aan baanrollen, teams, en gebruikers &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) sectie in het artikel [&#x200B; toewijzen taken &#x200B;](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Toewijzingen**: Wanneer het Type van Duur van een taak Eenvoudig is, specificeer het aantal uren elke gebruiker of baanrol aan de taak zou moeten worden toegewezen. De som van alle toegewezen uren voor elke gebruiker is gelijk aan het aantal op het **Geplande Uren** gebied bij de bodem van de kolom van Toewijzingen. In alle andere gevallen geeft u het percentage aan tijd (of toewijzing) op dat de toegewezen persoon moet besteden aan het oplossen van de taak of kwestie.
 
      >[!TIP]
      >   
-     >   * Nadat u de toewijzing van taken handmatig hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Voor meer informatie, zie de sectie [ Geplande taak van de Update Uren wanneer het beheren van gebruikerstoewijzingen ](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) in het artikel [ Geplande overzicht van Uren ](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+     >   * Nadat u de toewijzing van taken handmatig hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Voor meer informatie, zie de sectie [&#x200B; Geplande taak van de Update Uren wanneer het beheren van gebruikerstoewijzingen &#x200B;](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) in het artikel [&#x200B; Geplande overzicht van Uren &#x200B;](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
      >   * U kunt toewijzingen niet handmatig wijzigen bij uitgaven.
      >   * U kunt toewijzingen voor teams die aan taken zijn toegewezen niet handmatig wijzigen.
 
-   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0} toewijzen {om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
+   * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het **vakje van de Rol van 0&rbrace; toewijzen &lbrace;om een andere rol te selecteren.** Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
 
-     ![ Rol van de Ontvanger ](assets/advanced-assignments-select-role.png)
+     ![&#x200B; Rol van de Ontvanger &#x200B;](assets/advanced-assignments-select-role.png)
 
-   * **Type van Duur**: Dit is slechts beschikbaar voor taken. Klik de naam van het Type van Duur en selecteer een Type van Duur van het drop-down menu. Voor informatie over de Types van Duur, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Type van Duur**: Dit is slechts beschikbaar voor taken. Klik de naam van het Type van Duur en selecteer een Type van Duur van het drop-down menu. Voor informatie over de Types van Duur, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    * **Duur:** u kunt dit gebied voor een taak bijwerken wanneer u beheertoestemmingen aan de taak hebt.
 
-     Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Bij het bewerken van grote hoeveelheden toewijzingsgegevens wordt een vergelijkbaar dialoogvenster weergegeven waarin gebruikers, uren, toewijzing en taakeigenaar worden toegewezen.
+     Voor meer informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Bij het bewerken van grote hoeveelheden toewijzingsgegevens wordt een vergelijkbaar dialoogvenster weergegeven waarin gebruikers, uren, toewijzing en taakeigenaar worden toegewezen.
 
-   * **Geplande Uren**: Wanneer het Type van Duur Toewijzing of Eenvoudig wordt berekend, werk het aantal Geplande Uren bij. De toewijzingspercentages of de uren voor elke bron worden als gevolg hiervan gelijkmatig verdeeld. Workfront berekent de geplande uren wanneer het Duur-type Berekend Werk of Gedreven Inspanning is. Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Geplande Uren**: Wanneer het Type van Duur Toewijzing of Eenvoudig wordt berekend, werk het aantal Geplande Uren bij. De toewijzingspercentages of de uren voor elke bron worden als gevolg hiervan gelijkmatig verdeeld. Workfront berekent de geplande uren wanneer het Duur-type Berekend Werk of Gedreven Inspanning is. Voor meer informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. Klik **sparen**.
 

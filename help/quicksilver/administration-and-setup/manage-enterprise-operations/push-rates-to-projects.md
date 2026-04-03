@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Wanneer een tariefkaart aan een project <!--or a staffing plan--> in bijlage is, kunnen de tarieven op de tariefkaart nog worden aangepast. Dan, kunt u die tarieven naar keuze duwen aan de projecten <!--and staffing plans --> waaraan de tariefkaart in bijlage is. Als u niet de nieuwe tarieven duwt, dan blijven de originele tarieven op het project <!-- or staffing plan-->.
 
-Voor informatie over het vastmaken van een tariefkaart aan een project, zie [ een tariefkaart aan een project ](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
+Voor informatie over het vastmaken van een tariefkaart aan een project, zie [&#x200B; een tariefkaart aan een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie over het vastmaken van een tariefkaart aan een project, zie [ ee
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

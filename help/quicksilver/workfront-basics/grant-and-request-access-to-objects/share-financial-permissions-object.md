@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen of financiën voor specifieke projecten, taken, of kwesties beheren die u toegang hebt om te delen.
 
-Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [ Financiële gegevens ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [&#x200B; Financiële gegevens &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Toegangsvereisten
 
@@ -86,7 +86,7 @@ drafted for P&P:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -224,4 +224,4 @@ In de volgende tabel wordt aangegeven welke financiële machtigingen gebruikers 
 
 &#42; vereist de extra toegang van het Beheer van het Middel.
 
-Voor informatie over de toegang van het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over de toegang van het Beheer van het Middel, zie [&#x200B; Toegang van de Verlening tot het Beheer van het Middel &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

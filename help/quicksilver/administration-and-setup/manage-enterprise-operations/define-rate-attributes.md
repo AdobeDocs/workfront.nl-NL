@@ -119,7 +119,7 @@ Wanneer u plaatsaanduidingstoewijzingen kunt maken die zijn gekoppeld aan de jui
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,11 +135,11 @@ Filters bepalen hoe kenmerkwaarden worden voorgesteld en gevalideerd bij het def
 
    >[!NOTE]
    >
-   >U kunt tot vijf attributen in het diagram hebben. De volgorde van boven naar beneden definieert de hiërarchie van de manier waarop de kenmerken worden toegepast. Klik **roteren** pictogram ![ roteer pictogram ](assets/rotate-attribute-view-icon.png) om het diagram van links naar rechts te tonen. U kunt ook in- of uitzoomen en het diagram aan het scherm aanpassen.
+   >U kunt tot vijf attributen in het diagram hebben. De volgorde van boven naar beneden definieert de hiërarchie van de manier waarop de kenmerken worden toegepast. Klik **roteren** pictogram ![&#x200B; roteer pictogram &#x200B;](assets/rotate-attribute-view-icon.png) om het diagram van links naar rechts te tonen. U kunt ook in- of uitzoomen en het diagram aan het scherm aanpassen.
 
 1. Selecteer een kenmerk om het configuratievenster rechts van het scherm te openen.
 
-   ![ vorm tariefattributen ](assets/configure-rate-attributes.png)
+   ![&#x200B; vorm tariefattributen &#x200B;](assets/configure-rate-attributes.png)
 
 1. Wijzig de naam van de objecten (Groep, Bedrijf, Locatie) in de termen die nodig zijn voor uw bedrijf (zoals Bureau, Locatie, Kostenplaats).
 1. Klik **sparen** op elk attribuut om uw noemende overeenkomst te bewaren.

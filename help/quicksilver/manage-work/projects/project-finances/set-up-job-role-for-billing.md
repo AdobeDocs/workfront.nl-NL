@@ -30,7 +30,7 @@ U kunt een Rol van de Baan voor het Factureren op twee manieren toewijzen:
 >* Het toevoegen van een Rol van de Baan voor het Factureren beïnvloedt slechts het factureringstarief, niet kosten.
 >* Facturering op taakniveau heeft altijd voorrang op facturering op projectniveau.
 
-Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [ creeer geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [&#x200B; creeer geavanceerde taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +109,7 @@ Om een baanrol voor het factureren op het taakniveau toe te wijzen:
 1. Open een project en zoek de taak.
 1. Ga naar de van de taak **Geavanceerde Taken**.
 
-   Voor informatie, zie [ Geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+   Voor informatie, zie [&#x200B; Geavanceerde taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
 1. Voor het net van de taaktaak, bepaal de plaats van de kolom **rol van de Baan voor het factureren**.
 1. Selecteer een taakrol voor elke toewijzing waar u verschillende facturering wilt.
@@ -119,7 +119,7 @@ Om een baanrol voor het factureren op het taakniveau toe te wijzen:
    >Als een baanrol voor het factureren op het projectniveau werd toegewezen, verschijnt het op de taak. U kunt op de **rol van de Baan voor het factureren** gebied klikken en een andere baanrol selecteren voor de taak te gebruiken.
    >Het informatiepictogram geeft een melding of een taakrol voor facturering is gedefinieerd op het project of het toewijzingsniveau.
 
-   ![ rol van de Baan voor het factureren op een taak ](assets/jrfb-assignment-level.png)
+   ![&#x200B; rol van de Baan voor het factureren op een taak &#x200B;](assets/jrfb-assignment-level.png)
 
 ### Voorbeeld op toewijzingsniveau
 

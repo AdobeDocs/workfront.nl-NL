@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Wanneer u een aangepast veld maakt, kunt u optionele instellingen definiëren om de toegang tot financiële gegevens te beperken. Op deze manier kunnen gebruikers die bepaalde machtigingen hebben ingesteld in hun toegangsniveaus de gegevens zien en kunnen ze geen financiële gegevens zien waartoe ze geen toegang zouden moeten hebben.
 
-Voor informatie over het creëren van een douanegebied, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over het creëren van een douanegebied, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-Voor informatie over toegangsniveaus, zie [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Voor informatie over het delen en toestemmingen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor informatie over toegangsniveaus, zie [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Voor informatie over het delen en toestemmingen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie over toegangsniveaus, zie [ overzicht van de Niveaus van de Toeg
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Maak een nieuw aangepast formulier of open een bestaand formulier.
 
-   Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Voeg een aangepast veld toe aan het formulier of selecteer een bestaand veld.
 

@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-Een tariefkaart vertegenwoordigt de contractuele overeenkomst met uw cliënt waarin uurtarieven voor de baanrollen worden bepaald die het werk zullen voltooien. In een tariefkaart, kunt u veelvoudige factureringstarieven per baanrol bepalen, die op attributen zoals agentschap, plaats, of kostenplaats wordt gebaseerd. Uw unieke tariefattributen worden gevormd in het gebied van de Opstelling. Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
+Een tariefkaart vertegenwoordigt de contractuele overeenkomst met uw cliënt waarin uurtarieven voor de baanrollen worden bepaald die het werk zullen voltooien. In een tariefkaart, kunt u veelvoudige factureringstarieven per baanrol bepalen, die op attributen zoals agentschap, plaats, of kostenplaats wordt gebaseerd. Uw unieke tariefattributen worden gevormd in het gebied van de Opstelling. Voor meer informatie, zie [&#x200B; tariefattributen &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
 
 U zou bijvoorbeeld een functie van Designer kunnen hebben die in Parijs gevestigd is voor Bureau A, een andere Designer die in Parijs gevestigd is voor Bureau B, en een derde Designer die in New York gevestigd is en niet aan een agentschap toegewezen is, elk met verschillende factureringstarieven. Kenmerken zijn echter niet vereist voor taakrollen op een tariefkaart. De kenmerken dienen als gereedschappen voor het vaststellen van kortere snelheden. Een factureringstarief op een tariefkaart kan ook datatarakter effectief zijn, zodat het tarief begint en op gespecificeerde data eindigt.
 
-U kunt tarieven op een tariefkaart ook sluiten om hen te verhinderen op het project of taakniveau worden met voeten getreden. Vergrendelde snelheden zijn de hoogste in de hiërarchie van factureringssnelheden, behalve voor behouden tarieven voor een project. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+U kunt tarieven op een tariefkaart ook sluiten om hen te verhinderen op het project of taakniveau worden met voeten getreden. Vergrendelde snelheden zijn de hoogste in de hiërarchie van factureringssnelheden, behalve voor behouden tarieven voor een project. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ U kunt tarieven op een tariefkaart ook sluiten om hen te verhinderen op het proj
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    De naam moet uniek zijn.
 
-   ![ Nieuwe dialoog van de tariefkaart ](assets/new-rate-card-dialog.png)
+   ![&#x200B; Nieuwe dialoog van de tariefkaart &#x200B;](assets/new-rate-card-dialog.png)
 
 1. (Facultatief) selecteer a [!UICONTROL **Groep**] voor de tariefkaart. Dit is het bureau dat de tariefkaart bepaalt.
 1. (Facultatief) selecteer a [!UICONTROL **Bedrijf**] voor de tariefkaart. Dit is de cliënt waarvoor de tarieven worden gecontracteerd.
@@ -82,13 +82,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik [!UICONTROL **toevoegt baanrol**].
 1. In het [!UICONTROL **Nieuwe het FactureringsTarief**] vakje, selecteer de Rol van de a [!UICONTROL **Baan**] om het factureren tarieven voor te bepalen.
 
-   ![ Nieuwe de dialoog van het Tarief van het Facturerings ](assets/new-job-role-rate-on-rate-card.png)
+   ![&#x200B; Nieuwe de dialoog van het Tarief van het Facturerings &#x200B;](assets/new-job-role-rate-on-rate-card.png)
 
 1. (Optioneel) Selecteer kenmerken voor de factureringssnelheid, zoals Bureau, Locatie of Kostenplaats.
 
    >[!NOTE]
    >
-   >Deze eigenschappen worden afzonderlijk gedefinieerd en kunnen de opbrengsten- en kostprijsberekeningen beïnvloeden. Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
+   >Deze eigenschappen worden afzonderlijk gedefinieerd en kunnen de opbrengsten- en kostprijsberekeningen beïnvloeden. Voor meer informatie, zie [&#x200B; tariefattributen &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
 
 1. Selecteer a [!UICONTROL **Valuta**] voor het het factureren tarief.
 1. (Facultatief) ga alias van de a [!UICONTROL **rol van de Baan**] voor de baanrol in.
@@ -112,14 +112,14 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    * [!UICONTROL **Datum van het Begin**]: De datum wanneer het tarief begint.
    * [!UICONTROL **Datum van het Eind**]: De datum wanneer het tarief beëindigt.
 
-     De eerste factureringssnelheid is niet vereist om een begindatum te hebben en de laatste factureringssnelheid hoeft geen einddatum te hebben. Tussenruimten zijn toegestaan tussen de snelheidsdatums, maar overlappende datums zijn niet toegestaan. Tijdens een hiaat, worden andere gebieden van de het facturerings tariefhiërarchie gebruikt om het het factureren tarief te bepalen, dat op het opbrengsttype van een taak wordt gebaseerd. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+     De eerste factureringssnelheid is niet vereist om een begindatum te hebben en de laatste factureringssnelheid hoeft geen einddatum te hebben. Tussenruimten zijn toegestaan tussen de snelheidsdatums, maar overlappende datums zijn niet toegestaan. Tijdens een hiaat, worden andere gebieden van de het facturerings tariefhiërarchie gebruikt om het het factureren tarief te bepalen, dat op het opbrengsttype van een taak wordt gebaseerd. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 1. Klik [!UICONTROL **sparen**].
 1. (Facultatief) om een ander het facturerings tarief toe te voegen, of voor de zelfde baanrol met verschillende attributen of voor een afzonderlijke baanrol, klik [!UICONTROL **toevoegt baanrol**].
 
-   De tarieven voor elke rol worden toegevoegd aan de tariefkaart aangezien u hen creeert. Het momenteel efficiënte tarief, dat op de data wordt gebaseerd, wordt vermeld met een pictogram ![ Huidige tariefpictogram ](assets/current-rate-icon.png).
+   De tarieven voor elke rol worden toegevoegd aan de tariefkaart aangezien u hen creeert. Het momenteel efficiënte tarief, dat op de data wordt gebaseerd, wordt vermeld met een pictogram ![&#x200B; Huidige tariefpictogram &#x200B;](assets/current-rate-icon.png).
 
-   ![ kaart van het Tarief met getoonde tarieven ](assets/rates-on-rate-card.png)
+   ![&#x200B; kaart van het Tarief met getoonde tarieven &#x200B;](assets/rates-on-rate-card.png)
 
 ## Creditcardgegevens en tarieven bewerken
 
@@ -130,13 +130,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Om de details van de tariefkaart bij te werken, klik [!UICONTROL **Details**] in het linkerpaneel.
 1. (Facultatief) om een douaneformulier aan de tariefkaart vast te maken, klik [!UICONTROL **voeg douaneformulier**] gebied in de hoger-juiste hoek van de pagina van Details toe, en selecteer een douaneformulier van de lijst die toont.
 
-   Voor meer informatie bij het vastmaken van een douanevorm, zie [ een douanevorm aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+   Voor meer informatie bij het vastmaken van een douanevorm, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 1. Klik [!UICONTROL **sparen Veranderingen**] na het uitgeven van de details van de tariefkaart.
 1. Klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkerpaneel om de het factureren tarieven uit te geven.
 1. Om een tarief uit te geven, selecteer het controlevakje naast het tarief en klik [!UICONTROL **geef**] in de actiebar bij de bodem van het scherm uit.
 
-   Voor meer informatie over de actiebar, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Voor meer informatie over de actiebar, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    >[!NOTE]
    >
@@ -158,7 +158,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    1. Klik [!UICONTROL **aanpassen tarieven**] op de actiebar.
    1. In [!UICONTROL **pas de doos van de de baanrol van de Taak**] aan, kies of u de tariefaanpassing tijdens de geselecteerde tijdspanne (de bestaande efficiënte data) of een waaier van de douanedatum wilt gebeuren die u bepaalt.
 
-      ![ de doos van de banenroltarieven van de Pas ](assets/adjust-job-role-rates-dialog.png)
+      ![&#x200B; de doos van de banenroltarieven van de Pas &#x200B;](assets/adjust-job-role-rates-dialog.png)
 
    1. Voer de aanpassingswaarde voor de snelheden in.
 
@@ -171,7 +171,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Een tariefkaart importeren
 
-Zie de artikel [ kaarten van het het tarief van de Invoer van een malplaatje ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md).
+Zie de artikel [&#x200B; kaarten van het het tarief van de Invoer van een malplaatje &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md).
 
 ## Een creditcard kopiëren
 
@@ -188,7 +188,7 @@ Zie de artikel [ kaarten van het het tarief van de Invoer van een malplaatje ](/
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik [!UICONTROL **kaarten van het Tarief**].
-1. Selecteer de controledoos naast de tariefkaart in de lijst, en klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete.png).
+1. Selecteer de controledoos naast de tariefkaart in de lijst, en klik het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
 
    >[!NOTE]
    >
