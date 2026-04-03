@@ -7,9 +7,9 @@ description: U kunt de kosten voor projecten, taken en problemen in Adobe Workfr
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,13 @@ ht-degree: 0%
 
 <!-- Audited: 02/2024 -->
 
+{{highlighted-preview}}
+
 U kunt de kosten voor projecten, taken en problemen in Adobe Workfront bijhouden.
 
-## Hoe Workfront kosten berekent
+<div class="preview">
+
+## Hoe Workfront kosten berekent - Workflow Ultimate-pakket
 
 Om kosten te volgen, moet u gebruikers en baanrollen met uurkostentarieven associëren.
 
@@ -30,13 +34,39 @@ De volgende scenario&#39;s bestaan:
 
 * Als het Type van Kosten van uw taken Uur van de Gebruiker is, berekent het tarief van het gebruikersuur de taak en projectkosten.
 
-  Voor informatie over het associëren van gebruikers met kostentarieven, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+  Voor informatie over het associëren van gebruikers met kostentarieven, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * Als het Type van Kosten van uw taken de Uur van de Rol is, berekent de baan het uurtarief van de rol de taak en projectkosten.
 
-  Voor informatie over het associëren van baanrollen met kostentarieven, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+  Voor informatie over het associëren van baanrollen met kostentarieven, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
-* Workfront berekent alleen de werkelijke kosten voor uitgaven en uitgaven hebben geen Type kosten. Voor meer informatie, zie de sectie [&#x200B; Hoe Workfront kosten voor kwesties &#x200B;](#how-workfront-tracks-costs-for-issues) in dit artikel volgt.
+* Als het Type van Kosten van uw taken Gebruiker en Rol Uur is, berekent de hiërarchie van het kostentarief de taak en projectkosten.
+
+  Voor informatie over het met voeten treden van het tarief van de gebruikerskosten op het projectniveau, zie [ de tarieven van de gebruikerskosten op het projectniveau ](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md) met voeten treden.
+
+  Voor informatie over de hiërarchie van het kostentarief, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+* Workfront berekent alleen de werkelijke kosten voor uitgaven en uitgaven hebben geen Type kosten. Voor meer informatie, zie de sectie [ Hoe Workfront kosten voor kwesties ](#how-workfront-tracks-costs-for-issues) in dit artikel volgt.
+
+</div>
+
+## Hoe Workfront kosten berekent - alle andere pakketten
+
+Om kosten te volgen, moet u gebruikers en baanrollen met uurkostentarieven associëren.
+
+De kostencijfers van de uren zijn bedragen van kosten per het werkeenheid verbonden aan baanrollen of gebruikers. Door de tarieven te vermenigvuldigen met de uren die aan het werk worden besteed, worden kosten voor uw projecten, taken of problemen gegenereerd.
+
+De volgende scenario&#39;s bestaan:
+
+* Als het Type van Kosten van uw taken Uur van de Gebruiker is, berekent het tarief van het gebruikersuur de taak en projectkosten.
+
+  Voor informatie over het associëren van gebruikers met kostentarieven, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+
+* Als het Type van Kosten van uw taken de Uur van de Rol is, berekent de baan het uurtarief van de rol de taak en projectkosten.
+
+  Voor informatie over het associëren van baanrollen met kostentarieven, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+
+* Workfront berekent alleen de werkelijke kosten voor uitgaven en uitgaven hebben geen Type kosten. Voor meer informatie, zie de sectie [ Hoe Workfront kosten voor kwesties ](#how-workfront-tracks-costs-for-issues) in dit artikel volgt.
 
 >[!TIP]
 >
@@ -47,8 +77,8 @@ De volgende scenario&#39;s bestaan:
 Workfront berekent een aantal kostenprestatiesindexen voor projecten zodat kunnen de projecten voor kostenefficiency worden gevolgd.\
 Voor meer informatie over het berekenen van kosten-prestatiesindexen, zie:
 
-* [&#x200B; berekent de Index van de Prestaties van Kosten (CPI) &#x200B;](../../../manage-work/projects/project-finances/calculate-cpi.md)
-* [&#x200B; berekent de Index van de Prestaties van het Programma van Kosten (CSI) &#x200B;](../../../manage-work/projects/project-finances/calculate-csi.md)
+* [ berekent de Index van de Prestaties van Kosten (CPI) ](../../../manage-work/projects/project-finances/calculate-cpi.md)
+* [ berekent de Index van de Prestaties van het Programma van Kosten (CSI) ](../../../manage-work/projects/project-finances/calculate-csi.md)
 * [Prestatie-index (SPI) voor planning berekenen](../../../manage-work/projects/project-finances/calculate-spi.md)
 
 ## Hoe Workfront de kosten voor taken en projecten traceert
@@ -86,16 +116,16 @@ U kunt verschillende soorten kosten bijhouden voor taken en projecten in Workfro
    </tbody> 
   </table>
 
-  Voor meer informatie, zie [&#x200B; hoe Workfront Geplande, Gefabriceerde, en Ware kostensectie &#x200B;](#how-workfront-calculates-planned-budgeted-and-actual-costs) in dit artikel berekent.
+  Voor meer informatie, zie [ hoe Workfront Geplande, Gefabriceerde, en Ware kostensectie ](#how-workfront-calculates-planned-budgeted-and-actual-costs) in dit artikel berekent.
 
 * **de Kosten van de Uitgaven** worden geassocieerd met uitgaven op projecten en taken.\
-  Wanneer u een project creeert, kunt u geplande uitgaven voor het volledige project plaatsen. Daarnaast kunt u uitgaven koppelen aan nieuwe of bestaande taken. Voor informatie, zie [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Wanneer u een project creeert, kunt u geplande uitgaven voor het volledige project plaatsen. Daarnaast kunt u uitgaven koppelen aan nieuwe of bestaande taken. Voor informatie, zie [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * **Vaste Kosten** worden bepaald als vaste hoeveelheid kosten voor een project. Dit maakt deel uit van de geplande kosten van het project, dat het bedrag vertegenwoordigt dat u nodig hebt om het project te voltooien.
 
   >[!TIP]
   >
-  >Wanneer het vastmaken van een malplaatje aan een project, worden de Vaste Kosten van een malplaatje toegevoegd aan Vaste Kosten van het project. Voor informatie, zie [&#x200B; Overzicht van het vastmaken van een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
+  >Wanneer het vastmaken van een malplaatje aan een project, worden de Vaste Kosten van een malplaatje toegevoegd aan Vaste Kosten van het project. Voor informatie, zie [ Overzicht van het vastmaken van een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
 
 ### Hoe Workfront geplande, begrote en werkelijke kosten berekent {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
@@ -154,7 +184,7 @@ Het uurtarief in de formule houdt rekening met eventuele effectieve wijzigingen 
 >[!NOTE]
 >
 >De werkelijke kosten van het project worden als volgt berekend:
->&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Deze kosten worden niet gedupliceerd in de berekening van de werkelijke kosten. Als bijvoorbeeld een vaste kostprijs deel uitmaakt van de werkelijke kosten van het project, wordt deze niet afzonderlijk toegevoegd aan de werkelijke kosten.
 
@@ -164,7 +194,7 @@ Het uurtarief in de formule houdt rekening met eventuele effectieve wijzigingen 
 >
 >* Standaard gebruikt Workfront de kosten per uur van de gebruiker om de werkelijke loonkosten te berekenen.
 >* Als de gebruiker die de tijd registreert niet met om het even welke kosten wordt geassocieerd, dan gebruikt Workfront de Kosten per Uur tarief van de Primaire Rol van de gebruiker.
->* Als uw beheerder van Workfront de **toe:wijzen de Rollen van de Baan aan uuringangen manueel** plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren van Opstelling, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van het project gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+>* Als uw beheerder van Workfront de **toe:wijzen de Rollen van de Baan aan uuringangen manueel** plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren van Opstelling, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van het project gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ### Hoe Workfront kostentypen berekent voor taken {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -172,7 +202,7 @@ De geplande en werkelijke kosten van de taken en hun arbeidskosten worden bepaal
 
 U kunt het Type van Kosten voor individuele taken binnen het project vormen. Elk kostentype beïnvloedt de Geplande Kosten en de Ware Waarden van Kosten.
 
-Voor informatie over hoe te om het Type van Kosten van een taak te wijzigen, zie [&#x200B; het Type van Kosten van de Taak van de Update &#x200B;](../../../manage-work/tasks/task-information/update-task-cost-type.md).
+Voor informatie over hoe te om het Type van Kosten van een taak te wijzigen, zie [ het Type van Kosten van de Taak van de Update ](../../../manage-work/tasks/task-information/update-task-cost-type.md).
 
 In de volgende tabel worden de beschikbare typen kosten voor taken in Workfront beschreven:
 
@@ -191,11 +221,15 @@ In de volgende tabel worden de beschikbare typen kosten voor taken in Workfront 
       <li>Als u veelvoudige middelen aan een taak toewijst, past Workfront berekeningen voor Geplande Kosten aan op basis van het percentage van de taak die aan elk middel wordt toegewezen.</li>
       <li>Voor de effectieve kostenpercentages op de datum is de geraamde loonkosten de som van de geplande kosten van elke periode waarop de taak betrekking heeft.</li>
       <li>De waarde van het Geplande gebied van Kosten kan verschillen afhankelijk van of u de Geplande Kosten van de taak zelf of van het rapport van het Gebruik bekijkt.<br><strong> wanneer het bekijken Geplande Kosten van de taak zelf:</strong> het Geplande gebied van Kosten neemt rekening met het Kosten/Hr- gebied dat op het niveau van de Rol van de Baan wordt geplaatst (wanneer het Kostengebied/Hr niet op het gebruikersniveau is geplaatst).<br><strong> wanneer het bekijken Geplande Kosten van het rapport van het Gebruik over het project:</strong> het Geplande gebied van Kosten houdt geen rekening met het Kosten/Hr- gebied dat op het niveau van de Rol van de Taak wordt geplaatst. In plaats daarvan, als u het rapport van het Gebruik om rekening te houden met het Kosten/Hr- gebied dat op het niveau van de Rol van de Baan wordt geplaatst, moet u het Type van Kosten op de taak plaatsen aan Rol. </li> 
-     </ul> </p> <p><strong> Ware Kosten </strong> wordt berekend door de volgende formule: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wanneer de werkelijke loonkosten worden berekend door:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Een gebruiker heeft bijvoorbeeld een kosten per uur van $20 in zijn profiel. Wanneer zij 5 uren voor een taak registreren, is de Ware Kosten van de Arbeid $100 voor die taak. Als de gebruiker geen Kosten per uur aan hen wordt geassocieerd, berekent de Ware Kosten gebaseerd op de Kosten per uur van hun Primaire Rol van de Baan. Als zij geen baan hebben of het Kosten per Uur tarief van hun baanrol niet wordt bepaald, dan is de Ware Kosten van de taak nul. </p> <p>Opmerking: de werkelijke kosten worden berekend op basis van de kosten per uur voor de gebruiker die de tijd registreert, ongeacht wie aan de taak is toegewezen. Ook wordt bij de facturering per uur in de formule rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> </td> 
+     </ul> </p> <p><strong> Ware Kosten </strong> wordt berekend door de volgende formule: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wanneer de werkelijke loonkosten worden berekend door:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Een gebruiker heeft bijvoorbeeld een kosten per uur van $20 in zijn profiel. Wanneer zij 5 uren voor een taak registreren, is de Ware Kosten van de Arbeid $100 voor die taak. Als de gebruiker geen Kosten per uur aan hen wordt geassocieerd, berekent de Ware Kosten gebaseerd op de Kosten per uur van hun Primaire Rol van de Baan. Als zij geen baan hebben of het Kosten per Uur tarief van hun baanrol niet wordt bepaald, dan is de Ware Kosten van de taak nul. </p> <p>Opmerking: de werkelijke kosten worden berekend op basis van de kosten per uur voor de gebruiker die de tijd registreert, ongeacht wie aan de taak is toegewezen. Ook wordt bij de bepaling van het kostenuurtarief in de formule rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Rol Uur</p> </td>
-   <td> <p><strong> Geplande Kosten </strong> wordt berekend door de volgende formule: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Wanneer de geplande loonkosten voor de taak worden berekend door:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Opmerking: als u meerdere bronnen aan een taak toewijst, past Workfront berekeningen voor geplande uren aan op basis van het percentage van de taak dat aan elke bron is toegewezen. Ook wordt bij het uurtarief in de formule rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> <p><strong> Ware Kosten </strong> wordt berekend door de volgende formule: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wanneer de werkelijke loonkosten van de taak worden berekend door:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Bijvoorbeeld, wordt een taak toegewezen aan een baanrol of een gebruiker met een baanrol waarvoor het Tarief van de Kosten per Uur $20 is. Wanneer een gebruiker 5 uur voor een taak registreert, is de Ware Kosten van de Arbeid $100 voor die taak. Als de gebruiker aan de taak wordt toegewezen geen baanrol verbonden aan hen op de taak heeft, berekent de Ware Kosten gebaseerd op de Kosten per uur van hun Primaire Rol van de Baan. Als zij geen baan hebben of het Kosten per Uur tarief van hun baanrol niet wordt bepaald, dan is de Ware Kosten van de taak nul. </p> <p>Nota: De Werkelijke Uren van een taak van de Rol berekenen die op de baanrollen van de gebruikers worden gebaseerd verbonden aan de taak, niet op de rollen verbonden aan de gebruiker die de tijd registreert. Ook wordt bij de facturering per uur in de formule rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> <p>Als uw beheerder van Workfront de <strong> Rollen van de Baan aan uuringangen manueel </strong> plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren in Opstelling toeliet, en de gebruiker die tijd op de taak registreert selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van een Rol Hourly taak gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref"> timesheet en uurvoorkeur </a> vormen.</p> </p> </td> 
+   <td> <p><strong> Geplande Kosten </strong> wordt berekend door de volgende formule: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Wanneer de geplande loonkosten voor de taak worden berekend door:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Opmerking: als u meerdere bronnen aan een taak toewijst, past Workfront berekeningen voor geplande uren aan op basis van het percentage van de taak dat aan elke bron is toegewezen. Ook wordt bij het uurtarief in de formule rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> <p><strong> Ware Kosten </strong> wordt berekend door de volgende formule: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wanneer de werkelijke loonkosten van de taak worden berekend door:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Bijvoorbeeld, wordt een taak toegewezen aan een baanrol of een gebruiker met een baanrol waarvoor het Tarief van de Kosten per Uur $20 is. Wanneer een gebruiker 5 uur voor een taak registreert, is de Ware Kosten van de Arbeid $100 voor die taak. Als de gebruiker aan de taak wordt toegewezen geen baanrol verbonden aan hen op de taak heeft, berekent de Ware Kosten gebaseerd op de Kosten per uur van hun Primaire Rol van de Baan. Als zij geen baan hebben of het Kosten per Uur tarief van hun baanrol niet wordt bepaald, dan is de Ware Kosten van de taak nul. </p> <p>Nota: De Werkelijke Uren van een taak van het Uur van de Rol worden berekend gebaseerd op de baanrollen van de gebruikers verbonden aan de taak, niet op de rollen verbonden aan de gebruiker die de tijd registreert. Ook wordt bij de bepaling van het kostenuurtarief in de formule rekening gehouden met eventuele effectieve wijzigingen van het tarief op de datum.</p> <p>Als uw beheerder van Workfront de <strong> Rollen van de Baan aan uuringangen manueel </strong> plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren in Opstelling toeliet, en de gebruiker die tijd op de taak registreert selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van een Rol Hourly taak gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref"> timesheet en uurvoorkeur </a> vormen.</p> </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p><span class="preview">Uur gebruiker en rol</span></p> </td> 
+   <td> <p><span class="preview"><strong> Geplande Kosten </strong> wordt berekend door de volgende formule:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">Wanneer de geplande loonkosten voor de taak worden berekend door:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong> Ware Kosten </strong> wordt berekend door de volgende formule:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">Wanneer de werkelijke loonkosten van de taak worden berekend door:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Vast uurwerk</p> </td> 

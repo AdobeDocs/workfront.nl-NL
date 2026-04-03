@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,17 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-De kaarten van het tarief slaan veelvoudige factureringspercentages per baanrol op, die op plaats wordt gebaseerd. Je zou een baan kunnen hebben in Designer in Parijs en een tweede Designer in New York, elk met verschillende factureringssnelheden. Nochtans, wordt een plaats niet vereist voor baanrollen op een tariefkaart. Een factureringstarief voor een baanrol (en misschien plaats) op een tariefkaart kan efficiënte data ook omvatten.
+De kaarten van het tarief slaan veelvoudige factureringspercentages per baanrol op, die op attributen wordt gebaseerd. U zou bijvoorbeeld een functie van Designer kunnen hebben die in Parijs gevestigd is voor Bureau A, een andere Designer die in Parijs gevestigd is voor Bureau B, en een derde Designer die in New York gevestigd is en niet aan een agentschap toegewezen is, elk met verschillende factureringstarieven. Kenmerken zijn echter niet vereist voor taakrollen op een tariefkaart. De kenmerken dienen als gereedschappen voor het vaststellen van kortere snelheden. Een factureringstarief op een tariefkaart kan ook datatarakter effectief zijn, zodat het tarief begint en op gespecificeerde data eindigt.
 
-Wanneer u een tariefkaart aan een project vastmaakt, worden alle rollen door plaats en hun bijbehorende het factureren tarieven toegevoegd aan het project.
+Wanneer u een tariefkaart aan een project vastmaakt, worden alle rollen en hun bijbehorende het factureren tarieven toegevoegd aan het project.
 
 >[!NOTE]
 >
->Het vastmaken van een tariefkaart treedt om het even welke bestaande het facturerings tarieven op het project met voeten.
+>Het vastmaken van een tariefkaart treedt om het even welke bestaande tarief kaartfacturerings tarieven op het project met voeten. Overschrijvingen van factureringssnelheden die rechtstreeks aan het project zijn toegevoegd, worden niet verwijderd.
 
-U kunt de factureringstarieven van de tariefkaart direct in het project uitgeven. Dit heeft geen invloed op de tarieven die op de standaardtariefkaart worden opgeslagen.
+Voor informatie over het creëren van tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Voor informatie over het creëren van tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
-
-Voor algemene informatie over het met voeten treden van het factureringspercentages van de baanrol voor projecten en het berekenen van projectopbrengst, zie [&#x200B; Overzicht van het met voeten treden van de Facturerings van de Rol van de Taak en het berekenen van Inkomsten op een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor algemene informatie over het met voeten treden van het factureringspercentage van de baanrol voor projecten en het berekenen van projectopbrengst, zie [ Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project ](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Toegangsvereisten
 
@@ -40,43 +38,57 @@ Voor algemene informatie over het met voeten treden van het factureringspercenta
  <tbody> 
   <tr> 
    <td>Adobe Workfront-pakket</td> 
-   <td>Alle</td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licentie</td> 
-   <td>
-   <p>Standard</p>
-   <p>Plan</p></td> 
+   <td>Standard</td> 
   </tr> 
   <tr> 
    <td>Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Administratieve toegang tot functies</p></td> 
+   <td>Toegang tot projecten, financiële gegevens en betaalkaarten bewerken</td> 
   </tr> 
   <tr> 
    <td>Objectmachtigingen</td> 
-   <td>Machtigingen beheren voor het project met de optie Financiële gegevens bewerken </td> 
+   <td>Rechten voor het project beheren met de machtiging Factureringssnelheden bewerken</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een tariefkaart aan een project koppelen
 
 1. Ga naar het project.
-1. Klik **het Factureren Tarieven** in het linkerpaneel.
+1. Klik **Tarieven** in het linkerpaneel, dan selecteren **Facturering**.
 1. Klik **toevoegen het FactureringsTarief > een Kaart van het Tarief vastmaken**.
 
-   De pagina Een tariefkaart koppelen wordt geopend. Voor meer informatie, zie [&#x200B; tariefkaarten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren.
+   **maak een tariefkaart** doos vast opent. U kunt naar een tariefkaart in de lijst zoeken.
+
+   ![ maak een doos van de tariefkaart vast ](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >De Groep en het Bedrijf op de tariefkaarten worden gebruikt als filters op deze lijst. Omdat de projecten ook de gebieden van de Groep en van het Bedrijf omvatten, gebruikt Workfront deze waarden om de lijst van beschikbare tariefkaarten aan die relevant voor de context van het project te beperken, en niet alle tariefkaarten over het systeem.
+   >
+   >De overeenkomst hoeft niet exact te zijn. De kaarten van het tarief met lege Groep en/of de waarden van het Bedrijf kunnen nog afhankelijk van de de Groep/configuratie van het Bedrijf van het project verschijnen. Bijvoorbeeld, als een project een geselecteerde Groep heeft maar het Bedrijf leeg is, kunt u tariefkaarten zien verbonden aan die Groep zelfs als het Bedrijf van de tariefkaart verschillend of leeg is.
 
 1. Selecteer de tariefkaart aan het project toe te voegen, en **te klikken verbindt**.
 
    De tariefkaart en alle bijbehorende roltarieven worden toegevoegd aan de lijst met factureringssnelheden.
 
-   ![&#x200B; kaart van het Tarief die aan project &#x200B;](assets/billing-rates-added-from-rate-card.png) wordt toegevoegd
+   ![ kaart van het Tarief die aan project ](assets/rate-card-on-project.png) wordt toegevoegd
 
-   >[!NOTE]
-   >
-   >Op de lijst met factureringssnelheden kunt u een of meer functies verwijderen die afkomstig zijn van een tariefkaart. Als u een factureringsfrequentie voor een taakrol verwijdert uit het project, wordt deze niet verwijderd van de standaardtariefkaart.
+## Een tariefkaart uit een project verwijderen
+
+Wanneer u een tariefkaart uit een project verwijdert, worden al zijn banen roltarieven verwijderd. U kunt geen individueel tarief uit het project verwijderen dat uit een tariefkaart komt.
+
+Het tarief van de facturatie treedt voor gebruikers of baanrollen met voeten die rechtstreeks aan het project werden toegevoegd kan worden verwijderd zonder de volledige tariefkaart te verwijderen.
+
+1. Ga naar het project.
+1. Klik **Tarieven** in het linkerpaneel, dan selecteren **Facturering**.
+1. Klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-icon.png).
+1. Klik **bevestigen** op het bevestigingsbericht om de tariefkaart te verwijderen.
+

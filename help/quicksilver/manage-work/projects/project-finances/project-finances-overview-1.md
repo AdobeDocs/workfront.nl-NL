@@ -7,9 +7,9 @@ description: Het bijhouden van de projectfinanciën is essentieel voor het behee
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 5%
 
 ---
@@ -95,7 +95,7 @@ In de volgende tabel worden enkele financiën weergegeven die u kunt bijhouden i
   </tr> 
   <tr> 
    <td>Factureringstarieven</td> 
-   <td> <p>U kunt Factureringstarieven voor gebruikers of baanrollen vestigen.</p> <p>Voor informatie over het associëren van gebruikers met het factureren tarieven, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> <p>Voor informatie over het associëren van baanrollen met het factureren van tarieven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref"> baanrollen </a> creëren en beheren.</p> <p>Factureringstarieven berekenen de inkomsten van uw projecten en taken. U kunt rolhet factureren tarieven voor een project of voor een bedrijf met voeten treden. </p> <p>Voor informatie over het met voeten treden van factureringspercentages op projecten, zie <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref"> Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Baan en het berekenen van Inkomsten op een project </a>.</p> <p>Voor informatie over het met voeten treden van het factureringspercentages voor bedrijven, zie <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref"> project-Vlakke het Factureren Tarieven met het bedrijf-Vlakke Facturerings </a> met voeten treden.</p> </td> 
+   <td> <p>U kunt Factureringstarieven voor gebruikers of baanrollen vestigen.</p> <p>Voor informatie over het associëren van gebruikers met het factureren tarieven, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> <p>Voor informatie over het associëren van baanrollen met het factureren van tarieven, zie <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref"> baanrollen </a> creëren en beheren.</p> <p>Factureringstarieven berekenen de inkomsten van uw projecten en taken. U kunt rolhet factureren tarieven voor een project of voor een bedrijf met voeten treden. </p> <p>Voor informatie over het met voeten treden van het facturerings tarieven op projecten, zie <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref"> Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project </a>.</p> <p>Voor informatie over het met voeten treden van het factureringspercentages voor bedrijven, zie <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref"> project-Vlakke het Factureren Tarieven met het bedrijf-Vlakke Facturerings </a> met voeten treden.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

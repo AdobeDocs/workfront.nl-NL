@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -20,6 +22,8 @@ ht-degree: 0%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op gebruikers toepassen. Als u met toegangsniveaus werkt, is het belangrijk dat u begrijpt hoe ze samenwerken met de objectmachtigingen die gebruikers verlenen wanneer ze objecten met elkaar delen. Voor meer informatie over toegangsniveaus, zie:
 
@@ -54,7 +58,7 @@ Als Adobe Workfront-beheerder kunt u aangepaste toegangsniveaus maken en deze op
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,11 +67,11 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 {{step-1-to-setup}}
 
 1. Klik **Niveaus van de Toegang** in het linkerpaneel.
-1. Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan het **pictogram van het Exemplaar** ![&#x200B; klikken van het 1&rbrace; pictogram van het Exemplaar &lbrace;.](assets/copy-icon.png)
+1. Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan het **pictogram van het Exemplaar** ![ klikken van het 1} pictogram van het Exemplaar {.](assets/copy-icon.png)
 
    of
 
-   Als u een bestaand toegangsniveau uitgeeft, selecteer het toegangsniveau door de doos links van dat toegangsniveau te klikken, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+   Als u een bestaand toegangsniveau uitgeeft, selecteer het toegangsniveau door de doos links van dat toegangsniveau te klikken, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
 1. Voer in het vak dat wordt weergegeven een van de volgende handelingen uit om het aangepaste toegangsniveau te configureren:
 
@@ -191,25 +195,38 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
       <td role="rowheader">Gebruikers nooit toestaan om aankondigingen te verwijderen</td> 
       <td>Voorkomt dat gebruikers aankondigingen in het Aankondigingscentrum verwijderen. Voor meer informatie, zie <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref"> aankondigingen </a> verzenden.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Gebruikers toegang geven tot merken</td> 
+      <td>Hiermee kunnen gebruikers GenStudio Brands openen en beheren in Workfront. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref"> Toegang van de Verlening tot merktoestemmingen </a>.</td> 
+     </tr>
     </tbody> 
    </table>
 
+
+1. <span class="preview"> (Optioneel) Als u wilt voorkomen dat gebruikers met dit toegangsniveau bepaalde velden zien, voegt u de velden toe in de sectie Beperkte velden toevoegen. </span>
+
+   <span class="preview"> u kunt naar zowel inheemse als douanegebieden in deze sectie zoeken. Er is een grens van 20 beperkte gebieden.</span>
+
+   <span class="preview"> de gebieden worden beperkt wanneer het toegangsniveau aan een gebruiker als hun primair toegangsniveau of door een bedrijfsprofiel wordt toegewezen. Voor meer informatie over bedrijfsprofielen, zie [ Overzicht Bedrijfs van profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+
+   <span class="preview"> Een beperkt gebied van A is nog zichtbaar aan de gebruikers in het systeem, maar verschijnt als leeg of toont N.v.t. in plaats van daadwerkelijke gegevens.</span>
+
 1. (Voorwaardelijk en facultatief) als uw systeem van Workfront opstelling voor gebruikers is die tot veelvoudige bedrijven behoren, beperk het zicht tot andere gebruikers die op welk bedrijf worden gebaseerd zij tot in de sectie **Mensen in andere bedrijven zouden slechts gebruikers van** moeten bekijken.
 
-   U kunt de gebruikers beperken om enkel gebruikers van hun eigen bedrijf of van het bedrijf te zien u als primair bedrijf aangewezen. Het primaire bedrijf vertegenwoordigt doorgaans uw Workfront-account waar de meeste gebruikers werken. Voor meer informatie over het primaire bedrijf, zie [&#x200B; bedrijven &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+   U kunt de gebruikers beperken om enkel gebruikers van hun eigen bedrijf of van het bedrijf te zien u als primair bedrijf aangewezen. Het primaire bedrijf vertegenwoordigt doorgaans uw Workfront-account waar de meeste gebruikers werken. Voor meer informatie over het primaire bedrijf, zie [ bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
    >[!NOTE]
    >
    >Als twee gebruikers tot twee verschillende bedrijven behoren, maar zij kunnen allebei gebruikers van het primaire bedrijf zien, kunnen zij het gebied van Updates zien verbonden aan het primaire bedrijf.
 
-1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [&#x200B; worden vermeld toegang tot Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [&#x200B; toegang van de Verlening tot taken &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Klik **sparen**.
 
    Nadat het toegangsniveau wordt gecreeerd, kunt u het aan een gebruiker toewijzen (tenzij het een toegangsniveau van de Beheerder van het Systeem is).
 
-   Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+   Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
-   Voor informatie over hoe een beheerder van Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [&#x200B; een gebruiker volledige administratieve toegang verlenen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Voor informatie over hoe een beheerder van Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Standaard of Planner-gebruikers met beheerbare toegang tot functies {#planner-users}
 
@@ -217,7 +234,7 @@ Als u een gebruiker van de Norm of van de Planner administratieve toegang tot ba
 
 Later, als u administratieve toegang tot baanrollen voor de gebruiker onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat de Edit het Factureren van de Rol &amp; het plaatsen van de Tarieven van Kosten nog wordt toegelaten.
 
-Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](grant-access-financial.md).
+Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie [ toegang van de Verlening tot financiële gegevens ](grant-access-financial.md).
 
 
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Als beheerder van Adobe Workfront, kunt u de toegang van een gebruiker tot het volgende door het de toegangsniveau van de gebruiker bepalen, zoals die in [&#x200B; wordt verklaard het overzicht van de Niveaus van de Toegang &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
+Als beheerder van Adobe Workfront, kunt u de toegang van een gebruiker tot het volgende door het de toegangsniveau van de gebruiker bepalen, zoals die in [ wordt verklaard het overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
 * Financiële informatie over projecten in Workfront
 * Informatie over het budgetteren van bronnen in de hulpmiddelen voor het plannen van bronnen
@@ -50,7 +50,7 @@ Als beheerder van Adobe Workfront, kunt u de toegang van een gebruiker tot het v
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,15 +59,20 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 Houd rekening met het volgende wanneer u gebruikers toegang geeft tot financiële gegevens in Workfront:
 
 * Een gebruiker wiens toegangsniveau toegang tot financiële gegevens niet toestaat kan geen toegang verlenen die anderen zou toestaan om financiële gegevens te bekijken. Dit omvat het verlenen van toegang tot projecten die financiële gegevens tonen, of het wijzigen van een toegangsniveau om het bekijken van financiële gegevens toe te staan.
-* Een gebruiker van wie het toegangsniveau toegang tot financiële gegevens niet toestaat kan geen risico voor een project tot stand brengen. Voor meer informatie, zie [&#x200B; risico&#39;s op projecten &#x200B;](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
-* U kunt een toegangsniveau ook gebruiken om te bepalen welke activiteiten van het Beheer van Middelen een gebruiker aan begroting of meningsmiddeltoewijzing kan aanwenden. Voor informatie, zie [&#x200B; toegang van de Verlening tot het Beheer van het Middel &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Een gebruiker van wie het toegangsniveau toegang tot financiële gegevens niet toestaat kan geen risico voor een project tot stand brengen. Voor meer informatie, zie [ risico&#39;s op projecten ](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
+* U kunt een toegangsniveau ook gebruiken om te bepalen welke activiteiten van het Beheer van Middelen een gebruiker aan begroting of meningsmiddeltoewijzing kan aanwenden. Voor informatie, zie [ toegang van de Verlening tot het Beheer van het Middel ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* <span class="preview"> toegang tot het factureren tarieven, kostentarieven, en algemene financiering is afzonderlijk, toestaand nauwkeuriger controle voor verschillende gebruikersrollen die complexe financiële details behandelen. De algemene financiering is extra financiële gegevens die geen facturerings en kostentarieven omvatten.</span>
 
 ## Gebruikerstoegang tot financiële gegevens configureren met behulp van een aangepast toegangsniveau
 
-1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [&#x200B; wordt verklaard creeer of wijzig douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **Mening** of **geef** knoop aan het recht van Financiële Gegevens uit, dan selecteer de capaciteiten u onder **wilt verlenen - verbeter uw montages**.
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ Fijne financiële gegevenstoegang ](assets/financial-data-access-fine-tune.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ Fijne financiële gegevenstoegang ](assets/financial-data-fine-tune-nwe.png)
 
 1. (Facultatief) in **sta administratieve toegang voor** gebied toe, selecteer de volgende opties:
 
@@ -91,14 +96,14 @@ Houd rekening met het volgende wanneer u gebruikers toegang geeft tot financiël
     </tbody> 
    </table>
 
-1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden op het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [&#x200B; worden vermeld toegang tot Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) zoals [&#x200B; toegang van de Verlening tot taken &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden op het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
 
-   Nadat het toegangsniveau wordt gecreeerd, kunt u het aan een gebruiker toewijzen. Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+   Nadat het toegangsniveau wordt gecreeerd, kunt u het aan een gebruiker toewijzen. Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Toegang tot gedeelde financiële informatie
 
-U kunt financiële informatie over een project, een taak, of een kwestie met andere gebruikers delen door hen toestemmingen aan het te verlenen, zoals die in [&#x200B; worden verklaard de financiële toestemmingen van het Aandeel op een voorwerp &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+U kunt financiële informatie over een project, een taak, of een kwestie met andere gebruikers delen door hen toestemmingen aan het te verlenen, zoals die in [ worden verklaard de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 <!--
 If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
@@ -114,7 +119,7 @@ Wanneer u een object met een andere gebruiker deelt, worden de rechten van de on
 
 ## Toegang tot financiële informatie per licentietype
 
-Voor informatie over welke gebruikers in elk toegangsniveau met financiële informatie kunnen doen, zie de sectie [&#x200B; Financiële gegevens &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met financiële informatie kunnen doen, zie de sectie [ Financiële gegevens ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Toegang tot financiële informatie door
 
@@ -126,15 +131,9 @@ Een gebruiker zonder toegang tot financiële gegevens heeft geen toegang tot het
 
 * Sectie Financiën onder Project en Taakobjecten
 * Bedrijfscase
-* Factureringstarieven en factureringsgegevens
-* <span class="preview"> kaarten van het Tarief </span>
-* Kosten per uur en facturering per uur bij gebruikersvoorkeuren
-
-  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergave in stap 4 hierboven.
-
+* Factureringstarieven en factureringsgegevens van projecten
+* Kosten per uur en facturering per uur voor gebruikersprofielen
 * Kosten per uur en facturering per uur op taakrollen
-
-  U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergave in stap 4 hierboven.
 
 ### Toegang weergeven
 
@@ -142,8 +141,8 @@ Een gebruiker met View-toegang tot financiële gegevens kan het volgende weergev
 
 * Sectie Financiën onder Project en Taakobjecten
 * Bedrijfscase
-* Factureringstarieven en factureringsgegevens
-* Kosten per uur en facturering per uur bij gebruikersvoorkeuren
+* Factureringstarieven en factureringsgegevens van projecten
+* Kosten per uur en facturering per uur voor gebruikersprofielen
 
   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Weergave in stap 4 hierboven.
 
@@ -157,9 +156,8 @@ Een gebruiker met Edit toegang tot financiële gegevens kan het volgende bekijke
 
 * Sectie Financiën onder Project en Taakobjecten
 * Bedrijfscase
-* Factureringstarieven en factureringsgegevens
-* <span class="preview"> kaarten van het Tarief </span>
-* Kosten per uur en facturering per uur bij gebruikersvoorkeuren
+* Factureringstarieven, factureringsverslagen en kostentarieven voor projecten
+* Kosten per uur en facturering per uur voor gebruikersprofielen
 
   U kunt dit configureren met het tandwielpictogram ![](assets/gear-icon-settings.png) op de knop Bewerken in stap 4 hierboven.
 

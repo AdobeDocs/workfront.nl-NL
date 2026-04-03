@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de release 23.3.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [&#x200B; overzicht van de Versie 23.3 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Daadwerkelijke kosten en factureringstarieven
 
@@ -40,4 +40,4 @@ Datumeffectieve functiesets zijn nu ook beschikbaar in het gebruikersprofiel. De
 
 Met een nieuwe functie, betaalkaarten, kunt u meerdere factureringssnelheden per functie definiëren op basis van locatie. Een factureringspercentage voor een functie en locatie kan ook effectieve datums bevatten. Aan projecten kunnen tariefkaarten worden gekoppeld om alle tariefinformatie tegelijk toe te passen voor de specifieke functie en locatie. Rollen die zijn gebaseerd op locaties kunnen ook worden toegewezen aan taken met de mogelijkheid om hun tarieven op toewijzingsniveau te overschrijven.
 
-Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven, [&#x200B; creëren en leiden baanrollen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), en [&#x200B; Overzicht van het Factureren en de Ontvangsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven, [ creëren en leiden baanrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), en [ Overzicht van het Factureren en de Opbrengsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

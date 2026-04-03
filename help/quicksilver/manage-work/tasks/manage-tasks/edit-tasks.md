@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4076'
 ht-degree: 0%
 
 ---
 
 # Taken bewerken
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 0%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtigingen voor Contribute of Beheren hebt.
 
@@ -48,7 +55,8 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtiginge
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td>  <p>Om de gebruikers en Rol de Inkomsten en de Types van Kosten van UUR te gebruiken en een overtijdsverhouding toe te voegen: Werkschema Ultimate</p>
+      <p>Om alle andere montages uit te geven en alle andere Inkomsten en Types van Kosten te gebruiken: Om het even welk Workfront of Werkschemapakket</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -78,11 +86,12 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtiginge
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtiginge
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Beperkingen voor het bewerken van taken
 
@@ -129,9 +139,9 @@ Houd rekening met het volgende wanneer u taken bewerkt:
 * Het bijwerken van taken brengt berichten voor projecten teweeg die een Huidige status zijn. Om verwarring voor gebruikers te vermijden die aan de taken worden toegewezen, beperk het uitgeven taken zoveel mogelijk wanneer het project in de Huidige status is.
 * U kunt taken in een goedkeuringsproces niet bewerken. U kunt de Status voor een taak slechts registreren of bijwerken in een goedkeuringsproces.
 
-  ![&#x200B; geef taak met goedkeuringsproces &#x200B;](assets/edit-task-in-approval-process-nwe-350x148.png) uit
+  ![ geef taak met goedkeuringsproces ](assets/edit-task-in-approval-process-nwe-350x148.png) uit
 
-* U kunt documenten aan taken op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* U kunt documenten aan taken op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * U kunt de volgende informatie over een taak altijd uitgeven wanneer het project is duidelijk Voltooid, Dead, of in een Erkenningsproces is:
 
@@ -145,11 +155,11 @@ Houd rekening met het volgende wanneer u taken bewerkt:
 
 U kunt taakgegevens bewerken in een takenlijst door velden inline te bewerken die worden weergegeven in de weergave van de lijst.
 
-Voor informatie over het uitgeven van taken in lijsten, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+Voor informatie over het uitgeven van taken in lijsten, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 ## Een taak in een lijst bewerken met Overzicht
 
-U kunt een taak in een lijst bewerken met het deelvenster Overzicht. Voor informatie over het uitgeven van een taak in het Summiere paneel, zie &quot;een taak in de Samenvatting&quot;sectie in [&#x200B; uitgeven taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) artikel.
+U kunt een taak in een lijst bewerken met het deelvenster Overzicht. Voor informatie over het uitgeven van een taak in het Summiere paneel, zie &quot;een taak in de Samenvatting&quot;sectie in [ uitgeven taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) artikel.
 
 ## Een taak bewerken in het vak Taak bewerken
 
@@ -162,7 +172,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 1. Klik op de taak die u wilt bewerken.
 1. (Voorwaardelijk) om beperkte informatie over een taak uit te geven, klik **Details van de Taak** in het linkerpaneel.
 
-   ![&#x200B; uitgevouwen de details van de Taak &#x200B;](assets/nwe-task-details-expanded-350x273.png)
+   ![ uitgevouwen de details van de Taak ](assets/nwe-task-details-expanded-350x273.png)
 
    Overweeg het uitgeven van informatie op de volgende gebieden in de sectie van de Details van de Taak:
 
@@ -178,21 +188,21 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Voor informatie over de gebieden zichtbaar in de sectie van de Details van de Taak, ga verder met het uitgeven van de taak in het Edit de vakje van de Taak zoals hieronder beschreven.
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Facultatief) klik **Vouw Alle** pictogram ![&#x200B; samen vouwt al pictogram &#x200B;](assets/collapse-all-icon.png) in de hoger-juiste hoek om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![&#x200B; juist-richt pijl &#x200B;](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief) klik **Vouw Alle** pictogram ![ samen vouwt al pictogram ](assets/collapse-all-icon.png) in de hoger-juiste hoek om alle gebieden samen te vouwen.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist-richt pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Taakdetails:
 
-      * [&#x200B; beheert taakinformatie in het gebied van het Overzicht van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+      * [ beheert taakinformatie in het gebied van het Overzicht van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Taakfinanciën beheren in de sectie Taakdetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facultatief) als er geen douaneformulieren in bijlage aan de taak zijn, begin de naam van een vorm in het **te typen voeg douaneformulier** gebied toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![&#x200B; om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik &#x200B;](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik ](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
@@ -200,15 +210,15 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
       Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![&#x200B; de doos van de de kwesties van de Uitvoer met de knoop van de Uitvoer &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ de doos van de de kwesties van de Uitvoer met de knoop van de Uitvoer ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      Voor meer informatie, zie [&#x200B; de douaneformulieren en objecten details van de Uitvoer &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Voorwaardelijk) om alle informatie over de taak uit te geven, als gebruiker met Manage toestemmingen aan de taak, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de naam van de taak, dan klik **uitgeven**.
+1. (Voorwaardelijk) om alle informatie over de taak uit te geven, als gebruiker met Manage toestemmingen aan de taak, klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van de taak, dan klik **uitgeven**.
 
    of
 
-   Van een lijst van taken, selecteer een taak, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
+   Van een lijst van taken, selecteer een taak, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 
    Het vak Taak bewerken wordt geopend.
 
@@ -220,28 +230,28 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Overweeg informatie op te geven in een van de volgende secties:
 
-   * [&#x200B; Naam van de Taak &#x200B;](#task-name)
+   * [ Naam van de Taak ](#task-name)
    * [Overzicht](#overview)
-   * [&#x200B; Taken &#x200B;](#assignments)
-   * [&#x200B; Aangepaste Forms &#x200B;](#Custom%C2%A0F)
-   * [&#x200B; Financiën &#x200B;](#finance)
+   * [ Taken ](#assignments)
+   * [ Aangepaste Forms ](#Custom%C2%A0F)
+   * [ Financiën ](#finance)
    * [Instellingen](#settings)
    * [Opmerking](#comment)
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon instelt, kunnen de velden in het vak Taak bewerken opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon instelt, kunnen de velden in het vak Taak bewerken opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Taaknaam {#task-name}
 
 1. Bewerk de taak zoals hierboven beschreven.
 1. Klik **Naam van de Taak** in het linkerpaneel.
 
-   ![&#x200B; de naamsectie van de Taak in geef taakdoos &#x200B;](assets/nwe-task-name-section-edit-task-box-350x122.png) uit
+   ![ de naamsectie van de Taak in geef taakdoos ](assets/nwe-task-name-section-edit-task-box-350x122.png) uit
 
 1. Werk de naam van de taak bij.
 
@@ -252,7 +262,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 1. Bewerk de taak zoals hierboven beschreven.
 1. Klik **Overzicht** in het linkerpaneel.
 
-   ![&#x200B; de sectie van het Overzicht geeft taakvakje uit &#x200B;](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![ de sectie van het Overzicht geeft taakvakje uit ](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Werk de volgende informatie over de taak bij:
 
@@ -383,7 +393,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 1. Bewerk de taak zoals hierboven beschreven.
 1. Klik **Toewijzingen** in het linkerpaneel.
 
-   ![&#x200B; de sectie van Taken in Edit de doos van de Taak &#x200B;](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   ![ de sectie van Taken in Edit de doos van de Taak ](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klik **mensen van het Onderzoek, rollen, of teams** en begin de naam van een gebruiker, een rol, of een team te typen dat u aan de taak wilt toewijzen, dan het klikken of drukken binnengaan wanneer het op de lijst toont.
 
@@ -521,7 +531,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       </tr> 
       <tr> 
       <td role="rowheader">Rol van de gemachtigde</td> 
-      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
+      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr>
@@ -532,31 +542,31 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
 ### Aangepaste Forms
 
-U kunt aangepaste standaardformulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane voor alle nieuwe taken te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+U kunt aangepaste standaardformulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane voor alle nieuwe taken te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 1. Bewerk de taak zoals hierboven beschreven.
 1. Klik **Aangepaste Forms** in het linkerpaneel, of klik de naam van een douaneformulier als het reeds in bijlage is.
 
-   ![&#x200B; de sectie van de Vorm van de Douane geeft taakdoos uit &#x200B;](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![ de sectie van de Vorm van de Douane geeft taakdoos uit ](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Klik **toevoegen douanevorm** en selecteer de douanevorm of de vormen die u met de taak wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven.
 
-   Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.U kunt tot tien douaneformulieren aan een taak toevoegen
+   Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.U kunt tot tien douaneformulieren aan een taak toevoegen
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan de taak hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de taak kunt opslaan.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de taak zelf. Voor informatie over het plaatsen van taaktoestemmingen, zie [&#x200B; een taak &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
+   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de taak zelf. Voor informatie over het plaatsen van taaktoestemmingen, zie [ een taak ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
 
 1. Klik **sparen** of ga met de volgende secties verder.
 
 ### Financiën {#finance}
 
-1. Begin het uitgeven van uw taak zoals die in [&#x200B; wordt beschreven geef taken &#x200B;](#Edit2) sectie in dit artikel uit.
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
 1. Klik **Financiën** in het linkerpaneel.
 
-   ![&#x200B; de sectie van de Financiën geeft taakdoos uit &#x200B;](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![ de sectie van de Financiën geeft taakdoos uit ](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Werk de volgende velden bij:
 
@@ -572,6 +582,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
         <li> <p>Vast uurwerk </p> </li> 
         <li> <p> Uur gebruiker </p> </li> 
         <li> <p> Rol Uur</p> </li> 
+        <li> <p> <span class="preview"> Gebruiker en Rol Uur </span></p> </li> 
        </ul> <p>Voor meer informatie over het volgen van kosten, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>. Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Kostensoort voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
       <li> <p> Niet opblaasbaar </p> </li> 
       <li> <p>Uur gebruiker </p> </li> 
       <li> <p>Rol Uur </p> </li> 
+      <li> <p> <span class="preview"> Gebruiker en Rol Uur </span></p> </li> 
       <li> <p>Vast uurwerk </p> </li> 
       <li> <p>Uur gebruiker met lampvoet </p> </li> 
       <li> <p>Rol Uur met lampvoet </p> </li> 
+      <li> <p> <span class="preview"> Gebruiker en Rol Uur met Kop </span></p> </li> 
       <li> <p>Uur plus vaste kosten gebruiker </p> </li> 
       <li> <p>Rol Uur plus vast </p> </li> 
+      <li> <p> <span class="preview"> Vaste Gebruiker en Rol Uur plus </span></p> </li> 
       <li> <p>Vaste inkomsten </p> </li> 
-       </ul> <p>Voor meer informatie over het volgen van opbrengst, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref"> Overzicht van Facturering en Ontvangsten </a>. </p> <p>Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Inkooptype voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </td> 
+       </ul> <p>Voor meer informatie over het volgen van opbrengst, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref"> Overzicht van het Factureren en de Ontvangsten </a> en <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md"> Overzicht van opbrengst en kostenhiërarchie </a>. </p> <p>Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Inkooptype voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Overlopende verhouding</span></td> 
+      <td><span class="preview"><p>Voer de overloopvermenigvuldiger voor de taak in, bijvoorbeeld 1.5 of 2.0. De standaardwaarde is 1.0 (geen vermenigvuldiger). Voor meer informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md"> een overtijdsverhouding </a> bepalen.</p><p>Het veld Overlopende verhouding weergeven:</p>
+       <ul>
+       <li>Het type van Inkomsten op de taak moet Gebruiker en Rol Uur zijn. Voor meer informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md"> Overzicht van opbrengst en kostenhiërarchie </a>.</li>
+       <li>Het veld moet zijn ingeschakeld in de lay-outsjabloon, in het gedeelte Financiën in de weergave Taakdetails. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md"> de mening van Details aanpassen gebruikend een lay-outmalplaatje </a>.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -596,10 +619,10 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 ### Instellingen {#settings}
 
-1. Begin het uitgeven van uw taak zoals die in [&#x200B; wordt beschreven geef taken &#x200B;](#Edit2) sectie in dit artikel uit.
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
 1. Klik **Montages** in het linkerpaneel.
 
-   ![&#x200B; sectie van Montages op het Edit taakvakje &#x200B;](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![ sectie van Montages op het Edit taakvakje ](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Werk de volgende velden bij:
 
@@ -662,10 +685,10 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 ### Opmerking
 
-1. Begin het uitgeven van uw taak zoals die in [&#x200B; wordt beschreven geef taken &#x200B;](#Edit2) sectie in dit artikel uit.
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
 1. Klik **Commentaar** in het linkerpaneel.
 
-   ![&#x200B; de sectie van de Commentaar bij geef taakdoos uit &#x200B;](assets/comment-section-on-edit-task-box.png)
+   ![ de sectie van de Commentaar bij geef taakdoos uit ](assets/comment-section-on-edit-task-box.png)
 
 1. Voeg een update toe in de beschikbare ruimte.
 1. (Optioneel) Voeg een van de volgende opties toe aan uw update:
@@ -683,23 +706,23 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 U kunt een beperkte hoeveelheid informatie bewerken in de taakkoptekst.
 
-Uw systeem- of groepsbeheerder kan de velden die u in de taakkoptekst ziet, aanpassen. Voor meer informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Uw systeem- of groepsbeheerder kan de velden die u in de taakkoptekst ziet, aanpassen. Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![&#x200B; kopbal van de Taak zonder goedkeuringen en met gebiedsdelen &#x200B;](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![ kopbal van de Taak zonder goedkeuringen en met gebiedsdelen ](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 De volgende velden worden standaard opgenomen in de taakkoptekst:
 
 * Taaknaam
 * Percentage voltooid
 
-  Voor informatie, zie [&#x200B; Mening en werk Percent bij Voltooid voor taken &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+  Voor informatie, zie [ Mening en werk Percent bij Voltooid voor taken ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Toewijzingen
 * Geplande afsluitdatum
 
   >[!CAUTION]
   >
-  >Sommige Beperkingen van de Taak en andere gebiedsdelen zouden u kunnen verhinderen de Geplande Datum van de Voltooiing van een taak uit te geven. Voor informatie over de Beperkingen van de Taak, zie [&#x200B; Overzicht van de Restrictie van de Taak &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Sommige Beperkingen van de Taak en andere gebiedsdelen zouden u kunnen verhinderen de Geplande Datum van de Voltooiing van een taak uit te geven. Voor informatie over de Beperkingen van de Taak, zie [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld
@@ -708,9 +731,10 @@ De volgende velden worden standaard opgenomen in de taakkoptekst:
 
 U kunt taken in een lijst bulksgewijs bewerken en alle gegevens tegelijk bijwerken wanneer u de wijzigingen die u aanbrengt in taken in de lijst automatisch opslaat.
 
-Voor informatie over besparingstaken in bulk, zie &quot;de taken in bulk&quot;sectie in het artikel [&#x200B; uitgeven taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Voor informatie over besparingstaken in bulk, zie &quot;de taken in bulk&quot;sectie in het artikel [ uitgeven taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

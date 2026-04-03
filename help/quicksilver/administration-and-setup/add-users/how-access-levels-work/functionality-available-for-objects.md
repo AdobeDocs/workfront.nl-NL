@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 1%
+source-wordcount: '1555'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de huidige toegangsniveaus. Voor informatie over de niveaus van de erfenistoegang, zie [&#x200B; overzicht van de niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>De informatie in dit artikel verwijst naar de huidige toegangsniveaus. Voor informatie over de niveaus van de erfenistoegang, zie [ overzicht van de niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
@@ -31,12 +31,12 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 >[!NOTE]
 >
->* In dit artikel wordt de functionaliteit beschreven die beschikbaar is voor toegangsniveaus in het nieuwe Workfront-pakketmodel. Om functionaliteit beschikbaar in het huidige pakketmodel te zien, zie [&#x200B; Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Voor een lijst van functionaliteit beschikbaar aan de verschillende pakketten in het recentste model, zie [&#x200B; het Prijsen en het Pakketten van Adobe Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
+>* In dit artikel wordt de functionaliteit beschreven die beschikbaar is voor toegangsniveaus in het nieuwe Workfront-pakketmodel. Om functionaliteit beschikbaar in het huidige pakketmodel te zien, zie [ Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Voor een lijst van functionaliteit beschikbaar aan de verschillende pakketten in het recentste model, zie [ het Prijsen en het Pakketten van Adobe Workfront ](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projecten
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Kopiëren | ✓&#42; |   |   |   |
@@ -59,6 +59,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 | Risico&#39;s beheren | ✓ |   |   |   |
 | Financiering beheren | ✓ |   |   |   |
 | Kosten toevoegen/bewerken | ✓ |   |   |   |
+| <span class="preview"> maak een tariefkaart </span> vast | ✓ |   |   |   |
 | Sjablonen bijvoegen | ✓ |   |   |   |
 | Opslaan als sjabloon | ✓ |   |   |   |
 | Een bedrijfscase toevoegen/bewerken | ✓ |   |   |   |
@@ -74,7 +75,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 ## Taken
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -106,7 +107,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 ## Problemen
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |-------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bewerken | ✓ | ✓ | ✓ |   |
@@ -136,7 +137,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfolio&#39;s hebben.
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -160,7 +161,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfol
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot programma&#39;s hebben.
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -184,7 +185,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot program
 
 Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rapporten. Alle andere Niveaus van de Toegang hebben de toegang van de Mening tot rapporten.
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -206,7 +207,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Filters, weergaven en groepen
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |-------------------|------------|---------|---------------|---------------|
 | Maken | ✓* | ✓* | ✓* |   |
 | Verwijderen | ✓* | ✓* | ✓* |   |
@@ -221,7 +222,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Documenten
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Verwijderen (documenten en mappen) | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -256,7 +257,37 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Gebruikers
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker** |
+<div class="preview">
+
+Deze opties zijn beschikbaar in de voorvertoningsomgeving:
+
+| Actie | Standard | Licht | Medewerker | Externe gebruiker** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| Maken | ✓* |   |   |   |
+| Verwijderen | ✓* |   |   |   |
+| Factureringssnelheden bewerken | ✓* |   |   |   |
+| Contactgegevens bewerken | ✓* |   |   |   |
+| Kostentarieven bewerken | ✓* |   |   |   |
+| Algemene financiën bewerken | ✓* |   |   |   |
+| Het wachtwoord voor een gebruiker bewerken, verwijderen, deactiveren, aanmelden als of opnieuw instellen | ✓* |   |   |   |
+| Bewerk, verwijder, deactiveer, meld u aan als gebruiker of stel het wachtwoord opnieuw in voor elke gebruiker in een groep die hij of zij beheert | ✓* |   |   |   |
+| Gebruikers weergeven | ✓ | ✓ | ✓ |   |
+| Contactgegevens weergeven | ✓ | ✓ | ✓ |   |
+| Factureringssnelheden weergeven | ✓* |   |   |   |
+| Kostentarieven weergeven | ✓* |   |   |   |
+| Algemene financiën weergeven | ✓* |   |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+
+&#42;&#42; de Externe gebruikers kunnen slechts naar andere gebruikers zoeken.
+
+</div>
+
+Deze opties zijn beschikbaar in de productieomgeving:
+
+| Actie | Standard | Licht | Medewerker | Externe gebruiker** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Maken | ✓* |   |   |   |
 | Verwijderen | ✓* |   |   |   |
@@ -271,9 +302,66 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 &#42;&#42; de Externe gebruikers kunnen slechts naar andere gebruikers zoeken.
 
+<!--
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
+
 ## Teams
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker* |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Maken | ✓* |   |   |   |
 | Verwijderen | ✓* |   |   |   |
@@ -288,7 +376,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 ## Sjablonen
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |-----------------------|----------|--------|-------------|---------------|
 | Maken | ✓&#42; |   |   |   |
 | Verwijderen | ✓&#42; |   |   |   |
@@ -306,7 +394,35 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financiële gegevens.
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+<div class="preview">
+
+Deze opties zijn beschikbaar in de voorvertoningsomgeving:
+
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| Factureringssnelheden bewerken | ✓&#42; |   |   |   |
+| Kostentarieven bewerken | ✓&#42; |   |   |   |
+| Algemene financiën bewerken | ✓&#42; |   |   |   |
+| Factureringssnelheden weergeven | ✓&#42; | ✓&#42; |   |   |
+| Kostentarieven weergeven | ✓&#42; | ✓&#42; |   |   |
+| Algemene financiën weergeven | ✓&#42; | ✓&#42; |   |   |
+| Factureringsrecords beheren | ✓ |   |   |   |
+| Kosten beheren | ✓ |   |   |   |
+| De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |   |
+| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |
+| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel &#42; | ✓ | ✓ |   |   |
+| Risico&#39;s maken voor projecten | ✓ |   |   |   |
+| Risico&#39;s weergeven voor projecten | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+
+</div>
+
+Deze opties zijn beschikbaar in de productieomgeving:
+
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Rolfacturering en kostentarieven bewerken | ✓&#42; |   |   |   |
 | Facturering van gebruikers en kostentarieven bewerken | ✓&#42; |   |   |   |
@@ -315,7 +431,6 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financi
 | Factureringsrecords beheren | ✓ |   |   |   |
 | Kosten beheren | ✓ |   |   |   |
 | Financiële gegevens weergeven | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview"> beheert tariefkaarten </span> | ✓ |   |   |   |
 | De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |   |
 | De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel &#42; | ✓ | ✓ |   |   |
@@ -330,7 +445,7 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financi
 
 Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourcebeheer hebben. Andere licentietypen kunnen beperkte of geen toegang hebben tot Resource Management in Workfront.
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |
 | Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |
@@ -345,13 +460,13 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 
 &#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-&#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [&#x200B; de financiële toestemmingen van het Aandeel op een voorwerp &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42; vereist toestemming om tot het voorwerp bij te dragen, met Make Toewijzingen die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [&#x200B; geërfte toestemmingen en de hiërarchie van voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
+&#42;&#42;&#42; vereist toestemming om tot het voorwerp bij te dragen, met Make Toewijzingen die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
 
 ## Scenario Planner, gebied
 
-| Handeling | Standard | Licht | Medewerker | Externe gebruiker |
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Bestaande plannen en initiatieven maken/bewerken | ✓ | ✓ |   |   |
 | Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ |   |   |
@@ -366,13 +481,33 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 >
 >De gebruikers kunnen een plan bekijken dat een andere gebruiker creeerde slechts als een verbinding aan het plan met hen wordt gedeeld.
 
-&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+<div class="preview">
+
+## Sneltoetsen
+
+Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot tariefkaarten hebben.
+
+| Actie | Standard | Licht | Medewerker | Externe gebruiker |
+|-------------------|------------|---------|---------------|---------------|
+| Weergave | ✓ | ✓ |   |   |
+| Bewerken | ✓ |   |   |   |
+| Maken | ✓* |   |   |   |
+| Verwijderen | ✓* |   |   |   |
+| Delen | ✓* | ✓* |   |   |
+
+{style="table-layout:auto"}
+
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+
+</div>
 
 ## Gebied met Workfront-doelen
 
 <!-- ask Alina about this section -->
 
-| Handelingen | Weergave | Bewerken |
+| Acties | Weergave | Bewerken |
 |---|---|---|
 | Maken |   | ✓ |
 | Alle doelen bewerken/verwijderen |   | ✓ |
