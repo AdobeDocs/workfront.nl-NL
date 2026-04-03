@@ -48,7 +48,7 @@ Gebruikers krijgen de machtiging om Adobe GenStudio-systeembeheerders te maken, 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 * Uw organisatie moet GenStudio Foundation hebben.
    * Content Reviewer in Workfront biedt de functionaliteit die in GenStudio Foundation beschikbaar is voor workflows voor het beoordelen en goedkeuren van bedrijfsmiddelen. U hoeft GenStudio Foundation niet rechtstreeks te openen om uw werk te voltooien. Je toegang tot GenStudio Foundation-functionaliteit via Content Reviewer valt onder de voorwaarden van je Workfront-contract.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 ## &#x200B;1. Stel merkmachtigingen in de Admin Console in
 
@@ -76,8 +76,8 @@ Een profiel toewijzen:
 1. Navigeer naar de nieuwe gebruikersgroep.
 1. Klik de **Toegewezen productprofielen** tabel.
 1. Klik **toewijzen profiel**.
-1. In popup, uitgezochte **Adobe GenStudio** van de productlijst, dan klik **** van toepassing zijn.
-1. Selecteer het **profiel van de redacteurs van de Stichting 0} Adobe GenStudio.**
+1. In popup, uitgezochte **Adobe GenStudio** van de productlijst, dan klik **&#x200B;**&#x200B;van toepassing zijn.
+1. Selecteer het **profiel van de redacteurs van de Stichting 0&rbrace; Adobe GenStudio.**
 1. Klik **toepassen**.
 1. Klik **sparen**.
 
@@ -140,13 +140,13 @@ Toegang verlenen tot merken in Workfront:
 {{step-1-to-setup}}
 
 1. Klik **Niveaus van de Toegang** in het linkerpaneel.
-1. Vind het toegangsniveau u wilt uitgeven, dan klik uitgeven pictogram ![ pictogram ](assets/edit-icon.png) uitgeven om het uit te geven.
+1. Vind het toegangsniveau u wilt uitgeven, dan klik uitgeven pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeven om het uit te geven.
 
    of
 
-   Klik **Nieuw Niveau van de Toegang** om een nieuw toegangsniveau tot stand te brengen. Voor meer informatie over het creëren van toegangsniveaus, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+   Klik **Nieuw Niveau van de Toegang** om een nieuw toegangsniveau tot stand te brengen. Voor meer informatie over het creëren van toegangsniveaus, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 1. De rol neer aan **vastgestelde extra beperkingen**, dan uitgezocht **staat gebruikers toe om tot Banden** toegang te hebben.
-   ![ staat toegang tot brands toe die ](assets/access-for-brands.png) plaatsen
+   ![&#x200B; staat toegang tot brands toe die &#x200B;](assets/access-for-brands.png) plaatsen
 1. Klik **sparen**.
 
-Als u merken hebt geconfigureerd, kunt u een Content Reviewer maken om elementen te controleren aan de hand van de richtlijnen van het merk in de revisie- en goedkeuringswerkstroom. Voor meer informatie, zie [ AI Medewerkers ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md) vormen.
+Als u merken hebt geconfigureerd, kunt u een Content Reviewer maken om elementen te controleren aan de hand van de richtlijnen van het merk in de revisie- en goedkeuringswerkstroom. Voor meer informatie, zie [&#x200B; AI Medewerkers &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md) vormen.
