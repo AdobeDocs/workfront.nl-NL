@@ -150,7 +150,7 @@ De volgende bronnen kunnen u helpen meer te weten te komen over de API van [!DNL
 
 ## Wanneer doet [!DNL Workfront] onderhoud? Hoe kan ik erachter komen of [!DNL Workfront] is uitgevallen?
 
-Abonneren aan [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) om op onderhoudsprogramma&#39;s en outage kwesties geïnformeerd te blijven.
+Abonneren aan [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/nl-nl/) om op onderhoudsprogramma&#39;s en outage kwesties geïnformeerd te blijven.
 
 Meer over de [!DNL Workfront] plaats van de Status leren, zie [&#x200B; de  [!DNL Adobe Workfront]  plaats van de Status &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 

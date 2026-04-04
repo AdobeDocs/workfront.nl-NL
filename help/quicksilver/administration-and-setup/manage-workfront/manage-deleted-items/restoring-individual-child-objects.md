@@ -37,7 +37,7 @@ U kunt de geëxporteerde gegevens op de volgende manieren importeren:
 
 De omgeving van de zandbak van de Voorproef wordt verfrist tijdens onze onderhoudsvensters tijdens het weekend.
 
-Voor meer informatie over de vensters van onderhoud voor het milieu van de Sandbox van de Voorproef, zie [&#x200B; de de statusplaats van Adobe &#x200B;](https://status.adobe.com).
+Voor meer informatie over de vensters van onderhoud voor het milieu van de Sandbox van de Voorproef, zie [&#x200B; de de statusplaats van Adobe &#x200B;](https://status.adobe.com/nl-nl).
 
 >[!IMPORTANT]
 >
