@@ -6,7 +6,9 @@ description: U kunt een kaart naar een willekeurige kolom op het bord verplaatse
 author: Courtney
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 U kunt een kaart naar een willekeurige kolom op het bord verplaatsen of een kaart kopiëren.
 
-Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, kunnen de status, toewijzingen en tags automatisch worden bijgewerkt wanneer u een kaart van de ene kolom naar de andere verplaatst. Voor meer informatie, zie &quot;kolommontages en beleid&quot;in het artikel [&#x200B; leiden boardkolommen &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, kunnen de status, toewijzingen en tags automatisch worden bijgewerkt wanneer u een kaart van de ene kolom naar de andere verplaatst. Voor meer informatie, zie &quot;kolommontages en beleid&quot;in het artikel [ leiden boardkolommen ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
@@ -45,7 +47,7 @@ Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, kunnen d
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,14 +55,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Sleep de kaart naar een andere kolom op de gewenste positie.
 
    of
 
-   Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Move]**. Kies vervolgens in het vak **[!UICONTROL Move Item]** een andere kolom en selecteer **[!UICONTROL Move]** .
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Move]**. Kies vervolgens in het vak **[!UICONTROL Move Item]** een andere kolom en selecteer **[!UICONTROL Move]** .
 
-   ![&#x200B; kaart van de Beweging &#x200B;](assets/boards-move-card-350x217.png)
+   ![ kaart van de Beweging ](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
@@ -73,9 +75,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    of
 
-   Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Top of column]** of **[!UICONTROL Bottom of column]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Top of column]** of **[!UICONTROL Bottom of column]**.
 
-   ![&#x200B; Meer menu &#x200B;](assets/boards-moremenu-350x329.png)
+   ![ Meer menu ](assets/boards-moremenu-350x329.png)
 
 ## Een kaart kopiëren
 
@@ -88,6 +90,6 @@ Door een ad-hockaart te kopiëren worden alle velden op de kaart gedupliceerd, i
 1. Toegang tot het bord.
 1. Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Copy]** .
 
-   ![&#x200B; Meer menu &#x200B;](assets/boards-moremenu-350x329.png)
+   ![ Meer menu ](assets/boards-moremenu-350x329.png)
 
    Een nieuwe kaart wordt toegevoegd in de zelfde kolom met de titel &quot;exemplaar van - [ originele kaartnaam ].&quot;

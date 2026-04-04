@@ -7,7 +7,9 @@ description: 'In deze groepering van douaneproject, kunt u projecten tonen die d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ddb9496c-9347-4dc9-a4ce-b9017abd0bb2
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,7 +31,7 @@ De volgende groepering organiseert taken door het percentage volledige waarde in
 * 76-99%
 * 100%
 
-![&#x200B; task_25__break_grouping.png &#x200B;](assets/task-25--breakdown-grouping-350x412.png)
+![ task_25__break_grouping.png ](assets/task-25--breakdown-grouping-350x412.png)
 
 ## Toegangsvereisten
 
@@ -60,7 +62,7 @@ De volgende groepering organiseert taken door het percentage volledige waarde in
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

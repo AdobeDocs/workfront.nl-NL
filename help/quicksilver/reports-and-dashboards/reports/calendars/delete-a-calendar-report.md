@@ -6,7 +6,9 @@ description: U kunt een kalender verwijderen die u hebt of die anderen met u heb
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -49,7 +51,7 @@ U kunt uw standaardkalender niet schrappen tenzij u een bestaande alternatieve k
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +60,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Ga naar de kalender die u wilt verwijderen.
 1. Klik het **Meer** menu naast het drop-down menu van de Kalender.
-   ![&#x200B; kalender meer menu &#x200B;](assets/more-menu-calendar.png)
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
 
 1. Selecteer **[!UICONTROL Delete]** in de vervolgkeuzelijst.
 1. Klik op **[!UICONTROL Delete]**.

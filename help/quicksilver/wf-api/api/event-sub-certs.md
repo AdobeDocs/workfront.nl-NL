@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,7 +18,8 @@ ht-degree: 0%
 
 # Client-TLS configureren voor gebeurtenisabonnement
 
-<!--Configuring Client TLS for Event Subscription
+<!--
+Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
 Examples for Server configuration
 NGINX
@@ -71,7 +74,7 @@ server {
 }
 ```
 
-Voor meer informatie, zie de [&#x200B; documentatie NGiNX voor ngx_http_ssl_module &#x200B;](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Voor meer informatie, zie de [ documentatie NGiNX voor ngx_http_ssl_module ](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -94,8 +97,8 @@ Listen 443
 
 Zie voor meer informatie
 
-* [&#x200B; de Authentificatie van de Cliënt en het Controle van de Toegang &#x200B;](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
-* [&#x200B; Apache Module mod_ssl &#x200B;](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
+* [ de Authentificatie van de Cliënt en het Controle van de Toegang ](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
+* [ Apache Module mod_ssl ](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 
 ## Toewijzing certificaat aan omgeving

@@ -7,7 +7,9 @@ description: Deze taakmening toont details van predecessors van de taken gebruik
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -20,9 +22,9 @@ ht-degree: 0%
 
 Deze taakmening toont details van predecessors van de taken gebruikend een inzamelingsmening. In een verzamelingsweergave kunt u informatie weergeven over objecten die een &#39;een-op-veel&#39;-relatie hebben. In dit geval kan elke taak (één) meerdere voordecessors (vele) hebben. De weergave bevat de naam van de taken, de namen van de voorgangers, de projectnamen van de voorgangers, de geplande afsluitdatums van de voorgangers en de statussen van de voorgangers.
 
-Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten, zie [&#x200B; inzamelingen van de Verwijzing in een rapport &#x200B;](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten, zie [ inzamelingen van de Verwijzing in een rapport ](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-![&#x200B; predecessor_details_task_view.png &#x200B;](assets/predecessor-details-task-view-350x34.png)
+![ predecessor_details_task_view.png ](assets/predecessor-details-task-view-350x34.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +55,7 @@ Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

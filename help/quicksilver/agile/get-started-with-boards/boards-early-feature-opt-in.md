@@ -7,7 +7,9 @@ description: Lees dit artikel om over de  [!DNL Workfront Boards]  vroege eigens
 author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -20,7 +22,7 @@ De vroege functie-opt-in voor [!DNL Adobe Workfront] [!UICONTROL Boards] is gest
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] zijn flexibele gereedschappen die teamsamenwerking mogelijk maken door toegang te bieden tot een gedeelde board die kolommen en kaarten bevat.
 
-Voor algemene informatie over borden, zie [[!UICONTROL Boards] overzicht &#x200B;](/help/quicksilver/agile/boards-overview.md).
+Voor algemene informatie over borden, zie [[!UICONTROL Boards] overzicht ](/help/quicksilver/agile/boards-overview.md).
 
 ## Functies
 
@@ -195,7 +197,7 @@ Alleen [!DNL Workfront] -beheerders kunnen zich aanmelden voor de eerste functie
 
 {{step1-to-boards}}
 
-1. Klik ![&#x200B; vroege eigenschap opt-in &#x200B;](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) bij de bovenkant van het dashboardscherm.
+1. Klik ![ vroege eigenschap opt-in ](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) bij de bovenkant van het dashboardscherm.
 1. Klik op **[!UICONTROL Enable]**.
 1. Begin met het gebruik van de vroege functies van borden.
 
@@ -214,7 +216,7 @@ Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen of deze 
 
 Wanneer de beheerder van [!DNL Workfront] vroege eigenschappen voor planken toelaat, worden alle gebruikers in de organisatie verkozen binnen.
 
-De beheerder van [!DNL Workfront] kan de optie Borden echter verbergen in [!UICONTROL Main Menu] voor afzonderlijke gebruikers of groepen gebruikers met een lay-outsjabloon. Voor informatie, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+De beheerder van [!DNL Workfront] kan de optie Borden echter verbergen in [!UICONTROL Main Menu] voor afzonderlijke gebruikers of groepen gebruikers met een lay-outsjabloon. Voor informatie, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
@@ -226,5 +228,5 @@ Alleen [!DNL Workfront] -beheerders kunnen ervoor kiezen om functies uit het beg
 
 {{step1-to-boards}}
 
-1. Klik ![&#x200B; vroege eigenschap toe:laten opt-in &#x200B;](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) bij de bovenkant van het dashboardscherm.
+1. Klik ![ vroege eigenschap toe:laten opt-in ](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) bij de bovenkant van het dashboardscherm.
 1. Klik op **[!UICONTROL Disable]**.

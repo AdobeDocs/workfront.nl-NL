@@ -6,7 +6,9 @@ description: We raden u aan projecten aan portfolio's toe te voegen wanneer u de
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 08/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 We raden u aan projecten aan portfolio&#39;s toe te voegen wanneer u deze initialiseert. U kunt ze echter op elk gewenst moment tijdens de levensduur van de portfolio toevoegen.
 
@@ -57,11 +61,12 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,13 +91,14 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Een project toevoegen aan een portfolio
 
 1. Ga naar een portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 
-   ![&#x200B; Portfolio met projecten &#x200B;](assets/qs-portfolio-with-projects-350x90.png)
+   ![ Portfolio met projecten ](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klik op **[!UICONTROL New Project]** en selecteer een methode om een project toe te voegen.
 
@@ -129,11 +135,11 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
     </tbody> 
    </table>
 
-   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, **voegt de doos van Projecten** toe opent. <!--check this after UI changes-->
 
-   ![&#x200B; voeg bestaand project &#x200B;](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
+   ![ voeg bestaand project ](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
 
 1. Typ de naam van een project in het veld **[!UICONTROL Add Projects to this Portfolio]** en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.  <!--check this after UI changes-->
 

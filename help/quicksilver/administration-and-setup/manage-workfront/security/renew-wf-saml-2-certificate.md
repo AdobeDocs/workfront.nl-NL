@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
@@ -22,11 +24,12 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, is geen actie nodig.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 De Adobe Workfront-servers gebruiken het SAML 2.0-protocol voor verificatie en verificatie. Zodra bijgewerkt, blijft het nieuwe certificaat één jaar geldig. Wanneer het tijd is voor u om het certificaat op uw identiteitsleverancier te vernieuwen, ontvangt u een waarschuwing in Workfront die u waarschuwt dat deze verandering moet voorkomen. Als Workfront-beheerder kunt u deze wijziging op systeemniveau beheren.
 
-<!--Use this Important note box in the last few weeks before each update.
+<!--
+Use this Important note box in the last few weeks before each update.
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
@@ -59,7 +62,7 @@ You must take action to update the metadata in your identity provider with the i
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,4 +109,4 @@ U kunt als volgt het waarschuwingsbericht bekijken en de update van de SAML 2.0-
 
    Er wordt een bericht weergegeven waarin wordt bevestigd dat de verbinding tot stand is gebracht.
 
-Voor meer informatie, of voor hulp met de handconfiguratie van meta-gegevens, gelieve ons Team van de Steun te contacteren, zoals die in [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) wordt verklaard.
+Voor meer informatie, of voor hulp met de handconfiguratie van meta-gegevens, gelieve ons Team van de Steun te contacteren, zoals die in [ de Steun van de Klant van het Contact ](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) wordt verklaard.

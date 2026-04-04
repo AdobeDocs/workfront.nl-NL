@@ -7,7 +7,9 @@ description: De begindag van de week op mijn tijdsplaat komt niet overeen met mi
 author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -27,14 +29,15 @@ Dit gebeurt gewoonlijk wanneer u niet bent toegewezen aan een tijdlijnprofiel en
 
 ## Oplossing
 
-Uw beheerder van Workfront zou timesheet profielen tot stand moeten brengen en iedereen aan een profiel toewijzen, zoals die in [&#x200B; wordt beschreven creeer, geef uit, en wijs timesheet profielen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe. De Workfront-beheerder kan de begindatum van een tijdblad bepalen op een andere dag dan de verwachte wekelijkse begindatum. Vraag hen om na te gaan wat de begindatum van een tijdbladprofiel is voor uw timesheet.
+Uw beheerder van Workfront zou timesheet profielen tot stand moeten brengen en iedereen aan een profiel toewijzen, zoals die in [ wordt beschreven creeer, geef uit, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe. De Workfront-beheerder kan de begindatum van een tijdblad bepalen op een andere dag dan de verwachte wekelijkse begindatum. Vraag hen om na te gaan wat de begindatum van een tijdbladprofiel is voor uw timesheet.
 
-Als uw timesheet manueel werd gecreeerd, vormt de begindag van de week in timesheet de e-mailmontages van de Plaats in het profiel van uw gebruiker, zoals die in artikel [&#x200B; wordt beschreven Mijn Montages &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Als uw timesheet manueel werd gecreeerd, vormt de begindag van de week in timesheet de e-mailmontages van de Plaats in het profiel van uw gebruiker, zoals die in artikel [ wordt beschreven Mijn Montages ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 Als bijvoorbeeld de landinstelling voor e-mail is ingesteld op Engels (Verenigde Staten), begint de week in de tijdpagina op zondag. Als de landinstelling voor e-mail is ingesteld op Engels (Verenigd Koninkrijk), begint de week in de tijdpagina op maandag.
 
 
-<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
+<!--
+This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
 ## Problem
 

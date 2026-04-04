@@ -6,7 +6,9 @@ description: U kunt een rapport verwijderen uit een Canvas-dashboard.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -17,8 +19,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -66,14 +68,14 @@ Het verwijderen van een verslag is permanent. Als u een rapport opnieuw moet toe
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
 
 U moet een rapport op een dashboard toepassen alvorens het kan worden geschrapt.
 
-Voor meer informatie, zie [&#x200B; een dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+Voor meer informatie, zie [ een dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
 
 ## Een rapport verwijderen
 
@@ -88,9 +90,9 @@ Voor meer informatie, zie [&#x200B; een dashboard van het Canvas &#x200B;](/help
 
 1. Op de **pagina van de Dashboards van het Canvas**, selecteer het dashboard dat het rapport bevat u wilt schrappen.
 
-1. Op de pagina van de dashboarddetails, klik **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) pictogram in de hoger-juiste hoek van de rapportwidget u wilt schrappen.
+1. Op de pagina van de dashboarddetails, klik **Meer** ![ Meer pictogram ](assets/more-icon.png) pictogram in de hoger-juiste hoek van de rapportwidget u wilt schrappen.
 
 1. Selecteer **verwijderen**.
-   ![&#x200B; verwijdert rapport &#x200B;](assets/delete-a-report.png)
+   ![ verwijdert rapport ](assets/delete-a-report.png)
 
 1. In het **het rapport van de Schrapping** dialoogvakje, klik **Schrapping**.

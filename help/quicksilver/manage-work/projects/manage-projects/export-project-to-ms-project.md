@@ -6,7 +6,9 @@ description: U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -20,7 +22,7 @@ U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
 >[!IMPORTANT]
 >
 >* Niet alle Workfront-velden worden overgebracht naar het Microsoft-projectbestand.\
->  Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie de gebieden van het Project van Microsoft van de artikel [&#x200B; Kaart aan de projecten van Adobe Workfront &#x200B;](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>  Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie de gebieden van het Project van Microsoft van de artikel [ Kaart aan de projecten van Adobe Workfront ](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 >* Wij adviseren dat u het aantal tijden beperkt u projecten van één toepassing aan een andere overbrengt.
 >
 
@@ -54,11 +56,12 @@ U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,21 +86,22 @@ U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
    <td> <p> View or higher permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Een project exporteren van Workfront naar Microsoft Project
 
 U kunt een project van Workfront van de projectpagina of van een projectlijst of een rapport uitvoeren.
 
-1. Ga naar het project u wilt uitvoeren en **klikken Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) rechts van de projectnaam
+1. Ga naar het project u wilt uitvoeren en **klikken Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) rechts van de projectnaam
 
-   ![&#x200B; Meer dropdown &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het Meer pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het Meer pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
 
-   ![&#x200B; Meer uitgevouwen menu &#x200B;](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klik **het Project van MS van de Uitvoer**.
 

@@ -6,7 +6,9 @@ description: Een Portfolio is een verzameling projecten die met dezelfde middele
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
@@ -49,11 +51,12 @@ U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot dezelfde prod
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ U kunt Portfolio&#39;s gebruiken om projecten te groeperen die tot dezelfde prod
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Manieren om portfolio&#39;s te maken
 
@@ -91,15 +95,15 @@ U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
 
   Als Workfront-beheerder kunt u portfolio&#39;s importeren met behulp van een trap-start.
 
-  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 * Voeg portefeuilles toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt.
 
   U moet een nieuwe Workfront-licentie en een extra Workfront Planning-licentie voor Workfront Planning hebben.
 
-  Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Overzicht van de Toegang &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+  Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 
-  Voor informatie over het creëren van portefeuilles door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [&#x200B; verbindt tot verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md).
+  Voor informatie over het creëren van portefeuilles door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
 
 
 ## Een portfolio maken
@@ -114,7 +118,7 @@ U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
 
 1. (Optioneel) Klik op de naam onder **[!UICONTROL Portfolio Manager]** in de koptekst boven aan de pagina om een andere beheerder voor het portfolio toe te wijzen.
 
-   ![&#x200B; de managernaam van Portfolio &#x200B;](assets/portfolio-manager-name-350x51.jpg)
+   ![ de managernaam van Portfolio ](assets/portfolio-manager-name-350x51.jpg)
 
    Als de maker van het portfolio wordt u standaard toegewezen als vermogensbeheerder.
 
@@ -149,11 +153,11 @@ U kunt op een van de volgende manieren een portfolio&#39;s maken in Workfront:
 1. Klik op **[!UICONTROL Save Changes]**.
 1. (Optioneel) Klik op **[!UICONTROL Programs]** in het linkerdeelvenster en **[!UICONTROL Add Programs]** om programma&#39;s toe te voegen aan het portfolio.
 
-   Voor meer informatie over het creëren van Programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+   Voor meer informatie over het creëren van Programma&#39;s, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 1. (Optioneel) Klik op **[!UICONTROL Projects]** in het linkerdeelvenster en **[!UICONTROL Add Projects]** om projecten toe te voegen aan het portfolio.
 
-   Voor meer informatie over het toevoegen van projecten aan Portfolio, zie [&#x200B; projecten aan een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
+   Voor meer informatie over het toevoegen van projecten aan Portfolio, zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

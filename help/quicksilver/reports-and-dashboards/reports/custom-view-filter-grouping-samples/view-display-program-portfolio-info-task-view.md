@@ -7,7 +7,9 @@ description: Deze taakmening toont het Programma en Portfolio die met het projec
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Deze taakmening toont het Programma en Portfolio die met het project van de taak
 
 De weergave bevat ook koppelingen naar het project, het programma en Portfolio vanuit een taaklijst.
 
-![&#x200B; het programma en de portefeuille van de Mening &#x200B;](assets/view--program-and-portfolio-350x116.png)
+![ het programma en de portefeuille van de Mening ](assets/view--program-and-portfolio-350x116.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ De weergave bevat ook koppelingen naar het project, het programma en Portfolio v
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Het Programma en de informatie van Portfolio van de vertoning in een taakmening

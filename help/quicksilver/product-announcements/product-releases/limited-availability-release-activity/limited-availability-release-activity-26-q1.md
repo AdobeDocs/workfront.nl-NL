@@ -8,13 +8,15 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
 
 ---
-
 
 # Eerste kwartaal van 2026: releaseactiviteit voor Adobe Workfront - functies voor beperkte beschikbaarheid
 
@@ -22,7 +24,7 @@ In dit artikel worden de Workfront-functies voor beperkte beschikbaarheid beschr
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
+Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Opmerkingen bij de release met functies voor beperkte beschikbaarheid
 
@@ -65,7 +67,7 @@ De KPI voor geplande uren in het scherm Geavanceerde toewijzingen kan niet meer 
 
 **het gebied van de Datum van het Tarief van de Uitwisseling verborgen wanneer datum-efficiënte wisselkoersen niet worden gebruikt**
 
-Het **gebied van de Datum van het Tarief van de Uitwisseling 0&rbrace; in de Details van het Project > het gebied van de Financiën is nu verborgen wanneer het** gebruiken datum-efficiënte wisselkoersen van het systeem **controlevakje niet wordt geselecteerd.** Eerder, toen het uitgeven van een project, werd het datumgebied getoond op de projectdetails zelfs toen datum-efficiënte wisselkoersen niet werden toegelaten.
+Het **gebied van de Datum van het Tarief van de Uitwisseling 0} in de Details van het Project > het gebied van de Financiën is nu verborgen wanneer het** gebruiken datum-efficiënte wisselkoersen van het systeem **controlevakje niet wordt geselecteerd.** Eerder, toen het uitgeven van een project, werd het datumgebied getoond op de projectdetails zelfs toen datum-efficiënte wisselkoersen niet werden toegelaten.
 
 ### Onderhoudsupdates week van 4-10 januari 2026
 
@@ -73,7 +75,8 @@ Het **gebied van de Datum van het Tarief van de Uitwisseling 0&rbrace; in de Det
 
 De effectieve datums met betrekking tot de rolpercentages staan nu hiaten toe, hoewel overlappende datums niet zijn toegestaan. Tijdens een hiaat, worden andere gebieden van de het facturerings tariefhiërarchie gebruikt om het het factureren tarief te bepalen, dat op het opbrengsttype van een taak wordt gebaseerd.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

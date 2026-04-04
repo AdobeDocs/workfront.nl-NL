@@ -7,7 +7,9 @@ description: 'Groeperen: geeft aan of de resultaten van een groepering moeten wo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
 -->
 
-U kunt erop wijzen of de resultaten in een groepering zouden moeten doen ineenstorten of in een lijst of rapport door de standaard rapportbouwer te gebruiken worden uitgebreid. De resultaten in een gegroepeerde weergave worden standaard uitgevouwen. Voor informatie over het creëren van een groepering, zie [&#x200B; groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
+U kunt erop wijzen of de resultaten in een groepering zouden moeten doen ineenstorten of in een lijst of rapport door de standaard rapportbouwer te gebruiken worden uitgebreid. De resultaten in een gegroepeerde weergave worden standaard uitgevouwen. Voor informatie over het creëren van een groepering, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Understanding text mode, Edit groupings to organize reports, Create a Custom Report; create a snippet when convenient)</p>
@@ -65,7 +67,7 @@ U kunt ook aangeven of een groep moet worden uitgevouwen of samengevouwen in de 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

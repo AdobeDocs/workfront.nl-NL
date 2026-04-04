@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 0%
@@ -23,7 +25,7 @@ Als u een Adobe Workfront-beheerder bent of als u beheerdersrechten hebt voor go
 
 Als u een groepsbeheerder bent, kunt u de goedkeuringsprocessen zien en uitgeven verbonden aan de groep of de groepen u leiden.
 
-Voor informatie over het creëren van goedkeuringsprocessen, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+Voor informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 >[!NOTE]
 >
@@ -66,7 +68,7 @@ Voor informatie over het creëren van goedkeuringsprocessen, zie [&#x200B; een g
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +94,8 @@ For this article, the old access was:
    <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Een bestaand goedkeuringsproces bewerken
 
@@ -104,7 +107,7 @@ For this article, the old access was:
 
    Als u een goedkeuringsproces op groepsniveau bewerkt, doet u het volgende:
 
-   1. In het linkerpaneel, klik **Groepen** ![&#x200B; pictogram van Groepen &#x200B;](assets/groups-icon.png).
+   1. In het linkerpaneel, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png).
    1. Klik op de naam van de groep waarvoor u de goedkeuringsprocessen voor groepen wilt weergeven of beheren.
    1. In het linkerpaneel, klik **goedkeurt**. U zou kunnen moeten klikken **tonen meer** eerst.
 
@@ -112,7 +115,7 @@ For this article, the old access was:
 
 1. Selecteer het goedkeuringsproces u wilt uitgeven, dan klik **uitgeven** bij de bovenkant van de lijst. Het vak Goedkeuringsproces bewerken wordt weergegeven.
 
-   ![&#x200B; geef goedkeuringsproces &#x200B;](assets/edit-approval-process-global-area-new.png) uit
+   ![ geef goedkeuringsproces ](assets/edit-approval-process-global-area-new.png) uit
 
 1. Geef de volgende informatie op in het vak dat wordt weergegeven:
 
@@ -230,6 +233,6 @@ For this article, the old access was:
 1. Klik **sparen**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [&#x200B; wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [&#x200B; worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [ wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [ worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Maak een ander goedkeuringsproces dat wordt geactiveerd als dit goedkeuringsproces wordt geweigerd en het onderdeel een andere status krijgt. Op deze manier kunt u goedkeuringsprocessen aan elkaar koppelen.

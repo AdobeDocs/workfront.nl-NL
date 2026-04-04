@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 0%
@@ -27,7 +29,7 @@ Dit artikel beschrijft hoe te om een systeem-niveau of groep-vlakke globale goed
 
 Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld aan documenten of proefdrukken:
 
-* [&#x200B; het documentgoedkeuringen van het Verzoek &#x200B;](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [ het documentgoedkeuringen van het Verzoek ](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 
 >[!NOTE]
@@ -38,7 +40,7 @@ Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld 
 >
 >Op groepsniveau is een algemeen goedkeuringsproces beperkt tot werkitems en statussen die tot de groep behoren.
 >
->Voor informatie over enig-gebruik goedkeuringsprocessen, zie [&#x200B; overzicht van het het procesproces van de Goedkeuring &#x200B;](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) en [&#x200B; associëren een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+>Voor informatie over enig-gebruik goedkeuringsprocessen, zie [ overzicht van het het procesproces van de Goedkeuring ](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) en [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Toegangsvereisten
 
@@ -71,11 +73,12 @@ Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld 
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## Een algemeen goedkeuringsproces op systeemniveau of groepsniveau voor werkitems maken
@@ -112,9 +116,10 @@ For more detail about the information in this table, see [Access requirements in
 
    of
 
-   Als u een groep-vlakke goedkeuringsproces creeert, klik **Groepen** ![&#x200B; pictogram van Groepen &#x200B;](assets/groups-icon.png), klik de naam van de groep, dan klik **goedkeurt**.
+   Als u een groep-vlakke goedkeuringsproces creeert, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png), klik de naam van de groep, dan klik **goedkeurt**.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
@@ -214,7 +219,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Kiezen wat er gebeurt wanneer de goedkeuring wordt geweigerd</p> </td> 
       <td> <p>Selecteer de actie die u wilt uitvoeren als het werkitem in een van de fasen van het pad wordt afgewezen:</p> 
        <ul> 
-       <li><b> creeer een Kwestie </b>: (Beschikbaar slechts voor project en taakgoedkeuringsprocessen) Een kwestie wordt gecreeerd in het project of de taak waar het goedkeuringsproces loopt. De standaard toegewezen bron op de taak, of de eigenaar van het project wordt toegewezen aan de kwestie. Door gebrek, wordt de naam van de gecreeerde kwestie <b> Afgewezen Goedkeuring (&lt;Project of Naam van de Taak&gt;) </b>. Dit is een afwijzingsprobleem dat onder de taak of het project is aangegaan, afhankelijk van het goedkeuringsproces waarbij de afkeuring heeft plaatsgevonden.</li> 
+       <li><b> creeer een Kwestie </b>: (Beschikbaar slechts voor project en taakgoedkeuringsprocessen) Een kwestie wordt gecreeerd in het project of de taak waar het goedkeuringsproces loopt. De standaard toegewezen bron op de taak, of de eigenaar van het project wordt toegewezen aan de kwestie. Door gebrek, is de naam van de gecreeerde kwestie <b> Afgewezen Goedkeuring (&lt;Project of Naam van de Taak&gt;)</b>. Dit is een afwijzingsprobleem dat onder de taak of het project is aangegaan, afhankelijk van het goedkeuringsproces waarbij de afkeuring heeft plaatsgevonden.</li> 
        <li> <p><b> plaats Status aan </b>: Kies één van het volgende:</p> 
        <ul> 
        <li><b> Vorige Status </b>: Het verworpen project, de taak, of de kwestie keert aan de status voorafgaand aan de status terug die het goedkeuringsproces activeert.</li> 
@@ -233,11 +238,11 @@ For more detail about the information in this table, see [Access requirements in
 1. Klik **sparen**.
 1. Nadat het goedkeuringsproces is gemaakt, gaat u door met een van de volgende handelingen:
 
-   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [&#x200B; wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [&#x200B; worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [ wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [ worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Maak een ander goedkeuringsproces dat wordt geactiveerd als dit goedkeuringsproces wordt geweigerd en het onderdeel een andere status krijgt. Op deze manier kunt u goedkeuringsprocessen aan elkaar koppelen.
 
-Voor informatie over het uitgeven van een goedkeuringsproces, zie [&#x200B; een goedkeuringsproces &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
+Voor informatie over het uitgeven van een goedkeuringsproces, zie [ een goedkeuringsproces ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
 
 ## Een goedkeuringsproces koppelen aan een tijdelijk onderdeel
 
@@ -247,14 +252,14 @@ Wanneer u een goedkeuringsproces voor een het werkpunt (project, taak, of kwesti
 1. Het werkitem maken
 1. Het goedkeuringsproces koppelen aan het werkitem
 
-Voor instructies bij het associëren van een goedkeuringsproces met een het werkpunt, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+Voor instructies bij het associëren van een goedkeuringsproces met een het werkpunt, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 >[!NOTE]
 >
->Elke Workfront-gebruiker met beheermachtigingen voor een project, taak of uitgave kan goedkeuringsprocessen voor eenmalig gebruik maken die alleen kunnen worden gebruikt op het object waar ze zijn gemaakt. Voor meer informatie, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+>Elke Workfront-gebruiker met beheermachtigingen voor een project, taak of uitgave kan goedkeuringsprocessen voor eenmalig gebruik maken die alleen kunnen worden gebruikt op het object waar ze zijn gemaakt. Voor meer informatie, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Toelatend gebruikers om globale goedkeuringsprocessen voor één enkel het werkpunt te wijzigen
 
-Door gebrek, kunnen de gebruikers die toestemmingen op projecten, taken, en kwesties leiden tot enig-gebruiksgoedkeuringsprocessen op hen tot stand brengen. Voor informatie over het toevoegen van enig-gebruiks goedkeuringsprocessen aan projecten, taken, en kwesties, zie de sectie [&#x200B; een enig-gebruiks goedkeuringsproces met een project, een taak, een kwestie, een malplaatje, of malplaatjetaak &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) in het artikel [&#x200B; associëren een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Door gebrek, kunnen de gebruikers die toestemmingen op projecten, taken, en kwesties leiden tot enig-gebruiksgoedkeuringsprocessen op hen tot stand brengen. Voor informatie over het toevoegen van enig-gebruiks goedkeuringsprocessen aan projecten, taken, en kwesties, zie de sectie [ een enig-gebruiks goedkeuringsproces met een project, een taak, een kwestie, een malplaatje, of malplaatjetaak ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) in het artikel [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Gebruikers kunnen ook instellingen wijzigen voor algemene goedkeuringsprocessen die aan een tijdelijk onderdeel zijn gekoppeld. Deze veranderingen beïnvloeden slechts het project, de taak, of de kwestie verbonden aan het systeem-vlakke goedkeuringsproces. Voor meer informatie, zie de sectie &quot;een globaal goedkeuringsproces voor gebruik op een specifiek voorwerp&quot;in het artikel [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+Gebruikers kunnen ook instellingen wijzigen voor algemene goedkeuringsprocessen die aan een tijdelijk onderdeel zijn gekoppeld. Deze veranderingen beïnvloeden slechts het project, de taak, of de kwestie verbonden aan het systeem-vlakke goedkeuringsproces. Voor meer informatie, zie de sectie &quot;een globaal goedkeuringsproces voor gebruik op een specifiek voorwerp&quot;in het artikel [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.

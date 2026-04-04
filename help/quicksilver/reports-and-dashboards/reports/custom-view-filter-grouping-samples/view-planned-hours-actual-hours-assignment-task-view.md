@@ -7,7 +7,9 @@ description: In deze taakweergave worden de totale geplande uren van een taak we
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 In deze taakweergave worden de totale geplande uren van een taak weergegeven, het aantal geplande uren dat aan elke toegewezen persoon is toegewezen (wanneer de taak aan meerdere gebruikers is toegewezen), de totale werkelijke uren van de taak en het aantal werkelijke uren dat door elke toegewezen persoon is geregistreerd.
 
-![&#x200B; multi_assign_budget_vs_actual_for_tasks.png &#x200B;](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
+![ multi_assign_budget_vs_actual_for_tasks.png ](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ In deze taakweergave worden de totale geplande uren van een taak weergegeven, he
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

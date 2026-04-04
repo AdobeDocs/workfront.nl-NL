@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2af72926-a46a-4265-aa01-064436b93622
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het vierde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 >[!IMPORTANT]
 >
@@ -30,7 +32,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 U kunt de beslissingsstatus van een document nu rechtstreeks in de documentlijst bekijken.
 
-Voor meer informatie, zie [&#x200B; overzicht van de beslissingsstatus van het Document &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Voor meer informatie, zie [ overzicht van de beslissingsstatus van het Document ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Voeg snel vorige revisoren en fiatteurs toe aan nieuwe documentversies
 

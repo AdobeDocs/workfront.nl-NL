@@ -7,7 +7,9 @@ description: Verschillende functies worden geleidelijk uit het Adobe Workfront-p
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -44,27 +46,32 @@ Verschillende functies worden geleidelijk uit het Adobe Workfront-product verwij
    <td> <p>Niet meer ondersteund op 9 november 2020 (met de release 20.4)</p> <p>—</p> <p>Verwijderd van het Workfront-platform na de eerste helft van 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home"> de Fusie van Adobe Workfront </a>.</p> </td> 
+   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home"> de Fusie van Adobe Workfront </a>.</p> </td> 
    <td> </td> 
    <td>Op 31 maart 2021 is het Workfront-platform verwijderd</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>In Workfront zijn verschillende gereedschappen nu beschikbaar als vervanging voor elk gereedschap op basis van Flash. Voor meer gedetailleerde informatie, zie <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref"> Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront </a>.</p> </td> 
+   <td> <p>Flash</p> <p>In Workfront zijn verschillende gereedschappen nu beschikbaar als vervanging voor elk op Flash gebaseerd gereedschap. Voor meer gedetailleerde informatie, zie <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref"> Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront </a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Op 19 november 2020 is het Workfront-platform verwijderd</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td>
+     -->
+     </td>
 
 </tr>
 

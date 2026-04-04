@@ -7,7 +7,9 @@ description: Een kalenderrapport is een dynamisch rapport dat een visuele verteg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging 
 * Problemen
 * Projecten
 
-Uw vermogen om tot kalenderrapporten in [!DNL Adobe Workfront] toegang te hebben wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Uw vermogen om tot kalenderrapporten in [!DNL Adobe Workfront] toegang te hebben wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Uw eigen kalenders maken
 

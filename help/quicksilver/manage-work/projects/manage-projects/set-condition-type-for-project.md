@@ -6,10 +6,12 @@ description: Als projectmanager, kunt u bepalen hoe de Voorwaarde van een projec
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,11 +52,12 @@ Als projectmanager, kunt u bepalen hoe de Voorwaarde van een project door het Ty
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,17 +84,18 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
     </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Het voorwaardetype instellen voor een project
 
 1. Ga naar het project waarvoor u het Type van Voorwaarde wilt bijwerken.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+   * Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
    * Klik **Details van het Project** in het linkerpaneel.
 
-   ![&#x200B; het voorwaardetype van de Update &#x200B;](assets/update-condition-type-nwe-350x108.png)
+   ![ het voorwaardetype van de Update ](assets/update-condition-type-nwe-350x108.png)
 
 1. Op het **gebied van het Type van Voorwaarde**, kies één van het volgende:
 
@@ -99,7 +103,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
      In dit geval, kan de projecteigenaar de Voorwaarde van het project in de projectkopbal, of de sectie van de Details van het Project bijwerken.
 
-   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [&#x200B; Overzicht van de Status van de Voortgang van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [ Overzicht van de Status van de Voortgang van het Project ](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 1. Klik **sparen** wanneer u het Type van Voorwaarde in de Edit doos van het Project wijzigt.
 

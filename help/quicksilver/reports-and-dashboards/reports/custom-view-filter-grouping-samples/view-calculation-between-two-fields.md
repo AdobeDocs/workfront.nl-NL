@@ -7,7 +7,9 @@ description: U kunt de tekstmodus in een kolom gebruiken om een berekening tusse
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Als u bijvoorbeeld wilt weten hoeveel weken er zijn verstreken tussen twee datum
 U kunt bijvoorbeeld het weekdagverschil berekenen tussen de Geplande Voltooiingsdatum en de Werkelijke Voltooiingsdatum van een taak en het resultaat weergeven in een kolom.
 
 U kunt andere twee datums gebruiken in deze berekening (Werkelijk begin, Werkelijke Voltooiing, Geprojecteerd Begin, Geprojecteerde Voltooiing, enz.).\
-Voor meer informatie over berekende gegevensuitdrukkingen, zie [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor meer informatie over berekende gegevensuitdrukkingen, zie [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Toegangsvereisten
 
@@ -55,7 +57,7 @@ Voor meer informatie over berekende gegevensuitdrukkingen, zie [&#x200B; Overzic
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,5 +79,5 @@ Deze kolom toevoegen aan een taakweergave:
    valueformat=HTML
    ```
 
-1. (Facultatief) om de waarden samen te voegen die in de mening in een groepering worden getoond, volg de stappen die in [&#x200B; worden beschreven Groepering: toon het resultaat van het samenvoegen van veelvoudige berekende waarden in een groepering &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+1. (Facultatief) om de waarden samen te voegen die in de mening in een groepering worden getoond, volg de stappen die in [ worden beschreven Groepering: toon het resultaat van het samenvoegen van veelvoudige berekende waarden in een groepering ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Klik **Gedaan**, dan **sparen Mening**.

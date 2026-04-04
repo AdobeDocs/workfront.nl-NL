@@ -6,7 +6,9 @@ description: 'Meldingen: Doelstellingen'
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Meldingen: Doelstellingen
 
-U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
+U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten ](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +52,7 @@ U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfro
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,15 +63,15 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## [!DNL Goals] -meldingen in het [!UICONTROL user profile] -gebied
 
-De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![&#x200B; de voorkeur van Meldingen &#x200B;](assets/goals-notifications-preferences-350x114.png)
+![ de voorkeur van Meldingen ](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
 >Instant-meldingen voor [!DNL Goals] zijn standaard uitgeschakeld. U kunt dagelijkse meldingen niet in- of uitschakelen en u ontvangt geen dagelijkse samenvattingse-mails voor de gebeurtenissen in deze categorie. U kunt afzonderlijke expresmeldingen voor de categorie [!DNL Goals] in- of uitschakelen.
 
-Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basics/using-notifications/event-notifications.md).
+Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +97,8 @@ Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basi
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

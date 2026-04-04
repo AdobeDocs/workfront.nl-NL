@@ -8,7 +8,9 @@ feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 Deze pagina bevat wekelijks een overzicht van de ontwikkelingsupdates die worden uitgebracht voor de bètaversie van Canvasdashboards.
 
-Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Week van 14 augustus
 
@@ -31,4 +33,4 @@ Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [&#
 
 * **rapporten van de Grafiek**
 
-  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een Dashboard van het Canvas, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een Dashboard van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

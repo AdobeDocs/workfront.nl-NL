@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3573'
 ht-degree: 0%
@@ -16,8 +18,8 @@ ht-degree: 0%
 
 # Nieuw in API-versie 11
 
-* [&#x200B; Toegevoegde Middelen &#x200B;](#added-resources)
-* [&#x200B; Verwijderde Middelen &#x200B;](#removed-resources)
+* [ Toegevoegde Middelen ](#added-resources)
+* [ Verwijderde Middelen ](#removed-resources)
 * [Gewijzigde bronnen](#modified-resources)
 
 ## Toegevoegde bronnen {#added-resources}
@@ -40,9 +42,11 @@ ht-degree: 0%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -81,9 +85,11 @@ ht-degree: 0%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -120,9 +126,11 @@ ht-degree: 0%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -277,7 +285,8 @@ Er zijn geen bronnen verwijderd voor API v11.
      <li><a href="#templateassignment" class="MCXref xref"> TemplateAssignment </a> </li> 
      <li><a href="#templatetask" class="MCXref xref"> TemplateTask </a> </li> 
      <li><a href="#timesheet" class="MCXref xref"> Timesheet </a> </li> 
-     <li><a href="#update" class="MCXref xref"> Update </a> </li> <!--
+     <li><a href="#update" class="MCXref xref"> Update </a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref"> UserNote </a> </li> 
@@ -541,7 +550,7 @@ Een object Company vertegenwoordigt een organisatie die bestaat uit een verzamel
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p style="font-weight: normal;">De volgende acties zijn toegevoegd aan het object CustomEnum</p> 
     <ul> 
      <li style="font-weight: bold;">getDefaultOpTaskConditionEnum</li> 
@@ -580,7 +589,8 @@ Een object van de Klant vertegenwoordigt een organisatie die een instantie van W
        <li style="font-weight: normal;">CONDITION_OPTASK (Uitgavevoorwaarden)  </li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -590,7 +600,7 @@ Een object van de Klant vertegenwoordigt een organisatie die een instantie van W
    </tr>
   --> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p style="font-weight: normal;">De volgende acties zijn toegevoegd aan het object Customer</p> 
     <ul> 
      <li style="font-weight: bold;">targetEnabled</li> 
@@ -604,9 +614,11 @@ Een object van de Klant vertegenwoordigt een organisatie die een instantie van W
 
 Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant heeft ingesteld voor hun exemplaar van Workfront.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -636,7 +648,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>getMetadataDetailsForDocument</p> <p style="font-weight: normal;">Toegevoegd</p> </li> 
@@ -654,7 +666,7 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p>De volgende handelingen zijn toegevoegd aan het object Document.</p> 
     <ul> 
      <li style="font-weight: bold;">completeLargeDocument</li> 
@@ -809,7 +821,7 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p>De volgende acties zijn toegevoegd aan het OpTask-object</p> 
     <ul> 
      <li style="font-weight: bold;">bulkMove</li> 
@@ -840,7 +852,7 @@ Een object Parameter is een aangepast veld.
 
 ### Portfolio {#portfolio}
 
-Een object Portfolio is een verzameling projecten die concurreren om dezelfde bronnen, meestal geld of mensen om deze te voltooien.
+Een Portfolio-object is een verzameling projecten die concurreren om dezelfde bronnen, meestal geld of mensen om ze te voltooien.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1057,7 +1069,7 @@ Een voorwerp ScheduledReport vertegenwoordigt een rapport dat is gevormd om voor
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
+Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1275,9 +1287,11 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -1289,7 +1303,7 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p style="font-weight: normal;">De volgende handelingen zijn toegevoegd aan het object User.</p> 
     <ul> 
      <li style="font-weight: bold;">hasGrantLoginAsAccess</li> 
@@ -1313,7 +1327,7 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p style="font-weight: normal;">De volgende handelingen zijn toegevoegd aan het object User.</p> 
     <ul> 
      <li style="font-weight: bold;">confirmMyNotifications</li> 

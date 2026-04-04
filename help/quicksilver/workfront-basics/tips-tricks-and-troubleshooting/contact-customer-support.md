@@ -6,7 +6,9 @@ description: Als Adobe Workfront-klant kunt u telefonisch contact opnemen met he
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Als klant van [!DNL Adobe Workfront] kunt u telefonisch contact opnemen met het 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Standaard</p>
+   <td><p>Standard</p>
        <p>Plan</p></td>
   </tr> 
   </tr> 
@@ -53,7 +55,7 @@ Als klant van [!DNL Adobe Workfront] kunt u telefonisch contact opnemen met het 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +67,8 @@ U kunt [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per dag, door 
 * EMEA: +44 800 169 0454
 * Australië: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 >Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
-1. Klik op de [[!DNL Experience League] &#x200B;](https://experienceleague.adobe.com/nl) -website **[!UICONTROL Support]** boven aan de pagina.
+1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com) -website **[!UICONTROL Support]** boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -90,7 +93,7 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 
    Vanuit de [!UICONTROL Support] -startpagina kunt u naar de geopende ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste [!UICONTROL Support] -artikelen weergeven of aanvullende leerbronnen openen.
 
-   Voor meer informatie over Workfront het leren, zie [&#x200B; het Centrum van de Hulp &#x200B;](https://learning.adobe.com/resources/help-center.html).
+   Voor meer informatie over Workfront het leren, zie [ het Centrum van de Hulp ](https://learning.adobe.com/resources/help-center.html).
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
@@ -137,7 +140,8 @@ Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u he
 1. (Optioneel) Klik op de knop **[!UICONTROL Close case]** om het hoofdlettergebruik te sluiten.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=nl)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

@@ -6,7 +6,9 @@ description: U kunt ad-hocgebeurtenissen toevoegen aan een kalender. Een ad-hocg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -47,7 +49,7 @@ U kunt ad-hocgebeurtenissen toevoegen aan een kalender. Een ad-hocgebeurtenis di
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,4 +62,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. Kies een kleur voor de gebeurtenis.
 1. Kies of de gebeurtenis meerdere dagen moet beslaan.
 1. Voer een datum in of kies een datum met het kalenderpictogram.
-   ![&#x200B; voeg ad-hoc gebeurtenis &#x200B;](assets/add-ad-hoc.png) toe
+   ![ voeg ad-hoc gebeurtenis ](assets/add-ad-hoc.png) toe

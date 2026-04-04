@@ -1,26 +1,28 @@
 ---
-title: Verbeteringen van het project in het tweede kwartaal van 2025
-description: Verbeteringen van het project in het tweede kwartaal van 2025
+title: Verbeteringen van projecten in het tweede kwartaal van 2025
+description: Verbeteringen van projecten in het tweede kwartaal van 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen in documentbeheer in tweede kwartaal 2025
+# Verbeteringen in documentbeheer, tweede kwartaal 2025
 
-Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de tweede release van 2025 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving, zoals aangegeven.
+Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release van het tweede kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de Tweede de versiecyclus van het Kwartaal 2025, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 >[!IMPORTANT]
 >
->De functies die op deze pagina worden weergegeven, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
+>De functies die op deze pagina worden vermeld, maken deel uit van een gefaseerde release en zijn alleen beschikbaar voor specifieke klanten.
 
 <!--
 
@@ -48,8 +50,8 @@ For more information, see [Use new document approvals and proofing together](/he
 
 De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.45. Met deze update kan de viewer gebruiken
 
-* Elektronische versie 35
-* Chromiumversie 134
+* Elektron versie 35
+* Chroom versie 134
 
 Deze update geldt voor zowel Mac als Windows.
 
@@ -61,4 +63,4 @@ Deze update geldt voor zowel Mac als Windows.
 
 U kunt nu meerdere documenten tegelijk bewerken in een documentrapport. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.
 
-Voor meer informatie, zie [&#x200B; documenten in bulk &#x200B;](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) uitgeven.
+Voor meer informatie, zie [ documenten in bulk ](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) uitgeven.

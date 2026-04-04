@@ -7,7 +7,9 @@ description: U kunt informatie van de originele kwestie op een mening van taak e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -22,11 +24,11 @@ U kunt de volgende informatie van de originele kwestie op een mening van taak en
 * Invoerdatum van geconverteerde uitgave
 * Naam van initiator van geconverteerde uitgave
 
-Voor informatie over het creëren van een mening die de standaard rapportbouwer gebruikt, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor informatie over het creëren van een mening die de standaard rapportbouwer gebruikt, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-![&#x200B; task_and_project_list_with_original_issue_info.png &#x200B;](assets/task-and-project-list-with-original-issue-info-350x59.png)
+![ task_and_project_list_with_original_issue_info.png ](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Voor meer informatie over het omvatten van extra uitgifteinformatie over projecten en takenlijsten, zie ook [&#x200B; Mening: voortkomende uitgiftedetails voor taken en projecten &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Voor meer informatie over het omvatten van extra uitgifteinformatie over projecten en takenlijsten, zie ook [ Mening: voortkomende uitgiftedetails voor taken en projecten ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

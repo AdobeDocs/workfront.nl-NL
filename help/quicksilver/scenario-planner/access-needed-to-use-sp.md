@@ -7,7 +7,9 @@ description: Voor de functie Scenario Planner is een aparte licentie en aanvulle
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 68dee7bc9643b7b9446ff4737ff70f4b850e7bbb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL &#x200B; Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
+Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL  Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
 
 ## Toegang nodig om de [!DNL Adobe Workfront Scenario Planner]
 
@@ -38,46 +40,54 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
   Als u een nieuwe klant bent, is de Scenario Planner niet meer beschikbaar voor aankoop.
 
-  <!--Old: 
+  <!--
+    Old: 
     Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
     * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
     * For the current Workfront plans, your organization must have both of the following: 
       * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. 
       
-      * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. -->
+      * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses.
+      -->
 
 * U moet een van de volgende Workfront-licenties hebben:
 
    * [!UICONTROL Light] of hoger
    * [!UICONTROL Reviewer] of hoger
 
-  <!--Old: 
+  <!--
+    Old: 
       * For the current licenses: 
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
-        * [!UICONTROL Review]-->
+        * [!UICONTROL Review]
+        -->
 
-  <!--Old: 
+  <!--
+    Old: 
       >[!NOTE]
       > 
       >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
       >
-      >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
+      >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner.
+      -->
 
 * Uw [!DNL Workfront] -beheerder moet u [!UICONTROL View] of [!UICONTROL Edit] toegang geven tot [!DNL Scenario Planner] op toegangsniveau.
 
-  Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [&#x200B; de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-* (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt weergeven of bijwerken, moet de [!DNL Workfront] -beheerder u ook toegang geven tot [!UICONTROL Financial Data] op uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [&#x200B; de toegang van de Verlening tot financiële gegevens &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+* (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt weergeven of bijwerken, moet de [!DNL Workfront] -beheerder u ook toegang geven tot [!UICONTROL Financial Data] op uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [ de toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 
 <!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->
 
-<!--this used to be true but not anymore:
+<!--
+this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-<!--Repetitive from above?? 
+<!--
+Repetitive from above?? 
 
 ## Access needed to view plans and initiatives
 
@@ -131,11 +141,11 @@ Om plannen te bekijken die andere gebruikers creeerden moeten zij hun plannen me
 
 * Deel het abonnement met u
 
-  Voor informatie over het delen van plannen, zie [&#x200B; een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
+  Voor informatie over het delen van plannen, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
 
 * Een koppeling verzenden naar een abonnement dat ze hebben gemaakt
 
-  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [&#x200B; Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [ Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 
 >[!NOTE]
 >

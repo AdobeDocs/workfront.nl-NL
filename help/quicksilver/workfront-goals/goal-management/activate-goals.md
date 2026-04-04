@@ -6,7 +6,9 @@ description: Wanneer u een doel maakt, slaat Adobe Workfront Goals het op met de
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Wanneer u een doel maakt, slaat Adobe Workfront Goals het op met de status Conce
 
 Als u wilt bijhouden hoe dicht u bij het bereiken van een doel bent door de voortgang bij te werken, moet u het activeren. Hiermee wijzigt u de status in Actief.
 
-Voor informatie over het creëren van een doel, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+Voor informatie over het creëren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 >[!IMPORTANT]
 >
@@ -71,11 +73,12 @@ Voor informatie over het creëren van een doel, zie [&#x200B; doelstellingen in 
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -126,7 +129,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Vereisten
 
@@ -136,19 +140,19 @@ Voer ten minste een van de volgende handelingen uit om een doel te activeren:
 
 * Een resultaat toevoegen aan het doel
 
-  Voor informatie, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
+  Voor informatie, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
 
 * Een activiteit toevoegen aan het doel
 
-  Voor informatie, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+  Voor informatie, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
 * Een project verbinden met het doel
 
-  Voor informatie, zie [&#x200B; projecten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
+  Voor informatie, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
 * Een ander doel uitlijnen op het doel dat u wilt activeren
 
-  Voor informatie, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden richten.
+  Voor informatie, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden richten.
 
 ## Doelstellingen activeren
 
@@ -156,8 +160,8 @@ U kunt doelen activeren die u hebt gemaakt of een doel waarvoor u beheermachtigi
 
 1. Ga naar een doel dat u wilt activeren. De doelpagina wordt geopend.
 
-1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](../goal-management/assets/more-icon.png) aan het recht van de doelnaam, dan klik **activeert**.
+1. Klik het **Meer** menu ![ Meer pictogram ](../goal-management/assets/more-icon.png) aan het recht van de doelnaam, dan klik **activeert**.
 
-   ![&#x200B; Meer uitgevouwen menu &#x200B;](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![ Meer uitgevouwen menu ](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    De doelstatus verandert in Actief. U kunt nu de voortgang op het doel en de doelweergaven bijhouden in de sectie Inchecken. Ook wordt hiermee rekening gehouden in de grafieksecties van Workfront-doelen

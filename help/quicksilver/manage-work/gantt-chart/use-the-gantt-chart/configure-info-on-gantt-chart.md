@@ -7,7 +7,9 @@ description: U kunt vormen welke informatie in zowel de Grafiek van Gantt van de
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -50,12 +52,13 @@ U kunt vormen welke informatie in zowel de Grafiek van Gantt van de Lijst van de
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Weergaveopties begrijpen
 
@@ -140,7 +144,7 @@ In de volgende tabel worden de weergaveopties voor de [!UICONTROL Gantt chart] w
   <tr> 
    <td role="rowheader">[!UICONTROL Progress Status]</td> 
    <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__okt._2017.png"></p> <p>[!UICONTROL Behind]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind_okt._2017.png"></p> <p>[!UICONTROL At Risk]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>Late        <img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>De status van de huidige voortgang van een bepaalde taak. </p> <p>Voor meer informatie, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"> overzicht van de Taak 0&rbrace; [!UICONTROL Progress Status].</a></p> </td> 
+   <td> <p> </p> <p>De status van de huidige voortgang van een bepaalde taak. </p> <p>Voor meer informatie, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"> overzicht van de Taak 0} [!UICONTROL Progress Status].</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Geprojecteerde datums</td> 
@@ -153,11 +157,11 @@ In de volgende tabel worden de weergaveopties voor de [!UICONTROL Gantt chart] w
 ## Weergaveopties configureren
 
 1. Ga naar de **Gantt Grafiek van de Lijst van de Taak** of de **Gantt Grafiek van de Lijst van het Project**.\
-   Voor meer informatie over waar één van beide grafiek van Gantt wordt gevestigd, zie [&#x200B; begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+   Voor meer informatie over waar één van beide grafiek van Gantt wordt gevestigd, zie [ begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 1. (Facultatief) selecteer de **Schakelaar aan Geprojecteerde Datums** plaatsen om de taken door hun Geprojecteerde Datums te tonen. Taken worden standaard weergegeven op basis van de geplande datums.
 1. Klik het **pictogram van Opties**. Het **de dialoogvakje van Opties** opent.\
-   ![&#x200B; Options.png &#x200B;](assets/options-350x129.png)
+   ![ Options.png ](assets/options-350x129.png)
 
 1. Selecteer de configuratieopties die u in [!UICONTROL Gantt chart] wilt weergeven.
 

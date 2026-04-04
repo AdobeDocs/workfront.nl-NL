@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -21,9 +23,11 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Een scorecard meet hoe goed een project zich aan de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 
@@ -61,7 +65,7 @@ U kunt als volgt een scorecard maken:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +77,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    De **Nieuwe scorecard** doos opent.
 
-   ![&#x200B; Nieuwe scorecard doos &#x200B;](assets/new-scorecard-350x173.png)
+   ![ Nieuwe scorecard doos ](assets/new-scorecard-350x173.png)
 
 1. Geef een **[!UICONTROL Scorecard Name]** en een **[!UICONTROL Description]** op.
 
@@ -122,11 +126,11 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Scorecards]** in het linkerdeelvenster.
-1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar** pictogram van het Exemplaar scorecard ![&#x200B; bij de bovenkant van de scorecardlijst.](assets/copy-scorecard-icon.png)
+1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar** pictogram van het Exemplaar scorecard ![ bij de bovenkant van de scorecardlijst.](assets/copy-scorecard-icon.png)
 
    Het **Scorecard van het Exemplaar** vakje opent.
 
-   ![&#x200B; de scorecarddoos van het Exemplaar &#x200B;](assets/copy-scorecard-box.png)
+   ![ de scorecarddoos van het Exemplaar ](assets/copy-scorecard-box.png)
 
 1. Geef de volgende informatie op:
 
@@ -142,8 +146,8 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 
 Een gebruiker met [!UICONTROL manage] toestemmingen op een project kan een scorecard op een project toepassen, nadat scorecard door de [!DNL Workfront] beheerder is gecreeerd.
 
-Een scorecard wordt toegevoegd aan een project als deel van het creëren van een bedrijfsgeval voor het project. Voor meer informatie over het toevoegen van een scorecard aan een project, zie [&#x200B; een scorecard op een project toepassen en een Score van de Uitlijning &#x200B;](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
+Een scorecard wordt toegevoegd aan een project als deel van het creëren van een bedrijfsgeval voor het project. Voor meer informatie over het toevoegen van een scorecard aan een project, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
-Voor meer informatie over projecttoestemmingen, zie [&#x200B; een project in  [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+Voor meer informatie over projecttoestemmingen, zie [ een project in  [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
 

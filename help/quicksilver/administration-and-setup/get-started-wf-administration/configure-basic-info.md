@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -46,7 +48,7 @@ Als onderdeel van het configureren van uw Adobe Workfront-systeem kunt u gegeven
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,24 +68,25 @@ De pagina Klantgegevens openen:
 
    * **Basis Info**
 
-     Voor informatie over het vormen van basisinformatie in Workfront, zie [&#x200B; BasisInfo &#x200B;](#configure-basic-info) vormen.
+     Voor informatie over het vormen van basisinformatie in Workfront, zie [ BasisInfo ](#configure-basic-info) vormen.
 
    * **API Zeer belangrijke Montages**
 
-     Voor informatie over API zeer belangrijke montages, zie [&#x200B; API sleutels beheren &#x200B;](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Voor informatie over API zeer belangrijke montages, zie [ API sleutels beheren ](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
    * **IP Lijst van gewenste personen**
 
-     Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+     Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
    * **Lijst van gewenste personen E-mail**
 
-     Voor informatie over het toevoegen van e-mails aan uw lijst van gewenste personen, zie [&#x200B; uw e-maillijst van gewenste personen &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
+     Voor informatie over het toevoegen van e-mails aan uw lijst van gewenste personen, zie [ uw e-maillijst van gewenste personen ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
 
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## Basisinformatie configureren {#configure-basic-info}
 

@@ -7,7 +7,9 @@ description: In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitgave heeft verzonden.
 
-![&#x200B; custom_view_for_issues_with_originator_company_name.png &#x200B;](assets/custom-view-for-issues-350x33.png)
+![ custom_view_for_issues_with_originator_company_name.png ](assets/custom-view-for-issues-350x33.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitga
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

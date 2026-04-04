@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: cacac66d-371a-42b0-891d-2e26bb4af326
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%
@@ -19,8 +21,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
-* [&#x200B; toegang en organiseer rapporten &#x200B;](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
-* [&#x200B; creeer een rapport over het melden van activiteiten &#x200B;](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
-* [&#x200B; Begrijp hoe te om rapporten over een dashboard te organiseren &#x200B;](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
+* [ Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [ toegang en organiseer rapporten ](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+* [ creeer een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
+* [ Begrijp hoe te om rapporten over een dashboard te organiseren ](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
 * [Rapportgebruik weergeven](../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)

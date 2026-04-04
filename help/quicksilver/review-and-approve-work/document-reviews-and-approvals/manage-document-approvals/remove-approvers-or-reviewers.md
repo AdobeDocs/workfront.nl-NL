@@ -6,7 +6,9 @@ description: U kunt afzonderlijke fiatteurs of revisoren uit een document verwij
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -21,7 +23,7 @@ U kunt afzonderlijke fiatteurs of revisoren uit een element of document verwijde
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -55,7 +57,7 @@ U kunt afzonderlijke fiatteurs of revisoren uit een element of document verwijde
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +68,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Selecteer **Goedkeuringen** in het linkerpaneel.
 
-1. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/delete.png) dat na hun naam verschijnt.
+1. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](../assets/delete.png) dat na hun naam verschijnt.
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 
@@ -82,7 +84,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Selecteer de versie van het document waarvoor u een fiatteur of revisor wilt verwijderen in het vervolgkeuzemenu. De meest recente versie is standaard geselecteerd.
 
-1. De rol neer aan de **goedkeurt** sectie in het Summiere paneel van het Document. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/delete.png) dat na hun naam verschijnt.
+1. De rol neer aan de **goedkeurt** sectie in het Summiere paneel van het Document. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](../assets/delete.png) dat na hun naam verschijnt.
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 
@@ -95,7 +97,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## fiatteurs of revisoren verwijderen uit een goedkeuringswerkstroom in de voorvertoningsomgeving in het gebied met oudere documenten
 
-Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [&#x200B; Opslag van Workfront vs. de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [ Opslag van Workfront vs. de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 Om fiatteurs of revisoren te verwijderen uit een goedkeuringswerkstroom:
 
@@ -111,7 +113,7 @@ Om fiatteurs of revisoren te verwijderen uit een goedkeuringswerkstroom:
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 
-   ![&#x200B; geef goedkeuringswerkschema &#x200B;](assets/edit-approval-in-legacy.png) uit
+   ![ geef goedkeuringswerkschema ](assets/edit-approval-in-legacy.png) uit
 
 1. (Optioneel) Als u de rol van fiatteur wilt wijzigen in een revisor of andersom, klikt u op het vervolgkeuzemenu naast de gebruikersnaam en selecteert u de nieuwe rol.
 
@@ -122,7 +124,7 @@ Om fiatteurs of revisoren te verwijderen uit een goedkeuringswerkstroom:
 
 ## fiatteurs of revisoren verwijderen uit een goedkeuringswerkstroom in het nieuwe documentgebied
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; de opslagoverzicht van de Onderneming &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ de opslagoverzicht van de Onderneming ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een goedkeuringswerkstroom maken:
 
@@ -130,7 +132,7 @@ Een goedkeuringswerkstroom maken:
 
 1. Klik op het document, dan klik het **goedkeurt** pictogram op de rechterkant van de pagina.
 
-   ![&#x200B; voegt fiatteurs in documentsamenvatting &#x200B;](assets/approvals-icon-new.png) toe
+   ![ voegt fiatteurs in documentsamenvatting ](assets/approvals-icon-new.png) toe
 
 
 1. Klik **uitgeven werkschema**.
@@ -143,5 +145,5 @@ Een goedkeuringswerkstroom maken:
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren te verwijderen.
 
-   ![&#x200B; verwijdert deelnemers uit een stadium &#x200B;](assets/add-or-remove-participants.png)
+   ![ verwijdert deelnemers uit een stadium ](assets/add-or-remove-participants.png)
 1. Klik **sparen**.

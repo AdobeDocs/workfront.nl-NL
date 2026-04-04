@@ -6,7 +6,9 @@ description: U kunt berichten in Adobe Creative Cloud van  [!DNL Adobe Workfront
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -34,7 +36,8 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -42,7 +45,8 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
@@ -50,7 +54,7 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,11 +62,11 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{cc-install-prereq}}
 
-* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## [!DNL Workfront] -meldingen weergeven en beheren in Adobe Creative Cloud
 
-1. Klik op het **[!UICONTROL Notifications]** pictogram ![&#x200B; pictogram van Meldingen &#x200B;](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
+1. Klik op het **[!UICONTROL Notifications]** pictogram ![ pictogram van Meldingen ](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
 1. (Optioneel) Als u alle meldingen wilt markeren zoals deze worden weergegeven, klikt u op **[!UICONTROL Mark all as seen]** .
 
    Dit markeert berichten zoals die in de stop evenals in Workfront worden gezien. Zachte meldingen zijn niet meer zichtbaar in de lijst met meldingen in de plug-in.

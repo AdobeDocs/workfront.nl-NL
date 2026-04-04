@@ -6,7 +6,9 @@ description: Naast het creëren van een projectmalplaatje van kras, kunt u besta
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -49,11 +51,12 @@ U moet de volgende toegang hebben.
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ U moet de volgende toegang hebben.
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overwegingen bij het kopiëren van sjablonen
 
@@ -102,11 +106,11 @@ De volgende items worden nooit van een bestaande sjabloon naar een nieuwe gekopi
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Ga naar de sjabloon die u wilt kopiëren.
-1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de malplaatjenaam in de kopbal, dan klik **Exemplaar**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de malplaatjenaam in de kopbal, dan klik **Exemplaar**.
 
    Het **vakje van het Malplaatje van het Exemplaar** opent.
 
-   ![&#x200B; de malplaatjedoos van het Exemplaar &#x200B;](assets/copy-template-box.png)
+   ![ de malplaatjedoos van het Exemplaar ](assets/copy-template-box.png)
 
 1. Specificeer een naam voor het malplaatje op het **Nieuwe gebied van de Naam van het Malplaatje**.
 

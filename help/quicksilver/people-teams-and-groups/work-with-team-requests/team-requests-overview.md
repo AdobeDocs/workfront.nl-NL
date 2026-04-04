@@ -7,7 +7,9 @@ description: De verzoeken van het team worden gevonden in het gebied van Teams i
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 ## Inzicht krijgen in teamverzoeken
 
-Teamaanvragen vindt u in het gebied [!UICONTROL Teams] in [!UICONTROL Main Menu] . Klik op het [!UICONTROL Team Requests] pictogram van het pictogram ![&#x200B; Verzoek &#x200B;](assets/request-icon.png) in het linkerpaneel om teamverzoeken te bekijken.
+Teamaanvragen vindt u in het gebied [!UICONTROL Teams] in [!UICONTROL Main Menu] . Klik op het [!UICONTROL Team Requests] pictogram van het pictogram ![ Verzoek ](assets/request-icon.png) in het linkerpaneel om teamverzoeken te bekijken.
 
 >[!NOTE]
 >
@@ -30,7 +32,7 @@ Een teamverzoek vertegenwoordigt een in afwachting van het werkpunt dat niet aan
 
 >[!NOTE]
 >
->Een teamverzoek zou niet voor samenwerkende taaktaken moeten worden gebruikt. Als u veelvoudige gebruikers moet toewijzen om aan een taak samen te werken, doe dit door [!UICONTROL Advanced Assignments] en niet door de verzoeken van het Team. Voor meer informatie, zie [&#x200B; Geavanceerde taken &#x200B;](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+>Een teamverzoek zou niet voor samenwerkende taaktaken moeten worden gebruikt. Als u veelvoudige gebruikers moet toewijzen om aan een taak samen te werken, doe dit door [!UICONTROL Advanced Assignments] en niet door de verzoeken van het Team. Voor meer informatie, zie [ Geavanceerde taken ](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
 ## De opties [!UICONTROL Ready to Start] en [!UICONTROL All] begrijpen
 
@@ -39,7 +41,7 @@ De sectie Teamverzoeken bevat twee opties: [!UICONTROL Ready to Start] en [!UICO
 De optie [!UICONTROL Ready to Start] geeft alleen taken en problemen weer die aan alle volgende criteria voldoen:
 
 * Alle voorgangers hebben aan de voorwaarden voor hun voorganger afhankelijkheidstypen voldaan.\
-  Als het type van de voorgangerrelatie bijvoorbeeld [!UICONTROL Finish-Start] is (de voorgangertaak moet zijn voltooid voordat de afhankelijke taak kan worden gestart), moet de voorganger zijn gemarkeerd als [!UICONTROL Complete] . (Voor meer informatie over de types van voorgangsafhankelijkheid, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
+  Als het type van de voorgangerrelatie bijvoorbeeld [!UICONTROL Finish-Start] is (de voorgangertaak moet zijn voltooid voordat de afhankelijke taak kan worden gestart), moet de voorganger zijn gemarkeerd als [!UICONTROL Complete] . (Voor meer informatie over de types van voorgangsafhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
 
 * De het programma geopende gebruiker is de persoon die aan deze taken en kwesties (voor het werkverzoeken) wordt toegewezen, of het geselecteerde team wordt toegewezen aan deze taken en kwesties (voor teamverzoeken).
 * De status van het project is ingesteld op [!UICONTROL Current] .

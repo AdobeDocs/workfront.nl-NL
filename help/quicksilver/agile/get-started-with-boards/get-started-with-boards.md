@@ -1,13 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 'Get Started with Boards: Article Index'
-description: Review these articles to learn how to use boards in Workfront.
+title: 'Aan de slag met boeken: artikelindex'
+description: Bekijk deze artikelen voor meer informatie over het gebruik van borden in Workfront.
 author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+* [Adobe Workfront Boards videodemonstraties](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Optie voor vroege deelname aan raden](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Het dashboard voor tekengebieden gebruiken](../../agile/get-started-with-boards/use-boards-page.md)
 * [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md)

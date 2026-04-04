@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Overzicht van licentietype bij gebruik van Adobe Workfront Planning
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +31,9 @@ Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-plan
 * Werkruimten of recordtypen weergeven, bijdragen of beheren
 * Weergaven weergeven of beheren. <!--<span class="preview">and records</span>-->
 
-Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Adobe die toegangsoverzicht van de Planning &#x200B;](/help/quicksilver/planning/access/access-overview.md) plant.
+Voor informatie over toegang tot de Planning van Workfront, zie [ Adobe die toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md) plant.
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
@@ -51,9 +55,11 @@ Houd rekening met het volgende wanneer u werkt met bevoegdheden voor recordtypen
 | Standard | <p>Gebruikers kunnen werkruimten, recordtypen <!--<span class="preview">records</span>--> en weergaven beheren. Ze kunnen werkruimten, recordtypen, records, velden en weergaven maken, bewerken of verwijderen.</p><br><p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> |
 | Licht of medewerker | <p>De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld.</p> <br> <p>Gebruikers kunnen de weergaven bekijken die met hen worden gedeeld, maar ze kunnen hun eigen weergaven niet maken. </p><br> <p>Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen.</p> |
 
-<!--Old: 
+<!--
+Old: 
 *Workfront Planning is not available for legacy Workfront licenses. 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ### Licentietypen en machtigingen voor werkruimten en recordtypen
@@ -73,7 +79,7 @@ Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![&#x200B; Bevoegdheden grayed uit voor contributorgebruiker op werkruimte &#x200B;](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![ Bevoegdheden grayed uit voor contributorgebruiker op werkruimte ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Typen licenties en machtigingen voor weergaven
@@ -92,4 +98,4 @@ Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om een weergave te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![&#x200B; Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel &#x200B;](assets/permissions-grayed-out-for-light-user.png)
+>![ Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel ](assets/permissions-grayed-out-for-light-user.png)

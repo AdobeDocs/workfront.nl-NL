@@ -7,7 +7,9 @@ description: U kunt objecten weergeven die niet in de standaardmodusinterface zi
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -19,14 +21,14 @@ ht-degree: 0%
 U kunt objecten weergeven die niet in de standaardmodusinterface zijn opgenomen. U kunt dit alleen doen door ernaar te verwijzen via de tekstmodus.\
 U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worden opgenomen:
 
-* Gebruik [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) om andere voorwerpen te ontdekken die via tekstwijze kunnen worden van verwijzingen voorzien.\
+* Gebruik [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) om andere voorwerpen te ontdekken die via tekstwijze kunnen worden van verwijzingen voorzien.\
   Niet alle velden die in de API Explorer worden beschreven, zijn geldige velden voor de tekstmodus. Sommige velden worden alleen gemeld via de API.
 
 * Zoek het veld Id van het object in een kolom. De meeste objecten met een veld-id hebben ook een corresponderende kolom- of veldnaam die niet toegankelijk is via de standaardmodus.
 
   U kunt de tekstmodus gebruiken om de kolom- of veldnaam op te nemen in een weergave in plaats van de id door de `fieldnameID` te vervangen door de `fieldname:name` .
 
-  Bijvoorbeeld, op de standaardwijzeinterface, is het **gebied van identiteitskaart van de Eigenaar van 0&rbrace; Portfolio beschikbaar voor een projectweergave, maar het** 3&rbrace; gebied van de Naam van de Eigenaar van Portfolio is niet. **&#x200B;**&#x200B;U kunt tekstwijze gebruiken om de **Naam van de Eigenaar van Portfolio** in de kolom van een mening te tonen.
+  Bijvoorbeeld, op de standaardwijzeinterface, is het **gebied van identiteitskaart van de Eigenaar van 0} Portfolio beschikbaar voor een projectweergave, maar het** 3} gebied van de Naam van de Eigenaar van Portfolio is niet. **** U kunt tekstwijze gebruiken om de **Naam van de Eigenaar van Portfolio** in de kolom van een mening te tonen.
 
 ## Toegangsvereisten
 
@@ -57,7 +59,7 @@ U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worde
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

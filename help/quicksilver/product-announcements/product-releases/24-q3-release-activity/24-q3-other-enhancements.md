@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Wijziging van de achtergrondkleur in de producthulplijnen
 
@@ -45,9 +47,9 @@ Als uw organisatie zich aan de Adobe Verenigde Ervaring met versie 24.7 beweegt,
 
 Eerder was de Adobe Unified Experience alleen beschikbaar voor nieuwe Workfront-klanten.
 
-Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## De knop Help is verwijderd uit de hoofdnavigatiebalk
 
@@ -63,4 +65,4 @@ Wanneer een gebruiker geen toegang heeft tot een object, ziet de gebruiker &quot
 
 Teams en gebruikers worden niet opgenomen in deze wijziging. Gebruikers kunnen nog steeds team- en gebruikersnamen weergeven.
 
-Voor meer informatie, zie de sectie [&#x200B; Beperkte toegang tot voorwerpen &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) in het [!DNL Adobe Workfront] voorwerp overzichtsartikel.
+Voor meer informatie, zie de sectie [ Beperkte toegang tot voorwerpen ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) in het [!DNL Adobe Workfront] voorwerp overzichtsartikel.

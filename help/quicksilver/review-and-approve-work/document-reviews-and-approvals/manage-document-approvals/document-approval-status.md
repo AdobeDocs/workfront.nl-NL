@@ -6,7 +6,9 @@ description: Documentbeslissingsstatus wordt vermeld en toegelicht
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 U kunt de status van het document rechtstreeks in de documentlijst weergeven:
 
-![&#x200B; Status in documentlijst &#x200B;](assets/status-in-doc-list.png)
+![ Status in documentlijst ](assets/status-in-doc-list.png)
 
 
 De volgende statussen zijn beschikbaar:
@@ -107,9 +109,11 @@ De volgende statussen zijn beschikbaar:
                     </td>
                     <td>
                         <ul>
-                           <!--<li>
+                           <!--
+                           <li>
                                 <p>All approvals and reviews are complete</p>
-                            </li>-->
+                            </li>
+                            -->
                             <li>
                                 <p>Alle fiatteurs kunnen besluiten dat "goedgekeurd"
                             </li>

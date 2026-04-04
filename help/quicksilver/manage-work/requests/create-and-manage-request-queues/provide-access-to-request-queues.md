@@ -6,7 +6,9 @@ description: Wanneer u toegang tot een verzoekrij verleent, bepaalt u wie in uw 
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -52,7 +54,7 @@ Dit is nuttig in organisaties die externe belanghebbenden uitnodigen in Workfron
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +62,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Voordat de aanvraagwachtrij beschikbaar is voor gebruikers in het gebied Verzoeken, moet u een project met de volgende instellingen maken:
 
-* Wijs het aan als verzoekrij. Voor meer informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+* Wijs het aan als verzoekrij. Voor meer informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 * Werk de Status van het project aan Huidig bij.
 
 ## Toegang tot een aanvraagwachtrij bieden
@@ -82,8 +84,8 @@ Voordat de aanvraagwachtrij beschikbaar is voor gebruikers in het gebied Verzoek
 
      De rijen van de groep zijn nuttig wanneer verscheidene afdelingen een rekening van Workfront delen om unieke organisatorische doelstellingen te bereiken. Elke afdeling kan zijn eigen rijen hebben die de leden van andere groepen niet zouden moeten kunnen zien.
 
-     Voor informatie over wie toestemmingen op een project heeft zie [&#x200B; een project in Adobe Workfront &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+     Voor informatie over wie toestemmingen op een project heeft zie [ een project in Adobe Workfront ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
-     Groepen en bedrijven kunnen met het project worden geassocieerd wanneer het uitgeven van het project. Voor meer informatie, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+     Groepen en bedrijven kunnen met het project worden geassocieerd wanneer het uitgeven van het project. Voor meer informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 1. Klik **sparen**.

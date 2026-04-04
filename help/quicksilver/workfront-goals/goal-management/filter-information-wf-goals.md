@@ -6,7 +6,9 @@ description: U kunt doelstellingen bekijken die u of iemand anders in de Doelen 
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 <!--Audited for P&P only: 4/2025-->
 
-U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Workfront toevoegde. Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren. Wanneer u doelstellingen bekijkt, kunt u informatie in de Doelen van Workfront filtreren om slechts doelstellingen te bekijken die voor u belangrijk zijn.
+U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Workfront toevoegde. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren. Wanneer u doelstellingen bekijkt, kunt u informatie in de Doelen van Workfront filtreren om slechts doelstellingen te bekijken die voor u belangrijk zijn.
 
 ## Toegangsvereisten
 
@@ -68,11 +70,12 @@ U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Wor
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Overzicht van filters in Workfront Goals
 
@@ -137,7 +141,7 @@ In Workfront kunt u zoeken naar doelen in de volgende secties van het gebied Doe
 * Grafieken
 * Goal Alignment
 
-Voor informatie over de secties van het gebied van Doelen, zie [&#x200B; Overzicht van de secties van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Voor informatie over de secties van het gebied van Doelen, zie [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -159,7 +163,7 @@ Houd rekening met het volgende wanneer u werkt met filters in Workfront Goals:
 
 U kunt een snel filter in een lijst van doelstellingen gebruiken om u van slechts punten te helpen de plaats bepalen die voor u belangrijk zijn. U kunt snelle filters niet opslaan en deze zijn niet blijvend. Workfront wist de resultaten van een snel filter wanneer u de pagina vernieuwt.
 
-Voor meer informatie, zie [&#x200B; de snelle filter op een lijst &#x200B;](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
+Voor meer informatie, zie [ de snelle filter op een lijst ](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
 ## Een filter maken en toepassen in Workfront Goals
 
@@ -169,13 +173,13 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. Ga naar de Workfront-doelen.
 
-   Voor informatie over de toegang tot van Workfront Doelen, zie [&#x200B; Toegang en open doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Voor informatie over de toegang tot van Workfront Doelen, zie [ Toegang en open doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Standaard wordt de sectie Lijst met doelstellingen weergegeven.
 
 1. Klik **Filter** in de hoger-juiste hoek van de lijst.
 
-   ![&#x200B; pictogram van de Filter &#x200B;](assets/filter-icon-and-label.png)
+   ![ pictogram van de Filter ](assets/filter-icon-and-label.png)
 
    Door gebrek, past Workfront de **Al** filter toe dat alle doelstellingen in uw systeem toont.
 
@@ -193,9 +197,11 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
       <tbody> 
        <tr> 
         <td>Alles</td> 
-        <td> <p>Alle doelstellingen in uw systeem, ongeacht wie hen creeerde, wat de tijdspanne voor hen is, of wie de eigenaar is. Dit is het standaardfilter en u kunt het niet bewerken. </p> <!--
+        <td> <p>Alle doelstellingen in uw systeem, ongeacht wie hen creeerde, wat de tijdspanne voor hen is, of wie de eigenaar is. Dit is het standaardfilter en u kunt het niet bewerken. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Persoonlijk</td> 
@@ -219,7 +225,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
       </tbody> 
      </table>
 
-   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) naast zijn naam geeft uit om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
+   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) naast zijn naam geeft uit om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
 
    * Klik **Nieuwe Filter** om een nieuw filter tot stand te brengen, dan selecteer van de volgende opties om de nieuwe filter aan te passen:
 
@@ -296,11 +302,11 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. (Facultatief en voorwaardelijk) wanneer het bekijken van doelstellingen in de sectie van de Groepering van het Doel, klik **tonen hen** als u de gefiltreerde uit doelstellingen wilt bekijken.
 
-   ![&#x200B; toon hen verbinding op gefilterde punten &#x200B;](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![ toon hen verbinding op gefilterde punten ](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    De filternaam wordt geel weergegeven om aan te geven dat deze wordt genegeerd.
 
-   ![&#x200B; gele overzicht van de Filter &#x200B;](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![ gele overzicht van de Filter ](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Facultatief en voorwaardelijk) klik **filter opnieuw toepassen** om de filter toe te passen en de punten weg te laten u in de vorige stap toonde.

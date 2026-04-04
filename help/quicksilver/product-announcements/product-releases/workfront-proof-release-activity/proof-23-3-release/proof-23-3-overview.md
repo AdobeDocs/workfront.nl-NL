@@ -8,7 +8,9 @@ author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Proof die binnen de releaseperiode van 23.3 wordt vrijgegeven voor de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.3 versiecyclus, zie [&#x200B; 23.3 Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.3 versiecyclus, zie [ 23.3 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />

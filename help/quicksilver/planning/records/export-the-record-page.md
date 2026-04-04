@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -15,9 +17,11 @@ ht-degree: 0%
 
 # De details van een record exporteren
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 
 Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-account hebben, kunt u de detailpagina van een record exporteren naar een Microsoft Word-bestand en deze delen met hen.
@@ -61,11 +65,12 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -123,7 +128,8 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+ -->
 
 
 ## Overwegingen bij het exporteren van de details van een record:
@@ -152,11 +158,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    Het voorvertoningsvak van de record wordt geopend.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
+1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
 
    * **Word van Microsoft**
    * **Adobe PDF**
@@ -165,7 +171,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
-   ![&#x200B; Uitgevoerd woorddossier &#x200B;](assets/exported-word-file.png)
+   ![ Uitgevoerd woorddossier ](assets/exported-word-file.png)
 
    >[!NOTE]
    >

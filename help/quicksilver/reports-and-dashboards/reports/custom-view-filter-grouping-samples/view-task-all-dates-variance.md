@@ -2,38 +2,40 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Task with All Dates Variance'
-description: This task view is similar to the "All Dates" view provided with your Adobe Workfront account. This particular view includes Variance columns, which calculate the difference in days between dates.
+title: 'Weergeven: Taak met alle datumvariaties'
+description: Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze weergave bevat de kolommen Variantie, die het verschil in dagen tussen datums berekenen.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
-# View: task with All Dates variance
+# Weergeven: taak met variatie Alle datums
 
 <!--Audited: 11/2024-->
 
-This task view is similar to the &quot;All Dates&quot; view provided with your Adobe Workfront account. This particular view includes *Variance* columns, which calculate the difference in days between the following dates:
+Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze bijzondere mening omvat *kolommen van de Variantie 0} {, die het verschil in dagen tussen de volgende data berekenen:*
 
-* Planned and Projected Start Dates
-* Planned and Actual Start Dates
-* Planned and Projected Completion Dates
-* Planned and Actual Completion Dates
+* Geplande en voorspelde begindatums
+* Geplande en werkelijke begindatums
+* Geplande en voorspelde voltooiingsdatums
+* Geplande en werkelijke einddata
 
-This view represents an example of calculated columns, in which you can take the values from two different columns and connect them by a calculation to obtain a third value. In this case, you subtract date 1 from date 2.
+Deze weergave vertegenwoordigt een voorbeeld van berekende kolommen, waarin u de waarden uit twee verschillende kolommen kunt nemen en deze via een berekening kunt verbinden om een derde waarde te verkrijgen. In dit geval trekt u datum 1 in van datum 2.
 
-For more information about using calculations in a View, see the [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) section in  [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Voor meer informatie over het gebruiken van berekeningen in een Mening, zie het [ Overzicht van gemeenschappelijk gebruik voor de sectie van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![View task with all dates](assets/view-task-with-all-dates-variance.png)
+![ taak van de Mening met alle data ](assets/view-task-with-all-dates-variance.png)
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,17 +57,17 @@ For more information about using calculations in a View, see the [Overview of co
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor een rapport beheren</p>  </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
-## View tasks with All Dates variance
+## Taken weergeven met variatie Alle datums
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.

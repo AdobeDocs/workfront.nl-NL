@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
@@ -47,12 +49,13 @@ U kunt voorkeuren configureren die gebruikers toegang geven tot bepaalde functie
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ U kunt voorkeuren configureren die gebruikers toegang geven tot bepaalde functie
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Gebruikers toestaan afbeeldingen toe te voegen in updates
 
@@ -81,15 +85,15 @@ Standaard kunnen gebruikers geen afbeeldingen in updates toevoegen. Wanneer u de
 
 >[!NOTE]
 >
->* Afbeeldingen die zijn opgeslagen in updates tellen mee voor de opslaglimiet van het document. Voor informatie, zie [&#x200B; de grenzen van de documentopslag van de Controle &#x200B;](../../../documents/managing-documents/check-document-storage.md).
+>* Afbeeldingen die zijn opgeslagen in updates tellen mee voor de opslaglimiet van het document. Voor informatie, zie [ de grenzen van de documentopslag van de Controle ](../../../documents/managing-documents/check-document-storage.md).
 >* Afbeeldingen zijn toegankelijk via het tabblad [!UICONTROL Updates] op een object en zijn ook beschikbaar in het [!UICONTROL Documents] -gebied onder [!UICONTROL Main Menu] .
 >
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![&#x200B; het montagespictogram van het Gear &#x200B;](assets/gear-icon-settings.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 1. Selecteer **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** in het linkerdeelvenster.
 1. Selecteer het tabblad **[!UICONTROL Preferences]**. 
 
-   ![&#x200B; de voorkeur van de Gebruiker voor updatevoer &#x200B;](assets/updatefeeds-preferences-350x137.png)
+   ![ de voorkeur van de Gebruiker voor updatevoer ](assets/updatefeeds-preferences-350x137.png)
 
 1. Schakel het selectievakje **[!UICONTROL Allow users to add images in updates]** in.
 1. Selecteer **[!UICONTROL Save]**.

@@ -7,7 +7,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; Ingebouwde pictogrammen van de Status in Meningen &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
-* [&#x200B; de ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-* [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [&#x200B; Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
+* [ Ingebouwde pictogrammen van de Status in Meningen ](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
+* [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [ Overzicht van het rapport van het Gebruik van het Middel ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
+* [ Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)

@@ -6,7 +6,9 @@ description: De Gantt-grafieken in Adobe Workfront geven een visuele weergave va
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -49,7 +51,8 @@ U kunt de projectlijst [!UICONTROL Gantt Chart] in een projectlijst of een proje
 
 ### Taaklijst [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 
-<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In a Project
 
@@ -58,7 +61,8 @@ U kunt de projectlijst [!UICONTROL Gantt Chart] in een projectlijst of een proje
 
 * In a [!UICONTROL Template]
 
-* In a [!UICONTROL Task] report-->
+* In a [!UICONTROL Task] report
+-->
 
 U kunt als volgt de takenlijst [!UICONTROL Gantt Chart] van een project of sjabloon openen:
 
@@ -69,9 +73,9 @@ U kunt als volgt de takenlijst [!UICONTROL Gantt Chart] van een project of sjabl
    * Een taak of malplaatjetaak, dan klik [!UICONTROL **Subtasks**] in het linkerpaneel.
    * Een taakrapport
 
-1. Klik het [!UICONTROL **pictogram van de Gantt**] Gantt ![&#x200B; bij de bovenkant van de taaklijst.](assets/gantt-icon-nwe.png)
+1. Klik het [!UICONTROL **pictogram van de Gantt**] Gantt ![ bij de bovenkant van de taaklijst.](assets/gantt-icon-nwe.png)
 
-   ![&#x200B; Gantt van de Lijst van de Taak &#x200B;](assets/task-list-gantt.png)
+   ![ Gantt van de Lijst van de Taak ](assets/task-list-gantt.png)
 
    De takenlijst [!UICONTROL Gantt Chart] wordt rechts van de takenlijst geopend.
 
@@ -96,12 +100,14 @@ U kunt als volgt de takenlijst [!UICONTROL Gantt Chart] van een project of sjabl
 
 ### Projectlijst [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
-<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--
+The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 * In the [!UICONTROL Projects] area
 * In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
 * In the [!UICONTROL Projects] section of a [!UICONTROL Program]
-* In a [!UICONTROL Project] report-->
+* In a [!UICONTROL Project] report
+-->
 
 De projectlijst openen [!UICONTROL Gantt Chart] :
 
@@ -114,7 +120,7 @@ De projectlijst openen [!UICONTROL Gantt Chart] :
 
 1. Klik het [!UICONTROL **Gantt**] pictogram bij de bovenkant van de projectlijst.
 
-   ![&#x200B; de lijst Gantt van het Project &#x200B;](assets/project-list-gantt.png)
+   ![ de lijst Gantt van het Project ](assets/project-list-gantt.png)
 
    De projectlijst [!UICONTROL Gantt Chart] wordt geopend.
 

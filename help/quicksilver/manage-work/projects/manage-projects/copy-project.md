@@ -7,7 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -79,11 +81,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +113,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overwegingen
 
@@ -124,17 +128,17 @@ Een project kopiëren:
 
 {{step1-to-projects}}
 
-1. Selecteer het project dat u van de projectlijst wilt kopiëren, dan klik **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de projectnaam.
+1. Selecteer het project dat u van de projectlijst wilt kopiëren, dan klik **Meer** pictogram ![ Meer menu ](assets/more-icon.png) rechts van de projectnaam.
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst.
 
 1. In **Meer** drop-down menu, klik **Exemplaar**. Het **Exemplaar van [ de dialoogvakje van de Naam van het Project]** verschijnt.
 
 1. (Facultatief) werk de **Naam van het Project** bij. Door gebrek, is de nieuwe naam **Exemplaar van [ Oorspronkelijke projectnaam]**.
 
-   ![&#x200B; het projectvakje van het Exemplaar &#x200B;](assets/copy-of-project-box.png)
+   ![ het projectvakje van het Exemplaar ](assets/copy-of-project-box.png)
 
 1. Selecteer a **Status**. Standaard is de status van het oorspronkelijke project geselecteerd.
 
@@ -184,7 +188,7 @@ Een project kopiëren:
       <td role="rowheader">Geforceerde uren</td> 
       <td> <p>Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project.</p> 
     <p>
-   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></a></p>
+   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie {de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></a></p>
    </tr></td>
     <tr> 
       <td role="rowheader">Financiële informatie</td> 

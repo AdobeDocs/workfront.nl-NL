@@ -6,7 +6,9 @@ description: De persoonlijke taken zijn ad hoc het werkverzoeken die u naar een 
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -34,14 +36,14 @@ U kunt op de volgende manieren persoonlijke taken maken:
 
 * Een te-do-item maken in uw thuisgebied
 
-  Voor informatie, zie [&#x200B; het werkpunten en projecten van het gebied van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) creëren.
+  Voor informatie, zie [ het werkpunten en projecten van het gebied van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) creëren.
 
 * Een persoonlijke werkaanvraag maken en naar een andere gebruiker verzenden via de pagina met gebruikersprofielen
 * Een persoonlijke werkaanvraag maken en naar uzelf verzenden via de pagina met gebruikersprofielen
 
 In dit artikel wordt beschreven hoe u een persoonlijke werkaanvraag voor een gebruiker of voor uzelf kunt maken op de pagina met gebruikersprofielen.
 
-Ongeacht hoe u een persoonlijke taak toevoegt, kunt u deze in dezelfde gebieden van Workfront vinden. Voor meer informatie, zie de sectie [&#x200B; van persoonlijke taak &#x200B;](#locate-personal-tasks) in dit artikel de plaats bepalen.
+Ongeacht hoe u een persoonlijke taak toevoegt, kunt u deze in dezelfde gebieden van Workfront vinden. Voor meer informatie, zie de sectie [ van persoonlijke taak ](#locate-personal-tasks) in dit artikel de plaats bepalen.
 
 ## Toegangsvereisten
 
@@ -74,11 +76,12 @@ Ongeacht hoe u een persoonlijke taak toevoegt, kunt u deze in dezelfde gebieden 
 </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -103,7 +106,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Een verzoek voor persoonlijk werk maken
@@ -138,8 +142,8 @@ U kunt persoonlijke taken zoeken op de volgende gebieden:
 
 * De widget Aan-doses in het gebied van het Huis van de gebruiker waarnaar het persoonlijke verzoek is verzonden.
 
-  Voor informatie, zie [&#x200B; het werkpunten en projecten van het gebied van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) creëren.
+  Voor informatie, zie [ het werkpunten en projecten van het gebied van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) creëren.
 
 * Een persoonlijke taakrapport of lijst. U kunt een persoonlijke taakfilter bouwen en toepassen op een taakrapport of lijst om slechts persoonlijke taken te tonen en projecttaken uit te sluiten.
 
-  Voor informatie, zie [&#x200B; Filter: persoonlijke taken &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+  Voor informatie, zie [ Filter: persoonlijke taken ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).

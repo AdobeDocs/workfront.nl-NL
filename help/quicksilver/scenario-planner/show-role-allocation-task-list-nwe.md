@@ -6,7 +6,9 @@ description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewij
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast el
 
 In dit artikel wordt beschreven hoe u bronnen kunt combineren met het deelvenster [!UICONTROL Role Allocation] in de takenlijst van een project.
 
-Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Toegangsvereisten
 
@@ -55,13 +57,14 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
  </tbody> 
 </table>
 
-Voor meer informatie over toegang tot de Planner van het Scenario, zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
-Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,13 +100,14 @@ Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten
    <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst
 
 Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft, kunt u de brontoewijzingen afstemmen tussen het initiatief en het project dat eraan is gekoppeld in het [!UICONTROL Tasks] -gedeelte van het project.
 
-1. (Voorwaardelijk) een project moet met een initiatief worden verbonden gebruikend één van de methodes die in de sectie [&#x200B; worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst &#x200B;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) van dit artikel.
+1. (Voorwaardelijk) een project moet met een initiatief worden verbonden gebruikend één van de methodes die in de sectie [ worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst ](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) van dit artikel.
 
    >[!IMPORTANT]
    >
@@ -111,7 +115,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. Ga naar het project waar u de toewijzing van baanrollen voor het project evenals voor het bijbehorende initiatief wilt herzien.
 1. Klik op **[!UICONTROL Tasks]** in het linkerdeelvenster.
-1. Klik het **[!UICONTROL Show role allocation]** pictogram ![&#x200B; tonen roltoewijzing &#x200B;](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
+1. Klik het **[!UICONTROL Show role allocation]** pictogram ![ tonen roltoewijzing ](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
 
    Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 
@@ -166,14 +170,14 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
    * Verlaag het aantal Geplande Uren voor één baanrol die overtoegewezen toont of meer middelen aan de taken toevoegt en meer Geplande Uren aan de nieuwe middelen verdeelt. U kunt toewijzingen of het aantal geplande uren voor taken of problemen bijwerken wanneer u deze bewerkt. Zie de volgende artikelen voor meer informatie:
 
-      * [&#x200B; geef taken &#x200B;](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+      * [ geef taken ](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
       * [Problemen bewerken](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >
      >U moet over aanvullende toegang en machtigingen beschikken om taken en problemen te kunnen bewerken.
 
-   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [&#x200B; initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
+   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [ initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
 
      >[!NOTE]
      >

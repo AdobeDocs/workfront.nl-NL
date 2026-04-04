@@ -7,7 +7,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -19,9 +21,11 @@ ht-degree: 0%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -30,13 +34,13 @@ U kunt deze pagina als uitgangspunt voor alle documentatie met betrekking tot de
 
 De artikelen in de volgende secties beschrijven hoe u de Planning van Workfront kunt vormen en beginnen het te gebruiken.
 
-Voor algemene informatie en het begrip van de terminologie van de Planning van Adobe Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md)
+Voor algemene informatie en het begrip van de terminologie van de Planning van Adobe Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md)
 
 ## Workfront Planning Architectuur en functionaliteit
 
 De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de functies die momenteel beschikbaar zijn voor Workfront Planning:
 
-* [&#x200B; toegang en toestemmingsinformatie: artikelindex &#x200B;](/help/quicksilver/planning/access/access-information.md) bevat de volgende informatie:
+* [ toegang en toestemmingsinformatie: artikelindex ](/help/quicksilver/planning/access/access-information.md) bevat de volgende informatie:
 
    * Workfront-licenties en planningsmachtigingen
    * Machtigingen voor delen plannen
@@ -44,7 +48,7 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
    * Werkruimten delen (records en velden)
    * Recordtypen delen (records en velden)
 
-* [&#x200B; Architectuur: artikelindex &#x200B;](/help/quicksilver/planning/architecture/architecture-information.md) bevat de volgende informatie:
+* [ Architectuur: artikelindex ](/help/quicksilver/planning/architecture/architecture-information.md) bevat de volgende informatie:
 
    * Werkruimten maken, bewerken, verwijderen
    * Recordtypen maken, bewerken en verwijderen
@@ -52,13 +56,13 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
    * Verbind verslagtypes en voorbeelden van verbindende verslagtypes
    * Workspace-sjablonen
 
-* [&#x200B; Gebieden: artikelindex &#x200B;](/help/quicksilver/planning/fields/fields-information.md) bevat de volgende informatie:
+* [ Gebieden: artikelindex ](/help/quicksilver/planning/fields/fields-information.md) bevat de volgende informatie:
 
    * Velden maken, bewerken en verwijderen
    * Formuliervelden
    * Primaire velden
 
-* [&#x200B; Verslagen: artikelindex &#x200B;](/help/quicksilver/planning/records/records-information.md) bevat de volgende informatie:
+* [ Verslagen: artikelindex ](/help/quicksilver/planning/records/records-information.md) bevat de volgende informatie:
 
    * Records maken, bewerken en verwijderen
    * Connect-records
@@ -68,17 +72,17 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
    * Records delen
    * Workfront Planning-records beheren vanuit Workfront
 
-* [&#x200B; Adobe Workfront Planningsverzoeken: artikelindex &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md) bevat de volgende informatie:
+* [ Adobe Workfront Planningsverzoeken: artikelindex ](/help/quicksilver/planning/requests/requests-article-index.md) bevat de volgende informatie:
 
    * Hoe te om een verzoekvorm voor een verslagtype tot stand te brengen.
    * Hoe gebruikers een verzoek kunnen indienen bij een aanvraagformulier voor een recordtype en records kunnen maken.
 
-* [&#x200B; Meningen: artikelindex &#x200B;](/help/quicksilver/planning/views/views-information.md) bevat de volgende informatie:
+* [ Meningen: artikelindex ](/help/quicksilver/planning/views/views-information.md) bevat de volgende informatie:
 
    * Recordweergaven maken
    * De tabel-, tijdlijn- en kalenderweergaven beheren
 
-* [&#x200B; Meldingen: De index van het artikel &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md) bevat de volgende informatie:
+* [ Meldingen: De index van het artikel ](/help/quicksilver/planning/notifications/notifications-information.md) bevat de volgende informatie:
 
    * Meldingsvoorkeuren beheren
    * Meldingen in apps plannen
@@ -86,19 +90,19 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
 
 ## Extra mogelijkheden beschikbaar voor Workfront Planning
 
-* [&#x200B; de Planning API van Adobe Workfront basiscs &#x200B;](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
+* [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
 
-* [&#x200B; Adobe Workfront planningsmodules voor de Fusie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
+* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
-* [&#x200B; de Planning AI van Adobe Workfront Hulpoverzicht &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
+* [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
 
-* [&#x200B; vorm de automatisering van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md): U kunt automatiseringen in de Planning van Adobe Workfront vormen die, wanneer geactiveerd, tot voorwerpen in Workfront of verslagen in Workfront Planning leiden wanneer teweeggebracht van een verslag van de Planning.
+* [ vorm de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md): U kunt automatiseringen in de Planning van Adobe Workfront vormen die, wanneer geactiveerd, tot voorwerpen in Workfront of verslagen in Workfront Planning leiden wanneer teweeggebracht van een verslag van de Planning.
 
-* [&#x200B; de Planning van Adobe Workfront en integratie van Adobe GenStudio for Performance Marketing: artikelindex &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): U kunt verslagen van GenStudio for Performance Marketing in de werkruimte van GenStudio in de Planning van Workfront beheren.
+* [ de Planning van Adobe Workfront en integratie van Adobe GenStudio for Performance Marketing: artikelindex ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): U kunt verslagen van GenStudio for Performance Marketing in de werkruimte van GenStudio in de Planning van Workfront beheren.
 
-* **de Planning van Workfront rapporteringsmogelijkheden**: U kunt de informatie van de Planning van Workfront in een rapport bekijken gebruikend het Dashboard van het Canvas van Workfront. Voor informatie, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **de Planning van Workfront rapporteringsmogelijkheden**: U kunt de informatie van de Planning van Workfront in een rapport bekijken gebruikend het Dashboard van het Canvas van Workfront. Voor informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-* [&#x200B; de Planning van Adobe Workfront beste praktijken: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Leer uiteinden op hoe te om de Planning van Adobe Workfront in uw organisatie uit te voeren gebruikend een strategie die aan veiligheid voorrang geeft, verstoring minimaliseert, en snelle wins levert.
+* [ de Planning van Adobe Workfront beste praktijken: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): Leer uiteinden op hoe te om de Planning van Adobe Workfront in uw organisatie uit te voeren gebruikend een strategie die aan veiligheid voorrang geeft, verstoring minimaliseert, en snelle wins levert.
 
 ## Workfront Planning Release-activiteit
 
@@ -106,4 +110,4 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
 
 We geven regelmatig nieuwe functies aan Workfront Planning.
 
-Voor een bijgewerkte lijst van vrijgegeven eigenschappen, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een bijgewerkte lijst van vrijgegeven eigenschappen, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).

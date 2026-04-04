@@ -6,7 +6,9 @@ description: Prioriteit geven aan initiatieven is belangrijk omdat initiatieven 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,9 +21,9 @@ Prioriteit geven aan initiatieven is belangrijk omdat initiatieven uit het plan 
 
 U kunt aan initiatieven op een plan voorrang geven dat u creeerde of op een plan dat iemand met u deelde.
 
-Voor informatie over het creëren van plannen, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
-Voor informatie over het creëren van initiatieven, zie [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
 ## Toegangsvereisten
 
@@ -55,13 +57,14 @@ Voor informatie over het creëren van initiatieven, zie [&#x200B; initiatieven i
  </tbody> 
 </table>
 
-Voor meer informatie over toegang tot de Planner van het Scenario, zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
-Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--<table style="table-layout:auto"> 
+<!--
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -95,7 +98,8 @@ Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Prioriteiten van initiatieven bijwerken
 
@@ -122,7 +126,7 @@ Een lijst met plannen wordt weergegeven.
 
      Workfront geeft het aantal geselecteerde initiatieven weer.
 
-     ![&#x200B; Multi select initiatiefaantal &#x200B;](assets/multi-select-initiative-number.png)
+     ![ Multi select initiatiefaantal ](assets/multi-select-initiative-number.png)
 
    * Klik op het vak **[!UICONTROL Prioritize]** onder aan het abonnement en kies een van de volgende opties:
 
@@ -130,7 +134,7 @@ Een lijst met plannen wordt weergegeven.
       * **[!UICONTROL Bottom]**: hiermee plaatst u de geselecteerde initiatieven onder aan de lijst met initiatieven. De geselecteerde initiatieven staan als laatste vermeld in het plan.
       * **[!UICONTROL Select a number]**: verplaatst de geselecteerde initiatieven na het initiatief dat u hier aangeeft.
 
-        ![&#x200B; Prioritize initiatieven &#x200B;](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![ Prioritize initiatieven ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] plaatst de geselecteerde initiatieven onmiddellijk op de aangegeven locatie en het aantal van alle initiatieven wordt dienovereenkomstig bijgewerkt.
 

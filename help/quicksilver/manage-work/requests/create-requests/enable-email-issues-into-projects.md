@@ -6,7 +6,9 @@ description: U kunt een project vormen om gebruikers toe te staan om kwesties aa
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -21,7 +23,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen. U kunt kwesties slechts toestaan om in een project worden gemaild als het project als Rij van het Verzoek wordt aangewezen. Voor meer informatie over het creëren van een project van de Rij van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen. U kunt kwesties slechts toestaan om in een project worden gemaild als het project als Rij van het Verzoek wordt aangewezen. Voor meer informatie over het creëren van een project van de Rij van het Verzoek, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Toegangsvereisten
 
@@ -52,7 +54,7 @@ U kunt een project vormen om gebruikers toe te staan om kwesties aan het project
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,9 +82,9 @@ De volgende voorwaarden worden vereist om een project te vormen om gebruikers to
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klik **Details van de Rij** in het linkerpaneel.
-1. In het **gebied van het Type van Rij 0&rbrace;, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
+1. In het **gebied van het Type van Rij 0}, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
 
-1. De rol neer aan het **gebied van de Montages van de Rij 0&rbrace; E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
+1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
 1. Ga het begin van het e-mailadres in het **Inname E-mailadres** vakje in.
 

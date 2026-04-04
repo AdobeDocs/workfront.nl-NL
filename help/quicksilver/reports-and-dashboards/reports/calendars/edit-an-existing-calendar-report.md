@@ -6,7 +6,9 @@ description: U kunt een bestaande kalender wijzigen door een verbinding aan een 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -51,7 +53,7 @@ U kunt een bestaande kalender wijzigen door een verbinding aan een project toe t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,12 +69,12 @@ Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de 
    1. Klik op **[!UICONTROL Add to Calendar].**
    1. Typ de naam van een project waarvan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **toevoegen**.
-      ![&#x200B; voeg een project aan een kalender &#x200B;](assets/add-a-calendar-project.png) toe
+      ![ voeg een project aan een kalender ](assets/add-a-calendar-project.png) toe
 
 
 1. (Optioneel) Een kalendergroep toevoegen of een bestaande kalendergroep wijzigen:
    1. Klik het **Meer** menu naast de projectnaam, dan klik **uitgeven**.
-      ![&#x200B; geef project in kalender uit &#x200B;](assets/edit-project-in-calendar.png)
+      ![ geef project in kalender uit ](assets/edit-project-in-calendar.png)
 
    1. Kies hoe je je objecten wilt groeperen:
 

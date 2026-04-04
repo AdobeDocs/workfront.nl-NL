@@ -6,7 +6,9 @@ description: U kunt taken naar verschillende projecten of naar verschillende bov
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -18,9 +20,11 @@ ht-degree: 0%
 <!--Audited: 5/2025-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 U kunt taken in Adobe Workfront verplaatsen tussen de volgende objecten:
@@ -62,11 +66,12 @@ U kunt één taak verplaatsen of meerdere taken tegelijk uit een takenlijst verp
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,13 +96,14 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overwegingen bij het verplaatsen van taken
 
 Houd rekening met het volgende wanneer u een taak verplaatst:
 
-* Uw systeem of groepsbeheerder kan u verhinderen taken te bewegen die het programma geopende uren afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [&#x200B; de taak en de uitgevende voorkeur van het systeem brede &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+* Uw systeem of groepsbeheerder kan u verhinderen taken te bewegen die het programma geopende uren afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 * Wanneer u een taak van één project aan een ander verplaatst, zouden de taakdata kunnen worden herberekend. Bij de herberekening wordt rekening gehouden met het tijdschema dat voor het nieuwe project wordt gebruikt en met het tijdschema voor het project op basis van informatie.
 
@@ -119,9 +125,9 @@ Houd rekening met het volgende wanneer u een taak verplaatst:
 
 1. Voor de **pagina van Projecten**, selecteer het project dat de taak of de taken bevat u wilt bewegen.
 1. Klik **Taken** in het linkerpaneel om de taaklijst te tonen.
-1. Klik het **pictogram van de Wijze van het Plan** pictogram van het Plan ![&#x200B; en zorg ervoor dat de &#x200B;](assets/plan-mode.png) Autosave **knevel wordt toegelaten, dan selecteer de taak of de taken die u wilt bewegen.**
+1. Klik het **pictogram van de Wijze van het Plan** pictogram van het Plan ![ en zorg ervoor dat de ](assets/plan-mode.png) Autosave **knevel wordt toegelaten, dan selecteer de taak of de taken die u wilt bewegen.**
 
-   ![&#x200B; optie Autosave &#x200B;](assets/autosave-icon.png)
+   ![ optie Autosave ](assets/autosave-icon.png)
 
    >[!IMPORTANT]
    >
@@ -131,13 +137,13 @@ Houd rekening met het volgende wanneer u een taak verplaatst:
 
 1. (Voorwaardelijk) Selecteer de taak of de taken die u wilt verplaatsen en voer een van de volgende handelingen uit:
 
-   * Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/main-more-icon.png) bij de bovenkant van de taaklijst, dan klik **Beweging aan**.
+   * Klik het **Meer** menu ![ Meer pictogram ](assets/main-more-icon.png) bij de bovenkant van de taaklijst, dan klik **Beweging aan**.
    * Klik de geselecteerde taken met de rechtermuisknop aan, dan klik **Beweging aan**.
-   * Wanneer het selecteren van één taak, klik **Meer** menu ![&#x200B; Meer pictogram op de taaklijst &#x200B;](assets/more-icon-task-list.png) naast de taaknaam in de lijst, dan klik **Beweging aan**.
+   * Wanneer het selecteren van één taak, klik **Meer** menu ![ Meer pictogram op de taaklijst ](assets/more-icon-task-list.png) naast de taaknaam in de lijst, dan klik **Beweging aan**.
 
    De **vertoningen van de Taak van de Beweging**.
 
-1. Ga met het bewegen van de taak voort, zoals die in de sectie [&#x200B; wordt beschreven Beweeg een taak op het taakniveau &#x200B;](#move-a-task-at-the-task-level) in dit artikel.
+1. Ga met het bewegen van de taak voort, zoals die in de sectie [ wordt beschreven Beweeg een taak op het taakniveau ](#move-a-task-at-the-task-level) in dit artikel.
 
    <!--
    is this still accurate?!
@@ -149,7 +155,7 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak op taakn
 
 1. Zoek naar een taak in je Workfront-systeem.
 1. Klik op de naam van de taak om deze te openen.
-1. Klik **Meer** drop-down menu ![&#x200B; Meer pictogram &#x200B;](assets/main-more-icon.png) naast de taaknaam, dan klik **Beweging aan**. De **zijpaneelvertoningen van de Taak van de Beweging**.
+1. Klik **Meer** drop-down menu ![ Meer pictogram ](assets/main-more-icon.png) naast de taaknaam, dan klik **Beweging aan**. De **zijpaneelvertoningen van de Taak van de Beweging**.
 
 1. (Facultatief) werk de **Naam van de Taak** bij. De taak wordt met de nieuwe naam verplaatst op de nieuwe locatie.
 
@@ -171,11 +177,11 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak op taakn
 1. (Voorwaardelijk) als u geen toegang tot het project hebt, klik **de toegang van het Verzoek**.
 1. (Voorwaardelijk) blijf de taak aan het bestemmingsproject verplaatsen zonder toegang te vragen als u toegang hebt om taken aan één van de taken op het bestemmingsproject toe te voegen.
 
-   ![&#x200B; Bewegend een taak zonder toegang &#x200B;](assets/move-task-request-access-from-project-nwe-350x120.png) te verzoeken
+   ![ Bewegend een taak zonder toegang ](assets/move-task-request-access-from-project-nwe-350x120.png) te verzoeken
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring is, voltooid, of dood wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring is, voltooid, of dood wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 1. (Facultatief) in de **sectie van Opties**, schrap om het even welke punten die in de lijst hieronder worden vermeld om hen uit de verplaatste taken te verwijderen. Alle opties zijn standaard geselecteerd.
 
@@ -261,11 +267,11 @@ Naast het verplaatsen van taken uit een lijst met taken kunt u een taak op taakn
    Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
    * In de taaklijst, selecteer één van de ouders in het projectplan.
-   * Klik het pictogram van het onderzoekspictogram ![&#x200B; Onderzoek &#x200B;](assets/search-icon.png) en onderzoek naar een oudertaak door naam.
+   * Klik het pictogram van het onderzoekspictogram ![ Onderzoek ](assets/search-icon.png) en onderzoek naar een oudertaak door naam.
 
    De taak wordt weergegeven in de lijst.
 
-   ![&#x200B; Uitgezochte oudertaak wanneer het bewegen van een taak met onderzoeksfunctionaliteit &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![ Uitgezochte oudertaak wanneer het bewegen van een taak met onderzoeksfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

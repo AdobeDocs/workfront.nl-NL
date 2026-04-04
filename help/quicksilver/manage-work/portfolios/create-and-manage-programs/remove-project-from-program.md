@@ -6,7 +6,9 @@ description: Wanneer u het niet meer nodig hebt, kunt u een project uit een prog
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -21,7 +23,7 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
 * Verwijder het permanent uit het huidige programma en koppel het niet aan een ander programma.
 * Verwijder het project definitief.
 
-  Voor informatie over het schrappen van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
+  Voor informatie over het schrappen van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
 
 ## Toegangsvereisten
 
@@ -51,11 +53,12 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+-->
 
 ## Een project verwijderen uit een programma
 

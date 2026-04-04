@@ -6,7 +6,9 @@ description: U kunt informatie bij een blik over voorwerpen in  [!DNL Adobe Work
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 0%
@@ -32,12 +34,14 @@ Bijvoorbeeld, om tot de kopbal van een project toegang te hebben:
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## Aanpasbare koppen
 
@@ -45,7 +49,7 @@ Uw [!DNL Workfront] of groepsbeheerder kan de kopbal van projecten, taken, en kw
 
 Dit artikel beschrijft de standaardkopballen voor alle voorwerpen, met inbegrip van projecten en taken en kwesties.
 
-Voor informatie over het aanpassen van informatie over de kopbal van een voorwerp, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor informatie over het aanpassen van informatie over de kopbal van een voorwerp, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ## Overzicht van de projectheader
@@ -534,7 +538,8 @@ De gebruikerskopbal toont de volgende informatie:
   <tr> 
    <td role="rowheader">Naam van de gebruiker en titel</td> 
    <td> <p> De titel van de gebruiker wordt in alle hoofdletters boven de naam weergegeven. U kunt de naam van de gebruiker in de koptekst niet bewerken.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -790,7 +795,7 @@ De bedrijfsheader toont de volgende informatie:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Plannen zijn de objecten van de [!DNL Workfront Scenario Planner] . Voor informatie over [!DNL Scenario Planner], zie [&#x200B; het  [!DNL Scenario Planner]  overzicht &#x200B;](../../scenario-planner/scenario-planner-overview.md).
+Plannen zijn de objecten van de [!DNL Workfront Scenario Planner] . Voor informatie over [!DNL Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../../scenario-planner/scenario-planner-overview.md).
 
 De plankopbal toont de volgende informatie:
 
@@ -861,7 +866,7 @@ De plankopbal toont de volgende informatie:
 
 ![](assets/goal-header.png)
 
-U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Voor meer informatie over [!DNL Workfront Goals], zie [&#x200B; begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Voor meer informatie over [!DNL Workfront Goals], zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 De doelkopbal toont de volgende informatie:
 

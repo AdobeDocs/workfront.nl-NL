@@ -6,7 +6,9 @@ description: Een Workfront- of groepsbeheerder kan de namen van objecten in de D
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -23,9 +25,10 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -42,7 +45,8 @@ ht-degree: 0%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Een Workfront- of groepsbeheerder kan de namen van objecten in de Doelen van Workfront aanpassen om de terminologie van uw organisatie beter aan te passen.
 
@@ -56,4 +60,4 @@ Als beheerder kunt u de volgende objectnamen van Workfront Goals aanpassen met b
 
 Het aanpassen van de terminologie van Workfront Goals is hetzelfde als het aanpassen van de terminologie in Workfront.
 
-Voor informatie over het aanpassen van terminologie in Workfront, zie [&#x200B; gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Voor informatie over het aanpassen van terminologie in Workfront, zie [ gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

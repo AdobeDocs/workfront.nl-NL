@@ -6,7 +6,9 @@ description: U kunt gebruikers uit een project verwijderen wanneer zij niet meer
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -15,9 +17,9 @@ ht-degree: 0%
 
 # Gebruikers uit projecten verwijderen
 
-U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -47,11 +49,12 @@ De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen va
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Hoe het verwijderen van een gebruiker bestaande taken, kwesties en projecten beïnvloedt
 
@@ -95,7 +99,7 @@ Wanneer de gebruikers rollen op een project vervullen, worden zij een deel van h
 
 Wanneer u gebruikers uit hun rollen op het project verwijdert, blijven zij deel van het projectteam.
 
-Voor informatie over de rollen van gebruikers op een project, zie [&#x200B; het Team van het Project beheren &#x200B;](../planning-a-project/manage-project-team.md).
+Voor informatie over de rollen van gebruikers op een project, zie [ het Team van het Project beheren ](../planning-a-project/manage-project-team.md).
 
 Om gebruikers uit het Team van het Project te verwijderen:
 
@@ -103,7 +107,7 @@ Om gebruikers uit het Team van het Project te verwijderen:
 
 1. Klik **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen.
 
-1. Klik **verwijderen** pictogram ![&#x200B; verwijderen punt &#x200B;](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
+1. Klik **verwijderen** pictogram ![ verwijderen punt ](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
 
 1. Klik **ja, verwijder Geselecteerde Gebruikers** om verwijdering te bevestigen.
 

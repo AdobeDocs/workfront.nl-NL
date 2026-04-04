@@ -6,7 +6,9 @@ description: U kunt een kalenderweergave zien van taken en problemen waaraan uw 
 author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,4 +23,4 @@ U kunt niet-toegewezen items toewijzen, de huidige toewijzingen aanpassen, de hu
 
 Zie [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) voor meer informatie over het beheren van taken die aan uw team zijn toegewezen.
 
-![&#x200B; pagina van het Team die de Balancer van de Werkbelasting toont &#x200B;](assets/team-page-workload-balancer.png)
+![ pagina van het Team die de Balancer van de Werkbelasting toont ](assets/team-page-workload-balancer.png)

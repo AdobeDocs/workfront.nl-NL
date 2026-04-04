@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Overzicht van de tekstmodus
-description: You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list.
+description: U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de interface van de tekstwijze te gebruiken wanneer het creëren van de elementen die omhoog het rapport of de lijst maken.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -23,9 +25,9 @@ ht-degree: 0%
 
 <!--(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time)-->
 
-You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list.
+U kunt een rapport of een lijst in Adobe Workfront bouwen door of de norm of de interface van de tekstwijze te gebruiken wanneer het creëren van de elementen die omhoog het rapport of de lijst maken.
 
-The standard interface allows you to reference fields and their attributes that are readily available in the Workfront interface.
+Met de standaardinterface kunt u verwijzen naar velden en hun kenmerken die gemakkelijk beschikbaar zijn in de Workfront-interface.
 
 In de tekstmodus kunt u verwijzen naar velden en kenmerken die mogelijk niet beschikbaar zijn in de standaardmodus, maar wel in de Workfront-database.
 
@@ -35,19 +37,19 @@ Zie de sectie Leren op de website van de Adobe Experience League voor meer infor
 
 >[!TIP]
 >
->U kunt ook de mogelijkheden van berekende aangepaste velden uitbreiden met een versie van de tekstmodus voor aangepaste velden. De syntaxis en regels voor het maken van een berekend aangepast veld verschillen van de syntaxis en regels die u gebruikt in rapporten en lijsten. Voor informatie over het toevoegen van een berekend douanegebied, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+>U kunt ook de mogelijkheden van berekende aangepaste velden uitbreiden met een versie van de tekstmodus voor aangepaste velden. De syntaxis en regels voor het maken van een berekend aangepast veld verschillen van de syntaxis en regels die u gebruikt in rapporten en lijsten. Voor informatie over het toevoegen van een berekend douanegebied, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Voordat u de tekstmodus in uw rapporten gaat gebruiken, raden we u ten zeerste aan onze klassen voor geavanceerde rapportage te gebruiken om meer inzicht te krijgen in de taal van de tekstmodus.
-* We recommend that you use standard mode to ensure the reports you create remain intact when the Workfront software is updated. In de tekstmodus kunt u complexere weergaven, filters en groepen maken, maar het is ook moeilijker om deze te onderhouden en het is niet gegarandeerd wanneer de Workfront-software wordt bijgewerkt.
-* We recommend that you always try to build all reporting elements in the standard interface and switch to the text mode builder only for few adjustments.
+* We raden u aan de standaardmodus te gebruiken om ervoor te zorgen dat de rapporten die u maakt intact blijven wanneer de Workfront-software wordt bijgewerkt. In de tekstmodus kunt u complexere weergaven, filters en groepen maken, maar het is ook moeilijker om deze te onderhouden en het is niet gegarandeerd wanneer de Workfront-software wordt bijgewerkt.
+* Wij adviseren dat u altijd probeert om alle rapporteringselementen in de standaardinterface te bouwen en op de bouwer van de tekstwijze slechts voor weinig aanpassingen over te schakelen.
 
   >[!TIP]
   >
-  >Using the standard builder gives you important building blocks and patterns of code that you can then use when modifying the code in text mode.
+  >Met de standaardbuilder hebt u belangrijke bouwstenen en codepatronen die u kunt gebruiken wanneer u de code in tekstmodus wijzigt.
 
-* There are a set of rules and a unique syntax that you must use in order to successfully build reports and lists in text mode. Make sure you are familiar with the Workfront syntax for text mode before you begin.
+* Er zijn een reeks regels en een unieke syntaxis die u moet gebruiken om rapporten en lijsten op tekstwijze met succes te bouwen. Zorg ervoor dat u bekend bent met de Workfront-syntaxis voor de tekstmodus voordat u begint.
 
-  Voor informatie over de syntaxis en de regels voor het gebruiken van tekstwijze, zie [&#x200B; overzicht van de de wijzesyntaxis van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Voor informatie over de syntaxis en de regels voor het gebruiken van tekstwijze, zie [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Nadat u een rapporteringselement op tekstwijze aanpast, zou u of niet op standaardwijze (in een mening) kunnen kunnen kunnen terugschakelen of de code voor het element zou kunnen worden geschrapt u creeerde (in filters en groepen.) Niet alle velden die in de tekstmodus worden ondersteund, worden in de standaardmodus ondersteund.
 
@@ -57,14 +59,14 @@ De Standaardinterface van de Wijze toont gebieden om de toepassingselementen in 
 
 Voor meer informatie over de standaardwijzeinterface en leren hoe te om een rapport of een lijst tot stand te brengen, zie:
 
-* [&#x200B; creeer een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [ creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [Elementen rapporteren: filters, weergaven en groepen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
-## Text Mode interface
+## Tekstmodusinterface
 
-Text mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard mode interface. In Workfront text mode is a collection of coded statements that indicate what objects you want to display in a report or a list.
+In de tekstmodus kunt u complexere weergaven, filters, groepen en aanwijzingen maken door u toe te staan velden te gebruiken die niet beschikbaar zijn in de standaardmodus. In de tekstmodus van Workfront is een verzameling gecodeerde instructies die aangeven welke objecten u in een rapport of lijst wilt weergeven.
 
-For a complete list of all our reportable fields, see the [API Explorer](../../../wf-api/general/api-explorer.md).
+Voor een volledige lijst van al onze te melden gebieden, zie [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -76,16 +78,16 @@ Toegang tot de interface van de tekstmodus is vergelijkbaar voor weergaven, groe
 
 Zie voor meer informatie over het gebruik van de tekstmodus in weergaven, filters en groepen:
 
-* [&#x200B; geef een mening uit gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [&#x200B; geef een filter uit gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [ geef een mening uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [ geef een filter uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Een groep bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-Custom prompts can only be edited in text mode. You can access prompts only from a report.
+Aangepaste vragen kunnen alleen in de tekstmodus worden bewerkt. U kunt tot herinneringen slechts van een rapport toegang hebben.
 
-For information about accessing the text mode interface for custom prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Voor informatie over de toegang tot van de interface van de tekstwijze voor douaneherinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-## Common reasons to use Text Mode {#common-reasons-to-use-text-mode}
+## Algemene redenen voor het gebruik van de tekstmodus {#common-reasons-to-use-text-mode}
 
 Buiten het creëren van douaneherinneringen die slechts gebruikend tekstwijze kunnen worden gevormd, adviseren wij dat u de rapportbouwer gebruikt om uw meningen, filters en groeperingen te bouwen. In sommige gevallen kunt u echter de tekstmodus gebruiken om uw rapporten en lijsten te verbeteren.
 
-Voor meer informatie over gemeenschappelijk gebruik voor tekstwijze, zie [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Voor meer informatie over gemeenschappelijk gebruik voor tekstwijze, zie [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

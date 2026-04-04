@@ -6,7 +6,9 @@ description: Als u alle updates wilt zien die een van de gebruikers voor een obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -25,7 +27,7 @@ In het gedeelte Updates van een object wordt standaard maximaal 200 updates weer
 
 >[!NOTE]
 >
->U kunt een rapport bouwen om updates op voorwerpen in Voorproef met het de ingangsrapport van het Dagboek te bekijken. Voor meer informatie, zie [&#x200B; Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>U kunt een rapport bouwen om updates op voorwerpen in Voorproef met het de ingangsrapport van het Dagboek te bekijken. Voor meer informatie, zie [ Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Toegangsvereisten
 
@@ -62,11 +64,12 @@ In het gedeelte Updates van een object wordt standaard maximaal 200 updates weer
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -96,7 +99,8 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
     <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Een notitierapport maken
 
@@ -115,7 +119,7 @@ Bijvoorbeeld, om een rapport van de Nota voor alle nota&#39;s op een project tot
 1. (Facultatief) klik **Filters**, dan **voeg een Regel van de Filter** toe.
 1. Voeg een filter voor **Nota** toe > **de Tekst van de Nota** > **is niet leeg**.
 
-   ![&#x200B; gebied van de notitietekst van de Nota geen leeg filter &#x200B;](assets/note-note-text-not-blank-filter.png)
+   ![ gebied van de notitietekst van de Nota geen leeg filter ](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

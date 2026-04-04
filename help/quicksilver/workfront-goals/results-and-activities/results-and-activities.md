@@ -8,7 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -24,9 +26,10 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,15 +46,16 @@ ht-degree: 0%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Als u de vorderingen met betrekking tot de Workfront-doelstellingen wilt vastleggen, moet u voortgangsindicatoren aan de doelstellingen koppelen. Naast resultaten en activiteiten, kunt u projecten of kinddoelstellingen aan een doel ook associëren om vooruitgang te registreren.
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; worden begonnen met resultaten en activiteiten in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [&#x200B; voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [&#x200B; voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [&#x200B; voeg projecten aan doelstellingen in de Doelen van Adobe Workfront toe &#x200B;](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-* [&#x200B; geef resultaten en activiteiten in de Doelen van Adobe Workfront uit &#x200B;](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [ worden begonnen met resultaten en activiteiten in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [ voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [ voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [ voeg projecten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [ geef resultaten en activiteiten in de Doelen van Adobe Workfront uit ](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

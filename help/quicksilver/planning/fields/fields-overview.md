@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Overzicht van veld
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -30,7 +34,7 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
 * U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave. Alle velden die aan een recordtype zijn gekoppeld, worden ook op de recordpagina weergegeven.
 
-  Voor informatie over het beheren van lijstkolommen (of verslaggebieden), zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+  Voor informatie over het beheren van lijstkolommen (of verslaggebieden), zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
   Zie ook de volgende artikelen voor informatie over het beheren van velden:
 
@@ -51,11 +55,11 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
       * Wanneer u recordtypen verbindt. U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
-        Voor meer informatie over het verbinden van verslagtypes, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+        Voor meer informatie over het verbinden van verslagtypes, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
       * Wanneer u bestaande velden uit Workfront importeert.
 
-        Voor informatie, zie [&#x200B; de gebieden van de Invoer van Adobe Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+        Voor informatie, zie [ de gebieden van de Invoer van Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
    * Automatisch:
@@ -77,15 +81,15 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
       * Wanneer u een werkruimte maakt op basis van een sjabloon.
 
-        Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+        Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
       * Wanneer u recordtypen importeert met een Excel- of CSV-bestand.
 
-        Voor meer informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+        Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * De gebieden van de Planning van Workfront zijn niet toegankelijk van Workfront.
 
-* Workfront-velden zijn alleen toegankelijk vanuit Workfront Planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Workfront-velden zijn alleen toegankelijk vanuit Workfront Planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheermachtigingen hebt voor de werkruimte en het recordtype waartoe het veld behoort.
 

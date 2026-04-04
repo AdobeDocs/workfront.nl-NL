@@ -6,7 +6,9 @@ description: Datums kunnen zo worden geconfigureerd dat ze in verschillende inde
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -33,7 +35,7 @@ valueformat=mediumAtdate
 valuefield=plannedCompletionDate
 ```
 
-Voor meer informatie over het toepassen van voorwaardelijk formatteren in de rapporten en lijsten van Workfront die tekstwijze gebruiken, zie [&#x200B; Voorwaardelijk het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+Voor meer informatie over het toepassen van voorwaardelijk formatteren in de rapporten en lijsten van Workfront die tekstwijze gebruiken, zie [ Voorwaardelijk het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 U kunt datums opmaken met de volgende waarden in de tekstmodus `valueformat` :
 

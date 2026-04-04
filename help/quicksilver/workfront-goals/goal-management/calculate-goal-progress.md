@@ -6,7 +6,9 @@ description: De vooruitgang van het doel wordt gedreven door vooruitgangsindicat
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -23,9 +25,10 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -40,7 +43,8 @@ ht-degree: 0%
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+ -->
 
 
 Adobe Workfront berekent automatisch de voortgang van het doel op basis van de voortgangsindicatoren.
@@ -55,12 +59,12 @@ Nadat u een doel hebt geactiveerd, begint u met het berekenen van de voortgang e
 | Verwacht percentage voltooid | Hoeveel van het doel moet tot nu toe worden verwezenlijkt om het doel tijdig te kunnen voltooien. De Doelen van Workfront berekent deze waarde door de Duur van het doel en het huidige tijdstip te bekijken. Deze waarde moet op het huidige tijdstip worden weergegeven als het doel op tijd moet worden voltooid. |
 | Voortgang | Een label dat aangeeft of het doel op tijd moet worden voltooid of dat het risico loopt of niet kan worden voltooid. |
 
-![&#x200B; In probleem &#x200B;](assets/in-trouble-goal-progress-expanded.png)
+![ In probleem ](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
-* [&#x200B; Werkelijk volledig percent &#x200B;](#actual-percent-complete)
-* [&#x200B; Verwacht percentage volledig &#x200B;](#expected-percent-complete)
+* [ Werkelijk volledig percent ](#actual-percent-complete)
+* [ Verwacht percentage volledig ](#expected-percent-complete)
 * [Voortgang en toestand](#progress)
 
 ### Werkelijk percentage voltooid {#actual-percent-complete}
@@ -71,15 +75,15 @@ De volgende punten worden beschouwd als voortgangsindicatoren voor doelstellinge
 
 * Resultaten
 
-  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
+  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
 
 * Activiteiten
 
-  Voor informatie over het toevoegen van activiteiten met inbegrip van projecten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+  Voor informatie over het toevoegen van activiteiten met inbegrip van projecten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
 * Uitgelijnde onderliggende doelen
 
-  Voor informatie over ouder en kinddoelstellingen, zie [&#x200B; doelstellingen richten door hen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden.
+  Voor informatie over ouder en kinddoelstellingen, zie [ doelstellingen richten door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden.
 
   Workfront Goals berekent het werkelijke percentage voltooid met de volgende formule:
 
@@ -117,7 +121,7 @@ Als het verwachte percentage voltooid bijvoorbeeld 53% is op het huidige moment 
 
 In het volgende diagram ziet u de relatie tussen de voorwaardelabels en het voortgangspercentage:
 
-![&#x200B; in kaart gebrachte de statusetiketten van de Voortgang &#x200B;](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![ in kaart gebrachte de statusetiketten van de Voortgang ](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 In de onderstaande tabel staan de labels voor de doelvoorwaarde en de percentages voor de voortgang van het doel die aan elk label zijn gekoppeld.
 

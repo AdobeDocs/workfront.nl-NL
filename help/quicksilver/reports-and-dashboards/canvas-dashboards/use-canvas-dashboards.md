@@ -6,7 +6,10 @@ description: Canvasdashboards gebruiken
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
+exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -17,9 +20,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te leggen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekken &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas terugkoppelt.
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te leggen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekken ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas terugkoppelt.
 >
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
@@ -37,9 +40,10 @@ Navigeer naar de sectie Dashboards in Adobe Workfront om toegang te krijgen tot 
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 1. Klik op de naam van een bestaand dashboard om dit te openen.
-   ![&#x200B; Open een dashboard &#x200B;](assets/open-dashboard.png)
+   ![ Open een dashboard ](assets/open-dashboard.png)
 
-<!--## Navigating the Dashboard
+<!--
+## Navigating the Dashboard
 
 Once you open a Canvas Dashboard, you can interact with the reports displayed on the dashboard. You can resize, drag, and drop reports to customize the layout according to your preferences.
 
@@ -57,7 +61,7 @@ U kunt tabelrapporten tijdelijk aanpassen op dashboards. Deze veranderingen zijn
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 1. Klik op de naam van een bestaand dashboard om dit te openen.
-   ![&#x200B; Open een dashboard &#x200B;](assets/open-dashboard.png)
+   ![ Open een dashboard ](assets/open-dashboard.png)
 1. Zoek het tabelrapport dat u wilt aanpassen.
 1. Kies een van de volgende opties om het rapport aan te passen:
 
@@ -111,7 +115,8 @@ When you sort by the same field that your report is grouped by, the group order 
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
-For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.
+-->
 
 ## Rapporten weergeven met gegroepeerde gegevens
 

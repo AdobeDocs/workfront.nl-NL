@@ -6,7 +6,9 @@ description: Met voorwaardelijke opmaak kunt u twee verschillende velden in een 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -49,7 +51,7 @@ Met voorwaardelijke opmaak kunt u twee verschillende velden in een weergave verg
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +70,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 1. Voer de vergelijkingscriteria in op basis van bestaande waarden in de builder en geef de voorwaardelijke opmaak op.\
    We willen bijvoorbeeld taken markeren waarbij de werkelijke begindatum later is dan (of hoger is dan) de geplande begindatum. Selecteer de optie Groter dan en selecteer een werkelijke datum in het datumveld.
 
-   ![&#x200B; Voorwaardelijke het formatteren voor daadwerkelijke begindatum &#x200B;](assets/cond-format-1-350x84.png)
+   ![ Voorwaardelijke het formatteren voor daadwerkelijke begindatum ](assets/cond-format-1-350x84.png)
 
 1. (Optioneel) Selecteer **Toepassen op volledige rij** als u de opmaak op de volledige rij wilt toepassen.
 1. Klik **sparen**.
@@ -96,7 +98,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 
 1. Zorg ervoor dat de coderegel `righttext` overeenkomt met de instructie in de coderegel `rightmethod` .
 
-   ![&#x200B; Voorwaardelijke het formatteren &#x200B;](assets/cond-format-2-350x171.png)
+   ![ Voorwaardelijke het formatteren ](assets/cond-format-2-350x171.png)
 
 1. Klik **sparen**.
 1. Klik **sparen + Sluiten**.

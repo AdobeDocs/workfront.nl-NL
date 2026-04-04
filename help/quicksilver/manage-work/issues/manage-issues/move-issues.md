@@ -6,7 +6,9 @@ description: U kunt kwesties tussen projecten en taken bewegen.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 U kunt kwesties tussen de volgende voorwerpen bewegen:
 
@@ -61,11 +65,12 @@ U kunt kwesties tussen de volgende voorwerpen bewegen:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,13 +100,14 @@ U kunt kwesties tussen de volgende voorwerpen bewegen:
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overwegingen bij het verplaatsen van problemen
 
 Houd rekening met het volgende wanneer u problemen verplaatst die documenten bevatten of die zijn gekoppeld aan een aanvraagwachtrij:
 
-* Uw systeem of groepsbeheerder kan u verhinderen kwesties te bewegen die het programma geopende uren, afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [&#x200B; de taak en de uitgevende voorkeur van het systeem brede &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+* Uw systeem of groepsbeheerder kan u verhinderen kwesties te bewegen die het programma geopende uren, afhankelijk van hoe zij vormen toestaan gebruikers om taken en kwesties met geregistreerde urenvoorkeur in het gebied van de Opstelling te bewegen. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 * **wanneer een kwestie met een verzoekrij wordt geassocieerd:** wanneer u een kwestie aan een ander voorwerp beweegt en de kwestie met een verzoekrij wordt geassocieerd, wordt de verplaatste kwestie niet meer geassocieerd met de originele rij de eerste kwestie voortgekomen uit.
 * **wanneer een document aan de kwestie in bijlage is:** wanneer u een kwestie aan een ander voorwerp beweegt en de kwestie een document in bijlage aan het heeft, bewegen het document, zijn versies en de proeven zich ook naar de nieuwe kwestie. Eventuele goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
@@ -120,9 +126,9 @@ U kunt een of meerdere problemen verplaatsen vanuit een lijst met problemen of v
 1. Als u selecteerde om naar een project te gaan, klik **Kwesties** in het linkerpaneel.
 1. Selecteer de kwestie of de kwesties die u wilt bewegen en **Meer menu** bij de bovenkant van de lijst van de kwestie klikken, dan **Beweging aan** klikken.
 
-   ![&#x200B; Exemplaar en Beweging aan verbindingen &#x200B;](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![ Exemplaar en Beweging aan verbindingen ](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Ga met het bewegen van de kwesties voort, zoals die in de sectie [&#x200B; worden beschreven één enkele kwestie &#x200B;](#move-a-single-issue) die met Stap 2 beginnen.
+1. Ga met het bewegen van de kwesties voort, zoals die in de sectie [ worden beschreven één enkele kwestie ](#move-a-single-issue) die met Stap 2 beginnen.
 
 ## Eén probleem verplaatsen {#move-a-single-issue}
 
@@ -130,13 +136,13 @@ U kunt één probleem verplaatsen wanneer u het bekijkt.
 
 ### Eén probleem verplaatsen
 
-1. Ga naar een kwestie die u wilt bewegen, **klikken Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Beweging aan**.
+1. Ga naar een kwestie die u wilt bewegen, **klikken Meer** menu ![ ](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Beweging aan**.
 
-   ![&#x200B; Beweging op uitgaand niveau &#x200B;](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![ Beweging op uitgaand niveau ](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    De **vertoningen van de Kwestie van de Beweging** doos.
 
-   ![&#x200B; Verplaats de kwestie doos &#x200B;](assets/move-issue-box-nwe-350x280.png)
+   ![ Verplaats de kwestie doos ](assets/move-issue-box-nwe-350x280.png)
 
 1. In de **Uitgezochte sectie van het Project van de Bestemming**, specificeer de naam van het project waar u de kwesties wilt bewegen. De naam van het huidige project toont door gebrek.
 
@@ -147,11 +153,11 @@ U kunt één probleem verplaatsen wanneer u het bekijkt.
 1. (Voorwaardelijk) klik **verzoektoegang** als u geen toegang hebt om kwesties aan het project te bewegen.
 1. (Voorwaardelijk) blijf de kwestie op het geselecteerde bestemmingsproject bewegen zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
-   ![&#x200B; de kwestie van de beweging en verzoek toegang &#x200B;](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![ de kwestie van de beweging en verzoek toegang ](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 1. (Facultatief) in de **sectie van Opties**, schrap om het even welke punten die in de lijst hieronder worden vermeld om hen uit de verplaatste kwestie te verwijderen. Alle opties zijn standaard geselecteerd.
 

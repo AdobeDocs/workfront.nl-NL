@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b20300d7-77d6-46f5-a458-23f7b84ef29b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverhogingen die met de Tweede Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken
 
@@ -26,4 +28,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 U kunt nu een opmerking aan een project toevoegen terwijl u deze bewerkt in het vak Project bewerken. U kunt ook een opmerking toevoegen aan meerdere projecten tegelijk wanneer u ze bulksgewijs bewerkt. Vóór deze update bestond deze functionaliteit niet tijdens het bewerken van projecten.
 
-Voor informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.

@@ -7,7 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
-source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -37,7 +39,7 @@ De toegang tot documenten gedraagt zich verschillend afhankelijk van of het proj
 
 Als u Adobe Enterprise Storage hebt ingeschakeld in uw Workfront-omgeving, kunt u zowel Adobe Enterprise Storage-projecten als oudere Workfront-opslagprojecten maken. Bij verouderde Workfront-opslagprojecten wordt een pictogram weergegeven naast de projectnaam, waar deze ook wordt weergegeven in Workfront. Adobe Enterprise Storage-projecten geven geen pictogram weer.
 
-![&#x200B; pictogram van de erfeniswerkfront opslag naast projectnaam &#x200B;](assets/legacy-project-icon.png)
+![ pictogram van de erfeniswerkfront opslag naast projectnaam ](assets/legacy-project-icon.png)
 
 
 ### Omgevingen die alleen gebruikmaken van Adobe Enterprise Storage

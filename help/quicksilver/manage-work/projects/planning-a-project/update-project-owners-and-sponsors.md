@@ -6,7 +6,9 @@ description: Als u een project maakt in Adobe Workfront, wordt u automatisch ing
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 Als u een project maakt in Adobe Workfront, wordt u automatisch ingesteld als de eigenaar van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
 
-Voor informatie over projecteigenaars en sponsors, zie [&#x200B; Overzicht van projecteigenaars en sponsors &#x200B;](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Voor informatie over projecteigenaars en sponsors, zie [ Overzicht van projecteigenaars en sponsors ](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
@@ -28,7 +30,7 @@ Voor informatie over projecteigenaars en sponsors, zie [&#x200B; Overzicht van p
 >
 >Als het malplaatje geen Eigenaar heeft, wordt de gebruiker die het project van het teamplate leidt de Eigenaar van het Project.
 >
->Voor informatie over het uitgeven van malplaatjes, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+>Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -58,11 +60,12 @@ Voor informatie over projecteigenaars en sponsors, zie [&#x200B; Overzicht van p
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +89,8 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## De eigenaar van een project bijwerken
 
@@ -94,9 +98,9 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
 1. Ga naar het project u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
-1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0&rbrace; Project.**
+1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0} Project.**
 
    Alleen actieve gebruikers kunnen worden opgegeven als eigenaars van projecten.
 
@@ -104,7 +108,7 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
    De eigenaar van het Project werkt in de projectkopbal en in het gebied van de Details van het Project bij.
 
-   ![&#x200B; benadrukte de aandeelhouders van het Project eigenaar &#x200B;](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![ benadrukte de aandeelhouders van het Project eigenaar ](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## De projectsponsor van een project bijwerken
 
@@ -116,7 +120,7 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
 1. Ga naar het project dat u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Specificeer de naam van een gebruiker voor het **Sponsor van het Project** gebied.
 
@@ -126,4 +130,4 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
    De projectsponsor werkt bij in het gebied Projectdetails.
 
-   ![&#x200B; benadrukte de commentaarsponsor van het Project &#x200B;](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![ benadrukte de commentaarsponsor van het Project ](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

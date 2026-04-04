@@ -4,7 +4,9 @@ description: U kunt het overzicht en de aangepaste formuliergegevens vanuit de s
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -66,11 +68,12 @@ Deze functionaliteit wordt ondersteund voor de volgende objecten:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +95,8 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Vereisten
 
@@ -105,9 +109,9 @@ Voordat u begint, moet u beschikken over alle volgende opties:
 
    U hebt de juiste toegang om een aangepast formulier toe te voegen en de gegevens op het formulier te bewerken.
 
-Voor informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-Voor informatie over het vastmaken van vormen aan voorwerpen, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+Voor informatie over het vastmaken van vormen aan voorwerpen, zie [ een douanevorm aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Informatie exporteren in de sectie Details
 
@@ -124,7 +128,7 @@ Informatie exporteren uit de sectie Details van een object is identiek voor alle
 
    U kunt **selecteren allen** ook selecteren als u het gebied van het Overzicht en alle douaneformulieren wilt uitvoeren.
 
-   ![&#x200B; de knoop van de de douanevorm van de Uitvoer &#x200B;](assets/export-custom-form-button-menu.png)
+   ![ de knoop van de de douanevorm van de Uitvoer ](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >
@@ -133,7 +137,7 @@ Informatie exporteren uit de sectie Details van een object is identiek voor alle
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en voor het object aangepaste formulieren zijn gekoppeld, wordt de sectie Overzicht niet weergegeven.
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en er geen aangepaste formulieren zijn gekoppeld voor het object, is het vervolgkeuzemenu Exporteren niet zichtbaar.
    >   * Als voor het object geen aangepaste formulieren zijn gekoppeld, kunt u alleen het gebied Overzicht exporteren.
-   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douaneformulier, zie [&#x200B; logische regels aan douaneformulieren en gebieden &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
+   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douaneformulier, zie [ logische regels aan douaneformulieren en gebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
 
    Er wordt een PDF-bestand gemaakt en naar de computer gedownload. Het PDF-bestand bevat de volgende informatie:
 

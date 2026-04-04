@@ -7,7 +7,9 @@ description: Deze taakmening toont het Bedrijf en de Groep van het Huis van de P
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 Deze taakmening toont het Bedrijf en de Groep van het Huis van de Primaire Eigenaar van de taak. Dit zijn waarden die niet beschikbaar zijn in de standaardinterface, maar die wel toegankelijk zijn via de tekstmodus.
 
-![&#x200B; Mening toegewezen het bedrijf van de gebruiker en homegroep &#x200B;](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![ Mening toegewezen het bedrijf van de gebruiker en homegroep ](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ Deze taakmening toont het Bedrijf en de Groep van het Huis van de Primaire Eigen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

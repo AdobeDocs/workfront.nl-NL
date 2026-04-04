@@ -6,7 +6,9 @@ description: Wanneer u een project of een taak creeert door een kwestie in het p
 author: Alina
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -18,12 +20,12 @@ ht-degree: 0%
 <!--Audited: 08/2025-->
 
 Wanneer u een project of een taak creeert door een kwestie in het project of de taak om te zetten, hebt u de optie om de originele kwestie te houden. Uw Adobe Workfront-beheerder moet deze voorkeur inschakelen zodat u deze optie hebt tijdens de conversie van de uitgave.\
-Voor meer informatie over het omzetten van kwesties in projecten en taken, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor meer informatie over het omzetten van kwesties in projecten en taken, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 Wanneer u besluit om de kwestie te houden die in het project of de taak werd omgezet, wordt de resolutie van de kwestie verbonden aan het project of de taak. De kwestie wordt het Oplosbare Voorwerp van het project of de taak. Het project of de taak zijn de Resolving Objects van de kwestie.
 
 U kunt een uitgave ook handmatig koppelen aan een andere uitgave. De tweede kwestie wordt het Oplossende Voorwerp voor de eerste kwestie, in dit geval.\
-Voor meer informatie over het Oplossen van Voorwerpen, zie [&#x200B; Overzicht van het Oplossen en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor meer informatie over het Oplossen van Voorwerpen, zie [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 >[!TIP]
 >
@@ -59,11 +61,12 @@ U kunt de oplossing van een kwestie van dat van een project, een taak, of een kw
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -85,7 +88,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    <td> <p>Manage permissions on the issue</p> <p>View permissions on the task or project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Een probleem loskoppelen van een project, taak of probleem
 

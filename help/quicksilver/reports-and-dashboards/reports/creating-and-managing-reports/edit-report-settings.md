@@ -6,7 +6,9 @@ description: U kunt de montages van een rapport uitgeven om te bepalen hoe het v
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -49,7 +51,7 @@ U kunt de montages van een rapport uitgeven om te bepalen hoe het voor andere ge
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,11 +92,13 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
      </tr> 
      <tr> 
       <td role="rowheader">De weergave Bronraster weergeven op het tabblad Details</td> 
-      <td> <p>(Alleen gebruikersrapport) Selecteer deze optie om het Resource Grid op het tabblad Details van het rapport weer te geven.</p> <p>Nota: Wanneer het toepassen van de mening van het Net van het Middel op een gebruikersrapport, toont het rapport slechts projecten die in de Huidige status zijn. Als u projecten in een andere status wilt zien, kunt u het Lusje van het Gebruik van de Gebruiker in het gebied van Mensen van de Globale Bar van de Navigatie gebruiken, en de Mening van het Net van het Middel daar toepassen. <!--
+      <td> <p>(Alleen gebruikersrapport) Selecteer deze optie om het Resource Grid op het tabblad Details van het rapport weer te geven.</p> <p>Nota: Wanneer het toepassen van de mening van het Net van het Middel op een gebruikersrapport, toont het rapport slechts projecten die in de Huidige status zijn. Als u projecten in een andere status wilt zien, kunt u het Lusje van het Gebruik van de Gebruiker in het gebied van Mensen van de Globale Bar van de Navigatie gebruiken, en de Mening van het Net van het Middel daar toepassen.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Een speciale weergave weergeven op het tabblad Details</td> 
@@ -120,7 +124,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    </table>
 
 1. Klik **Vragen van het Rapport** aan opstelling om het even welke herinneringen voor het rapport.\
-   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. Klik **Gedaan,** dan klik **sparen + Sluiten**.
 
@@ -129,6 +133,6 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [&#x200B; worden begonnen met rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [&#x200B; de ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [ worden begonnen met rapporten ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

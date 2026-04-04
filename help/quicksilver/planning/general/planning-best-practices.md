@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3405'
 ht-degree: 0%
@@ -23,11 +25,11 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+>Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 >
->Voor meer informatie, adviseren wij ook het raadplegen van de artikelen in [&#x200B; Adobe Workfront die beste praktijken plant: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+>Voor meer informatie, adviseren wij ook het raadplegen van de artikelen in [ Adobe Workfront die beste praktijken plant: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren.
 
@@ -113,7 +115,7 @@ Recordtypen zijn de bouwstenen van een Workfront Planning Workspace. U kunt defi
   Bijvoorbeeld, kan een type van het kanaalverslag zoals **E-mail** een lijst opslaan van het steunen van te leveren voorwerpen, of als inheemse meta-gegevens, of als verbinding aan een standalone **levert** verslagtype.
 * ⛔ Voeg geen nieuw recordtype toe als de gegevens die u opslaat slechts relevant zijn voor één recordtype.
 
-  Bijvoorbeeld, kan het 1&rbrace; verslagtype van de Campagne van de a **&lbrace;een enig-uitgezocht gebied genoemd** Grootte van de Campagne **hebben die slechts relevant wanneer direct verbonden met een specifieke campagne is.** Maak in plaats daarvan een veld om deze gegevens vast te leggen.
+  Bijvoorbeeld, kan het 1} verslagtype van de Campagne van de a **{een enig-uitgezocht gebied genoemd** Grootte van de Campagne **hebben die slechts relevant wanneer direct verbonden met een specifieke campagne is.** Maak in plaats daarvan een veld om deze gegevens vast te leggen.
 
 #### Hoe moet ik mijn recordtypen labelen?
 
@@ -175,7 +177,7 @@ Velden zijn kenmerken van recordtypen en worden als kolommen weergegeven in de t
 
 * ✅ Gebruik weergaven met filters en groepen om een momentopname weer te geven van wat u nodig hebt om te zien. U kunt de gegevens filteren en groeperen om een meer verbruikbare manier te hebben om te begrijpen wat gepland is. U kunt de records groeperen op metagegevensvelden.
 
-  Bijvoorbeeld, kunt u een chronologiemening voor uw **1&rbrace; verslagtype van de Campagne hebben &lbrace;dat u door** Soorten van het Doel **kunt groeperen en het door** Datum **filtreren om slechts het huidige jaar te tonen.**
+  Bijvoorbeeld, kunt u een chronologiemening voor uw **1} verslagtype van de Campagne hebben {dat u door** Soorten van het Doel **kunt groeperen en het door** Datum **filtreren om slechts het huidige jaar te tonen.**
 
 #### Waarom zie ik niet alle records in mijn tijdlijnweergave?
 
@@ -203,7 +205,7 @@ Gebruik de functie voor delen om anderen de juiste machtigingen te geven voor we
    * **draag** bij: De mensen kunnen verslagen tot stand brengen, uitgeven en schrappen.
    * **Mening**: De mensen kunnen verslagen bekijken.
 
-* ✅ Hoewel vele klanten voelen alsof zij **&#x200B;**&#x200B;toestemmingen aan werkruimten aan de meeste mensen zouden verlenen, beperkt **&#x200B;**&#x200B;toestemmingen beheren &lbrace;tot een uitgezochte groep vertrouwde op mensen die niet per ongeluk een verslagtype zullen schrappen of anders onnodige verslagtypes en gebieden creëren. Ze kunnen de werkruimte bewerken, delen en zelfs verwijderen. Dit machtigingsniveau verleent hun volledige administratieve toegang tot de Workspace.
+* ✅ Hoewel vele klanten voelen alsof zij **** toestemmingen aan werkruimten aan de meeste mensen zouden verlenen, beperkt **** toestemmingen beheren {tot een uitgezochte groep vertrouwde op mensen die niet per ongeluk een verslagtype zullen schrappen of anders onnodige verslagtypes en gebieden creëren. Ze kunnen de werkruimte bewerken, delen en zelfs verwijderen. Dit machtigingsniveau verleent hun volledige administratieve toegang tot de Workspace.
 
   Een standaardgebruikerslicentie is vereist voor iemand die beheerdersmachtigingen voor een werkruimte heeft.
 
@@ -211,7 +213,7 @@ Gebruik de functie voor delen om anderen de juiste machtigingen te geven voor we
 
   Een Standaard gebruikersvergunning wordt vereist voor iemand om **te hebben** toestemmingen bijdragen aan een werkruimte.
 
-* ✅ geef gebruikers &lbrace;de toestemmingen van de Mening **&#x200B;**, als u hen enkel records wilt bekijken.
+* ✅ geef gebruikers {de toestemmingen van de Mening ****, als u hen enkel records wilt bekijken.
 
 #### Hoe zou ik toestemmingen moeten beheren om types te registreren?
 
@@ -267,7 +269,7 @@ U kunt voor elk recordtype een aanvraagformulier maken wanneer u wilt dat gebrui
 
 #### Hoe moet ik een aanvraagformulier voor een recordtype maken of bewerken?
 
-* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [&#x200B; worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [ worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wie kan nieuwe records verzenden met behulp van het aanvraagformulier?
@@ -298,7 +300,8 @@ Hier volgen enkele aanbevelingen voor het beheer van aanvraagformulieren:
 
 <!--do we need to add anything for the Configuration tab of a request form?? -->
 
-<!-- this is hidden, per Andrea:  
+<!--
+ this is hidden, per Andrea:  
 
 2.2 Migration  
 
@@ -352,10 +355,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -363,7 +366,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 

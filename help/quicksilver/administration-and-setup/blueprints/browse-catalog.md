@@ -7,7 +7,9 @@ description: De blauwdrukken verstrekken basisbouwstenen om u te helpen een werk
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Alle gebruikers van [!DNL Adobe Workfront] kunnen door de catalogus met blauwdrukken bladeren. U kunt ook een aanvraag indienen om de [!DNL Workfront] -beheerder een specifieke blauwdruk voor u te laten installeren als uw beheerder blauwdrukverzoeken heeft ingeschakeld.
 
-Alleen de systeembeheerder kan blauwdrukken installeren. Voor informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+Alleen de systeembeheerder kan blauwdrukken installeren. Voor informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
 
 ## Toegangsvereisten
 
@@ -40,13 +42,13 @@ Alleen de systeembeheerder kan blauwdrukken installeren. Voor informatie, zie [&
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Door de catalogus Bladeren
 
-In de catalogus worden alle blauwdrukken weergegeven die beschikbaar zijn voor uw organisatie. Voor informatie over blauwdrukken zoals blauwdruktypes en matrijsniveaus, zie [&#x200B; Overzicht van Vervagen &#x200B;](../../administration-and-setup/blueprints/blueprints-overview.md).
+In de catalogus worden alle blauwdrukken weergegeven die beschikbaar zijn voor uw organisatie. Voor informatie over blauwdrukken zoals blauwdruktypes en matrijsniveaus, zie [ Overzicht van Vervagen ](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 {{step1-to-blueprints}}
 
@@ -56,15 +58,15 @@ In de catalogus worden alle blauwdrukken weergegeven die beschikbaar zijn voor u
    * Hoofdlettergebruik (zoals [!UICONTROL Human Resources] of [!UICONTROL Marketing])
    * Zuiverheidsniveau ([!UICONTROL managed] of [!UICONTROL integrated])
    * Installatiestatus ([!UICONTROL installed] of niet [!UICONTROL installed])
-   * Vervagingstype (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!--, Request Queue, Setup Feature-->)
+   * Vervagingstype ([!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!-- above Custom Form; here, Request Queue, Setup Feature-->)
 
 1. (Optioneel) Klik op **[!UICONTROL Details]** voor een blauwdruk om te leren hoe het werkt.
 
-   Voor informatie over de inhoud beschikbaar op de [!UICONTROL Details] pagina, zie [&#x200B; Overzicht van Vervagen &#x200B;](../../administration-and-setup/blueprints/blueprints-overview.md).
+   Voor informatie over de inhoud beschikbaar op de [!UICONTROL Details] pagina, zie [ Overzicht van Vervagen ](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ## Installatie van een blauwdruk aanvragen
 
-U kunt om de installatie van een blauwdruk verzoeken als uw systeembeheerder blauwdrukverzoeken toestaat. Voor meer informatie, zie [&#x200B; toegang tot blauwdrukken &#x200B;](../../administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
+U kunt om de installatie van een blauwdruk verzoeken als uw systeembeheerder blauwdrukverzoeken toestaat. Voor meer informatie, zie [ toegang tot blauwdrukken ](../../administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
 
 Wanneer u om een geïnstalleerde blauwdruk verzoekt, wordt het verzoek verzonden naar de systeembeheerder. U ontvangt een melding wanneer het verzoek is voltooid, afhankelijk van uw berichtgevingsvoorkeuren.
 
@@ -75,4 +77,4 @@ Wanneer u om een geïnstalleerde blauwdruk verzoekt, wordt het verzoek verzonden
 
    Als de knop **[!UICONTROL Request]** niet wordt weergegeven op de blauwdruk, heeft de systeembeheerder geen verzoeken ingeschakeld.
 
-   ![&#x200B; Verblauwdruk van het Verzoek &#x200B;](assets/blueprints-non-admin-request-bp-350x283.png)
+   ![ Verblauwdruk van het Verzoek ](assets/blueprints-non-admin-request-bp-350x283.png)

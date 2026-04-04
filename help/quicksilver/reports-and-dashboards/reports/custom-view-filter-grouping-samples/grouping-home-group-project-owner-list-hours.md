@@ -7,7 +7,9 @@ description: U kunt de naam van de Groep van het Huis van de Eigenaar van het Pr
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -22,7 +24,7 @@ U kunt de naam van de Groep van het Huis van de Eigenaar van het Project in een 
 
 De groepering groepeert ook de resultaten door de naam van de Eigenaar van het Project en de Naam van het Project.
 
-![&#x200B; grouping_for_project_owner_home_group.png &#x200B;](assets/grouping-for-project-owner-home-group-350x51.png)
+![ grouping_for_project_owner_home_group.png ](assets/grouping-for-project-owner-home-group-350x51.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +55,7 @@ De groepering groepeert ook de resultaten door de naam van de Eigenaar van het P
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

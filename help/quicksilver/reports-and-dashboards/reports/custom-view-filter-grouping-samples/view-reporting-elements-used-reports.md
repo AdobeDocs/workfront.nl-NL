@@ -7,7 +7,9 @@ description: Deze mening toont de Mening, de Filter, en de Groepering die worden
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Deze mening toont de Mening, de Filter, en de Groepering die worden gebruikt om 
 
 U kunt zien welke `valuefields` of `valueexpressions` in elk element van het rapport wordt gebruikt.
 
-![&#x200B; report_with_elements_definitions.png &#x200B;](assets/report-with-elements-definitions-350x130.png)
+![ report_with_elements_definitions.png ](assets/report-with-elements-definitions-350x130.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +55,7 @@ U kunt zien welke `valuefields` of `valueexpressions` in elk element van het rap
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

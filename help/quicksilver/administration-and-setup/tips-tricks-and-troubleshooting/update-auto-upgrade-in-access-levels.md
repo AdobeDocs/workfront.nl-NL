@@ -11,7 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -26,7 +28,8 @@ Medewerkers op het nieuwe licentiemodel moeten een optie voor automatische upgra
 
 Om te bekijken welke toegangsniveaus als auto-verbeteringsopties worden toegewezen:
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png). -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
+-->
 
 1. In het juiste paneel, klik **Niveaus van de Toegang**.
 
@@ -42,6 +45,6 @@ Om te bekijken welke toegangsniveaus als auto-verbeteringsopties worden toegewez
 
 Om een nieuwe auto-verbeteringsoptie aan een toegangsniveaus toe te wijzen:
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. In het juiste paneel, klik **Niveaus van de Toegang**.

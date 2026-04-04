@@ -1,26 +1,28 @@
 ---
-title: Vervanging van gereedschappen op basis van Flash in Adobe Workfront
-description: Vervanging van gereedschappen op basis van Flash in Adobe Workfront
+title: Vervanging van Flash-gereedschappen in Adobe Workfront
+description: Vervanging van Flash-gereedschappen in Adobe Workfront
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
 
 ---
 
-# Vervanging van gereedschappen op basis van Flash in Adobe Workfront
+# Vervanging van Flash-gereedschappen in Adobe Workfront
 
-We hebben alle op Flash gebaseerde tools verwijderd uit Adobe Workfront Classic.
+We hebben alle Flash-gereedschappen verwijderd uit Adobe Workfront Classic.
 
-Vervangingsgereedschappen die op de huidige standaarden zijn gebaseerd, zijn nu beschikbaar in Workfront. Deze wijzigingen sluiten aan bij het einde van de door de Adobe aangekondigde steun voor producten van de Flash.
+Vervangingsgereedschappen die op de huidige standaarden zijn gebaseerd, zijn nu beschikbaar in Workfront. Deze wijzigingen zijn afgestemd op het einde van de ondersteuning voor Flash-producten, zoals Adobe heeft aangekondigd.
 
 ## Belangrijke datums
 
-De volgende datums zijn belangrijk voor het verwijderingsproces van alle op Flash gebaseerde gereedschappen in Workfront:
+De volgende datums zijn belangrijk voor het verwijderingsproces van alle Flash-gereedschappen in Workfront:
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
@@ -34,7 +36,7 @@ De volgende datums zijn belangrijk voor het verwijderingsproces van alle op Flas
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **19 November, 2020**: Alle op Flash-gebaseerde hulpmiddelen zijn verwijderd uit alle producten van Workfront.
+* **19 November, 2020**: Alle op flits-Gebaseerde hulpmiddelen zijn verwijderd uit alle producten van Workfront.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,11 +45,11 @@ De volgende datums zijn belangrijk voor het verwijderingsproces van alle op Flas
   </MadCap:conditionalText>
   -->
 
-## Verouderde gereedschappen op basis van Flash
+## Verouderde, op Flash gebaseerde gereedschappen
 
 De gereedschappen in de volgende secties zijn uit het Workfront-systeem verwijderd en vervangen door nieuwe oplossingen.
 
-Voor informatie over vervangingshulpmiddelen, zie [&#x200B; Verouderde op Flash-gebaseerde hulpmiddelen en hun vervangingen &#x200B;](#legacy-flash-based-tools-and-their-replacements) in dit artikel.
+Voor informatie over vervangingshulpmiddelen, zie [ Verouderde op flits-Gebaseerde hulpmiddelen en hun vervangingen ](#legacy-flash-based-tools-and-their-replacements) in dit artikel.
 
 ### Bronbeheer
 
@@ -57,7 +59,7 @@ Voor informatie over vervangingshulpmiddelen, zie [&#x200B; Verouderde op Flash-
    * Capaciteitsplanner
    * Bronschattingen
    * Bronraster\
-     Voor meer informatie, zie [&#x200B; Planning van het Middel: artikelindex &#x200B;](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Voor meer informatie, zie [ Planning van het Middel: artikelindex ](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * Het gebied van de Schatting van het Middel van de Oudheid in het BedrijfsGeval van een project
 
@@ -88,7 +90,7 @@ De volgende rapportfuncties en rapporten zijn verwijderd:
 
    * De optie Bronraster in een gebruikersrapport
    * De optie Legacy Gantt in een project- of taakrapport\
-     Voor meer informatie, zie [&#x200B; informatie van de Mening in de Grafiek van Gantt &#x200B;](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     Voor meer informatie, zie [ informatie van de Mening in de Grafiek van Gantt ](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Verwijderde rapporten:
 
@@ -102,7 +104,7 @@ De volgende rapportfuncties en rapporten zijn verwijderd:
 ### Legacy Gantt
 
 * Alle verouderde Gantt-weergaven van project- en taaklijsten, rapporten en rapportopties
-* De verouderde Gantt-subtabs in Portfolio&#39;s en programma&#39;s
+* De verouderde Gantt-subtabbladen in portfolio&#39;s en programma&#39;s
 * Het subtabblad Oudere Gantt in een lijst met sjabloontaken voor een sjabloon, de weergave Oudere Gantt op het tabblad Subtaken van een sjabloontaak en in een sjabloontaakrapport
 
 ### Proofing
@@ -115,7 +117,7 @@ De verouderde proefdrukviewer is vervangen door de nieuwe webproefdrukviewer en 
 
 Zie de volgende bronnen voor meer informatie:
 
-* [&#x200B; proefdrukken van het Overzicht in de het Proofing van het Web Kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [ proefdrukken van het Overzicht in de het Proofing van het Web Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
 * [Proefdrukken bekijken in de Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
@@ -133,13 +135,13 @@ Zie de volgende bronnen voor meer informatie:
 </div>
 -->
 
-## Verouderde gereedschappen op basis van Flash en hun vervangingen {#legacy-flash-based-tools-and-their-replacements}
+## Oudere, op Flash gebaseerde gereedschappen en hun vervangingen {#legacy-flash-based-tools-and-their-replacements}
 
 Tenzij anders aangegeven, zijn alle oude functies vervangen door nieuwe, zoals in de volgende tabel wordt getoond.
 
 >[!CAUTION]
 >
->De oudere, op Flash gebaseerde programma&#39;s zijn uit alle omgevingen verwijderd.
+>De oudere Flash-gereedschappen zijn uit alle omgevingen verwijderd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,11 +173,13 @@ Tenzij anders aangegeven, zijn alle oude functies vervangen door nieuwe, zoals i
   </tr> 
   <tr> 
    <td> <p><strong> Schattingen van het Middel </strong> </p> <p>Het lusje van de Schattingen van het Middel onder elke Oude Pool van het Middel diende het zelfde doel zoals de Manager van de Begroting van het Middel, slechts in de context van één Oude Pool van het Middel. Dit hulpmiddel presenteerde de zelfde beperkingen zoals de Manager van de Begroting van het Middel en de Oudere Groepen van Middelen: onnauwkeurige gegevens en handinput van beschikbaarheid. </p> </td> 
-   <td> <p>Met de automatische berekening van gebruikersbeschikbaarheid, zijn de Schattingen van het Middel verouderd en verwijderd.</p> <p>Het hulpmiddel wordt geëlimineerd op de Oudere Groepen van Middel en de Verouderde Schattingen van het Middel in het BedrijfsGeval van een project. <!--
+   <td> <p>Met de automatische berekening van gebruikersbeschikbaarheid, zijn de Schattingen van het Middel verouderd en verwijderd.</p> <p>Het hulpmiddel wordt geëlimineerd op de Oudere Groepen van Middel en de Verouderde Schattingen van het Middel in het BedrijfsGeval van een project.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong> de Planner van de Capaciteit </strong> </p> <p>De capaciteitsplanner was een Workfront-instrument voor het begroten van middelen en het prioriteren van projecten binnen een oude bronnenpool, afhankelijk van de beschikbaarheid van de middelen. Gezien de onvolledigheid van de gegevens van de ramingen van het Middel en de Manager van de Begroting van het Middel die de informatie voor de Planner van de Capaciteit verstrekte, moest de projectprioriteitstelling tegen de beschikbaarheid van de gebruikers worden tweemaal gecontroleerd.</p> <p>Het gebruiken van één enkele Groep van het Middel van de Oudheid die alle baanrollen in het systeem omvatte was het gemeenschappelijkste scenario, dat tot prestatiesproblemen met de Planner van de Beveiliging leidde die probeerde om een groot aantal projecten te laden.</p> </td> 
@@ -212,7 +216,8 @@ Tenzij anders aangegeven, zijn alle oude functies vervangen door nieuwe, zoals i
          <li>De toewijzingen van gebruikers aan werkitems beheren. </li>
          <li>Deel de werklastbalans met andere gebruikers die mogelijk geen zichtbaarheid hebben in het gebied Personen. Gebruik de functionaliteit voor deelbare koppelingen om een koppeling naar Workload Balancer te delen en deze in te sluiten in aangepaste dashboards. Om het even welke gebruikers met toegang tot de gebruikers van de Mening kunnen deze dashboards bekijken wanneer u hen deelt.</li>
         </ul><p>De werklastbalans is beschikbaar in het gebied Mensen. </p><p>Voor informatie over de Balancer van de Werklast, zie <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref"> Overzicht van de Balancer van de Werkbelasting </a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,24 +233,25 @@ Tenzij anders aangegeven, zijn alle oude functies vervangen door nieuwe, zoals i
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> Verouderde Gantt Grafiek, Lijst van de Taak </strong> </p> <p> De grafiek van Gantt van de Oudheid op de taaklijst verstrekte gebruikers van de capaciteit om de chronologie van het project visueel te zien en wat-als scenario planning uit te voeren zonder veranderingen in het gegevensbestand vast te leggen. De Legacy Gantt-grafiek was gebaseerd op de technologie van de Flash, die veiligheidsrisico's inhield. </p> </td> 
-   <td> <p><strong> Gantt Grafiek, </strong> <strong> Lijst van de Taak </strong></p> <p> De nieuwe op HTML gebaseerde Gantt Chart dient hetzelfde als de Legacy Gantt. De gebruikers kunnen de chronologie van het project visualiseren en uitvoeren wat-als scenario planning zonder veranderingen in het gegevensbestand door te veranderen in Handmatig sparen optie van de toolbar van de taaklijst te bevestigen. </p> <p>De nieuwe Gantt Grafiek is interactief wanneer het gebruiken van de optie Autosave die u kunt gebruiken wanneer u uw veranderingen automatisch wilt bewaren aangezien zij gebeuren. </p> <p>De nieuwe Gantt Grafiek van de Lijst van de Taak wordt voortgebouwd op de nieuwste technologie en is betrouwbaar. Dit nieuwe Gantt-diagram bevindt zich rechtstreeks in de takenlijst en is gemakkelijk toegankelijk tijdens het werken aan de takenlijst zonder van tabbladen te veranderen of de weergave te wijzigen. </p> <p>Hoewel de nieuwe Gantt-grafiek dezelfde functionaliteit biedt als de vorige grafiek, zijn er enkele verschillen in functies in vergelijking met de Legacy Gantt. </p> <p> Het subtabblad Oudere Gantt in een lijst met sjabloontaken op een sjabloon, de weergave Oudere Gantt op het tabblad Subtaken van een sjabloontaak en het Oudere Gantt-diagram in een sjabloontaakrapport zijn ook vervangen door het op HTML gebaseerde Gantt-diagram. </p> <p>Als u de Oudere Grafiek van Gantt vooral voor de eenvoudige mening en snelle uitgeeft gebruikt en niet de daadwerkelijke grafiek gebruikt, staat de nieuwe optie van de Planning van de Chronologie u toe om snelle veranderingen in zeer belangrijke planningsgebieden aan te brengen. U kunt Tijdlijnplanning selecteren in plaats van Automatisch opslaan op de werkbalk van de takenlijst.</p> <p>Voor meer informatie over het bewaren van een taaklijst die de optie van de Planning van de Chronologie gebruikt, zie de sectie "sparen veranderingen in een taaklijst manueel wanneer u de optie van de Planning van de Chronologie"in artikel <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref"> selecteert uitgeven taken in een lijst </a>. </p> </td> 
+   <td> <p><strong> Verouderde Gantt Grafiek, Lijst van de Taak </strong> </p> <p> De grafiek van Gantt van de Oudheid op de taaklijst verstrekte gebruikers van de capaciteit om de chronologie van het project visueel te zien en wat-als scenario planning uit te voeren zonder veranderingen in het gegevensbestand vast te leggen. De Oudere Gantt-grafiek was gebaseerd op Flash-technologie, die beveiligingsrisico's inhield. </p> </td> 
+   <td> <p><strong> Gantt Grafiek, </strong> <strong> Lijst van de Taak </strong></p> <p> De nieuwe, op HTML gebaseerde Gantt Chart dient hetzelfde als de Legacy Gantt. De gebruikers kunnen de chronologie van het project visualiseren en uitvoeren wat-als scenario planning zonder veranderingen in het gegevensbestand door te veranderen in Handmatig sparen optie van de toolbar van de taaklijst te bevestigen. </p> <p>De nieuwe Gantt Grafiek is interactief wanneer het gebruiken van de optie Autosave die u kunt gebruiken wanneer u uw veranderingen automatisch wilt bewaren aangezien zij gebeuren. </p> <p>De nieuwe Gantt Grafiek van de Lijst van de Taak wordt voortgebouwd op de nieuwste technologie en is betrouwbaar. Dit nieuwe Gantt-diagram bevindt zich rechtstreeks in de takenlijst en is gemakkelijk toegankelijk tijdens het werken aan de takenlijst zonder van tabbladen te veranderen of de weergave te wijzigen. </p> <p>Hoewel de nieuwe Gantt-grafiek dezelfde functionaliteit biedt als de vorige grafiek, zijn er enkele verschillen in functies in vergelijking met de Legacy Gantt. </p> <p> Het subtabblad Oudere Gantt in een lijst met sjabloontaken op een sjabloon, de weergave Oudere Gantt op het tabblad Subtaken van een sjabloontaak en het Oudere Gantt-diagram in een sjabloontaakrapport zijn ook vervangen door het op HTML gebaseerde Gantt-diagram. </p> <p>Als u de Oudere Grafiek van Gantt vooral voor de eenvoudige mening en snelle uitgeeft gebruikt en niet de daadwerkelijke grafiek gebruikt, staat de nieuwe optie van de Planning van de Chronologie u toe om snelle veranderingen in zeer belangrijke planningsgebieden aan te brengen. U kunt Tijdlijnplanning selecteren in plaats van Automatisch opslaan op de werkbalk van de takenlijst.</p> <p>Voor meer informatie over het bewaren van een taaklijst die de optie van de Planning van de Chronologie gebruikt, zie de sectie "sparen veranderingen in een taaklijst manueel wanneer u de optie van de Planning van de Chronologie"in artikel <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref"> selecteert uitgeven taken in een lijst </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> Verouderde Gantt Grafiek voor een Lijst van het Project </strong> </p> <p>De grafiek van Gantt van de Oudheid op de projectlijst verstrekte gebruikers de capaciteit om projecten en hun taken in één mening te zien. Zonder de context van de projectlijst te verlaten, konden de gebruikers details over de taken in een project evenals de gebiedsdelen tussen de projecten zien. De Legacy Gantt-grafiek op de projectlijst was gebaseerd op de technologie van de Flash, die veiligheidsrisico's inhield. </p> </td> 
+   <td> <p><strong> Verouderde Gantt Grafiek voor een Lijst van het Project </strong> </p> <p>De grafiek van Gantt van de Oudheid op de projectlijst verstrekte gebruikers de capaciteit om projecten en hun taken in één mening te zien. Zonder de context van de projectlijst te verlaten, konden de gebruikers details over de taken in een project evenals de gebiedsdelen tussen de projecten zien. Het Oudere Gantt-diagram op de projectlijst was gebaseerd op Flash-technologie, die beveiligingsrisico's inhield. </p> </td> 
    <td> <p><strong> Gantt Grafiek, de Lijst van het Project </strong> </p> <p>De op HTML gebaseerde Gantt-grafiek heeft hetzelfde doel als de Legacy Gantt-grafiek. De gebruikers kunnen projecten en hun taken in één mening bekijken om gebiedsdelen tussen projecten evenals taken visueel te identificeren. Het Gantt-diagram van de Lijst van projecten bevindt zich rechtstreeks in de projectlijst. De nieuwe Gantt-grafiek heeft een moderne interface en is gebaseerd op de nieuwste technologie.</p> <p>Voor informatie over de grafiek van Gantt van de projectlijst, zie <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref"> informatie van de Mening in de Grafiek van Gantt </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> het Delen de Kaders van de Dialoog voor Rapporten, Kalenders, en Documenten </strong> </p> <p>Bij het delen van rapporten, kalenders en documenten waren de dialoogvensters die werden gebruikt gebaseerd op de technologie van de Flash.</p> </td> 
+   <td> <p><strong> het Delen de Kaders van de Dialoog voor Rapporten, Kalenders, en Documenten </strong> </p> <p>Bij het delen van rapporten, kalenders en documenten waren de dialoogvensters die werden gebruikt gebaseerd op Flash-technologie.</p> </td> 
    <td> <p>De ervaring met het delen van rapporten, kalenders en documenten in Workfront is niet gewijzigd. De ervaring is echter niet langer afhankelijk van Flash.</p> <p>Voor meer informatie over het delen van deze punten, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref"> Overzicht van het delen van toestemmingen op voorwerpen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong> Verouderde het proef kijker </strong> </p> <p>De verouderde proefdrukviewer was een webgebaseerde proefdrukviewer die proefdrukmogelijkheden bood voor statische proefdrukken, video's en interactieve proefdrukken.</p> </td> 
-   <td> <p><strong> Web Proofing Viewer en Desktop Proofing Viewer </strong> </p> <p>De webtestviewer biedt proefdrukmogelijkheden voor statische proefdrukken en videoproefdrukken.</p> <p>De Desktop Proofing Viewer biedt proefdrukmogelijkheden voor interactieve proefdrukken en biedt naast volledige ondersteuning voor statische proefdrukken en videoproefdrukken.</p> <p>De bestandsindeling SWF wordt niet meer ondersteund door een van de belangrijkste providers en is vervangen door HTML5-banners voor proofing. </p> <p>Voor meer gedetailleerde informatie over de verschillen tussen de beschikbare het proeven kijkers, zie <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref"> Verschillen tussen de Kijker van het Web het Proofing en het Overzicht van de Kijker van het Proofing van de Desktop </a>.</p> </td> 
+   <td> <p><strong> Web Proofing Viewer en Desktop Proofing Viewer </strong> </p> <p>De webtestviewer biedt proefdrukmogelijkheden voor statische proefdrukken en videoproefdrukken.</p> <p>De Desktop Proofing Viewer biedt proefdrukmogelijkheden voor interactieve proefdrukken en biedt naast volledige ondersteuning voor statische proefdrukken en videoproefdrukken.</p> <p>De SWF-bestandsindeling wordt niet meer ondersteund door een van de belangrijkste providers en is vervangen door HTML5-banners voor proofing. </p> <p>Voor meer gedetailleerde informatie over de verschillen tussen de beschikbare het proeven kijkers, zie <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref"> Verschillen tussen de Kijker van het Web het Proofing en het Overzicht van de Kijker van het Proofing van de Desktop </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

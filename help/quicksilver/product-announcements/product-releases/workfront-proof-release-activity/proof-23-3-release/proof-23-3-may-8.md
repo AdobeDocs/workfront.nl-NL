@@ -8,7 +8,9 @@ author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -31,4 +33,4 @@ De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.24! Deze update bevat C
 * Markeringen die zijn verbonden met opmerkingen worden nu correct weergegeven wanneer ze worden geselecteerd.
 * De vervolgkeuzelijsten voor Rol proef en Waarschuwing e-mail werken nu naar behoren.
 
-Voor informatie bij het downloaden van de update, zie [&#x200B; Update de Desktop het Proofing Kijker &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Voor informatie bij het downloaden van de update, zie [ Update de Desktop het Proofing Kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

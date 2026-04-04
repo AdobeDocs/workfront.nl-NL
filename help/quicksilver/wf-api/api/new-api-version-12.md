@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 0%
@@ -22,23 +24,25 @@ Workfront heeft API-versie 12 uitgebracht op 12 november 2020. API-versie 12 bev
 
 De volgende bronnen zijn nieuw in Workfront API versie 12.
 
-* [&#x200B; BreadCrumb &#x200B;](#breadcrumb)
+* [ BreadCrumb ](#breadcrumb)
 * [RichTextParameterValue](#richtextparametervalue)
 
 ### BreadCrumb {#breadcrumb}
 
 Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Adobe Workfront-werkitem. Broodkruimels geven aan hoe een werkitem past in de grotere structuur van portfolio&#39;s, projecten, projecten en taken.
 
-Voor meer informatie over Broodkruimels in Workfront, zie [&#x200B; Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront &#x200B;](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Voor meer informatie over Broodkruimels in Workfront, zie [ Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront ](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
   <tr> 
-   <td>Handeling</td> 
+   <td>Actie</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">getObjectHierarchy</li> 
@@ -51,11 +55,13 @@ Voor meer informatie over Broodkruimels in Workfront, zie [&#x200B; Overzicht va
 
 Rijke tekstvelden zijn nu beschikbaar voor meer objecten. Het RichTextParameterValue-object is toegevoegd aan Workfront ter ondersteuning van deze beschikbaarheid.
 
-Voor meer informatie, zie [&#x200B; Rijke tekstgebieden in Adobe Workfront API &#x200B;](../../wf-api/general/rich-text-field-api.md).
+Voor meer informatie, zie [ Rijke tekstgebieden in Adobe Workfront API ](../../wf-api/general/rich-text-field-api.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -138,24 +144,30 @@ De volgende bronnen zijn gewijzigd voor Workfront API versie 12.
 
 Een voorwerp AccessLevel wordt geassocieerd met gebruikers, en beschrijft de reeks van AccessLevelPermissions die bepalen wat de gebruiker tot toegang heeft.
 
-Voor meer informatie over toegangsniveaus, zie [&#x200B; hoe de toegangsniveaus &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
+Voor meer informatie over toegangsniveaus, zie [ hoe de toegangsniveaus ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
-  <tr> <!--
+  <tr>
+  <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <!--
+     <li style="font-weight: bold;">
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      --> <!--
+      -->
+      <!--
        <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -191,43 +203,61 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <!--
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    --> <!--
+    -->
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    --> <!--
+    -->
+    <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
       <li> <p>coreAction</p> </li> 
       <li> <p>forbiddenActions</p> </li> 
       <li> <p>secondaryActions</p> </li> 
      </ul>
-    --> </td> 
+    -->
+    </td>
   </tr> 
  </tbody> 
 </table>
@@ -312,7 +342,7 @@ Een object ActivityLog is een volledige lijst met alle activiteiten die in een b
 
 Een object NoticeAttachment vertegenwoordigt een bestand dat aan een Workfront-aankondiging is gekoppeld.
 
-Voor meer over aankondigingsgehechtheid, zie [&#x200B; aankondigingen &#x200B;](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden
+Voor meer over aankondigingsgehechtheid, zie [ aankondigingen ](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -372,7 +402,7 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
 
 Een agendapunt is een kalenderrapport.
 
-Voor meer informatie over kalenderrapporten, zie [&#x200B; overzicht van de rapporten van de Kalender &#x200B;](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Voor meer informatie over kalenderrapporten, zie [ overzicht van de rapporten van de Kalender ](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -395,7 +425,7 @@ Voor meer informatie over kalenderrapporten, zie [&#x200B; overzicht van de rapp
 
 Een object Company vertegenwoordigt een organisatie die bestaat uit een verzameling personen.
 
-Voor meer informatie over bedrijven, zie [&#x200B; bedrijven &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor meer informatie over bedrijven, zie [ bedrijven ](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -427,7 +457,7 @@ Een object van de Klant vertegenwoordigt een organisatie die een instantie van W
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> 
     <ul> 
      <li> <p style="font-weight: normal;"><strong> productEnabled </strong> </p> <p style="font-weight: normal;">Deze actie neemt een argument CustomerProductTypeEnum en keert een booleaanse die erop wijst of die klant een rekening voor dat product heeft. </p> </li> 
@@ -467,7 +497,7 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>createLinkedProofVersion</p> <p style="font-weight: normal;">Toegevoegd</p> </li> 
@@ -480,7 +510,7 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Voor meer informatie over documentversies, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -500,7 +530,7 @@ Voor meer informatie over documentversies, zie [&#x200B; een nieuwe versie van e
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> <p>De volgende handelingen zijn toegevoegd aan het object Document.</p> 
     <ul> 
      <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">Deze actie neemt het documentVersonID-argument (tekenreeks) en retourneert een kaart die de beslissing van de controleur aangeeft.</p> </li> 
@@ -538,7 +568,7 @@ Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenw
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Handelingen</td> 
+   <td>Acties</td> 
    <td> 
     <ul> 
      <li> <p><strong> assignMultiple </strong> </p> <p>Deze handeling voert de volgende argumenten uit:</p> 
@@ -562,7 +592,7 @@ Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenw
 
 Een object LinkedFolder vertegenwoordigt een map die is gekoppeld vanuit een externe documentprovider, zoals Google Drive of Dropbox.
 
-Voor meer informatie over Gekoppelde Omslagen, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie over Gekoppelde Omslagen, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -602,7 +632,7 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Handelingen</td> 
+   <td role="rowheader">Acties</td> 
    <td> <p>Deze acties voegden de argumentstatus toe om de nieuwe de knoopfunctionaliteit van het Begin te steunen, die de status van een het werkpunt verandert wanneer een gebruiker de knoop klikt om erop te wijzen dat zij met het werk aan het punt zijn begonnen.</p> <p>Voor meer informatie, zie <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref"> het Werk op het knoop met een knoop van het Begin vervangen </a>.</p> 
     <ul> 
      <li> <p><strong> acceptWork </strong> </p> </li> 
@@ -618,7 +648,7 @@ Een object Parameter is een aangepast veld.
 
 Het middel van de Parameter voegde de vlag SHARABLE toe.
 
-Voor meer informatie over douanevelden, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [&#x200B; creëren of uitgeven of een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) uitgeven.
+Voor meer informatie over douanevelden, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [ creëren of uitgeven of een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -660,7 +690,7 @@ Voor meer informatie over douanevelden, zie [&#x200B; een douanevorm &#x200B;](/
 
 Een Portfolio-object is een verzameling projecten die concurreren om dezelfde bronnen, meestal geld of mensen om ze te voltooien.
 
-Voor meer informatie over portefeuilles, zie [&#x200B; overzicht van Portfolio in Adobe Workfront &#x200B;](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Voor meer informatie over portefeuilles, zie [ overzicht van Portfolio in Adobe Workfront ](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -712,7 +742,7 @@ Een programmaobject is een subset van projecten binnen een portfolio, waarin ver
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het gebied van de Helpdesk is gepubliceerd om gebruikers toe te staan om Kwesties aan het voor te leggen.
 
-Voor meer informatie over de Rijen van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -764,7 +794,7 @@ Een voorwerp ScheduledReport vertegenwoordigt een rapport dat is gevormd om voor
 
 Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
-Voor meer informatie over Scorecard Vragen, zie [&#x200B; een scorecard &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
+Voor meer informatie over Scorecard Vragen, zie [ een scorecard ](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -801,7 +831,7 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Handelingen</td> 
+   <td role="rowheader">Acties</td> 
    <td> <p>Deze acties voegden de argumentstatus toe om de nieuwe de knoopfunctionaliteit van het Begin te steunen, die de status van een het werkpunt verandert wanneer een gebruiker de knoop klikt om erop te wijzen dat zij met het werk aan het punt zijn begonnen.</p> <p>Voor meer informatie, zie <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref"> het Werk op het knoop met een knoop van het Begin vervangen </a>.</p> 
     <ul> 
      <li> <p><strong> acceptWork </strong> </p> </li> 
@@ -823,9 +853,11 @@ Een voorwerp van het Team is een inzameling van Gebruikers die aan een het werkp
    <td role="rowheader">Directe velden</td> 
    <td> <p>De volgende gebieden werden toegevoegd aan het middel van het Team:</p> 
     <ul> 
-     <li> <p><strong> completeDaysOnKanbanBoard </strong> </p> <p>Dit veld geeft het aantal dagen weer dat een voltooide kaart op de Kanban-kaart achterblijft.</p> <!--
+     <li> <p><strong> completeDaysOnKanbanBoard </strong> </p> <p>Dit veld geeft het aantal dagen weer dat een voltooide kaart op de Kanban-kaart achterblijft.</p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      --> </li> 
+      -->
+      </li>
      <li> <p><strong> groupID </strong> </p> <p>Dit gebied associeert een team met een groep. Dit identificeert het team als deel van de groep en staat de Beheerder van de Groep toe om de teams te beheren.</p> </li> 
      <li> <p><strong> workOnItStatusChange </strong> </p> <p>Dit is een booleaanse parameter die erop wijst of het Werk van het team aan het knoop is gevormd als knoop van het Begin. Wanneer een lid van het team een knoop van het Begin klikt om met het werk aan een het werkpunt te beginnen, verandert de status van het punt van Nieuw in een status die in de teammontages wordt gevormd.</p> </li> 
      <li> <p>In de volgende velden kunt u aangepaste statussen voor de knop Start opgeven voor de afzonderlijke werkitems.</p> 
@@ -851,7 +883,7 @@ Een voorwerp van het Team is een inzameling van Gebruikers die aan een het werkp
 
 Een voorwerp TemplateTask vertegenwoordigt een Taak die deel van een Malplaatje uitmaakt. De Taken van het malplaatje worden Taken in het Project waar het Malplaatje wordt gebruikt.
 
-Voor meer informatie over de Taken van het Malplaatje, zie [&#x200B; malplaatjetaken &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven.
+Voor meer informatie over de Taken van het Malplaatje, zie [ malplaatjetaken ](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -876,7 +908,7 @@ Voor meer informatie over de Taken van het Malplaatje, zie [&#x200B; malplaatjet
 
 Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaat om werkelijk gewerkte uren voor Taken, Projecten, en de Types van uren van overheaduren in te gaan.
 
-Voor meer informatie over Tijdopnemers, zie [&#x200B; Overzicht van Tijdopnemers &#x200B;](../../timesheets/timesheets/timesheets-overview.md)
+Voor meer informatie over Tijdopnemers, zie [ Overzicht van Tijdopnemers ](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -934,7 +966,7 @@ Een object User vertegenwoordigt een persoon met een account in Workfront die zi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Handelingen</td> 
+   <td role="rowheader">Acties</td> 
    <td> <p>De volgende actie werd toegevoegd aan het middel van de Gebruiker:</p> 
     <ul> 
      <li> <p><strong> getUserAccessPermissionsByObjCode </strong> </p> <p>Deze handeling voert de volgende argumenten uit</p> 

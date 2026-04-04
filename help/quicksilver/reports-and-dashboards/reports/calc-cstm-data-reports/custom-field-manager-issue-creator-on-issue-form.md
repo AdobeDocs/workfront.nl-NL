@@ -2,23 +2,26 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Voorbeeld van berekende aangepaste velden: geef de manager van de maker van een uitgave weer voor het aangepaste formulier voor de uitgave'
-description: Met behulp van een berekend aangepast veld kunt u de naam van de manager van de maker van een uitgave weergeven op een aangepast formulier dat is gekoppeld aan de uitgave. Met dezelfde instructie kunt u vergelijkbare berekende velden voor projecten, uitgaven en andere objecten maken.
+title: 'Voorbeeld van berekend aangepast veld: geef de manager van de maker van een uitgave weer op het aangepaste formulier voor uitgave'
+description: Met behulp van een berekend aangepast veld kunt u de naam van de beheerder van de maker van een uitgave weergeven op een aangepast formulier dat aan de uitgave is gekoppeld. Met dezelfde instructie kunt u vergelijkbare berekende velden maken voor projecten, problemen en andere objecten.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Voorbeeld van berekende aangepaste velden: geef de manager van de maker van een uitgave weer voor het aangepaste formulier voor de uitgave
+# Voorbeeld van berekend aangepast veld: geef de manager van de maker van een uitgave weer op het aangepaste formulier voor uitgave
 
-Met behulp van een berekend aangepast veld kunt u de naam van de manager van de maker van een uitgave weergeven op een aangepast formulier dat is gekoppeld aan de uitgave. Met dezelfde instructie kunt u vergelijkbare berekende velden maken voor projecten, problemen en andere objecten.
+Met behulp van een berekend aangepast veld kunt u de naam van de beheerder van de maker van een uitgave weergeven op een aangepast formulier dat aan de uitgave is gekoppeld. Met dezelfde instructie kunt u vergelijkbare berekende velden maken voor projecten, problemen en andere objecten.
 
-<!--outdated link: 
+<!--
+outdated link: 
 >[!TIP]
 >
 >For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
@@ -26,7 +29,7 @@ Met behulp van een berekend aangepast veld kunt u de naam van de manager van de 
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,15 +56,15 @@ Met behulp van een berekend aangepast veld kunt u de naam van de manager van de 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## De manager van de maker van een uitgave weergeven op het aangepaste formulier voor de uitgave
+## De manager van de maker van een uitgave weergeven op het aangepaste formulier voor uitgave
 
-In de volgende stappen wordt aangegeven hoe u een berekend veld kunt maken voor een formulier dat is aangepast aan de uitgave, waarin u de naam kunt vastleggen van de manager van de gebruiker die de uitgave heeft gemaakt. Het proces is identiek wanneer u de naam wilt vastleggen van de manager van een gebruiker die bijvoorbeeld een taak, project of portfolio heeft gemaakt.
+In de volgende stappen wordt aangegeven hoe u een berekend veld kunt maken voor een aangepaste uitgave waarin u de naam kunt vastleggen van de manager van de gebruiker die de uitgave heeft gemaakt. Het proces is identiek wanneer u de naam van de manager van een gebruiker wilt vangen die een taak, een project, een portefeuille creeerde, bijvoorbeeld.
 
-1. Maak een formulier dat is aangepast aan de uitgave en voeg er een berekend veld aan toe.
+1. Maak een aangepast formulier voor uitgave en voeg er een berekend veld aan toe.
 
    Zie de volgende artikelen voor informatie over het maken van een aangepast formulier en het toevoegen van berekende velden aan dit formulier:
 
@@ -80,4 +83,4 @@ In de volgende stappen wordt aangegeven hoe u een berekend veld kunt maken voor 
 
 1. Klik **Gedaan**, dan **sparen + Sluiten**.
 
-   De manager van de gebruiker die de uitgave heeft gemaakt, wordt in het berekende veld weergegeven wanneer het formulier dat het veld bevat, aan een uitgave is gekoppeld.
+   De manager van de gebruiker die de kwestie creeerde toont op het berekende gebied wanneer de vorm die het gebied bevat aan een kwestie in bijlage is.

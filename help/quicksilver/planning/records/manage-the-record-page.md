@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -28,7 +30,7 @@ De recordvoorvertoning is een kleinere weergave van de recordpagina die wordt we
 
 Wanneer u de indeling van een recordvoorvertoning en pagina wijzigt, hebben de wijzigingen invloed op de voorbeeldvakken en op de detailpagina&#39;s van alle records van hetzelfde type.
 
-In dit artikel wordt beschreven hoe u de lay-out en weergave van een recordvoorvertoningsvak of een recordpagina kunt wijzigen. Voor informatie over het uitgeven van verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+In dit artikel wordt beschreven hoe u de lay-out en weergave van een recordvoorvertoningsvak of een recordpagina kunt wijzigen. Voor informatie over het uitgeven van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 U moet recordtypen en records maken voordat u kunt beginnen met het bewerken van recordpagina&#39;s.
 
@@ -73,12 +75,13 @@ Raadpleeg de volgende artikelen voor meer informatie:
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -139,7 +142,8 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 ## Overwegingen bij het werken met recordpagina&#39;s
 
@@ -157,13 +161,13 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 * Wijzigingen die u in de voorvertoning van de record aanbrengt, zijn direct zichtbaar op de pagina met recorddetails. Wijzigingen die u aanbrengt in de recordpagina, worden ook weergegeven in het voorvertoningsvak van de record.
 
-* Het toevoegen van een omslagafbeelding of een miniatuur aan een record maakt geen deel uit van de algemene lay-out van de voorvertoning of pagina van de record. U kunt unieke omslagafbeeldingen of miniaturen aan elke record toevoegen. Voor informatie, zie [&#x200B; een omslagbeeld aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen en [&#x200B; voeg een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toe.
+* Het toevoegen van een omslagafbeelding of een miniatuur aan een record maakt geen deel uit van de algemene lay-out van de voorvertoning of pagina van de record. U kunt unieke omslagafbeeldingen of miniaturen aan elke record toevoegen. Voor informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen en [ voeg een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toe.
 
 * U kunt extra pagina&#39;s van de volgende typen toevoegen aan de pagina van een record:
 
    * Verbonden recordpagina
 
-     Voor informatie, zie de sectie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](#add-a-connected-records-page-to-a-record) toevoegen.
+     Voor informatie, zie de sectie [ een Verbonden verslagenpagina aan een verslag ](#add-a-connected-records-page-to-a-record) toevoegen.
 
 ## Secties toevoegen aan een recordvoorvertoning of pagina
 
@@ -171,7 +175,7 @@ Houd rekening met het volgende wanneer u secties toevoegt aan een recordpagina:
 
 * Er geldt geen limiet voor het aantal secties dat u op een pagina kunt plaatsen.
 * U kunt geen lege sectie hebben. Een sectie moet ten minste één veld bevatten.
-* U kunt velden van de ene sectie naar de andere slepen. Voor meer informatie, zie de sectie [&#x200B; gebieden in de verslagvoorproef of detailspagina &#x200B;](#manage-fields-in-the-records-details-tab) in dit artikel leiden.
+* U kunt velden van de ene sectie naar de andere slepen. Voor meer informatie, zie de sectie [ gebieden in de verslagvoorproef of detailspagina ](#manage-fields-in-the-records-details-tab) in dit artikel leiden.
 * Wanneer u alle velden uit een sectie verwijdert, wordt de sectie automatisch verwijderd en kan deze niet worden hersteld.
 
 Een sectie toevoegen aan een recordvoorvertoning of pagina:
@@ -190,25 +194,25 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
    of
 
-   Van de lijstmening, klik het **Open pictogram van details** pictogram ![&#x200B; Open detailspictogram op het gebied van de lijstnaam &#x200B;](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
+   Van de lijstmening, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    <span class="preview"> de voorproef van het verslag opent in de mening.</span>
 
-   ![&#x200B; doos van Details &#x200B;](assets/details-box.png)
+   ![ doos van Details ](assets/details-box.png)
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    De recordpagina wordt geopend. Het tabblad Details wordt standaard geopend.
 
-   ![&#x200B; pagina van Details &#x200B;](assets/details-page.png)
+   ![ pagina van Details ](assets/details-page.png)
 
-1. In het **lusje van Details** van de verslagvoorproef of de pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![&#x200B; toevoegen van sectie &#x200B;](assets/add-section-icon.png) om een sectie toe te voegen.
+1. In het **lusje van Details** van de verslagvoorproef of de pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![ toevoegen van sectie ](assets/add-section-icon.png) om een sectie toe te voegen.
 1. Klik binnen de naam van de sectie en vervang **Naamloze sectie** met een naam, dan klik binnengaan. De velden die onder de sectie worden weergegeven, maken automatisch deel uit van de nieuwe sectie.
-1. Begin en dalend gebieden aan de nieuwe sectie te slepen, zoals die in de sectie [&#x200B; wordt beschreven leidt gebieden in de verslagvoorproef of detailspagina &#x200B;](#manage-fields-in-the-records-details-tab) in dit artikel.
+1. Begin en dalend gebieden aan de nieuwe sectie te slepen, zoals die in de sectie [ wordt beschreven leidt gebieden in de verslagvoorproef of detailspagina ](#manage-fields-in-the-records-details-tab) in dit artikel.
 
-1. (Facultatief) Beweeg over de naam van een sectie en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png).
+1. (Facultatief) Beweeg over de naam van een sectie en klik **Meer** menu ![ Meer menu ](assets/more-menu.png).
 
-   ![&#x200B; Meer menuopties voor sectie op verslagpagina &#x200B;](assets/more-menu-options-for-section-on-record-page.png)
+   ![ Meer menuopties voor sectie op verslagpagina ](assets/more-menu-options-for-section-on-record-page.png)
 1. (Optioneel) Voer een van de volgende handelingen uit om de sectie te bewerken:
 
    * Klik **anders noemen** om de sectie anders te noemen
@@ -229,23 +233,23 @@ Alle velden in de sectie worden met de sectie verplaatst.
 1. Klik op de pijl omlaag links van een sectienaam om deze samen te vouwen of op de pijl naar rechts om deze uit te vouwen.
 Alle secties worden standaard uitgevouwen.
 
-1. (Facultatief) klik het **greep** pictogram ![&#x200B; pictogram van het Grab &#x200B;](assets/grab-icon.png) aan de linkerzijde van een sectienaam, dan belemmering en laat vallen het in een gewenste plaats.
+1. (Facultatief) klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een sectienaam, dan belemmering en laat vallen het in een gewenste plaats.
 
    De nieuwe positie van de sectie wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 
    Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
 
-1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; om het lusje van Details naar een Word of een dossier van PDF uit te voeren. &#x200B;](assets/export-icon-in-record-details-page.png) Voor meer informatie, zie [&#x200B; de details van een verslag uitvoeren &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ om het lusje van Details naar een Word of een dossier van PDF uit te voeren. ](assets/export-icon-in-record-details-page.png) Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facultatief) klik het **lusje van Verbindingen** naast **Details** tabel. U zou **Meer** kunnen moeten klikken alvorens de **Verbindingen** tabel te klikken.
 
    Alle records of objecten die zijn verbonden met de geselecteerde record, worden onder de naam van het recordtype weergegeven, of de toepassing waartoe ze behoren.
 
-   ![&#x200B; het lusje van Verbindingen op verslag in de Planning van Workfront &#x200B;](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![ het lusje van Verbindingen op verslag in de Planning van Workfront ](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Facultatief) selecteer **tonen alle verslagen** die in de hoger-juiste hoek van het lusje van Verbindingen plaatsen. Alle verbonden verslagtypes tonen, met inbegrip van degenen die nog geen verbonden verslagen hebben. De schakeloptie is standaard uitgeschakeld en recordtypen zonder verbonden records worden verborgen.
 
-1. (Facultatief) klik **verbinden** om meer verslagen aan de verbonden verslagtypes toe te voegen. Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+1. (Facultatief) klik **verbinden** om meer verslagen aan de verbonden verslagtypes toe te voegen. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 1. (Optioneel) Houd de muisaanwijzer boven een opnamekaart en klik op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken** . <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
 De volgende dingen doen zich voor:
@@ -269,11 +273,11 @@ De volgende dingen doen zich voor:
 
    of
 
-   Van de mening van de lijstlijst, klik het **Open pictogram van details** pictogram ![&#x200B; Open detailspictogram op het gebied van de lijstnaam &#x200B;](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
+   Van de mening van de lijstlijst, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    <span class="preview"> de voorproef van het verslag opent in de mening.</span>
 
-   ![&#x200B; doos van Details &#x200B;](assets/details-box.png)
+   ![ doos van Details ](assets/details-box.png)
 
 1. <span class="preview"> (Optioneel en voorwaardelijk) Afhankelijk van de velden die u wilt weergeven op de pagina Details voert u een van de volgende handelingen uit: </span>
 
@@ -302,13 +306,13 @@ De volgende dingen doen zich voor:
    >
    >U moet verbonden recordtypes, verslagen, en hiërarchieën in uw werkruimte hebben om broodkruimels in de de detailspagina van het verslag te kunnen zien.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open detailsdoos in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open detailsdoos in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    De verslag **Details** pagina opent in een nieuw lusje.
 
-   ![&#x200B; pagina van Details &#x200B;](assets/details-page.png)
+   ![ pagina van Details ](assets/details-page.png)
 
-1. In het verslag **Details** lusje, klik het **greep** pictogram ![&#x200B; pictogram van het Grab &#x200B;](assets/grab-icon.png) aan de linkerzijde van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats.
+1. In het verslag **Details** lusje, klik het **greep** pictogram ![ pictogram van het Grab ](assets/grab-icon.png) aan de linkerzijde van een gebiedsnaam, dan belemmering en laat vallen het op een gewenste plaats.
 
    >[!TIP]
    >
@@ -324,9 +328,10 @@ De volgende dingen doen zich voor:
 
 U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een Verbonden verslagenpagina aan het de detailsgebied van een verslag toe te voegen. Hiermee voegt u de verbonden records in een tabel- of lijstweergave toe aan het tabblad.
 
-Voor meer informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor meer informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
-<!--this content has been moved to the page linked above
+<!--
+this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
@@ -440,7 +445,8 @@ To add a Connected records page:
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+-->
 
 
 <!--
@@ -450,13 +456,11 @@ To add a Connected records page:
 
 You can add a Brief page to the record's preview or pages. 
 
-Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+Brief pages contain the same information as the Details tab, in a read-only format. edit this when we can remove fields from this page
+-->
 
 <!--
 1. From a record's page view, click the name of a record to open its preview or page.
 1. Click **Add page** > **Brief**. 
 1. Add the **Page name**, then click **Create**. 
 -->
-
-
-

@@ -6,7 +6,9 @@ description: Plan een automatische levering van rapporten
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 U kunt rapporten plannen om automatisch aan gebruikers op een bepaald programma te leveren, of u kunt rapporten manueel één keer verzenden. Wanneer u een rapport van Adobe Workfront verzendt, ontvangt de gebruiker een e-mail met het Workfront-rapport in een aparte bijlage.
 
-Voor meer informatie, met inbegrip van groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Voor meer informatie, met inbegrip van groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Toegangsvereisten
 
@@ -57,13 +59,13 @@ Voor meer informatie, met inbegrip van groottebeperkingen die de levering van uw
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u begint, moet u een rapport maken. Meer leren over het creëren van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voordat u begint, moet u een rapport maken. Meer leren over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Een rapportlevering plannen
 
@@ -126,7 +128,7 @@ Een rapport plannen voor automatische levering: &#x200B;
       <td> <p>Deze optie is beschikbaar slechts wanneer <strong> MS Excel </strong> in het <strong> Formaat </strong> drop-down menu wordt geselecteerd. Als deze optie is ingeschakeld, worden alle hyperlinks opgenomen in het geëxporteerde Excel-document.</p> <p>Documenten die meer dan 65.530 koppelingen bevatten, kunnen niet worden geopend. Schakel deze optie uit als het geëxporteerde document meer dan 65.530 koppelingen bevat.</p> <p>Deze optie is standaard ingeschakeld.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Samenvatting</p> </td> 
+      <td role="rowheader"> <p>Overzicht</p> </td> 
       <td> <p>Toont een samenvatting van wanneer de levering zich herhaalt.</p> </td> 
      </tr> 
      <tr> 
@@ -166,13 +168,13 @@ Een rapport plannen voor automatische levering: &#x200B;
 
 1. Klik **sparen** om de rapportlevering te bewaren. De rapportvertoningen in de **Herhalende Leveringen** sectie van **verzenden het de dialoogvakje van het Rapport** en zullen op de geplande tijd verzenden.
 
-   Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [&#x200B; &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [&#x200B; de grenzen van de Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+   Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [ ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [ de grenzen van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 >[!IMPORTANT]
 >
 >Geplande rapporten zijn onderworpen aan een interne tijdslimiet wanneer zij voor levering worden verwerkt. Als een rapport langer duurt dan de te verzenden limiet, ontvangt u een melding en wordt het rapport niet meer bezorgd, ongeacht de resterende geplande leveringen. Om het rapport verder te verzenden, probeer eerst de grootte van het rapport door filters en meningen te verminderen, dan creeer een nieuwe geplande levering.
 >
->Als u een gepland rapport gebruikt om Workfront-gegevens te analyseren met een BI-programma, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [&#x200B; de Gegevens van Workfront verbinden overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+>Als u een gepland rapport gebruikt om Workfront-gegevens te analyseren met een BI-programma, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 ## Een geplande rapportlevering verwijderen
 
@@ -190,7 +192,8 @@ Om een geplande rapportlevering te schrappen: &#x200B;
 
 1. Klik **Schrapping** om te bevestigen.
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

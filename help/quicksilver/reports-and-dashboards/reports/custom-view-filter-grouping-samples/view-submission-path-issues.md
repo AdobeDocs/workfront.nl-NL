@@ -7,7 +7,9 @@ description: U kunt het pad waarlangs een kwestie in de mening van een uitgiften
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 U kunt het pad waarlangs een kwestie in de mening van een uitgiftenrapport is voorgelegd tonen. De weg wijst op de Rij, de Groep van het Onderwerp, en het Onderwerp van de Rij waar de kwestie oorspronkelijk werd voorgelegd.
 
-![&#x200B; issue_submission_path.png &#x200B;](assets/issue-submission-path-350x66.png)
+![ issue_submission_path.png ](assets/issue-submission-path-350x66.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ U kunt het pad waarlangs een kwestie in de mening van een uitgiftenrapport is vo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

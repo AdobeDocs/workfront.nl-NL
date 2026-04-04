@@ -6,7 +6,9 @@ description: U kunt snel een ad-hockaart toevoegen aan een board en deze toewijz
 author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -19,7 +21,7 @@ U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewi
 
 >[!NOTE]
 >
->De ad-hockaarten op een board zijn niet verbonden met de tijdelijke items in [!DNL Adobe Workfront] . Voor details over verbonden kaarten, zie [&#x200B; Gebruik verbonden kaarten op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>De ad-hockaarten op een board zijn niet verbonden met de tijdelijke items in [!DNL Adobe Workfront] . Voor details over verbonden kaarten, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Toegangsvereisten
 
@@ -43,7 +45,7 @@ U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewi
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,7 +55,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk item in [!DNL Adobe Workfron
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik op **[!UICONTROL Add card]>[!UICONTROL New card]** .
 
    Het vak [!UICONTROL Card Details] wordt weergegeven.
@@ -117,7 +119,7 @@ Een ad-hockaart is niet verbonden met een tijdelijk item in [!DNL Adobe Workfron
     </tbody> 
    </table>
 
-   ![&#x200B; Ad hoc kaartdetails &#x200B;](assets/ad-hoc-card-details-with-comments.png)
+   ![ Ad hoc kaartdetails ](assets/ad-hoc-card-details-with-comments.png)
 
    Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.
 
@@ -130,14 +132,14 @@ Een ad-hockaart is niet verbonden met een tijdelijk item in [!DNL Adobe Workfron
 U kunt ad-hockaarten met alleen een titel toevoegen om uw board snel te vullen.
 
 1. Open het bord waaraan u kaarten wilt toevoegen.
-1. Klik het **[!UICONTROL Add]** pictogram ![&#x200B; kaart &#x200B;](assets/addicon-spectrum.png) op de kolom toevoegen waar u de kaart wilt toevoegen.
+1. Klik het **[!UICONTROL Add]** pictogram ![ kaart ](assets/addicon-spectrum.png) op de kolom toevoegen waar u de kaart wilt toevoegen.
 1. Typ de kaartnaam en druk op Enter.
 
    Er wordt automatisch een andere kaart toegevoegd onder de nieuwe kaart.
 
 1. Ga door met het invoeren van kaartnamen om meer kaarten toe te voegen.
 1. Als u geen kaarten meer wilt toevoegen, klikt u buiten de kolom.
-1. Als u meer details wilt toevoegen, moet u de kaart bewerken. Voor informatie, zie [&#x200B; een bestaande kaart &#x200B;](#edit-an-existing-card) in dit artikel uitgeven.
+1. Als u meer details wilt toevoegen, moet u de kaart bewerken. Voor informatie, zie [ een bestaande kaart ](#edit-an-existing-card) in dit artikel uitgeven.
 
 ## Een bestaande kaart bewerken {#edit-an-existing-card}
 
@@ -151,4 +153,4 @@ U kunt ad-hockaarten met alleen een titel toevoegen om uw board snel te vullen.
 
 1. Werk in het vak [!UICONTROL Card Details] de benodigde gegevens bij en klik op **[!UICONTROL Close]** om terug te keren naar het Klembord.
 
-   Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, wordt bij het wijzigen van de status op de kaart de kaart automatisch naar de corresponderende kolom verplaatst. Voor meer informatie, zie &quot;kolommontages en beleid&quot;in het artikel [&#x200B; leiden boardkolommen &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, wordt bij het wijzigen van de status op de kaart de kaart automatisch naar de corresponderende kolom verplaatst. Voor meer informatie, zie &quot;kolommontages en beleid&quot;in het artikel [ leiden boardkolommen ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

@@ -6,7 +6,9 @@ description: Als u niet beschikt over de juiste toegang of machtigingen, kunt u 
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -21,7 +23,8 @@ Als u niet beschikt over de juiste toegang of machtigingen, kunt u uw werktoewij
 
 U moet toegang hebben om de gebruikers te bekijken waarvan werkbelasting u in de Balancer van de Werkbelasting wilt bekijken of beheren. Bovendien moet u het correcte toegangsniveau en de correcte toestemmingen op de projecten hebben het werk met wordt geassocieerd.
 
-<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
+<!--
+## Adobe Workfront package needed to use the Workload Balancer for different areas
 
 The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
@@ -52,9 +55,10 @@ The following table illustrates the connection between the Workfront plan your c
  </tbody> 
 </table>
 
-For information about the Workfront plans, see [Our Plans](https://business.adobe.com/nl/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+-->
 
 ## Toegang nodig om werklastbalans weer te geven
 
@@ -84,7 +88,7 @@ U moet de volgende toegang hebben om de werklastbalans te kunnen bekijken:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <span class="preview"> alle gebruikers hebben toegang om de Balancer van de Werkbelasting op hun eigen profielen te bekijken. Dit wordt niet beperkt door vergunning of toegangsniveau. Merk op dat de Balancer van de Werkbelasting op een gebruikersprofiel read-only is, en de taken en de toewijzingen kunnen niet worden veranderd.</span>
 
@@ -118,9 +122,10 @@ U moet de volgende toegang hebben om de werklastverdeling te beheren:
  </tbody>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--these notes were inside the table: for the Edit access to Res Management
+<!--
+these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
     -->

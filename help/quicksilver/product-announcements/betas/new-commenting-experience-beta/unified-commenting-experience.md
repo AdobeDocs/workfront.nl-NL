@@ -9,7 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -61,7 +63,8 @@ De volgende functies zijn verwijderd uit de nieuwe ervaring:
 * De instelling &#39;Percentage voltooide updates tonen bij bewerking&#39; in het profielvak van een gebruiker wordt verwijderd. De functionaliteit van het bijwerken van het percentage voltooide taken of uitgaven is verwijderd.
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -405,14 +408,14 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 
 >[!IMPORTANT]
 >
->Voor informatie over de eigenschappen die aan de nieuwe het becommentariëren ervaring tijdens het bètatijdkader worden vrijgegeven, zie [&#x200B; Nieuwe het becommentariëren activiteit van de bètaervaring versie &#x200B;](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Voor informatie over de eigenschappen die aan de nieuwe het becommentariëren ervaring tijdens het bètatijdkader worden vrijgegeven, zie [ Nieuwe het becommentariëren activiteit van de bètaervaring versie ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Voor meer informatie over het beheren van updates voor de voorwerpen van Workfront, zie [&#x200B; het werk van de Update &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Voor meer informatie over het beheren van updates voor de voorwerpen van Workfront, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 In de volgende informatie wordt de tijdlijn beschreven met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen.
 
-Raadpleeg de overzichtspagina van de huidige release voor informatie over de functies die na het sluiten van de bètaperiode worden vrijgegeven voor de nieuwe opmerkingervaring. Voor meer informatie, zie {de versies van het 0} Product [&#128279;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Raadpleeg de overzichtspagina van de huidige release voor informatie over de functies die na het sluiten van de bètaperiode worden vrijgegeven voor de nieuwe opmerkingervaring. Voor meer informatie, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 Hieronder volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring:
 
@@ -452,7 +455,7 @@ De nieuwe ervaring met opmerkingen is beschikbaar op de volgende gebieden van Wo
 
 * In de sectie Updates van alle objecten.
 
-  Voor informatie over de toegang tot van de sectie van Updates van de voorwerpen van Workfront, zie [&#x200B; het sectieoverzicht van Updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Voor informatie over de toegang tot van de sectie van Updates van de voorwerpen van Workfront, zie [ het sectieoverzicht van Updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 * In het paneel Overzicht van taken, kwesties, en documenten op alle gebieden waar dit beschikbaar is (lijsten, timesheets, de Balancer van de Werkbelasting, en Huis).
 * In het gebied van het Huis voor taken en kwesties.
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

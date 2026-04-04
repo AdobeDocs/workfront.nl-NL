@@ -6,7 +6,9 @@ description: U kunt informatie voor individuele doelstellingen bijwerken door to
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -72,11 +74,12 @@ U kunt informatie voor individuele doelstellingen bijwerken door tot het paneel 
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +130,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Doelen bijwerken in de sectie met de details van het doel
 
@@ -155,7 +159,8 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >
    >You can also click the name of a goal in the Goal Alignment, Check-in, or Pulse sections. 
    >
-   ><!-- drafted for goal redesign:
+   ><!--
+   > drafted for goal redesign:
    >Add this to the TIP above with goal redesign: 
    >
    >The Check-in and Pulse sections have been removed from the Preview environment.
@@ -222,9 +227,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    Dit opent de **sectie van de Details van het Doel** op de linkerzijde.
 
-   ![&#x200B; Goal pagina &#x200B;](assets/goal-page-unshimmed.png)
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
 
-1. Klik het **uitgeven pictogram** ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **allen** of **Overzicht** uitgeven
+1. Klik het **uitgeven pictogram** ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **allen** of **Overzicht** uitgeven
 
    of
 
@@ -240,8 +245,8 @@ Updating goals in the Goal Details panel differs depending on where you access t
    * **Voortgang**: Wijst op welk percentage van het doel tot dusver wordt voltooid. U kunt de voortgang van een doel niet handmatig bijwerken. De voortgang van het doel is een berekening van alle voortgangsindicatoren.
    * **Voorwaarde**: Wijst erop of het doel nieuw is en het nog niet bijgewerkt is, of het op doel is om op tijd te voltooien, of achter achterblijft. U kunt de voorwaarde van een doel niet bijwerken. De voorwaarde van het doel wordt automatisch berekend door Worfront.\
      Voor meer informatie over doelvoorwaarde en vooruitgang, zie
-     [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../goal-management/calculate-goal-progress.md).
-   * **Status**: U kunt niet de status van een doel manueel bijwerken. Voor meer informatie, zie [&#x200B; de statusoverzicht van het Doel in de Doelen van Adobe Workfront &#x200B;](../goal-management/goal-status-overview.md).
+     [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../goal-management/calculate-goal-progress.md).
+   * **Status**: U kunt niet de status van een doel manueel bijwerken. Voor meer informatie, zie [ de statusoverzicht van het Doel in de Doelen van Adobe Workfront ](../goal-management/goal-status-overview.md).
    * **eigenaar van het Doel**: Klik om de naam van de eigenaar van het doel bij te werken. Typ de naam van een gebruiker, team, groep of de naam van uw organisatie en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven. U kunt slechts één eigenaar voor een doel hebben.
    * **Bovenliggend doel**: Begin typend de naam van een doel dat u als ouder van het doel zou willen plaatsen u selecteerde. De voortgang van het geselecteerde doel wordt automatisch aangepast aan de voortgang van het bovenliggende doel.
 
@@ -256,7 +261,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    * **Periode**: Klik om de tijdspanne voor het doel bij te werken\
      of\
-     Selecteer **douanedata** toelaten om data voor het 2&rbrace; Begin van het doel **en** Eind data **te specificeren.**
+     Selecteer **douanedata** toelaten om data voor het 2} Begin van het doel **en** Eind data **te specificeren.**
    * **Sluiten nota&#39;s**: Dit gebied is zichtbaar slechts voor doelstellingen met een status van Gesloten. Gesloten doelen kunnen niet worden bewerkt. Als u een gesloten doel opnieuw opent, worden de afsluitende notities permanent verwijderd.
 
 

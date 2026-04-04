@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -16,9 +18,11 @@ ht-degree: 0%
 
 # Overzicht van primair veld
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -30,9 +34,9 @@ Standaard is het veld Naam het primaire veld. U kunt echter elk veld van de volg
 * Getal
 * Formule
 
-![&#x200B; Een ander tekstgebied als primair benadrukt gebied &#x200B;](assets/another-text-field-as-a-primary-field-highlighted.png)
+![ Een ander tekstgebied als primair benadrukt gebied ](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-Voor informatie over hoe te om een gebied als primair gebied aan te wijzen, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor informatie over hoe te om een gebied als primair gebied aan te wijzen, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Overzicht van primaire velden
 

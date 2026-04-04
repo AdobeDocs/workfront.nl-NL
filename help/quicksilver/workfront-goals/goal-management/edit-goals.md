@@ -6,7 +6,9 @@ description: U kunt bestaande doelen op elk gewenst moment en in elke gewenste s
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -68,11 +70,12 @@ U kunt bestaande doelen op elk gewenst moment en in elke gewenste status bewerke
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -124,7 +127,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Overwegingen bij het bewerken van doelen
 
@@ -199,12 +203,12 @@ Er wordt een lijst met doelen weergegeven.
 1. Klik op een doel.\
    De doelpagina wordt weergegeven.
 
-   ![&#x200B; Goal pagina &#x200B;](assets/goal-page-unshimmed.png)
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
 
 1. Voer een van de volgende handelingen uit om informatie voor het doel te bewerken:
    * Klik op velden die in de doelkoptekst worden weergegeven om deze bij te werken. Niet alle velden in de koptekst kunnen worden bewerkt.
-   * Klik het **Meer pictogram** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan klik **uitgeven**.
-   * Klik **Goele details** in het linkerpaneel en klik **uitgeven pictogram** ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **allen** uitgeven. Start met het bijwerken van velden in de sectie Goal details.
+   * Klik het **Meer pictogram** ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **uitgeven**.
+   * Klik **Goele details** in het linkerpaneel en klik **uitgeven pictogram** ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **allen** uitgeven. Start met het bijwerken van velden in de sectie Goal details.
 
      >[!IMPORTANT]
      >
@@ -219,7 +223,7 @@ Er wordt een lijst met doelen weergegeven.
       * **Goal name**
       * **Periode**: Klik om de tijdspanne voor het doel bij te werken\
         of\
-        Selecteer **douanedata** toelaten om data voor het 2&rbrace; Begin van het doel **en** Eind data **te specificeren.**
+        Selecteer **douanedata** toelaten om data voor het 2} Begin van het doel **en** Eind data **te specificeren.**
 
         >[!TIP]
         >
@@ -227,14 +231,14 @@ Er wordt een lijst met doelen weergegeven.
 
       * **Goal owner**
       * **Beschrijving**: Voeg of werk informatie over het doel toe bij.
-   * Werk of herzie informatie in de sectie van de Details van het Doel bij. Voor meer informatie, zie [&#x200B; doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront &#x200B;](../goal-management/update-goals-in-goal-details-panel.md).
+   * Werk of herzie informatie in de sectie van de Details van het Doel bij. Voor meer informatie, zie [ doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront ](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
 1. (Facultatief) klik **Indicatoren van de Voortgang** in het linkerpaneel om resultaten, activiteiten, of projecten aan het doel toe te voegen. Door voortgangsindicatoren toe te voegen, kunt u de voortgang van het doel volgen.
 Raadpleeg de volgende artikelen voor meer informatie:
    * [Activiteiten toevoegen aan doelen in Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   * [&#x200B; voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe &#x200B;](../results-and-activities/add-results-to-goals.md).
-   * [&#x200B; voeg projecten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/connect-projects-to-goals-overview.md) toe.
+   * [ voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe ](../results-and-activities/add-results-to-goals.md).
+   * [ voeg projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toe.
 
 </div>

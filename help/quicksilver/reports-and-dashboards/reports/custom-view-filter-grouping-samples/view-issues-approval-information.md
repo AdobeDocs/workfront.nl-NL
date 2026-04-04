@@ -7,7 +7,9 @@ description: De volgende probleemweergave toont het goedkeuringsproces, de stap,
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 De volgende probleemweergave toont het goedkeuringsproces, de stap, de namen van de fiatteurs en de status van de kwestie voordat de goedkeuring werd verleend. Sommige van deze gebieden zijn niet toegankelijk door de standaardinterfacebouwer.
 
-![&#x200B; custom_issue_view_with_approval_info.png &#x200B;](assets/custom-issue-view-with-approval-info-350x46.png)
+![ custom_issue_view_with_approval_info.png ](assets/custom-issue-view-with-approval-info-350x46.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ De volgende probleemweergave toont het goedkeuringsproces, de stap, de namen van
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

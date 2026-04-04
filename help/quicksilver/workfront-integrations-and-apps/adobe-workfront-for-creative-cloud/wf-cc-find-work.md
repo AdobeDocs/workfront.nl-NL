@@ -6,7 +6,9 @@ description: Zoek het werk dat in Adobe Workfront aan u is toegewezen zonder Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -27,7 +29,8 @@ Zoek het werk dat in [!DNL Adobe Workfront] aan u is toegewezen zonder de volgen
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ Zoek het werk dat in [!DNL Adobe Workfront] aan u is toegewezen zonder de volgen
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
@@ -44,7 +48,7 @@ Zoek het werk dat in [!DNL Adobe Workfront] aan u is toegewezen zonder de volgen
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -122,4 +126,4 @@ Gebruik de balk [!UICONTROL Search] om projecten, taken, problemen en documenten
 
 Met het pictogram [!UICONTROL Menu] kunt u naar bovenliggende items in een project navigeren.
 
-![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)

@@ -7,7 +7,9 @@ author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -60,7 +62,7 @@ Het verwijderen van een rapport uit een dashboard is permanent. Als u een rappor
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -77,8 +79,8 @@ U moet rapporten aan een dashboard toevoegen alvorens zij kunnen worden verwijde
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Op de **pagina van de Dashboards van het Canvas**, selecteer **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de hoger-juiste hoek van het dashboard u wilt bijwerken, dan **verwijderen**.
+1. Op de **pagina van de Dashboards van het Canvas**, selecteer **Meer** ![ Meer pictogram ](assets/more-icon.png) in de hoger-juiste hoek van het dashboard u wilt bijwerken, dan **verwijderen**.
 
-   ![&#x200B; verwijdert rapport &#x200B;](assets/delete-a-report.png)
+   ![ verwijdert rapport ](assets/delete-a-report.png)
 
 1. In het **rapport van de Schrapping** dialoogvakje dat verschijnt, klik **Schrapping**. Het rapport wordt verwijderd uit het dashboard.

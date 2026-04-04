@@ -7,7 +7,9 @@ description: Deze taakmening identificeert taken die wegens weekends, Persoonlij
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -28,7 +30,7 @@ In deze weergave wordt het volgende weergegeven:
 * Het aantal van de dag in het programma van het project wanneer de taak (de Datum van het Begin van de Kalender) begint
 * De duur van de weekdagen van de taken volgens het aantal weekdagen tussen de geplande aanvangs- en geplande einddatum van de taken (duur weekdag)
 * Als de Duur van de Dag van de Week groter is dan de duur van de taken, die erop wijst dat er uitzonderingsdagen in de duur van de taken zijn, zijn de taken duidelijk als &quot;Uitzondering&quot;.\
-  ![&#x200B; tasks_with_agenda_exception.png &#x200B;](assets/tasks-with-calendar-exceptions-350x51.png)
+  ![ tasks_with_agenda_exception.png ](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## Toegangsvereisten
 
@@ -59,7 +61,7 @@ In deze weergave wordt het volgende weergegeven:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

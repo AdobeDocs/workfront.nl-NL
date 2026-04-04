@@ -7,7 +7,9 @@ description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedge
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -32,8 +34,8 @@ De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd
 >
 >Om ervoor te zorgen dat geen inconsistenties met de data voorkomen die u uw tijd van plan bent weg voor, adviseren wij dat de tijdzone van uw gebruikersprofiel dat van uw programma aanpast. Raadpleeg de volgende artikelen voor meer informatie:
 >
->* [&#x200B; creeer een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [&#x200B; geef het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
+>* [ creeer een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [ geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
 >
 
 ## Toegangsvereisten
@@ -62,7 +64,7 @@ De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,15 +76,17 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 >
 >Als uw organisatie op de Adobe Verenigde Ervaring is, klik het **Adobe** rekeningsmenu (uw profielbeeld) in de hoger-juiste hoek van het hoogste navigatiegebied, dan klik **het Profiel van Workfront**.
 >
->![&#x200B; werkfront profiel &#x200B;](assets/aue-profile.png)
+>![ werkfront profiel ](assets/aue-profile.png)
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Time Off]** .
 1. Selecteer de gewenste datum voor uw persoonlijke tijd weg.
 
-   ![&#x200B; Persoonlijke tijd van kalender &#x200B;](assets/personal-time-off-calendar-0925.png)
+   ![ Persoonlijke tijd van kalender ](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
+   <!--
+   Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   -->
 
 1. Selecteer **[!UICONTROL All day]** als u een volledige dag uit wilt halen.
 

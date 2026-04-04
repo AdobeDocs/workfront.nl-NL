@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 # Velden importeren uit Adobe Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -59,11 +63,12 @@ U kunt kopieën van bestaande Workfront-velden importeren. Als u velden importee
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +124,8 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Overwegingen bij het importeren van velden uit Workfront
@@ -194,7 +200,7 @@ Alle andere Workfront-veldtypen worden niet ondersteund in Workfront Planning.
    Beweeg over de kopbal van om het even welke kolom, klik de naar beneden wijzende pijl na de gebiedsnaam, dan klik links **of** Tussenvoegsel rechts **om het nieuwe gebied toe te voegen.**
 1. Klik **toevoegen bestaand** in de laag-juiste hoek van het **Nieuwe gebied** tabel. <!--check UI - did they change this??-->
 
-   ![&#x200B; voeg bestaande gebieden van modaal Workfront toe &#x200B;](assets/add-existing-fields-from-workfront-modal.png)
+   ![ voeg bestaande gebieden van modaal Workfront toe ](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Typ de naam van een bestaand Workfront-veld in het zoekgebied en klik vervolgens op **+** wanneer het veld in de lijst wordt weergegeven.
 1. (Optioneel) Typ een ander veld en klik op **+** wanneer dit in de lijst wordt weergegeven.

@@ -7,7 +7,9 @@ description: U kunt deze mening in een projectlijst of een rapport toepassen om 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -26,7 +28,7 @@ De informatie in dit verslag is ook te vinden in het gebied Mensen van het proje
 >
 >Als geen baanrollen voor de gebruikers maar u weten dat zij met baanrollen in hun gebruikersprofielen worden geassocieerd, zou dit kunnen betekenen zij aan taken en kwesties worden toegewezen maar zij zouden niet met een baanrol op de taak of de kwestie kunnen worden geassocieerd, of de gebruikers die in het rapport worden vermeld zijn niet de toegewezen taken en kwesties, maar vervullen andere rollen op het project (bijvoorbeeld, Eigenaar of Sponsor.)
 
-![&#x200B; project_with_user_and_role_information_report.png &#x200B;](assets/project-with-user-and-role-information-report-350x100.png)
+![ project_with_user_and_role_information_report.png ](assets/project-with-user-and-role-information-report-350x100.png)
 
 ## Toegangsvereisten
 
@@ -57,7 +59,7 @@ De informatie in dit verslag is ook te vinden in het gebied Mensen van het proje
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

@@ -6,7 +6,9 @@ description: U kunt de status van een taak bijwerken om anderen te informeren ov
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 U kunt de status van een taak bijwerken om anderen te informeren over waar de taak is (en het algemene project) en hoe de taak vordert.
 
-De standaardstatussen zijn Nieuw, Bezig en Voltooid. Uw Adobe Workfront-beheerder kan aangepaste statussen toevoegen aan uw organisatie. Voor meer informatie, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+De standaardstatussen zijn Nieuw, Bezig en Voltooid. Uw Adobe Workfront-beheerder kan aangepaste statussen toevoegen aan uw organisatie. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 U kunt taakstatussen handmatig bijwerken of u kunt Workfront toestaan deze automatisch bij te werken wanneer bepaalde handelingen plaatsvinden.
 
@@ -52,11 +54,12 @@ U kunt taakstatussen handmatig bijwerken of u kunt Workfront toestaan deze autom
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    <td> <p>Manage permissions to the task</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overwegingen bij het bijwerken van de status van taken
 
@@ -91,7 +95,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    * U kunt niet de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en subtasks niet worden voltooid.
    * U kunt de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
 
-  Voor meer informatie, zie [&#x200B; projecten &#x200B;](../manage-projects/edit-projects.md) uitgeven.
+  Voor meer informatie, zie [ projecten ](../manage-projects/edit-projects.md) uitgeven.
 
 ## Taakstatus handmatig bijwerken
 
@@ -111,25 +115,26 @@ De taakstatus in de taakkoptekst handmatig bijwerken:
 
    of
 
-   Dubbelklik binnen de **Volledige** bel van de Percentage &lbrace;om een nieuw percentage manueel in te gaan.
+   Dubbelklik binnen de **Volledige** bel van de Percentage {om een nieuw percentage manueel in te gaan.
 
-   ![&#x200B; Percentage volledige statuswidgets taakkopbal &#x200B;](assets/percent-complete-status-widgets-task-header.png)
+   ![ Percentage volledige statuswidgets taakkopbal ](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit om aanvullende informatie over de update op te geven:
 
    * Om een nota over de update toe te voegen, ga naar de **sectie van Updates** en klik **Nieuwe commentaar**, dan typ een nota.
 
-     ![&#x200B; Toevoegend een update aan een taak &#x200B;](assets/add-update-to-task.png)
+     ![ Toevoegend een update aan een taak ](assets/add-update-to-task.png)
 
-   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [&#x200B; Tags anderen op updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Om de taak bij te werken begaat datum, klik **Details van de Taak**, dan geef het **gebied van de Datum** toe. Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om de taak bij te werken begaat datum, klik **Details van de Taak**, dan geef het **gebied van de Datum** toe. Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 
    >[!IMPORTANT]
    >
    >  Alleen taaktoewijzing kan de datum vastleggen bijwerken.
 
-<!--old functionality in old commenting: 
+<!--
+old functionality in old commenting: 
 
 1. Go to a task that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the task header and select a new status. 
@@ -142,7 +147,8 @@ De taakstatus in de taakkoptekst handmatig bijwerken:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)
+     -->
 
 ## Taakstatus automatisch bijwerken
 
@@ -150,7 +156,7 @@ Workfront werkt de bestaande status van een taak automatisch bij naar een andere
 
 >[!NOTE]
 >
->De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+>De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -158,7 +164,7 @@ Workfront werkt de bestaande status van een taak automatisch bij naar een andere
  <col> 
  <tbody> 
   <tr> 
-   <td><b>Handeling</b></td> 
+   <td><b>Actie</b></td> 
    <td><b>Oorspronkelijke status</b></td> 
    <td><b>Nieuwe status</b></td> 
   </tr> 

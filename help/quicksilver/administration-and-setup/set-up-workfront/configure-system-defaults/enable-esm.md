@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-source-git-commit: e70a65447fe508d055809271edad399d823f66dd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Adobe Enterprise Storage is een centrale opslagoplossing voor alle Adobe-product
 
 Adobe Enterprise storage is standaard ingeschakeld voor nieuwe klanten en kan voor bestaande klanten worden ingeschakeld bij contractvernieuwing.
 
-Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer informatie over de ondernemingsopslag van Adobe, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -46,7 +48,7 @@ Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzic
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +67,7 @@ Adobe Enterprise-opslag voor uw organisatie inschakelen:
    >
    >Als u deze optie inschakelt, kunnen gebruikers de opslagprovider selecteren wanneer ze een nieuw project maken. de opslag van de onderneming wordt geëtiketteerd als &quot;Nieuw project&quot;aangezien het de standaardopslagleverancier is. Legacy Workfront Storage heet &quot;Legacy project&quot;.
    >
-   >![&#x200B; nieuw project en erfenisprojectopties &#x200B;](assets/new-esm-project.png)
+   >![ nieuw project en erfenisprojectopties ](assets/new-esm-project.png)
 
 1. Kies een van de volgende opties in het vervolgkeuzemenu Toepassen op:
 

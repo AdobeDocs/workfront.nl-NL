@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Lees de volgende artikelen om meer inzicht te krijgen in kalenderrapporten in Ad
 * [[!UICONTROL Planned Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
 * [[!UICONTROL Projected Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Kalenderrapporten en gebeurtenisdetails weergeven](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
-* [&#x200B; Deel een kalenderrapport &#x200B;](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+* [ Deel een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 * [Een bestaand kalenderrapport bewerken](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
 * [Een kalenderrapport verwijderen](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
 * [Een kalenderrapport kopiëren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)

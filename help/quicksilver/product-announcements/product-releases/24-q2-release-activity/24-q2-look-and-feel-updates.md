@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2024 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met Tweede Kwartaal 2024 versie, zie [&#x200B; Tweede Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met Tweede Kwartaal 2024 versie, zie [ Tweede Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Zoeken naar updates voor twee e-mailsjablonen
 
@@ -34,4 +36,4 @@ De e-mailsjablonen voor het toevoegen van een fiatteur aan een middel en voor he
 
 We hebben de tabbladen voor Forms, Fields en secties in het gebied Setup > Custom Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. U hebt nu toegang tot de drie gebieden via het navigatiemenu links. Filters, weergaven en groepen zijn nog steeds beschikbaar voor de lijsten. Het bijgewerkte ontwerp is van toepassing op aangepaste formulieren, velden en secties die zijn gemaakt in zowel de nieuwe formulierontwerper als de oudere formulierontwerper.
 
-Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.

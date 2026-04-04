@@ -7,7 +7,9 @@ description: Wanneer een kwestie in een taak of een project wordt omgezet wordt 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -28,9 +30,9 @@ Wanneer een kwestie in een taak of een project wordt omgezet wordt een het oplos
 * Naam van maker
 * Toegewezen aan gebruiker
 
-![&#x200B; task_with_resolving_issue_fields.png &#x200B;](assets/task-with-resolving-issue-fields-350x38.png)
+![ task_with_resolving_issue_fields.png ](assets/task-with-resolving-issue-fields-350x38.png)
 
-Voor meer informatie, zie ook [&#x200B; Mening: toon originele uitgifteinformatie over taak of projectlijsten &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Voor meer informatie, zie ook [ Mening: toon originele uitgifteinformatie over taak of projectlijsten ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Toegangsvereisten
 
@@ -61,7 +63,7 @@ Voor meer informatie, zie ook [&#x200B; Mening: toon originele uitgifteinformati
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

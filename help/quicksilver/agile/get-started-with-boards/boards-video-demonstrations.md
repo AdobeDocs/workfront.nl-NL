@@ -3,65 +3,67 @@ filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
 title: Workfront Boards-videodemonstraties
-description: In deze video's wordt uitgelegd wat de verschillende soorten boards zijn die beschikbaar zijn in Adobe Workfront, en worden voorbeelden getoond van hoe u boards kunt gebruiken in uw dagelijkse werk.
+description: Deze video's zullen u aan de verschillende types van raden introduceren beschikbaar in Adobe Workfront, en voorbeelden tonen van hoe u planken in uw dagelijks werk kunt gebruiken.
 author: Courtney
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-# Workfront Boards-videodemonstraties
+# Workfront Boards videodemonstraties
 
 <!--Audited: 12/2023-->
 
-These videos will introduce you to the different types of boards available in Adobe Workfront, and show examples of how you can use boards in your daily work.
+Deze video&#39;s zullen u aan de verschillende types van raden introduceren beschikbaar in Adobe Workfront, en voorbeelden tonen van hoe u planken in uw dagelijks werk kunt gebruiken.
 
-## Types of boards
+## Typen borden
 
-### Basisboard
+### Basisbord
 
-Met een eenvoudig board kun je snel aan de slag met boards om het werk bij te houden. De standaardkolommen worden opgenomen in de sjabloon en u kunt kaarten toevoegen en werk toewijzen.
+Met een eenvoudige, of eenvoudige, board kunt u snel aan de slag gaan met borden om het werk te volgen. De standaardkolommen worden omvat met het malplaatje, en u kunt kaarten toevoegen en het werk toewijzen.
 
-[&#x200B; bekijk een videodemonstratie van een basisboard.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[ Bekijk een videodemonstratie van een basisraad.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Kanban-bord
 
-Een KanaBord kan een backlog bevatten, of een innamekolom, die met filters wordt geconfigureerd om taken en problemen van Workfront op de board te krijgen.
+Een KanaBord kan een achterstand, of inlaatkolom bevatten, die met filters wordt gevormd om taken en kwesties van Workfront op de raad te brengen.
 
-[&#x200B; bekijk een videodemonstratie van een Kana- board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[ Bekijk een videodemonstratie van een KanaBord.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
-### Dynamisch board
+### Dynamisch bord
 
-Met een dynamisch board kunt u een board automatisch vullen met kaarten die zijn gebaseerd op een Workfront-project. Met filters worden kaarten op basis van hun status toegevoegd aan kolommen.
+Met een dynamisch bord kunt u een kaart automatisch vullen met kaarten die zijn gebaseerd op een Workfront-project. Met filters worden kaarten op basis van hun status toegevoegd aan kolommen.
 
-[View a video demonstration of a dynamic board.](https://video.tv.adobe.com/v/3422404/){target=_blank}
+[ Mening een videodemonstratie van een dynamisch board.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
-### Mobile board
+### Mobiel bord
 
-Boards zijn beschikbaar in de mobiele Adobe Workfront-app. Wanneer u kaarten in de mobiele app bijwerkt, worden deze updates gesynchroniseerd met Workfront.
+Borden zijn beschikbaar in de mobiele app van Adobe Workfront. Wanneer u kaarten in de mobiele app bijwerkt, worden deze updates gesynchroniseerd met Workfront.
 
-[&#x200B; bekijk een videodemonstratie van een mobiel board.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[ Mening een videodemonstratie van een mobiel bord.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
-## Voorbeelden van boards
+## Voorbeelden van het gebruik van borden
 
-### Board met &quot;mijn taken&quot;
+### Raad met &quot;mijn taken&quot;
 
-U kunt de kolom Opname gebruiken om taken te bekijken die aan u op één plaats worden toegewezen. Aangezien de nieuwe taken in Workfront worden toegewezen, worden zij automatisch toegevoegd aan de inputkolom.
+U kunt de inlaatkolom gebruiken om taken te bekijken die aan u op één plaats worden toegewezen. Aangezien de nieuwe taken in Workfront worden toegewezen, worden zij automatisch toegevoegd aan de inputkolom.
 
-[&#x200B; bekijk een videodemonstratie van een &quot;mijn takenbord&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[ Bekijk een videodemonstratie van een &quot;mijn taken&quot;raad.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
-### Planningsbord
+### Planning
 
-Boards can help you plan out work for yourself or your team over a period of time.
+De raden kunnen u helpen uw werk voor zich of uw team over een periode plannen.
 
-[View a video demonstration of a planning board.](https://video.tv.adobe.com/v/3416380/){target=_blank}
+[ Mening een videodemonstratie van een planningsraad.](https://video.tv.adobe.com/v/3416380/){target=_blank}
 
-### Hybrid work management
+### Hybride werkbeheer
 
-Sommige teams werken liever op een board, terwijl andere de projectweergave van Workfront verkiezen. Omdat verbonden kaarten op een board worden gesynchroniseerd met de Workfront-taken en -problemen, kunt u altijd de meest actuele gegevens zien, ongeacht de weergave die u gebruikt.
+Sommige teams werken liever aan een board, terwijl andere de projectweergave van Workfront verkiezen. Omdat verbonden kaarten op een bord aan de taken en de kwesties van Workfront worden gesynchroniseerd, kunt u altijd de huidigste details zien ongeacht welke mening u gebruikt.
 
-[&#x200B; Bekijk een videodemonstratie van hybride het werkbeheer.](https://video.tv.adobe.com/v/3416381/){target=_blank}
+[ Bekijk een videodemonstratie van hybride het werkbeheer.](https://video.tv.adobe.com/v/3416381/){target=_blank}

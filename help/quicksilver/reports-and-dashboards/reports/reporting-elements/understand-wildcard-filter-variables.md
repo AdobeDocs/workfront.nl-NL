@@ -7,7 +7,9 @@ description: Door vervangingen in filters te gebruiken, kunt u een generische ge
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -18,12 +20,14 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Met jokertekens kunt u naar een algemene gebruiker of datum verwijzen in plaats van naar een specifieke gebruiker of datum. Op deze manier zijn de elementen die u maakt dynamisch. De resultaten veranderen afhankelijk van de context waarin ze worden gebruikt.
 
@@ -46,12 +50,12 @@ U kunt filtervariabelen, ook wel jokertekens genoemd, gebruiken wanneer u de vol
         <td></td>
     </tr>
     <tr>
-        <td>Conditional formatting in views</td>
-        <td>For information about conditional formatting, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Use conditional formatting in views</a>.
+        <td>Voorwaardelijke opmaak in weergaven</td>
+        <td>Voor informatie over voorwaardelijk formatteren, zie het artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md"> Voorwaardelijke het formatteren van het Gebruik in meningen </a>.
     </tr>
     <tr>
-        <td>Calculated custom fields</td>
-        <td>Wildcard filter variables are not supported when referencing nested collections in a calculated column.
+        <td>Berekende aangepaste velden</td>
+        <td>Variabelen van jokertekenfilters worden niet ondersteund wanneer wordt verwezen naar geneste verzamelingen in een berekende kolom.
 
 Voor informatie over berekende douanegebieden en kolommen, zie het artikel <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md"> Berekende douanegebieden vs. berekende kolommen </a>.
 </td>
@@ -60,7 +64,7 @@ Voor informatie over berekende douanegebieden en kolommen, zie het artikel <a hr
 
 ## Filtervariabelen voor jokertekens op basis van datum
 
-De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 >[!NOTE]
 >
@@ -118,7 +122,7 @@ Het jokerteken `$$TODAYb+2w` verwijst bijvoorbeeld naar &quot;2 weken vanaf het 
 >
 >Als een filter of een rapport een op gebruiker-gebaseerde variabele van de vervangingsfilter bevat, tonen de resultaten altijd informatie die door de gebruiker wordt gefilterd die momenteel het programma wordt geopend. Wanneer u zulk een filter of rapport met een andere gebruiker deelt, wint het vervanging informatie voor de gebruiker terug die het rapport bekijken. De twee gebruikers zien verschillende resultaten.
 >
->Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+>Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
 U kunt uit de volgende op gebruiker-gebaseerde variabelen kiezen:
 
@@ -128,20 +132,22 @@ U kunt uit de volgende op gebruiker-gebaseerde variabelen kiezen:
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>De meest voorkomende op gebruikers gebaseerde variabele is $$USER.ID. Hiermee wordt altijd de id van de aangemelde gebruiker geretourneerd. Dit is identiteitskaart die wordt gebruikt om te identificeren welke gebruiker elk voorwerp en hun werktaken creeerde.</p> <p>Wanneer gebruikt in rapporten, vermindert dit vervangingsaantal het aantal rapporten die u in uw systeem moet creëren. U kunt één rapport tot stand brengen en het met verscheidene gebruikers delen, en de resultaatverandering die op de gebruiker wordt gebaseerd die het programma wordt geopend en het rapport bekijkt.</p> <p>Bijvoorbeeld, om een rapport voor alle kwesties te bouwen die aan de gebruiker worden toegewezen die het programma wordt geopend, kunt u de volgende regel in een uitgevende filter gebruiken: <em> Toegewezen aan identiteitskaart evenaart $$USER.ID </em>.</p> <p>Workfront gebruikt deze variabele in de volgende ingebouwde filters:</p> 
+    -->
+    <p>De meest voorkomende op gebruikers gebaseerde variabele is $$USER.ID. Hiermee wordt altijd de id van de aangemelde gebruiker geretourneerd. Dit is identiteitskaart die wordt gebruikt om te identificeren welke gebruiker elk voorwerp en hun werktaken creeerde.</p> <p>Wanneer gebruikt in rapporten, vermindert dit vervangingsaantal het aantal rapporten die u in uw systeem moet creëren. U kunt één rapport tot stand brengen en het met verscheidene gebruikers delen, en de resultaatverandering die op de gebruiker wordt gebaseerd die het programma wordt geopend en het rapport bekijkt.</p> <p>Bijvoorbeeld, om een rapport voor alle kwesties te bouwen die aan de gebruiker worden toegewezen die het programma wordt geopend, kunt u de volgende regel in een uitgevende filter gebruiken: <em> Toegewezen aan identiteitskaart evenaart $$USER.ID </em>.</p> <p>Workfront gebruikt deze variabele in de volgende ingebouwde filters:</p>
     <ul> 
      <li>Mijn rapporten</li> 
      <li>Mijn projecten</li> 
      <li>Mijn taken</li> 
      <li>Mijn problemen</li> 
-     <li>My Hours</li> 
+     <li>Mijn uren</li> 
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.categoryID</strong> </p> </td> 
-   <td> <p>The $$USER.categoryID variable refers to a specific custom form associated with the logged-in user.</p> </td> 
+   <td> <p>De variabele $$USER.categoryID verwijst naar een specifiek aangepast formulier dat is gekoppeld aan de aangemelde gebruiker.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.accessLevelID</strong> </p> </td> 

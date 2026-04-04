@@ -6,7 +6,9 @@ description: De updates zijn van een voorwerp omvat een knoop die de Medewerker 
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -23,7 +25,7 @@ U kunt de knoop van de Inhoud van de Samenvatting gebruiken om een samenvatting 
 >
 >De functies voor het samenvatten van AI-assistent verschillen van die in het deelvenster Samenvatting.
 >
->Voor informatie over het Summiere paneel in Workfront, zie [&#x200B; Overzicht Overzicht &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Voor informatie over het Summiere paneel in Workfront, zie [ Overzicht Overzicht ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Toegangsvereisten
 
@@ -53,11 +55,12 @@ U kunt de knoop van de Inhoud van de Samenvatting gebruiken om een samenvatting 
 </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -75,22 +78,23 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Vereisten
 
 * Uw Workfront-beheerder moet de AI-assistent voor uw organisatie inschakelen.
 
-  Voor meer informatie, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
+  Voor meer informatie, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
 * Uw Workfront-beheerder moet AI Assistant inschakelen voor uw toegangsniveau.
 
-  Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 ## Samenvatten met knop Overzicht van opmerkingen
 
 1. Ga naar het object waarvan u de updates wilt samenvatten.
 1. Klik **Updates** in het linkerpaneel.
-1. Klik **samenvatten commentaren** knoop bij de bovenkant van het **3&rbrace; gebied van Updates &lbrace;.**
+1. Klik **samenvatten commentaren** knoop bij de bovenkant van het **3} gebied van Updates {.**
 
    AI Assistant wordt geopend met de vraag of de laatste 7 dagen van opmerkingen over de updatestream moeten worden samengevat.
 
@@ -106,7 +110,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 Een overzicht van een object weergeven:
 
 1. Navigeer naar het object waarvoor u een overzicht wilt weergeven.
-1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![&#x200B; dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
 1. Voer in het deelvenster AI-assistent een aanwijzing in, zoals:
 
    * Een overzicht in drie zinnen opgeven

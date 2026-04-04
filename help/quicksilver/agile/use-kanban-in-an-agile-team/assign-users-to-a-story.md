@@ -6,7 +6,9 @@ description: U kunt gebruikers rechtstreeks aan artikelen op het Kanban-bord toe
 author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -39,7 +41,7 @@ U kunt gebruikers rechtstreeks aan artikelen op het Kanban-bord toewijzen.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,7 +49,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de Agile [!UICONTROL Kanban] -board waar u gebruikers wilt toewijzen.
 1. Ga naar de artikeltegel op het [!UICONTROL Kanban] -bord waar u een gebruiker wilt toevoegen.
@@ -57,4 +59,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >U kunt ook een taakrol toewijzen aan een artikel. U kunt alleen actieve gebruikers en actieve rollen toewijzen.
 
-   ![&#x200B; voeg taak aan verhaalkaart toe &#x200B;](assets/addassignmenttostorycard-350x472.png)
+   ![ voeg taak aan verhaalkaart toe ](assets/addassignmenttostorycard-350x472.png)

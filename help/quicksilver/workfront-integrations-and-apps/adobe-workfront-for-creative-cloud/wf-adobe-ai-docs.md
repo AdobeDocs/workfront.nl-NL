@@ -6,10 +6,12 @@ description: U kunt uw tekengebieden uploaden als documenten die u snel kunt bek
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +27,8 @@ U kunt uw projecten uploaden als documenten voor een snelle revisie en goedkeuri
  <col> 
  <col> 
  <tbody> 
-  <!-- <tr> 
+  <!--
+   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any </td> 
   </tr> 
@@ -35,7 +38,8 @@ U kunt uw projecten uploaden als documenten voor een snelle revisie en goedkeuri
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
@@ -50,7 +54,7 @@ U kunt uw projecten uploaden als documenten voor een snelle revisie en goedkeuri
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,23 +62,23 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * U moet [!DNL Adobe Workfront for design and video] installeren voordat u documenten kunt uploaden vanuit [!DNL Illustrator] .
 
-  Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Voor instructies, zie [ installeren  [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Documenten uploaden naar [!DNL Illustrator]
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een document wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#x200B; in de navigatiebar.](assets/documents.png)
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 1. Open het dialoogvenster **[!UICONTROL Set Export File Settings]** en configureer de gewenste exportopties op basis van het hierboven gekozen elementtype.
 
-   ![&#x200B; de uitvoermontages van het Dossier &#x200B;](assets/file-export-settings.png)
+   ![ de uitvoermontages van het Dossier ](assets/file-export-settings.png)
 1. Klik op **[!UICONTROL Upload]** .
 Het document wordt weergegeven in het gebied [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
 

@@ -6,7 +6,9 @@ description: U kunt uw werk bijwerken met de Adobe Workfront-insteekmodule.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -31,7 +33,8 @@ U kunt uw werk bijwerken vanuit de volgende [!DNL Adobe Creative Cloud] -toepass
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,7 +42,8 @@ U kunt uw werk bijwerken vanuit de volgende [!DNL Adobe Creative Cloud] -toepass
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
@@ -51,7 +55,7 @@ U kunt uw werk bijwerken vanuit de volgende [!DNL Adobe Creative Cloud] -toepass
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,11 +91,11 @@ Een update plaatsen:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u een update wilt posten.
 1. Klik op **[!UICONTROL Update]** in de navigatiebalk.\
-   ![&#x200B; de update van Photoshop &#x200B;](assets/photoshop-update-350x295.png)
+   ![ de update van Photoshop ](assets/photoshop-update-350x295.png)
 
 1. Klik op **[!UICONTROL New Update]**.
 1. Typ de update.

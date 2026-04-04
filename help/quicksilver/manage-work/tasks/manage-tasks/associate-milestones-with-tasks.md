@@ -6,7 +6,9 @@ description: U kunt mijlpalen met taken associëren om erop te wijzen wanneer u 
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -48,11 +50,12 @@ U kunt mijlpalen met taken associëren om erop te wijzen wanneer u belangrijke s
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,17 +82,18 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Vereisten
 
 Voordat u een mijlpaal aan een taak kunt koppelen, moet het volgende bestaan:
 
-* De beheerder van Workfront moet een milestone weg tot stand brengen, zoals die in [&#x200B; wordt beschreven leidt tot een milestone weg &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* De beheerder van Workfront moet een milestone weg tot stand brengen, zoals die in [ wordt beschreven leidt tot een milestone weg ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * U moet een Weg van de Mijlpaal aan een project associëren.
 
-  Voor informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 * Om een mijlpaden met een project te associëren, moet het project in Planning of Huidige status zijn.
 
@@ -101,18 +105,18 @@ Voordat u een mijlpaal aan een taak kunt koppelen, moet het volgende bestaan:
 
 Nadat een mijlpaden aan een project wordt geassocieerd, kunnen de taken een mijlpaal worden toegewezen.
 
-1. Ga naar een taak, dan klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de taaknaam, dan **geeft** uit.
+1. Ga naar een taak, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de taaknaam, dan **geeft** uit.
 
    De taken en de Mijlpalen hebben een 1 :1 verhouding. U kunt niet dezelfde mijlpaal aan meerdere taken koppelen. Elke taak kan aan één enkele mijlpaal worden gekoppeld, of elke mijlpaal kan aan één taak worden toegewezen.
 
-1. Klik **Montages**, dan selecteer een mijlpaal op het **3&rbrace; gebied van de Mijlpaal &lbrace;voor de taak.**
+1. Klik **Montages**, dan selecteer een mijlpaal op het **3} gebied van de Mijlpaal {voor de taak.**
 1. Klik **sparen**.
-1. (Facultatief) in een lijst van taken, voeg de **kolom van de Status van 0&rbrace; toe om te identificeren welke taken mijlpalen hebben.** De indicator Mijlsteen ruitje wordt weergegeven in de kolom Statuspictogrammen.
+1. (Facultatief) in een lijst van taken, voeg de **kolom van de Status van 0} toe om te identificeren welke taken mijlpalen hebben.** De indicator Mijlsteen ruitje wordt weergegeven in de kolom Statuspictogrammen.
 
-   Voor informatie, zie [&#x200B; meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
+   Voor informatie, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 
-   ![&#x200B; pictogrammen van de Status &#x200B;](assets/amwt3.png)
+   ![ pictogrammen van de Status ](assets/amwt3.png)
 
 1. (Facultatief) ga naar een lijst van projecten, selecteer de **Mijlpaal** mening om de vooruitgang van uw milestone taken te identificeren.
 
-   ![&#x200B; lijst van het de meningsproject van de Mijlpaal &#x200B;](assets/milestone-view-project-list.png)
+   ![ lijst van het de meningsproject van de Mijlpaal ](assets/milestone-view-project-list.png)

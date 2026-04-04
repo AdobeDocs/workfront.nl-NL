@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -15,9 +17,11 @@ ht-degree: 0%
 
 # Opnameopmerkingen beheren
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -26,7 +30,7 @@ U kunt aan de verslagen van de Planning van Adobe Workfront samenwerken, door co
 In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
 * **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe.
-* **Geschiedenis**: De systeem-geregistreerde veranderingen van vertoningen die de gebruikers aan de verslaggebieden aanbrengen. Voor meer informatie, zie [&#x200B; het sectieoverzicht van de Geschiedenis &#x200B;](/help/quicksilver/planning/records/history-section-overview.md).
+* **Geschiedenis**: De systeem-geregistreerde veranderingen van vertoningen die de gebruikers aan de verslaggebieden aanbrengen. Voor meer informatie, zie [ het sectieoverzicht van de Geschiedenis ](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Toegangsvereisten
 
@@ -67,11 +71,12 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +138,8 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 
@@ -145,7 +151,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 * U kunt opmerkingen toevoegen aan Workfront Planning-records die zijn gemaakt als gevolg van een verbinding tussen een record en een object uit een andere toepassing.
 
-  Bijvoorbeeld, kunt u op het verslag van de Planning van Workfront van het Project commentaar geven nadat u de projecten van Workfront met de verslagen van de Planning van Workfront verbindt. Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+  Bijvoorbeeld, kunt u op het verslag van de Planning van Workfront van het Project commentaar geven nadat u de projecten van Workfront met de verslagen van de Planning van Workfront verbindt. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 * Opmerkingen die zijn toegevoegd aan gekoppelde objecten in andere toepassingen, worden niet weergegeven in Workfront Planning en opmerkingen die zijn toegevoegd aan gekoppelde objecten in Workfront Planning worden niet weergegeven in andere toepassingen.
 
@@ -155,7 +161,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
   >[!NOTE]
   >
-  >   Alleen gebruikers van klanten die aan boord zijn gegaan met de Adobe Unified Experience ontvangen zowel een melding in de app als een e-mailmelding. Om te bepalen of uw bedrijf de Adobe Verenigde Ervaring gebruikt, zie [&#x200B; de Verenigde Ervaring van Adobe voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Alleen gebruikers van klanten die aan boord zijn gegaan met de Adobe Unified Experience ontvangen zowel een melding in de app als een e-mailmelding. Om te bepalen of uw bedrijf de Adobe Verenigde Ervaring gebruikt, zie [ de Verenigde Ervaring van Adobe voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * U kunt een update aan verslagen toevoegen en de geschiedenis van veranderingen van de volgende gebieden van de Planning van Workfront herzien:
 
@@ -176,13 +182,13 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Kies een lijstmening van het **drop-down menu van de Mening**.
 1. Klik op de naam van een record in de tabelweergave.
 
-   De 1&rbrace; pagina van de Details van het verslag **&lbrace;opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
+   De 1} pagina van de Details van het verslag **{opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
-1. (Voorwaardelijk) als het juiste paneel niet door gebrek opent, klik **tonen Commentaren** ![&#x200B; tonen commentaarpictogram &#x200B;](assets/show-comments-icon.png) in de hoger-juiste hoek om de sectie van Commentaren te openen.
+1. (Voorwaardelijk) als het juiste paneel niet door gebrek opent, klik **tonen Commentaren** ![ tonen commentaarpictogram ](assets/show-comments-icon.png) in de hoger-juiste hoek om de sectie van Commentaren te openen.
 
 1. Begin een commentaar in de **Nieuwe commentaardoos** in te gaan.
 
-   ![&#x200B; Lege commentaardoos op verslag &#x200B;](assets/empty-comment-box-on-record.png)
+   ![ Lege commentaardoos op verslag ](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -191,7 +197,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
    * CTRL + Z (⌘ + z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y (⌘ + y voor Mac) om een wijziging opnieuw uit te voeren
-1. (Optioneel en voorwaardelijk) Als uw Workfront-instantie deel uitmaakt van de Adobe Unified Experience, voegt u **@** toe, gevolgd door de naam van een gebruiker of een team om deze in de update te labelen. Voor meer informatie, zie de sectie [&#x200B; Overwegingen over het becommentariëren over een verslag &#x200B;](#considerations-about-commenting-on-a-record) in dit artikel.
+1. (Optioneel en voorwaardelijk) Als uw Workfront-instantie deel uitmaakt van de Adobe Unified Experience, voegt u **@** toe, gevolgd door de naam van een gebruiker of een team om deze in de update te labelen. Voor meer informatie, zie de sectie [ Overwegingen over het becommentariëren over een verslag ](#considerations-about-commenting-on-a-record) in dit artikel.
 
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties of koppelingen naar de update toe te voegen om de inhoud te verbeteren.
 
@@ -202,10 +208,10 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
 1. Voeg verder opmerkingen toe aan de record.
 
-   Voor meer informatie over het bijwerken van voorwerpen, met inbegrip van de verslagen van de Planning van Workfront, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor meer informatie over het bijwerken van voorwerpen, met inbegrip van de verslagen van de Planning van Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optioneel) Klik op het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik vervolgens op **Verwijderen** om de opmerking te verwijderen.
-1. (Optioneel) Klik op het **pictogram** Opmerkingen verbergen ![&#x200B; van het pictogram Opmerkingen verbergen &#x200B;](assets/hide-comments-icon.png) om het rechterdeelvenster te sluiten.
+1. (Optioneel) Klik op het **Meer** pictogram ![ Meer menu ](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik vervolgens op **Verwijderen** om de opmerking te verwijderen.
+1. (Optioneel) Klik op het **pictogram** Opmerkingen verbergen ![ van het pictogram Opmerkingen verbergen ](assets/hide-comments-icon.png) om het rechterdeelvenster te sluiten.
 
 <!--
       >[!TIP]
@@ -238,10 +244,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    -->
 
 ## Overzicht van de sectie Historie
 
 U kunt de wijzigingen in de record controleren in de sectie Historie van het rechterdeelvenster van een record.
 
-Voor meer informatie, zie [&#x200B; het sectieoverzicht van de Geschiedenis &#x200B;](/help/quicksilver/planning/records/history-section-overview.md).
+Voor meer informatie, zie [ het sectieoverzicht van de Geschiedenis ](/help/quicksilver/planning/records/history-section-overview.md).

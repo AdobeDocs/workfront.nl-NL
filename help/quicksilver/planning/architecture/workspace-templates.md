@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -20,13 +22,13 @@ ht-degree: 0%
 
 In de Planning van Adobe Workfront, is een werkruimte een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
 
-Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Voor informatie over het creëren van werkruimten, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Voor informatie over het creëren van werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 Dit artikel beschrijft de werkruimtemalplaatjes beschikbaar in de Planning van Adobe Workfront.
 
 ## Overwegingen over Adobe Workfront-planningssjablonen
 
-* Elke sjabloon wordt geleverd met een set recordtypen. Voor informatie, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Elke sjabloon wordt geleverd met een set recordtypen. Voor informatie, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * De recordtypen in elke sjabloon zijn ingedeeld in de volgende secties:
 
    * Operationele recordtypen
@@ -34,7 +36,8 @@ Dit artikel beschrijft de werkruimtemalplaatjes beschikbaar in de Planning van A
 * Elk recordtype wordt geleverd met een set velden. Sommige van deze velden zijn verbindingen met andere recordtypen voor Workfront Planning.
 * U kunt elke sjabloon aanpassen en meer recordtypen en velden toevoegen aan de bestaande recordtypen.
 
-<!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
+<!--
+ I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
 ## Access requirements
 
@@ -50,7 +53,8 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
 <p>Any</p>
-<!--the above is only for closed beta; when going to GA - activate the following plans:    
+<!--
+the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>->
    </td>

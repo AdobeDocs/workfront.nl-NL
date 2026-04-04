@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -16,23 +18,24 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Weergaven maken en opslaan in het gebied Verzoeken
 
 >[!NOTE]
 >
 >Voorbeeld: 2 oktober 2025
->&#x200B;>Snelle productie: 15 oktober 2025
->&#x200B;>Productie voor iedereen: 16 oktober 2025
+>Snelle productie: 15 oktober 2025
+>Productie voor iedereen: 16 oktober 2025
 
 Om het gemakkelijker te maken om de informatie te zien u nodig hebt, hebben wij de capaciteit toegevoegd om meningen in het gebied van Verzoeken tot stand te brengen en te bewaren. Nu kunt u een weergave opslaan, inclusief filters en kolomconfiguraties, en schakelen tussen weergaven. Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
 
 Eerder konden filters en kolomconfiguraties niet worden opgeslagen.
 
-Voor informatie en instructies, zie [&#x200B; meningen in het gebied van Verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren.
+Voor informatie en instructies, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren.
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,7 +48,8 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Updates voor het aanvragen van ervaring
 
@@ -77,5 +81,5 @@ Eerder stonden Workfront- en Workfront-planningsverzoeken op aparte tabbladen en
 
 Zie voor meer informatie over het maken van aanvragen:
 
-* Voor Workfront: [&#x200B; creeer en verzend verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Voor de Planning van Workfront: [&#x200B; legt Adobe Workfront Planningsverzoeken voor om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
+* Voor Workfront: [ creeer en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Voor de Planning van Workfront: [ legt Adobe Workfront Planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen

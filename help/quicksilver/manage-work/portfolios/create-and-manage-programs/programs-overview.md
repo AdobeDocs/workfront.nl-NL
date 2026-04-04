@@ -7,7 +7,9 @@ description: Een programma is een inzameling van projecten die verenigende kenme
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -58,9 +60,10 @@ U moet de volgende toegang hebben om portfolio&#39;s te maken en te beheren:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Overwegingen bij het werken met programma&#39;s
@@ -103,7 +107,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * U moet eerst een portfolio maken en vervolgens kunt u meerdere programma&#39;s binnen hetzelfde portfolio maken.
 
-  Voor informatie over het gebruiken van Programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+  Voor informatie over het gebruiken van Programma&#39;s, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 * U moet eerst een portfolio maken en vervolgens een programma voordat u een project aan een programma en een portfolio kunt koppelen.
 
@@ -125,4 +129,4 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * Met de functie voor het optimaliseren van portfolio kunt u de prestaties van alle projecten in een portfolio analyseren. U kunt de prestaties van meerdere projecten niet alleen vergelijken met die van hetzelfde programma. U moet projectprestaties op het portfolioniveau analyseren.
 
-  Voor informatie, zie [&#x200B; projecten in Portfolio optimaliseren &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+  Voor informatie, zie [ projecten in Portfolio optimaliseren ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).

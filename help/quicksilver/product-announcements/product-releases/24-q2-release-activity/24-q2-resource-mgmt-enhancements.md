@@ -1,29 +1,31 @@
 ---
-title: Verbeteringen voor middelenbeheer in tweede kwartaal 2024
-description: Verbeteringen voor middelenbeheer in tweede kwartaal 2024
+title: Verbeteringen voor middelenbeheer in het tweede kwartaal van 2024
+description: Verbeteringen voor middelenbeheer in het tweede kwartaal van 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# Verbeteringen voor middelenbeheer in tweede kwartaal 2024
+# Verbeteringen voor middelenbeheer in het tweede kwartaal van 2024
 
-Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van bronnenbeheer die zijn aangebracht met de tweede release van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar in de productieomgeving met de tweede release van 2024.
+Deze pagina beschrijft alle verbeteringen in het bronnenbeheer die zijn aangebracht met de release van het tweede kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de Tweede de versiecyclus van het Kwartaal 2024, zie [&#x200B; Tweede Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-## Indicator voor handmatig aangepaste toewijzingen in de werklastverdeler
+## Indicator voor handmatig aangepaste toewijzingen in de werklastbalans
 
 >[!NOTE]
 >
->Preview-release: 12 oktober 2023; Productie voor snelle release: met de 24.2-versie (15 februari 2024); Productie voor driemaandelijkse release: met de 24.4-versie (11 april 2024)
+>Voorvertoningsrelease: 12 oktober 2023; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor driemaandelijkse release: met de release van 24.4 (11 april 2024)
 
-Voor meer duidelijkheid over handmatige aanpassingen of contouren in de tool Werklastbalans, worden nu handmatig aangepaste uurtoewijzingen weergegeven met een potloodpictogram.
+Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
 
-Voor meer informatie, zie [&#x200B; gebruikerstoewijzingen in de Balancer van de Werkbelasting &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
+Voor meer informatie, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

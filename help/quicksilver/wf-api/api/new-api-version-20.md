@@ -6,7 +6,10 @@ description: Adobe Workfront heeft API-versie 20 uitgebracht op 6 april 2022. AP
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 6d2aa582a72aad098e397a5e59abdee84165a426
+exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 0%
@@ -212,16 +215,20 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--           <p>Modified the following possible values:</p>
+<!--
+           <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b> forbiddenActions </b>
@@ -234,16 +241,20 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b> secundairActions </b>
@@ -256,16 +267,20 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -296,16 +311,20 @@ Als een gebruiker in Workfront geen toegang heeft tot een object dat hij of zij 
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -336,16 +355,20 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b> forbiddenActions </b>
@@ -358,16 +381,20 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b> secundairActions </b>
@@ -380,16 +407,20 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -713,7 +744,8 @@ Een object BillingRecord registreert de inkomsten, uren of kosten die in rekenin
 </table>
 
 
-<!--### Category (CTGY)
+<!--
+### Category (CTGY)
 
 A Category object is a custom form.
 
@@ -749,7 +781,8 @@ A Category object is a custom form.
       </td>
     </tr>
   </tbody>
-</table>-->
+</table>
+-->
 
 ### CategorieParameter (CTGYPA)
 
@@ -1161,16 +1194,20 @@ Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het g
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b> requestForForbiddenActions </b>
@@ -1183,16 +1220,20 @@ Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het g
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Subprojecten toevoegen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -1637,6 +1678,3 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
     </tr>
   </tbody>
 </table>
-
-
-

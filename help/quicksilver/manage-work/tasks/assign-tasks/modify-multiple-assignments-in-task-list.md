@@ -7,7 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
@@ -24,21 +26,23 @@ ht-degree: 0%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>-->
+</div>
+-->
 
 Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige taken tegelijkertijd wijzigen door de bulkbewerkingseigenschap in een lijst van taken te gebruiken.
 
 In dit artikel wordt verwezen naar het wijzigen van meerdere gebruikerstoewijzingen voor meerdere taken in een takenlijst. Zie ook de volgende artikelen voor het wijzigen van toewijzingen voor meerdere taken op andere gebieden:
 
-* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [&#x200B; taken toewijzen &#x200B;](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
 ## Toegangsvereisten
 
@@ -69,7 +73,7 @@ Voor informatie over het toewijzen van een taak aan één middel in een lijst, z
  </tbody>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +112,7 @@ When assigning users to work, their availability according to their schedules af
 
    Bijvoorbeeld, als uw project een specifieke rol als standaardontvanger voor veelvoudige taken bevat, kunt u een filter tot stand brengen om slechts taken met die rol als toegewezen te tonen. Vervolgens kunt u de rol vervangen door een specifieke gebruiker.
 
-   Voor informatie over het creëren van een filter, zie [&#x200B; filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   Voor informatie over het creëren van een filter, zie [ filters ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 
 1. Om op een rol te filtreren, uitgezochte **Rollen van de Taak**, dan klik **identiteitskaart**.
@@ -125,7 +129,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >Gebruik niet **Toegewezen aan** gebied. Hiermee vindt u alleen de primaire eigenaar voor de taak in plaats van de gebruikers die aan hen kunnen worden toegewezen.
 
-1. Selecteer de taken waarvoor u taken wilt wijzigen, dan **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Selecteer de taken waarvoor u taken wilt wijzigen, dan **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    1. Voer een van de volgende handelingen uit om toewijzingen toe te voegen of te verwijderen:
 
@@ -142,14 +146,14 @@ When assigning users to work, their availability according to their schedules af
 
         Het verwijderen van gebruikers uit taken kan taakuren en toewijzingspercentages beïnvloeden.
 
-        Voor meer informatie, zie [&#x200B; Overzicht van het wijzigen van taaktaken &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+        Voor meer informatie, zie [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 
         >[!TIP]
         >
         >* U kunt meerdere gebruikers, taakrollen of teams toewijzen. U kunt alleen actieve gebruikers, taakrollen en teams toewijzen.
         >   
-        >* Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+        >* Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
         > 
         >   Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
         >   
@@ -163,7 +167,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
       >
       >
       >Als het veld leeg is, betekent dit dat de waarde voor alle taken anders is. U kunt de waarde echter wel wijzigen.
@@ -176,7 +180,8 @@ When assigning users to work, their availability according to their schedules af
 
    1. Klik **sparen**.
 
-<!-- temporary content - for Assignments redesign:
+<!--
+ temporary content - for Assignments redesign:
 
 Editing assignments on tasks differs depending on which environment you choose. 
 
@@ -261,7 +266,8 @@ Editing assignments on tasks differs depending on which environment you choose.
 
 1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
 
-   <div class="preview">-->
+   <div class="preview">
+   -->
 
 
 

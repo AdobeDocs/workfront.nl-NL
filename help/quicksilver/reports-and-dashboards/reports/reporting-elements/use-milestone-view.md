@@ -6,7 +6,9 @@ description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 0%
@@ -19,21 +21,23 @@ ht-degree: 0%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen. U kunt de mening van de Mijlpaal gebruiken om alle mijlpalen te bekijken die met taken binnen de projecten worden geassocieerd u bekijkt.
 
 Voordat u de milestone-weergave kunt gebruiken, moeten de volgende elementen bestaan:
 
-* De wegen van mijlpalen worden gevormd. Voor informatie, zie [&#x200B; een milestone weg &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
-* Mijlpaden die nodig zijn, worden toegevoegd aan projecten. Voor informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
-* Mijlpalen zijn gekoppeld aan taken. Voor informatie, zie [&#x200B; mijlpalen met taken &#x200B;](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
+* De wegen van mijlpalen worden gevormd. Voor informatie, zie [ een milestone weg ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+* Mijlpaden die nodig zijn, worden toegevoegd aan projecten. Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+* Mijlpalen zijn gekoppeld aan taken. Voor informatie, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
 
 De mening van de Mijlpaal is beschikbaar wanneer het bekijken van een projectlijst of een projectrapport. De volgende secties beschrijven om de milestone mening te bekijken en te gebruiken.
 
@@ -69,7 +73,7 @@ De mening van de Mijlpaal is beschikbaar wanneer het bekijken van een projectlij
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,13 +85,13 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De lijst of het rapport wordt weergegeven in een Mijlsteenweergave.
 
-   Voor informatie over de milestone mening, zie het overzicht van de sectie [&#x200B; mening Mijlsteen &#x200B;](#milestone-view-overview) in dit artikel.
+   Voor informatie over de milestone mening, zie het overzicht van de sectie [ mening Mijlsteen ](#milestone-view-overview) in dit artikel.
 
 ## Overzicht van de mijlpaalweergave {#milestone-view-overview}
 
 De mening van de Mijlpaal is beschikbaar op projectlijsten en projectrapporten. U kunt snel alle mijlpalen bekijken die met taken binnen de projecten worden geassocieerd u bekijkt.
 
-![&#x200B; Project met milestone mening &#x200B;](assets/project-with-milestone-view-with-complete.png)
+![ Project met milestone mening ](assets/project-with-milestone-view-with-complete.png)
 
 >[!NOTE]
 >
@@ -95,7 +99,7 @@ De mening van de Mijlpaal is beschikbaar op projectlijsten en projectrapporten. 
 >
 >* Tijdschema&#39;s, in de projectlijst wanneer het toevoegen van een project.
 
-Voor informatie over hoe te om aan de mening van de Mijlpaal over te schakelen, zie de sectie [&#x200B; Schakelaar aan de mening van de Mijlpaal &#x200B;](#switch-to-the-milestone-view) in dit artikel.
+Voor informatie over hoe te om aan de mening van de Mijlpaal over te schakelen, zie de sectie [ Schakelaar aan de mening van de Mijlpaal ](#switch-to-the-milestone-view) in dit artikel.
 
 
 ### Fragmenten uit de Mijlsteenweergave
@@ -129,9 +133,9 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 
 * **Volledige Percentage:** toont het voltooiingspercentage van elke taak en project.
 
-  U kunt het voltooiingspercentage van worden getoond onbruikbaar maken, zoals die in de sectie [&#x200B; wordt beschreven vormt welke informatie in de mening van de Mijlpaal &#x200B;](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.
+  U kunt het voltooiingspercentage van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.
 
-  U kunt het voltooiingspercentage direct van de mening van de Mijlpaal aanpassen, zoals die in de sectie [&#x200B; wordt beschreven Pas Percentage volledig voor taken in de mening van de Mijlpaal &#x200B;](#adjust-percent-complete-for-tasks-in-the-milestone-view) in dit artikel aan.
+  U kunt het voltooiingspercentage direct van de mening van de Mijlpaal aanpassen, zoals die in de sectie [ wordt beschreven Pas Percentage volledig voor taken in de mening van de Mijlpaal ](#adjust-percent-complete-for-tasks-in-the-milestone-view) in dit artikel aan.
 
 * **de statuspictogrammen van de Taakvooruitgang:** het volgende is pictogrammen die op de de vooruitgangsstatus van taken wijzen:
 
@@ -140,7 +144,8 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
    * Risico - blauw
    * Late - rood
 
-  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+  <!--
+   * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
       * On Time  
       ![On time icon](assets/gantt-ontime.png)
       * Behind  
@@ -149,11 +154,13 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
       ![At risk icon](assets/gantt-atrisk.png)
       * Late  
       ![Late icon](assets/gantt-late.png)
-      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+      
+      get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc
+   -->
 
-  U kunt deze statuspictogrammen van worden getoond onbruikbaar maken, zoals die in de sectie [&#x200B; wordt beschreven vormt welke informatie in de mening van de Mijlpaal &#x200B;](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.
+  U kunt deze statuspictogrammen van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.
 
-  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [&#x200B; &#x200B;](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [ ](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **de status die van de Taak voor voltooide taken** wordt in de schaduw gesteld: Nadat een taak voltooid is, wordt de achtergrond van de taak gearceerd in de mening van de Mijlpaal om erop te wijzen of de taak op tijd of laat werd voltooid:
 
@@ -187,7 +194,7 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
-  ![&#x200B; Mijlsteenmening met het in de schaduw stellen &#x200B;](assets/milestone-view-with-shading.png)
+  ![ Mijlsteenmening met het in de schaduw stellen ](assets/milestone-view-with-shading.png)
 
 * **naam van het Project**: De projectnaam wordt getoond met een verbinding aan het project.
 * **pictogram van de Voorwaarde van het Project**: De volgende indicatoren tonen de projectvoorwaarde:
@@ -196,10 +203,12 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
    * Risicogeel
    * In problemen - rood
 
-  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+  <!--
+   * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
       * On Target
       * At Risk
-      * In Trouble -->
+      * In Trouble
+      -->
 
 
 ## Vorm welke informatie in de mening van de Mijlpaal toont {#configure-what-information-displays-in-the-milestone-view}
@@ -236,7 +245,7 @@ Om te vormen of de pictogrammen van de projectstatus en voltooiingspercentage va
     </tbody> 
    </table>
 
-   ![&#x200B; de meningsopties van de Mijlpaal &#x200B;](assets/milestone-view-options-350x141.png)
+   ![ de meningsopties van de Mijlpaal ](assets/milestone-view-options-350x141.png)
 
 ## Percentage van voltooiing aanpassen voor taken in de weergave Mijlpaal {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
@@ -248,7 +257,7 @@ Om het percentage aan te passen volledig voor een taak in de mening van de Mijlp
 
 1. Klik het **drop-down menu van de Mening**, dan klik **Mijlpaal**.
 
-1. (Voorwaardelijk) als de voltooiingspercentages niet huidig zijn die in de mening van de Mijlpaal tonen, laat het bekijken van Percentage van taken en projecten toe, zoals die in de sectie [&#x200B; worden beschreven vormt welke informatievertoningen in de mening van de Mijlpaal &#x200B;](#configure-what-information-displays-in-the-milestone-view) in dit artikel.
+1. (Voorwaardelijk) als de voltooiingspercentages niet huidig zijn die in de mening van de Mijlpaal tonen, laat het bekijken van Percentage van taken en projecten toe, zoals die in de sectie [ worden beschreven vormt welke informatievertoningen in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel.
 
 1. Verplaats de **Volledige dia van de Percentage** aan het nieuwe percent voltooide om het bij te werken.
 

@@ -2,36 +2,38 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Calculate Overtime Cost in a Timesheet View'
-description: Overtime is not calculated by default in Adobe Workfront, but you can create a Timesheet report that calculates overtime.
+title: 'Weergave: Overtime kosten berekenen in een tijdlijnweergave'
+description: Overuren worden niet standaard berekend in Adobe Workfront, maar u kunt wel een rapport met een tijdlijnrapport maken dat overwerk berekent.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-# View: calculate overtime cost in a Timesheet View
+# Weergave: de kosten van overwerk berekenen in een tijdlijnweergave
 
 <!--Audited: 11/2024-->
 
 Overuren worden niet standaard berekend in Adobe Workfront, maar u kunt wel een rapport met een tijdlijnrapport maken dat overwerk berekent.
 
 Als de gebruiker in zijn profiel aan een kostenpercentage per uur is gekoppeld, kunt u ook de hoeveelheid kosten voor de overuren van die gebruiker berekenen.\
-For information about associating users with Cost per Hour rates, see the article [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Voor informatie over het associëren van gebruikers met Kosten per de tarieven van het Uur, zie het artikel [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 >[!NOTE]
 >
->The Overtime field that you can add to a Timesheet view in a list or a report displays the information found in the Overtime field of the timesheet. This information is updated manually by a user with access to modify the timesheet. For more information about the Overtime field in a timesheet, see the article [Timesheet layout overview](../../../timesheets/timesheets/timesheet-layout.md).
+>Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Voor meer informatie over het gebied van Overuren in een timesheet, zie het artikel [ overzicht van de lay-out van de Tijdopnemer ](../../../timesheets/timesheets/timesheet-layout.md).
 
-![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+![ calculate_overtime_cost_in_timesheet_report.png ](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,29 +51,29 @@ For information about associating users with Cost per Hour rates, see the articl
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor een rapport beheren</p>  </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Calculate overtime cost in a Timesheet View
+## De kosten voor overwerk berekenen in een tijdlijnweergave
 
-To add a calculated Overtime column to a timesheet view:
+U voegt als volgt een berekende kolom Overuren toe aan een tijdlijnweergave:
 
 1. Ga naar een lijst met tijdbladen.
 
 1. Klik het **drop-down menu van de Mening**, dan klik **Nieuwe Mening**.
 
 1. Klik **toevoegen Kolom**.
-1. Click **Switch to Text Mode**, then click **Edit Text Mode**.
-1. In the **Edit Text Mode** box, remove the text in the box, then copy and paste the following text mode code:
+1. Klik **Schakelaar aan de Wijze van de Tekst**, dan klik **uitgeven de Wijze van de Tekst**.
+1. Op **geef de Wijze van de Tekst** vakje uit, verwijder de tekst in de doos, dan kopieer en kleef de volgende code van de tekstwijze:
 
    ```
    displayname=Calculated Overtime Cost
@@ -85,10 +87,10 @@ To add a calculated Overtime column to a timesheet view:
 
    >[!NOTE]
    >
-   >This calculation assumes that the user usually works a 40-hour week.
+   >Deze berekening veronderstelt dat de gebruiker gewoonlijk een week van 40 uur werkt.
 
-1. Click **Done**, then name the new view and click **Save View** in a list of timesheets.
+1. Klik **Gedaan**, dan noem de nieuwe mening en klik **sparen Mening** in een lijst van timesheets.
 
-   The cost of the overtime of each user is displayed in the **Calculated Overtime Cost** column.
+   De kosten van overwerk van elke gebruiker worden getoond in de **Berekende Kostprijs van Overwerk** kolom.
 
 

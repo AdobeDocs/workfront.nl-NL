@@ -6,7 +6,9 @@ description: U kunt teams deactiveren die u niet meer gebruikt, terwijl de bijbe
 author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -68,7 +70,7 @@ Gedetactiveerde teams worden niet weergegeven wanneer u naar een team zoekt, maa
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,7 +98,7 @@ Wanneer het gebruiken van verzoekrijen, als u een team deactiveert dat als stand
 
 Gedetactiveerde teams worden weergegeven in de volgende gebieden:
 
-* Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [&#x200B; begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Een team verwijderen
 

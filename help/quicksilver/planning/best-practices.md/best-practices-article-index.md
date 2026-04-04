@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -21,9 +23,9 @@ ht-degree: 0%
 >
 >Uw organisatie moet een Workfront Planning Prime of hoger pakket hebben om de functies te kunnen ondersteunen die in dit artikel worden aanbevolen.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+>Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 In de volgende artikelen leert u tips voor het implementeren van Adobe Workfront Planning in uw organisatie met behulp van een strategie die voorrang geeft aan veiligheid, verstoring minimaliseert en snelle wins biedt.
 

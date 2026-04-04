@@ -1,40 +1,42 @@
 ---
-title: First Quarter 2025 Proofing enhancements
-description: First Quarter 2025 Proofing enhancements
+title: Verbeteringen voor proefdrukken in eerste kwartaal 2025
+description: Verbeteringen voor proefdrukken in eerste kwartaal 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# First Quarter 2025 Proofing enhancements
+# Verbeteringen voor proefdrukken in eerste kwartaal 2025
 
-This page describes all proofing enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2025 release.
+Op deze pagina worden alle testverbeteringen beschreven die zijn aangebracht met de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2025.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Desktop Proofing Viewer-upgrade
 
-We&#39;ve updated Desktop Viewer with the latest Electron 33.3.0 version which uses Chromium 130.0.6723.152.
+We hebben de Desktop Viewer bijgewerkt met de nieuwste versie van Electron 33.3.0 die Chromium 130.0.6723.152 gebruikt.
 
-For information about installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+Voor informatie over het installeren van de Desktop het Proofing Kijker, zie [ de Desktop het Proofing Kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) installeren.
 
 
-Latest version: 2.1.44
+Laatste versie: 2.1.44
 
 ## Nieuwe browserextensie voor interactieve revisie beschikbaar in bètaversie
 
 >[!NOTE]
 >
->Preview release: November 7, 2024; Production release for all customers: November 7, 2024.
+>Voorvertoningsrelease: 7 november 2024; Productieversie voor alle klanten: 7 november 2024.
 
 We introduceren een nieuwe browserextensie, het Adobe Workfront-revisieprogramma, ter vervanging van de oudere browserextensie voor het controleren van interactieve ZIP-inhoud. De oudere browserextensie wordt verwijderd op 28 februari 2025.
 
-Het nieuwe Adobe Workfront-revisieprogramma ondersteunt het evalueren van ZIP-inhoud in alle algemene browsers. In addition to ZIP content, the new extension will also support reviewing URL content and is currently in beta.
+Het nieuwe Adobe Workfront-revisieprogramma ondersteunt het evalueren van ZIP-inhoud in alle algemene browsers. Naast ZIP-inhoud biedt de nieuwe extensie ook ondersteuning voor het reviseren van URL-inhoud. De extensie is momenteel bètaversie.
 
-To install the new extension, see the [Install the extension](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension) section in [Review interactive content with the Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+Om de nieuwe uitbreiding te installeren, zie [ de uitbreiding ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension) sectie in [ de interactieve inhoud van het Overzicht met het revisiehulpmiddel van Adobe Workfront ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren.

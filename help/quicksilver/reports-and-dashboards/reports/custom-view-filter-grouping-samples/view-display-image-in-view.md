@@ -7,7 +7,9 @@ description: U kunt de naam van een object in een weergave vervangen door een af
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -24,7 +26,7 @@ U kunt de naam van een object in een weergave vervangen door een afbeelding in d
 >
 >Afbeeldingen worden weergegeven in de werkelijke resolutie, dus probeer kleine afbeeldingen te gebruiken.
 
-![&#x200B; vervang projectnaam met beeld en verbinding &#x200B;](assets/replace-project-name-with-image-and-link-350x125.png)
+![ vervang projectnaam met beeld en verbinding ](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Toegangsvereisten
 
@@ -55,7 +57,7 @@ U kunt de naam van een object in een weergave vervangen door een afbeelding in d
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +81,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    1. Klik met de rechtermuisknop en selecteer **het beeldplaats van het Exemplaar**, of **krijg verbinding**, afhankelijk van uw browser. U hebt nu de URL voor die specifieke afbeelding en kunt deze plakken vanaf het klembord.
    1. Zorg ervoor dat iedereen met die verbinding toestemmingen heeft om het beeld te bekijken door enkel naar de verbinding te gaan en zij hebben geen login nodig om tot het toegang te hebben.
 
-1. Ga naar een project, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
+1. Ga naar een project, klik **Meer** menu ![ Meer pictogram ](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
 
 1. Op het **URL** gebied, voeg de verbinding aan het beeld toe.
 1. Ga naar een projectmening in een lijst van projecten.

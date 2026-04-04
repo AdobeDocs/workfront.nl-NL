@@ -4,7 +4,10 @@ description: Verbeteringen in document en goedkeuring eerste kwartaal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -15,9 +18,10 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen in Document en Goedkeuring die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--## Set up brands for the AI reviewer in Workfront
+<!--
+## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
@@ -27,7 +31,8 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-The AI reviewer is currently in beta.-->
+The AI reviewer is currently in beta.
+-->
 
 ## Een Workfront-project kiezen wanneer een revisie wordt verzonden in Adobe Express
 
@@ -41,7 +46,7 @@ U kunt een Workfront-project kiezen waarnaar u een proefdruk wilt verzenden. Hie
 
 Voorheen werd de proefdruk automatisch toegevoegd aan een Express-specifiek project.
 
-Voor meer informatie, zie [&#x200B; de integratie van Adobe Express en van Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Voor meer informatie, zie [ de integratie van Adobe Express en van Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 ## Integratie tussen organisaties voor Adobe Express met Workfront-proefdrukken
 
@@ -53,7 +58,7 @@ Voor meer informatie, zie [&#x200B; de integratie van Adobe Express en van Workf
 
 We introduceren ondersteuning voor verschillende organisaties voor Adobe Express met Workfront Proofing. Dankzij deze uitbreiding kunnen klanten die in meerdere IMS-organisaties werken, probleemloos proofing-workflows gebruiken en beheren.
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de integratie van Adobe Express en Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Voor meer informatie, zie [ begonnen worden met de integratie van Adobe Express en Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 
 ## Adobe Experience Manager is nu beschikbaar met de integratie Frame.io
@@ -66,5 +71,4 @@ Voor meer informatie, zie [&#x200B; begonnen worden met de integratie van Adobe 
 
 U kunt nu de Experience Manager Assets-&#x200B; gebruiken om uw digitale middelen te beheren en op te slaan die de controle- en goedkeuringscyclus hebben doorlopen. Dankzij deze integratie kunt u de mogelijkheden van Adobe Experience Manager, Frame.io en Workfront benutten om uw contentbeheer en samenwerkingsprocessen te stroomlijnen.
 
-Voor meer informatie, zie [&#x200B; Gebruik Adobe Experience Manager met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
-
+Voor meer informatie, zie [ Gebruik Adobe Experience Manager met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).

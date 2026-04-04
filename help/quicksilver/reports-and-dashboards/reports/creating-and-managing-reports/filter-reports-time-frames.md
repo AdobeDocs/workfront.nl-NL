@@ -6,7 +6,9 @@ description: U kunt een rapport filteren op het tijdframe van een datum die op e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -49,7 +51,7 @@ U kunt een rapport filteren op het tijdframe van een datum die op een object bes
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +59,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Het rapport moet worden gecreeerd alvorens u zijn resultaten kunt filtreren.
 
-Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport filteren op de tijdlijn van een datum {#filter-a-report-by-the-timeframe-of-a-date}
 
@@ -70,7 +72,7 @@ Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &
 1. Klik **toevoegen een Regel van de Filter**, dan **Uitgezocht een gebied**.
 
 1. In **selecteer een gebied** dialoogdoos, uitgezochte **Uur**, toen **Datum van de Ingang**.
-   ![&#x200B; het Filtreren het rapport van uur door timeframe &#x200B;](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![ het Filtreren het rapport van uur door timeframe ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Selecteer een van de volgende opties in het keuzemenu dat wordt weergegeven:
 

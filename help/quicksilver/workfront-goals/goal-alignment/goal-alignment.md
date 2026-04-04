@@ -8,7 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -25,9 +27,10 @@ ht-degree: 0%
 >Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
->&#x200B;>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
-<!--Old:
+<!--
+Old:
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:    
@@ -43,14 +46,15 @@ ht-degree: 0%
 >    
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md). -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Het verzekeren dat alle doelstellingen in uw onderneming van om het even welk niveau aan elkaar en aan de algemene strategie worden gericht is een belangrijke stap in het succes van uw organisatie.
 
 In de volgende artikelen vindt u meer informatie over het uitlijnen van doelen in Adobe Workfront:
 
-* [&#x200B; Goal groeperingsoverzicht in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [&#x200B; richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [&#x200B; richt doelstellingen door resultaten en activiteiten in doelstellingen om te zetten &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [&#x200B; verwijder doelgroepering in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [ Goal groeperingsoverzicht in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [ richt doelstellingen door resultaten en activiteiten in doelstellingen om te zetten ](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [ verwijder doelgroepering in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
 * [Navigeren in de sectie Goal Alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

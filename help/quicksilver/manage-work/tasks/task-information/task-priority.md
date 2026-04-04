@@ -7,7 +7,9 @@ description: U kunt een prioriteit voor een taak bepalen om erop te wijzen hoe b
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -46,11 +48,12 @@ U kunt een prioriteit voor een taak bepalen om erop te wijzen hoe belangrijk de 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,13 +76,14 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    <td> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Overzicht van taakprioriteiten
 
 Houd rekening met het volgende wanneer u taakprioriteiten gebruikt:
 
-* Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze kunnen nieuwe prioriteiten maken. Hierdoor kunnen de opties die u hebt voor het veld Prioriteit in uw Workfront-instantie afwijken van de opties die hieronder worden vermeld. Voor informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+* Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze kunnen nieuwe prioriteiten maken. Hierdoor kunnen de opties die u hebt voor het veld Prioriteit in uw Workfront-instantie afwijken van de opties die hieronder worden vermeld. Voor informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 * Aan elk prioritair label is een nummer gekoppeld dat niet kan worden gewijzigd.
 
   U zou vertrouwd met de nummeringsopeenvolging voor prioriteiten moeten worden die in uw organisatie worden gebruikt.
@@ -102,5 +106,5 @@ Houd rekening met het volgende wanneer u taakprioriteiten gebruikt:
 
 1. Ga naar de taak waarvan prioriteit u wilt wijzigen.
 1. Klik **Details van de Taak** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/qs-edit-icon.png) uit, dan op het **Overzicht** gebied, selecteer een waarde voor het **Prioriteit** gebied.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) uit, dan op het **Overzicht** gebied, selecteer een waarde voor het **Prioriteit** gebied.
 1. Klik **sparen** **Veranderingen**.

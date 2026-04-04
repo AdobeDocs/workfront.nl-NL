@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 1%
@@ -18,7 +20,7 @@ ht-degree: 1%
 
 De het middelgebieden van het abonnement van de gebeurtenis vertegenwoordigen trekkers voor gebeurtenissen die in een gebeurtenisabonnement resulteren die een uitgaand bericht verzenden naar een gevormd eindpunt. Wanneer een middelgebied wordt uitgegeven, wordt een gebeurtenis van de UPDATE teweeggebracht.
 
-Gegevens kunnen worden gefilterd met geneste filters. Voor meer informatie, zie [&#x200B; Gebruikend genestelde filters &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in het Abonnement API van de artikelgebeurtenis.
+Gegevens kunnen worden gefilterd met geneste filters. Voor meer informatie, zie [ Gebruikend genestelde filters ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in het Abonnement API van de artikelgebeurtenis.
 
 In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bronnen met abonnementen voor gebeurtenissen:
 

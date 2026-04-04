@@ -5,7 +5,9 @@ description: Met AI kunt u aanvraagvelden automatisch aanvullen met gegevens uit
 author: Alina
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -49,7 +51,7 @@ Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toega
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,15 +65,15 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
 1. Maak een aanvraag.
 
-   Voor instructies, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   Voor instructies, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 1. Velden invullen.
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
-   ![&#x200B; Accepteer of verwerp suggestie &#x200B;](assets/accept-reject-suggestion.png)
+   ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
    of
 

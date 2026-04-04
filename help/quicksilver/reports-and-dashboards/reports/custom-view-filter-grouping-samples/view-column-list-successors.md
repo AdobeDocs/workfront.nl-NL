@@ -7,7 +7,9 @@ description: U kunt een kolom aan een taakmening toevoegen om een lijst van de o
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 U kunt een kolom aan een taakmening toevoegen om een lijst van de opvolgers van de taken te tonen. De **kolom van de Opvolgers van de Taak** omvat het aantal van de opvolger evenals de naam.
 
-![&#x200B; task_view_with_a_list_of_succesors_.png &#x200B;](assets/task-view-with-a-list-of-successors--350x118.png)
+![ task_view_with_a_list_of_succesors_.png ](assets/task-view-with-a-list-of-successors--350x118.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +53,7 @@ U kunt een kolom aan een taakmening toevoegen om een lijst van de opvolgers van 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

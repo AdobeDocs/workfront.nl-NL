@@ -6,7 +6,9 @@ description: U kunt eenvoudig communiceren met de leden van uw projectteam via A
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 U kunt eenvoudig communiceren met de leden van uw projectteam via Adobe Workfront.
 
-Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,11 +51,12 @@ Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Een e-mail verzenden naar een projectteamlid {#send-an-email-to-a-project-team-member}
 
@@ -91,7 +95,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker**.
 
-   ![&#x200B; verzendt update naar gebruikersdoos op project &#x200B;](assets/send-update-to-user-box-on-project.png)
+   ![ verzendt update naar gebruikersdoos op project ](assets/send-update-to-user-box-on-project.png)
 
 1. Typ uw update in **post een update aan het project** gebied.
 1. (Facultatief) om de update privé te maken, selecteer **Privé aan mijn bedrijf** optie.
@@ -111,9 +115,9 @@ U kunt projectupdates naar teamleden en naar andere gebruikers verzenden die gee
 1. Klik **Mensen** in het linkerpaneel.
 1. (Facultatief en voorwaardelijk) als de gebruikers u updates wilt verzenden om niet op het projectteam zijn, klik **gebruikers** toevoegen om hen aan het projectteam toe te voegen.
 
-   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [&#x200B; het Team van het Project beheren &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-1. Verzend een update naar de leden van het projectteam, zoals die in de sectie [&#x200B; wordt beschreven verzendt een e-mail naar een lid van het Team van het Project &#x200B;](#send-an-email-to-a-project-team-member) in dit artikel.
+1. Verzend een update naar de leden van het projectteam, zoals die in de sectie [ wordt beschreven verzendt een e-mail naar een lid van het Team van het Project ](#send-an-email-to-a-project-team-member) in dit artikel.
 
    De update en de namen van de gebruikers inbegrepen in het tonen in de **sectie van Updates** van het project.
 

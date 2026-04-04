@@ -6,7 +6,9 @@ description: U kunt een afzonderlijke uitgave bewerken of uitgaven in een lijst 
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
@@ -18,17 +20,19 @@ ht-degree: 0%
 <!--Audited: 10/2025-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 U kunt een afzonderlijke uitgave bewerken of uitgaven in een lijst met uitgaven of rapport bewerken. In dit artikel wordt beschreven hoe u problemen in lijsten kunt bewerken.
 
-Voor informatie over het uitgeven van een individuele kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+Voor informatie over het uitgeven van een individuele kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -64,11 +68,12 @@ Voor informatie over het uitgeven van een individuele kwestie, zie [&#x200B; kwe
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +96,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Problemen met inline bewerken
 
@@ -110,23 +116,23 @@ Een uitgave inline bewerken:
 1. Ga naar een lijst met problemen in een project of taak.
 1. Klik in een veld waarvoor u gemachtigd bent om handmatig bij te werken. Het veld wordt bewerkbaar en u kunt de wijzigingen aanbrengen.
 
-   ![&#x200B; geeft kwesties inline uit &#x200B;](assets/edit-issues-inline-350x34.png)
+   ![ geeft kwesties inline uit ](assets/edit-issues-inline-350x34.png)
 
 1. Druk op Enter wanneer u de wijzigingen wilt accepteren. Wijzigingen worden direct opgeslagen.
 
-   Voor informatie over gealigneerde het uitgeven voorwerpen, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+   Voor informatie over gealigneerde het uitgeven voorwerpen, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 ## Uitgaven bewerken in een lijst
 
 1. Ga naar een lijst met problemen in een project of taak.
 1. Voer een van de volgende handelingen uit
 
-   * Selecteer de kwestie in de lijst, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/qs-edit-icon.png) in de toolbar uitgeven.
+   * Selecteer de kwestie in de lijst, dan klik **uitgeven** pictogram ![ pictogram ](assets/qs-edit-icon.png) in de toolbar uitgeven.
    * Klik de naam van de kwestie, dan klik **uitgeven**.
 
      Om het even welk van deze acties opent **uitgeeft doos**.
 
-     Voor informatie over het uitgeven van kwesties in **geef Uitgave** doos uit, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+     Voor informatie over het uitgeven van kwesties in **geef Uitgave** doos uit, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ## Uitgaven bewerken met de samenvatting
 
@@ -137,19 +143,19 @@ U kunt een uitgave in een lijst bewerken met het deelvenster Overzicht.
 
    De lijst met problemen in het project wordt weergegeven.
 
-1. Selecteer een kwestie die u wilt uitgeven, dan het **Open samenvatting** pictogram ![&#x200B; Open samenvattingspictogram &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
+1. Selecteer een kwestie die u wilt uitgeven, dan het **Open samenvatting** pictogram ![ Open samenvattingspictogram ](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
 
    Het **Samenvatting** opent.
 
 1. (Facultatief) begin een update voor de kwestie in het **gebied van Updates** te typen.
 1. Klik op een van de volgende pictogrammen of gebieden om naar de uitgave te gaan en informatie te bewerken op het niveau van de uitgave:
 
-   | Pictogram | Handeling |
+   | Pictogram | Actie |
    |---|---|
-   | Documenten ![&#x200B; pictogram van Documenten &#x200B;](assets/documents-icon-in-summary.png) | Klik **klik hier om** toe te voegen om documenten aan de kwestie toe te voegen. |
-   | Het pictogram van Details ![&#x200B; &#x200B;](assets/details-icon-in-summary.png) | Klik om informatie over de kwestie bij te werken. |
-   | Uren ![&#x200B; tijd van het Logboek &#x200B;](assets/log-time-icon-in-summary.png) | Klik om de uren te registreren. |
-   | Goedkeuringen ![&#x200B; pictogram van Goedkeuringen &#x200B;](assets/approvals-icon-in-summary.png) | Klik om goedkeuringen voor uitgaven toe te voegen. |
+   | Documenten ![ pictogram van Documenten ](assets/documents-icon-in-summary.png) | Klik **klik hier om** toe te voegen om documenten aan de kwestie toe te voegen. |
+   | Het pictogram van Details ![ ](assets/details-icon-in-summary.png) | Klik om informatie over de kwestie bij te werken. |
+   | Uren ![ tijd van het Logboek ](assets/log-time-icon-in-summary.png) | Klik om de uren te registreren. |
+   | Goedkeuringen ![ pictogram van Goedkeuringen ](assets/approvals-icon-in-summary.png) | Klik om goedkeuringen voor uitgaven toe te voegen. |
 
 1. (Facultatief) klik opnieuw het **Open Samenvatting** pictogram, of het **X pictogram** in het hoger-recht van de Samenvatting om het paneel te sluiten en de kwestie gealigneerd uit te geven.
 
@@ -164,7 +170,7 @@ Uitgave bulksgewijs bewerken:
 1. Klik op de naam van een project om het project te openen.
 1. Klik **Kwesties** in het linkerpaneel.
 1. Selecteer verschillende problemen in de lijst.
-1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    Het **geeft de dialoogdoos uit van Kwesties** opent.
 
@@ -178,7 +184,7 @@ Uitgave bulksgewijs bewerken:
    * Instellingen
    * Opmerking
 
-   Voor meer informatie over het uitgeven van een kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+   Voor meer informatie over het uitgeven van een kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
    >[!NOTE]
    >
@@ -196,7 +202,7 @@ Uitgave bulksgewijs bewerken:
 
    Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar voor alle geselecteerde uitgaven.
 
-1. (Facultatief) met alle kwesties die in de lijst worden geselecteerd, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst van de kwestie, dan klik **Uitdrukkingen** opnieuw berekenen.
+1. (Facultatief) met alle kwesties die in de lijst worden geselecteerd, klik **Meer** menu ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst van de kwestie, dan klik **Uitdrukkingen** opnieuw berekenen.
 
    >[!IMPORTANT]
    >
