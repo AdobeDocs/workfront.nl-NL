@@ -2,23 +2,27 @@
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Een canvasdashboard delen
-description: U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers zodat deze het kunnen bekijken of bewerken.
+description: U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat deze het kunnen bekijken of bewerken.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Een canvasdashboard delen
 
+{{highlighted-preview}}
+
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet voltooid of werken zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in te volgen [&#x200B; geef terugkoppel &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de Dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -27,9 +31,9 @@ ht-degree: 0%
 
 U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat deze het kunnen bekijken of bewerken.
 
-## Toegangseisen
+## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -59,18 +63,18 @@ U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat d
         <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td><p>Machtigingen voor het dashboard weergeven om het dashboard te delen</p>
-   <p>Machtigingen voor het dashboard beheren om dashboard-machtigingen toe te wijzen</p>
+   <p>Machtigingen voor het dashboard beheren om dashboardmachtigingen toe te wijzen</p>
   </td> 
   </tr>
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Overwegingen bij het delen van dashboards
 
-* Dashboards kunnen worden gedeeld met gebruiker, team, groep, taakrol of bedrijfsmiddelen.
+* De dashboards kunnen aan gebruiker, team, groep, baanrol, of bedrijfmiddelen worden gedeeld.
 
 * Standaard heeft de maker van een dashboard beheermachtigingen voor het dashboard.
 
@@ -82,21 +86,23 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 * Wanneer een dashboard door een lay-outmalplaatje wordt verdeeld, wordt een automatische toestemming van de Mening voor het dashboard (en zijn rapporten) verleend aan alle middelen die aan het lay-outmalplaatje worden toegewezen.
 
+* <span class="preview"> wanneer een rapport op een dashboard met de Looppas als optie van de Gebruiker wordt gevormd, zien alle kijkers gegevens die op de geselecteerde toestemmingen van de gebruiker eerder dan hun worden gebaseerd. Dit betekent dat viewers gegevens kunnen zien waartoe ze normaal geen toegang hebben. Als sommige rapporten op een dashboard gebruiken Looppas aangezien de Gebruiker en anderen niet, de kijkers inconsistente gegevens over rapporten kunnen zien.</span>
+
 
 ## Een canvasdashboard delen
 
 
 {{step1-to-dashboards}}
 
-1. In het linkerpaneel, klik **Dashboards van het Canvas**.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
 1. Op de **pagina van de Dashboards van het Canvas**, selecteer het dashboard u wilt delen.
 
-1. In de hoger-juiste hoek van de pagina, klik de **knoop van het Aandeel**. Het **Dashboard dat** dialoogdoos deelt verschijnt.
+1. In de hoger-juiste hoek van de pagina, klik de **knoop van het Aandeel**. Het **Dashboard dat** dialoogvakje deelt verschijnt.
 
-   ![&#x200B; knoop van het Aandeel &#x200B;](assets/share-button.png)
+   ![ knoop van het Aandeel ](assets/share-button.png)
 
-1. Op **geef toegang tot** gebied, begin typend de naam van een specifieke gebruiker, een team, een rol, een groep, of een bedrijf u het Dashboard van het Canvas met wilt delen, dan selecteer het wanneer het in de drop-down lijst verschijnt.
+1. Op **geef toegang tot** gebied, begin het typen van de naam van een specifieke gebruiker, een team, een rol, een groep, of een bedrijf u het Dashboard van het Canvas met wilt delen, dan het wanneer het in de drop-down lijst verschijnt.
 
 1. (Facultatief) om de toegang van een middel tot het dashboard uit te geven, klik **Mening** naast hun naam, dan uitgezocht **leidt** in de drop-down lijst die verschijnt.
 
@@ -111,5 +117,5 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >[!NOTE]
    >
    > Individuele gebruikersvoorkeuren en systeemuitsluitingen voor e-mailberichten kunnen van toepassing zijn. <br>
-   > Meldingen worden alleen verzonden wanneer ze rechtstreeks met een gebruiker worden gedeeld. Het delen aan groepen, rollen, bedrijven, en teams produceert e-mailberichten niet.<br>
-   > Machtigingen die zijn overgenomen van een lay-outsjabloon genereren geen e-mailmelding over de toegang tot het dashboard.
+   > Meldingen worden alleen verzonden wanneer ze rechtstreeks met een gebruiker worden gedeeld. Het delen aan groepen, rollen, bedrijven, en de teams produceren geen e-mailberichten.<br>
+   > De toestemmingen die van een lay-outmalplaatje worden geërft zullen geen e-mailbericht over de toegang tot het dashboard produceren.
