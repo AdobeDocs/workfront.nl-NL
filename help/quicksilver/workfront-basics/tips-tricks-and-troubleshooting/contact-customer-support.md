@@ -85,7 +85,7 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 >Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
-1. Klik op de [[!DNL Experience League] &#x200B;](https://experienceleague.adobe.com) -website **[!UICONTROL Support]** boven aan de pagina.
+1. Klik op de [[!DNL Experience League] &#x200B;](https://experienceleague.adobe.com/nl) -website **[!UICONTROL Support]** boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -141,7 +141,7 @@ Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u he
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=nl)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
