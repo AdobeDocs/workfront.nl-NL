@@ -29,7 +29,7 @@ U kunt alle controlelogboeken in het systeem bekijken, of die die aan bepaalde h
 
 De logboeken van de controle maken een lijst gebruiker-veranderingen die in het systeem tijdens de afgelopen 90 dagen in werking worden gesteld.
 
-Voor informatie over alle types van controlelogboek en wat hen produceert, zie [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Voor informatie over alle types van controlelogboek en wat hen produceert, zie [&#x200B; overzicht van de Logboeken van de Controle &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ Voor informatie over alle types van controlelogboek en wat hen produceert, zie [
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +103,7 @@ Old:
 
    **Alle Types van Logboek** wordt geselecteerd door gebrek.
 
-   Voor een lijst van alle types van controlelogboek kunt u bekijken en de informatie zij omvatten, zie [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Voor een lijst van alle types van controlelogboek kunt u bekijken en de informatie zij omvatten, zie [&#x200B; overzicht van de Logboeken van de Controle &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optioneel) Stel de beschikbare filters in voor de volgende velden:
 
@@ -111,7 +111,7 @@ Old:
    * **van**: De datum van het begin van het tijdkader toen de verandering werd aangebracht.
    * **aan**: Einddatum van het tijdkader toen de verandering werd aangebracht.
 
-   ![ Logboeken van de Controle ](assets/audit-logs.png)
+   ![&#x200B; Logboeken van de Controle &#x200B;](assets/audit-logs.png)
 
 1. Klik **toepassen**.
 1. (Facultatief) klik **Duidelijk** om veranderingen terug te stellen die aan de filters worden aangebracht.

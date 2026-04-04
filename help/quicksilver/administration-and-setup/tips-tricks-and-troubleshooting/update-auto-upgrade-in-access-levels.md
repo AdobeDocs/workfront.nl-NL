@@ -45,6 +45,6 @@ Om te bekijken welke toegangsniveaus als auto-verbeteringsopties worden toegewez
 
 Om een nieuwe auto-verbeteringsoptie aan een toegangsniveaus toe te wijzen:
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. In het juiste paneel, klik **Niveaus van de Toegang**.

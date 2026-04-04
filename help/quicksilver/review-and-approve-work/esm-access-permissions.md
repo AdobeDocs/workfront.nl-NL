@@ -39,7 +39,7 @@ De toegang tot documenten gedraagt zich verschillend afhankelijk van of het proj
 
 Als u Adobe Enterprise Storage hebt ingeschakeld in uw Workfront-omgeving, kunt u zowel Adobe Enterprise Storage-projecten als oudere Workfront-opslagprojecten maken. Bij verouderde Workfront-opslagprojecten wordt een pictogram weergegeven naast de projectnaam, waar deze ook wordt weergegeven in Workfront. Adobe Enterprise Storage-projecten geven geen pictogram weer.
 
-![ pictogram van de erfeniswerkfront opslag naast projectnaam ](assets/legacy-project-icon.png)
+![&#x200B; pictogram van de erfeniswerkfront opslag naast projectnaam &#x200B;](assets/legacy-project-icon.png)
 
 
 ### Omgevingen die alleen gebruikmaken van Adobe Enterprise Storage

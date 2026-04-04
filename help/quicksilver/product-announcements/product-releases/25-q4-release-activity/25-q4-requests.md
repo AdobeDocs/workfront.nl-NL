@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Weergaven maken en opslaan in het gebied Verzoeken
 
@@ -32,7 +32,7 @@ Om het gemakkelijker te maken om de informatie te zien u nodig hebt, hebben wij 
 
 Eerder konden filters en kolomconfiguraties niet worden opgeslagen.
 
-Voor informatie en instructies, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren.
+Voor informatie en instructies, zie [&#x200B; meningen in het gebied van Verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren.
 
 <!--
 ## New combined Status column in unified Request list 
@@ -81,5 +81,5 @@ Eerder stonden Workfront- en Workfront-planningsverzoeken op aparte tabbladen en
 
 Zie voor meer informatie over het maken van aanvragen:
 
-* Voor Workfront: [ creeer en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Voor de Planning van Workfront: [ legt Adobe Workfront Planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
+* Voor Workfront: [&#x200B; creeer en verzend verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Voor de Planning van Workfront: [&#x200B; legt Adobe Workfront Planningsverzoeken voor om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen

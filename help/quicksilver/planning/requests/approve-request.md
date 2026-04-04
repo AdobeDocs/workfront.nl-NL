@@ -49,7 +49,7 @@ We raden u aan ook de volgende artikelen te bekijken:
    * **Voltooid**: Als alle fiatteurs het verzoekvoorwerp goedkeuren, zijn statusveranderingen in **Voltooid**, of als het verzoek geen goedkeuring verwierf.
    * **Verworpen**: Als om het even welke fiatteur het verzoekvoorwerp verwerpt, wordt de status **Geweigerd**. Er wordt geen record gemaakt en er moet een nieuw verzoek worden ingediend om de record te maken.
 
-* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Toegangsvereisten
 
@@ -84,7 +84,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -112,20 +112,20 @@ U kunt verzoeken goedkeuren om verslagen van het verzoek zelf, of van Mijn goedk
 
 1. Open het verzoek door een van de volgende handelingen uit te voeren:
 
-   * Klik **** Belangrijkste menu van het Menu van de Lijnen ![ in de upper-left hoek, dan klik ](assets/lines-menu.png) Verzoeken **>** Gebruik nieuwe ervaring **, en klik het verzoek met het statuut van** In afwachting van Overzicht **.**
+   * Klik **&#x200B;**&#x200B;Belangrijkste menu van het Menu van de Lijnen ![&#x200B; in de upper-left hoek, dan klik &#x200B;](assets/lines-menu.png) Verzoeken **>** Gebruik nieuwe ervaring **, en klik het verzoek met het statuut van** In afwachting van Overzicht **.**
 
      >[!TIP]
      >
      >* Als u geen toegang hebt tot Workfront Planning, of als u geen toegang hebt tot om het even welke werkruimten te bekijken, kunt u tot een verzoek slechts toegang hebben om het goed te keuren gebruikend uw e-mail of in-app berichten.
      >* U hebt geen toegang tot planningsverzoeken vanuit de ervaring met oudere aanvragen.
 
-   * Klik het **pictogram van het het gebiedspictogram van Meldingen** in Verenigde Shell ![ in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.](assets/notifications-area-icon-unified-shell.png)
+   * Klik het **pictogram van het het gebiedspictogram van Meldingen** in Verenigde Shell ![&#x200B; in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.](assets/notifications-area-icon-unified-shell.png)
    * Ga naar het e-mailbericht in uw e-mail die u over een verzoek in afwachting van uw goedkeuring op de hoogte brengt, dan klik **Open verzoek** om het verzoek te openen.
 
    De aanvraagpagina wordt geopend in de modus Alleen-lezen.
 
-   ![ read-only verzoekpagina in overzichtsstatus ](assets/read-only-reqeust-page-in-review-status.png)
-1. (Optioneel) Klik op het pictogram **Goedkeuringen** pictogram ![ in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.](assets/approvals-icon.png)
+   ![&#x200B; read-only verzoekpagina in overzichtsstatus &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
+1. (Optioneel) Klik op het pictogram **Goedkeuringen** pictogram ![&#x200B; in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.](assets/approvals-icon.png)
 1. Klik **Overzicht en keur** goed, dan kies één van het volgende:
 
    * **keur** goed: Dit keurt het verzoek goed. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld, nadat alle fiatteurs het verzoek hebben goedgekeurd.
@@ -146,10 +146,10 @@ U kunt verzoeken goedkeuren om verslagen van het verzoek zelf, of van Mijn goedk
 
 1. Ga naar **Mijn goedkeurt** widget in **Huis**.
 
-   ![ Mijn widget goedkeurt in Huis ](assets/my-approvals-widget-in-home.png)
+   ![&#x200B; Mijn widget goedkeurt in Huis &#x200B;](assets/my-approvals-widget-in-home.png)
 1. Zoek het planningsverzoek dat u wilt goedkeuren of afwijzen.
 
-1. (Facultatief) voeg een commentaar toe door de drop-down pijl naast **te klikken goedkeuren** of **Afwijzen**, typend in de nota, en klikkend **** toevoegt.
+1. (Facultatief) voeg een commentaar toe door de drop-down pijl naast **te klikken goedkeuren** of **Afwijzen**, typend in de nota, en klikkend **&#x200B;**&#x200B;toevoegt.
 
 1. Klik op een van de volgende opties:
 

@@ -27,7 +27,7 @@ In dit artikel wordt beschreven hoe u aanvraagconcepten uit de nieuwe aanvraager
 
 Zie voor meer informatie:
 
-* [ creeer en verzend Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [&#x200B; creeer en verzend Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Verzoeken maken op basis van concepten](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 * [Adobe Workfront-planningsverzoeken verzenden om records te maken](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -64,7 +64,7 @@ Zie voor meer informatie:
 </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,9 +92,9 @@ De volgende gebruikers kunnen aanvraagconcepten verwijderen:
 
    1. Zoek **Mijn Verzoeken** widget.
 
-      Voor meer informatie over **Mijn Verzoeken** widget, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over **Mijn Verzoeken** widget, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In de **lijst van Verzoeken** of **Mijn 3} widget van Verzoeken {in** Huis **, bewaar over het verzoek of het ontwerp dat u wilt schrappen, dan het** Meer **menu** Meer menu ![ klikken](assets/more-menu.png)
+1. In de **lijst van Verzoeken** of **Mijn 3&rbrace; widget van Verzoeken &lbrace;in** Huis **, bewaar over het verzoek of het ontwerp dat u wilt schrappen, dan het** Meer **menu** Meer menu ![&#x200B; klikken](assets/more-menu.png)
 
 1. Klik **Schrapping**
 
@@ -122,7 +122,7 @@ De volgende gebruikers kunnen aanvraagconcepten verwijderen:
 
    1. Zoek **Mijn Verzoeken** widget.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. In de **lijst van Verzoeken** of **Mijn Verzoeken** widget, klik de doos links van elk verzoek dat u wilt schrappen.
 1. In de blauwe bar bij de bodem van de pagina, klik **Schrapping**.
@@ -137,7 +137,7 @@ U moet het volgende doen alvorens u een verzoekontwerp kunt schrappen:
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Concepten van verzoeken in de oudere aanvraagervaring verwijderen
 
