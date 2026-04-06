@@ -25,13 +25,13 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >
 >Het aanpassen van objecten kopballen is momenteel beschikbaar voor projecten, taken, kwesties, <span class="preview"> portefeuilles, programma&#39;s, malplaatjes, het factureren verslagen, teams, gebruikers, bedrijven, groepen, en tariefkaarten.</span>
 
-![ de kopbalgebieden van Objecten ](assets/object-header-fields.png)
+![&#x200B; de kopbalgebieden van Objecten &#x200B;](assets/object-header-fields.png)
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -59,13 +59,13 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Objectkoppen aanpassen
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In **pas aan wat de gebruikers** drop-down menu zien, selecteer een voorwerp de waarvan kopbal u wilt aanpassen.
 1. Houd de muisaanwijzer boven de huidige velden in de sectie [!UICONTROL Header fields] en voer een van de volgende handelingen uit:
    * Klik het **x** pictogram om een gebied te verwijderen
@@ -74,7 +74,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * Klik en houd het **greep** pictogram om het gebied in een nieuwe plaats te slepen en te laten vallen.
 
-   ![ de kopbalgebieden van Objecten verbergen en bewegen pictogrammen ](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![&#x200B; de kopbalgebieden van Objecten verbergen en bewegen pictogrammen &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. U kunt maximaal vijf velden in de koptekst van een object opnemen.
 
@@ -90,7 +90,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    >
    >* Wanneer u het veld &quot;Opgelost door&quot; toevoegt aan de koptekst van een probleem, verandert het veld in &quot;Probleem oplossen, Taak of Project&quot; wanneer er een object is dat is gekoppeld aan het probleem.
 
-   ![ voeg gebied aan kopbal toe ](assets/add-field-to-header-in-lt-list.png)
+   ![&#x200B; voeg gebied aan kopbal toe &#x200B;](assets/add-field-to-header-in-lt-list.png)
 
 1. (Optioneel) Sleep de velden in een andere volgorde.
 
