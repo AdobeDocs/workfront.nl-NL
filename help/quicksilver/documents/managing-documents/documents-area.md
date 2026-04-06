@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 In het gebied Documenten kunt u metagegevens voor naar Adobe Workfront geüploade documenten ordenen, beheren en weergeven. U kunt ook de bewijsbeslissing zien.
 
-Workfront heeft momenteel twee versies van het gebied Documenten: het gebied met oudere documenten en het gebied met nieuwe documenten. De versie die uw organisatie gebruikt, hangt af van het feit of uw organisatie op verouderde Workfront-opslag of bedrijfsopslag werkt. Voor meer informatie over deze opslagtypes, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront heeft momenteel twee versies van het gebied Documenten: het gebied met oudere documenten en het gebied met nieuwe documenten. De versie die uw organisatie gebruikt, hangt af van het feit of uw organisatie op verouderde Workfront-opslag of bedrijfsopslag werkt. Voor meer informatie over deze opslagtypes, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Gebied met verouderde documenten
 
 Er zijn twee typen documentgebieden. De eigenschappen en de functionaliteit zijn het zelfde voor beide:
 
-* **documenteert gebied in een programma, een portefeuille, een project, een taak, of een kwestie:** maakt een lijst van alle documenten die u toegang tot voor een bepaald project, een taak, of een kwestie hebt. Om tot dit gebied toegang te hebben, klik **Documenten** pictogram van Documenten ![&#x200B; in het linkerpaneel terwijl het bekijken van een project, een taak, of een kwestie.](assets/document-icon-12x14.png)
+* **documenteert gebied in een programma, een portefeuille, een project, een taak, of een kwestie:** maakt een lijst van alle documenten die u toegang tot voor een bepaald project, een taak, of een kwestie hebt. Om tot dit gebied toegang te hebben, klik **Documenten** pictogram van Documenten ![ in het linkerpaneel terwijl het bekijken van een project, een taak, of een kwestie.](assets/document-icon-12x14.png)
 
-* **Globaal gebied van Documenten:** maakt een lijst van alle documenten die u toegang tot in Workfront hebt. Om tot dit gebied toegang te hebben, klik **Documenten** pictogram van Documenten ![&#x200B; in het Belangrijkste pictogram van het Menu &#x200B;](assets/document-icon.png) Belangrijkste ![.](assets/main-menu-icon.png)
+* **Globaal gebied van Documenten:** maakt een lijst van alle documenten die u toegang tot in Workfront hebt. Om tot dit gebied toegang te hebben, klik **Documenten** pictogram van Documenten ![ in het Belangrijkste pictogram van het Menu ](assets/document-icon.png) Belangrijkste ![.](assets/main-menu-icon.png)
 
-Voor informatie over het uploaden van documenten aan Workfront, zie [&#x200B; documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
+Voor informatie over het uploaden van documenten aan Workfront, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
 
 In het documentgebied wordt een aantal van de volgende items vastgelegd:
@@ -48,25 +48,25 @@ Als proefdrukken is ingesteld voor het document, bevat de sectie Details informa
 
 U kunt op de kop Details klikken om naar het volledige gebied Documentdetails te gaan wanneer u alle informatie over een document nodig hebt.
 
-![&#x200B; gebied van Documenten &#x200B;](assets/documents-area-v2-350x199.png)
+![ gebied van Documenten ](assets/documents-area-v2-350x199.png)
 
-Voor informatie over de Samenvatting, zie [&#x200B; Samenvatting voor documentoverzicht &#x200B;](../../documents/managing-documents/summary-for-documents.md).
+Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../documents/managing-documents/summary-for-documents.md).
 
 ### Bewijs van beslissing
 
 Zodra een bewijskrachtbesluit is genomen, verschijnt het in de lijst van het Document.
 
-![&#x200B; besluit van het Bewijs in documentlijst &#x200B;](assets/proof-decision---doc-list-350x168.png)
+![ besluit van het Bewijs in documentlijst ](assets/proof-decision---doc-list-350x168.png)
 
 ### Mappen
 
-Voor een project, een taak, of een kwestie waar de documenten worden geupload, kunt u opstellingsomslagen om de documenten te organiseren. Voor meer informatie, zie [&#x200B; documentomslagen &#x200B;](../../documents/organizing-documents/create-documents-folder.md) creëren.
+Voor een project, een taak, of een kwestie waar de documenten worden geupload, kunt u opstellingsomslagen om de documenten te organiseren. Voor meer informatie, zie [ documentomslagen ](../../documents/organizing-documents/create-documents-folder.md) creëren.
 
 In het gebied van globale Documenten, kunt u opstelling twee types van omslagen om de documenten te organiseren u toegang hebt tot:
 
-* **Slimme Omslagen:** toon slechts de documenten die u wilt zien. Voor meer informatie, zie [&#x200B; Slimme Omslagen &#x200B;](../../documents/organizing-documents/create-manage-smart-folders.md) creëren en beheren.
+* **Slimme Omslagen:** toon slechts de documenten die u wilt zien. Voor meer informatie, zie [ Slimme Omslagen ](../../documents/organizing-documents/create-manage-smart-folders.md) creëren en beheren.
 
-* **Mijn Omslagen:** organiseer documenten de manier u hen wilt. Voor meer informatie, zie [&#x200B; documentomslagen &#x200B;](../../documents/organizing-documents/create-documents-folder.md) creëren.
+* **Mijn Omslagen:** organiseer documenten de manier u hen wilt. Voor meer informatie, zie [ documentomslagen ](../../documents/organizing-documents/create-documents-folder.md) creëren.
 
 ### Uitgebreide documentdetails
 
@@ -74,9 +74,7 @@ De pagina Documentdetails bevat een uitgebreidere versie van Documentdetails in 
 
 ## Nieuw documentgebied
 
->[!NOTE]
->
->Het gebied met algemene documenten is niet beschikbaar in de nieuwe ervaring in het documentgebied. U hebt alleen toegang tot documenten vanuit programma&#39;s, portfolio&#39;s, projecten, taken of uitgaven.
+Het nieuwe documentengebied is alleen beschikbaar als uw organisatie bedrijfsopslag gebruikt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Het deelvenster Samenvatting gebruiken
 
@@ -86,7 +84,7 @@ Wanneer u een document selecteert in het documentgebied, kunt u het deelvenster 
 
 U kunt documenten in het nieuwe documentengebied bekijken en goedkeuren gebruikend de kijker Frame.io.
 
-Voor meer informatie, zie [&#x200B; begonnen worden met verenigde overzicht en goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+Voor meer informatie, zie [ begonnen worden met verenigde overzicht en goedkeuring ](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Versies beheren
 
@@ -106,3 +104,9 @@ U kunt de geschiedenis van een document weergeven in het nieuwe documentgebied. 
 ### Mappen op systeemniveau voor documentmachtigingen
 
 Workfront maakt automatisch een systeemmap wanneer het eerste document naar een taak of uitgave wordt geüpload. Deze omslagen erven toestemmingen van de taak of de kwestie en zijn zichtbaar in het project-vlakke documentengebied. Alle documenten die naar die taak of uitgave zijn geüpload, worden in die map opgeslagen en nemen er rechten van over. Dit is de primaire manier waarop machtigingen worden beheerd voor documenten in het nieuwe documentengebied. Voor meer informatie, zie {de toestemmingen van 0} Objecten en overzicht van het toegangsniveau voor het model van de ondernemingsopslag van Adobe [.](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)
+
+## Overwegingen
+
+* Het nieuwe documentgebied is geoptimaliseerd voor schermen van 1024 pixels breed of groter. Als u een kleiner scherm hebt, kunt u problemen hebben die tot het Summiere paneel toegang hebben.
+
+* Het gebied met algemene documenten is niet beschikbaar in de nieuwe ervaring in het documentgebied. U hebt alleen toegang tot documenten vanuit programma&#39;s, portfolio&#39;s, projecten, taken of uitgaven.
