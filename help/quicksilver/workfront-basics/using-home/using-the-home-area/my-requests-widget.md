@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Op de widget Mijn verzoeken worden de verzoeken weergegeven die u hebt verzonden
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,13 +78,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U kunt een verzoek rechtstreeks vanuit de widget Mijn verzoeken maken.
 
-Voor instructies, zie de sectie [ een verzoek ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in het artikel [ creeer het werkpunten en projecten van het gebied van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Voor instructies, zie de sectie [&#x200B; een verzoek &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in het artikel [&#x200B; creeer het werkpunten en projecten van het gebied van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Een verzoek kopiëren
 
 U kunt een verzoek kopiëren in Mijn verzoeken widget, het uitgeven, en het voorleggen als nieuw verzoek.
 
-Voor instructies, zie [ Exemplaar en verzend verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Voor instructies, zie [&#x200B; Exemplaar en verzend verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Informatie beheren in de lijst met verzoeken in de widget Mijn verzoeken
 
@@ -95,7 +95,7 @@ The My Requests widget features a customizable filter that allows you to control
 To configure the filter in the My Requests widget:
 -->
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. (Optioneel) Als u de manier wilt beheren waarop de informatie in de lijst met aanvragen wordt weergegeven, maakt of werkt u de volgende weergaveelementen voor de lijst bij:
 
@@ -111,7 +111,7 @@ To configure the filter in the My Requests widget:
 
    </div>
 
-   Voor meer informatie bij het bijwerken van meningselementen in de verzoekenlijst, zie [ Uitgebreide lijsten van het Gebruik ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Voor meer informatie bij het bijwerken van meningselementen in de verzoekenlijst, zie [&#x200B; Uitgebreide lijsten van het Gebruik &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 <!--
@@ -194,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 Om naar specifieke verzoeken in Mijn widget van Verzoeken te zoeken:
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. Voer in de zoekbalk rechtsboven in de widget Mijn verzoeken de term in waarnaar u wilt zoeken.
 
@@ -214,7 +214,7 @@ U kunt objecten die door een aanvraag zijn gemaakt, zoeken in de widget Mijn ver
 >* Planningsrecords die zijn gemaakt op basis van planningsverzoeken in het veld Object dat is gemaakt.
 >* <span class="preview"> de taken en de kwesties van Workfront die van de verzoeken van Workfront op het gecreeerde Voorwerp gebied, in het milieu van de Voorproef worden omgezet.</span>
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**, dan klik het om het aan **Huis** toe te voegen.
 1. Zoek de aanvraag waarmee het object is gemaakt.
 1. Klik de objecten naam in de **Gemaakt objecten** kolom voor dat verzoek.
