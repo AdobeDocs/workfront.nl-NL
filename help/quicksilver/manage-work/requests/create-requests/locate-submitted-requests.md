@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Remove production and preview references at release
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 U kunt de aanvragen bekijken die u of iemand anders heeft verzonden, of u kunt verzoeken die u bent begonnen maar u hebt het verzenden nooit voltooid. De onvoltooide verzoeken worden opgeslagen als concepten.
 
@@ -82,7 +82,7 @@ In het gebied Verzoeken worden de volgende verzoeken weergegeven, afhankelijk va
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +90,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U kunt ingediende verzoeken bekijken in het gebied van Verzoeken of in Mijn Verzoeken widget in Huis.
 
-Voor informatie over Mijn Verzoeken, zie [&#x200B; Gebruik de Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+Voor informatie over Mijn Verzoeken, zie [ Gebruik de Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 Het bekijken van voorgelegde verzoeken is afhankelijk van de vraag of u de nieuwe of oudere ervaring gebruikt.
 
@@ -131,13 +131,13 @@ Om verzoeken te bekijken die u of andere gebruikers in de nieuwe het vragen erva
 
    <div class="preview">
 
-   * Groep
+   * **Groepering**
    * Cellen opmaken
    * Rijhoogte
 
    </div>
 
-   Voor meer informatie bij het beheren van informatie in de verzoekenlijst, zie [&#x200B; Uitgebreide lijsten van het Gebruik &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Voor meer informatie bij het beheren van informatie in de verzoekenlijst, zie [ Uitgebreide lijsten van het Gebruik ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 1. (Facultatief) controleer het statuut van een verzoek door de **kolom van de Status** te controleren. De volgende statussen zijn beschikbaar in de nieuwe ervaring die u opvraagt:
 
@@ -149,7 +149,7 @@ Om verzoeken te bekijken die u of andere gebruikers in de nieuwe het vragen erva
       * Workfront-verzoeken: het verzoek is omgezet en het werk is aan de gang.
       * Aanvragen voor Workfront-planning: De voltooiing van de aanvraag wordt toegewezen aan een specifiek planningsveld en de veldwaarde komt nog niet overeen met de voltooiingswaarde.
 
-        Voor meer informatie, zie [&#x200B; de details van de Configuratie van de Opstelling &#x200B;](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in artikel creëren en beheren een verzoekvorm in de Planning van Adobe Workfront.
+        Voor meer informatie, zie [ de details van de Configuratie van de Opstelling ](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in artikel creëren en beheren een verzoekvorm in de Planning van Adobe Workfront.
    * **Volledig**: Het verzoek wordt voltooid.
 
 ### Verzonden aanvragen in de oudere versie weergeven en ervaringen aanvragen
@@ -167,7 +167,7 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
    >
    >U kunt de kolommen in de lijst Verzendverzoeken niet aanpassen.
 
-   ![&#x200B; voorgelegde verzoeken nieuwe lijst &#x200B;](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![ voorgelegde verzoeken nieuwe lijst ](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. De volgende kolommen worden standaard weergegeven:
@@ -211,17 +211,17 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
    >
    >Wanneer u bij de lijst Verzendverzoeken vandaan navigeert, blijft de geselecteerde sorteeroptie behouden.
 
-1. (Facultatief) selecteer een verzoek in de lijst, dan klik de **Open Samenvatting** pictogram ![&#x200B; Open samenvatting met tekst &#x200B;](assets/open-summary-with-text-nwe.png) om het Samenvattingspaneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [&#x200B; Overzicht &#x200B;](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facultatief) selecteer een verzoek in de lijst, dan klik de **Open Samenvatting** pictogram ![ Open samenvatting met tekst ](assets/open-summary-with-text-nwe.png) om het Samenvattingspaneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [ Overzicht ](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Als het deelvenster Samenvatting al is geopend, verandert het pictogram Samenvatting openen in Samenvatting sluiten.
 
-1. (Facultatief en voorwaardelijk) klik het **X** pictogram in de hoger-juiste hoek of het **Dichte Samenvatting** pictogram ![&#x200B; dicht overzicht met tekst &#x200B;](assets/close-summary-with-text-nwe.png) om het Summiere Comité te sluiten.
+1. (Facultatief en voorwaardelijk) klik het **X** pictogram in de hoger-juiste hoek of het **Dichte Samenvatting** pictogram ![ dicht overzicht met tekst ](assets/close-summary-with-text-nwe.png) om het Summiere Comité te sluiten.
 
-   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Van het **pictogram van de Filter** ![&#x200B; pictogram van de Filter &#x200B;](assets/filter-nwepng.png) in het hoogste recht van de lijst, selecteer om het even welke filters die in de hieronder lijst worden vermeld.
+1. Van het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-nwepng.png) in het hoogste recht van de lijst, selecteer om het even welke filters die in de hieronder lijst worden vermeld.
 
    >[!TIP]
    >
@@ -254,7 +254,7 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
     </tbody> 
    </table>
 
-1. (Facultatief) klik het **pictogram** pictogram van het Onderzoek ![&#x200B; bij de bovenkant van de lijst om naar een verzoek door naam te zoeken. &#x200B;](assets/search-icon.png) De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
+1. (Facultatief) klik het **pictogram** pictogram van het Onderzoek ![ bij de bovenkant van de lijst om naar een verzoek door naam te zoeken. ](assets/search-icon.png) De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
 
    <!--
 
@@ -284,7 +284,7 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
    </ul></li>
    -->
 
-1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [&#x200B; verzoeken van concepten &#x200B;](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
    <!--
    Planning tab has been removed and no longer visible in legacy Requests area: 

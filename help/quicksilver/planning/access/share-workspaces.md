@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers. Voor informatie, zie [&#x200B; een mening &#x200B;](/help/quicksilver/planning/access/share-views.md) delen.
+>Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers. Voor informatie, zie [ een mening ](/help/quicksilver/planning/access/share-views.md) delen.
 
 
 ## Toegangsvereisten
@@ -66,7 +66,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -133,7 +133,7 @@ Old:
 
 ## Overwegingen bij het delen van werkruimten
 
-* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * U kunt werkruimten delen met gebruikers, teams, rollen, groepen, of bedrijven binnen uw organisatie.
 * Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd.
 * U kunt werkruimten niet delen met gebruikers buiten uw organisatie.
@@ -154,42 +154,50 @@ Een werkruimte delen met anderen:
 
 1. Open de werkruimte u wilt delen, dan **Aandeel** in de hoger-juiste hoek van het scherm klikken. Het vak Delen wordt geopend.
 
-   ![&#x200B; knoop van het Aandeel op werkruimte het hoogste recht &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ![ knoop van het Aandeel op werkruimte het hoogste recht ](assets/share-button-on-workspace-top-right.png)
 
 1. <span class="preview"> (Voorwaardelijk) Afhankelijk van het toegangsniveau dat u hebt, voert u een van de volgende handelingen uit:
 
    * Als u een Beheerder van het Systeem bent, selecteer van de volgende opties:</span>
 
-      * <span class="preview">**slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet entiteiten in de het delen doos selecteren en hun toegang tot de werkruimte kiezen. Dit is de standaardselectie. </span>
-      * <span class="preview">**iedereen in het systeem kan** bekijken: Iedereen in het systeem met toegang tot Planning kan de werkruimte in hun **Werkruimten** gebied in Planning bekijken.</span>
+     <div class="preview">
+
+      * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet entiteiten in de het delen doos selecteren en hun toegang tot de werkruimte kiezen. Dit is de standaardselectie.
+      * **iedereen in het systeem kan** bekijken: Iedereen in het systeem met toegang tot Planning kan de werkruimte in hun **Werkruimten** gebied in Planning bekijken.
+
+     </div>
 
    * <span class="preview"> (Voorwaardelijk) Als u een werkruimtemanager bent met een standaardlicentie, kunt u een van de volgende selecties zien, maar u kunt deze niet wijzigen: </span>
 
-      * <span class="preview">**slechts kunnen de uitgenodigde mensen tot** toegang hebben. Dit is het gebrek het plaatsen.</span>
-      * <span class="preview">**iedereen in het systeem kan**</span> bekijken
+     <div class="preview">
 
-     <span class="preview"> u moet een Beheerder van het Systeem vragen om een globale toestemming voor een werkruimte te veranderen.</span>
+      * **slechts kunnen de uitgenodigde mensen tot** toegang hebben. Dit is de standaardinstelling.
+      * **iedereen in het systeem kan** bekijken
+
+     U moet een Beheerder van het Systeem vragen om een globale toestemming voor een werkruimte te veranderen.
+
+     </div>
 
 1. In de **toegang van de Verlening tot dit werkruimte** gebied, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen dan het te klikken wanneer het in de lijst toont.
 
-   <span class="preview">![&#x200B; delend UI met groepen &#x200B;](assets/sharing-ui-with-groups.png)</span>
+   <span class="preview">![ delend UI met groepen ](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
-   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
    >
    >* Wanneer u een werkruimte met een gebruiker deelt, hun primaire baanrol <span class="preview"> en hun e-mail </span> ook tonen op het gebied. U moet de instelling Contactgegevens weergeven hebben ingeschakeld voor het object Users in uw toegangsniveau om de e-mail van de gebruiker te kunnen zien.
 
 1. <span class="preview"> (Optioneel) Wanneer u gegevens deelt met een groep, team, rol of bedrijf, houdt u de muisaanwijzer boven de naam van de entiteit en klikt u op de pijl naar rechts om een lijst uit te vouwen met gebruikers die de machtigingen ontvangen. </span>
 
-   ![&#x200B; de werkruimte van het Aandeel met een groep &#x200B;](assets/share-workspace-role-expanding-arrow-highlighted.png)
+   ![ de werkruimte van het Aandeel met een groep ](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
    * Weergave
    * Contribute
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 1. Klik **verbinding van het Exemplaar** om een verbinding aan de werkruimte aan uw klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klik **sparen**.
@@ -203,16 +211,16 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-     ![&#x200B; In-app bericht voor toegangsverzoek &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-     ![&#x200B; E-mailbericht voor toegangsverzoek &#x200B;](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of
 Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
 
    De **hangende toegangsverzoeken** vakvertoningen.
 
-   ![&#x200B; de lijstgoedkeuringsdoos van Meldingen &#x200B;](assets/notifications-list-approval-box.png)
+   ![ de lijstgoedkeuringsdoos van Meldingen ](assets/notifications-list-approval-box.png)
 
 1. (Optioneel) Voor de gebruiker wiens machtigingen u wilt goedkeuren, selecteert u een van de volgende opties in het vervolgkeuzemenu rechts van de gebruikersnaam:
    * **Mening**
