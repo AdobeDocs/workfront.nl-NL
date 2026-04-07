@@ -42,7 +42,7 @@ De belangrijkste voordelen van Adobe Enterprise Storage zijn:
 * De zichtbaarheid van end-to-end elementen in Workfront en Frame.io <!--, and Creative Cloud apps -->
 * Schaalbare opslag en quotabeheer voor bedrijfsbehoeften
 
-Voor meer details, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer details, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Geïntegreerde revisie en goedkeuring
 
@@ -55,7 +55,7 @@ Met verenigde revisie en goedkeuringen kunt u:
 * Gebruik Content Reviewers om beoordelingen van naleving van merk te automatiseren
 * en meer
 
-Voor meer informatie, zie [ Verenigde documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Voor meer informatie, zie [&#x200B; Verenigde documentgoedkeuringen: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### De viewer Frame.io gebruiken
@@ -67,7 +67,7 @@ Met de viewer Frame.io kunt u elementen controleren en goedkeuren. De viewer Fra
 * Opmerkingen met tijdstempel voor videorevisies
 * Mobiele toegang voor revisies en goedkeuringen onderweg
 
-Voor meer informatie, zie [ begonnen worden met verenigde overzicht en goedkeuring ](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met verenigde overzicht en goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Limieten voor videorevisie
 
@@ -79,7 +79,7 @@ Deze limiet geldt niet voor Enterprise-klanten van Frame.io.
 
 #### Ondersteunde bestandstypen in de viewer Frame.io
 
-De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [ Gesteunde Types van Dossier op Frame.io ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [&#x200B; Gesteunde Types van Dossier op Frame.io &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Toegang tot en licenties voor de Frame.io-viewer
 
@@ -93,7 +93,7 @@ Workfront Proofing-functionaliteit is niet beschikbaar bij deze integratie.
 
 Projectcoördinatoren kunnen gebruikmaken van de krachtige mogelijkheden voor projectbeheer van Workfront om werk te plannen, te volgen en te beheren.
 
-Voor meer informatie over het beheren van projecten in Workfront, zie [ Projecten: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Voor meer informatie over het beheren van projecten in Workfront, zie [&#x200B; Projecten: artikelindex &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Gedwongen conventies voor structuur en naamgeving
 
@@ -136,7 +136,7 @@ In de volgende tabel wordt aangegeven hoe Workfront-machtigingen worden toegewez
 
 ### Documentbeheer in Workfront
 
-Documenten die naar Workfront worden geüpload, worden opgeslagen in Adobe Enterprise Storage en zijn toegankelijk in zowel Workfront als Frame.io. Wanneer u een document uploadt naar een taak of uitgave in Workfront, wordt een door het systeem gegenereerde map gemaakt in Adobe Enterprise storage die de machtigingen van de taak of uitgave overneemt. Alle documenten die naar die taak of uitgave zijn geüpload, worden in die map opgeslagen en nemen er rechten van over. Voor meer informatie over documenten in Workfront, zie [ het nieuwe overzicht van het documentengebied ](/help/quicksilver/documents/managing-documents/documents-area.md) en [ de toestemmingen van Objecten en het overzicht van het toegangsniveau voor het model van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Documenten die naar Workfront worden geüpload, worden opgeslagen in Adobe Enterprise Storage en zijn toegankelijk in zowel Workfront als Frame.io. Wanneer u een document uploadt naar een taak of uitgave in Workfront, wordt een door het systeem gegenereerde map gemaakt in Adobe Enterprise storage die de machtigingen van de taak of uitgave overneemt. Alle documenten die naar die taak of uitgave zijn geüpload, worden in die map opgeslagen en nemen er rechten van over. Voor meer informatie over documenten in Workfront, zie [&#x200B; het nieuwe overzicht van het documentengebied &#x200B;](/help/quicksilver/documents/managing-documents/documents-area.md) en [&#x200B; de toestemmingen van Objecten en het overzicht van het toegangsniveau voor het model van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Beperkingen voor ervaring met documenten
 
