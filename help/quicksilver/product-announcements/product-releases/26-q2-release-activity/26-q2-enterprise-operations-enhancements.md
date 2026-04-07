@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen in Enterprise Operations beschreven die zijn aangebracht met de release van het tweede kwartaal van 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Enterprise Operations Capabilities zijn nu beschikbaar in Adobe Workfront
 
@@ -40,19 +40,19 @@ De verbeteringen op het gebied van financieel beheer zijn onder meer:
 
 * **attributen van het Tarief**, die u toestaan om extra dimensies aan tarieven voorbij de baanrol toe te voegen, zodat de tarieven niet alleen door baanrol maar ook door factoren zoals agentschap, plaats, merk, kostenplaats, of anderen kunnen variëren. Door deze kenmerken te combineren, kan Workfront automatisch het juiste percentage voor toewijzingen selecteren, waardoor de financiële nauwkeurigheid en consistentie in de verschillende projecten worden gewaarborgd.
 
-  Voor meer informatie, zie [ tariefattributen ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
+  Voor meer informatie, zie [&#x200B; tariefattributen &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) bepalen.
 
 * **kaarten van het Tarief**, die een gestructureerde manier verstrekken om cliënt-specifieke het factureren te beheren, die op rol-gebaseerde tarieven en klantgerichte attributen combineren om nauwkeurige en gecontroleerde projectkosten te verzekeren.
 
-  Voor meer informatie, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) en [ een tariefkaart aan een project ](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
+  Voor meer informatie, zie [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) en [&#x200B; een tariefkaart aan een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
 
 * Een nieuw kosten en opbrengsttype riep **Gebruiker en Rol Uur**. Wanneer dit taaktype wordt toegewezen, bepaalt een geavanceerde logica van de tariefhiërarchie de facturering en kostentarieven van verschillende niveaus met inbegrip van de tariefkaart, het project, de taak, de baanrol, en het gebruikersprofiel. De gebruiker en van de Rol is het enige kosten en opbrengsttype dat u kunt gebruiken om tariefattributen en tariefkaarten toe te passen.
 
-  Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+  Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Een opnieuw ontworpen **Geavanceerde ervaring van Taken** met uitgebreide configurability brengt grotere zicht en controle over tarieven, tijdkaders en eigenschappen.
 
-  Voor meer informatie, zie [ Geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+  Voor meer informatie, zie [&#x200B; Geavanceerde taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
   >[!NOTE]
   >
@@ -60,29 +60,29 @@ De verbeteringen op het gebied van financieel beheer zijn onder meer:
 
 * A **Rol van de Baan voor het Factureren**, die u toestaat om een gebruiker onder een verschillende baanrol dan hun primaire baanrol te factureren. Dit is handig wanneer iemand tijdelijk werk verricht dat met een ander tarief moet worden gefactureerd.
 
-  Voor meer informatie, zie [ Opstelling een Rol van de Baan voor het Factureren ](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
+  Voor meer informatie, zie [&#x200B; Opstelling een Rol van de Baan voor het Factureren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
 
 * Datum-efficiënte **wisselkoersen**.
 
-  Voor meer informatie, zie [ de wisselkoersen van de Opstelling ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+  Voor meer informatie, zie [&#x200B; de wisselkoersen van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 * De capaciteit om een **overloopvermenigvuldiger op taken** toe te voegen, die alle Geplande Uren voor die taak vermenigvuldigt en de Geplande berekeningen van de Inkomsten beïnvloedt.
 
-  Voor meer informatie, zie [ een overtijdsverhouding ](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md) bepalen.
+  Voor meer informatie, zie [&#x200B; een overtijdsverhouding &#x200B;](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md) bepalen.
 
 * Een project-vlakke controle om **alle het facturerings informatie** te bewaren en om het even welke toekomstige wijzigingen te verhinderen.
 
-  Voor meer informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor meer informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 * **alias van de baanrol van A**, die op een tariefkaart wordt bepaald. Wanneer de tariefkaart aan een project in bijlage is, verschijnt de alias op informatie zoals placeholder taken, uitgaven, en rapporten, in plaats van de interne naam van de baanrol.
 
-  Voor meer informatie, zie [ tariefkaarten ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) beheren.
+  Voor meer informatie, zie [&#x200B; tariefkaarten &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) beheren.
 
 ### Historische gegevenstracering
 
 Het gebruik **projectmomentopnamen** om projecten effectiever te beheren en geïnformeerde besluiten te nemen.
 
-Voor meer informatie, zie [ projectmomentopnamen ](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md) creëren en bekijken.
+Voor meer informatie, zie [&#x200B; projectmomentopnamen &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md) creëren en bekijken.
 
 >[!NOTE]
 >
@@ -93,13 +93,13 @@ Voor meer informatie, zie [ projectmomentopnamen ](/help/quicksilver/manage-work
 
 **Bedrijfs profielen** verstrekken veilige, scalable systeemtoegang en hulp om ondernemingsbestuur te versterken.
 
-Voor meer informatie, zie [ Overzicht Bedrijfs profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+Voor meer informatie, zie [&#x200B; Overzicht Bedrijfs profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 >[!NOTE]
 >
 >Bedrijfsprofielen zijn alleen beschikbaar voor organisaties in het Workflow Ultimate-pakket.
 
-Ook, zijn de toestemmingen om zowel kosten als het factureren gegevens te bekijken gescheiden van de algemene financiële toestemmingen, zowel in de niveaus van de gebruikerstoegang als in objecten toestemmingen. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+Ook, zijn de toestemmingen om zowel kosten als het factureren gegevens te bekijken gescheiden van de algemene financiële toestemmingen, zowel in de niveaus van de gebruikerstoegang als in objecten toestemmingen. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [&#x200B; de financiële toestemmingen van het Aandeel op een voorwerp &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Aangepaste formulieren zijn onder andere verbeterd:
 
 * Nieuwe **geavanceerde logische types**: geavanceerde vertoning, standaardwaarde, voorwaardelijk formatteren, en editability
 
-  Voor meer informatie, zie [ logische regels aan douaneformulieren en gebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
+  Voor meer informatie, zie [&#x200B; logische regels aan douaneformulieren en gebieden &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
 
   >[!NOTE]
   >
@@ -124,7 +124,7 @@ Aangepaste formulieren zijn onder andere verbeterd:
    * Objecttypen die het formulier kan toevoegen, bevinden zich in een vervolgkeuzelijst.
    * U kunt ervoor kiezen om logische indicatoren voor alle logische typen weer te geven of te verbergen in de velden. Logische typen weergeven en overslaan geven indicatoren voor beide betrokken velden weer. Alle andere logische typen zijn van invloed op één veld.
 
-  Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
   >[!NOTE]
   >
@@ -132,7 +132,7 @@ Aangepaste formulieren zijn onder andere verbeterd:
 
 * De mogelijkheid om aangepaste formulieren toe te voegen aan teams, scorekaarten en taakrollen.
 
-  Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
   >[!NOTE]
   >
@@ -141,7 +141,7 @@ Aangepaste formulieren zijn onder andere verbeterd:
 
 * A **het toestemmingstype van de Financiën** het plaatsen op munt-geformatteerde gebieden, om toegang slechts tot gebruikers toe te staan die bepaalde toestemmingen hebben die in hun toegangsniveaus worden geplaatst.
 
-  Voor meer informatie, zie [ Toegang tot financiële gegevens in douanegebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md) beperken.
+  Voor meer informatie, zie [&#x200B; Toegang tot financiële gegevens in douanegebieden &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md) beperken.
 
   >[!NOTE]
   >
@@ -155,7 +155,7 @@ Aangepaste formulieren zijn onder andere verbeterd:
 
 In lay-outsjablonen kunt u de koppen en linkernavigatiemenu&#39;s van extra objecten aanpassen en items gemakkelijker weergeven en verbergen in het hoofdmenu. U kunt een lay-outmalplaatje ook gebruiken om de opties te bepalen die verschijnen wanneer een gebruiker het **Meer** menu (het drie-puntenmenu) op projecten, taken, kwesties, portefeuilles, en programma&#39;s klikt.
 
-Voor meer informatie, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 ### Aangepaste lokalisatie
 
@@ -167,7 +167,7 @@ Met aangepaste lokalisatie kunt u aangepaste termen en woordgroepen definiëren 
 
 U kunt bijvoorbeeld het label &#39;Doelpubliek&#39; instellen om het Duitse woord &#39;Zielgruppe&#39; te vertalen. Elke gebruiker met een Duitse set als taal voor zijn Adobe IMS-account ziet het woord &quot;Zielgruppe&quot; als een label voor alle velden met het label &quot;Doelpubliek&quot; in het Engels.
 
-Voor meer informatie, zie [ douanelokalisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
+Voor meer informatie, zie [&#x200B; douanelokalisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
 
 ### Handelingen automatiseren met bedrijfsregels
 
@@ -177,4 +177,4 @@ Voor meer informatie, zie [ douanelokalisatie ](/help/quicksilver/administration
 
 Workfront-beheerders kunnen nu bedrijfsregels configureren om handelingen voor het gemaakte, bewerkte of gewijzigde object te automatiseren als aan bepaalde voorwaarden is voldaan. Tot de beschikbare acties behoren het delen van het object of het koppelen van een aangepast formulier aan het object.
 
-Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+Voor meer informatie, zie [&#x200B; bedrijfsregels &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
