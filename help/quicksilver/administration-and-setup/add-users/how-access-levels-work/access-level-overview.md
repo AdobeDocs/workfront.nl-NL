@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de huidige toegangsniveaus. Voor informatie over de niveaus van de erfenistoegang, zie [&#x200B; overzicht van de niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>De informatie in dit artikel verwijst naar de huidige toegangsniveaus. Voor informatie over de niveaus van de erfenistoegang, zie [ overzicht van de niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Als beheerder van Adobe Workfront, wijst u een toegangsniveau aan een gebruiker voor twee doeleinden toe:
 
@@ -55,7 +55,7 @@ Afhankelijk van het toegangsniveau zijn maximaal drie machtigingen beschikbaar v
     </tr>
 </table>
 
-Als u een aangepast toegangsniveau nodig hebt, kunt u het ingebouwde toegangsniveau kopiëren en de hoeveelheid toegang aanpassen die u voor de verschillende Workfront-objecttypen wilt gebruiken. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+Als u een aangepast toegangsniveau nodig hebt, kunt u het ingebouwde toegangsniveau kopiëren en de hoeveelheid toegang aanpassen die u voor de verschillende Workfront-objecttypen wilt gebruiken. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Gebruikers met het toegangsniveau voor systeembeheerders kunnen alles doen in Wo
 
 Zij hebben ook toegang tot het volledige gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen, en zij kunnen tot alle gebieden in het Belangrijkste Menu toegang hebben.
 
-Voor meer informatie, zie [&#x200B; een gebruiker volledige administratieve toegang verlenen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Voor meer informatie, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Standaardtoegangsniveau
 
@@ -85,7 +85,7 @@ Dit toegangsniveau is ook gekoppeld aan de standaardlicentie en is bedoeld voor 
 
 >[!NOTE]
 >
->U kunt een aangepaste versie van het standaard ingebouwde toegangsniveau maken en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+>U kunt een aangepaste versie van het standaard ingebouwde toegangsniveau maken en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 #### **de details van de Toegang**
 
@@ -102,6 +102,8 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Filters, weergaven en groepen |   |   | ✓ |
 | Documenten |   |   | ✓ |
 | Gebruikers |   |   | ✓ |
+| Taken rollen |   |   | ✓ |
+| Teams |   |   | ✓ |
 | Sjablonen |   |   | ✓ |
 | Financiële gegevens |   |   | ✓ |
 | Bronbeheer |   |   | ✓ |
@@ -130,7 +132,7 @@ Gebruikers met het toegangsniveau Licht:
 
 >[!NOTE]
 >
->U kunt een aangepaste versie maken van het ingebouwde toegangsniveau Licht en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+>U kunt een aangepaste versie maken van het ingebouwde toegangsniveau Licht en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 #### **de details van de Toegang**
 
@@ -204,7 +206,13 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Taken rollen</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Teams</td> 
    <td> </td> 
    <td>✓</td> 
@@ -265,11 +273,11 @@ Gebruikers met dit ingebouwde toegangsniveau:
 * Kan de status van de verzonden problemen bekijken
 * Kan aangepaste formulieren alleen bijwerken op uitgaven en documenten.
 * Kan worden toegewezen aan werkitems maar kan deze niet voltooien
-* U hebt alleen toegang tot aanvragen via het hoofdmenu. Voor meer informatie over verzoekrijen, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+* U hebt alleen toegang tot aanvragen via het hoofdmenu. Voor meer informatie over verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 >[!NOTE]
 >
->U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Medewerker maken en de mate van toegang aanpassen die het toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+>U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Medewerker maken en de mate van toegang aanpassen die het toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 #### **de details van de Toegang**
 
@@ -285,7 +293,8 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (Alleen het tabblad Details) |   |
 | Filters, weergaven en groepen |   |   | ✓ |
 | Document |   |   | ✓ |
-| Gebruiker |   | ✓ |   |
+| Gebruikers |   | ✓ |   |
+| Taken rollen |   | ✓ |   |
 | Teams |   | ✓ |   |
 | Sjablonen | ✓ |   |   |
 | Financiële gegevens | ✓ |   |   |
@@ -318,7 +327,7 @@ U kunt dit toegangsniveau niet wijzigen.
 
 >[!IMPORTANT]
 >
->De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Voor meer informatie, zie [&#x200B; de voorkeur van de systeemveiligheid &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+>De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Voor meer informatie, zie [ de voorkeur van de systeemveiligheid ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 #### **de details van de Toegang**
 
@@ -334,7 +343,8 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (Alleen voor kalenderrapporten; geen rapporten kunnen worden gedeeld) |   |
 | Filters, weergaven en groepen | ✓ |   |   |
 | Document |   | ✓ (kan geen documenten delen) |   |
-| Gebruiker |   | ✓ |   |
+| Gebruikers |   | ✓ |   |
+| Taken rollen | ✓ |   |   |
 | Teams | ✓ |   |   |
 | Sjablonen | ✓ |   |   |
 | Financiële gegevens | ✓ |   |   |
@@ -382,7 +392,7 @@ In de volgende tabel wordt de algemene toegang van een gebruiker tot objecten (g
 
 De activiteiten een gebruiker met een voorwerp kan doen worden bepaald door een combinatie van hun toegangsniveau en de toestemmingen die aan hen worden gegeven.
 
-![&#x200B; het modelhiërarchie van de Veiligheid &#x200B;](assets/security-model-hierachy-copy.png)
+![ het modelhiërarchie van de Veiligheid ](assets/security-model-hierachy-copy.png)
 
 ### Rechten verlenen via het delen van objecten
 

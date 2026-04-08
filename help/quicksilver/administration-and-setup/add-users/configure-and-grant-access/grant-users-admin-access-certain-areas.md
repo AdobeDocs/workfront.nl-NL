@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebruikers van een de vergunningsadministratieve toegang van het Plan tot bepaalde gebieden van het systeem te verlenen.
+Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebruikers van een Standaard of van het Plan vergunning administratieve toegang tot bepaalde gebieden van het systeem te verlenen.
 
 >[!NOTE]
 >
->Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [&#x200B; een gebruiker volledige administratieve toegang &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
+>Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [ een gebruiker volledige administratieve toegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
 
 ## Toegangsvereisten
 
@@ -46,11 +46,11 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebrui
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Gebruikers van het subsidieplan hebben administratieve toegang tot bepaalde gebieden van Workfront
+## Beheerdersrechten verlenen voor Standard- of Plan-gebruikers aan bepaalde gebieden van Workfront
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
      </tr> 
      <tr> 
       <td role="rowheader">Functies</td> 
-      <td> <p>Met deze toegang mag de gebruiker het volgende doen:</p> 
+      <td> <p><span class="preview"><b> NOTA </b>: In het milieu van de Voorproef, wordt de toegang tot baanrollen gecontroleerd als objecten type op het toegangsniveau. Zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md"> toegang van de Verlening tot baanrollen </a>.</span></p>
+      <p>Met deze toegang mag de gebruiker het volgende doen:</p> 
        <ul> 
         <li>Bestaande taakrollen weergeven en bewerken</li> 
         <li>Nieuwe taakrollen toevoegen</li> 
         <li>Rolfacturering en kostentarieven bewerken</li> 
-       </ul> <p><b> BELANGRIJK </b>: Als u een gebruiker van de Planner administratieve toegang tot baanrollen verleent, wordt de toegang van Financiële Gegevens het plaatsen geeft Rol het Factureren &amp; Tarieven van Kosten toe voor de gebruiker automatisch. Later, als u administratieve toegang tot baanrollen voor de gebruiker van de Planner onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat Edit de Facturering van de Rol &amp; het plaatsen van de Tarieven van Kosten nog wordt toegelaten. Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> toegang van de Verlening tot financiële gegevens </a>.</p> </td> 
+       </ul> <p><b> BELANGRIJK </b>: Als u een Norm of een gebruikers administratieve toegang van het Plan tot baanrollen verleent, wordt de toegang die van Gegevens de Rol en Tarieven plaatst automatisch toegelaten voor de gebruiker. Later, als u administratieve toegang tot baanrollen voor de Standaard of gebruiker van het Plan onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat Edit de Facturering van de Rol &amp; het plaatsen van de Tarieven van de Kosten nog wordt toegelaten. Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> toegang van de Verlening tot financiële gegevens </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mijlpalen in mijn fractie</td> 
@@ -125,8 +126,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    </table>
 
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
-1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [&#x200B; wordt beschreven voegt gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
+1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [ wordt beschreven voegt gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
 
    >[!NOTE]
    >
-   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [&#x200B; de toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [ de toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
