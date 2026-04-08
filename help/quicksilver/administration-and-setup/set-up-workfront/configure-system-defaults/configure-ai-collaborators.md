@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
+source-git-commit: 7d359a2536860d13658d3ec0c95264a55db7ab29
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # AI-medewerkers configureren
+
+>[!IMPORTANT]
+>
+>Content Reviewer is momenteel het enige beschikbare AI Collaborator-type. In de toekomst zijn er meer mogelijkheden voor AI Collaborator beschikbaar.
 
 {{highlighted-preview-article-level}}
 
@@ -27,11 +31,7 @@ Beschikbare typen AI-medewerkers zijn:
 
 * Recensent: Creeer een medewerker gebruikend merken <!-- or Adobe Brand Intelligence-->, dan wijs de medewerker als recensent op activa toe.
 
-  Voor meer informatie, zie [&#x200B; begonnen worden met de Recensent van de Inhoud van Workfront &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
-  >[!NOTE]
-  >
-  >Reviewer is momenteel het enige beschikbare type AI-deelnemer. In de toekomst zijn er meer mogelijkheden voor AI Collaborator beschikbaar.
+  Voor meer informatie, zie [ begonnen worden met de Recensent van de Inhoud van Workfront ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Toegangsvereisten
@@ -57,7 +57,7 @@ Beschikbare typen AI-medewerkers zijn:
   </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,10 +67,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * Uw organisatie moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
 
-  Voor meer informatie, zie [&#x200B; Ondertekenen de Gen AI van Adobe overeenkomst &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in de artikelAI Medewerker in Workfront.
+  Voor meer informatie, zie [ Ondertekenen de Gen AI van Adobe overeenkomst ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in de artikelAI Medewerker in Workfront.
 * U moet een merk hebben geconfigureerd in Workfront voordat u het kunt gebruiken voor een AI Collaborator van het type Reviewer.
 
-  Voor instructies, zie [&#x200B; merken voor de Recensent van de Inhoud &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) creëren en leiden.
+  Voor instructies, zie [ merken voor de Recensent van de Inhoud ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) creëren en leiden.
 
 ## Een nieuwe, van het type AI-deelnemer afkomstige revisor maken
 
@@ -87,7 +87,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Voer in het veld Naam deelnemer een naam in voor de deelnemer. Dit is de naam die wordt weergegeven in de lijst met beschikbare toewijzingen voor een taak.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Selecteer het merk en de merkrichtlijn die het zal gebruiken.
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Selecteer het merk en de merkrichtlijn die het zal gebruiken.
 1. Klik **sparen**.
 
 ## AI-medewerkers beheren
@@ -98,5 +98,5 @@ U kunt bestaande AI-medewerkers bewerken, kopiëren en verwijderen.
 
 1. In de linkernavigatie, klik **AI Medewerkers**.
 1. (Voorwaardelijk) om een Medewerker uit te geven, klik de naam van de Medewerker u wilt uitgeven, om het even welke veranderingen in het Edit venster van de Medewerker aanbrengen, en **klikken sparen**.
-1. (Voorwaardelijk) om een Medewerker te kopiëren, klik het pictogram van het Exemplaar ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/copy-ai-collaborator.png) in de rij van de AI Medewerker u wilt kopiëren, de naam van het exemplaar klikken, om het even welke veranderingen in het Edit venster van de Medewerker aanbrengen, en **klikken sparen**.
-1. (Voorwaardelijk) om een Medewerker te schrappen, klik het pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-collaborator-icon.png) in de rij van de AI Medewerker u wilt schrappen, dan **Schrapping** klikken.
+1. (Voorwaardelijk) om een Medewerker te kopiëren, klik het pictogram van het Exemplaar ![ pictogram van het Exemplaar ](assets/copy-ai-collaborator.png) in de rij van de AI Medewerker u wilt kopiëren, de naam van het exemplaar klikken, om het even welke veranderingen in het Edit venster van de Medewerker aanbrengen, en **klikken sparen**.
+1. (Voorwaardelijk) om een Medewerker te schrappen, klik het pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-collaborator-icon.png) in de rij van de AI Medewerker u wilt schrappen, dan **Schrapping** klikken.
