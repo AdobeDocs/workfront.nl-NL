@@ -9,7 +9,7 @@ author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -45,8 +45,8 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
-     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
+     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets en Elementen </p>  </p> </td> 
@@ -80,15 +80,6 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
-   <td> 
-    <ul> 
-     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -96,18 +87,6 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Documenten en mappen koppelen aan [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
-     <li>Create new tasks from an email </li> 
-     <li>Comment on [!DNL Workfront] items </li> 
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b> NOTA </b>: Vanaf 1 Juli, 2025, zal Microsoft steun voor de Klassieke Desktop app van Teams verwijderen. Als gevolg hiervan wordt de Workfront-integratie met Microsoft Teams niet ondersteund als de desktop-app voor Klassieke teams niet meer beschikbaar is. </p> </td> 
    <td> 
@@ -152,4 +131,4 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
 
 ## Overige [!DNL Workfront] -integratie
 
-De integratie die u wilt is mogelijk geen ingebouwde integratie. [!DNL Workfront] biedt echter andere manieren om met de app of webservice van uw keuze te integreren. Voor meer informatie over andere manieren om met [!DNL Workfront] te integreren, zie [&#x200B; de integratiemethodes van Adobe Workfront &#x200B;](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
+De integratie die u wilt is mogelijk geen ingebouwde integratie. [!DNL Workfront] biedt echter andere manieren om met de app of webservice van uw keuze te integreren. Voor meer informatie over andere manieren om met [!DNL Workfront] te integreren, zie [ de integratiemethodes van Adobe Workfront ](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).

@@ -7,10 +7,10 @@ description: 'Het Bericht van de fout op  [!DNL Adobe Workfront]  Mobiele App: "
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licentie</strong></td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront] -licentie</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Uw [!DNL Workfront] -beheerder heeft uw [!DNL Workfront] -omgeving niet ingescha
 1. Ga naar het **[!UICONTROL Setup]** -gebied.
 1. Vouw het menu **[!UICONTROL System]** uit en klik op **[!UICONTROL Preferences]** .
 
-1. Selecteer onder de sectie **[!UICONTROL Security]** de optie **[!UICONTROL Let people use [!DNL Workfront]'s mobile applications and the [!DNL Workfront Outlook] Add-In]** om deze in te schakelen.
+1. Selecteer onder de sectie **[!UICONTROL Security]** de optie **[!UICONTROL Let people use [!DNL Workfront]'s mobile applications]** om deze in te schakelen.
 
 1. Klik op **[!UICONTROL Save]**.\
-   Alle gebruikers in het systeem hebben nu toegang tot [!DNL Workfront] via hun mobiele apps en vanaf [!DNL Outlook] .
+   Alle gebruikers in het systeem hebben nu toegang tot [!DNL Workfront] via hun mobiele apps.

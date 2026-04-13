@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,9 @@ Geef uw netwerkbeheerder de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-integratie</td> 
-   <td>Stel uw netwerkbeheerder op de hoogte als u een van de volgende methoden gebruikt:
+   <td>Stel uw netwerkbeheerder op de hoogte als u het volgende gebruikt:
     <ul>
      <li><p>Workfront voor Microsoft Teams</p></li>
-     <li><p>Workfront for Outlook</p></li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -102,10 +101,10 @@ Geef uw netwerkbeheerder de volgende informatie:
 
    Uw clustervertoningen dichtbij het hoger-recht van de **Basis Info** sectie.
 
-   ![&#x200B; plaats cluster &#x200B;](assets/locate-cluster.png)
+   ![ plaats cluster ](assets/locate-cluster.png)
 
 1. Om uw pakket van Workfront te bekijken, selecteer **Vergunningen**.
 
    Het pakket wordt in de rechterbovenhoek van de pagina weergegeven.
 
-   ![&#x200B; plaats plan &#x200B;](assets/locate-plan.png)
+   ![ plaats plan ](assets/locate-plan.png)
