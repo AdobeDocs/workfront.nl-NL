@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2362'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 De verbeteringen op deze pagina zijn beschikbaar in de voorvertoningsomgeving. Deze pagina zal met extra verhogingen worden bijgewerkt aangezien de tweede versie van het Kwartaal 2026 zijn geplande versie van de Productie nadert.
 
-Voor elke driemaandelijkse release worden live webinars bijgehouden. Deze bevatten de nieuwe functies en bevatten gedetailleerde informatie. Om omhoog te ondertekenen, bezoek de [&#x200B; gebeurtenispagina &#x200B;](https://experienceleague.adobe.com/nl/events?filters=Workfront) en filter voor Workfront.
+Voor elke driemaandelijkse release worden live webinars bijgehouden. Deze bevatten de nieuwe functies en bevatten gedetailleerde informatie. Om omhoog te ondertekenen, bezoek de [ gebeurtenispagina ](https://experienceleague.adobe.com/en/events?filters=Workfront) en filter voor Workfront.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Voor elke driemaandelijkse release worden live webinars bijgehouden. Deze bevatt
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (26.4 dit kwartaal), gebruikers op het snelle versieschema één dag vroeg (15 april 2026) de versie zullen ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -60,7 +60,7 @@ Voor elke driemaandelijkse release worden live webinars bijgehouden. Deze bevatt
         </tr>
     <tr>
         <td>
-            &lbrace;de Medewerker van de Controle AI van de Inhoud nu beschikbaar <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"></a><p>Om het voor u gemakkelijker te maken om van AI in uw dagelijks werk te profiteren, hebben wij de Medewerker van de Controle van de Inhoud AI gecreeerd.  De Medewerker is een manier om AI agenten in uw projecten en taken aan te sluiten. U kunt een AI Collaborator van de Controle van de Inhoud met merkrichtlijnen vormen, dan het aan een taak toewijzen zoals u een gebruiker zou doen.</p>
+            {de Medewerker van de Controle AI van de Inhoud nu beschikbaar <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"></a><p>Om het voor u gemakkelijker te maken om van AI in uw dagelijks werk te profiteren, hebben wij de Medewerker van de Controle van de Inhoud AI gecreeerd.  De Medewerker is een manier om AI agenten in uw projecten en taken aan te sluiten. U kunt een AI Collaborator van de Controle van de Inhoud met merkrichtlijnen vormen, dan het aan een taak toewijzen zoals u een gebruiker zou doen.</p>
         </td>
         <td><p>vrijdag 2 april 2026</p></td>
         <td><p>donderdag 15 april 2026</p></td>
@@ -134,6 +134,15 @@ Voor elke driemaandelijkse release worden live webinars bijgehouden. Deze bevatt
         <td><strong>Driemaandelijks</strong></td>
    <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}"> Inhoud sneller ontdekken en hergebruiken met Content Advisor for AEM Assets in Workfront </a><p></p>
+            <p>Content Advisor is nu beschikbaar in Workfront met de Adobe Experience Manager Assets-integratie, waardoor het voor teams eenvoudiger wordt om bestaande hoogwaardige inhoud te ontdekken en opnieuw te gebruiken.</p>
+        </td>
+        <td><p>vrijdag 16 april 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
+    </tr>
+   <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}"> GenStudio Foundations Provisioning die wordt toegelaten om AI Medewerkers te steunen </a><p></p>
             <p>Op 31 maart 2026 waren alle Workfront-klanten voorzien voor GenStudio Foundation en zullen Admin Console System Admins een e-mail hebben ontvangen waarin ze op de hoogte worden gesteld van deze toevoeging. Dit product is alleen beschikbaar, zodat Workfront-klanten Brands naar behoefte toegang kunnen geven tot Workfront-klanten voor de release van AI Collaborators. Het product zelf is slechts een toegangsmechanisme voor merken en er is geen extra functionaliteit beschikbaar in het GenStudio Foundation-product.</p><p>Voor dit nieuwe product worden geen kosten in rekening gebracht.</p>
         </td>
@@ -197,6 +206,16 @@ Voor elke driemaandelijkse release worden live webinars bijgehouden. Deze bevatt
         <td>
             {de Capabilities van de Verrichtingen van de Onderneming van 0} nu beschikbaar in Adobe Workfront <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}"></a><p></p>
             <p>De geavanceerde mogelijkheden van ondernemingsverrichtingen van Adobe Workfront zijn een verenigde en scalable manier om financiën, projecten, en ondernemingstoegang te beheren. Deze mogelijkheden bieden de zichtbaarheid en de controle die bedrijven nodig hebben om rendabel en efficiënt te werken.</p><p>De volgende updates zijn opgenomen in deze mogelijkheden:<ul><li>Geavanceerd financieel beheer - inclusief wisselkoerskenmerken, rentekaarten, een vernieuwde Geavanceerde ervaring met toewijzingen, datumeffectieve wisselkoersen en extra geavanceerde functies</li><li>Historische gegevens het vinden - met inbegrip van projectmomentopnamen</li><li>De toestemmingen van de onderneming - met inbegrip van bedrijfsprofielen, en afzonderlijke kosten en factureringstarieven in toegangsniveaus en objecten toestemmingen</li><li>Aangepaste formulier- en veldverbeteringen - inclusief nieuwe geavanceerde logische typen, een type machtiging voor financiën voor velden met een valutaopmaak, de mogelijkheid om aangepaste formulieren toe te voegen aan meer objecten en verbeteringen in de interface van de formulierontwerper</li><li>Verbeteringen van de lay-outsjablonen - waaronder het aanpassen van de koppen en de linkernavigatiemenu van meer objecten, het bijwerken van de opties voor Hoofdmenu in lay-outsjablonen en het aanpassen van meer menu's</li><li>Aangepaste lokalisatie - inclusief de mogelijkheid om aangepaste termen en woordgroepen in verschillende talen te definiëren</li><li>Verbeteringen aan BedrijfsRegels - met inbegrip van de capaciteit om acties voor het gecreeerde, uitgegeven, of gewijzigde voorwerp te automatiseren wanneer bepaalde voorwaarden worden vervuld</li></ul></p>
+ </p>
+        </td>
+        <td><p>vrijdag 2 april 2026</p></td>
+        <td><p>donderdag 15 april 2026</p></td>
+        <td><p>vrijdag 16 april 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}"> Gebieden toegestaan op datum-efficiënte tarieven </a><p></p>
+            <p>Met Workfront kunt u ruimte laten tussen datumbereiken voor facturering en kostentarieven, maar u ontvangt een waarschuwing om te bevestigen dat dit opzettelijk is.</p>
  </p>
         </td>
         <td><p>vrijdag 2 april 2026</p></td>
@@ -415,11 +434,11 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Tweede Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Tweede Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
 
@@ -441,7 +460,7 @@ Deze update geldt voor zowel Mac als Windows.
 
 ### De Workfront Planning-proefversie is nu beschikbaar
 
-[!BADGE &#x200B; Van programma &#x200B;]{type=Neutral}
+[!BADGE  Van programma ]{type=Neutral}
 
 >[!NOTE]
 >
@@ -461,7 +480,7 @@ Het gratis Workfront-planningsonderzoek biedt het volgende:
 * Duidelijke aanwijzing van mijlpalen tijdens uw opstelling die voor specifieke rollen worden gemaakt.
 * De Planning Designer - een AI aangedreven medewerker die u kan helpen het milieu bouwen u wilt
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de vrije proef van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/trial-workfront-planning.md).
+Voor meer informatie, zie [ begonnen worden met de vrije proef van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 ### API-versie 21
 
@@ -473,9 +492,9 @@ Workfront API versie 21 is uitgebracht op 23 oktober 2025. Voor API versie 21 he
 >
 > Voor velden met meerdere selecties verzendt versie 2 van Event-abonnementen altijd als een array. Versie 1 heeft een array verzonden als er meer dan één waarde is geselecteerd. Als er slechts één waarde is geselecteerd, wordt een tekenreeks verzonden.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 21 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Andere Workfront-integratieovergangen
 
@@ -486,13 +505,13 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2026 versie worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2026 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
