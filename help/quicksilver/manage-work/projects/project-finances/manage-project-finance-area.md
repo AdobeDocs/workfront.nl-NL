@@ -6,9 +6,9 @@ description: U kunt de financiële informatie van een project bekijken of uitgev
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een project, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -45,12 +45,12 @@ U kunt de financiële informatie van een project bekijken of uitgeven door tot h
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening aan een project of hoger die de toestemmingen van de Financiën van de Mening omvatten</p> <p>Machtigingen beheren voor het project met onder andere de functie Financiën beheren om financiële informatie voor het project te bewerken</p> </td> 
+   <td> <p>Toestemmingen van de mening aan een project of hoger die de toestemmingen van de Financiën van de Mening Algemene van de Mening omvatten</p> <p>Machtigingen beheren voor het project, waaronder Edit General Finance om financiële informatie voor het project te bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,13 +66,13 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
 
 1. Ga naar een project.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**.
 
-   ![&#x200B; het gebied van Financiën in detailmening &#x200B;](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![ het gebied van Financiën in detailmening ](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. De volgende velden weergeven in het gedeelte Financiën van het project:
 
@@ -129,14 +129,6 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
       <td role="rowheader">Gefactureerde inkomsten</td> 
       <td> <p>Inkomsten die in rekening worden gebracht aan klanten of andere partijen en die worden vastgelegd in factureringsverslagen. Voor meer informatie over het factureren verslagen, zie het artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref"> het factureren verslagen </a> creëren. </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
     </tbody> 
    </table>
 
@@ -153,20 +145,20 @@ Informatie bewerken op het subtabblad Projectfinanciering:
    >U hebt beheermachtigingen voor het project nodig om de volgende stappen uit te voeren. We raden ook aan dat alleen de eigenaar van het project wijzigingen aanbrengt in het subtabblad Financiën van het project.
 
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**. Hierdoor wordt de financiële ruimte geopend voor bewerking.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**. Hierdoor wordt de financiële ruimte geopend voor bewerking.
 1. Bewerk elk veld dat u kunt bewerken door één keer op het veld te klikken of klik op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
 
    >[!TIP]
    >
    >Velden kunnen niet worden bewerkt als ze automatisch door Workfront worden berekend of als u geen bewerkingsmachtigingen hebt.
 
-   ![&#x200B; geef financieringsgebied &#x200B;](assets/edit-finance-area-in-project-details-nwe-350x275.png) uit
+   ![ geef financieringsgebied ](assets/edit-finance-area-in-project-details-nwe-350x275.png) uit
 
 1. Werk een van de onderstaande velden bij.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Projectdetails in uw omgeving verschillen. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Projectdetails in uw omgeving verschillen. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

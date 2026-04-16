@@ -6,22 +6,21 @@ title: De Tarieven van de Kosten van de Gebruiker op het Niveau van het Project 
 description: In dit artikel wordt beschreven hoe u de kostentarieven voor systeemgebruikers voor een project kunt overschrijven.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
 # Override user cost rates at the project level
 
-{{highlighted-preview-article-level}}
-
 U kunt specificeren wat het kostentarief voor een gebruiker op een specifiek project is. Dit op projectniveau kostentarief treedt het kostentarief op het systeemniveau voor deze gebruiker met voeten. Workfront gebruikt het kostenpercentage op projectniveau van de functie om kosten te berekenen in plaats van het kostenpercentage op systeemniveau te gebruiken.
 
 In dit artikel wordt beschreven hoe u de kostentarieven voor systeemgebruikers voor een project kunt overschrijven.
 
-Voor meer informatie over het berekenen van kosten op het project, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [&#x200B; de kosten van het Spoor &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+Voor meer informatie over het berekenen van kosten op het project, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [ de kosten van het Spoor ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
 ## Toegangsvereisten
 
@@ -50,12 +49,12 @@ Voor meer informatie over het berekenen van kosten op het project, zie [&#x200B;
   </tr> 
   <tr> 
    <td>Objectmachtigingen</td> 
-   <td>Machtigingen beheren voor het project met de optie Financiële gegevens bewerken </td> 
+   <td>Machtigingen beheren voor het project met onder andere Kostentarieven bewerken </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +62,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 De gebruiker moet de **tariefopheffing van Kosten toegestaan** gebied hebben dat op hun gebruikersprofiel wordt toegelaten. Wanneer een gebruiker het toegelaten gebied van de kostenopheffing niet heeft, worden de kosten met voeten getreden niet toegestaan voor die gebruiker op om het even welk project, en het systeem gebruikt het tarief op het gebruikersprofiel om kosten te berekenen.
 
-Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Override user cost rates at the project level
 
@@ -76,7 +75,7 @@ Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/hel
 
 1. Op het **gebied van de Gebruiker**, selecteer de gebruiker u het kostentarief voor wilt veranderen.
 1. Selecteer de **Valuta** voor de opheffing van het kostentarief.
-1. Op het **gebied van het Tarief van 0&rbrace; Kosten &lbrace;, ga de eerste kostentariefopheffing in.**
+1. Op het **gebied van het Tarief van 0} Kosten {, ga de eerste kostentariefopheffing in.**
 1. (Facultatief) klik **toevoegen datumeffectief tarief** om meer kostentariefoverschrijvingen toe te voegen.
 
    >[!NOTE]
@@ -90,11 +89,11 @@ Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/hel
    * **Datum van het Begin**: de datum wanneer de kostentariefopheffing begint.
    * **Datum van het Eind**: de datum wanneer de kostentariefopheffing beëindigt.
 
-   ![&#x200B; het Nieuwe vakje van de Tarief van de Kosten van de Gebruiker die efficiënte data tonen &#x200B;](assets/new-user-cost-rate-box.png)
+   ![ het Nieuwe vakje van de Tarief van de Kosten van de Gebruiker die efficiënte data tonen ](assets/new-user-cost-rate-box.png)
 
    Workfront past het tarief van de opheffingsbaan op de uren toe die tijdens deze tijdkaders voorkomen wanneer het berekenen van kosten op het project.
 
-   Er mogen geen tussenruimten zijn tussen de tijdframes van twee overschrijvingssnelheden. De **Datum van het Begin** van een met voeten getreden tarief zou de dag onmiddellijk na de **Datum van het Eind** van de vorige met voeten getreden datum moeten zijn.
+   Met Workfront kunt u tussenruimten tussen overschrijvende tijdframes weglaten, maar u ontvangt een waarschuwing om te bevestigen dat dit opzettelijk is.
 
    U wordt niet vereist om een Datum van het Begin voor het eerste met voeten treden tarief, noch een Datum van het Eind voor het laatste met voeten treden tarief te specificeren.
 
@@ -107,5 +106,3 @@ Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/hel
    Als een uur na de Geplande Datum van de Voltooiing van het project wordt geregistreerd, wordt het zeer laatste kostentarief gebruikt.
 
 1. Klik **sparen**.
-
-
