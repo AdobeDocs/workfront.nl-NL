@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
 
 # Een nieuwe documentversie uploaden en goedkeuring aanvragen
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Als een document in een vorige revisie is gemarkeerd als &quot;Werk nodig&quot;, kunt u een nieuwe versie uploaden naar het oorspronkelijke document en een andere goedkeuringsronde starten. Nadat u een nieuwe versie van het document hebt geüpload, zijn de vorige versies vergrendeld.
 
@@ -59,58 +57,15 @@ Als de nieuwste documentversie wordt verwijderd, blijven de vorige versies vergr
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-## Gebruik slepen en neerzetten om een nieuwe versie toe te voegen aan uw productieomgeving
 
->[!NOTE]
->
->Slepen en neerzetten werkt niet met Internet Explorer.
+## Gebruik slepen en neerzetten om een nieuwe versie toe te voegen in het gebied met oudere documenten
 
-
-Als u nog een revisie- en goedkeuringsronde voor een document nodig hebt, kunt u een nieuwe documentversie maken in Workfront.
-
-U kunt de vorige deelnemers, nieuwe deelnemers of een combinatie van beide toevoegen. U kunt informatie over eerdere versies en deelnemers weergeven op de pagina Documentdetails.
-
-Een nieuwe versie toevoegen:
-
-1. Navigeer naar het document in Workfront.
-1. Sleep het nieuwe bestand naar het vorige document. Hiermee wordt automatisch een nieuwe versie gemaakt.
-
-1. Zodra het document eindigt uploadend, selecteer het document, dan klik **Details van het Document**.
-   ![&#x200B; open de pagina van documentdetails &#x200B;](assets/open-doc-details.png)
-
-
-1. In het linkerpaneel, klik **goedkeurt**, dan klik **toevoegen**.
-
-1. Om alle vorige deelnemers toe te voegen, klik **alles** toevoegen. Desgewenst kunt u ook nieuwe deelnemers toevoegen of vorige deelnemers verwijderen.
-
-
-1. Als u een bestaande goedkeuringssjabloon wilt toevoegen, klikt u op de knop Sjabloon en typt u een sjabloonnaam.
-
-   >[!TIP]
-   >
-   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
-
-
-1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
-
-1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
-
-   ![&#x200B; voorlegt nieuwe versie voor goedkeuring &#x200B;](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Gebruik slepen en neerzetten om een nieuwe versie toe te voegen in de voorvertoningsomgeving in het gebied voor oudere documenten
-
-Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [&#x200B; Opslag van Workfront vs. de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [ Opslag van Workfront vs. de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 >[!NOTE]
 >
@@ -127,7 +82,7 @@ Een nieuwe versie toevoegen:
 1. Sleep het nieuwe bestand naar het vorige document. Hiermee wordt automatisch een nieuwe versie gemaakt.
 
 1. Nadat het document is geüpload, selecteert u het document dat u wilt openen in het deelvenster Documentoverzicht. Hier ziet u het versienummer boven in het deelvenster.
-   ![&#x200B; open de pagina van documentdetails &#x200B;](assets/open-doc-details.png)
+   ![ open de pagina van documentdetails ](assets/open-doc-details.png)
 
 
 1. De rol neer aan de **goedkeurt** sectie.
@@ -165,7 +120,7 @@ Een nieuwe versie toevoegen:
 
    >[!TIP]
    >
-   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 
 
@@ -173,10 +128,5 @@ Een nieuwe versie toevoegen:
 
    De goedkeuringswerkstroom wordt gestart en de fiatteurs ontvangen een melding dat hun goedkeuring voor de nieuwe documentversie is vereist. De vorige documentversie is vergrendeld en eventuele onopgeloste goedkeuringen van de vorige versie worden ingetrokken.
 
-   ![&#x200B; verzoek goedkeuring &#x200B;](assets/request-approval.png)
+   ![ verzoek goedkeuring ](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

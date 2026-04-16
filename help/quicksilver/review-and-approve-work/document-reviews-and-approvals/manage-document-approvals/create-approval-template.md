@@ -8,22 +8,20 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
 # Een sjabloon voor een goedkeuringswerkstroom maken voor documenten
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
-
 In het gedeelte Workfront Setup kunnen gebruikers met een standaardlicentie herbruikbare goedkeuringssjablonen maken. Zodra gecreeerd, kunnen de Malplaatjes van de Goedkeuring op activa in het gebied van Documenten van een project, een taak, of een kwestie worden toegepast.
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -46,33 +44,12 @@ In het gedeelte Workfront Setup kunnen gebruikers met een standaardlicentie herb
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+ß
 
-
-
-
-## Een goedkeuringssjabloon maken in uw productieomgeving
-
-{{step-1-to-setup}}
-
-1. In het linkerpaneel, klik **Overzicht en Goedkeuring** > **Malplaatjes van de Goedkeuring**.
-1. Klik **Nieuw Malplaatje** op de rechterkant van de pagina.
-1. Geef de volgende informatie op:
-
-   | Sjabloonnaam | Typ een naam voor deze sjabloon. |
-   |----------------------------|---|
-   | **(Optioneel) Tijdlijn** | Voer de tijdlijn in dagen in. De deadline voor goedkeuring wordt berekend vanuit dit veld zodra de sjabloon op een actief wordt toegepast. |
-   | **voegt fiatteurs of recensenten** toe | Typ de naam van gebruikers of teams en wijs deze vervolgens aan als controleur of fiatteur. |
-
-1. Klik **sparen**.
-
-
-
-<div class="preview">
-
-## Een goedkeuringssjabloon maken in uw voorvertoningsomgeving
+## Een goedkeuringssjabloon maken
 
 {{step-1-to-setup}}
 
@@ -110,13 +87,12 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >Als u meerdere fasen toevoegt, gaat de goedkeuringswerkstroom verder in de volgorde waarin de fasen worden weergegeven. Wanneer alle vereiste beslissingen worden genomen, begint de volgende fase en wordt de vorige fase vergrendeld.
 
-   ![&#x200B; de details van het Document &#x200B;](assets/new-stage.png)
+   ![ de details van het Document ](assets/new-stage.png)
 
 1. Klik **sparen**.
 
 Zodra het malplaatje wordt gecreeerd, kan het op documenten in het gebied van Documenten van een project, een taak, of een kwestie worden toegepast om het formele overzicht en goedkeuringsproces in Workfront te beginnen.
 
-</div>
 
 
 <!--

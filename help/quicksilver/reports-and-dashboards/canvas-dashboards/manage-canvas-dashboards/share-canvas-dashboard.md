@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -17,12 +17,10 @@ ht-degree: 0%
 
 # Een canvasdashboard delen
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -69,7 +67,7 @@ U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat d
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Overwegingen bij het delen van dashboards
@@ -86,7 +84,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 * Wanneer een dashboard door een lay-outmalplaatje wordt verdeeld, wordt een automatische toestemming van de Mening voor het dashboard (en zijn rapporten) verleend aan alle middelen die aan het lay-outmalplaatje worden toegewezen.
 
-* <span class="preview"> wanneer een rapport op een dashboard met de Looppas als optie van de Gebruiker wordt gevormd, zien alle kijkers gegevens die op de geselecteerde toestemmingen van de gebruiker eerder dan hun worden gebaseerd. Dit betekent dat viewers gegevens kunnen zien waartoe ze normaal geen toegang hebben. Als sommige rapporten op een dashboard gebruiken Looppas aangezien de Gebruiker en anderen niet, de kijkers inconsistente gegevens over rapporten kunnen zien.</span>
+* Wanneer een rapport op een dashboard met de Looppas als optie van de Gebruiker wordt gevormd, zien alle kijkers gegevens die op de toestemmingen van de geselecteerde gebruiker eerder dan hun worden gebaseerd. Dit betekent dat viewers gegevens kunnen zien waartoe ze normaal geen toegang hebben. Als sommige rapporten op een dashboard Run gebruiken als Gebruiker en anderen niet, kunnen de kijkers inconsistente gegevens over rapporten zien.
 
 
 ## Een canvasdashboard delen
@@ -100,7 +98,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. In de hoger-juiste hoek van de pagina, klik de **knoop van het Aandeel**. Het **Dashboard dat** dialoogvakje deelt verschijnt.
 
-   ![&#x200B; knoop van het Aandeel &#x200B;](assets/share-button.png)
+   ![ knoop van het Aandeel ](assets/share-button.png)
 
 1. Op **geef toegang tot** gebied, begin het typen van de naam van een specifieke gebruiker, een team, een rol, een groep, of een bedrijf u het Dashboard van het Canvas met wilt delen, dan het wanneer het in de drop-down lijst verschijnt.
 

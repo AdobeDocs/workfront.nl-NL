@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 0%
@@ -17,12 +17,10 @@ ht-degree: 0%
 
 # Bouw een KPI- rapport in een dashboard van het Canvas
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -31,7 +29,7 @@ ht-degree: 0%
 
 U kunt een PKI- rapport aan een Dashboard van het Canvas bouwen en toevoegen dat visueel uw zeer belangrijke gegevens van de prestatiesindicator als aantal vertegenwoordigt, dat u kunt dan gebruiken om te zien hoe uw projecten en teams presteren.
 
-![&#x200B; KPI- rapportvoorbeeld &#x200B;](assets/kpi-example-main.png)
+![ KPI- rapportvoorbeeld ](assets/kpi-example-main.png)
 
 ## Toegangsvereisten
 
@@ -65,7 +63,7 @@ U kunt een PKI- rapport aan een Dashboard van het Canvas bouwen en toevoegen dat
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -82,7 +80,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -101,17 +99,15 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
       >
       >De beschrijving wordt gebruikt als een bijschrift onder de KPI-waarde. Als u geen beschrijving opgeeft, wordt een bijschrift voor u gegenereerd op basis van het aggregator- en aggregatietype dat u in de volgende stappen selecteert.
 
-   1. <span class="preview"> (Facultatief) in de **stel dit rapport met de toegangsrechten van** gebied in werking, begin typend de naam van de gebruiker de waarvan toestemmingen u het rapport wilt gebruiken, dan selecteren de gebruiker wanneer zij in de lijst verschijnen. Wanneer u een rapport vormt om als een andere gebruiker in werking te stellen, zien alle kijkers van het dashboard de zelfde gegevens, ongeacht hun eigen toegangsniveau. Als u geen gebruiker selecteert, ziet elke kijker gegevens die op hun eigen toestemmingen worden gebaseerd.
+   1. (Facultatief) in de **Looppas dit rapport met de toegangsrechten van** gebied, begin typend de naam van de gebruiker de waarvan toestemmingen u het rapport wilt gebruiken, dan selecteren de gebruiker wanneer zij in de lijst verschijnen. Wanneer u een rapport vormt om als een andere gebruiker in werking te stellen, zien alle kijkers van het dashboard de zelfde gegevens, ongeacht hun eigen toegangsniveau. Als u geen gebruiker selecteert, ziet elke kijker gegevens die op hun eigen toestemmingen worden gebaseerd.
 
       >[!IMPORTANT]
       >
       >Als de geselecteerde gebruiker wordt gedeactiveerd of toegang tot de relevante werkruimten of verslagtypes verliest, kan het rapport onvolledige gegevens tonen of er niet in slagen terug te geven.
 
-</span>
-
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **Bouw KPI** ![&#x200B; pictogram van KPI bouwen &#x200B;](assets/build-kpi-icon.png).
+   1. In het linkerpaneel, klik het **Bouw KPI** ![ pictogram van KPI bouwen ](assets/build-kpi-icon.png).
 
    1. Klik **Uitgezochte gebied** en specificeer dan het gebied u aan het rapport wilt toevoegen.
 
@@ -119,7 +115,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -127,11 +123,11 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-      Voor meer informatie over filters, zie [&#x200B; rapportfilters in een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) uitgeven.
+      Voor meer informatie over filters, zie [ rapportfilters in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) uitgeven.
 
-1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
+1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0} Drilldown {:**
 
-   1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![&#x200B; Drilldown kolommen &#x200B;](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
+   1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
    1. (Facultatief) om het even welke bestaande kolomconfiguraties bij te werken, selecteer de kolom u in de **Huidige kolommen** sectie wilt bijwerken en dan de gewenste informatie (b.v. etiket, verbonden status, en het formatteren regels) bijwerken.
 
@@ -139,7 +135,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de de groepengroep van de 1&rbrace; Groep ![.](assets/drilldown-group-icon.png)
+   1. In het linkerpaneel, klik het **** pictogram van de de groepengroep van de 1} Groep ![.](assets/drilldown-group-icon.png)
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen.
 
@@ -149,7 +145,7 @@ Er zijn vele configuratieopties beschikbaar voor de bouw van een KPI- rapport. I
 
 In deze sectie, zullen wij de stappen gaan om een PKI- rapport tot stand te brengen dat hangende documentgoedkeuringen toont.
 
-Voor meer informatie over KPI- rapportvoorbeelden, zie [&#x200B; een rapportdashboard voor overzicht en goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
+Voor meer informatie over KPI- rapportvoorbeelden, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
 {{step1-to-dashboards}}
 
@@ -157,7 +153,7 @@ Voor meer informatie over KPI- rapportvoorbeelden, zie [&#x200B; een rapportdash
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -169,12 +165,12 @@ Voor meer informatie over KPI- rapportvoorbeelden, zie [&#x200B; een rapportdash
 
 1. Volg hieronder de stappen om de **sectie van Details** te vormen:
 
-   1. Het type *in afwachting van* op het **3&rbrace; gebied van de Naam &lbrace;.**
+   1. Het type *in afwachting van* op het **3} gebied van de Naam {.**
    1. Het type *wacht goedkeuringen* op het **gebied van de Beschrijving** in behandeling. Dit wordt weergegeven als een bijschrift onder de KPI-waarde.
 
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
 
-   1. In het linkerpaneel, klik **Bouw KPI** ![&#x200B; bouwt KPI pictogram &#x200B;](assets/build-kpi-icon.png).
+   1. In het linkerpaneel, klik **Bouw KPI** ![ bouwt KPI pictogram ](assets/build-kpi-icon.png).
 
    1. Klik **Uitgezochte gebied**.
 
@@ -186,7 +182,7 @@ Voor meer informatie over KPI- rapportvoorbeelden, zie [&#x200B; een rapportdash
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -194,7 +190,7 @@ Voor meer informatie over KPI- rapportvoorbeelden, zie [&#x200B; een rapportdash
 
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verlaat de exploitant als **Gelijk**, dan type _in afwachting van overzicht_ in textbox.
-      ![&#x200B; In afwachting van kpi filtervoorbeeld &#x200B;](assets/pending-kpi-filter.png)
+      ![ In afwachting van kpi filtervoorbeeld ](assets/pending-kpi-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 ## Overwegingen bij het bouwen van een KPI-rapport
@@ -217,7 +213,7 @@ De **secties** drop-down in de **Bouw KPI** sectie wordt ontworpen om de keuzen 
 * **de Voorwerpen van Workfront**: De inheemse voorwerpen van het Werkschema van Workfront.
 * **de Types van Verslag van de Planning**: De verslagtypes van Douane die in de Planning van Workfront worden bepaald.
 
-![&#x200B; drop-down Secties &#x200B;](assets/sections-dropdown.png)
+![ drop-down Secties ](assets/sections-dropdown.png)
 
 Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down dan werkt met toepasselijke gebiedstype opties bij om van te kiezen.
 
@@ -227,7 +223,7 @@ Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down d
 * **de Gebieden van Workfront**: Eigen gebieden slechts.
 * **Verhoudingen**: Verbonden verslagen.
 
-![&#x200B; Te Rapporteren objecten selectie &#x200B;](assets/reportable-objects-selection.png)
+![ Te Rapporteren objecten selectie ](assets/reportable-objects-selection.png)
 
 ### Verwijzen naar onderliggende objecten
 

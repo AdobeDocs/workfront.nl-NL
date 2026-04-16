@@ -6,7 +6,7 @@ description: In de widget Mijn goedkeuringen worden al uw goedkeuringen die in b
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Uw goedkeuringen beheren met de widget Mijn goedkeuringen
-
-{{highlighted-preview}}
 
 In de widget Mijn goedkeuringen worden al uw goedkeuringen die in behandeling zijn, toegewezen, gedelegeerd en verzonden op één plaats weergegeven. Hier, kunt u uw goedkeuringen filtreren en organiseren, besluiten nemen, en toestemmingen delegeren zoals nodig.
 
@@ -58,13 +56,13 @@ De widget Mijn goedkeuringen ondersteunt goedkeuringen van de volgende Workfront
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Werken goedkeuren via de widget Mijn goedkeuringen
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan selecteer **allen** om goedkeuringen te zien die aan u worden toegewezen en worden gedelegeerd.
 
@@ -73,14 +71,14 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >Goedkeuringen die zijn toegewezen aan taakrollen of -groepen worden niet weergegeven in Home. De goedkeuringen die aan de vertoning van Teams in Mijn widget Goedkeuren voor elk teamlid worden toegewezen.
 
 
-1. <span class="preview"> (Voorwaardelijk) klik het **Soort** drop-down menu, dan selecteer **Nieuwst eerst** om de onlangs toegevoegde goedkeuringen te zien.</span>
+1. (Voorwaardelijk) klik het **drop-down menu van de Soort**, dan selecteert **Nieuwste eerst** om de onlangs toegevoegde goedkeuringen te zien.
 
 
-1. <span class="preview"> (Facultatief) klik het Volledige het schermpictogram ![&#x200B; Volledig het schermpictogram &#x200B;](assets/full-screen.png) om Mijn widget van Goedkeuringen in volledig scherm te openen.</span>
+1. (Optioneel) Klik op het pictogram Volledig scherm ![ pictogram Volledig scherm ](assets/full-screen.png) om de widget Mijn goedkeuringen in volledig scherm te openen.
 
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
-   ![&#x200B; Mijn widget goedkeurt &#x200B;](assets/my-approvals-widget.png)
+   ![ Mijn widget goedkeurt ](assets/my-approvals-widget.png)
 
    <!--update screenshot after production release-->
 
