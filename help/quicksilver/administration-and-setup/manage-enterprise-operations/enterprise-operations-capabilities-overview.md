@@ -9,7 +9,8 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+exl-id: 421cfc8c-8c81-4d48-9fa7-ce603f33d8a9
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -17,8 +18,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van mogelijkheden voor Enterprise-bewerkingen
-
-{{highlighted-preview-article-level}}
 
 De geavanceerde mogelijkheden van ondernemingsverrichtingen zijn een verenigde en scalable manier om financiën, middelen, projecten, en ondernemingstoegang te beheren. Deze mogelijkheden bieden de zichtbaarheid en de controle die bedrijven nodig hebben om rendabel en efficiënt te werken.
 
@@ -36,13 +35,13 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 De momentopnamen van het project in Workfront geven u een manier om verschillen tussen momentopnamen (genomen op een specifieke datum en een tijd) en de huidige gegevens van het project snel en nauwkeurig te zien, die u helpen om projecten effectiever te beheren en betere besluiten te nemen. De vergelijkingen van de momentopname tonen zij aan zij hoe het project heeft geëvolueerd.
 
-Voor meer informatie, zie [&#x200B; projectmomentopnamen &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md) creëren en bekijken
+Voor meer informatie, zie [ projectmomentopnamen ](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md) creëren en bekijken.
 
 ## Bedrijfsmachtigingen
 
 Geavanceerde bedrijfsmachtigingen, zoals bedrijfsprofielen, bieden veilige, schaalbare systeemtoegang en helpen het ondernemingsbestuur te versterken.
 
-Voor meer informatie, zie [&#x200B; Overzicht Bedrijfs profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+Voor meer informatie, zie [ Overzicht Bedrijfs profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Aangepaste formulier- en veldverbeteringen
 
@@ -57,11 +56,10 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 U kunt aangepaste vertalingen in Adobe Workfront toevoegen voor door de gebruiker ingevoerde labels, zodat teams de taal kunnen aanpassen aan hun eigen terminologie en lokale behoeften. Dit leidt tot consistentere, toegankelijkere, en globaal gerichte ervaringen over het systeem.
 
-Voor meer informatie, zie [&#x200B; douanelokalisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen
+Voor meer informatie, zie [ douanelokalisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
 
 ## Handelingen
 
 U kunt nu bedrijfsregels configureren om handelingen voor het gemaakte, bewerkte of gewijzigde object te automatiseren als aan bepaalde voorwaarden is voldaan. Tot de beschikbare acties behoren het delen van het object of het koppelen van een aangepast formulier aan het object.
 
-Voor meer informatie, zie [&#x200B; bedrijfsregels creëren en uitgeven &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-
+Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -21,11 +21,9 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-{{highlighted-preview}}
-
 U kunt de financiële informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken.
 
-Voor informatie over het uitgeven van alle financiële informatie voor een taak, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie over het uitgeven van alle financiële informatie voor een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -56,7 +54,7 @@ Voor informatie over het uitgeven van alle financiële informatie voor een taak,
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,22 +90,22 @@ Old:
 
    >[!NOTE]
    >
-   >Als u een taak wilt zoeken, kunt u er ook naar zoeken en op de naam klikken om de taak te openen. Voor meer informatie bij het zoeken naar voorwerpen in Workfront, zie [&#x200B; Onderzoek Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+   >Als u een taak wilt zoeken, kunt u er ook naar zoeken en op de naam klikken om de taak te openen. Voor meer informatie bij het zoeken naar voorwerpen in Workfront, zie [ Onderzoek Adobe Workfront ](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 1. Klik **Taken** in het linkerpaneel.
 1. Klik op de naam van een taak die u wilt weergeven.
 1. Klik **Details van de Taak**.
 1. (Facultatief) klik **Vouw al** pictogram in het hoogste recht van de pagina van de Details van de Taak samen.
 
-   ![&#x200B; Vouw al pictogram op de pagina van Details samen &#x200B;](assets/collapse-all-icon-on-details-page.png)
+   ![ Vouw al pictogram op de pagina van Details samen ](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Klik **Financiën** om de financiële informatie voor de taak uit te breiden en te bekijken.
 
-   Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**.
+   Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Financiën**.
 
 1. Bewerk elk veld dat u kunt bewerken door één keer op het veld te klikken of klik op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
 1. Herzie of geef de volgende informatie in het **Financiën** gebied uit:
@@ -124,7 +122,7 @@ Old:
         <li> <p>Vast uurwerk </p> </li> 
         <li> <p> Uur gebruiker </p> </li> 
         <li> <p> Rol Uur</p> </li> 
-        <li> <p> <span class="preview"> Gebruiker en Rol Uur </span></p> </li> 
+        <li> <p>Uur gebruiker en rol</p> </li> 
        </ul> <p>Voor meer informatie over het volgen van kosten, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>. Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Kostensoort voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </td> 
      </tr> 
      <tr> 
@@ -134,14 +132,14 @@ Old:
         <li> <p> Niet opblaasbaar </p> </li> 
         <li> <p>Uur gebruiker </p> </li> 
         <li> <p>Rol Uur </p> </li> 
-        <li> <p> <span class="preview"> Gebruiker en Rol Uur </span></p> </li>
+        <li> <p>Uur gebruiker en rol</p> </li>
         <li> <p>Vast uurwerk </p> </li> 
         <li> <p>Uur gebruiker met lampvoet </p> </li> 
         <li> <p>Rol Uur met lampvoet </p> </li>
-        <li> <p> <span class="preview"> Gebruiker en Rol Uur met Kop </span></p> </li> 
+        <li> <p>Uur gebruiker en rol met lampvoet</p> </li> 
         <li> <p>Uur plus vaste kosten gebruiker </p> </li> 
         <li> <p>Rol Uur plus vast </p> </li> 
-        <li> <p> <span class="preview"> Vaste Gebruiker en Rol Uur plus </span></p> </li>
+        <li> <p>Gebruiker en Rol - Uur plus Vast</p> </li>
         <li> <p>Vaste inkomsten </p> </li> 
        </ul> <p>Voor meer informatie over het volgen van opbrengst, zie <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref"> Overzicht van het Factureren en de Ontvangsten </a> en <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md"> Overzicht van opbrengst en kostenhiërarchie </a>. </p> <p>Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Inkooptype voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </td> 
      </tr> 
@@ -162,13 +160,13 @@ Old:
       <td> <p>Dit is een berekening die de opbrengst verbonden aan de taak toont die op de daadwerkelijke uren, het opbrengsttype, en het uurtarief voor gebruikers of baanrollen wordt gebaseerd. Voor meer informatie over het volgen van kosten, zie <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref"> Kosten van het Spoor </a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Overlopende verhouding</span></td> 
-      <td><span class="preview"><p>Voer de overloopvermenigvuldiger voor de taak in, bijvoorbeeld 1.5 of 2.0. De standaardwaarde is 1.0 (geen vermenigvuldiger). Voor meer informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md"> een overtijdsverhouding </a> bepalen.</p><p>Het veld Overlopende verhouding weergeven:</p>
+      <td>Overlopende verhouding</td> 
+      <td><p>Voer de overloopvermenigvuldiger voor de taak in, bijvoorbeeld 1.5 of 2.0. De standaardwaarde is 1.0 (geen vermenigvuldiger). Voor meer informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md"> een overtijdsverhouding </a> bepalen.</p><p>Het veld Overlopende verhouding weergeven:</p>
        <ul>
        <li>Het type van Inkomsten op de taak moet Gebruiker en Rol Uur zijn. Voor meer informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md"> Overzicht van opbrengst en kostenhiërarchie </a>.</li>
        <li>Het veld moet zijn ingeschakeld in de lay-outsjabloon, in het gedeelte Financiën in de weergave Taakdetails. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md"> de mening van Details aanpassen gebruikend een lay-outmalplaatje </a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 

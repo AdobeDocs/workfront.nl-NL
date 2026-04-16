@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 0%
@@ -16,11 +16,9 @@ ht-degree: 0%
 
 # Uitgebreide lijsten gebruiken
 
-{{preview-fast-release-general}}
-
 Uitgebreide lijsten zijn beschikbaar in sommige gebieden van Adobe Workfront. Deze lijsten gebruiken een lijstformaat voor het tonen van de lijstitems, en zij hebben een verschillend uiterlijk dan de standaardlijsten. Het beheer van weergaven wordt ook verbeterd, zoals filteren, groeperen, kolommen beheren en zoeken.
 
-Voor informatie over de standaardlijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over de standaardlijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 >[!NOTE]
 >
@@ -47,7 +45,7 @@ Voor informatie over de standaardlijsten, zie [&#x200B; begonnen worden met lijs
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,13 +62,12 @@ Hieronder vindt u een aantal typen Workfront-objectlijsten die gebruikmaken van 
 | Prioriteiten | <ul><li>Home > selecteer het pictogram Prioriteiten in het linkermenu</li><li>Hoofdmenu > Prioriteiten</li></ul> |
 | Lijst van verzoeken | <ul><li>Verzoeken (alleen nieuwe ervaring)</li><li>Widget Mijn verzoeken bij Home</li></ul> |
 | Lijsten met statussen, prioriteiten, ernst en wisselkoersen in Setup | <ul><li>Setup > Projectvoorkeuren > Statussen</li><li>Setup > Projectvoorkeuren > Prioriteiten</li><li>Setup > Projectvoorkeuren > Ernsten</li><li>Setup > Project Preferences > Exchange Rates</li></ul> |
-| <span class="preview"> Lijst van rapporten </span> | <span class="preview"> Rapporten (**Gebruik deelbare omslagen** moet worden aangezet) </span> |
-| <span class="preview"> Lijst van baanrollen en tarieven op een tariefkaart </span> | <span class="preview"> Opstelling > de Kaarten van het Tarief > selecteer een tariefkaart > de Rollen en Tarieven van de Baan </span> |
-| <span class="preview"> Lijst van vertalingen </span> | <span class="preview"> Opstelling > Localization </span> |
-| <span class="preview"> Lijst van momentopnamen </span> | <span class="preview"> Project > Momentopnamen </span> |
-| <span class="preview"> Lijst van middelen voor het factureren </span> | <span class="preview"> Project > Middel voor het Factureren </span> |
-| <span class="preview"> Nieuwe Geavanceerde Taken op een taak </span> | <span class="preview"> Taak > Toewijzingen > Geavanceerd </span> |
-
+| Lijst van verslagen | Rapporten (**Gebruik deelbare omslagen** moet worden aangezet) |
+| Lijst met functies en tarieven op een tariefkaart | Setup > Rate Cards > select a rate card > Job Rolings and Rates |
+| Lijst van vertalingen | Setup > Localization |
+| Lijst met momentopnamen | Project > Momentopnamen |
+| Lijst met te factureren bronnen | Project > Bron voor Facturering |
+| Nieuwe Geavanceerde toewijzingen voor een taak | Taak > Toewijzingen > Geavanceerd |
 
 ## Items toevoegen aan een verbeterde lijst
 
@@ -99,7 +96,7 @@ Voer een van de volgende handelingen uit afhankelijk van de verbeterde lijst die
    >
    >Elk veldtype heeft zijn eigen bewerkingsopties. Sommige velden zijn mogelijk alleen-lezen.
 
-![&#x200B; Verbeterd lijstvoorbeeld &#x200B;](assets/glist-exchange-rates.png)
+![ Verbeterd lijstvoorbeeld ](assets/glist-exchange-rates.png)
 
 ## Items bewerken met de actiebalk
 
@@ -124,15 +121,15 @@ U kunt de actiebalk in een uitgebreide lijst gebruiken om items in de lijst te b
 
    Als er geen acties beschikbaar zijn voor het geselecteerde item, wordt op de actiebalk &#39;&#39;Geen beschikbare acties&#39;&#39; weergegeven.
 
-   ![&#x200B; de bar van de Actie voorbeeld &#x200B;](assets/glist-action-bar-statuses.png)
+   ![ de bar van de Actie voorbeeld ](assets/glist-action-bar-statuses.png)
 
-1. Beweeg over het primaire gebied van een lijstitem, dan klik **Meer** menu ![&#x200B; Meer menupictogram &#x200B;](assets/more-icon.png) om extra acties te zien. Sommige acties kunnen specifiek zijn voor die lijst.
+1. Beweeg over het primaire gebied van een lijstitem, dan klik **Meer** menu ![ Meer menupictogram ](assets/more-icon.png) om extra acties te zien. Sommige acties kunnen specifiek zijn voor die lijst.
 
    >[!TIP]
    >
    >Het primaire veld wordt weergegeven in de eerste kolom van de lijst.
 
-   ![&#x200B; Meer menuvoorbeeld &#x200B;](assets/glist-more-menu-priorities.png)
+   ![ Meer menuvoorbeeld ](assets/glist-more-menu-priorities.png)
 
 ## Kolommen aanpassen
 
@@ -140,10 +137,10 @@ Afhankelijk van de objecten die u in een uitgebreide lijst weergeeft, kunt u kol
 
 1. Klik **Kolommen** boven de lijst.
 
-   ![&#x200B; de kolomvoorbeeld van de Vertoning &#x200B;](assets/glist-display-move-columns.png)
+   ![ de kolomvoorbeeld van de Vertoning ](assets/glist-display-move-columns.png)
 
 1. Met de schakelopties kunt u kolommen in de lijst weergeven of verbergen.
-1. Om de kolommen opnieuw in orde te brengen, klik het **pictogram van de Belemmering** pictogram ![&#x200B; en beweeg een kolom aan uw gewenste plaats. &#x200B;](assets/drag-icon.png) Als u kolommen verplaatst, wordt de lijst automatisch gewijzigd.
+1. Om de kolommen opnieuw in orde te brengen, klik het **pictogram van de Belemmering** pictogram ![ en beweeg een kolom aan uw gewenste plaats. ](assets/drag-icon.png) Als u kolommen verplaatst, wordt de lijst automatisch gewijzigd.
 
    >[!NOTE]
    >
@@ -153,7 +150,7 @@ Afhankelijk van de objecten die u in een uitgebreide lijst weergeeft, kunt u kol
 
    Een indicator verschijnt op de **knoop van Kolommen** wanneer de kolommen worden verborgen. De indicator wordt niet weergegeven wanneer u de kolommen opnieuw ordent.
 
-   ![&#x200B; Indicator voor verborgen kolommen &#x200B;](assets/glist-columns-hidden-indicator.png)
+   ![ Indicator voor verborgen kolommen ](assets/glist-columns-hidden-indicator.png)
 
 ### Kolommen hernoemen
 
@@ -161,7 +158,7 @@ In sommige kolommen kunt u een aangepaste naam voor de kolomtitel opslaan.
 
 1. Beweeg over de kolom, dan klik de benedenpijl en selecteer **anders noemen**.
 
-   ![&#x200B; Uitgezochte anders noemen op kolom &#x200B;](assets/glist-rename-or-sort-column.png)
+   ![ Uitgezochte anders noemen op kolom ](assets/glist-rename-or-sort-column.png)
 
 1. Op **anders noem** dialoog, typ de naam voor de kolom in het **etiket** gebied van de Douane, en klik **sparen**.
 
@@ -185,11 +182,9 @@ Kolommen toevoegen en verwijderen:
 
 1. Klik **sparen**.
 
-   ![&#x200B; Manager van de Kolom &#x200B;](assets/glist-column-manager.png)
+   ![ Manager van de Kolom ](assets/glist-column-manager.png)
 
    De lijst werkt de kolommen bij volgens de keuzes die u hebt gemaakt.
-
-<div class="preview">
 
 ### De rijhoogte wijzigen in een weergave
 
@@ -197,15 +192,13 @@ Kolommen toevoegen en verwijderen:
 >
 >Niet alle uitgebreide lijsten bevatten alle elementen die in deze sectie worden beschreven.
 
-1. Klik het **pictogram van de de hoogte van de Rij** ![&#x200B; pictogram van de rijhoogte in een verbeterde lijst.](assets/row-height-icon.png)
+1. Klik het **pictogram van de de hoogte van de Rij** ![ pictogram van de rijhoogte in een verbeterde lijst.](assets/row-height-icon.png)
 
    Hiermee werkt u de verticale lengte van een rij bij. Kies een van de volgende opties:
    * Kort
    * Standaard. Dit is de standaardoptie.
    * Medium
    * Lang
-
-</div>
 
 ## Uitgebreide lijstelementen bijwerken
 
@@ -232,9 +225,9 @@ Een weergave toepassen of maken:
    Klik **Nieuwe mening** om te creëren.
 
 1. (Voorwaardelijk) voor het toevoegen van een nieuwe mening, ga een naam voor de mening in, dan klik **creeer**.
-1. (Optioneel) U kunt de kolommen verbergen, weergeven of opnieuw rangschikken. Voor meer informatie, zie [&#x200B; kolommen in een verbeterde lijst &#x200B;](#customize-columns-in-an-enhanced-list) aanpassen.
-1. (Optioneel) Filter de lijst. Voor meer informatie, zie [&#x200B; punten van de Filter in een verbeterde lijst &#x200B;](#filter-items-in-an-enhanced-list).
-1. (Optioneel) Groepeer de items in de lijst. Voor meer informatie, zie [&#x200B; de punten van de Groep in een verbeterde lijst &#x200B;](#group-items-in-an-enhanced-list).
+1. (Optioneel) U kunt de kolommen verbergen, weergeven of opnieuw rangschikken. Voor meer informatie, zie [ kolommen in een verbeterde lijst ](#customize-columns-in-an-enhanced-list) aanpassen.
+1. (Optioneel) Filter de lijst. Voor meer informatie, zie [ punten van de Filter in een verbeterde lijst ](#filter-items-in-an-enhanced-list).
+1. (Optioneel) Groepeer de items in de lijst. Voor meer informatie, zie [ de punten van de Groep in een verbeterde lijst ](#group-items-in-an-enhanced-list).
 
    Wijzigingen in weergaven worden automatisch opgeslagen. De volgende keer dat u deze weergave toepast, blijven de kolom- en filterinstellingen behouden zoals u ze instelt.
 
@@ -254,24 +247,22 @@ Wanneer u een weergave deelt, worden alle weergave-elementen (kolommen, filters 
 
 Een weergave delen:
 
-1. In **Meningen** dropdown, houd over de mening in **Mijn Meningen** die u wilt delen, klik **Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png), en klik **Deel**.
+1. In **Meningen** dropdown, houd over de mening in **Mijn Meningen** die u wilt delen, klik **Meer** menu ![ ](assets/more-icon.png), en klik **Deel**.
 1. Voer in het dialoogvenster Delen de namen in van de gebruikers, teams, groepen, bedrijven of taakrollen waarmee u de weergave wilt delen, en selecteer deze vervolgens in de lijst wanneer ze worden weergegeven.
 
    U kunt de volgende machtigingen aan de ontvangers geven:
 
    * **Mening**: De gebruikers kunnen de mening op de lijst toepassen maar het niet delen.
 
-     <span class="preview"> wanneer de de toegangsgebruikers van de Mening de mening bijwerken, worden die veranderingen bewaard aan de persoonlijke voorkeur van de gebruiker. Een blauwe punt op de meningsnaam (in de 0&rbrace; Gedeelde Meningen van de gebruiker **) toont aan dat de persoonlijke updates op de mening worden toegepast.**</span>
+     Wanneer de gebruikers van de Toegang van de Mening de mening bijwerken, worden die veranderingen bewaard aan de persoonlijke voorkeur van de gebruiker. Een blauwe punt op de meningsnaam (in de 0} Gedeelde Meningen van de gebruiker **) toont aan dat de persoonlijke updates op de mening worden toegepast.**
 
    * **leidt**: De gebruikers kunnen, de mening anders noemen delen of schrappen, en de elementen van de mening uitgeven.
 
-     <span class="preview"> wanneer Manage de toegangsgebruikers veranderingen in de mening aanbrengen, zullen alle gebruikers die de mening hebben met hen wordt gedeeld die updates zien wanneer de mening op de lijst wordt toegepast.</span>
+     Wanneer de Manage toegangsgebruikers veranderingen in de mening aanbrengen, zullen alle gebruikers die de mening hebben met hen wordt gedeeld die updates zien wanneer de mening wordt toegepast op de lijst.
 
 1. Klik **sparen**.
 
-   <span class="preview"> als u een mening met een gebruiker deelt en dan verwijdert die toegang, wordt de mening verwijderd uit de 1&rbrace; Gedeelde Meningen van de gebruiker **.** Als de gebruiker de gedeelde mening op de lijst had wordt toegepast wanneer hun toegang wordt verwijderd, dan wordt de systeem standaardmening toegepast.</span>
-
-<div class="preview">
+   Als u een mening met een gebruiker deelt en dan die toegang verwijdert, wordt de mening verwijderd uit de 0} Gedeelde Meningen van de gebruiker **.** Als de gedeelde weergave van de gebruiker op de lijst is toegepast wanneer de toegang wordt verwijderd, wordt de standaardweergave van het systeem toegepast.
 
 ### Een weergave kopiëren
 
@@ -281,19 +272,15 @@ Een weergave delen:
 
 Wanneer een weergave met u wordt gedeeld en u hiervoor geen machtiging hebt, kunt u de weergave kopiëren en opslaan onder een andere naam. U moet eerst wijzigingen aanbrengen in de weergave voordat u deze kunt kopiëren.
 
-1. In het drop-down Meningen, houd over de mening in **Gedeelde Meningen** dat u de montages van wijzigde en die willen kopiëren, **Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png) klikken, en **Exemplaar met voorkeur** klikken.
+1. In het drop-down Meningen, houd over de mening in **Gedeelde Meningen** dat u de montages van wijzigde en die willen kopiëren, **Meer** menu ![ ](assets/more-icon.png) klikken, en **Exemplaar met voorkeur** klikken.
 
-   Er wordt automatisch een nieuwe weergave gemaakt. De naam van de gekopieerde mening volgt het volgende patroon: `Original view name (copy)` en het toont in de **Mijn 2&rbrace; sectie van Meningen &lbrace;van meningen.**
+   Er wordt automatisch een nieuwe weergave gemaakt. De naam van de gekopieerde mening volgt het volgende patroon: `Original view name (copy)` en het toont in de **Mijn 2} sectie van Meningen {van meningen.**
 
    U bent de eigenaar van deze weergave en u kunt de weergave hernoemen, bewerken, delen of verwijderen. Als de eigenaar van de oorspronkelijke weergave de gedeelde toegang tot die weergave verwijdert, hebt u nog steeds toegang tot de weergave die u hebt gemaakt door het gedeelde origineel te kopiëren.
 
    >[!NOTE]
    >
    >Het **Exemplaar met voorkeur** optie is slechts beschikbaar wanneer u veranderingen in een mening hebt aangebracht die met u werd gedeeld.
-
-</div>
-
-<div class="preview">
 
 ### Een weergave opnieuw instellen
 
@@ -303,7 +290,7 @@ Wanneer een weergave met u wordt gedeeld en u hiervoor geen machtiging hebt, kun
 
 Wanneer een weergave met u wordt gedeeld die u niet mag bewerken en u die weergave bijwerkt, kunt u de weergave herstellen naar de oorspronkelijke weergave.
 
-1. In **Meningen** dropdown, houd over de mening in **Gedeelde Meningen** die u wilt terugstellen, klikt **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png), en klik **Teruggesteld aan gebrek**.
+1. In **Meningen** dropdown, houd over de mening in **Gedeelde Meningen** die u wilt terugstellen, klikt **Meer** menu ![ Meer menu ](assets/more-icon.png), en klik **Teruggesteld aan gebrek**.
 
    De weergave-elementen (kolommen, filters en groepen) worden teruggezet op de oorspronkelijke instellingen die met u zijn gedeeld.
 
@@ -311,11 +298,7 @@ Wanneer een weergave met u wordt gedeeld die u niet mag bewerken en u die weerga
    >
    >Het **Terugstellen aan gebrek** optie is slechts beschikbaar wanneer u veranderingen in een mening hebt aangebracht die met u werd gedeeld.
 
-   ![&#x200B; Exemplaar en stel een meningsopties &#x200B;](assets/glist-copy-view-shared-with-you.png) terug
-
-</div>
-
-<div class="preview">
+   ![ Exemplaar en stel een meningsopties ](assets/glist-copy-view-shared-with-you.png) terug
 
 ### Voorwaardelijke opmaak toepassen in een weergave
 
@@ -325,7 +308,7 @@ Wanneer een weergave met u wordt gedeeld die u niet mag bewerken en u die weerga
 
 Met voorwaardelijke opmaak kunt u belangrijke informatie in de weergave benadrukken op basis van algemene criteria.
 
-1. Klik het **pictogram** de cellen van het Formaat {![&#x200B; pictogram van de Cellen van het 0} Formaat. &#x200B;](assets/format-cells-icon.png) Het **vakje van het Formaat** opent.
+1. Klik het **pictogram** de cellen van het Formaat {![ pictogram van de Cellen van het 0} Formaat. ](assets/format-cells-icon.png) Het **vakje van het Formaat** opent.
 
 1. Klik **toevoegen voorwaarde**.
 1. In **als** lijn, selecteer een gebied en kies een gebiedswaarde en voeg een bepaling toe. De opties veranderen, afhankelijk van het gebiedstype u kiest.
@@ -334,7 +317,7 @@ Met voorwaardelijke opmaak kunt u belangrijke informatie in de weergave benadruk
    >
    >Alleen velden die zichtbaar zijn in de uitgebreide lijst, zijn beschikbaar voor voorwaardelijke opmaak.
 
-1. (Facultatief) in plaats van het toevoegen van een gebiedswaarde, klik **vergelijken met een ander gebied** pictogram ![&#x200B; vergelijk met een ander gebied &#x200B;](assets/compare-to-another-field-icon.png) en kies een gebied de waarvan waarde u met de waarde van uw geselecteerd gebied wilt vergelijken. U kunt bijvoorbeeld de velden Onderwerp en Beschrijving vergelijken op aanvraagitems.
+1. (Facultatief) in plaats van het toevoegen van een gebiedswaarde, klik **vergelijken met een ander gebied** pictogram ![ vergelijk met een ander gebied ](assets/compare-to-another-field-icon.png) en kies een gebied de waarvan waarde u met de waarde van uw geselecteerd gebied wilt vergelijken. U kunt bijvoorbeeld de velden Onderwerp en Beschrijving vergelijken op aanvraagitems.
 
    >[!TIP]
    >
@@ -348,8 +331,8 @@ Met voorwaardelijke opmaak kunt u belangrijke informatie in de weergave benadruk
 
 1. Klik de **of** schakelaar tussen voorwaarden om in **en** te veranderen en erop te wijzen dat de veelvoudige voorwaarden tezelfdertijd moeten worden vervuld. **Of** is de standaardschakelaar.
 1. In de **lijn van het Formaat**, selecteer een gebied om erop te wijzen welke kolom zal worden geformatteerd.
-1. (Facultatief) klik het **pictogram van de kleurencirkel** het formaatpictogram van de Kleur ![&#x200B; naast het geselecteerde gebied, om het uit te breiden en een andere kleur in het &#x200B;](assets/color-format-icon.png) Vullingsgebied van de Cel te kiezen **om de kleur van de achtergrond in een cel te veranderen of een kleur van het** de kleur van de Tekst **gebied te kiezen om de kleur van tekst in een cel te veranderen.**
-1. Klik het **pictogram van het formaat van de Tekst 1&rbrace; van de Tekst** ![&#x200B; en selecteer van de volgende opties om de tekst in een cel te formatteren:](assets/text-format-icon.png)
+1. (Facultatief) klik het **pictogram van de kleurencirkel** het formaatpictogram van de Kleur ![ naast het geselecteerde gebied, om het uit te breiden en een andere kleur in het ](assets/color-format-icon.png) Vullingsgebied van de Cel te kiezen **om de kleur van de achtergrond in een cel te veranderen of een kleur van het** de kleur van de Tekst **gebied te kiezen om de kleur van tekst in een cel te veranderen.**
+1. Klik het **pictogram van het formaat van de Tekst 1} van de Tekst** ![ en selecteer van de volgende opties om de tekst in een cel te formatteren:](assets/text-format-icon.png)
    * Vet
    * Cursief
 
@@ -362,8 +345,6 @@ Met voorwaardelijke opmaak kunt u belangrijke informatie in de weergave benadruk
    Hiermee keert u terug naar de lijstweergave.
 De opmaak wordt direct toegepast op de lijstweergave.
 Er is een blauw punt naast het **pictogram van de Cellen van het Formaat** om erop te wijzen dat de mening speciale toegepaste het formatteren heeft.
-
-</div>
 
 ### Items in een verbeterde lijst filteren
 
@@ -379,15 +360,13 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft.
 1. Selecteer een filtermodifier, zoals &quot;Heeft een van de opties,&quot; &quot;Heeft geen van de opties&quot;, &quot;Is ervoor&quot; of &quot;Is erna&quot;. De opties voor wijzigingstoetsen zijn afhankelijk van het type veld waarop u filtert.
 1. Selecteer de veldwaarde(n). Afhankelijk van het veldtype waarop u filtert, wordt u mogelijk gevraagd het item in een lijst te selecteren, ernaar te zoeken of een kalender te gebruiken om een datumbereik te selecteren.
 
-   ![&#x200B; Filter in verbeterde lijsten &#x200B;](assets/glist-filter-with-options.png)
+   ![ Filter in verbeterde lijsten ](assets/glist-filter-with-options.png)
 
    Het filter wordt automatisch toegepast op de lijst.
 
    >[!TIP]
    >
-   ><span class="preview"> om een gepersonaliseerd filter toe te passen, selecteer één van de volgende opties voor een gebiedswaarde:</span>
-   >
-   ><div class="preview">
+   >Als u een gepersonaliseerd filter wilt toepassen, selecteert u een van de volgende opties voor een veldwaarde:
    >
    >* **me (het programma geopende gebruiker)** om naar de het programma geopende gebruiker op gebieden te verwijzen die naar gebruikers verwijzen.
    >
@@ -398,8 +377,6 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft.
    >* **Mijn bedrijf** om naar uw bedrijf op gebieden te verwijzen die naar bedrijven verwijzen.
    > 
    >* **Mijn rollen** of **Mijn primaire rol** om naar uw baanrollen op gebieden te verwijzen die naar rollen verwijzen.
-   >
-   ></div>
 
 1. Klik **toevoegen voorwaarde** om een andere voorwaarde aan de filter toe te voegen.
 
@@ -409,7 +386,7 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft.
 
    Een indicator verschijnt op de **knoop van de Filter** wanneer een filter op de lijst wordt toegepast.
 
-   ![&#x200B; Toegepaste indicator van de Filter &#x200B;](assets/glist-filter-applied-indicator.png)
+   ![ Toegepaste indicator van de Filter ](assets/glist-filter-applied-indicator.png)
 
 ### Items in een verbeterde lijst groeperen
 
@@ -424,16 +401,16 @@ Workfront biedt een beperkt aantal vooraf gedefinieerde groepen en u kunt deze n
 1. Klik **Groepering** boven de lijst.
 1. Selecteer een groepering om uw lijst te organiseren.
 
-   ![&#x200B; Uitgezochte een groepering &#x200B;](assets/glist-grouping-choose-a-group-by.png)
+   ![ Uitgezochte een groepering ](assets/glist-grouping-choose-a-group-by.png)
 
 1. Klik **samenvouwen allen** om de lijst met alle samengevouwen groeperingen te tonen. De standaardoptie is om de lijst met alle uitgevouwen groepen weer te geven.
 1. Wanneer de groepering wordt toegepast, kunt u de opties van de Groep opnieuw openen om alle groeperingen in één keer samen te vouwen of uit te breiden, de groepering te veranderen om te groeperen door een verschillend gebied, of alle groeperingen te ontruimen.
 
-   ![&#x200B; Groepering in verbeterde lijsten &#x200B;](assets/glist-group-by-due-date-priorities.png)
+   ![ Groepering in verbeterde lijsten ](assets/glist-group-by-due-date-priorities.png)
 
    Een indicator verschijnt op de **Groeperende** knoop wanneer het groeperen wordt toegepast op de lijst.
 
-   ![&#x200B; groepering toegepaste indicator &#x200B;](assets/glist-grouping-applied-indicator.png)
+   ![ groepering toegepaste indicator ](assets/glist-grouping-applied-indicator.png)
 
 ### Sorteren in een verbeterde lijst
 
@@ -451,11 +428,11 @@ Afzonderlijke kolommen sorteren:
    >
    >Sommige kolommen kunnen niet sorteerbaar zijn, afhankelijk van de lijst.
 
-   ![&#x200B; Soort door een kolom &#x200B;](assets/glist-sort-by-column.png)
+   ![ Soort door een kolom ](assets/glist-sort-by-column.png)
 
 1. (Facultatief) om uw werk binnen een groepering te sorteren, **Groepering** te klikken, naar de lijn van de toegepaste groepering te gaan, op sorteerdropdown te klikken, en een oplopende of dalende orde te selecteren.
 
-   ![&#x200B; Soort in een groepering &#x200B;](assets/sort-in-groups.png)
+   ![ Soort in een groepering ](assets/sort-in-groups.png)
 
    >[!TIP]
    >
@@ -469,7 +446,7 @@ Afzonderlijke kolommen sorteren:
 
 1. Typ een trefwoord waarop u wilt zoeken in het vak Zoeken rechtsboven in de lijst. De resultaten worden tijdens het typen in de lijst gemarkeerd.
 
-   ![&#x200B; benadrukte termijn van het Onderzoek &#x200B;](assets/glist-search-highlighted.png)
+   ![ benadrukte termijn van het Onderzoek ](assets/glist-search-highlighted.png)
 
    >[!NOTE]
    >

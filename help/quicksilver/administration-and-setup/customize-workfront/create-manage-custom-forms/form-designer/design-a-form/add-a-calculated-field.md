@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 0%
@@ -18,8 +18,6 @@ ht-degree: 0%
 # Berekende velden toevoegen aan een formulier
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 U kunt een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 
@@ -69,7 +67,7 @@ Een berekend aangepast veld kan het volgende bevatten:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +83,7 @@ U kunt ook een andere berekening voor hetzelfde veld uitvoeren op het nieuwe for
 >
 >Door wijzigingen in berekende expressies kan de veldwaarde van objecten verouderd raken. Voer een van de volgende handelingen uit om ervoor te zorgen dat u altijd de bijgewerkte berekening in deze velden weergeeft:
 >
->* Na het bewaren van een voorwerp waar u gegevens in een douanevorm in bijlage hebt uitgegeven, klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) op de belangrijkste pagina van de objecten, dan herberekenen de Uitdrukkingen van de Douane.
+>* Na het bewaren van een voorwerp waar u gegevens in een douanevorm in bijlage hebt uitgegeven, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) op de belangrijkste pagina van de objecten, dan herberekenen de Uitdrukkingen van de Douane.
 >* Selecteer de optie Aangepaste expressies opnieuw berekenen wanneer u objecten bulksgewijs bewerkt.
 >* Selecteer de optie Vorige berekeningen bijwerken wanneer u een berekend aangepast veld op een aangepast formulier bewerkt.
 
@@ -100,7 +98,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 1. In de **Nieuwe dialoog van de Vorm van de Douane**, selecteer welke objecten types u de douanevorm aan wilt vastmaken, dan **blijven** klikken.
 1. Op de top-linkerkant van het scherm, klik **bibliotheek van het Gebied**.
 
-   ![&#x200B; bibliotheek van het Gebied &#x200B;](assets/field-library.png)
+   ![ bibliotheek van het Gebied ](assets/field-library.png)
 
 1. Gebruik het onderzoeksvakje of breid **Berekende** sectie uit om van het berekende gebied de plaats te bepalen u nodig hebt, dan sleep het gebied waar u het in de douanevorm wilt verschijnen.
 
@@ -139,7 +137,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 
 1. Op de linkerkant van het scherm, vind **Berekend** en sleep het aan een sectie op het canvas.
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -172,26 +170,26 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
       <td><p>Deze optie is standaard ingeschakeld.<p><p>Wanneer u een veld inactief instelt, wordt het uitgesloten van rapporten, filters en weergaven en is het niet meer beschikbaar in de veldbibliotheek voor aangepaste formulieren.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Automatische machtiging</span></td>
-      <td><span class="preview"><p>Schakel deze optie in als u wilt dat de financiële machtigingen automatisch afkomstig zijn uit de velden die in de formule worden gebruikt. De toestemmingsdefinities worden getoond op het gebied van het Type van Toestemming van Financiën, hieronder.</p><p>Toegang is vereist voor alle velden in de formule. Bijvoorbeeld, als twee gebieden op een berekend gebied worden gebruikt, en één van hen toegepaste het factureren toestemmingen heeft en de tweede toegepaste kostentoestemming heeft, dan moet de gebruiker toestemmingen hebben om zowel het factureren als kostentarieven te bekijken om de berekende waarde te zien.</p></span></td>
+      <td>Automatische machtiging</td>
+      <td><p>Schakel deze optie in als u wilt dat de financiële machtigingen automatisch afkomstig zijn uit de velden die in de formule worden gebruikt. De toestemmingsdefinities worden getoond op het gebied van het Type van Toestemming van Financiën, hieronder.</p><p>Toegang is vereist voor alle velden in de formule. Bijvoorbeeld, als twee gebieden op een berekend gebied worden gebruikt, en één van hen toegepaste het factureren toestemmingen heeft en de tweede toegepaste kostentoestemming heeft, dan moet de gebruiker toestemmingen hebben om zowel het factureren als kostentarieven te bekijken om de berekende waarde te zien.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Type financiële machtiging</span></td>
-      <td><p><span class="preview">Wanneer het veld Automatische machtiging is uitgeschakeld, kunt u het type financiële machtiging selecteren dat de gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. Elke indeling is toegestaan voor berekende velden. De velden die in de formule worden gebruikt, bepalen of dit veld actief is. Als het machtigingsveld leeg is, ondersteunen de velden in de formule de financiële machtigingen niet.</span></p>
-      <ul span class="preview">
+      <td>Type financiële machtiging</td>
+      <td><p>Wanneer het veld Automatische machtiging is uitgeschakeld, kunt u het type financiële machtiging selecteren dat de gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. Elke indeling is toegestaan voor berekende velden. De velden die in de formule worden gebruikt, bepalen of dit veld actief is. Als het machtigingsveld leeg is, ondersteunen de velden in de formule de financiële machtigingen niet.</p>
+      <ul>
       <li><p><strong> Geen vereiste toestemmingen:</strong> Alle gebruikers kunnen dit gebied zien</p></li>
       <li><p><strong> Algemeen:</strong> de gebruikers moeten toestemmingen hebben om Algemene Financiën uit te geven of te bekijken</p></li>
       <li><p><strong> Rekening:</strong> de gebruikers moeten toestemmingen hebben om het factureren tarieven uit te geven of te bekijken</p></li>
       <li><p><strong> Kosten:</strong> de gebruikers moeten toestemmingen hebben om kostentarieven uit te geven of te bekijken</p></li>
       </ul>
-      <p><span class="preview">Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md"> Toegang tot financiële gegevens in douanegebieden </a> beperken.</span></p>
+      <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md"> Toegang tot financiële gegevens in douanegebieden </a> beperken.</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. In de **doos van de Berekening**, begin bouwend uw berekening:
-   1. Klik **maximaliseren** om de Redacteur van de Berekening te openen en uw berekening te bouwen.</p>
+   1. Klik **maximaliseren** om de Redacteur van de Berekening te openen en uw berekening te bouwen.
 Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de velden bevatten waarnaar u wilt verwijzen wanneer het aangepaste formulier aan een object is gekoppeld.
 
       Elk veld moet met accolades zijn omgeven. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen.
@@ -212,7 +210,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
 
         Veldnamen zijn hoofdlettergevoelig en moeten in de berekening precies worden weergegeven hoe ze in het Workfront-systeem worden weergegeven.
 
-        Navigeer aan de [&#x200B; ontdekkingsreiziger van Workfront API &#x200B;](https://developer.adobe.com/workfront/api-explorer/) om de gebiedsnamen te identificeren die in berekeningen kunnen worden gebruikt.
+        Navigeer aan de [ ontdekkingsreiziger van Workfront API ](https://developer.adobe.com/workfront/api-explorer/) om de gebiedsnamen te identificeren die in berekeningen kunnen worden gebruikt.
 
       * Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes worden voorafgegaan.
 
@@ -282,7 +280,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Voor meer informatie over variabelen als `$$OBJCODE,` zie [&#x200B; overzicht van de de filtervariabelen van de Weigering &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Voor meer informatie over variabelen als `$$OBJCODE,` zie [ overzicht van de de filtervariabelen van de Weigering ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Automatische updates van berekende douanegebieden**
 
@@ -312,15 +310,15 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       >
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
       > 
-      >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en a **leren meer** verbinding aan meer informatie in het artikel [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![&#x200B; de hulptekst van de Uitdrukking &#x200B;](assets/hover-expression-help-text.jpg)
+      >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en a **leren meer** verbinding aan meer informatie in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >  ![ de hulptekst van de Uitdrukking ](assets/hover-expression-help-text.jpg)
       >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
-      >  ![&#x200B; Kleuren voor gebiedsuitdrukkingen &#x200B;](assets/colors-fields-expressions.jpg)
+      >  ![ Kleuren voor gebiedsuitdrukkingen ](assets/colors-fields-expressions.jpg)
       >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak ervan weer te geven.
-      >  ![&#x200B; Hulp van de Fout &#x200B;](assets/error-help.png)
+      >  ![ Hulp van de Fout ](assets/error-help.png)
       >* Geef een voorvertoning van de resultaten weer in het gebied onder de berekening.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![&#x200B; berekening van de Voorproef &#x200B;](assets/preview-calc.jpg)
+      >  ![ berekening van de Voorproef ](assets/preview-calc.jpg)
       >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
 
       +++

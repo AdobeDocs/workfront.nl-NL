@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Toegang verlenen aan gebruikers
 
-Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot andere gebruikers in Workfront te bepalen, zoals die in [&#x200B; wordt verklaard het niveauoverzicht van de Toegang &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot andere gebruikers in Workfront te bepalen, zoals die in [ wordt verklaard het niveauoverzicht van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Toegangsvereisten
 
@@ -41,7 +41,7 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toe
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,30 +51,49 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
 
 * Een Workfront-beheerder.
 
-  Voor meer informatie, zie [&#x200B; een gebruiker volledige administratieve toegang verlenen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Voor meer informatie, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 * Een gebruiker met een standaard Standaard- of Plan-licentie die ook toegang heeft tot gebruikers, zoals in dit artikel wordt uitgelegd.
 
-  De gebruikers die beperkt zijn om slechts gebruikers van hun bedrijf of het primaire bedrijf te zien hebben toegang om slechts de gebruikers uit te geven zij kunnen zien. Voor meer informatie, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+  De gebruikers die beperkt zijn om slechts gebruikers van hun bedrijf of het primaire bedrijf te zien hebben toegang om slechts de gebruikers uit te geven zij kunnen zien. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 * Een gebruiker met een standaard- of planvergunning die ook als manager van een andere gebruiker wordt gespecificeerd.
 
-  De gebruikers die Edit toegang tot gebruikers in hun toegangsniveau worden verleend kunnen gebruikers beheren die aan hen rapporteren. Voor informatie over het beheren van een gebruiker, zie [&#x200B; Mening de organisatorische grafiek &#x200B;](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  De gebruikers die Edit toegang tot gebruikers in hun toegangsniveau worden verleend kunnen gebruikers beheren die aan hen rapporteren. Voor informatie over het beheren van een gebruiker, zie [ Mening de organisatorische grafiek ](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Een gebruiker met een standaard Standaard- of Plan-licentie die een gebruiker heeft gemaakt, kan de door hem gemaakte gebruiker deactiveren, verwijderen of bewerken. Voor informatie over het creëren van nieuwe gebruikers, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+* Een gebruiker met een standaard Standaard- of Plan-licentie die een gebruiker heeft gemaakt, kan de door hem gemaakte gebruiker deactiveren, verwijderen of bewerken. Voor informatie over het creëren van nieuwe gebruikers, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 ## De toegang van gebruikers tot het bewerken van gebruikers configureren met behulp van een aangepast toegangsniveau
 
-1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [&#x200B; wordt verklaard creeer of wijzig douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. U wijzigt als volgt de mogelijkheid voor gebruikers met een abonnement- of werkvergunning om de profielen van andere gebruikers weer te geven:
+1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Om de capaciteit van gebruikers met een Norm, een Plan, of vergunning van het Werk te veranderen om informatie voor andere gebruikers te bekijken, klik het pictogram van het tandwielpictogram ![ Gear ](assets/gear-icon-settings.png) op de **knoop van de Mening** rechts van **Gebruikers**, dan selecteren de meningsopties u in **wilt verlenen Fijne gestemd uw montages** doos:
 
-   1. Klik het tandwielpictogram ![](assets/gear-icon-settings.png) op de **2&rbrace; knoop van de Mening &lbrace;aan het recht van** Gebruikers **.**
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong> de FactureringsTarieven van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers factureringssnelheden weergeven voor gebruikersprofielen.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> Info van het Contact van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers de detailpagina's van andere gebruikers weergeven.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> de Tarieven van de Kostprijs van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers de kostenpercentages weergeven voor gebruikersprofielen.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> de Algemene Financiën van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers algemene financiële velden (die geen betrekking hebben op facturering of kostenpercentages) weergeven in gebruikersprofielen.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Schakel **Info van het Contact van de Mening** uit, dan klik X om **te sluiten verfijnen uw montages** doos.
+   ![ verbeter de gebruikersmontages van de Mening ](assets/fine-tune-view-users.png)
 
-      ![&#x200B; verbeter gebruikersinstellingen &#x200B;](assets/fine-tune-users.png)
-
-1. Om de capaciteit van gebruikers met een de vergunningstoegang van het Plan te wijzigen om andere gebruikers uit te geven, klik het tandwielpictogram ![](assets/gear-icon-settings.png) op **geef** knoop aan het recht van **Gebruikers** uit, dan selecteer de capaciteiten u wilt verlenen:
+1. Om de capaciteit van gebruikers met een Standaard of de vergunningstoegang van het Plan te wijzigen om andere gebruikers uit te geven, klik het pictogram van het tandwielpictogram ![ Gear ](assets/gear-icon-settings.png) op **geeft** knoop aan het recht van **Gebruikers** uit, dan uitgezocht geeft de opties uit u in **wilt verlenen fijn-stemmen uw montages** doos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
      <tr> 
       <td role="rowheader"><strong> Schrapping </strong> </td> 
       <td> <p> Hiermee kunnen gebruikers de gebruikers verwijderen die ze zelf hebben gemaakt.<br> Deze optie wordt toegelaten door gebrek.</p> <p><b> NOTA </b>: Dit is niet beschikbaar als uw organisatie aan Adobe Admin Console is bezet. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> geeft het Factureren Tarieven </strong> uit </td> 
+      <td> Hiermee kunnen gebruikers de factureringssnelheden voor gebruikersprofielen bewerken.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> geeft Kostenpercentages uit </strong> </td> 
+      <td> Hiermee kunnen gebruikers de kostenpercentages voor gebruikersprofielen bewerken.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> geeft Algemene Financiën uit </strong> </td> 
+      <td> Hiermee kunnen gebruikers algemene financiële velden (die geen betrekking hebben op facturering of kostenpercentages) bewerken in gebruikersprofielen.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong> Admin van de Gebruiker (Alle Gebruikers) </strong> </td> 
@@ -108,6 +139,18 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
          <li><p>Het wachtwoord van de gebruiker opnieuw instellen</p><p><b> NOTA </b>: Een groepsbeheerder kan niet login als of het wachtwoord van een beheerder van Workfront terugstellen.</p></li>
         </ul><p>Deze optie is standaard uitgeschakeld.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong> de FactureringsTarieven van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers factureringssnelheden weergeven voor gebruikersprofielen.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong> de Tarieven van de Kostprijs van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers de kostenpercentages weergeven voor gebruikersprofielen.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> de Algemene Financiën van de Mening </strong> </td> 
+      <td> Hiermee kunnen gebruikers algemene financiële velden (die geen betrekking hebben op facturering of kostenpercentages) weergeven in gebruikersprofielen.</td>
+     </tr>
     </tbody> 
    </table>
 
@@ -115,9 +158,9 @@ U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijke
    >
    >Als u groepbeheerders geen toegang tot alle leden van de groepen wilt verlenen die zij beheren, maak beide hierboven opties van Admin van de Gebruiker onbruikbaar. De beheerders van de groep zullen nog tot groepsleden kunnen toegang hebben die zij aan Workfront toevoegen, of die aan hen in Workfront rapporteren.
 
-1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [&#x200B; worden vermeld toegang tot Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [&#x200B; toegang van de Verlening tot taken &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
 
 ## Toegang tot gebruikers per licentietype
 
-Voor informatie over welke gebruikers in elk toegangsniveau met gebruikers kunnen doen, zie de sectie [&#x200B; Gebruikers &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in de artikel [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met gebruikers kunnen doen, zie de sectie [ Gebruikers ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).

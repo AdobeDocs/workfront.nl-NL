@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U kunt een aangepast formulier ontwerpen met de formulierontwerper in Adobe Work
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,17 +63,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Klik **Nieuwe Vorm van de Douane.**
 1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
 
-<div class="preview">
-
-Voorbeeldafbeelding in de voorvertoningsomgeving:
-
-![&#x200B; kies objecten types &#x200B;](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-Voorbeeldafbeelding in de productieomgeving:
-
-![&#x200B; kies objecten types &#x200B;](assets/new-custom-form-select-objects.png)
+   ![ kies objecten types ](assets/new-custom-form-select-objects-032526.png)
 
 +++ Vouw uit om de lijst met objecten weer te geven die aangepaste formulieren ondersteunen.
 
@@ -89,9 +79,7 @@ Voorbeeldafbeelding in de productieomgeving:
 * Iteratie
 * Factureringsrecord
 * Groep
-* <span class="preview"> Team </span>
-
-<div class="preview">
+* Team
 
 Als u zich in het Workflow Ultimate-pakket bevindt, kunt u ook aangepaste formulieren voor deze objecten maken:
 
@@ -99,21 +87,16 @@ Als u zich in het Workflow Ultimate-pakket bevindt, kunt u ook aangepaste formul
 * Creditcard
 * Toewijzing
 
-</div>
-
 +++
 
 1. In **voeg een gebied van de vormnaam** toe, typ de titel van de douanevorm.
-1. <span class="preview"> (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, klik **de Types van Objecten** in de kopbal van de vormontwerper. Selecteer de objecttypen die u wilt toevoegen en hef de selectie van de objecttypen op die u uit het formulier wilt verwijderen.</span>
-1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **&#x200B;**&#x200B;pictogram ![&#x200B; toevoegen &#x200B;](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
-
-   Nadat u meerdere objecten aan het formulier hebt toegevoegd, kunt u op de X op een objecttype klikken om het object uit het formulier te verwijderen.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, klik **Types van Objecten** in de kopbal van de vormontwerper. Selecteer de objecttypen die u wilt toevoegen en hef de selectie van de objecttypen op die u uit het formulier wilt verwijderen.
 
    >[!CAUTION]
    >
    >Als u een aangepast formulier verwijdert, worden ook alle aangepaste gegevens verwijderd over de objecten die aan het formulier zijn gekoppeld. De verwijderde gegevens kunnen niet worden hersteld. U kunt ook een aangepast formulier deactiveren dat u niet meer gebruikt, zodat alle bijbehorende historische gegevens behouden blijven.
    >
-   >Voor meer informatie, zie [&#x200B; objecttypes van een bestaande douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) toevoegen of schrappen en [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) deactiveren of reactiveren.
+   >Voor meer informatie, zie [ objecttypes van een bestaande douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) toevoegen of schrappen en [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) deactiveren of reactiveren.
 
 
 1. Vervolgens kunt u velden toevoegen aan uw aangepaste formulier. Raadpleeg de volgende secties voor meer informatie:
@@ -229,7 +212,7 @@ Een tekstveld toevoegen:
    * Tekst met opmaak
    * Beschrijvende tekst
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -301,8 +284,8 @@ Een tekstveld toevoegen:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Type financiële machtiging</span></td>
-      <td><p><span class="preview">Selecteer het type financiële machtiging dat gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. De notatie Valuta moet zijn geselecteerd.</span></p>
+      <td>Type financiële machtiging</td>
+      <td><p>Selecteer het type financiële machtiging dat gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. De notatie Valuta moet zijn geselecteerd.</p>
       <ul>
       <li><p><strong> Geen vereiste toestemmingen:</strong> Alle gebruikers kunnen dit gebied zien</p></li>
       <li><p><strong> Algemeen:</strong> de gebruikers moeten toestemmingen hebben om Algemene Financiën uit te geven of te bekijken</p></li>
@@ -357,7 +340,7 @@ Een tekstveld toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -369,7 +352,7 @@ Een tekstveld toevoegen:
 
 In een aangepast formulier kunt u een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 
-Om een berekend gebied toe te voegen, zie [&#x200B; berekende gebieden met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+Om een berekend gebied toe te voegen, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 ### Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen
 
@@ -397,7 +380,7 @@ Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen:
    * Vervolgkeuzelijst met één keuze
    * Vervolgkeuzelijst met meerdere selecties
 
-   ![&#x200B; belemmering een gebied op het canvas &#x200B;](assets/drag-field-to-section.png)
+   ![ belemmering een gebied op het canvas ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -457,8 +440,8 @@ Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen:
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Type financiële machtiging</span></td>
-      <td><p><span class="preview">Selecteer het type financiële machtiging dat gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. De notatie Valuta moet zijn geselecteerd.</span></p>
+      <td>Type financiële machtiging</td>
+      <td><p>Selecteer het type financiële machtiging dat gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. De notatie Valuta moet zijn geselecteerd.</p>
       <ul>
       <li><p><strong> Geen vereiste toestemmingen:</strong> Alle gebruikers kunnen dit gebied zien</p></li>
       <li><p><strong> Algemeen:</strong> de gebruikers moeten toestemmingen hebben om Algemene Financiën uit te geven of te bekijken</p></li>
@@ -536,7 +519,7 @@ Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/copy-field.png)
+   ![ pictogram van het Exemplaar ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -571,7 +554,7 @@ U voegt als volgt velden voor typekop en datum toe:
    * Typeahead
    * Datum
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -672,7 +655,7 @@ U voegt als volgt velden voor typekop en datum toe:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -684,7 +667,7 @@ U voegt als volgt velden voor typekop en datum toe:
 
 Een extern raadplegingsgebied roept externe API aan en keert waarden als opties op een drop-down gebied terug. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in de vervolgkeuzelijst selecteren, afhankelijk van het feit of het externe opzoekveld één veld of een veld met meerdere selecties is. De externe opzoekvelden zijn ook beschikbaar in lijsten en rapporten.
 
-Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde instantie van Workfront of openbare API te roepen, zie [&#x200B; Voorbeelden van het Externe raadplegingsgebied in een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde instantie van Workfront of openbare API te roepen, zie [ Voorbeelden van het Externe raadplegingsgebied in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -721,8 +704,8 @@ Een externe zoekopdracht toevoegen:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Type financiële machtiging</span></td>
-      <td><p><span class="preview">Selecteer het type financiële machtiging dat gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. De notatie Valuta moet zijn geselecteerd.</span></p>
+      <td>Type financiële machtiging</td>
+      <td><p>Selecteer het type financiële machtiging dat gebruikers moeten hebben voordat ze dit aangepaste veld kunnen weergeven of bewerken. De notatie Valuta moet zijn geselecteerd.</p>
       <ul>
       <li><p><strong> Geen vereiste toestemmingen:</strong> Alle gebruikers kunnen dit gebied zien</p></li>
       <li><p><strong> Algemeen:</strong> de gebruikers moeten toestemmingen hebben om Algemene Financiën uit te geven of te bekijken</p></li>
@@ -753,12 +736,12 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">JSON-pad</td>
       <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzelijst.</p><p>Bijvoorbeeld, als uw API URL JSON in het volgende formaat terugkeert, dan kunt u "$.data[*].name"gebruiken om V.S. en Canada als drop-down opties te selecteren:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Voor meer informatie over de Weg JSON en het verzekeren u de correcte Weg JSON schrijft, verwijs naar <a href="https://jsonpath.com/"> https://jsonpath.com/ </a>.</p></td>
@@ -830,7 +813,7 @@ Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
    * PDF
    * Video
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Typ of bewerk een van de volgende eigenschappen voor de widget:
 
@@ -883,7 +866,7 @@ Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -897,7 +880,7 @@ Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
 >
 >Wanneer u op deze manier een video toevoegt aan een aangepast formulier, gelden de machtigingen die in het gebied Documenten zijn ingesteld voor de video wanneer gebruikers het formulier openen op een object.
 
-1. Ga naar de video in het gebied van Documenten en produceer een proef voor het, zoals die in [&#x200B; wordt beschreven creeer een interactieve proef voor een website of andere Webinhoud &#x200B;](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Ga naar de video in het gebied van Documenten en produceer een proef voor het, zoals die in [ wordt beschreven creeer een interactieve proef voor een website of andere Webinhoud ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Open de proefdruk.
 1. Klik overal op de video met de rechtermuisknop aan, dan selecteer **VideoAdres van het Exemplaar**.
 1. In de douanevorm waar u video widget toevoegt, kleef het gekopieerde adres in de **URL** doos.
@@ -1073,7 +1056,7 @@ Een Adobe XD-bestand toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -1089,9 +1072,9 @@ Een Adobe XD-bestand toevoegen:
 >
 >U moet extra pakketten hebben om tot de Planning van Workfront toegang te hebben.
 >
->Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+>Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor meer informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 U kunt records die zijn verbonden via Workfront Planning weergeven in een aangepast veld op een Workfront-object door een aangepast veld voor de planningsverbinding toe te voegen aan het aangepaste formulier van een object.
 
@@ -1169,7 +1152,7 @@ Een verbindingsveld voor planning toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -1182,15 +1165,15 @@ Een verbindingsveld voor planning toevoegen:
    * Bekijk Workfront Planning-recordtypen die zijn verbonden met het Workfront-object, als er recordtypen zijn.
    * Verbind of maak verslagen van het voorwerp van Workfront los.
 
-   Voor meer informatie, zie [&#x200B; recordverbindingen van de voorwerpen van Workfront beheren &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Voor meer informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
 ### UI-extensies toevoegen
 
-Een app kan op een aangepast Workfront-formulier worden ingesloten met behulp van het veldtype UI Extensions. Als u UI-extensies wilt maken, moet u toegang hebben tot Adobe App Builder in de Adobe Developer Console. Voor informatie, zie [&#x200B; een app inbedden gebruikend een de douaneformulier van Workfront &#x200B;](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form) in het artikel [&#x200B; creeer douanetoepassingen voor Workfront met Adobe App Builder &#x200B;](/help/quicksilver/app-builder/app-builder.md).
+Een app kan op een aangepast Workfront-formulier worden ingesloten met behulp van het veldtype UI Extensions. Als u UI-extensies wilt maken, moet u toegang hebben tot Adobe App Builder in de Adobe Developer Console. Voor informatie, zie [ een app inbedden gebruikend een de douaneformulier van Workfront ](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form) in het artikel [ creeer douanetoepassingen voor Workfront met Adobe App Builder ](/help/quicksilver/app-builder/app-builder.md).
 
 ## Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 
-Voor informatie over hoe te om een douanevorm met sectieonderbrekingen te organiseren en een voorproef van de vorm te zien, zie [&#x200B; een vorm met de vormontwerper organiseren en voorproef &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor informatie over hoe te om een douanevorm met sectieonderbrekingen te organiseren en een voorproef van de vorm te zien, zie [ een vorm met de vormontwerper organiseren en voorproef ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 
 

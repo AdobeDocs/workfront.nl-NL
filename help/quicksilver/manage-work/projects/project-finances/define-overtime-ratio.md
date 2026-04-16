@@ -6,7 +6,8 @@ title: Een overloopverhouding definiëren
 description: U kunt een overloopverhouding op een taak bepalen om de Geplande berekening van de Inkomsten voor de taaktaken aan te passen.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Een overloopverhouding definiëren
-
-{{highlighted-preview-article-level}}
 
 Wanneer een overloopverhouding aan een taak wordt toegevoegd, wordt het toegepast op alle taken op de taak. Het vermenigvuldigt alle Geplande Uren voor die taak en beïnvloedt de Geplande berekeningen van de Inkomsten.
 
@@ -27,7 +26,7 @@ De overloopverhouding kan niet variëren voor toewijzingen binnen dezelfde taak.
 
 ## Berekening van de overuren van de geplande inkomsten
 
-Het systeem bepaalt eerst het factureringstarief gebruikend de standaardhet facturerings tariefhiërarchie. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+Het systeem bepaalt eerst het factureringstarief gebruikend de standaardhet facturerings tariefhiërarchie. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 Als de overloopverhouding op de taak bestaat, dan is de berekening:
 Geplande inkomsten = Facturerings- × overloopratio × Geplande uren
@@ -63,28 +62,27 @@ Geplande inkomsten = Factureringsgraad × geplande uren
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Het type van taakopbrengst moet Gebruiker en Rol Uur zijn. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+Het type van taakopbrengst moet Gebruiker en Rol Uur zijn. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 Het **gebied van de Verhouding van de Overuren** moet op uw lay-outmalplaatje worden toegelaten.
 
 1. In het lay-outmalplaatje, klik de benedenpijl onder **aanpassen welke gebruikers** zien, dan **Taak** klikken.
 1. In de **sectie van Details**, selecteer het **gebied van de Verhouding van de Overuren** in het **Financiën** gebied.
 
-   Voor meer informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   Voor meer informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ## De overloopverhouding voor een taak definiëren
 
 1. Ga naar de taak die u wilt bewerken.
 
-   Voor meer informatie, zie [&#x200B; taakfinanciën in de sectie van de Details van de Taak beheren &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md).
+   Voor meer informatie, zie [ taakfinanciën in de sectie van de Details van de Taak beheren ](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md).
 
 1. Klik **Details van de Taak** in het linkerpaneel.
 1. Op het **gebied van de Financiën**, ga overtime vermenigvuldiger op het **gebied van de Verhouding van de Overuren** in.
 1. Klik **sparen Veranderingen**.
-

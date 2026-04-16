@@ -7,7 +7,8 @@ description: Een tariefkaart vertegenwoordigt de contractuele overeenkomst met u
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -16,11 +17,9 @@ ht-degree: 0%
 
 # Wijzigingen in pushsnelheid voor projecten
 
-{{highlighted-preview-article-level}}
-
 Wanneer een tariefkaart aan een project <!--or a staffing plan--> in bijlage is, kunnen de tarieven op de tariefkaart nog worden aangepast. Dan, kunt u die tarieven naar keuze duwen aan de projecten <!--and staffing plans --> waaraan de tariefkaart in bijlage is. Als u niet de nieuwe tarieven duwt, dan blijven de originele tarieven op het project <!-- or staffing plan-->.
 
-Voor informatie over het vastmaken van een tariefkaart aan een project, zie [&#x200B; een tariefkaart aan een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
+Voor informatie over het vastmaken van een tariefkaart aan een project, zie [ een tariefkaart aan een project ](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
 
 ## Toegangsvereisten
 
@@ -49,7 +48,7 @@ Voor informatie over het vastmaken van een tariefkaart aan een project, zie [&#x
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

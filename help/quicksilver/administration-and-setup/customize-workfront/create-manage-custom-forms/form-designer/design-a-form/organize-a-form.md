@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # Een formulier ordenen en een voorbeeld ervan bekijken
-
-{{preview-fast-release-general}}
 
 U kunt een aangepast formulier organiseren met de formulierontwerper en er een voorbeeld van bekijken om te controleren of het correct is ingesteld.
 
@@ -47,7 +45,7 @@ U kunt een aangepast formulier organiseren met de formulierontwerper en er een v
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,13 +57,13 @@ Als u bijvoorbeeld gevoelige informatie wilt bijhouden die alleen systeembeheerd
 
 De toegangsinstellingen die u voor een sectie selecteert, zijn rechtstreeks gekoppeld aan de machtigingen die gebruikers hebben voor het Workfront-object waaraan het aangepaste formulier is gekoppeld. U kunt een sectie verbergen of weergeven op basis van het feit of de gebruiker toegang heeft tot het object, een bijdrage levert aan dat object of dat object beheert. U kunt ook een sectie alleen instellen op Beheerder, zodat alleen gebruikers met een toegangsniveau van de systeembeheerder toegang hebben tot de sectie.
 
-Voor informatie over toestemmingen op voorwerpen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor informatie over toestemmingen op voorwerpen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### Toegang voor een sectie in een aangepast formulier maken en configureren
 
-1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [&#x200B; worden beschreven creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **de onderbreking van de Sectie** en sleep het in de gewenste positie op het canvas.
 
@@ -85,8 +83,8 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; ee
       <td role="rowheader">Beschrijving</td> 
       <td>Typ tekst als u aan gebruikers wilt uitleggen waarvoor de sectie is bedoeld. Dit wordt weergegeven onder het label van de sectie op het aangepaste formulier.</td> 
      </tr> 
-      <td><span class="preview">Standaard samengevouwen</span></td>
-      <td><span class="preview">Standaard worden alle secties in een aangepast formulier uitgebreid wanneer het formulier zelf wordt uitgevouwen. Selecteer deze optie als u de sectie standaard wilt samenvouwen wanneer een gebruiker het formulier opent.</span></td>
+      <td>Standaard samengevouwen</td>
+      <td>Standaard worden alle secties in een aangepast formulier uitgebreid wanneer het formulier zelf wordt uitgevouwen. Selecteer deze optie als u de sectie standaard wilt samenvouwen wanneer een gebruiker het formulier opent.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; ee
      </tr> 
      <tr> 
       <td role="rowheader"><p>Logica toevoegen</p></td> 
-      <td><p>Gebruik weergaverelogica om op te geven of de sectie op het formulier moet worden weergegeven, op basis van selecties die gebruikers in meerkeuzevelden maken wanneer ze het formulier invullen.</p><p><strong> NOTA:</strong> als alle individuele gebieden onder een sectieonderbreking vertoningslogica hebben die op hen wordt toegepast en zij allen als resultaat van de logica verborgen zijn, zal de volledige sectie op de douanevorm worden verborgen. Dit gebeurt ook als de weergaverelogica niet wordt toegepast op het sectie-einde.</p><p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref"> vertoningslogica toevoegen en logica met de vormontwerper </a> overslaan.</p></td> 
+      <td><p>Gebruik weergaverelogica om op te geven of de sectie op het formulier moet worden weergegeven, op basis van selecties die gebruikers in meerkeuzevelden maken wanneer ze het formulier invullen.</p><p><strong> NOTA:</strong> als alle individuele gebieden onder een sectieonderbreking vertoningslogica hebben die op hen wordt toegepast en zij allen als resultaat van de logica verborgen zijn, zal de volledige sectie op de douanevorm worden verborgen. Dit gebeurt ook als de weergaverelogica niet wordt toegepast op het sectie-einde.</p><p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref"> logische regels aan douaneformulieren en gebieden </a> toevoegen.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -151,7 +149,7 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 ## Aangepaste velden en widgets in een aangepast formulier plaatsen
 
 
-1. Beginnen creërend of het uitgeven van een douanevorm, zoals die in [&#x200B; wordt beschreven creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Beginnen creërend of het uitgeven van een douanevorm, zoals die in [ wordt beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Als u aangepaste velden en widgets op dezelfde rij wilt plaatsen, sleept u een naast elkaar totdat er een lijn tussen de velden en widgets wordt weergegeven.
 
@@ -164,7 +162,7 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 
 1. Om een douanegebied naar een andere sectie op de vorm te bewegen, kunt u het slepen en laten vallen in plaats, of de **Beweging aan** pictogram op het gebied klikken en de sectie selecteren om het te bewegen naar.
 
-   ![&#x200B; gebied van de beweging aan een sectie &#x200B;](assets/move-field-to-section.png)
+   ![ gebied van de beweging aan een sectie ](assets/move-field-to-section.png)
 
 1. Om uw veranderingen te bewaren, klik **toepassen**
 
@@ -174,7 +172,7 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 
 ## Een voorbeeld van een aangepast formulier bekijken
 
-1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [&#x200B; worden beschreven creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **Voorproef** in de hoger-juiste hoek om te zien hoe de vorm wanneer wordt gebruikt zal kijken, dan klik **Voorproef van het Eind** om op het uitgeven van de vorm terug te keren.
 

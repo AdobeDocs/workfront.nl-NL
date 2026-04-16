@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 0%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-{{highlighted-preview}}
-
 Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebruikers van een Standaard of van het Plan vergunning administratieve toegang tot bepaalde gebieden van het systeem te verlenen.
 
 >[!NOTE]
 >
->Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [&#x200B; een gebruiker volledige administratieve toegang &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
+>Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [ een gebruiker volledige administratieve toegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
 
 ## Toegangsvereisten
 
@@ -48,7 +46,7 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebrui
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,17 +93,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
         <li>Hun eigen kosten</li>
         <li>De kosten van hun ondergeschikten</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Functies</td> 
-      <td> <p><span class="preview"><b> NOTA </b>: In het milieu van de Voorproef, wordt de toegang tot baanrollen gecontroleerd als objecten type op het toegangsniveau. Zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md"> toegang van de Verlening tot baanrollen </a>.</span></p>
-      <p>Met deze toegang mag de gebruiker het volgende doen:</p> 
-       <ul> 
-        <li>Bestaande taakrollen weergeven en bewerken</li> 
-        <li>Nieuwe taakrollen toevoegen</li> 
-        <li>Rolfacturering en kostentarieven bewerken</li> 
-       </ul> <p><b> BELANGRIJK </b>: Als u een Norm of een gebruikers administratieve toegang van het Plan tot baanrollen verleent, wordt de toegang die van Gegevens de Rol en Tarieven plaatst automatisch toegelaten voor de gebruiker. Later, als u administratieve toegang tot baanrollen voor de Standaard of gebruiker van het Plan onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat Edit de Facturering van de Rol &amp; het plaatsen van de Tarieven van de Kosten nog wordt toegelaten. Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> toegang van de Verlening tot financiële gegevens </a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Mijlpalen in mijn fractie</td> 
       <td>Bekijk alle milestone-paden in het systeem onder het menu Paden van mijlpaal in Setup. De gebruikers kunnen om het even welke milestone wegen ook uitgeven of schrappen die tot om het even welk van hun groepen behoren. De gebruikers kunnen niet de milestone wegen beheren (uitgeven of schrappen) die niet aan om het even welk van hun groepen worden toegewezen.<br><p>Zonder deze toegang, kunnen de gebruikers bestaande milestone wegen slechts bekijken en hen toepassen op projecten zij toegang hebben te beheren.</p></td> 
@@ -128,8 +116,22 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    </table>
 
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
-1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [&#x200B; wordt beschreven voegt gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
+1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [ wordt beschreven voegt gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
 
    >[!NOTE]
    >
-   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [&#x200B; de toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [ de toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

@@ -7,23 +7,21 @@ description: Wanneer u een aangepast veld maakt, kunt u optionele instellingen d
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-
 # Toegang tot financiële gegevens in aangepaste velden beperken
-
-{{highlighted-preview-article-level}}
 
 Wanneer u een aangepast veld maakt, kunt u optionele instellingen definiëren om de toegang tot financiële gegevens te beperken. Op deze manier kunnen gebruikers die bepaalde machtigingen hebben ingesteld in hun toegangsniveaus de gegevens zien en kunnen ze geen financiële gegevens zien waartoe ze geen toegang zouden moeten hebben.
 
-Voor informatie over het creëren van een douanegebied, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over het creëren van een douanegebied, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-Voor informatie over toegangsniveaus, zie [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Voor informatie over het delen en toestemmingen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor informatie over toegangsniveaus, zie [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Voor informatie over het delen en toestemmingen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +47,7 @@ Voor informatie over toegangsniveaus, zie [&#x200B; overzicht van de Niveaus van
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +55,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Maak een nieuw aangepast formulier of open een bestaand formulier.
 
-   Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Voeg een aangepast veld toe aan het formulier of selecteer een bestaand veld.
 
@@ -119,4 +117,3 @@ Wanneer de gebruiker de projecten in een lijst of een rapport bekijkt:
 Bij het exporteren van projectdetails worden dezelfde waarden voor financiële velden (of lege velden) weergegeven als in de lijst.
 
 Wanneer het bulkuitgeven van beide projecten, tonen de facturerings en algemene financieringsgebieden als read-only, en de kostengebieden tonen n.a.
-

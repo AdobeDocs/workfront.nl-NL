@@ -6,7 +6,8 @@ title: De Tarieven van de Facturering van de Gebruiker op het Niveau van het Pro
 description: In dit artikel wordt beschreven hoe u de factureringssnelheden van de systeemgebruiker voor een project kunt overschrijven.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
@@ -15,15 +16,13 @@ ht-degree: 0%
 
 # Opheffing van factureringstarieven voor gebruikers op projectniveau
 
-{{highlighted-preview-article-level}}
-
 Als projectmanager, kunt u specificeren wat het het facturerings tarief voor een gebruiker op een specifiek project is. Dit factureringstarief op projectniveau treedt het factureringstarief op het systeemniveau voor deze gebruiker met voeten. Workfront gebruikt het factureringstarief op projectniveau van de gebruiker om opbrengst te berekenen, in plaats van het systeem-vlakke factureringstarief te gebruiken.
 
 In dit artikel wordt beschreven hoe u de factureringssnelheden van de systeemgebruiker voor een project kunt overschrijven.
 
-Voor algemene informatie over het met voeten treden van factureringspercentages voor projecten en het berekenen van projectopbrengst, zie [&#x200B; Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor algemene informatie over het met voeten treden van factureringspercentages voor projecten en het berekenen van projectopbrengst, zie [ Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project ](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Voor meer informatie over het berekenen van opbrengst op het project, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en de [&#x200B; Berekeningen van de Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in het artikel [&#x200B; Overzicht van het Factureren en van de Inkomsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
+Voor meer informatie over het berekenen van opbrengst op het project, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en de [ Berekeningen van de Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in het artikel [ Overzicht van het Factureren en van de Inkomsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ Voor meer informatie over het berekenen van opbrengst op het project, zie [&#x20
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +87,7 @@ Om een gebruiker met voeten te treden die tarief voor een project factureert:
    * **Datum van het Begin**: de datum wanneer de het factureren tariefopheffing begint.
    * **Datum van het Eind**: de datum wanneer de het factureren tariefopheffing beëindigt.
 
-   ![&#x200B; het Nieuwe vakje van het Tarief van het Facturerings van de Gebruiker dat efficiënte data &#x200B;](assets/new-user-billing-rate-on-project2.png) toont
+   ![ het Nieuwe vakje van het Tarief van het Facturerings van de Gebruiker dat efficiënte data ](assets/new-user-billing-rate-on-project2.png) toont
 
    Workfront past het tarief van de opheffingsgebruiker op de uren toe die tijdens deze tijdkaders wanneer het berekenen van opbrengst op het project voorkomen.
 

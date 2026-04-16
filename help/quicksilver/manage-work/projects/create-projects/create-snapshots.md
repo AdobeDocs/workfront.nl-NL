@@ -5,9 +5,8 @@ title: Projectopnamen maken en weergeven
 description: Met momentopnamen in Adobe Workfront kunt u verschillen zien tussen momentopnamen (die op een bepaalde datum en tijd zijn gemaakt) en de huidige gegevens van het project.
 author: Lisa
 feature: Work Management
-hidefromtoc: true
-hide: true
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -15,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Projectmomentopnamen maken en weergeven
-
-{{highlighted-preview-article-level}}
 
 Projectmanagers moeten vaak de gegevens uit het verleden van een project vergelijken met de huidige status om geïnformeerde beslissingen te nemen en te zien hoe hun projecten in de loop der tijd zijn veranderd.
 
@@ -49,7 +46,7 @@ Met momentopnamen in Adobe Workfront kunt u deze verschillen zien tussen momento
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +55,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 1. Ga naar een project.
 1. In het linkerpaneel, klik **Momentopnamen**.
 
-   ![&#x200B; Momentopnamen voor een project &#x200B;](assets/snapshot-list.png)
+   ![ Momentopnamen voor een project ](assets/snapshot-list.png)
 
 1. Klik **Nieuwe momentopname**.
 1. Typ een naam voor de momentopname op de **Nieuwe momentopname** dialoog, en klik **sparen**.
@@ -89,7 +86,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    * Uitgaven <!--* Bookings (on its own line of course when they get released)-->
    * Projectteam (tabblad Personen)
 
-   U kunt lijsten in de momentopname aanpassen door te filteren, te sorteren, kolommen toe te voegen en te verwijderen, of een mening toe te passen. KPI&#39;s met tijdfasering zijn beschikbaar om toe te voegen aan de momentopnameweergave. Voor meer informatie, zie [&#x200B; momentopnamelijsten &#x200B;](#customize-snapshot-lists) in dit artikel aanpassen.
+   U kunt lijsten in de momentopname aanpassen door te filteren, te sorteren, kolommen toe te voegen en te verwijderen, of een mening toe te passen. KPI&#39;s met tijdfasering zijn beschikbaar om toe te voegen aan de momentopnameweergave. Voor meer informatie, zie [ momentopnamelijsten ](#customize-snapshot-lists) in dit artikel aanpassen.
 
 ## Momentopnamen vergelijken
 
@@ -105,15 +102,15 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 1. Voor het scherm van de Vergelijking, breid elke momentopname en het huidige project uit om de hiërarchie onder te zien.
 
-   ![&#x200B; scherm van de Vergelijking van de Momentopname &#x200B;](assets/snapshot-comparison.png)
+   ![ scherm van de Vergelijking van de Momentopname ](assets/snapshot-comparison.png)
 
-1. U kunt de vergelijking aanpassen door kolommen te sorteren, toe te voegen en te verwijderen of een weergave toe te passen. Voor meer informatie, zie [&#x200B; momentopnamelijsten &#x200B;](#customize-snapshot-lists) in dit artikel aanpassen.
+1. U kunt de vergelijking aanpassen door kolommen te sorteren, toe te voegen en te verwijderen of een weergave toe te passen. Voor meer informatie, zie [ momentopnamelijsten ](#customize-snapshot-lists) in dit artikel aanpassen.
 
 ## Momentopnamen exporteren
 
 U kunt de lijst van alle momentopnamen of een momentopnamevergelijking in .xlsx of .csv formaat uitvoeren. Alle weergegeven kolommen worden opgenomen in het geëxporteerde bestand.
 
-1. Klik het **pictogram van de Uitvoer van de 1&rbrace; Uitvoer** ![&#x200B; op de momentopnamelijst of de momentopnamevergelijking.](assets/export-icon.png)
+1. Klik het **pictogram van de Uitvoer van de 1} Uitvoer** ![ op de momentopnamelijst of de momentopnamevergelijking.](assets/export-icon.png)
 1. Selecteer de indeling voor het exportbestand.
 
    Het bestand wordt opgeslagen op uw computer. Mogelijk wordt u gevraagd om de locatie te kiezen.
@@ -124,7 +121,7 @@ U kunt de lijst van alle momentopnamen of een momentopnamevergelijking in .xlsx 
 
 U kunt de lijst van alle momentopnamen, evenals om het even welke lijsten binnen een momentopname of vergelijking aanpassen, door te filtreren, te sorteren, toe te voegen en te verwijderen kolommen, of een mening toe te passen.
 
-Voor meer informatie over lijstaanpassingen, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie over lijstaanpassingen, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ### Items in een lijst filteren
 
@@ -136,7 +133,7 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft.
 1. Selecteer een filtermodifier, zoals &quot;Heeft een van de opties,&quot; &quot;Heeft geen van de opties&quot;, &quot;Is ervoor&quot; of &quot;Is erna&quot;. De opties voor wijzigingstoetsen zijn afhankelijk van het type veld waarop u filtert.
 1. Selecteer de veldwaarde(n). Afhankelijk van het veldtype waarop u filtert, wordt u mogelijk gevraagd het item in een lijst te selecteren, ernaar te zoeken of een kalender te gebruiken om een datumbereik te selecteren.
 
-   ![&#x200B; filter de momentopnamelijst &#x200B;](assets/filter-snapshot-list.png)
+   ![ filter de momentopnamelijst ](assets/filter-snapshot-list.png)
 
    Het filter wordt automatisch toegepast op de lijst.
 
@@ -148,7 +145,7 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft.
 
    Een indicator verschijnt op de **knoop van de Filter** wanneer een filter op de lijst wordt toegepast.
 
-   ![&#x200B; Toegepaste indicator van de Filter &#x200B;](assets/glist-filter-applied-indicator.png)
+   ![ Toegepaste indicator van de Filter ](assets/glist-filter-applied-indicator.png)
 
 ### Sorteren in een lijst
 
@@ -158,7 +155,7 @@ Afzonderlijke kolommen sorteren:
 
    Een pictogram naast een kolomnaam geeft aan dat de lijst wordt gesorteerd op de waarden in die kolom en op de richting van de sortering.
 
-   ![&#x200B; Soort de momentopnamelijst &#x200B;](assets/sort-snapshot-list.png)
+   ![ Soort de momentopnamelijst ](assets/sort-snapshot-list.png)
 
 ### Kolommen in een lijst aanpassen
 
@@ -166,10 +163,10 @@ U kunt kolommen in een lijst verbergen, weergeven en opnieuw ordenen.
 
 1. Klik **Kolommen** boven de lijst.
 
-   ![&#x200B; Kolommen voor momentopnamelijst &#x200B;](assets/hide-display-columns-on-snapshot.png)
+   ![ Kolommen voor momentopnamelijst ](assets/hide-display-columns-on-snapshot.png)
 
 1. Met de schakelopties kunt u kolommen in de lijst weergeven of verbergen.
-1. Om de kolommen opnieuw in orde te brengen, klik het **pictogram van de Belemmering** pictogram ![&#x200B; en beweeg een kolom aan uw gewenste plaats. &#x200B;](assets/drag-icon.png) Als u kolommen verplaatst, wordt de lijst automatisch gewijzigd.
+1. Om de kolommen opnieuw in orde te brengen, klik het **pictogram van de Belemmering** pictogram ![ en beweeg een kolom aan uw gewenste plaats. ](assets/drag-icon.png) Als u kolommen verplaatst, wordt de lijst automatisch gewijzigd.
 
    >[!NOTE]
    >
@@ -179,7 +176,7 @@ U kunt kolommen in een lijst verbergen, weergeven en opnieuw ordenen.
 
    Een indicator verschijnt op de **knoop van Kolommen** wanneer de kolommen worden verborgen. De indicator wordt niet weergegeven wanneer u de kolommen opnieuw ordent.
 
-   ![&#x200B; Indicator voor verborgen kolommen &#x200B;](assets/glist-columns-hidden-indicator.png)
+   ![ Indicator voor verborgen kolommen ](assets/glist-columns-hidden-indicator.png)
 
 ### Kolommen toevoegen en verwijderen met Kolombeheer
 
@@ -187,7 +184,7 @@ Met Kolombeheer in bepaalde uitgebreide lijsten kunt u eenvoudig kolommen aan de
 
 1. Klik het **+** pictogram op de hoger-juiste hoek van de lijst om de **manager van de Kolom** doos te openen.
 
-   ![&#x200B; Manager van de Kolom voor momentopnamen &#x200B;](assets/column-manager-on-snapshot-no-kpi-tab.png)
+   ![ Manager van de Kolom voor momentopnamen ](assets/column-manager-on-snapshot-no-kpi-tab.png)
 
 1. Onderzoek naar een bestaand objecten gebied in de **Beschikbare** kolom, dan klik **+** rechts van het gebied naam het om het aan de **Geselecteerde** kolom toe te voegen.
 1. Klik **-** rechts van een gebied in de **Geselecteerde** kolom om het uit de lijst te verwijderen.
@@ -205,11 +202,10 @@ Een weergave toepassen of maken:
 
    Klik **Nieuwe mening** om te creëren.
 
-   ![&#x200B; het menu van Meningen op een momentopname &#x200B;](assets/views-on-snapshot-list.png)
+   ![ het menu van Meningen op een momentopname ](assets/views-on-snapshot-list.png)
 
 1. (Voorwaardelijk) voor het toevoegen van een nieuwe mening, ga een naam voor de mening in, dan klik **creeer**.
-1. (Optioneel) U kunt de kolommen verbergen, weergeven of opnieuw rangschikken. Voor meer informatie, zie [&#x200B; kolommen in een lijst &#x200B;](#customize-columns-in-a-list) aanpassen.
-1. (Optioneel) Filter de lijst. Voor meer informatie, zie [&#x200B; punten van de Filter in een lijst &#x200B;](#filter-items-in-a-list).
+1. (Optioneel) U kunt de kolommen verbergen, weergeven of opnieuw rangschikken. Voor meer informatie, zie [ kolommen in een lijst ](#customize-columns-in-a-list) aanpassen.
+1. (Optioneel) Filter de lijst. Voor meer informatie, zie [ punten van de Filter in een lijst ](#filter-items-in-a-list).
 
-Wijzigingen in weergaven worden automatisch opgeslagen. De volgende keer dat u deze weergave toepast, blijven de kolom- en filterinstellingen behouden zoals u ze instelt. Voor meer informatie over meningen, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
+Wijzigingen in weergaven worden automatisch opgeslagen. De volgende keer dat u deze weergave toepast, blijven de kolom- en filterinstellingen behouden zoals u ze instelt. Voor meer informatie over meningen, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
