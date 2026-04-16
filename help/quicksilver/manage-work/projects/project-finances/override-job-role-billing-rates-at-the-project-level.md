@@ -21,9 +21,9 @@ Als projectmanager, kunt u specificeren wat het het facturerings tarief voor een
 
 In dit artikel wordt beschreven hoe u de factureringssnelheden voor de rol van het systeem voor een project kunt overschrijven.
 
-Voor algemene informatie over het met voeten treden van de het factureringspercentages van de baanrol voor projecten en het berekenen van de opbrengsten van het project, zie [ Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project ](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor algemene informatie over het met voeten treden van de het factureringspercentages van de baanrol voor projecten en het berekenen van de opbrengsten van het project, zie [&#x200B; Overzicht van het met voeten treden van het facturerings tarieven en het berekenen van opbrengst op een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het project te berekenen, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en de [ Berekeningen van de Inkomsten voor Taken die op gebruiker en sectie van de Taken van de Rol ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in het artikel [ Overzicht van het Factureren en van de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
+Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het project te berekenen, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en de [&#x200B; Berekeningen van de Inkomsten voor Taken die op gebruiker en sectie van de Taken van de Rol &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in het artikel [&#x200B; Overzicht van het Factureren en van de Inkomsten &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het proje
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Wanneer u het factureringstarief van een baan op een project met voeten treedt, kunt u efficiënte data toewijzen en elke datumwaaier heeft een verschillend tarief. Als u geen effectieve datums toewijst, wordt de tariefoverschrijving die u invoert, gebruikt voor de volledige duur van het project om de inkomsten te berekenen.
 
-U kunt nieuwe het factureren tarieven aan een projectmalplaatje toevoegen en die tarieven worden het factureren van het project wanneer u het project van dat malplaatje creeert. Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+U kunt nieuwe het factureren tarieven aan een projectmalplaatje toevoegen en die tarieven worden het factureren van het project wanneer u het project van dat malplaatje creeert. Voor informatie over het uitgeven van malplaatjes, zie [&#x200B; projectmalplaatjes &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 >[!TIP]
 >
@@ -86,7 +86,7 @@ Een factureringssnelheid voor een project overschrijven:
 
    Het vak Nieuwe factureringsfrequentie wordt geopend.
 
-1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
+1. Op het **gebied van de Rol van de Baan 0&rbrace;, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
 1. (Optioneel) Selecteer de gewenste kenmerken voor de factureringssnelheid, zoals de instantie of locatie.
 
@@ -105,7 +105,7 @@ Een factureringssnelheid voor een project overschrijven:
    * **Datum van het Begin**: De datum wanneer de het factureren tariefopheffing begint.
    * **Datum van het Eind**: De datum wanneer de het factureren tariefopheffing beëindigt.
 
-   ![ het Factureren tarieven met opheffingsdata ](assets/new-job-role-billing-rate-on-project2.png)
+   ![&#x200B; het Factureren tarieven met opheffingsdata &#x200B;](assets/new-job-role-billing-rate-on-project2.png)
 
    Workfront past het tarief van de opheffingsbaan op de uren toe die tijdens deze tijdkaders voorkomen wanneer het berekenen van opbrengst op het project.
 

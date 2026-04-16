@@ -20,7 +20,7 @@ U kunt specificeren wat het kostentarief voor een gebruiker op een specifiek pro
 
 In dit artikel wordt beschreven hoe u de kostentarieven voor systeemgebruikers voor een project kunt overschrijven.
 
-Voor meer informatie over het berekenen van kosten op het project, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [ de kosten van het Spoor ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+Voor meer informatie over het berekenen van kosten op het project, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [&#x200B; de kosten van het Spoor &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor meer informatie over het berekenen van kosten op het project, zie [ Overzic
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 De gebruiker moet de **tariefopheffing van Kosten toegestaan** gebied hebben dat op hun gebruikersprofiel wordt toegelaten. Wanneer een gebruiker het toegelaten gebied van de kostenopheffing niet heeft, worden de kosten met voeten getreden niet toegestaan voor die gebruiker op om het even welk project, en het systeem gebruikt het tarief op het gebruikersprofiel om kosten te berekenen.
 
-Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Override user cost rates at the project level
 
@@ -75,7 +75,7 @@ Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/ad
 
 1. Op het **gebied van de Gebruiker**, selecteer de gebruiker u het kostentarief voor wilt veranderen.
 1. Selecteer de **Valuta** voor de opheffing van het kostentarief.
-1. Op het **gebied van het Tarief van 0} Kosten {, ga de eerste kostentariefopheffing in.**
+1. Op het **gebied van het Tarief van 0&rbrace; Kosten &lbrace;, ga de eerste kostentariefopheffing in.**
 1. (Facultatief) klik **toevoegen datumeffectief tarief** om meer kostentariefoverschrijvingen toe te voegen.
 
    >[!NOTE]
@@ -89,7 +89,7 @@ Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/ad
    * **Datum van het Begin**: de datum wanneer de kostentariefopheffing begint.
    * **Datum van het Eind**: de datum wanneer de kostentariefopheffing beëindigt.
 
-   ![ het Nieuwe vakje van de Tarief van de Kosten van de Gebruiker die efficiënte data tonen ](assets/new-user-cost-rate-box.png)
+   ![&#x200B; het Nieuwe vakje van de Tarief van de Kosten van de Gebruiker die efficiënte data tonen &#x200B;](assets/new-user-cost-rate-box.png)
 
    Workfront past het tarief van de opheffingsbaan op de uren toe die tijdens deze tijdkaders voorkomen wanneer het berekenen van kosten op het project.
 
