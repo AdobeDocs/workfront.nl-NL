@@ -104,4 +104,4 @@ Als de structuur dubbelzinnig (geen duidelijke parallel) is, **einde** en toon b
 
 ## Verwijzingen
 
-- Pas **[de documentatiestijl van Workfront &#x200B;](https://experienceleague.adobe.com/)** en repo overeenkomsten (begaat/PR regels als de gebruiker begaat) aan.
+- Pas **[de documentatiestijl van Workfront &#x200B;](https://experienceleague.adobe.com/nl)** en repo overeenkomsten (begaat/PR regels als de gebruiker begaat) aan.
