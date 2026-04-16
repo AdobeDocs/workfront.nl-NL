@@ -56,13 +56,13 @@ De widget Mijn goedkeuringen ondersteunt goedkeuringen van de volgende Workfront
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Werken goedkeuren via de widget Mijn goedkeuringen
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan selecteer **allen** om goedkeuringen te zien die aan u worden toegewezen en worden gedelegeerd.
 
@@ -74,11 +74,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. (Voorwaardelijk) klik het **drop-down menu van de Soort**, dan selecteert **Nieuwste eerst** om de onlangs toegevoegde goedkeuringen te zien.
 
 
-1. (Optioneel) Klik op het pictogram Volledig scherm ![ pictogram Volledig scherm ](assets/full-screen.png) om de widget Mijn goedkeuringen in volledig scherm te openen.
+1. (Optioneel) Klik op het pictogram Volledig scherm ![&#x200B; pictogram Volledig scherm &#x200B;](assets/full-screen.png) om de widget Mijn goedkeuringen in volledig scherm te openen.
 
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
-   ![ Mijn widget goedkeurt ](assets/my-approvals-widget.png)
+   ![&#x200B; Mijn widget goedkeurt &#x200B;](assets/my-approvals-widget.png)
 
    <!--update screenshot after production release-->
 

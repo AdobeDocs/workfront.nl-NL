@@ -26,7 +26,7 @@ Pas slechts toe wanneer **allen** waar zijn:
 
 Als het bereik onduidelijk is, bevestigt u dit voordat u gaat bewerken.
 
-**TOC/indexpagina&#39;s - overslaat altijd dit geval:** **** zet nooit een dossier op de inventaris wanneer **slechts** voorproef-gerelateerde formulering **binnen** de vertoningstekst van een prijsdaling van de verbinding die bij **een ander** artikel richt (b.v. *verzend een rapport in het milieu van de zandbak van de Voorproef )*) **en** het dossier heeft **geen** `class="preview"`, **geen** fragmentvariabelen, en **geen** voorproefboilerplate in **prose buiten verbindingen**. Dit is geen voorproefmarkering op die pagina-het is slechts een verwijzing van TOC. Is op om het even welke index/TOC, niet slechts één dossier van toepassing.
+**TOC/indexpagina&#39;s - overslaat altijd dit geval:** **&#x200B;**&#x200B;zet nooit een dossier op de inventaris wanneer **slechts** voorproef-gerelateerde formulering **binnen** de vertoningstekst van een prijsdaling van de verbinding die bij **een ander** artikel richt (b.v. *verzend een rapport in het milieu van de zandbak van de Voorproef )*) **en** het dossier heeft **geen** `class="preview"`, **geen** fragmentvariabelen, en **geen** voorproefboilerplate in **prose buiten verbindingen**. Dit is geen voorproefmarkering op die pagina-het is slechts een verwijzing van TOC. Is op om het even welke index/TOC, niet slechts één dossier van toepassing.
 
 ### Uitgesloten paden
 
@@ -84,15 +84,15 @@ Als de structuur dubbelzinnig (geen duidelijke parallel) is, **einde** en toon b
 
 ### Secties met opmerkingen (HTML-opmerkingen)
 
-- **** schrapt, unwrap niet, of anders **wijzigt** om het even welke inhoud binnen **`<!-- … -->`** HTML commentaren **tenzij de gebruiker uitdrukkelijk zegt** wat te doen (b.v. schrapt de volledige commentaar, de klassen van de prijsvoorproef binnen de commentaar slechts, uncomment voor GA).
+- **&#x200B;**&#x200B;schrapt, unwrap niet, of anders **wijzigt** om het even welke inhoud binnen **`<!-- … -->`** HTML commentaren **tenzij de gebruiker uitdrukkelijk zegt** wat te doen (b.v. schrapt de volledige commentaar, de klassen van de prijsvoorproef binnen de commentaar slechts, uncomment voor GA).
 - Als voorproef-verwante inhoud of **`class="preview"`** **slechts** binnen commentaren verschijnt, **vraag die uit** wanneer het herzien van het artikel: zeg wat in de commentaar is en **vraag** wat te doen. **Gebrek: laat gecommenteerde secties ongewijzigd.**
 
 ### Wat moet u doen?
 
 - Voer deze workflow niet uit op paden onder **`product-announcements`** (opmerkingen bij de release en verwante); de voorraad moet deze uitsluiten.
 - Maak geen inventaris of geef wegen uit die onder **[Uitgesloten wegen](#excluded-paths)** worden vermeld tenzij de gebruiker uitdrukkelijk vraagt om te omvatten.
-- **verwijdert of uitgeeft** niet **(**) blokken automatisch `<!-- … -->` {uit; volg **Commented-out secties** hierboven.
-- Verwijder &quot;Voorproef&quot;niet wanneer het **niet** over dit eigenschap-beschikbaarheidspatroon (b.v. [ het milieu van Sandbox van de Voorproef ](·) als a **productnaam** in Verwante context)-gebruiksoordeel is en vraagt als onzeker.
+- **verwijdert of uitgeeft** niet **(**) blokken automatisch `<!-- … -->` &lbrace;uit; volg **Commented-out secties** hierboven.
+- Verwijder &quot;Voorproef&quot;niet wanneer het **niet** over dit eigenschap-beschikbaarheidspatroon (b.v. [ het milieu van Sandbox van de Voorproef ] (·) als a **productnaam** in Verwante context)-gebruiksoordeel is en vraagt als onzeker.
 - Wijzig `author:` of de niet-verwante voorgrond alleen als de gebruiker hierom vraagt.
 - Ga niet **over tonen → keur** stap goed.
 
@@ -104,4 +104,4 @@ Als de structuur dubbelzinnig (geen duidelijke parallel) is, **einde** en toon b
 
 ## Verwijzingen
 
-- Pas **[de documentatiestijl van Workfront ](https://experienceleague.adobe.com/)** en repo overeenkomsten (begaat/PR regels als de gebruiker begaat) aan.
+- Pas **[de documentatiestijl van Workfront &#x200B;](https://experienceleague.adobe.com/)** en repo overeenkomsten (begaat/PR regels als de gebruiker begaat) aan.
