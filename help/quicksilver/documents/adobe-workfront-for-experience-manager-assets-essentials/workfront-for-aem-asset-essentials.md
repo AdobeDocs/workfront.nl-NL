@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: ac3534cde15da84ae12f577b05eced88f74068e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 * [Overzicht van Adobe Experience Manager Assets-integratie](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [&#x200B; activa en omslagen van de Verbinding van Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [ de activa en de omslagen van de Verbinding met de Adviseur van de Inhoud van Experience Manager Assets ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [ de activa en de omslagen van de Verbinding van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
 * [Toegewezen metagegevens voor Experience Manager Assets of Elementen weergeven](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-* [&#x200B; verzend een Document naar Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-* [&#x200B; Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [ verzend een Document naar Experience Manager Assets of de Hoofdzaak van Activa ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+* [ Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Een gekoppeld element weergeven of downloaden van Experience Manager Assets of Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)

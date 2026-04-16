@@ -6,9 +6,9 @@ description: Dankzij de integratie tussen Workfront en Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: deb38abd0c7b4ba41eb21a6539f00d009158f986
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ Met de native Experience Manager-integratie kunt u
 * Metagegevens eenvoudig synchroniseren voor bestaande gekoppelde elementen
 * Metagegevens van portfolio, programma, project, taak, uitgave en document automatisch bijwerken wanneer deze zijn gewijzigd in Workfront
 * Maak vloeiend verbinding tussen verschillende Experience Manager Assets-opslagruimten en één Workfront-omgeving of verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats via organisatie-id&#39;s
+* Gebruik de functie Content Advisor van Experience Manager Assets. Met Content Advisor kunt u
+   * Inhoud uploaden om te zoeken naar vergelijkbare elementen
+   * Snelle details over een element weergeven
+   * Toegang krijgen tot inhoudsfragmenten
+   * Verzamelingen verkennen
+   * En meer. Voor meer informatie, zie {de documentatie van de Adviseur van de Inhoud van 0} Experience Manager Assets [.]
 
 
 ## Vereisten
@@ -54,9 +60,9 @@ Met de native Experience Manager-integratie kunt u
 
 ## Aan de slag
 
-1. [&#x200B; vorm activa meta-gegevens afbeelding tussen Adobe Workfront en Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. [ vorm activa meta-gegevens afbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 1. De integratie instellen:
-   1. [&#x200B; vorm de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+   1. [ vorm de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 of
    1. [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Gebruik de integratie: Verstuur elementen, maak gekoppelde mappen, kaartmetagegevens en nog veel meer. Zie [&#x200B; Adobe Workfront voor Experience Manager Assets en de Hoofdzaak van Activa: artikelindex &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) voor meer informatie.
+1. Gebruik de integratie: Verstuur elementen, maak gekoppelde mappen, kaartmetagegevens en nog veel meer. Zie [ Adobe Workfront voor Experience Manager Assets en de Hoofdzaak van Activa: artikelindex ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) voor meer informatie.
