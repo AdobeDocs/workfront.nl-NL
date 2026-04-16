@@ -11,16 +11,14 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
 
 # Overzicht van bedrijfsprofielen
-
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor specifieke klanten.</span>
 
 De bedrijfsprofielen zijn een verbeterd toestemmingsmodel dat klanten zoals agentschappen toestaat om gebruikerstoegang efficiënt te beheren en nauwkeurige controle over toestemmingen op groepsniveau te verzekeren. In een bedrijfsprofiel, hebben de gebruikers duidelijke toestemmingen aan groep-specifieke voorwerpen. Aanvullende objecten kunnen ook rechtstreeks met het bedrijfsprofiel worden gedeeld.
 
@@ -59,7 +57,7 @@ De systeembeheerder van Adobe Workfront is verantwoordelijk voor het bepalen van
 
 De systeembeheerder van Workfront leidt tot het toegangsniveau met de noodzakelijke toegang en bepaalt om het even welke beperkte gebieden zoals nodig.
 
-Voor meer informatie, zie [&#x200B; douanetoegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
+Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 ### Bedrijfsprofiel aan gebruiker toevoegen
 
@@ -73,13 +71,13 @@ Meerdere bedrijfsprofielen zijn toegestaan voor één gebruiker.
 
 <!--image?-->
 
-Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven. <!--may be separate article now since it's not in the profile-->
+Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven. <!--may be separate article now since it's not in the profile-->
 
 ### Lay-outsjablonen toewijzen aan toegangsniveau
 
 De systeembeheerder van Workfront kan naar keuze een lay-outmalplaatje aan het toegangsniveau toewijzen, om ervoor te zorgen dat de gebruikers met het verwante bedrijfsprofiel relevante informatie en acties zien die op hun rol binnen het systeem worden gebaseerd.
 
-Voor meer informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Voor meer informatie, zie [ gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Hoe bedrijfsprofielen werken
 
@@ -107,9 +105,9 @@ Als een gebruiker een bedrijfsprofiel krijgt toegewezen nadat een object al met 
 
 Wanneer een bedrijfsprofiel veelvoudige toegangsniveaus heeft, neemt het niveau met de hoogste hoeveelheid toegang belangrijkheid.
 
-Voor informatie bij het delen, zie [&#x200B; een voorwerp &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+Voor informatie bij het delen, zie [ een voorwerp ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
-Voor informatie over hoe de toegangsniveaus en de toestemmingen samenwerken, zie [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+Voor informatie over hoe de toegangsniveaus en de toestemmingen samenwerken, zie [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 ## Overwegingen bij bedrijfsprofielen
 

@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 0%
 
 ---
 
 # Zakelijke regels maken en bewerken
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bevestiging van bedrijfsregels helpt om gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
 
-<!--
+Organisaties die beschikken over het Workflow Ultimate-pakket kunnen ook bedrijfsregels configureren om handelingen voor het gemaakte, bewerkte of gewijzigde object te automatiseren als aan bepaalde voorwaarden is voldaan. Tot de beschikbare acties behoren het delen van het object of het koppelen van een aangepast formulier aan het object.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 Eén bedrijfsregel kan slechts aan één object worden toegewezen. Bijvoorbeeld, als u een bedrijfsregel creeert voor het niet uitgeven van projecten onder bepaalde voorwaarden, kunt u niet de zelfde regel op taken toepassen. U zou een afzonderlijke bedrijfsregel met de zelfde voorwaarden voor taken moeten tot stand brengen.
 
@@ -76,7 +63,7 @@ De bedrijfsregels zijn van toepassing op het creëren van, het uitgeven van, en 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,13 +76,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 De indeling van een validatie van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, kan de gebruiker de actie op het object niet uitvoeren en wordt het bericht weergegeven.&quot;
 
-De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [&#x200B; berekende gebieden met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-Voor informatie over IF- verklaringen, zie [&#x200B; &quot;IF&quot;verklaringenoverzicht &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [&#x200B; de exploitanten van de Voorwaarde in berekende douanevelden &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Voor informatie over IF- verklaringen, zie [ &quot;IF&quot;verklaringenoverzicht ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [ de exploitanten van de Voorwaarde in berekende douanevelden ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Voor informatie over op gebruiker-gebaseerde vervangingen, zie [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over op gebruiker-gebaseerde vervangingen, zie [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
-Voor informatie over op datum-gebaseerde vervangingen, zie [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over op datum-gebaseerde vervangingen, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 Een API-jokerteken is ook beschikbaar in bedrijfsregels. Gebruik `$$ISAPI` om de regel alleen in de API te activeren. Gebruik `!$$ISAPI` om de regel alleen in de gebruikersinterface af te dwingen en gebruikers toe te staan de regel via de API te omzeilen.
 
@@ -160,7 +147,7 @@ Het bericht wordt weergegeven in de gelokaliseerde taal.
 
 >[!ENDSHADEBOX]
 
-Voor informatie over douanelokalisatie, zie [&#x200B; douanelokalisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
+Voor informatie over douanelokalisatie, zie [ douanelokalisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
 
 ## Scenario&#39;s voor bedrijfsregelautomatisering
 
@@ -184,7 +171,7 @@ Om een project te delen slechts als dat project is goedgekeurd, gebruik een form
 IF({status} = "APR", true)
 ```
 
-U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de sectie [&#x200B; Scenario&#39;s voor de bevestiging van de bedrijfsregel &#x200B;](#scenarios-for-business-rule-validation) worden beschreven.
+U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de sectie [ Scenario&#39;s voor de bevestiging van de bedrijfsregel ](#scenarios-for-business-rule-validation) worden beschreven.
 
 
 ## Voeg een nieuwe bedrijfsregel toe
@@ -204,7 +191,7 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
 
 1. Selecteer het objecttype waaraan u de bedrijfsregel wilt toewijzen.
 
-   ![&#x200B; Uitgezocht een voorwerp &#x200B;](assets/object-for-business-rule4.png)
+   ![ Uitgezocht een voorwerp ](assets/object-for-business-rule4.png)
 
    U kunt bedrijfsregels toepassen op de volgende objecten:
 
@@ -261,17 +248,17 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
    * Het &quot;object&quot; is het objecttype dat u hebt geselecteerd bij het maken van de bedrijfsregel. Deze wordt weergegeven in de kop van het dialoogvenster.
    * De &quot;actie&quot; is de trigger die u voor de regel hebt geselecteerd: maak, bewerk of verwijder het object.
    * Omdat het object en de actie al zijn gedefinieerd, neemt u ze niet op in de formule.
-   * Het douanefoutenbericht <span class="preview"> is inbegrepen slechts als de regel voor bevestiging is, en </span> wordt getoond aan de gebruiker wanneer zij de bedrijfsregel teweegbrengen. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
+   * Het aangepaste foutbericht wordt alleen opgenomen als de regel voor validatie is en aan de gebruiker wordt getoond wanneer deze de bedrijfsregel activeert. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
 
      U kunt een statische URL in het foutbericht opnemen om een koppeling te maken naar documentatie of andere nuttige pagina&#39;s om de gebruiker te begeleiden bij het wijzigen van de handeling binnen de beperking van de regel.
 
      In dit voorbeeld wordt &quot;Meer informatie&quot; gekoppeld aan de URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt de volledige URL weergeven en het wordt een klikbare koppeling.
 
-   ![&#x200B; voeg bedrijfsregeldialoog &#x200B;](assets/add-business-rule-new.png) toe
+   ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-new.png) toe
 
    Dit voorbeeld is een bedrijfsregel voor projecten. Als de huidige maand November is, dan worden de gebruikers toegelaten om geen nieuwe projecten tot stand te brengen, en het bericht verklaart dit.
 
-   Voor meer voorbeelden van bedrijfsregels, zie [&#x200B; Scenario&#39;s voor bedrijfsregels &#x200B;](#scenarios-for-business-rules) in dit artikel.
+   Voor meer voorbeelden van bedrijfsregels, zie [ Scenario&#39;s voor bedrijfsregels ](#scenarios-for-business-rules) in dit artikel.
 
 1. (Facultatief) gebruik de formule **Uitdrukkingen** en **Gebieden** in het juiste paneel om bij de bouw van de regel bij te wonen.
 
@@ -283,21 +270,19 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
 
    Voor andere pakketten is deze optie vooraf geselecteerd.
 
-1. <span class="preview"> (Voorwaardelijk) Als u een andere handeling wilt automatiseren, selecteert u de handeling. </span>
+1. (Voorwaardelijk) Als u een andere handeling wilt automatiseren, selecteert u de handeling.
 
-   <span class="preview"> voor details op deze acties, zie de sectie [&#x200B; opties van de Bedrijfs regel automatisering &#x200B;](#business-rule-automation-options) in dit artikel.</span>
+   Voor details op deze acties, zie de sectie [ opties van de de regelautomatisering ](#business-rule-automation-options) in dit artikel.
 
    >[!NOTE]
    >
-   ><span class="preview"> Uw organisatie moet op het pakket van Ultimate van het Werkschema zijn om acties naast bevestiging te gebruiken. Als u deze andere opties niet ziet, bevindt uw organisatie zich niet op het Ultimate-pakket van de Workflow.</span>
+   >Uw organisatie moet zich op het Ultimate-pakket van het Werkschema bevinden om acties naast bevestiging te gebruiken. Als u deze andere opties niet ziet, staat uw organisatie niet in het Workflow Ultimate-pakket.
 
 1. Klik **sparen** wanneer u klaar bent met het bouwen van de bedrijfsregel.
 
 >[!NOTE]
 >
 >Nadat u een bedrijfsregel hebt toegevoegd, moet u deze testen door het bijbehorende object toe te voegen, te bewerken of te verwijderen om ervoor te zorgen dat de regel correct wordt toegepast.
-
-<div class="preview">
 
 ### Automatiseringsopties voor bedrijfsregels
 
@@ -311,8 +296,6 @@ U kunt deze acties plaatsen om te automatiseren wanneer de bedrijfsregel wordt t
 |---|---|
 | Een aangepast formulier bijvoegen | Selecteer het aangepaste formulier dat u wilt toevoegen |
 | Het object delen | Selecteer de personen, rollen, groepen, bedrijven of toegangsniveaus waarmee u het object wilt delen. |
-
-</div>
 
 ## Een bedrijfsregel activeren
 

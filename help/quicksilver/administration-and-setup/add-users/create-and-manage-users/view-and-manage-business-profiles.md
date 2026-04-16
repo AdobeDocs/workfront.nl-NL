@@ -11,22 +11,20 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Bedrijfsprofielen weergeven en beheren
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor specifieke klanten.</span>
-
 Om een bedrijfsprofiel aan een gebruiker toe te wijzen, moet u een groep en een bijbehorend toegangsniveau toewijzen.
 
 Als beheerder van Workfront, kunt u het bedrijfsprofiel van een gebruiker plaatsen door combinaties toegangsniveaus en groepen toe te wijzen. Dit wordt beheerd vanaf de gebruikerspagina in Workfront.
 
-Voor meer informatie over Bedrijfs Profielen, zie [&#x200B; overzicht Bedrijfs van profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+Voor meer informatie over Bedrijfs Profielen, zie [ overzicht Bedrijfs van profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Toegangsvereisten
 
@@ -54,7 +52,7 @@ Voor meer informatie over Bedrijfs Profielen, zie [&#x200B; overzicht Bedrijfs v
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

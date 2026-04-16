@@ -10,30 +10,28 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
 # Gebruikers toewijzen aan een lay-outsjabloon
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
-
 U kunt een lay-outmalplaatje toewijzen u aan om het even welke gebruiker, baanrol, team, of groep creeerde die het moet gebruiken.
 
-Voor gebruikers waaraan geen lay-outsjabloon is toegewezen, wordt de standaardlay-out gebruikt. Om over de standaardlay-out te leren, zie [&#x200B; Ongeveer de standaard lay-out van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Voor gebruikers waaraan geen lay-outsjabloon is toegewezen, wordt de standaardlay-out gebruikt. Om over de standaardlay-out te leren, zie [ Ongeveer de standaard lay-out van Adobe Workfront ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Gebruikers kunnen ook een lay-outsjabloon aan zichzelf toewijzen, zoals wordt beschreven in de gebieden Mijn werk en Werkverzoeken wijzigen met lay-outsjablonen.
 
-U kunt meerdere verschillende lay-outsjablonen aan dezelfde naam toewijzen. Voor meer informatie waarover lay-outmalplaatje in feite voor een gebruiker, een rol, een groep, of een team is, zie {de prioriteit van de het malplaatjetoewijzing van 0} Lay-out [&#x200B; later in dit artikel.](#layout-template-assignment-priority)
+U kunt meerdere verschillende lay-outsjablonen aan dezelfde naam toewijzen. Voor meer informatie waarover lay-outmalplaatje in feite voor een gebruiker, een rol, een groep, of een team is, zie {de prioriteit van de het malplaatjetoewijzing van 0} Lay-out [ later in dit artikel.](#layout-template-assignment-priority)
 
-Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; malplaatjes van de Lay-out &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-<span class="preview"> voor informatie over lay-outmalplaatjes en bedrijfsprofielen, zie [&#x200B; Overzicht Bedrijfs van profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+Voor informatie over lay-outmalplaatjes en bedrijfsprofielen, zie [ overzicht Bedrijfs van profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Toegangsvereisten
 
@@ -61,26 +59,26 @@ Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand br
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een lay-outsjabloon toewijzen aan gebruikers
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
    >[!TIP]
    >
-   >Wanneer u met uw lay-outmalplaatje wordt tevreden, adviseren wij dat u het test, zoals die in [&#x200B; wordt beschreven Test een nieuw lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
+   >Wanneer u met uw lay-outmalplaatje wordt tevreden, adviseren wij dat u het test, zoals die in [ wordt beschreven Test een nieuw lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Klik **toewijzen dit aan** in de hoogste sectie van de pagina.
-1. In de doos die verschijnt, klik **een gebruiker, baanrol, team, groep, <span class="preview"> of toegangsniveau</span>** toevoegen, begin de naam van een gebruiker, baanrol, team, groep, <span class="preview"> of toegangsniveau </span> te typen, dan de naam te klikken wanneer het in drop-down verschijnt.
+1. In de doos die verschijnt, klik **een gebruiker, baanrol, team, groep, of toegangsniveau** toevoegen, begin de naam van een gebruiker, baanrol, team, groep, of toegangsniveau te typen, dan de naam te klikken wanneer het in drop-down verschijnt.
 
    Onlangs toegevoegde namen worden weergegeven met een blauwe achtergrond. Dit is handig wanneer u een bestaande lay-outsjabloon bewerkt, omdat u de namen die u zojuist hebt toegevoegd kunt onderscheiden van de namen die al in de lijst stonden.
 
-   Een pictogram van Info ![&#x200B; pictogram van Info &#x200B;](assets/info-icon.png) toont rechts van de naam van om het even welke gebruiker, baanrol, team, groep, <span class="preview"> of toegangsniveau </span> dat reeds aan een ander lay-outmalplaatje wordt toegewezen. Als u de muisaanwijzer op het pictogram plaatst, ziet u de naam van de lay-outsjabloon en bepaalt u of u de bestaande toewijzing wilt overschrijven.
+   Een pictogram van Info ![ pictogram van Info ](assets/info-icon.png) toont rechts van de naam van om het even welke gebruiker, baanrol, team, groep, of toegangsniveau dat reeds aan een ander lay-outmalplaatje wordt toegewezen. Als u de muisaanwijzer op het pictogram plaatst, ziet u de naam van de lay-outsjabloon en bepaalt u of u de bestaande toewijzing wilt overschrijven.
 
-1. Herhaal de twee vorige stappen om het lay-outmalplaatje aan andere gebruikers, baanrollen, teams, groep, <span class="preview"> of toegangsniveau </span> toe te wijzen zoals nodig.
+1. Herhaal de twee vorige stappen om het lay-outmalplaatje aan andere gebruikers, baanrollen, teams, groep, of toegangsniveau toe te wijzen zoals nodig.
 
    U kunt maximaal 100 gebruikers tegelijk toewijzen.
 
@@ -96,7 +94,7 @@ U en andere Workfront-beheerders kunnen op de volgende vier verschillende manier
 * Voor een bepaalde taakrol heeft de gebruiker
 * Voor een bepaald team is de gebruiker ingeschakeld
 * Aan een bepaalde groep bevindt de gebruiker zich in
-* <span class="preview"> aan een bepaald toegangsniveau wordt de gebruiker toegewezen aan </span>
+* Aan een bepaald toegangsniveau wordt de gebruiker toegewezen aan
 
 Er is echter maar één lay-outsjabloon zichtbaar voor de gebruiker op een bepaald moment. De sjabloon die zichtbaar is, wordt bepaald door de volgende prioriteitshiërarchie:
 
@@ -113,7 +111,7 @@ Er is echter maar één lay-outsjabloon zichtbaar voor de gebruiker op een bepaa
 
   Alleen de sjabloon die is toegewezen aan de groep Home van een gebruiker is zichtbaar voor de gebruiker. Sjablonen die aan een van de andere groepen zijn toegewezen, zijn niet zichtbaar.
 
-* <span class="preview"> Toegangsniveau: als de persoon geen lay-outmalplaatje als individuele gebruiker, noch als gebruiker met een primaire baanrol, noch als lid van een team van het Huis, noch als lid van een groep van het Huis wordt toegewezen, zien zij het malplaatje dat aan hun toegangsniveau wordt toegewezen.</span>
+* Toegangsniveau: als de persoon geen lay-outmalplaatje als individuele gebruiker, noch als gebruiker met een primaire baanrol, noch als lid van een team van het Huis, noch als lid van een groep van het Huis wordt toegewezen, zien zij het malplaatje dat aan hun toegangsniveau wordt toegewezen.
 
 ## Grote aantallen gebruikers die zijn toegewezen aan een lay-outsjabloon
 
@@ -122,6 +120,6 @@ If you edit a layout template which is assigned to more than 2000 users and make
 -->
 Als u meer dan 2000 gebruikers aan een lay-outmalplaatje hebt toe te wijzen, adviseren wij dat u één van het volgende doet:
 
-* Organiseer de gebruikers in groepen of teams en wijs het lay-outmalplaatje aan die groepen of teams toe. Voor meer informatie, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [&#x200B; teams &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
+* Organiseer de gebruikers in groepen of teams en wijs het lay-outmalplaatje aan die groepen of teams toe. Voor meer informatie, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ teams ](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
 
-* Wijs baanrollen aan de gebruikers toe en wijs het lay-outmalplaatje aan hun primaire baanrol toe. Voor meer informatie, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+* Wijs baanrollen aan de gebruikers toe en wijs het lay-outmalplaatje aan hun primaire baanrol toe. Voor meer informatie, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
