@@ -20,13 +20,13 @@ ht-degree: 0%
 
 U kunt een lay-outmalplaatje gebruiken om de opties te bepalen die verschijnen wanneer een gebruiker het Meer menu (het drie-puntenmenu) terwijl het bekijken van de volgende voorwerpen in Adobe Workfront klikt: projecten, taken, kwesties, portefeuilles, en programma&#39;s.
 
-![ Steekproef Meer menu voor een project ](assets/more-menu-display-for-project.png)
+![&#x200B; Steekproef Meer menu voor een project &#x200B;](assets/more-menu-display-for-project.png)
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -54,19 +54,19 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Het menu Meer aanpassen voor een gebied in Workfront
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In **pas aan wat de gebruikers** drop-down menu zien, klik de naam van een objecten type of een gebied van Workfront waarvan Meer menu u wilt aanpassen.
 1. Klik **Uitgezochte menuopties**.
 1. In het **Uitgezochte menuopties** vakje, doe om het even welke volgend om te bepalen welke gebruikers in het Meer menu voor het het gebied of objecten van Workfront zullen zien u hebt geselecteerd:
 
-   * Klik **tonen** ![ tonen pictogram ](assets/add-secondary-nav-item.png) of **Verbergen** ![ pictogram van de Verbergen ](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **** pictogram verbergen.
+   * Klik **tonen** ![&#x200B; tonen pictogram &#x200B;](assets/add-secondary-nav-item.png) of **Verbergen** ![&#x200B; pictogram van de Verbergen &#x200B;](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **&#x200B;**&#x200B;pictogram verbergen.
 
-   * De punten van de belemmering ![ pictogram van de Beweging ](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
+   * De punten van de belemmering ![&#x200B; pictogram van de Beweging &#x200B;](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
 
 1. Klik **Gedaan**.

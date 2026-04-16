@@ -22,14 +22,14 @@ ht-degree: 0%
 
 Als projectmanager, kunt u het factureren tarieven gebruiken om opbrengst op uw projecten te vangen.
 
-In dit artikel worden de ontvangsten voor het bijhouden van projecten beschreven. De opbrengsten worden anders berekend in het gebruiksrapport. Voor informatie over de berekeningen van de Opbrengst in het Rapport van het Gebruik, zie [ informatie van het het middelgebruik van de Mening ](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+In dit artikel worden de ontvangsten voor het bijhouden van projecten beschreven. De opbrengsten worden anders berekend in het gebruiksrapport. Voor informatie over de berekeningen van de Opbrengst in het Rapport van het Gebruik, zie [&#x200B; informatie van het het middelgebruik van de Mening &#x200B;](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Overzicht van de factuurtarieven
 
 Houd rekening met het volgende wanneer u met factureringssnelheden werkt:
 
 * U hebt een abonnement- of standaardlicentie met Edit-toegang tot financiële gegevens (met name factureringssnelheden) nodig om factureringssnelheden te beheren.
-Voor meer informatie over het verlenen van toegang tot Financiële Gegevens, zie [ Toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Voor meer informatie over het verlenen van toegang tot Financiële Gegevens, zie [&#x200B; Toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Factureringstarieven zijn inkomstenbedragen per werkeenheid die verband houden met functies of gebruikers.
 
@@ -41,7 +41,7 @@ Voor meer informatie over het verlenen van toegang tot Financiële Gegevens, zie
   >
   >Wanneer u een Factureringsverslag als Gefactureerd merkt, kan het nooit worden uitgegeven. Dit is belangrijk wanneer uw tarieven variëren en u de opbrengst en de uitgaveninformatie over uw project wilt sluiten. Als u deze aan een factureringsrecord toevoegt en als factureringsrecord markeert, wordt de record niet bijgewerkt wanneer de tarieven in uw systeem worden bijgewerkt.
 
-  Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
+  Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 * U kunt factureringstarieven voor gebruikers, baanrollen tot stand brengen, of u kunt een eenmalig factureringspercentage voor een project of een taak hebben.
 
@@ -59,19 +59,19 @@ Een tariefkaart moet aan een project worden vastgemaakt om zijn tarieven toe te 
 
 De kaarttarieven van het tarief maken deel uit van de hiërarchie voor het bepalen van tarieven, die op het type van taakopbrengst worden gebaseerd.
 
-Voor meer informatie over het creëren van tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Voor meer informatie over het creëren van tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Voor meer informatie over de tariefhiërarchie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+Voor meer informatie over de tariefhiërarchie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
-![ kaart van het tarief van de Steekproef ](assets/sample-rate-card-march2026.png)
+![&#x200B; kaart van het tarief van de Steekproef &#x200B;](assets/sample-rate-card-march2026.png)
 
 ### Factureringstarieven gebruiker {#user-billing-rates}
 
 Als gebruikersbeheerder, wanneer u een gebruiker creeert, kunt u hen met datum-efficiënte het Factureren Tarieven associëren door waarden voor het Factureren per de gebieden van Uur en de data voor de tarieven te specificeren.
 
-Voor meer informatie over het creëren van gebruikers, zie het artikel [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+Voor meer informatie over het creëren van gebruikers, zie het artikel [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
-![ geef gebruikerskosten en het factureren tarieven uit ](assets/edit-user-cost-billing-rate-1.png)
+![&#x200B; geef gebruikerskosten en het factureren tarieven uit &#x200B;](assets/edit-user-cost-billing-rate-1.png)
 
 ### Factureringstarieven voor functies {#job-role-billing-rates}
 
@@ -79,9 +79,9 @@ Als beheerder van Adobe Workfront, wanneer u een baanrol creeert, kunt u het met
 
 U kunt de waarde van de factureringssnelheid van een taakrol definiëren met de basisvaluta van uw Workfront-systeem of met een andere valuta. Ook in de wisselkoersen van uw systeem moeten extra valuta&#39;s worden gedefinieerd.
 
-Voor meer informatie over het creëren van baanrollen, zie het artikel [ creëren en baanrollen beheren ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Voor meer informatie over het creëren van baanrollen, zie het artikel [&#x200B; creëren en baanrollen beheren &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![ geef het factureren van de baanrol tarieven ](assets/edit-job-role-multiple-billing-rates-040826.png) uit
+![&#x200B; geef het factureren van de baanrol tarieven &#x200B;](assets/edit-job-role-multiple-billing-rates-040826.png) uit
 
 ### Vaste factureringstarieven voor projecten of taken {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -90,7 +90,7 @@ Naast gebruikers en het aantal werkuren per uur kunt u ook de volgende vaste fac
 * Vast bedrag voor Vast uurwerk type van Inkomsten
 * Vast bedrag voor type vaste inkomsten
 
-Voor meer informatie over hoe de vaste het factureren tarieven worden gebruikt om opbrengst te berekenen, zie [ Overzicht van de Types van taakopbrengst ](#overview-of-task-revenue-types).
+Voor meer informatie over hoe de vaste het factureren tarieven worden gebruikt om opbrengst te berekenen, zie [&#x200B; Overzicht van de Types van taakopbrengst &#x200B;](#overview-of-task-revenue-types).
 
 ### Factureringssnelheden negeren - Workflow Ultimate-pakket
 
@@ -115,11 +115,11 @@ U kunt de factureringssnelheden voor de rol overschrijven voor:
 
 * Een specifieke onderneming
 
-  Voor meer informatie over het creëren van het factureren van de baanrol tarieven specifiek voor een bedrijf, zie [ bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+  Voor meer informatie over het creëren van het factureren van de baanrol tarieven specifiek voor een bedrijf, zie [&#x200B; bedrijven &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 * Een specifiek project
 
-  Voor meer informatie over het creëren van het factureren van de baanrol tarieven specifiek voor een project, zie het artikel [ Overzicht van het met voeten treden van het factureren tarieven en het berekenen van opbrengst op een project ](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Voor meer informatie over het creëren van het factureren van de baanrol tarieven specifiek voor een project, zie het artikel [&#x200B; Overzicht van het met voeten treden van het factureren tarieven en het berekenen van opbrengst op een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Opbrengsten bijhouden
 
@@ -157,14 +157,14 @@ U kunt de werkelijke inkomsten niet bekijken op het niveau van de uitgave, maar 
  </tbody> 
 </table>
 
-*Voor Werkelijke Uren, verwijzen de tarieven van de gebruiker altijd naar de gebruiker die de uren of aan de tarieven van hun baanrollen registreert. Voor informatie over wanneer Workfront de tarieven van de gebruiker gebruikt en wanneer het de tarieven van hun baanrollen gebruikt, zie de [ sectie van de berekeningen van de Opbrengst ](#revenue-calculations) {in dit artikel.
+*Voor Werkelijke Uren, verwijzen de tarieven van de gebruiker altijd naar de gebruiker die de uren of aan de tarieven van hun baanrollen registreert. Voor informatie over wanneer Workfront de tarieven van de gebruiker gebruikt en wanneer het de tarieven van hun baanrollen gebruikt, zie de [&#x200B; sectie van de berekeningen van de Opbrengst &#x200B;](#revenue-calculations) &lbrace;in dit artikel.
 
 Bijvoorbeeld, als een taak met het Type van Opbrengst van de Uur van de Gebruiker 2 uren wordt gepland en de gebruiker aan het wordt toegewezen een uurtarief van $30 per uur heeft, dan is de Geplande Opbrengst van de taak $60. Wanneer de taak wordt voltooid, als de gebruiker slechts 1.5 uren als daadwerkelijke tijd om de taak te beëindigen registreert, is de Ware hoeveelheid van Inkomsten $45. Als een andere gebruiker die niet aan de taak wordt toegewezen de tijd registreert, wordt de Ware Opbrengst berekend gebaseerd op de het Facturerings Tarieven van die gebruiker.
 
 U kunt inkomsten op de volgende manieren opnemen:
 
 * Door het Type van Inkomsten van uw taken te bepalen, en gebruikers of rollen te associëren die aan het werkpunten met het factureringspercentages worden toegewezen. Dit berekent de opbrengst met het bedrag van Geplande of Werkelijke Uren op de het werkpunten. U kunt een maximum instellen op het maximumbedrag dat voor uurtarieven wordt aangerekend, of niet.\
-  Voor meer informatie over het specificeren van het Type van Ontvangsten van een taak, zie het artikel [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+  Voor meer informatie over het specificeren van het Type van Ontvangsten van een taak, zie het artikel [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 * Door een vast vast inkomstenpercentage voor taken of projecten te factureren.\
   Als u taken hebt met Vaste inkomsten, wordt het bedrag van Vaste inkomsten toegevoegd als de geplande inkomsten van een taak of een project, en de geplande inkomsten van een taak zullen beschikbaar zijn om aan een Factureringsverslag als Vaste Ontvangsten worden toegevoegd.
@@ -177,12 +177,12 @@ U kunt uw taken ook markeren als &quot;Niet opteerbaar&quot;, in welk geval er g
 
 Standaard wordt het belastingtype voor alle nieuwe taken ingesteld op basis van de voorkeuren voor taken en uitgaven die door uw Workfront of groepsbeheerder zijn opgegeven.
 
-Voor meer informatie over het bepalen van de taak en geef voorkeur voor uw instantie van Workfront uit, zie het artikel [ de taak van het hele systeem en de uitgevende voorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Voor meer informatie over het bepalen van de taak en geef voorkeur voor uw instantie van Workfront uit, zie het artikel [&#x200B; de taak van het hele systeem en de uitgevende voorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 De eigenaar van het project kan het inkomstentype van taken en de Vaste Ontvangsten voor projecten wijzigen.
 
-Voor meer informatie over het plaatsen van de Vaste Ontvangsten van een project, zie het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
-Voor meer informatie over het plaatsen van het Type van Ontvangsten van een taak, zie het artikel [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor meer informatie over het plaatsen van de Vaste Ontvangsten van een project, zie het artikel [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor meer informatie over het plaatsen van het Type van Ontvangsten van een taak, zie het artikel [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 >[!NOTE]
 >
@@ -267,9 +267,9 @@ Uitgiften hebben geen geplande of werkelijke inkomsten, maar kunnen wel werkelij
 
 Als u uren voor een kwestie registreert en u een uurtype gebruikt dat als &quot;Telling als Ontvangsten&quot;duidelijk is, dan berekent Workfront een Ware bedrag van Kosten volgens het tarief van de gebruiker die in de tijd registreert. Dit aantal wordt toegevoegd aan de Ware Kosten van het project. De uren kunnen ook in een factureringsverslag worden opgenomen.
 
-Voor meer informatie over het volgen van kosten, zie de kosten van het artikel [ Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
+Voor meer informatie over het volgen van kosten, zie de kosten van het artikel [&#x200B; Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
-Voor meer informatie over uurtypes, zie het artikel [ de types van uren ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
+Voor meer informatie over uurtypes, zie het artikel [&#x200B; de types van uren &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
 
 ## Berekening van de inkomsten
 
@@ -287,11 +287,11 @@ Houd rekening met het volgende wanneer u de inkomsten voor een taak berekent:
 
 Het systeem gebruikt een hiërarchie om te bepalen welk tarief in opbrengstberekeningen wordt gebruikt die op taaktaken worden gebaseerd.
 
-Als uw beheerder van Workfront **de Rollen van de Baan aan uuringangen manueel** plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren toeliet, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Opbrengst van de taak of het project altijd gebaseerd op de rol verbonden aan de uuringang. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Als uw beheerder van Workfront **de Rollen van de Baan aan uuringangen manueel** plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren toeliet, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Opbrengst van de taak of het project altijd gebaseerd op de rol verbonden aan de uuringang. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 Voor het de opbrengsttype van de Gebruiker en van de Rol van de Uur, kan een Rol van de Taak voor het Factureren op zowel het projectniveau als het taakniveau worden bepaald. Als het op het projectniveau voor een specifieke gebruiker wordt bepaald, verspreidt die rol automatisch aan alle taken van die gebruiker tijdens de datum-efficiënte periode u het hebt toegepast. U kunt deze snelheid desgewenst nog steeds overschrijven op toewijzingsniveau. Bijvoorbeeld, is de primaire de baanrol van een gebruiker Designer, maar u plaatst haar Rol van de Baan voor het Factureren op een project als Senior Designer voor de maand van Augustus. Voor alle taken die ze in augustus hebben toegewezen, wordt automatisch het factureringstarief van senior Designer gebruikt.
 
-Voor een bepaalde taak zou u echter alleen voor die taak de rol kunnen overschrijven, om het werk dat wordt gefactureerd weer te geven. Op deze manier ondersteunt het systeem zowel consistentie op projectniveau als flexibiliteit op toewijzingsniveau. Voor meer informatie, zie [ Overzicht van de Opbrengst en de hiërarchie van Kosten ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [ creeer geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Voor een bepaalde taak zou u echter alleen voor die taak de rol kunnen overschrijven, om het werk dat wordt gefactureerd weer te geven. Op deze manier ondersteunt het systeem zowel consistentie op projectniveau als flexibiliteit op toewijzingsniveau. Voor meer informatie, zie [&#x200B; Overzicht van de Opbrengst en de hiërarchie van Kosten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) en [&#x200B; creeer geavanceerde taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 De volgende scenario&#39;s zijn van toepassing wanneer het berekenen van taakopbrengst die op het Type van Ontvangsten en de aard van de taakopdracht wordt gebaseerd:
 
@@ -366,8 +366,8 @@ De volgende scenario&#39;s zijn van toepassing wanneer het berekenen van taakopb
 
 | Facturering per uur | Geen toewijzing | Gebruikerstoewijzing | Taakroltoewijzing |
 | --- | --- | --- | --- |
-| Facturering per uur voor geplande ontvangsten | $ 0,00 | Wanneer een gebruiker wordt toegewezen, zoekt het systeem het tarief in een gespecificeerde orde, die met een bewaarde het factureringstarief begint. Daarna is een gesloten tarief van de tariefkaart, manueel ingegaan tarief op de taak, de Rol van de Baan voor het Factureren op de taak, het project-vlakke gebruiker die tarief met voeten treedt, de Rol van de Taak voor het Factureren op het projectniveau, het tarief van het gebruikerssysteem, en het primaire tarief van de baanrol van de gebruiker. <p> Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wanneer een baanrol wordt toegewezen, zoekt het systeem eerst een bewaard het factureringspercentage, dan een gesloten tarief kaarttarief voor de baanrol op de taak. Vervolgens wordt gezocht naar een taakrolsnelheid die handmatig aan de toewijzing wordt toegevoegd. Als dat tarief niet wordt gevonden, dan zoekt het een baan roltarief op het projectniveau, eerst van een tariefkaart, en dan van het systeemtarief. <p> Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
-| Facturering per uur voor werkelijke inkomsten | Slechts worden de tarieven verbonden aan de gebruiker die de tijd registreren in aanmerking genomen voor de berekening, zelfs wanneer een andere gebruiker aan de taak wordt toegewezen. <p> Het systeem zoekt de snelheid in een bepaalde volgorde, te beginnen met een geconserveerde factureringssnelheid. Daarna is een gesloten tarief kaarttarief, een het facturerings tariefopheffing op het project, de baanrol voor het factureren, het systeem-vlakke tarief op het gebruikersprofiel van de eigenaar, en het factureringspercentage van de primaire baanrol van de eigenaar. <p> Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wanneer een gebruiker wordt toegewezen, zoekt het systeem het tarief in een gespecificeerde orde, die met een bewaarde het factureringstarief begint. Daarna is een gesloten tarief van de tariefkaart, manueel ingegaan tarief op de taak, de Rol van de Baan voor het Factureren op de taak, het project-vlakke gebruiker die tarief met voeten treedt, de Rol van de Taak voor het Factureren op het projectniveau, het tarief van het gebruikerssysteem, en het primaire tarief van de baanrol van de gebruiker. <p> Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wanneer een baanrol wordt toegewezen, zoekt het systeem eerst een bewaard het factureringspercentage, dan een gesloten tarief kaarttarief voor de baanrol op de taak. Vervolgens wordt gezocht naar een taakrolsnelheid die handmatig aan de toewijzing wordt toegevoegd. Als dat tarief niet wordt gevonden, dan zoekt het een baan roltarief op het projectniveau, eerst van een tariefkaart, en dan van het systeemtarief. Voor meer informatie, zie [ Overzicht van opbrengst en kostenhiërarchie ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Facturering per uur voor geplande ontvangsten | $ 0,00 | Wanneer een gebruiker wordt toegewezen, zoekt het systeem het tarief in een gespecificeerde orde, die met een bewaarde het factureringstarief begint. Daarna is een gesloten tarief van de tariefkaart, manueel ingegaan tarief op de taak, de Rol van de Baan voor het Factureren op de taak, het project-vlakke gebruiker die tarief met voeten treedt, de Rol van de Taak voor het Factureren op het projectniveau, het tarief van het gebruikerssysteem, en het primaire tarief van de baanrol van de gebruiker. <p> Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wanneer een baanrol wordt toegewezen, zoekt het systeem eerst een bewaard het factureringspercentage, dan een gesloten tarief kaarttarief voor de baanrol op de taak. Vervolgens wordt gezocht naar een taakrolsnelheid die handmatig aan de toewijzing wordt toegevoegd. Als dat tarief niet wordt gevonden, dan zoekt het een baan roltarief op het projectniveau, eerst van een tariefkaart, en dan van het systeemtarief. <p> Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Facturering per uur voor werkelijke inkomsten | Slechts worden de tarieven verbonden aan de gebruiker die de tijd registreren in aanmerking genomen voor de berekening, zelfs wanneer een andere gebruiker aan de taak wordt toegewezen. <p> Het systeem zoekt de snelheid in een bepaalde volgorde, te beginnen met een geconserveerde factureringssnelheid. Daarna is een gesloten tarief kaarttarief, een het facturerings tariefopheffing op het project, de baanrol voor het factureren, het systeem-vlakke tarief op het gebruikersprofiel van de eigenaar, en het factureringspercentage van de primaire baanrol van de eigenaar. <p> Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wanneer een gebruiker wordt toegewezen, zoekt het systeem het tarief in een gespecificeerde orde, die met een bewaarde het factureringstarief begint. Daarna is een gesloten tarief van de tariefkaart, manueel ingegaan tarief op de taak, de Rol van de Baan voor het Factureren op de taak, het project-vlakke gebruiker die tarief met voeten treedt, de Rol van de Taak voor het Factureren op het projectniveau, het tarief van het gebruikerssysteem, en het primaire tarief van de baanrol van de gebruiker. <p> Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wanneer een baanrol wordt toegewezen, zoekt het systeem eerst een bewaard het factureringspercentage, dan een gesloten tarief kaarttarief voor de baanrol op de taak. Vervolgens wordt gezocht naar een taakrolsnelheid die handmatig aan de toewijzing wordt toegevoegd. Als dat tarief niet wordt gevonden, dan zoekt het een baan roltarief op het projectniveau, eerst van een tariefkaart, en dan van het systeemtarief. Voor meer informatie, zie [&#x200B; Overzicht van opbrengst en kostenhiërarchie &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 
 ### Berekening van de ontvangsten voor projecten
 
@@ -377,12 +377,12 @@ U kunt de volgende opbrengsttypes voor projecten volgen:
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Voor informatie over hoe de taak Gepland Opbrengst wordt berekend, zie de [ berekeningen van de Inkomsten voor taken die op Gebruiker en de sectie van de Taken van de Rol ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in dit artikel worden gebaseerd.
+  Voor informatie over hoe de taak Gepland Opbrengst wordt berekend, zie de [&#x200B; berekeningen van de Inkomsten voor taken die op Gebruiker en de sectie van de Taken van de Rol &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in dit artikel worden gebaseerd.
 
 * De werkelijke inkomsten voor een project worden berekend aan de hand van de volgende formule:
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Voor informatie over hoe de taak de Ware Winst wordt berekend, zie de [ berekeningen van de Inkomsten voor taken die op Gebruiker en de sectie van de Taken van de Rol ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in dit artikel worden gebaseerd.
+Voor informatie over hoe de taak de Ware Winst wordt berekend, zie de [&#x200B; berekeningen van de Inkomsten voor taken die op Gebruiker en de sectie van de Taken van de Rol &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in dit artikel worden gebaseerd.
 
 Voor de Ware Inkomsten verbonden aan de uren die rechtstreeks aan het project of de kwesties worden geregistreerd, gebruikt Workfront het Factureringstarief van de gebruiker die de tijd op het project registreert. Als de gebruiker geen Factureringstarief verbonden aan hun profiel heeft, gebruikt Workfront het Factureringstarief van hun Primaire Rol van de Baan. Als beide tarieven nul zijn, is de Ware Inkomsten verbonden aan de uren het programma geopend op het project of de kwesties nul.

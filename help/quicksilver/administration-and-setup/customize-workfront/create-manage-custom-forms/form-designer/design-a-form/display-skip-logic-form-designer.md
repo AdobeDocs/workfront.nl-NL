@@ -50,7 +50,7 @@ U kunt bijvoorbeeld velden of secties in een aangepast formulier weergeven of ov
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,29 +62,29 @@ Klik **tonen logica** in de kopbal van de vormontwerper om de pictogrammen voor 
 
 | Pictogram | Definitie |
 | --- | --- |
-| ![ logica van de Vertoning voor doelgebied ](assets/display-logic-bottom-right.png) | Het veld is het doelveld waarop de weergaverelogica wordt toegepast. Als een specifieke selectie is aangebracht op het formulier, wordt dit veld weergegeven. |
-| ![ Logictogram van de Vertoning voor verwijzingsgebied ](assets/display-logic-bottom-left.png) | Het veld is het referentieveld voor de weergavelogica. Een specifieke selectie of waarde in dit veld geeft het doelveld weer. |
-| ![ Skip logica voor doelgebied ](assets/skip-logic-bottom-right.png) | Het veld is het doelveld waarin de logica voor overslaan wordt toegepast. Een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het verwijzingsveld. |
-| ![ Skip logisch pictogram voor verwijzingsgebied ](assets/skip-logic-bottom-left.png) | Het veld is het referentieveld voor overslaan van logica. Als een specifieke selectie is gemaakt in het doelveld, slaat het formulier door naar dit veld en worden de tussenliggende velden verborgen. |
-| ![ logica van de Bevestiging voor doelgebied ](assets/validation-logic-icon.png) | Het veld is het doelveld waarin de validatielogica wordt toegepast. Een specifieke selectie of waarde in het referentieveld bepaalt of de validatie mislukt. Het doelveld en het referentieveld kunnen hetzelfde zijn voor validatielogica. |
-| ![ logica van de Bevestiging voor verwijzingsgebied ](assets/validation-logic-reference-field.png) | Het veld is het referentieveld voor validatielogica. Een specifieke selectie of waarde in dit veld bepaalt of de validatie in het doelveld mislukt. Het doelveld en het referentieveld kunnen hetzelfde zijn voor validatielogica. |
-| ![ logica van de Standaardwaarde voor doelgebied ](assets/default-value-logic-icon.png) | Het veld is het doelveld waarop de logica voor de standaardwaarde wordt toegepast. De standaardwaarde wordt bepaald door een specifieke selectie of waarde in het referentieveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de logica van de standaardwaarde. |
-| ![ logica van de Standaardwaarde voor verwijzingsgebied ](assets/default-value-logic-reference-field.png) | Het veld is het referentieveld voor de logica van de standaardwaarde. Een specifieke selectie of waarde in dit veld bepaalt de standaardwaarde in het doelveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de logica van de standaardwaarde. |
-| ![ Formatterende logica voor doelgebied ](assets/formatting-logic-icon.png) | Het veld is het doelveld waarop opmaaklogica wordt toegepast. De opmaak wordt bepaald door een specifieke selectie of waarde in het referentieveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de opmaaklogica. |
-| ![ Formatterende logica voor verwijzingsgebied ](assets/formatting-logic-reference-field.png) | Het veld is het referentieveld voor de opmaaklogica. Een specifieke selectie of waarde in dit veld bepaalt de opmaak in het doelveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de opmaaklogica. |
-| ![ de logica van de Bewerkbaarheid voor doelgebied ](assets/editability-logic-icon.png) | Het veld is het doelveld waarop de bewerkbaarheidslogica wordt toegepast. Het veld kan bewerkbaar of alleen-lezen zijn als aan de gedefinieerde voorwaarden is voldaan. Het doelveld en het referentieveld kunnen hetzelfde zijn voor logica van bewerkbaarheid. |
-| ![ de logica van de Bewerkbaarheid voor verwijzingsgebied ](assets/editability-logic-reference-field.png) | Het veld is het referentieveld voor bewerkbaarheidslogica. Wanneer aan de gedefinieerde voorwaarden op dit veld wordt voldaan, wordt de logica toegepast op het doelveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor logica van bewerkbaarheid. |
+| ![&#x200B; logica van de Vertoning voor doelgebied &#x200B;](assets/display-logic-bottom-right.png) | Het veld is het doelveld waarop de weergaverelogica wordt toegepast. Als een specifieke selectie is aangebracht op het formulier, wordt dit veld weergegeven. |
+| ![&#x200B; Logictogram van de Vertoning voor verwijzingsgebied &#x200B;](assets/display-logic-bottom-left.png) | Het veld is het referentieveld voor de weergavelogica. Een specifieke selectie of waarde in dit veld geeft het doelveld weer. |
+| ![&#x200B; Skip logica voor doelgebied &#x200B;](assets/skip-logic-bottom-right.png) | Het veld is het doelveld waarin de logica voor overslaan wordt toegepast. Een specifieke selectie of waarde in dit veld slaat andere velden over en gaat rechtstreeks naar het verwijzingsveld. |
+| ![&#x200B; Skip logisch pictogram voor verwijzingsgebied &#x200B;](assets/skip-logic-bottom-left.png) | Het veld is het referentieveld voor overslaan van logica. Als een specifieke selectie is gemaakt in het doelveld, slaat het formulier door naar dit veld en worden de tussenliggende velden verborgen. |
+| ![&#x200B; logica van de Bevestiging voor doelgebied &#x200B;](assets/validation-logic-icon.png) | Het veld is het doelveld waarin de validatielogica wordt toegepast. Een specifieke selectie of waarde in het referentieveld bepaalt of de validatie mislukt. Het doelveld en het referentieveld kunnen hetzelfde zijn voor validatielogica. |
+| ![&#x200B; logica van de Bevestiging voor verwijzingsgebied &#x200B;](assets/validation-logic-reference-field.png) | Het veld is het referentieveld voor validatielogica. Een specifieke selectie of waarde in dit veld bepaalt of de validatie in het doelveld mislukt. Het doelveld en het referentieveld kunnen hetzelfde zijn voor validatielogica. |
+| ![&#x200B; logica van de Standaardwaarde voor doelgebied &#x200B;](assets/default-value-logic-icon.png) | Het veld is het doelveld waarop de logica voor de standaardwaarde wordt toegepast. De standaardwaarde wordt bepaald door een specifieke selectie of waarde in het referentieveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de logica van de standaardwaarde. |
+| ![&#x200B; logica van de Standaardwaarde voor verwijzingsgebied &#x200B;](assets/default-value-logic-reference-field.png) | Het veld is het referentieveld voor de logica van de standaardwaarde. Een specifieke selectie of waarde in dit veld bepaalt de standaardwaarde in het doelveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de logica van de standaardwaarde. |
+| ![&#x200B; Formatterende logica voor doelgebied &#x200B;](assets/formatting-logic-icon.png) | Het veld is het doelveld waarop opmaaklogica wordt toegepast. De opmaak wordt bepaald door een specifieke selectie of waarde in het referentieveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de opmaaklogica. |
+| ![&#x200B; Formatterende logica voor verwijzingsgebied &#x200B;](assets/formatting-logic-reference-field.png) | Het veld is het referentieveld voor de opmaaklogica. Een specifieke selectie of waarde in dit veld bepaalt de opmaak in het doelveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor de opmaaklogica. |
+| ![&#x200B; de logica van de Bewerkbaarheid voor doelgebied &#x200B;](assets/editability-logic-icon.png) | Het veld is het doelveld waarop de bewerkbaarheidslogica wordt toegepast. Het veld kan bewerkbaar of alleen-lezen zijn als aan de gedefinieerde voorwaarden is voldaan. Het doelveld en het referentieveld kunnen hetzelfde zijn voor logica van bewerkbaarheid. |
+| ![&#x200B; de logica van de Bewerkbaarheid voor verwijzingsgebied &#x200B;](assets/editability-logic-reference-field.png) | Het veld is het referentieveld voor bewerkbaarheidslogica. Wanneer aan de gedefinieerde voorwaarden op dit veld wordt voldaan, wordt de logica toegepast op het doelveld. Het doelveld en het referentieveld kunnen hetzelfde zijn voor logica van bewerkbaarheid. |
 
 [Logische pictogrammen](assets/custom-form-logic-icon-samples.png)
 
 Alleen voor weergave en logica overslaan selecteert u een veld waarin de bestaande logische regels in de veldinstellingen worden weergegeven.
 
-![ Logische regels ](assets/form-designer-view-only-logic.png)
+![&#x200B; Logische regels &#x200B;](assets/form-designer-view-only-logic.png)
 
 ## Overwegingen bij het gebruik van weergavelogica en het overslaan van logica
 
 * Als u weergavelogica wilt toevoegen aan een aangepast veld, een widget of een sectie-einde, moet ten minste één meerkeuzeveld (keuzerondjes, vervolgkeuzelijst of selectievakjes) vóór dit veld op het formulier worden geplaatst.
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 * U kunt geen logica overslaan toevoegen aan een widget of sectie-einde. U kunt het alleen toevoegen aan een veld met meerdere keuzen (keuzerondjes, vervolgkeuzelijst of selectievakjes).
 * U kunt geen weergave- of overslaan-logica toepassen om de keuzes van een veld met meerdere opties weer te geven of te verbergen. U kunt bijvoorbeeld geen beperkingen instellen voor de opties die worden weergegeven voor een vervolgkeuzelijst, een CheckBox-groep of een keuzerondje op basis van de weergave of de logica van een ander veld overslaan.
 * U kunt zowel weergavelogica als logica overslaan aan een aangepast veld toevoegen als het volgende geldt voor het aangepaste veld:
@@ -107,18 +107,18 @@ De logica van de vertoning bepaalt welke douanevelden op de vorm verschijnen wan
 
 >[!NOTE]
 >
->Deze procedure beschrijft de basiswijze voor vertoningslogica. De geavanceerde weergaverelogica is ook beschikbaar. Voor meer informatie, zie [ geavanceerde vertoningslogica aan een douanevorm ](#add-advanced-display-logic-to-a-custom-form) toevoegen, in dit artikel.
+>Deze procedure beschrijft de basiswijze voor vertoningslogica. De geavanceerde weergaverelogica is ook beschikbaar. Voor meer informatie, zie [&#x200B; geavanceerde vertoningslogica aan een douanevorm &#x200B;](#add-advanced-display-logic-to-a-custom-form) toevoegen, in dit artikel.
 
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier. Er moet ten minste één meerkeuzeveld (keuzerondje, vervolgkeuzelijst of selectievakje) worden geplaatst vóór het doelveld dat wordt weergegeven.
 1. Selecteer het doelgebied en klik **toevoegen Logica**.
 1. Selecteer het **lusje van de Vertoning** op de logische bouwer.
 1. Klik **toevoegen de Regel van de Vertoning**.
 
-   ![ de logische bouwer van de Vertoning ](assets/simple-display-logic1.png)
+   ![&#x200B; de logische bouwer van de Vertoning &#x200B;](assets/simple-display-logic1.png)
 
 1. Voer de onderstaande stappen uit om de logische instructie in de builder te maken.
 
@@ -127,7 +127,7 @@ De logica van de vertoning bepaalt welke douanevelden op de vorm verschijnen wan
    1. De derde optie is **Geselecteerd** of **niet Geselecteerd**. Het kiezen van **Geselecteerde** betekent dat wanneer de waarde wordt geselecteerd, het doelgebied wordt getoond. Het kiezen van **niet Geselecteerde** betekent dat wanneer een andere waarde op het definiërende gebied wordt geselecteerd, het doelgebied wordt getoond.
    1. Om een **en** regel aan de logische verklaring toe te voegen, klik **voegt Regel** direct onder de regel toe u enkel creeerde. Volg de zelfde herinneringen om de regel te bouwen. Aan alle regels en moet worden voldaan opdat het doelgebied wordt getoond.
 
-      ![ de logische bouwer van de Vertoning ](assets/simple-display-logic2.png)
+      ![&#x200B; de logische bouwer van de Vertoning &#x200B;](assets/simple-display-logic2.png)
 
    1. Om een **of** regel aan de logische verklaring toe te voegen, klik **voegt Regel** dichtbij de bodem van de logische bouwer toe. Dan, klik **voeg Regel** binnen toe of gebied en volg de zelfde herinneringen om de regel te bouwen. Wanneer één of regel wordt ontmoet, wordt het doelgebied getoond.
 
@@ -141,7 +141,7 @@ Met de geavanceerde weergaverelogica voor aangepaste formuliervelden kunt u comp
 
 >[!NOTE]
 >
->Deze procedure beschrijft de geavanceerde wijze voor vertoningslogica. De standaardweergaverogica is ook beschikbaar. Voor meer informatie, zie [ vertoningslogica aan een douanevorm ](#add-display-logic-to-a-custom-form), in dit artikel toevoegen.
+>Deze procedure beschrijft de geavanceerde wijze voor vertoningslogica. De standaardweergaverogica is ook beschikbaar. Voor meer informatie, zie [&#x200B; vertoningslogica aan een douanevorm &#x200B;](#add-display-logic-to-a-custom-form), in dit artikel toevoegen.
 
 ### Voorbeelden
 
@@ -155,7 +155,7 @@ Met de volgende voorwaarde wordt de sectie Bronnen vereist alleen weergegeven wa
 
 Merk op dat ```123abc``` de rolidentiteitskaart van de Manager van het Middel vertegenwoordigt.
 
-![ sectie van de Vorm getoond voor rol ](assets/advanced-display-on-form1.png)
+![&#x200B; sectie van de Vorm getoond voor rol &#x200B;](assets/advanced-display-on-form1.png)
 
 De zelfde voorwaarde met een verschillende rolidentiteitskaart wordt toegepast op de sectie van KPIs van het Project om te bepalen dat slechts de rol van de financieel adviseur de sectie kan bekijken.
 
@@ -163,14 +163,14 @@ Gebruikend de volgende voorwaarde, wordt het Verkocht KPI gebied slechts zichtba
 
 ```IF({status}="CPL", true)```
 
-![ Gebied is zichtbaar op volledig project ](assets/advanced-display-on-form2.png)
+![&#x200B; Gebied is zichtbaar op volledig project &#x200B;](assets/advanced-display-on-form2.png)
 
 ### Geavanceerde weergavelogica definiëren
 
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier.
 1. Selecteer het gebied om logica op toe te passen, en **te klikken voegt Logica** toe.
 1. Selecteer het **lusje van de Vertoning** op de logische bouwer.
@@ -178,11 +178,11 @@ Gebruikend de volgende voorwaarde, wordt het Verkocht KPI gebied slechts zichtba
 
    Deze optie kan automatisch worden ingeschakeld voor veldtypen die de logica van de eenvoudige weergavemodus niet ondersteunen.
 
-   ![ Geavanceerde wijze voor vertoningslogica ](assets/advanced-display-logic-blank-editor.png)
+   ![&#x200B; Geavanceerde wijze voor vertoningslogica &#x200B;](assets/advanced-display-logic-blank-editor.png)
 
 1. Bouw de vertoningsvoorwaarde in de redacteur.
 
-   Voor meer informatie over berekeningen en uitdrukkingen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
+   Voor meer informatie over berekeningen en uitdrukkingen, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
 
 1. Klik **toepassen**.
 
@@ -199,13 +199,13 @@ De logica Overslaan definieert aangepaste formuliervelden die worden overgeslage
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier. Het definiërende gebied voor overslaan logica moet een veelvoudige keuzeveld (radioknoop, dropdown, of controledoos) zijn.
 1. Selecteer het definiërende gebied en klik **voegt Logica** op de lagere linkerzijde van het scherm toe.
 1. Selecteer het **Skip** lusje op de logische bouwer.
 1. Klik **toevoegen Skip Regel**.
 
-   ![ Skip logica bouwer ](assets/skip-logic1.png)
+   ![&#x200B; Skip logica bouwer &#x200B;](assets/skip-logic1.png)
 
 1. Voer de onderstaande stappen uit om de logische instructie in de builder te maken.
 
@@ -214,7 +214,7 @@ De logica Overslaan definieert aangepaste formuliervelden die worden overgeslage
    1. De tweede optie is **Geselecteerd** of **niet Geselecteerd**. Het kiezen van **Geselecteerde** betekent dat wanneer de waarde wordt geselecteerd, het doelgebied wordt getoond en de gebieden binnen tussen worden overgeslagen. Het kiezen van **niet Geselecteerde** betekent dat wanneer een andere waarde op het definiërende gebied wordt geselecteerd, het doelgebied wordt getoond en de gebieden binnen tussen worden overgeslagen.
    1. De derde optie is het doelveld, of waar u wilt overslaan. Selecteer een gebiedsnaam of **Eind van vorm**. Mogelijk moet u eerst op het woord &quot;leeg&quot; klikken voordat u een optie selecteert.
 
-      ![ Skip logica bouwer ](assets/skip-logic2.png)
+      ![&#x200B; Skip logica bouwer &#x200B;](assets/skip-logic2.png)
 
    1. Om een **of** regel aan de logische verklaring toe te voegen, klik **voegt Regel** dichtbij de bodem van de logische bouwer toe. Selecteer vervolgens de opties volgens dezelfde aanwijzingen om de regel te maken. Wanneer één **of** regel wordt ontmoet, wordt het doelgebied getoond.
 
@@ -234,7 +234,7 @@ U kunt geavanceerde logica voor de standaardwaarde op de volgende gebiedstypes t
 
 >[!NOTE]
 >
->Standaard logica voor de standaardwaarde in de formulierontwerper bestaat nog steeds. Als beide typen op hetzelfde veld worden toegepast, krijgt de geavanceerde logica voorrang. Voor informatie over standaardwaardelogica, zie [ radioknopen, checkbox groepen, en drop-down ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+>Standaard logica voor de standaardwaarde in de formulierontwerper bestaat nog steeds. Als beide typen op hetzelfde veld worden toegepast, krijgt de geavanceerde logica voorrang. Voor informatie over standaardwaardelogica, zie [&#x200B; radioknopen, checkbox groepen, en drop-down &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### Voorbeeld
 
@@ -249,16 +249,16 @@ Wanneer de douanevorm aan een project in bijlage is en de projectstatus Planning
 ### Definieer de logica voor de standaardwaarde
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier.
 1. Selecteer het gebied om logica op toe te passen, en **te klikken voegt Logica** toe.
 1. Selecteer het **Standaardwaarde** lusje op de logische bouwer.
 
-   ![ de Bouwer van de de waardelogica van het Standaard waarde ](assets/default-value-blank-editor.png)
+   ![&#x200B; de Bouwer van de de waardelogica van het Standaard waarde &#x200B;](assets/default-value-blank-editor.png)
 
 1. Bouw de standaardwaardevoorwaarde in de redacteur.
 
-   Voor meer informatie over berekeningen en uitdrukkingen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
+   Voor meer informatie over berekeningen en uitdrukkingen, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
 
 1. Klik **toepassen**.
 
@@ -291,23 +291,23 @@ Een ander eenvoudig voorbeeld is dat een veld voor een telefoonnummer een bepaal
 
 Een aanvullend voorbeeld voor validatie op basis van andere velden is een veld voor de grootte van de vergaderruimte (klein, gemiddeld of groot) en een apart veld voor het aantal deelnemers aan de vergadering. Het aantal personen voor elke grootte van de ruimte wordt geschreven in de validatieformule. Als het aantal deelnemers dat de gebruiker invoert, te groot is voor de gekozen vergaderruimte, wordt het foutbericht weergegeven.
 
-Voor extra voorbeelden van bevestigingslogica, zie [ Voorbeelden van geavanceerde logica in douaneformulieren ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
+Voor extra voorbeelden van bevestigingslogica, zie [&#x200B; Voorbeelden van geavanceerde logica in douaneformulieren &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
 
 ### Validatielogica definiëren
 
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier.
 1. Selecteer het gebied om logica op toe te passen, en **te klikken voegt Logica** toe.
 1. Selecteer het **lusje van de Bevestiging** op de logische bouwer.
 
-   ![ de logicabouwer van de Bevestiging ](assets/validation-logic-blank-editor.png)
+   ![&#x200B; de logicabouwer van de Bevestiging &#x200B;](assets/validation-logic-blank-editor.png)
 
 1. Bouw de bevestigingsvoorwaarde in de redacteur, met inbegrip van het foutenmelding om te tonen wanneer de bevestiging niet wordt voldaan aan.
 
-   Voor meer informatie over berekeningen en uitdrukkingen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
+   Voor meer informatie over berekeningen en uitdrukkingen, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
 
 1. Klik **toepassen**.
 
@@ -323,7 +323,7 @@ Opmaaklogica markeert een veldwaarde wanneer deze aan de gedefinieerde voorwaard
 
 U kunt opmaaklogica toepassen op de volgende veldtypen: tekst op één regel, alinea, vervolgkeuzelijst met één regel, vervolgkeuzelijst met meerdere selecties, externe zoekopdracht, externe zoekopdracht met meerdere selecties, typekop, berekend op datum, groep selectievakjes en keuzerondjes.
 
-Opmaak die wordt toegepast op aangepaste formulieren staat los van opmaak die wordt toegepast op lijsten en rapporten. Voor informatie bij rapport het formatteren, zie [ Voorwaardelijk het gebruiken formatteren in meningen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Opmaak die wordt toegepast op aangepaste formulieren staat los van opmaak die wordt toegepast op lijsten en rapporten. Voor informatie bij rapport het formatteren, zie [&#x200B; Voorwaardelijk het gebruiken formatteren in meningen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ### Voorbeeld
 
@@ -344,12 +344,12 @@ IF(
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier.
 1. Selecteer het gebied om logica op toe te passen, en **te klikken voegt Logica** toe.
 1. Selecteer het **Formatterende** lusje op de logische bouwer.
 
-   ![ Formatting logica bouwer ](assets/formatting-logic-blank-editor.png)
+   ![&#x200B; Formatting logica bouwer &#x200B;](assets/formatting-logic-blank-editor.png)
 
 1. Bouw de het formatteren voorwaarde in de redacteur.
 
@@ -370,7 +370,7 @@ IF(
 
    Per functie mag slechts één kleuroptie worden gebruikt, samen met maximaal drie extra tekstopmaakopties. Als er geen kleuroptie is opgegeven, wordt de standaardkleur van het systeem toegepast.
 
-   Voor meer informatie over berekeningen en uitdrukkingen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
+   Voor meer informatie over berekeningen en uitdrukkingen, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
 
 1. Klik **toepassen**.
 
@@ -411,16 +411,16 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
+1. Maak een nieuw aangepast formulier of open een bestaand formulier. Zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) voor details creëren.
 1. Voeg zo nodig velden toe aan het formulier.
 1. Selecteer het gebied om logica op toe te passen, en **te klikken voegt Logica** toe.
 1. Selecteer het **Bewerkbaarheid** lusje op de logische bouwer.
 
-   ![ de logicabouwer van de Bewerkbaarheid ](assets/editability-blank-editor.png)
+   ![&#x200B; de logicabouwer van de Bewerkbaarheid &#x200B;](assets/editability-blank-editor.png)
 
 1. Bouw de editability voorwaarde in de redacteur.
 
-   Voor meer informatie over berekeningen en uitdrukkingen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
+   Voor meer informatie over berekeningen en uitdrukkingen, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) en [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) toevoegen.
 
 1. Klik **toepassen**.
 
