@@ -60,7 +60,7 @@ Met Content Advisor kunt u inhoud en mappen van Experience Manager Assets naar W
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,9 +68,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voordat u begint:
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
 
-* Als u de functie Slimme suggesties of Campagne Brief wilt gebruiken, moet u een GenAI Rider ondertekenen. Voor meer informatie, zie [ Adviseur van de Inhoud van het Gebruik om tot inhoud van AEM in de toepassingen van Adobe ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search) toegang te hebben.
+* Als u de functie Slimme suggesties of Campagne Brief wilt gebruiken, moet u een GenAI Rider ondertekenen. Voor meer informatie, zie [&#x200B; Adviseur van de Inhoud van het Gebruik om tot inhoud van AEM in de toepassingen van Adobe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search) toegang te hebben.
 
 
 
@@ -154,7 +154,7 @@ Een nieuwe versie koppelen:
 
    * Selecteer het tabblad Assets om te bladeren in elementen, mappen of verzamelingen in Experience Manager Assets of Elementen.
 
-     ![ adviseur van de Inhoud ](assets/content-advisor-full.png)
+     ![&#x200B; adviseur van de Inhoud &#x200B;](assets/content-advisor-full.png)
 
    * Inhoudsfragmenten ondersteunen geen versies. Als u een inhoudsfragment selecteert, vervangt de nieuwe versie het bestaande inhoudsfragment in plaats van een nieuwe versie te maken.
 
@@ -183,8 +183,8 @@ Een map koppelen:
 
 ## Overwegingen
 
-* De functionaliteit Content Advisor is niet beschikbaar voor objecten die gebruikmaken van Adobe Enterprise Storage. Als uw organisatie Adobe Enterprise Storage gebruikt, kunt u nog steeds middelen en mappen van Experience Manager Assets of Assets Essentials koppelen, maar hebt u geen toegang tot functies voor Content Advisor, zoals AI-zoekopdrachten, slimme suggesties of Dynamische media-uitvoeringen. Voor meer informatie, zie [ Gebruik Adobe Experience Manager met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+* De functionaliteit Content Advisor is niet beschikbaar voor objecten die gebruikmaken van Adobe Enterprise Storage. Als uw organisatie Adobe Enterprise Storage gebruikt, kunt u nog steeds middelen en mappen van Experience Manager Assets of Assets Essentials koppelen, maar hebt u geen toegang tot functies voor Content Advisor, zoals AI-zoekopdrachten, slimme suggesties of Dynamische media-uitvoeringen. Voor meer informatie, zie [&#x200B; Gebruik Adobe Experience Manager met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-* De functionaliteit van de Adviseur van de inhoud is niet beschikbaar voor de Hoofdzaak van Activa. Om activa en omslagen van de Hoofdzaak van Activa te verbinden, zie [ activa en omslagen van de Verbinding van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
+* De functionaliteit van de Adviseur van de inhoud is niet beschikbaar voor de Hoofdzaak van Activa. Om activa en omslagen van de Hoofdzaak van Activa te verbinden, zie [&#x200B; activa en omslagen van de Verbinding van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 
 * Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets. Als uw Workfront-beheerder heeft ingesteld dat objectmetagegevenssynchronisatie is ingeschakeld, blijven de velden up-to-date als deze in een van beide toepassingen zijn gewijzigd.
