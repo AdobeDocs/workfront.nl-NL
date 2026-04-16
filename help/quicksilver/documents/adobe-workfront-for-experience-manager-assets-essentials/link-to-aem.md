@@ -70,7 +70,7 @@ Voordat u begint:
 
 * Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
 
-* Als u de functie Slimme suggesties of Campagne Brief wilt gebruiken, moet u een GenAI Rider ondertekenen. Voor meer informatie, zie [&#x200B; Adviseur van de Inhoud van het Gebruik om tot inhoud van AEM in de toepassingen van Adobe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search) toegang te hebben.
+* Als u de functie Slimme suggesties of Campagne Brief wilt gebruiken, moet u een GenAI Rider ondertekenen. Voor meer informatie, zie [&#x200B; Adviseur van de Inhoud van het Gebruik om tot inhoud van AEM in de toepassingen van Adobe &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search) toegang te hebben.
 
 
 
@@ -94,43 +94,43 @@ Inhoud koppelen:
    <tbody>
       <tr>
          <td><strong> Onderzoek naar activa die AI Onderzoek gebruiken.</strong> Gebruik een door AI aangedreven zoekopdracht die betekenis en intentie achter query's begrijpt en die meerdere talen, typos en synoniemen ondersteunt.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search"> AI Onderzoek naar slimmere activaontdekking </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search"> AI Onderzoek naar slimmere activaontdekking </a>.</td>
       </tr>
       <tr>
          <td><strong> de slimme suggesties van de Mening die op context en intent worden gebaseerd.</strong> Ontdek elementen die u kunt uitlijnen op uw inhoud en gebruik daarbij contextgevoelige aanbevelingen van de Adobe-hosttoepassing.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor"> Slimme suggesties die op context en intent </a> worden gebaseerd.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor"> Slimme suggesties die op context en intent </a> worden gebaseerd.</td>
       </tr>
       <tr>
          <td><strong> upload een campagnemorandum om relevante activa te ontdekken.</strong> Upload een PDF-, DOCX- of TXT-campagnecorrecept, zodat Content Advisor dit kan analyseren en relevante elementen kan aanbevelen.</td>
-         <td>Voor meer informatie, zie {de briefjes van 0} Campagne om relevante activa <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor"> te ontdekken.</a></td>
+         <td>Voor meer informatie, zie {de briefjes van 0} Campagne om relevante activa <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor"> te ontdekken.</a></td>
       </tr>
       <tr>
          <td><strong> Mening en selecteer Dynamische de activavertoningen van Media.</strong> Blader door voor kanalen geoptimaliseerde uitvoeringen, waaronder voorinstellingen voor afbeeldingen, slimme uitsnijdingen en opmaaktypen, en pas modifiers voor dynamische media toe om in real-time voorvertoningen van aanpassingen weer te geven.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor"> Dynamische de activavertoningen van Media beschikbaar voor gebruik </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor"> Dynamische de activavertoningen van Media beschikbaar voor gebruik </a>.</td>
       </tr>
       <tr>
          <td><strong> past Dynamische bepalingen van Media op vertoningen toe.</strong> Voeg opties toe om elementuitvoeringen in real-time te transformeren en bekijk een voorvertoning van de resultaten voordat u een uitvoering voor de hosttoepassing selecteert.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor"> Dynamische de activavertoningen van Media beschikbaar voor gebruik </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor"> Dynamische de activavertoningen van Media beschikbaar voor gebruik </a>.</td>
       </tr>
       <tr>
          <td><strong> ontdekt en doorblader de Fragments van de Inhoud.</strong> Zoeken via Content Fragments, live miniatuurvoorvertoningen bekijken, de status controleren (Concept, Gewijzigd of Gepubliceerd) en gedetailleerde eigenschappen, verwijzingen en variaties inspecteren.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> Ontdekking van de Fragmenten van de Inhoud </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> Ontdekking van de Fragmenten van de Inhoud </a>.</td>
       </tr>
       <tr>
          <td><strong> de activameta-gegevens van de Toegang.</strong> U kunt de eigenschappen van elementen, zoals titel, beschrijving, indeling, grootte en andere tabbladen met metagegevens (Product, Campagne, Tags), op dezelfde manier bekijken als de weergave Assets.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor"> de activameta-gegevens van de Toegang verenigbaar met de mening van Assets </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor"> de activameta-gegevens van de Toegang verenigbaar met de mening van Assets </a>.</td>
       </tr>
       <tr>
          <td><strong> de activa van de Filter gebruikend vooraf bepaalde filters.</strong> Verfijn de resultaten van elementen met filters zoals Bestandstype, Bestandsindeling, Status van element, Bestandsgrootte, Afbeeldingsbreedte, Afbeeldingshoogte, Gewijzigde datum en Gemaakt op.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor"> de filters van de Toegang verenigbaar met de mening van Assets </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor"> de filters van de Toegang verenigbaar met de mening van Assets </a>.</td>
       </tr>
       <tr>
          <td><strong> sparen en hergebruik onderzoeken.</strong> Maak opgeslagen zoekopdrachten door een zoekterm en filteropties op te geven en deze vervolgens te hergebruiken in Experience Manager Assets en andere Adobe-toepassingen.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor"> Toegang en hergebruik recente en bewaarde onderzoeken </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor"> Toegang en hergebruik recente en bewaarde onderzoeken </a>.</td>
       </tr>
       <tr>
          <td><strong> Onderzoek naar activa over en binnen inzamelingen.</strong> Zoeken naar elementen of verzamelingen in alle verzamelingen, of de zoekopdracht beperken tot een bepaalde verzameling.</td>
-         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor"> Onderzoek naar activa over en binnen inzamelingen </a>.</td>
+         <td>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor"> Onderzoek naar activa over en binnen inzamelingen </a>.</td>
       </tr>
    </tbody>
    </table>
