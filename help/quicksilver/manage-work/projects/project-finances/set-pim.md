@@ -51,13 +51,13 @@ Workfront berekent deze waarden met behulp van het volgende:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen bij PIM in Workfront
 
-* Uw beheerder van Workfront of een groepsbeheerder plaatst - omhoog het gebrek voor of de Methode van de Index van Prestaties (PIM) op uur-gebaseerd of op kosten-gebaseerd zou moeten zijn. De berekeningen voor de prestatiemetriek veranderen volgens hoe dit gebrek wordt geplaatst. Voor meer informatie over hoe te om het gebrek voor te veranderen hoe te om PIM te berekenen, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* Uw beheerder van Workfront of een groepsbeheerder plaatst - omhoog het gebrek voor of de Methode van de Index van Prestaties (PIM) op uur-gebaseerd of op kosten-gebaseerd zou moeten zijn. De berekeningen voor de prestatiemetriek veranderen volgens hoe dit gebrek wordt geplaatst. Voor meer informatie over hoe te om het gebrek voor te veranderen hoe te om PIM te berekenen, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * Projectmanagers kunnen ook de instelling voor de PIM wijzigen, op projectniveau, voor afzonderlijke projecten in het subtabblad Financiën van het project. U moet beheerdersmachtigingen voor het project hebben om het subtabblad Financiën van het project te kunnen bewerken.
 
 ## De PIM-methode (Performance Index) voor een project instellen
@@ -70,7 +70,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar het **Financiën** gebied.
 1. Dubbelklik de waarde op het **gebied van de Methode van de Index van Prestaties** om het uit te geven.
-1. Selecteer van de volgende opties op het **gebied van de Methode van de Index van Prestaties 0}:**
+1. Selecteer van de volgende opties op het **gebied van de Methode van de Index van Prestaties 0&rbrace;:**
 
    | Op uurbasis | Workfront gebruikt de geplande uren voor de berekening van de CPI en de EAC van het project en de EAC van het project wordt weergegeven als een aantal, in uren. |
    |---|---|

@@ -53,7 +53,7 @@ Als instelling kunt u definiëren hoe de EAC-waarde moet worden berekend.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,12 +61,12 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Als deel van de voorkeur van het projectsysteem, kan de beheerder van Adobe Workfront bepalen hoe te om EAC te berekenen. EAC kan op een van de volgende twee manieren worden berekend:
 
-* [ berekent op het projectniveau ](#calculate-at-the-project-level)
+* [&#x200B; berekent op het projectniveau &#x200B;](#calculate-at-the-project-level)
 * [Rollen omhoog van taken en subtaken](#roll-up-from-tasks-and-subtasks)
 
-Voor meer informatie over vestiging projectvoorkeur in Workfront, met inbegrip van hoe te om de Schatting bij Voltooiing te berekenen, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor meer informatie over vestiging projectvoorkeur in Workfront, met inbegrip van hoe te om de Schatting bij Voltooiing te berekenen, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Als projectmanager, kunt u deze voorkeur op het projectniveau, in sub-lusje van de Financiën van het project ook veranderen. Voor meer informatie over het uitgeven van sub-lusje van Financiën van een project, zie [ informatie in het gebied van de Projectfinanciering beheren ](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+Als projectmanager, kunt u deze voorkeur op het projectniveau, in sub-lusje van de Financiën van het project ook veranderen. Voor meer informatie over het uitgeven van sub-lusje van Financiën van een project, zie [&#x200B; informatie in het gebied van de Projectfinanciering beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 ### Berekenen op projectniveau {#calculate-at-the-project-level}
 
@@ -78,9 +78,9 @@ EAC voor de oudertaak en het project worden bepaald door EAC voor elke kindtaak 
 
 ## Hoe wordt EAC berekend op basis van de Performance Index Methode (PIM)
 
-In Workfront hangt de berekening voor EAC af van de geselecteerde Prestatisindexmethode (PIM) van het project. Voor meer informatie over het plaatsen van PIM voor uw systeem of voor uw project, zie [ Plaats de Methode van de Index van Prestaties (PIM) ](../../../manage-work/projects/project-finances/set-pim.md).
+In Workfront hangt de berekening voor EAC af van de geselecteerde Prestatisindexmethode (PIM) van het project. Voor meer informatie over het plaatsen van PIM voor uw systeem of voor uw project, zie [&#x200B; Plaats de Methode van de Index van Prestaties (PIM) &#x200B;](../../../manage-work/projects/project-finances/set-pim.md).
 
-* [ berekent EAC gebruikend op uren-Gebaseerde PIM ](#calculate-eac-using-hour-based-pim)
+* [&#x200B; berekent EAC gebruikend op uren-Gebaseerde PIM &#x200B;](#calculate-eac-using-hour-based-pim)
 * [EAC berekenen met PIM op basis van kosten](#calculate-eac-using-cost-based-pim)
 
 ### EAC berekenen met PIM op basis van uren {#calculate-eac-using-hour-based-pim}
@@ -89,9 +89,9 @@ In Workfront hangt de berekening voor EAC af van de geselecteerde Prestatisindex
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42; als de Index van de Prestaties van Kosten [ de Index van de Prestaties van Kosten berekent (CPI) ](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Totale Geplande Uren + Werkelijke Uren. Dit komt voor wanneer de uren zijn gevangen, maar project/de taak is bij 0% volledig.
+&#42; als de Index van de Prestaties van Kosten [&#x200B; de Index van de Prestaties van Kosten berekent (CPI) &#x200B;](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Totale Geplande Uren + Werkelijke Uren. Dit komt voor wanneer de uren zijn gevangen, maar project/de taak is bij 0% volledig.
 
-Voor meer informatie over het berekenen van CPI, zie [ de Index van de Prestaties van de Kosten (CPI) berekenen ](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Voor meer informatie over het berekenen van CPI, zie [&#x200B; de Index van de Prestaties van de Kosten (CPI) berekenen &#x200B;](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
 ### EAC berekenen met PIM op basis van kosten {#calculate-eac-using-cost-based-pim}
 
@@ -105,7 +105,7 @@ EAC = EAC Labor + EAC Expense
 
 * Totaal uitgevoerd begrotingskostenwerk (BCWP) = het resultaat van de vermenigvuldiging van de begrote kosten van het geplande werk (begrote kosten) en het percentage van de tot dusver voltooide taak.
 
-  Voor informatie over het totale Gedragsde Uitgevoerde Werk van Kosten (BCWP), zie [ Gemaakt het Geplande Gepresteerde Werk van Kosten (BCWP) ](../../../manage-work/projects/project-finances/calculate-bcwp.md) berekenen.
+  Voor informatie over het totale Gedragsde Uitgevoerde Werk van Kosten (BCWP), zie [&#x200B; Gemaakt het Geplande Gepresteerde Werk van Kosten (BCWP) &#x200B;](../../../manage-work/projects/project-finances/calculate-bcwp.md) berekenen.
 
    * **voor een niet oudertaak:**
 
@@ -137,4 +137,4 @@ Totaal uitgevoerd begroot kostenwerk = de som van het totaal uitgevoerd budget-k
 
    De waarde EAC toont op **Schatting bij het gebied van de Voltooiing**.
 
-   ![ EAC op project ](assets/eac-highlighted-on-project-350x112.png)
+   ![&#x200B; EAC op project &#x200B;](assets/eac-highlighted-on-project-350x112.png)
