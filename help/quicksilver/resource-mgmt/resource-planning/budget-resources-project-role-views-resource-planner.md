@@ -27,8 +27,8 @@ De belangrijkste functie van de Planner van het Middel is uw middelen voor het w
 
 Lees de volgende artikelen voordat u begint met budgetinformatie in de functie voor middelenplanning:
 
-* [ Overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
-* [ toegang nodig aan begrotingsmiddelen in Adobe Workfront ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+* [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+* [&#x200B; toegang nodig aan begrotingsmiddelen in Adobe Workfront &#x200B;](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
 * [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 ## Toegangsvereisten
@@ -59,14 +59,14 @@ Lees de volgende artikelen voordat u begint met budgetinformatie in de functie v
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Begrotingsmiddelen in de middelenplanner
 
-* [ middelen van de Begroting in de Mening van het Project ](#budget-resources-in-the-project-view)
-* [ middelen van de Begroting in de Mening van de Rol ](#budget-resources-in-the-role-view)
+* [&#x200B; middelen van de Begroting in de Mening van het Project &#x200B;](#budget-resources-in-the-project-view)
+* [&#x200B; middelen van de Begroting in de Mening van de Rol &#x200B;](#budget-resources-in-the-role-view)
 * [Begrotingsmiddelen in bulk](#budget-resources-in-bulk)
 
 ### Begrotingsmiddelen in de projectweergave {#budget-resources-in-the-project-view}
@@ -104,7 +104,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * Klik het **Meer** menu voor het project, dan klik **Geplande Uren van Rollen&quot;plaatsen zoals Beoogd**.\
      De begrotingsuren voor elke rol worden berekend met behulp van de volgende formule:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -113,7 +113,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
      >* De rol begrotingsuren wordt toegevoegd aan het voor het project begrote uren uur.
      >* De gebruikers kunnen voor zowel Primaire als Andere (of secundaire) Rollen in de begroting worden opgenomen.
      >* Het **Percentage van VTE Beschikbaarheid** voor de rollen van de gebruiker moet een aantal verschillend zijn dan 0% voor de Beschikbare Uren om een waarde in de Planner van het Middel voor een baanrol te tonen. Als een gebruiker met een rol met een 0% **Percentage van VTE Beschikbaarheid** wordt geassocieerd, is de Beschikbare waarde van Uren nul voor die baanrol. In dit geval, zou de rol een negatieve **Netto Waarde** kunnen tonen.\
-     >Voor meer informatie over het **Percentage van Beschikbaarheid FTE** voor baanrollen, zie het artikel [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+     >Voor meer informatie over het **Percentage van Beschikbaarheid FTE** voor baanrollen, zie het artikel [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
    * In de **BDG** kolom, specificeer manueel een aantal begrote uren, FTE, of kosten voor het project. Hierdoor wordt het aantal begrote uren projecturen verdeeld over elke rol in het kader van het project. De volgende scenario&#39;s bestaan:
 
@@ -130,15 +130,15 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * In de **BDG** kolom, specificeer manueel een aantal begrote uren, FTE, of kosten voor het project.\
      Hiermee werkt u de rol die is toegewezen aan uren bij, zoals beschreven in stap 7.\
-     ![ budget_for_project.png ](assets/budget-for-project-350x182.png)
+     ![&#x200B; budget_for_project.png &#x200B;](assets/budget-for-project-350x182.png)
 
 1. Klik **sparen**.\
    Nadat u uw middelen in de Planner van het Middel begroot, zijn de Begrotingstijd voor uw middelen en om het even welke kosten verbonden aan hen vermeld in het BedrijfsGeval van elk project.\
-   Voor meer informatie over het begrip van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de sectie &quot;het Leiden van het Middel&quot;in het artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Voor meer informatie over het begrip van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de sectie &quot;het Leiden van het Middel&quot;in het artikel [&#x200B; Overzicht van de Gebieden van het BedrijfsGeval &#x200B;](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Optioneel) Selecteer de weergave Gebruiker om te zien of de gebruiker teveel of te weinig gebruikmaakt van de beschikbare en geplande uren voor elke gebruiker. De begrote uren uren zijn niet zichtbaar in de mening van de Gebruiker.
 
-   Voor informatie over hoe Workfront de beschikbaarheid van een gebruiker berekent, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+   Voor informatie over hoe Workfront de beschikbaarheid van een gebruiker berekent, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 ### Begrotingsmiddelen in de weergave Rol {#budget-resources-in-the-role-view}
 
@@ -151,11 +151,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U moet Edit toegang tot het Beheer van het Middel en Financiële Gegevens hebben en de toestemmingen van de Financiën van het Beheer op de projecten om middelen in de Planner van het Middel te begroten. Als u slechts de toegang van de Mening tot minstens één project hebt dat onder een baanrol wordt vermeld, kunt u geen toewijzingen voor de rol in de mening van de Rol begroten. U kunt budgettoewijzing voor de projecten nog steeds uitvoeren waarvoor u beheermachtigingen hebt.
 
-Voor informatie over de toegang nodig voor het opnemen van middelen, zie de artikel [ Toegang nodig aan begrotingsmiddelen in Adobe Workfront ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Voor informatie over de toegang nodig voor het opnemen van middelen, zie de artikel [&#x200B; Toegang nodig aan begrotingsmiddelen in Adobe Workfront &#x200B;](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de Rol:
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 
 1. Klik **Middelen**.
 1. De **vertoningen van de Planner** door gebrek.
@@ -174,8 +174,8 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
    * In de **BDG** kolom, specificeer manueel een aantal begrote uren, FTE, of kosten voor de baanrollen.\
      Dit verdeelt de Rol Geboedde Uren aan het Project Geplande Uren voor de projecten die u toegang hebt om te leiden.
 
-   * Klik het **Meer** menu voor de baanrol, dan klik **Plaats Projecten&#39; Geplande Uren zoals Beoogd.**De Rol die in de begroting wordt opgenomen Uren wordt berekend gebruikend de volgende formule:\
-     *
+   * Klik het **Meer** menu voor de baanrol, dan klik **Plaats Projecten&#39; Geplande Uren zoals Beoogd.**&#x200B;De Rol die in de begroting wordt opgenomen Uren wordt berekend gebruikend de volgende formule:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -189,7 +189,7 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
    >[!NOTE]
    >
    >De gebruikers kunnen voor zowel Primaire als Andere (of secundaire) Rollen in de begroting worden opgenomen. Het **Percentage van VTE Beschikbaarheid** voor de rollen van de gebruiker moet een aantal verschillend zijn dan 0% voor de Beschikbare Uren om een waarde in de Planner van het Middel voor een baanrol te tonen. Als een gebruiker met een rol met een 0% **Percentage van VTE Beschikbaarheid** wordt geassocieerd, is de Beschikbare waarde van Uren nul voor die baanrol. In dit geval, zou de rol een negatieve **Netto Waarde** kunnen tonen.\
-   >Voor meer informatie over het **Percentage van Beschikbaarheid FTE** voor baanrollen, zie het artikel [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+   >Voor meer informatie over het **Percentage van Beschikbaarheid FTE** voor baanrollen, zie het artikel [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 1. Voer een van de volgende handelingen uit om een budget voor het project toe te wijzen:
 
@@ -208,11 +208,11 @@ Aan begrotingstoewijzingen in de Planner van het Middel in de*** mening van de R
 
      `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
-     ![ budget_by_role.png ](assets/budget-by-role-350x181.png)
+     ![&#x200B; budget_by_role.png &#x200B;](assets/budget-by-role-350x181.png)
 
 1. Klik **sparen**.\
    Nadat u uw middelen in de Planner van het Middel begroot, zijn de Begrotingstijd voor uw middelen en om het even welke kosten verbonden aan hen vermeld in het BedrijfsGeval van elk project.
-Voor meer informatie over het begrip van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de artikel [ middelen van de Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Voor meer informatie over het begrip van het gebied van de Begroting van het Middel van het BedrijfsGeval, zie de artikel [&#x200B; middelen van de Begroting in het BedrijfsGeval &#x200B;](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Facultatief) selecteer de **Mening door Gebruiker** mening om het even welke gebruikersovertoewijzingen of onderbenutting tussen Beschikbaar en Geplande Uren voor elke gebruiker op te merken. De begrote Uren zijn niet zichtbaar in de Mening door Gebruiker.
 
@@ -220,7 +220,7 @@ Voor meer informatie over het begrip van het gebied van de Begroting van het Mid
 
 U kunt begrotingstoewijzingen voor uw middelen in bulk wanneer het gebruiken van snelle verbindingen. De snelle verbindingen zijn beschikbaar slechts voor de Mening van het Project en van de Rol.
 
-![ Automatische het opnemen opties ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![&#x200B; Automatische het opnemen opties &#x200B;](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >
@@ -229,14 +229,14 @@ U kunt begrotingstoewijzingen voor uw middelen in bulk wanneer het gebruiken van
 Om uw middelen in massa te begroten:
 
 1. Ga naar de .\
-   Voor meer informatie over de toegang tot van de Planner van het Middel, zie de &quot;Toegang tot de sectie van de Planner van het Middel&quot;in het artikel [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).\
+   Voor meer informatie over de toegang tot van de Planner van het Middel, zie de &quot;Toegang tot de sectie van de Planner van het Middel&quot;in het artikel [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md).\
    Een lijst van projecten u vertoningen in de lijst kunt beheren.
 
 1. (Optioneel) Vouw elk project uit om een lijst met functies weer te geven die aan het project zijn gekoppeld.\
    of
 1. (Facultatief) Uitgezochte **Mening door Rol**, breid dan elke rol uit om een lijst van projecten te zien verbonden aan het.
 1. Houd de aanwijzer boven de naam van een project of een functie.
-1. Klik het **Meer** pictogram ![ options_icon_resource_planner.png ](assets/options-icon-resource-planner.png) dat aan het uiterste recht van het project of de rolnaam toont.
+1. Klik het **Meer** pictogram ![&#x200B; options_icon_resource_planner.png &#x200B;](assets/options-icon-resource-planner.png) dat aan het uiterste recht van het project of de rolnaam toont.
 
 1. Klik op een van de beschikbare opties om automatisch de hoeveelheid begrote uren uren (BDG) voor andere objecten op te geven.
 
@@ -285,7 +285,7 @@ Om uw middelen in massa te begroten:
    >Sommige opties worden mogelijk niet weergegeven als aan een aantal voorwaarden voor het werken in de functie Bronnen ontbreekt.
    >
    >
-   >Voor meer informatie over de eerste vereisten die voor nauwkeurige het opnemen in de Planner van het Middel moeten worden voldaan, zie de &quot;Vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artikel.\
+   >Voor meer informatie over de eerste vereisten die voor nauwkeurige het opnemen in de Planner van het Middel moeten worden voldaan, zie de &quot;Vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artikel.\
    >Sommige opties worden bijvoorbeeld niet weergegeven in de volgende scenario&#39;s:
    >
    >   
