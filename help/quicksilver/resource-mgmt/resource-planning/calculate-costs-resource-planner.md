@@ -6,9 +6,9 @@ description: U kunt uw middelen in de Planner van het Middel van Adobe Workfront
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ U kunt uw middelen in de Planner van het Middel van Adobe Workfront begroten doo
 >[!IMPORTANT]
 >
 >U moet gebruikers en baanrollen met de Tarieven van Kosten per Uur associëren om de informatie van Kosten in de Planner van het Middel te tonen.\
->Voor meer informatie over het associëren van de Tarieven van Kosten per Uur met baanrollen, zie [&#x200B; baanrollen &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.\
->Voor meer informatie over het associëren van Kosten per de tarieven van het Uur met gebruikers, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+>Voor meer informatie over het associëren van de Tarieven van Kosten per Uur met baanrollen, zie [ baanrollen ](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.\
+>Voor meer informatie over het associëren van Kosten per de tarieven van het Uur met gebruikers, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 Voordat u uw bronnen in een begroting opneemt, moet u goed begrijpen wat er moet gebeuren (geplande uren, VTE of kosten) en op welk moment uw gebruikers kunnen werken (Beschikbare uren, VTE of Kosten).\
-Voor meer informatie over het begrip van de informatie in de Planner van het Middel wanneer het opnemen door Uren of FTE, zie [&#x200B; Overzicht van uren, FTE, en kosteninformatie in de meningen van het Project en van de Rol van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Voor meer informatie over het begrip van de informatie in de Planner van het Middel wanneer het opnemen door Uren of FTE, zie [ Overzicht van uren, FTE, en kosteninformatie in de meningen van het Project en van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Toegangsvereisten
 
@@ -51,16 +51,17 @@ Voor meer informatie over het begrip van de informatie in de Planner van het Mid
   </tr> 
   <tr> 
    <td>Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot resourcebeheer bewerken, inclusief toegang tot bewerkingsprioriteiten en begrotingstijden in de bronnenplanner</p> <p>Toegang tot financiële gegevens, projecten en gebruikers bewerken</p></td> 
+   <td> <p>Toegang tot resourcebeheer bewerken, inclusief toegang tot bewerkingsprioriteiten en begrotingstijden in de bronnenplanner</p> <p>Bewerk de toegang tot financiële gegevens, waaronder toegang tot Bewerken van kostenpercentages en Bewerken van algemene financiën</p>
+   <p>Toegang tot projecten en gebruikers bewerken</p></td> 
   </tr> 
   <tr> 
    <td>Objectmachtigingen</td> 
-   <td> <p>Beheer machtigingen voor de projecten waarvoor u begrotingsgegevens wilt maken met de mogelijkheid om financiën te beheren</p></td>
+   <td> <p>Beheer machtigingen voor de projecten waarvoor u begrotingsgegevens wilt maken met de mogelijkheid om kostenpercentages te bewerken en Algemene financiën te bewerken</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,8 +82,8 @@ Om Beschikbare, Geplande, en Gefabriceerde informatie door Kosten in de Planner 
 
    Als u geen toegang tot Financiële Gegevens in uw toegangsniveau hebt, is deze optie niet beschikbaar.\
    Als projecten een andere valuta hebben dan de systeemvaluta, worden de kosten voor deze projecten weergegeven in de bronnenplanner die is omgezet in de valuta van het systeem. De systeembeheerder definieert de systeemvaluta.\
-   Voor meer informatie over vestiging de systeemmunt in Workfront en omzettingspercentages, zie [&#x200B; de Wisselkoersen van de Opstelling &#x200B;](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
-   ![&#x200B; cost_in_the_planner_with_no_budgeting.png &#x200B;](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
+   Voor meer informatie over vestiging de systeemmunt in Workfront en omzettingspercentages, zie [ de Wisselkoersen van de Opstelling ](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   ![ cost_in_the_planner_with_no_budgeting.png ](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Beschikbare kosten berekenen in de bronnenplanner
 
@@ -92,7 +93,7 @@ Om Beschikbare Kostenwaarden in de Planner van het Middel te tonen moet u het vo
 * Informatie over de beschikbaarheid van gebruikers.
 
   Het verkrijgen van informatie over de beschikbaarheid van gebruikers hangt af van hoe uw Workfront-beheerder de voorkeuren voor het beheer van bronnen configureert.\
-  Voor meer informatie over het berekenen van gebruikersbeschikbaarheid en het plaatsen van de Voorkeur van het Beheer van het Middel, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+  Voor meer informatie over het berekenen van gebruikersbeschikbaarheid en het plaatsen van de Voorkeur van het Beheer van het Middel, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 De volgende lijst illustreert hoe Beschikbare Kosten in de Planner van het Middel wordt berekend:
 
@@ -138,7 +139,7 @@ Hoewel u taakinformatie in de Planner van het Middel niet kunt bekijken, worden 
      Een taak die aan een Team wordt toegewezen wordt beschouwd als niet toegewezen, vanuit het perspectief van de Planner van het Middel.
 
 * Het **Type van Kosten** van de taken op het project.\
-  Voor meer informatie over het Type van Kosten van een taak, zie [&#x200B; Kosten van het Spoor &#x200B;](../../manage-work/projects/project-finances/track-costs.md).
+  Voor meer informatie over het Type van Kosten van een taak, zie [ Kosten van het Spoor ](../../manage-work/projects/project-finances/track-costs.md).
 
 * De effectieve data van de kostenpercentages voor functies en gebruikers.
 
