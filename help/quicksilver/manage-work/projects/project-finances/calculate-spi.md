@@ -7,9 +7,9 @@ description: De index van de Prestaties van het Programma (SPI) beschrijft het v
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,18 @@ De index van de Prestaties van het Programma (SPI) beschrijft het verband tussen
   </tr> 
   <tr> 
    <td>Objectmachtigingen</td> 
-   <td>De mening of hogere toestemmingen aan het project met toestemmingen aan de Financiën van de Mening</td> 
+   <td>De mening of hogere toestemmingen aan het project met toestemmingen aan de Algemene Financiën van de Mening</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overzicht van de prestatie-index (SPI) voor schema
 
-* [&#x200B; wat de waarde SPI &#x200B;](#what-the-spi-value-shows) toont
+* [ wat de waarde SPI ](#what-the-spi-value-shows) toont
 * [Hoe Workfront SPI berekent](#how-workfront-calculates-spi)
 
 ### Wat de SPI waarde toont {#what-the-spi-value-shows}
@@ -95,6 +95,6 @@ Bijvoorbeeld, als u een project met 1 taak hebt en de taak 10 geplande uren en e
 
    1. Klik **Details van de Taak** in het linkerpaneel, dan bekijk het **Financiën** gebied.
 
-      ![&#x200B; SPI op project &#x200B;](assets/spi-on-project-nwe.png)
+      ![ SPI op project ](assets/spi-on-project-nwe.png)
 
 1. Vind het **CPI/SPI/CSI** gebied.
