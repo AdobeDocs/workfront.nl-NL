@@ -34,11 +34,11 @@ U kunt objecten in de lijstweergave bekijken in de volgende gebieden van Workfro
 
 * Een verbonden registratiepagina voor projecten in het detailsgebied van een verslag
 
-  ![ Projecten op verbonden verslagenpagina in lijstmening ](assets/projects-on-connected-records-page-list-view.png)
+  ![&#x200B; Projecten op verbonden verslagenpagina in lijstmening &#x200B;](assets/projects-on-connected-records-page-list-view.png)
 
 * Een lijst met aanvraagformulieren op recordtypeniveau
 
-  ![ de vormen van het verzoek in lijstmening ](assets/request-forms-in-list-view.png)
+  ![&#x200B; de vormen van het verzoek in lijstmening &#x200B;](assets/request-forms-in-list-view.png)
 
 In dit artikel wordt beschreven hoe u in Workfront Planning door een lijstweergave kunt navigeren, deze kunt maken of deze kunt bewerken.
 
@@ -82,7 +82,7 @@ In dit artikel wordt beschreven hoe u in Workfront Planning door een lijstweerga
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -92,22 +92,22 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
    * U kunt projecten in de lijstmening in de verbonden verslagenpagina van een verslag slechts bekijken. De lijstweergave is niet beschikbaar voor andere objecten of recordtypen in een verbonden recordpagina.
 
-  Voor informatie over het creëren van een verbonden verslagenpagina, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
-   * Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Voor informatie over het creëren van een verbonden verslagenpagina, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+   * Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
    * U kunt veelvoudige lijstmeningen voor projecten in de verbonden verslagenpagina van een verslag tot stand brengen.
 
 * Bekijk het volgende voor de lijstweergave voor aanvraagformulieren:
 
    * U kunt geen extra lijstweergaven maken of bewerken voor het plannen van aanvraagformulieren. Workfront maakt één lijstweergave voor aanvraagformulieren. <!--this will change-->
 
-     Voor informatie over verzoekvormen, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+     Voor informatie over verzoekvormen, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 * Afhankelijk van waar deze wordt weergegeven, bevat niet elke lijstweergave alle elementen die in dit artikel worden beschreven.
 
 ## Een lijstweergave beheren {#manage-a-list-view}
 
 De de lijstmeningen van de Planning van Workfront zijn gelijkaardig aan Workfront verbeterde lijsten. De meeste elementen van verbeterde weergaven bestaan ook in lijstweergaven in Workfront Planning.
 
-Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Removed - more direct steps below: 
@@ -149,7 +149,7 @@ Removed - more direct steps below:
       >
       >Weergaven worden door het hele systeem gedeeld. Als u een mening van Projecten voor één verslagtype creeert, kunt u het op andere verslagtypes bekijken die verbonden projecten tonen.
 
-   1. Beweeg over de naam van een bestaande mening en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van het volgende:
+   1. Beweeg over de naam van een bestaande mening en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik één van het volgende:
       * **noem** anders, om de mening een nieuwe naam te geven
       * **Aandeel**, om de mening met anderen te delen
       * **Schrapping**, om de mening te schrappen.
@@ -160,9 +160,9 @@ Removed - more direct steps below:
       >
       >* U kunt de systeemweergaven niet wijzigen.
       >
-      >* U kunt een weergave herstellen die met u is gedeeld en waarvoor u alleen weergavemachtigingen hebt, nadat u de weergave hebt gewijzigd om de oorspronkelijke voorkeuren te herstellen, of u kunt de weergave met de wijzigingen kopiëren en de kopie delen. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+      >* U kunt een weergave herstellen die met u is gedeeld en waarvoor u alleen weergavemachtigingen hebt, nadat u de weergave hebt gewijzigd om de oorspronkelijke voorkeuren te herstellen, of u kunt de weergave met de wijzigingen kopiëren en de kopie delen. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-   1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-icon.png) om een filter aan de mening toe te voegen. De resultaten worden direct in de lijst gefilterd. U kunt filters niet opslaan en een naam geven. Filters worden onthouden wanneer u de pagina in de toekomst opent en maken deel uit van gedeelde weergaven.
+   1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png) om een filter aan de mening toe te voegen. De resultaten worden direct in de lijst gefilterd. U kunt filters niet opslaan en een naam geven. Filters worden onthouden wanneer u de pagina in de toekomst opent en maken deel uit van gedeelde weergaven.
 
       >[!TIP]
       >
@@ -178,7 +178,7 @@ Removed - more direct steps below:
       > 
       >* **Mijn rollen** of **Mijn primaire rol** om naar uw baanrollen op gebieden te verwijzen die naar rollen verwijzen.
 
-   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![ ](assets/columns-icon.png) om te selecteren welke kolommen aan vertoning of in de mening te verbergen.
+   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; &#x200B;](assets/columns-icon.png) om te selecteren welke kolommen aan vertoning of in de mening te verbergen.
    1. Houd de cursor boven de naam van een kolom en klik op de pijl omlaag links van de kolomnaam en klik op een van de volgende opties:
       * **noem** anders, om a **Eigen etiket** voor de kolom toe te voegen. De naam van het oorspronkelijke veld in Workfront verandert niet.
       * **Soort**, om de lijst door het geselecteerde gebied te sorteren. Aan de kolomkop wordt een sorteerpictogram toegevoegd dat de richting van het sorteren aangeeft.
@@ -189,7 +189,7 @@ Removed - more direct steps below:
       U kunt alleen bestaande velden toevoegen aan de lijstweergave.
 U kunt het primaire veld niet verwijderen in de lijstweergave die in de eerste kolom wordt weergegeven.
 
-   1. Klik het **pictogram** de cellen van het Formaat {![ pictogram van de Cellen van het 0} Formaat. ](assets/format-cells-icon.png) Het **vakje van het Formaat** opent. <!--change the name of the box when they update it-->
+   1. Klik het **pictogram** de cellen van het Formaat {![&#x200B; pictogram van de Cellen van het 0} Formaat. &#x200B;](assets/format-cells-icon.png) Het **vakje van het Formaat** opent. <!--change the name of the box when they update it-->
 Ga als volgt te werk:
 
       1. Klik **toevoegen voorwaarde**.
@@ -199,7 +199,7 @@ Ga als volgt te werk:
          >
          >Alleen velden die zichtbaar zijn in de lijstweergave zijn beschikbaar voor voorwaardelijke opmaak.
 
-      1. (Facultatief) in plaats van het toevoegen van een gebiedswaarde, klik **vergelijken met een ander gebied** pictogram ![ vergelijk met een ander gebied ](assets/compare-to-another-field-icon.png) en kies een gebied de waarvan waarde u met de waarde van uw geselecteerd gebied wilt vergelijken. U kunt bijvoorbeeld de velden Projecteigenaar en Projectsponsor vergelijken.
+      1. (Facultatief) in plaats van het toevoegen van een gebiedswaarde, klik **vergelijken met een ander gebied** pictogram ![&#x200B; vergelijk met een ander gebied &#x200B;](assets/compare-to-another-field-icon.png) en kies een gebied de waarvan waarde u met de waarde van uw geselecteerd gebied wilt vergelijken. U kunt bijvoorbeeld de velden Projecteigenaar en Projectsponsor vergelijken.
 
          >[!TIP]
          >
@@ -213,8 +213,8 @@ Ga als volgt te werk:
 
       1. Klik de **of** schakelaar tussen voorwaarden om in **en** te veranderen en erop te wijzen dat de veelvoudige voorwaarden tezelfdertijd moeten worden vervuld. **Of** is de standaardschakelaar.
       1. In de **lijn van het Formaat**, selecteer een gebied om erop te wijzen welke kolom zal worden geformatteerd. <!--edit this area, if it changes names??-->
-      1. (Facultatief) klik het **pictogram van de kleurencirkel** Kleurcirkelpictogram ![ naast het geselecteerde gebied, om het uit te breiden en een andere kleur in het ](assets/color-circle.png) vult van de Cel **gebied te kiezen om de kleur van de achtergrond in een cel te veranderen of een kleur van het** kleur van de Tekst **gebied te kiezen om de kleur van tekst in een cel te veranderen.**
-      1. Klik het **pictogram van het formaat van de Tekst 1} van de Tekst** ![ en selecteer van de volgende opties om de tekst in een cel te formatteren:](assets/text-format-icon.png)
+      1. (Facultatief) klik het **pictogram van de kleurencirkel** Kleurcirkelpictogram ![&#x200B; naast het geselecteerde gebied, om het uit te breiden en een andere kleur in het &#x200B;](assets/color-circle.png) vult van de Cel **gebied te kiezen om de kleur van de achtergrond in een cel te veranderen of een kleur van het** kleur van de Tekst **gebied te kiezen om de kleur van tekst in een cel te veranderen.**
+      1. Klik het **pictogram van het formaat van de Tekst 1&rbrace; van de Tekst** ![&#x200B; en selecteer van de volgende opties om de tekst in een cel te formatteren:](assets/text-format-icon.png)
          * Vet
          * Cursief
 
@@ -227,11 +227,11 @@ Ga als volgt te werk:
 De opmaak wordt direct toegepast op de lijstweergave.
 Er is een blauw punt naast het **pictogram van de Cellen van het Formaat** om erop te wijzen dat de mening speciale toegepaste het formatteren heeft.
 
-   1. (Facultatief) klik het **pictogram van de Groepering** pictogram van de Groepering ![ ](assets/grouping-icon.png) aan groepspunten in de lijst door een gemeenschappelijk gebied. <!--have they updated this to "Grouping"??--> Selecteer een van de opties of gebruik de zoekbalk om een veld te zoeken.
+   1. (Facultatief) klik het **pictogram van de Groepering** pictogram van de Groepering ![&#x200B; &#x200B;](assets/grouping-icon.png) aan groepspunten in de lijst door een gemeenschappelijk gebied. <!--have they updated this to "Grouping"??--> Selecteer een van de opties of gebruik de zoekbalk om een veld te zoeken.
 
       Het veld moet een kolom in de lijst zijn voordat u het kunt groeperen. Niet alle veldtypen kunnen voor groepen worden gebruikt.
 
-   1. Klik het **pictogram van de de hoogte van de Rij** ![ pictogram van de Rijhoogte om de verticale lengte van een rij bij te werken. ](assets/row-height-icon.png) Kies een van de volgende opties:
+   1. Klik het **pictogram van de de hoogte van de Rij** ![&#x200B; pictogram van de Rijhoogte om de verticale lengte van een rij bij te werken. &#x200B;](assets/row-height-icon.png) Kies een van de volgende opties:
 
       * Kort
       * Standaard. Dit is de standaardoptie.
@@ -253,7 +253,7 @@ Er is een blauw punt naast het **pictogram van de Cellen van het Formaat** om er
 
    Sommige velden zijn alleen-lezen. Het percentage voltooide van een project is bijvoorbeeld een veld dat door het systeem wordt berekend en u kunt het niet handmatig bewerken.
 
-1. Beweeg over de naam van een punt in de lijst en klik **Meer** menu [ Meer menu ](assets/more-menu.png) en klik **Mening** om het project in een ander lusje te openen
+1. Beweeg over de naam van een punt in de lijst en klik **Meer** menu [&#x200B; Meer menu &#x200B;](assets/more-menu.png) en klik **Mening** om het project in een ander lusje te openen
 
    of
 
@@ -264,14 +264,14 @@ Er is een blauw punt naast het **pictogram van de Cellen van het Formaat** om er
 
      <!--update screen shot at preview release-->
 
-     ![ bar van Acties in de Verbonden mening van de Lijst van de verslagenpagina ](assets/actions-bar-connected-records-page-list-view.png)
+     ![&#x200B; bar van Acties in de Verbonden mening van de Lijst van de verslagenpagina &#x200B;](assets/actions-bar-connected-records-page-list-view.png)
 
    * **geef vorm** uit: Opent een de verzoekvorm van de Planning en staat u toe om het uit te geven.
    * **unpublish**: maakt een verzoekvorm ongedaan. Hiermee verwijdert u het formulier uit het gebied Verzoeken en kunnen gebruikers geen aanvragen meer toevoegen aan dit recordtype.
    * **Aandeel**: Opent de het Delen doos voor een verzoekvorm waar u met anderen kunt delen.
    * **verbinding van het Exemplaar**: Kopieert een verbinding aan een het verzoekvorm van de Planning zodat kunt u het met andere gebruikers delen. Als het formulier algemeen wordt gedeeld, kunt u de koppeling delen met personen buiten Workfront Planning.
 
-     ![ bar van Acties in de Planning van verzoekenlijst ](assets/actions-bar-in-inake-forms-list.png)
+     ![&#x200B; bar van Acties in de Planning van verzoekenlijst &#x200B;](assets/actions-bar-in-inake-forms-list.png)
 
 
 
