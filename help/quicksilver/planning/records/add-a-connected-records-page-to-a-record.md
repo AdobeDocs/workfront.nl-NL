@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 0%
@@ -77,10 +77,10 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
    <p> Aanvullende producten</p> </td> 
    <td> 
    <p> Als u een verbonden recordpagina wilt toevoegen voor objecten uit de volgende toepassingen, moet u niet alleen over Adobe Workfront beschikken, maar ook over de volgende opties:</p>
-   <ul><li><p>Een Adobe Experience Manager Assets-licentie en integratie tussen AEM Assets en Workfront om AEM-middelen te verbinden met planningsrecordtypen.</p>
+   <ul><li><p>Een Adobe Experience Manager-licentie en een integratie tussen Adobe Experience Manager en Workfront om AEM-objecten te verbinden met planningsrecordtypen.</p>
    <p>Voor informatie, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md"> Adobe Workfront voor Experience Manager Assets en de Hoofdzaak van Activa: artikelindex </a>. </p></li>
    <li><p> Een Adobe GenStudio for Performance Marketing-licentie om recordtypen te verbinden met GenStudio Brands</p>
-   <p>Voor informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started"> begonnen worden met Adobe GenStudio for Performance Marketing </a>.</p></li></ul>
+   <p>Voor informatie, zie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started"> begonnen worden met Adobe GenStudio for Performance Marketing </a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -99,7 +99,7 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -111,11 +111,11 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 1. Klik **toevoegen pagina** van één van de volgende gebieden:
 
    * Het voorvertoningsvenster van de record
-   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
+   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 
    **creeer pagina** doos opent.
 
-   ![&#x200B; voeg Verbonden verslagen pagina modaal &#x200B;](assets/add-connection-view-page-modal.png) toe
+   ![ voeg Verbonden verslagen pagina modaal ](assets/add-connection-view-page-modal.png) toe
 
 1. Voeg de **naam van de Pagina** toe, klik **Verbonden verslagenpagina** voor het **type van Pagina**, dan klik **creeert**.
 1. (Optioneel) Klik op de naam van een verbonden record of objecttype in de lijst of zoek ernaar. Klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven om de pagina voor dat record- of objecttype te maken.
@@ -127,7 +127,7 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 
 1. (Facultatief en voorwaardelijk) als meer dan één verbonden gebied van het verslag of objecten type u de pagina voor vertoningen bouwt, klik het gebied waarvan verslagen of voorwerpen u in de verbonden verslagenpagina van de **Uitgezochte verwijzingsgebied** lijst wilt tonen.
 
-   ![&#x200B; Uitgezochte lijst van het verwijzingsgebied &#x200B;](assets/select-reference-field-list-on-connected-records-page.png)
+   ![ Uitgezochte lijst van het verwijzingsgebied ](assets/select-reference-field-list-on-connected-records-page.png)
 
    Een van de volgende pagina&#39;s wordt toegevoegd aan de pagina voor verbonden records:
 
@@ -142,22 +142,22 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 
    De eerste vijf velden van de verbonden records worden standaard weergegeven. Er worden standaard geen opzoekvelden weergegeven.
 
-   ![&#x200B; Publiek verbonden lijstmening onder campagnedetails &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Voorwaardelijk) Afhankelijk van het type records dat u in de verbonden recordpagina weergeeft, voert u een van de volgende handelingen uit:
 
    * Planningsrecords beheren
-Voor informatie, zie de sectie [&#x200B; de verbonden verslagenpagina voor de Planning verslagen &#x200B;](#manage-the-connected-records-page-for-planning-records) in dit artikel beheren.
+Voor informatie, zie de sectie [ de verbonden verslagenpagina voor de Planning verslagen ](#manage-the-connected-records-page-for-planning-records) in dit artikel beheren.
    * Workfront-projecten beheren
-Voor informatie, zie de sectie [&#x200B; de verbonden verslagenpagina voor de projecten van Workfront &#x200B;](#manage-the-connected-records-page-for-workfront-projects) in dit artikel beheren.
+Voor informatie, zie de sectie [ de verbonden verslagenpagina voor de projecten van Workfront ](#manage-the-connected-records-page-for-workfront-projects) in dit artikel beheren.
 
 1. (Optioneel) Dubbelklik op de naam van de **Verbonden recordpagina** tab
 
    of
 
-   Beweeg over de naam van het lusje, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **anders noemen** om aan nieuwe verbonden verslagenpagina tabel anders te noemen.
+   Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om aan nieuwe verbonden verslagenpagina tabel anders te noemen.
 
-1. (Facultatief) Beweeg over de naam van de verbonden verslagenpagina tabel, klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
+1. (Facultatief) Beweeg over de naam van de verbonden verslagenpagina tabel, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 ### De verbonden recordpagina voor planningsrecords beheren
 
@@ -223,11 +223,11 @@ When you create a connected records page for connected Planning records in the P
 De records die zijn verbonden met de record die u hebt geselecteerd, worden weergegeven in de tabelweergave.
 1. Klik **verbinden verslagen** in de hoger-juiste hoek van de verbonden verslagpagina, om bestaande verslagen te verbinden, hen van de verbindingsdoos te selecteren, dan buiten de doos te klikken om het te sluiten. De records worden automatisch aan de tabel toegevoegd en gekoppeld aan de record die u hebt geselecteerd. De records moeten bestaan voordat u ze kunt toevoegen.
 
-   Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+   Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 1. Klik **Nieuwe rij** bij de bodem van de lijst om nieuwe verslagen toe te voegen. De nieuwe records worden automatisch verbonden met de records die u hebt geselecteerd.
 1. Bewerk alle informatie uit de verbonden records inline in de tabelweergave.
-1. Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png)
+1. Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png)
 
    of
 
@@ -240,7 +240,7 @@ De records die zijn verbonden met de record die u hebt geselecteerd, worden weer
    * **Verslag van het Tussenvoegsel boven of onder** om nieuwe verslagen aan het verbonden verslagtype toe te voegen. Nieuwe records die u hier toevoegt, worden ook gekoppeld aan de huidige record. Deze optie is niet beschikbaar in de blauwe balk wanneer u een record in de tabel selecteert.
    * **Schrapping** om het verslag te schrappen. Als u een verbonden record verwijdert, wordt deze verwijderd uit het recordtype en van elke locatie waar de record is verbonden. De geschrapte verslagen beweging aan **onlangs schrapte** bak van hun verslagtype.
 
-     Voor informatie over het uitgeven van verslagen in de lijstmening, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+     Voor informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
      >[!TIP]
      >
@@ -256,7 +256,7 @@ De records die zijn verbonden met de record die u hebt geselecteerd, worden weer
    * **de hoogte van de Rij**
    * **Onderzoek**
 
-   Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+   Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
    >[!NOTE]
    >
@@ -269,29 +269,29 @@ De records die zijn verbonden met de record die u hebt geselecteerd, worden weer
    1. Van het **type van Mening** gebied, selecteer één van de volgende types van meningen:
 
       * Tabel
-Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden
+Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden
       * Tijdlijn
-Voor informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
       * Kalender
-Voor informatie, zie [&#x200B; de kalendermening &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
-        Voor meer informatie, zie de sectie [&#x200B; veelvoudige meningen van de verbonden verslagenpagina &#x200B;](#manage-multiple-views-from-the-connected-records-page) in dit artikel leiden.
+        Voor meer informatie, zie de sectie [ veelvoudige meningen van de verbonden verslagenpagina ](#manage-multiple-views-from-the-connected-records-page) in dit artikel leiden.
 
    1. Klik **creëren**.
 Er wordt een nieuwe weergave toegevoegd aan het vervolgkeuzemenu Weergaven.
 
-   1. (Facultatief) Beweeg over de naam van een mening u creeerde, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik één van de volgende opties:
+   1. (Facultatief) Beweeg over de naam van een mening u creeerde, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van de volgende opties:
 
       * **noem** anders, om een nieuwe naam voor de mening toe te voegen.
       * **Aandeel**
 
-        Voor meer informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
+        Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
       * **Uitvoer**
 
       * **Schrapping**
-Voor informatie, zie [&#x200B; verslagmeningen van de Schrapping &#x200B;](/help/quicksilver/planning/views/delete-record-views.md).
+Voor informatie, zie [ verslagmeningen van de Schrapping ](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![&#x200B; Mening meer menu op Projecten Verbonden verslagenpagina &#x200B;](assets/view-more-menu-projects-connected-records-page.png)
+        ![ Mening meer menu op Projecten Verbonden verslagenpagina ](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -304,11 +304,11 @@ Wanneer u een verbonden verslagenpagina voor verbonden projecten van Workfront c
 1. Ga naar een pagina met recordtypen en klik op de naam van een record. Hierdoor wordt de voorvertoningspagina van de record geopend.
 1. Klik het lusje voor een verbonden verslagenpagina die de projecten van Workfront toont.
 
-   ![&#x200B; Projecten verbonden verslagenpagina &#x200B;](assets/projects-connected-records-page-table.png)
+   ![ Projecten verbonden verslagenpagina ](assets/projects-connected-records-page-table.png)
 
    De projecten verbonden met het verslag u selecteerden tonen in de lijstmening.
 
-   Voor informatie over het beheren van of het uitgeven van voorwerpen in de lijstmening, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md) leiden.
+   Voor informatie over het beheren van of het uitgeven van voorwerpen in de lijstmening, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-list-view.md) leiden.
 
 <!-- 
 removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
