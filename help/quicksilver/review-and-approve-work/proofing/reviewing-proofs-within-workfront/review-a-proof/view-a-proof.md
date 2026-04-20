@@ -53,7 +53,7 @@ Met de proefdrukviewer kunt u bestanden weergeven en markeren in Workfront.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Zoek in de linkerbovenhoek van de proefdrukviewer de weergaveopties.\
-   ![ changing_the_view.png ](assets/changing-the-view-350x213.png)
+   ![&#x200B; changing_the_view.png &#x200B;](assets/changing-the-view-350x213.png)
 
 1. Klik op een van de volgende opties:
 
@@ -92,7 +92,7 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
 
 Het deelvenster met miniaturen wordt aan de linkerkant van de proefdrukviewer weergegeven. In het gebied met miniaturen kunt u door de proefdruk navigeren. Miniaturen zijn vooral handig wanneer een proefdruk meerdere pagina&#39;s bevat.
 
-* [ verberg en toon het duimnagelpaneel ](#hide-and-display-the-thumbnails-panel)
+* [&#x200B; verberg en toon het duimnagelpaneel &#x200B;](#hide-and-display-the-thumbnails-panel)
 * [Zoomen en pannen in de miniatuurweergave](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Het deelvenster Miniaturen verbergen en weergeven {#hide-and-display-the-thumbnails-panel}
@@ -103,7 +103,7 @@ Het deelvenster Miniaturen wordt standaard weergegeven. U kunt de grootte van he
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Klik het **pictogram van de Duimnagel** in de upper-left hoek van de het proef kijker.\
-   ![ hide_thumbnails_panel.png ](assets/hide-thumbnails-panel-350x213.png)
+   ![&#x200B; hide_thumbnails_panel.png &#x200B;](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Optioneel) Klik nogmaals op het pictogram Miniatuur om het deelvenster Miniaturen weer te geven.
 
@@ -123,7 +123,7 @@ Zoomen en pannen in de miniatuurweergave:
 1. Zoek het huidige zoomgebied in het deelvenster met miniaturen.\
    Het zoomgebied wordt weergegeven als een blauw kader rond de randen van de miniatuur.
 
-   ![ zoom_thumbnail_-_frame.png ](assets/zoom-thumbnail---frame-350x215.png)
+   ![&#x200B; zoom_thumbnail_-_frame.png &#x200B;](assets/zoom-thumbnail---frame-350x215.png)
 
 1. Als u de grootte van het zoomgebied wilt aanpassen, sleept u de rechterbenedenhoek van het zoomgebied totdat dit de gewenste grootte heeft.
 1. Als u het zoomgebied naar een ander gedeelte van de proefdruk wilt verplaatsen, sleept u het zoomgebied totdat dit het gedeelte van de proefdruk bedekt dat u wilt weergeven.
@@ -137,7 +137,7 @@ U kunt de proefdruk roteren in de proefdrukviewer. Wanneer u een proefdruk met m
 
 1. Klik het **roteren** pictogram bij de bodem van de het proef kijker.
 
-   ![ proof_viewer_static_rotate.png ](assets/proof-viewer-static-rotate-350x36.png)
+   ![&#x200B; proof_viewer_static_rotate.png &#x200B;](assets/proof-viewer-static-rotate-350x36.png)
 
    De proef wordt geroteerd 90 graden telkens als u **klikt roteer** pictogram.
 
@@ -152,19 +152,19 @@ U kunt het zoompercentage aanpassen wanneer u de proefdruk weergeeft. Als u een 
 
    * Klik het **pictogram van het Gezoem**, dan of klik op de proef om de proef bij een hoger gezoemniveau te bekijken, of belemmering over een gebied van de proef om slechts dat gebied te bekijken.
 
-     ![ change_zoom_percentage.png ](assets/change-zoom-percentage-350x36.png)
+     ![&#x200B; change_zoom_percentage.png &#x200B;](assets/change-zoom-percentage-350x36.png)
 
    * Klik het huidige gezoempercentage, klik een nieuw gezoempercentage of klik **passen aan breedte**, **passen aan hoogte**, of **passen aan pagina**.
 
-     ![ zoom_percentage_menu.png ](assets/zoom-percentage-menu-350x245.png)
+     ![&#x200B; zoom_percentage_menu.png &#x200B;](assets/zoom-percentage-menu-350x245.png)
 
    * Klik **plus** of **min** pictogrammen om het gezoempercentage te verhogen of te verminderen.
 
-     ![ change_zoom_percentage_-_plus_minus.png ](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![&#x200B; change_zoom_percentage_-_plus_minus.png &#x200B;](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. Als u aan een bepaald gebied op de videoproef moet pannen, klik het **Pannen** pictogram, dan sleep de proef zoals nodig.
 
-   ![ change_zoom_-_pan.png ](assets/change-zoom---pan-350x36.png)
+   ![&#x200B; change_zoom_-_pan.png &#x200B;](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >

@@ -25,7 +25,7 @@ Zie de Help-documentatie van [!DNL MobileIron] voor het installeren van de mobie
 * iOS
 * Android
 
-Voor informatie bij het vormen [!DNL Workfront] voor [!DNL MobileIron], zie [  [!DNL Adobe Workfront]  voor  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
+Voor informatie bij het vormen [!DNL Workfront] voor [!DNL MobileIron], zie [&#x200B;  [!DNL Adobe Workfront]  voor  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
 
 ## Intune
 

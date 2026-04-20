@@ -18,13 +18,13 @@ ht-degree: 18%
 
 # De standaard Adobe Workfront-lay-out
 
-De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon-left-nav.png), het linkerpaneel, en de meningen, de groeperingen, en de filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
+De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon-left-nav.png), het linkerpaneel, en de meningen, de groeperingen, en de filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
 
-Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [ gebruikers aan een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 >[!NOTE]
 >
->Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [ sectie van de Voorkeur ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+>Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [&#x200B; sectie van de Voorkeur &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [&#x200B; Mijn Montages &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 ## Standaardmenu-items voor elk type licentie
 
@@ -35,7 +35,7 @@ Uw organisatie kan twee typen licenties toewijzen:
 * Huidige licenties
 * Oudere licenties
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Standaardhoofdmenu voor huidige licentietypen
 

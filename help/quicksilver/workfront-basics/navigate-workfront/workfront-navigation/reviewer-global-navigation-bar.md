@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # De navigatie voor een gebruiker met een [!UICONTROL Light] licentie begrijpen
 
-[!UICONTROL Main Menu] verandert met het toegangsniveau u door uw [!DNL Adobe Workfront] beheerder bent toegewezen. Standaard krijgt u alleen toegang tot de gebieden die functionaliteit bevatten die door uw toegangsniveau is toegestaan. Om de componenten van de standaardlay-out van elk toegangsniveau te begrijpen, zie [ Ongeveer de standaard  [!DNL Adobe Workfront]  lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+[!UICONTROL Main Menu] verandert met het toegangsniveau u door uw [!DNL Adobe Workfront] beheerder bent toegewezen. Standaard krijgt u alleen toegang tot de gebieden die functionaliteit bevatten die door uw toegangsniveau is toegestaan. Om de componenten van de standaardlay-out van elk toegangsniveau te begrijpen, zie [&#x200B; Ongeveer de standaard  [!DNL Adobe Workfront]  lay-out &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## De standaardwaarde [!UICONTROL Main Menu] van een [!UICONTROL Light user] begrijpen
 
@@ -31,11 +31,11 @@ De volgende gebieden worden opgenomen in de standaardlay-out van een [!UICONTROL
 
 * **[!UICONTROL Requests]**: U kunt verzoeken die u of andere gebruikers van uw bedrijf in dit gebied hebben verzonden, verzenden en bekijken.
 * **[!UICONTROL Documents]**: U kunt documenten uploaden of documenten reviseren die hier met u worden gedeeld.
-* **[!UICONTROL Boards]**: Werk met flexibiliteit en samenwerking met uw teamleden via gedeelde borden die kolommen en kaarten bevatten die het werk weerspiegelen dat u wilt doen. Voor informatie, zie [ begonnen worden met raden: artikelindex ](../../../agile/get-started-with-boards/get-started-with-boards.md).
-* **[!UICONTROL Priorities]**: U kunt snel taken beheren en er een prioriteit van maken. Voor informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
+* **[!UICONTROL Boards]**: Werk met flexibiliteit en samenwerking met uw teamleden via gedeelde borden die kolommen en kaarten bevatten die het werk weerspiegelen dat u wilt doen. Voor informatie, zie [&#x200B; begonnen worden met raden: artikelindex &#x200B;](../../../agile/get-started-with-boards/get-started-with-boards.md).
+* **[!UICONTROL Priorities]**: U kunt snel taken beheren en er een prioriteit van maken. Voor informatie, zie [&#x200B; begonnen worden met Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-![ Licht gebruiker standaard HoofdMenu ](assets/light-user-main-menu.png)
+![&#x200B; Licht gebruiker standaard HoofdMenu &#x200B;](assets/light-user-main-menu.png)
 
 ## Uw standaard aanpassen [!UICONTROL Main Menu]
 
-Uw [!DNL Workfront] -beheerder kan de [!DNL Workfront] -standaardindeling wijzigen door u een lay-outsjabloon toe te wijzen. Voor meer informatie over het werken met lay-outmalplaatjes, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Uw [!DNL Workfront] -beheerder kan de [!DNL Workfront] -standaardindeling wijzigen door u een lay-outsjabloon toe te wijzen. Voor meer informatie over het werken met lay-outmalplaatjes, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

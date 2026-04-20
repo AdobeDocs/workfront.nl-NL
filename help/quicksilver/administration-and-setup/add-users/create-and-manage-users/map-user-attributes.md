@@ -45,7 +45,7 @@ Met SSO (Single Sign-On) kunt u kenmerken van de Active Directory van uw identit
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Houd rekening met het volgende wanneer u kenmerken toewijst:
 
 ## Gebruikerskenmerken toewijzen aan uw organisatie
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de upper-left hoek van Adobe Workfront, dan klik ](assets/main-menu-left.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de upper-left hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-left.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 

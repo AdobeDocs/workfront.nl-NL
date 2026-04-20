@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Omdat alle organisaties nu aan de Adobe Admin Console worden toegelaten, is de procedure niet meer beschikbaar.
 >
->Om gebruikersattributen in kaart te brengen in organisaties die aan Adobe Admin Console zijn genegeerd, zie [ de gebruikersattributen van de Kaart ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de gebruikersattributen van de artikel Kaart.
+>Om gebruikersattributen in kaart te brengen in organisaties die aan Adobe Admin Console zijn genegeerd, zie [&#x200B; de gebruikersattributen van de Kaart &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de gebruikersattributen van de artikel Kaart.
 
 <!--Remove me October 2026-->
 
