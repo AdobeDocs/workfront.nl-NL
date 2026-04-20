@@ -9,22 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 17%
+source-wordcount: '605'
+ht-degree: 18%
 
 ---
 
 # De standaard Adobe Workfront-lay-out
 
-De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![&#x200B; &#x200B;](assets/main-menu-icon-left-nav.png), als beschikbaar, het linkerpaneel, en de meningen, groeperingen, en filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
+De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon-left-nav.png), het linkerpaneel, en de meningen, de groeperingen, en de filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
 
-Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [ gebruikers aan een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 >[!NOTE]
 >
->Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [&#x200B; sectie van de Voorkeur &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [&#x200B; Mijn Montages &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+>Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [ sectie van de Voorkeur ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 ## Standaardmenu-items voor elk type licentie
 
@@ -32,16 +32,213 @@ De standaardlay-out van elke gebruiker is afhankelijk van het type licentie. Som
 
 Uw organisatie kan twee typen licenties toewijzen:
 
-* Nieuwe licenties
 * Huidige licenties
+* Oudere licenties
 
-<!--rename the above if we change Current to Legacy-->
-
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Standaardhoofdmenu voor huidige licentietypen
 
 In de volgende tabel worden de standaarditems van het hoofdmenu en de items van het linkerdeelvenster weergegeven voor elk type licentie:
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-fymr">Gebied</th>
+    <th class="tg-fymr">Items van het linkerdeelvenster</th>
+    <th class="tg-fymr">Systeembeheerder</th>
+    <th class="tg-fymr">Standard</th>
+    <th class="tg-fymr">Licht</th>
+    <th class="tg-fymr">Medewerker</th>
+    <th class="tg-fymr">Externe gebruiker</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Startpagina</td>
+    <td class="tg-0pky">De Prioriteiten van het huis <br></td>
+    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
+    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Projecten</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ </td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Portfolio's</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Programma's</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Rapporten</td>
+    <td class="tg-0pky">Mijn die Rapporten <br> met me <br> worden gedeeld Alle Rapporten</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Gedeeld met mij en Alle Rapporten in het linkerpaneel)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Dashboards</td>
+    <td class="tg-0pky">Mijn dashboards <br> Gedeelde dashboards <br> Alle dashboards <br> de Dashboards van het Canvas*</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Kalenders</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Bronnen</td>
+    <td class="tg-0pky">De Boorden van het Middel van de Planner <br> van de Werklastverdeling <br><br></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Teams</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Gebruikers</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Verzoeken</td>
+    <td class="tg-0pky">Verzonden <br> concepten</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Timesheets</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Documenten</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sjablonen</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Scenarios</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Borden</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Blauwdrukken</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (installatiefunctie)</td>
+    <td class="tg-0pky">✔ (alleen aanvraagmogelijkheden)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Prioriteiten</td>
+    <td class="tg-0pky">De Prioriteiten van het huis <br></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Instellen</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔ (beperkte functionaliteit)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Mijn updates</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
+
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+
+### Standaardhoofdmenu voor oudere licentietypen
+
+In de volgende tabel worden de standaarditems van het hoofdmenu en de items van het linkerdeelvenster weergegeven voor elk type oudere licentie:
 
 <table class="tg"><thead>
   <tr>
@@ -260,389 +457,4 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
 
 *U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
-### Standaardhoofdmenu voor nieuwe licentietypen
 
-In de volgende tabel worden de standaarditems van het hoofdmenu en de items van het linkerdeelvenster weergegeven voor elk nieuw type licentie:
-
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-fymr">Gebied</th>
-    <th class="tg-fymr">Items van het linkerdeelvenster</th>
-    <th class="tg-fymr">Systeembeheerder</th>
-    <th class="tg-fymr">Standard</th>
-    <th class="tg-fymr">Licht</th>
-    <th class="tg-fymr">Medewerker</th>
-    <th class="tg-fymr">Externe gebruiker</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">Startpagina</td>
-    <td class="tg-0pky">De Prioriteiten van het huis <br></td>
-    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
-    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Projecten</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ </td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Portfolio's</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Programma's</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Rapporten</td>
-    <td class="tg-0pky">Mijn die Rapporten <br> met me <br> worden gedeeld Alle Rapporten</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (Gedeeld met mij en Alle Rapporten in het linkerpaneel)</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Dashboards</td>
-    <td class="tg-0pky">Mijn dashboards <br> Gedeelde dashboards <br> Alle dashboards <br> de Dashboards van het Canvas*</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Kalenders</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Bronnen</td>
-    <td class="tg-0pky">De Boorden van het Middel van de Planner <br> van de Werklastverdeling <br><br></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Teams</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Gebruikers</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Verzoeken</td>
-    <td class="tg-0pky">Verzonden <br> concepten</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Timesheets</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Documenten</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Sjablonen</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Scenarios</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Borden</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Blauwdrukken</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (installatiefunctie)</td>
-    <td class="tg-0pky">✔ (alleen aanvraagmogelijkheden)</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Prioriteiten</td>
-    <td class="tg-0pky">De Prioriteiten van het huis <br></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔<br></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Instellen</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔ (beperkte functionaliteit)</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Mijn updates</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky"></td>
-  </tr>
-</tbody></table>
-
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
-
-<!--
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Area</th> 
-   <th> Left panel items </th> 
-   <th> System Administrator</th> 
-   <th> Planner </th> 
-   <th>Worker</th> 
-   <th>Reviewer</th> 
-   <th>Requestor</th> 
-   <th>External User</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td rowspan="2"><strong>Projects</strong> </td> 
-   <td><strong>Projects</strong> </td> 
-   <td>✔ <br>(Default landing area)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing area)</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Portfolios</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="3"><strong>Reporting</strong> </td> 
-   <td><strong>Reports</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td> <p><strong>Dashboards</strong> </p> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Calendars</strong> </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="5"><strong>People</strong> (renamed to <strong>Teams</strong> for users with a Work license)</td> 
-   <td><strong>Teams</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>People</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Planning</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Scheduling</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="3"><strong>Requests</strong> </td> 
-   <td>New Request </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Requests I've Submitted</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ <br>(Default landing area)</td> 
-   <td>✔ <br>(Default landing area)</td> 
-  </tr> 
-  <tr> 
-   <td><strong>All Requests</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-  </tr> 
-  <tr> 
-   <td rowspan="3"><strong>Timesheet</strong> </td> 
-   <td><strong>My Timesheets</strong> </td> 
-   <td>✔ </td> 
-   <td> ✔</td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Timesheets I Approve</strong> </td> 
-   <td>✔</td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>All Timesheets</strong> </td> 
-   <td>✔</td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Documents</strong> </td> 
-   <td>&nbsp;</td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Setup</strong> </td> 
-   <td>&nbsp;</td> 
-   <td>✔ </td> 
-   <td>Limited Functionality</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
- </tbody> 
-</table>
--->

@@ -8,14 +8,20 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] Veelgestelde vragen
+
+<!--Remove me October 2026-->
+
+>[!NOTE]
+>
+>Alle Workfront-organisaties gebruiken nu de Adobe Unified Experience voor toegang tot Workfront.
 
 Met [!DNL Adobe Unified Experience] for [!DNL Workfront] kunt u al uw [!DNL Adobe] -toepassingen op één locatie beheren met één aanmelding. Het navigatiegebied van [!DNL Adobe] wordt naadloos geïntegreerd met [!DNL Workfront] . Enkele functies verschillen en u hebt mogelijk enkele vragen omdat uw [!DNL Workfront] -instantie naar de uniforme ervaring wordt gemigreerd.
 
@@ -29,7 +35,7 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 
 | [!DNL Adobe Unified Experience] | [!DNL Workfront] alleen ervaring |
 | ---- | ----|
-| [!UICONTROL [!DNL Workfront] Main Menu] is op het linker![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon-left-nav.png) | [!UICONTROL [!DNL Workfront] Main Menu] is op het juiste ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) |
+| [!UICONTROL [!DNL Workfront] Main Menu] is op het linker![ Belangrijkste Menu ](assets/main-menu-icon-left-nav.png) | [!UICONTROL [!DNL Workfront] Main Menu] is op het juiste ![ Belangrijkste Menu ](assets/main-menu-icon.png) |
 | Er is één aanmeldings-URL beschikbaar voor alle [!DNL Adobe Experience Cloud] -toepassingen | Meld u aan bij [!DNL Workfront] met een aangepaste [!DNL Workfront] URL |
 | Met een &quot;bedrijfsswitch&quot; kunt u schakelen tussen [!DNL Workfront] organisaties en omgevingen | De &quot;organisatieschakeloptie&quot; is niet beschikbaar |
 | Navigatie omvat een navigatiegebied op hoofdniveau voor [!DNL Adobe] -producten, [!DNL Adobe] -meldingen, Help en uw gebruikersprofiel, naast de navigatiebalk van [!DNL Workfront] | Navigatie bevat alleen de navigatiebalk van [!DNL Workfront] |
@@ -57,11 +63,11 @@ Lees de volgende artikelen voor meer informatie over [!DNL Admin Console] :
 
 * [Voor  [!DNL Adobe Admin Console] voorbereiden](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [[!DNL Adobe Admin Console]  overzicht &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html)
+* [[!DNL Adobe Admin Console]  overzicht ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html)
 
 ### Wat moet ik als klant doen om de migratie te vergemakkelijken?
 
-Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken. Herzie [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/workfront/faq) voor meer informatie.
+Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken. Herzie [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) voor meer informatie.
 
 ### Hoe gaat u met [!DNL Adobe Admin Console] voor bedrijven die dit al hebben ingeschakeld voor gefedereerde id&#39;s anders dan met [!DNL Workfront] SSO is ingesteld?
 

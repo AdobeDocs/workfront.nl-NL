@@ -6,73 +6,88 @@ description: U kunt uw  [!DNL Adobe Workfront]  wachtwoord terugstellen. Als bel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
+source-git-commit: 75611cc7c90a3f5935466f2d40ee1bb8243e0e10
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
 # Wachtwoord opnieuw instellen
 
+>[!IMPORTANT]
+>
+>De op deze pagina beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console.
+>
+>Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
-U kunt het wachtwoord van [!DNL Adobe Workfront] opnieuw instellen. Als belangrijke veiligheidsmaatregel, adviseren wij dat u dit regelmatig doet.
+You can reset your [!DNL Adobe Workfront] password. As an important security measure, we recommend that you do this regularly.
 
 >[!NOTE]
 >
->Een [!DNL Workfront] beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in [&#x200B; worden verklaard vormt de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [&#x200B; vormt wachtwoordbeleid voor authentificatie &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>A [!DNL Workfront] administrator can configure custom password restrictions, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
-><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
+>[!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
-## Toegangsvereisten
+<!--
+## Access requirements
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col>
+ </col> 
+ <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>Medewerker of hoger</p>
-   <p>Aanvraag of hoger</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Uw wachtwoord opnieuw instellen in [!DNL Adobe Workfront]
+## Reset your password in [!DNL Adobe Workfront]
 
 {{step1-click-profile-pic}}
 
-![&#x200B; open het belangrijkste menu en selecteer uw gebruikersnaam.](assets/main-menu-options-350x481.png)
+   ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
-1. Klik **[!UICONTROL More menu]** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
+1. Click the **[!UICONTROL More menu]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
-1. Klik onder **[!UICONTROL Edit Person]** in het vak **[!UICONTROL Personal Info]** dat wordt weergegeven op **[!UICONTROL Change password]** .
+1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Change password]**.
 
-   ![&#x200B; klik het wachtwoord van de Verandering &#x200B;](assets/edit-user-change-password.png)
+   ![Click Change password](assets/edit-user-change-password.png)
 
-   Als uw organisatie [!DNL Workfront] met een oplossing SSO heeft geïntegreerd, kunt u worden verpletterd om uw wachtwoorden door uw SSO systeem terug te stellen wanneer u **[!UICONTROL Change password]** klikt. Hiermee wordt uw SSO-wachtwoord opnieuw ingesteld, wat invloed heeft op het aanmelden bij al uw andere toepassingen binnen uw organisatie.
+   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Change password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
-1. Typ uw oude wachtwoord en typ het nieuwe wachtwoord dat u twee keer wilt.
+1. Type your old password, then type the new password you want twice.
 
-   Uw wachtwoord moet ten minste 8 tekens hebben en twee van de volgende typen tekens bevatten:
+   Your password must be at least 8 characters and contain two of the following types of characters:
 
-   * Hoofdletters
-   * Kleine letters
-   * Getallen
-   * Speciale tekens (zoals ! @ # $ %)
+   * Uppercase letters
+   * Lowercase letters
+   * Numbers
+   * Special characters (such as ! @ # $ %)
 
-   De regels van het wachtwoord kunnen strenger zijn dan dit, afhankelijk van configuratiemontages die door uw [!DNL Workfront] beheerder worden geplaatst.
+   Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
+
+-->

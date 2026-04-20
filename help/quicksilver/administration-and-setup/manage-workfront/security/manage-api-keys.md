@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 >* Serververificatie met JWT
 >* Gebruikersverificatie met OAuth2
 >
->Voor instructies bij vestiging deze authentificatiemethodes, zie [&#x200B; tot toepassingen OAuth2 voor de integratie van Workfront leiden &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>Voor instructies bij vestiging deze authentificatiemethodes, zie [ tot toepassingen OAuth2 voor de integratie van Workfront leiden ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [ vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
 >
->Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Adobe Workfront-beheerders kunnen de API-sleutels beheren die worden gebruikt om toepassingen in staat te stellen om namens een gebruiker toegang te krijgen tot Workfront, om zo kwetsbaarheden op het gebied van API-beveiliging tot een minimum te beperken.
 
@@ -74,7 +74,7 @@ Voorbeelden van toepassingen die gebruikmaken van de Workfront API zijn:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,39 +106,45 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 
    Om de API Sleutel te verwijderen: In de **API Zeer belangrijke sectie van Montages**, **verwijdert**, dan **verwijdert**.
 
-## Een API-sleutel genereren voor gebruikers die geen beheerder zijn
+<!--
 
-U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders genereren en beheren.
+   Remove me October 2026
+
+## Generate an API Key for Non-Admin Users
+
+You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. (Voorwaardelijk) als uw organisatie Single Sign-On (SSO) toegangsbeheer gebruikt, maak tijdelijk de optie onbruikbaar die authentificatie SSO vereist.
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.
 
-   1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
-   1. Op het **gebied van het Type**, selecteer het type van SSO uw organisatiegebruik.
-   1. Met het geselecteerde type, scrol neer en ontruim **&#x200B;**&#x200B;checkbox toelaten.
-      ![&#x200B; laat SSO &#x200B;](assets/sysadmin-security-sso-disable-31620-350x320.png) toe
-   1. Klik **sparen**.
-
-
-1. Voer in de adresbalk van een browser de volgende API-aanroep in:
-
-   `<domain>` .my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**gebruikersbenaming** &amp;password= **wachtwoord** &amp;method=PUT
-
-   Vervang `<domain>` door uw Workfront-domeinnaam, gebruikersnaam en wachtwoord door de Workfront-gebruikersgegevens van de gebruiker.
-
-1. (Voorwaardelijk) laat de optie toe die authentificatie vereist SSO als u het in Stap 1 onbruikbaar maakte.
-
-   {{step-1-to-setup}}
-
-   1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
-
-   1. Selecteer uw methode SSO in het **Type** drop-down menu.
-   1. Schakel het selectievakje in waarvoor SSO-verificatie is vereist.
+   -->
 
 ## Configureren wanneer API-sleutels verlopen
 
@@ -157,7 +163,7 @@ U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wan
 
    Deze optie is standaard niet ingeschakeld.
 
-   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [&#x200B; de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [ de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 1. Klik **sparen**.
 
@@ -175,57 +181,63 @@ Als u zich zorgen maakt over een bepaalde inbreuk op de beveiliging van uw Workf
 
 1. In het **Belangrijkste gebied van Montages API**, verwijdert de klik **alle API sleutels**, dan klikt **verwijdert** **allen**.
 
-## API-aanmeldingen beperken met een X.509-certificaat
+<!--
+
+Remove me October 2026
+
+## Restricting API logins with an X.509 certificate
 
 >[!IMPORTANT]
 >
->De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
+>The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to Workfront through the Workfront API is not available if your organization has been onboarded to the Adobe Business Platform.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
->Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie is ingeschakeld met Adobe IMS. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-Toepassingen van derden kunnen met Workfront communiceren via de API. Om de beveiliging van uw Workfront-site te verhogen, kunt u Workfront zodanig configureren dat de aanmeldingsaanvragen voor de API worden beperkt door een X.509-certificaat naar Workfront te uploaden. Als deze optie is ingeschakeld, moeten alle aanmeldingsaanvragen via de API naast gebruikersnaam en wachtwoord ook een clientcertificaat bevatten.
+Third-party applications can communicate with Workfront through the API. To increase the security of your Workfront site, you can configure Workfront to restrict API login requests by uploading an X.509 certificate to Workfront. Once enabled, all login requests through the API must include a client certificate in addition to username and password.
 
-* [&#x200B; verkrijg het X.509- certificaat &#x200B;](#obtain-the-x-509-certificate)
-* [&#x200B; upload het certificaat aan Workfront &#x200B;](#upload-the-certificate-to-workfront)
-* [Verifieer API login vraag wordt beperkt](#verify-api-login-calls-are-restricted)
+* [Obtain the X.509 certificate](#obtain-the-x-509-certificate) 
+* [Upload the certificate to Workfront](#upload-the-certificate-to-workfront) 
+* [Verify API login calls are restricted](#verify-api-login-calls-are-restricted)
 
-### Het X.509-certificaat ophalen {#obtain-the-x-509-certificate}
+### Obtain the X.509 certificate {#obtain-the-x-509-certificate}
 
-Vraag een geldig X.509-certificaat aan bij een vertrouwde certificeringsinstantie (zoals Verisign) en sla dit op een tijdelijke locatie op uw werkstation op.
+Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and save it to a temporary location on your workstation. 
 
-### Het certificaat uploaden naar Workfront {#upload-the-certificate-to-workfront}
+### Upload the certificate to Workfront {#upload-the-certificate-to-workfront}
 
-Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moet u het uploaden naar Workfront.
+After you have obtained the X.509 certificate from your Certificate Authority, you need to upload it to Workfront.
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  
 
-1. Breid **Systeem** uit, dan klik **Info van de Klant**.
+1. Expand **System**, then click **Customer Info**.
 
-1. In het **Belangrijkste gebied van Montages API**, uitgezochte **vereist X.509 Certificaat voor API logins**.
-1. Klik **Certificaat van de Verandering**.
-1. Blader op uw werkstation naar het X.509-certificaat dat u eerder hebt gedownload en selecteer dit certificaat.
-1. (Facultatief) klik **Details van de Mening** naast de certificaatnaam om de volgende details over het certificaat te bekijken:
+1. In the **API Key Settings** area, select **Require X.509 Certificate for API logins**.
+1. Click **Change Certificate**.
+1. On your workstation, browse to and select the X.509 certificate that you previously downloaded.
+1. (Optional) Click **View Details** next to the certificate name to view the following details about the certificate:
 
-   * Onderwerpnaam
-   * Onderwerp Organisatie
-   * Onderwerpeenheid
-   * Algemene naam van uitgever
-   * Uitgevende organisatie
-   * Eenheid emittentenorganisatie
-   * Serienummer
-   * Datum van afgifte
-   * Vervaldatum
+   * Subject Common Name
+   * Subject Organization
+   * Subject Organization Unit
+   * Issuer Common Name
+   * Issuer Organization
+   * Issuer Organization Unit
+   * Serial Number
+   * Issue Date
+   * Expiration Date
 
-1. Klik **sparen**.
+1. Click **Save**. 
 
-### Verifieer API login vraag wordt beperkt {#verify-api-login-calls-are-restricted}
+### Verify API login calls are restricted {#verify-api-login-calls-are-restricted}
 
-Voordat u uw instantie van Workfront configureert om een X.509-certificaat te vereisen, moet u een API-aanvraag uitvoeren naar het `/login` -eindpunt met behulp van geldige gebruikersnaam- en wachtwoordparameters. U zult een 200 reactie ontvangen die een sessionID bevat.
+Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the `/login` endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
 
-Nadat u van het X.509-certificaat een vereiste hebt gemaakt via de pagina met klantgegevens in uw exemplaar van Workfront, probeert u zich opnieuw aan te melden. Dit keer ontvangt u een 500-foutreactie met het volgende bericht: &quot;Niet-vertrouwd verzoek. Neem contact op met de systeembeheerder en voeg het certificaat bij.&quot;
+After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: "Untrusted request. Please contact your system administrator and attach certificate."
 
-Nadat u hebt bevestigd dat het X.509-certificaat vereist is, voert u hetzelfde aanmeldingsverzoek uit met een extra parameter voor apiCertificate die is ingesteld op de waarde van het certificaat. Als deze verrichting correct werd uitgevoerd zult u een 200 reactie ontvangen die geldige sessionID bevat.
+After confirming that the X.509 certificate is required, perform the same login request with an additional parameter for apiCertificate set to the value of your certificate. If this operation was performed correctly you will receive a 200 response that contains a valid sessionID.
+
+-->

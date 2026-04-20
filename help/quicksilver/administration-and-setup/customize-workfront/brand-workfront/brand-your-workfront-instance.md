@@ -3,14 +3,14 @@ title: Adobe Workfront-instantie merkbaar
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Als Workfront-beheerder kunt u Workfront voorzien van logo's in het aanmeldingsscherm, het bovenste navigatiegebied en het Hoofdmenu. U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen.
+description: Branding is niet meer beschikbaar voor Adobe Workfront. Deze functie is vervangen als onderdeel van het instappen van Workfront in Adobe Experience Cloud.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -23,118 +23,125 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij [!DNL Adobe Experience Cloud] .
+>Branding is niet meer beschikbaar voor Adobe Workfront. Deze functie is vervangen als onderdeel van het instappen van Workfront in Adobe Experience Cloud.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> Als uw organisatie is aangemeld bij [!DNL Adobe Experience Cloud] , is branding niet beschikbaar.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-Als Workfront-beheerder kunt u Workfront op de volgende plaatsen voorzien van logo&#39;s:
+As a Workfront administrator, you can brand Workfront with logos in the following places:
 
-* Aanmeldingsscherm
+* Login screen
 
-  ![&#x200B; Merk in login scherm &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Brand in login screen](assets/brand-login-screen-nwe-adobe.jpg)
 
-* Bovenste navigatiegebied
+* Top navigation area
 
-  ![&#x200B; Merk in hoogste navigatie &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Brand in top navigation](assets/brand-top-nav-area-nwe-adobe.jpg)
 
-* Hoofdmenu
+* Main Menu
 
-  ![&#x200B; Merk in hoofdmenu &#x200B;](assets/brand-main-menu-adobe.jpg)
+  ![Brand in main menu](assets/brand-main-menu-adobe.jpg)
 
-U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen:
+You can also change the background image and color of the login screen:
 
-![&#x200B; Banner op login scherm &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
+![Banner on login screen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
->* Het wijzigen van de achtergrondafbeelding en -kleur van de aanmelding is niet beschikbaar als de Workfront-instantie van uw organisatie een aangepast SSO-portaal gebruikt. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+>* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 >
-><!-- or is enabled with Adobe IMS -->
 >
->* Een Workfront-beheerder of groepsbeheerder kan Workfront ook markeren voor bepaalde groepen en gebruikers met behulp van een lay-outsjabloon. Branding in een lay-outmalplaatje treedt de systeem-vlakke branding met voeten die in dit artikel wordt verklaard. Voor instructies op branding in een lay-outmalplaatje, zie [&#x200B; merk Adobe Workfront gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
+>* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
-## Toegangsvereisten
+## Access requirements
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront-pakket</td> 
-   <td><p>Alle</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
        <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td>Configuraties op toegangsniveau</td> 
-   <td>Systeembeheerder</td> 
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Het aanmeldingsscherm verfijnen
+## Brand the login screen
 
 {{step-1-to-setup}}
 
-1. Klik **Systeem** > **Brandend**.
+1. Click **System** > **Branding**.
 
-1. Breng een van de volgende wijzigingen aan om Workfront aan te passen aan uw brandingafbeeldingen.
+1. Make any of the following changes to customize Workfront with your branding images.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Brand het pictogram van het Huis <span style="font-weight: normal;"> (vertoningen bij uiterst links van het hoogste navigatiegebied) </span></p> </td> 
-      <td> <p>In het <strong> Hoogste navigatiegebied </strong> sectie, onder <strong> pictogram van het Huis </strong>, klik overal in de doos, dan vind en selecteer uw embordbeeld. Of sleep een afbeelding naar het vak.</p> <p>Als u de afbeelding wilt uitsnijden, gebruikt u de besturingselementen voor schuiven en sleept u de afbeelding naar de gewenste positie binnen de voorgeschreven ruimte.</p> <p>We raden een afbeelding van 120 x 120 aan. De notatie kan de volgende notaties hebben: GIF, JPG, PNG, SVG.</p> <p>Dit pictogram wordt ook weergegeven in rapporten, lijsten, dashboards en geleverde rapporten die gebruikers exporteren als PDF-bestanden.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Merk het Hoofdmenu <img src="assets/main-menu-icon.png"> embleem <span style="font-weight: normal;"> (vertoningen in de hoger-juiste hoek van het Hoofdmenu) </span></p> </td> 
-      <td> <p>In het <strong> Hoogste navigatiegebied </strong> sectie, onder <strong> het Belangrijkste embleem van het Menu </strong>, klik overal in de doos, dan vind en selecteer uw embordbeeld. Of sleep een afbeelding naar het vak.</p> <p>Als u de afbeelding wilt uitsnijden, gebruikt u de besturingselementen voor schuiven en sleept u de afbeelding naar de gewenste positie binnen de voorgeschreven ruimte.</p> <p>We raden een afbeelding van 300 x 120 pixels aan. De notatie kan de volgende notaties hebben: GIF, JPG, PNG, SVG.</p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Merk het login het schermembleem <span style="font-weight: normal;"> (vertoningen in top-left van de doos waar de gebruikers login geloofsbrieven typen) </span></td> 
-      <td> <p>Onder <strong> Login het Scherm </strong>, klik overal in de doos, dan vind en selecteer uw embleembeeld. Als u de afbeelding wilt uitsnijden, gebruikt u de besturingselementen voor schuiven en sleept u de afbeelding naar de gewenste positie binnen de voorgeschreven ruimte.</p> <p>We raden een afbeelding van 300 x 120 pixels aan. De notatie kan de volgende notaties hebben: GIF, JPG, PNG, SVG.</p> </td> 
+      <td role="rowheader">Brand the login screen logo <span style="font-weight: normal;">(displays in the top-left of the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, click anywhere in the box, then find and select your logo image. To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Merk de achtergrondkleur van het login scherm <span style="font-weight: normal;"> (vertoningen achter de doos waar de gebruikers login geloofsbrieven typen) </span></td> 
-      <td> <p>Onder <strong> Login het Scherm </strong>, plaats a <strong> Achtergrondkleur </strong>. </p> <p>U kunt RGB- of HEX-kleurcodes gebruiken.</p> <p>De achtergrondkleur is alleen zichtbaar als de achtergrond van het aanmeldingsscherm groter is dan de achtergrondafbeelding van het aanmeldingsscherm (zie de volgende rij in deze tabel) of als de afbeelding transparant is.</p> </td> 
+      <td role="rowheader">Brand the login screen background color <span style="font-weight: normal;">(displays behind the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, set a <strong>Background Color</strong>. </p> <p>You can use RGB or HEX color codes.</p> <p>The background color is visible only if the login screen background is larger than the login screen background image (see the next row in this table) or if there is any transparency in the image.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Merk het login scherm achtergrondbeeld <span style="font-weight: normal;"> (vertoningen achter de doos waar de gebruikers hun login geloofsbrieven typen) </span></td> 
+      <td role="rowheader">Brand the login screen background image <span style="font-weight: normal;">(displays behind the box where users type their login credentials)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> In het <strong> gebied van het het Login Scherm van de 1&rbrace; Login, onder </strong> Achtergrondbeeld <strong>, klik de doos, dan vind en selecteer uw beeld of beelden van JPG of van PNG (tot 20).</strong> </p> <p>Meerdere achtergrondafbeeldingen worden in willekeurige volgorde weergegeven, waarbij gebruikers hun aanmeldingspagina telkens vernieuwen. We raden afbeeldingen aan die niet groter zijn dan 2 MB.</p> </li> 
-        <li value="2"> <p>Houd de muisaanwijzer boven elke achtergrondafbeelding die u hebt geüpload, klik op het pictogram Instellingen (versnelling) en gebruik een van de volgende opties om op te geven waar en hoe u de afbeelding wilt weergeven op de achtergrond van het aanmeldingsscherm:</p> 
+        <li value="1"> <p> In the <strong>Login Screen</strong> area, under <strong>Background Image</strong>, click the box, then find and select your JPG or PNG image or images (up to 20 ). </p> <p>Multiple background images display in random order, changing each time users refresh their login page. We recommend images no larger than 2 MB.</p> </li> 
+        <li value="2"> <p>Hover over each background image you have uploaded, click the Settings (gear) icon, and use any of the following options to specify where and how you want the image to appear in the login screen background:</p> 
          <ul> 
-          <li> <p><strong> het Scherm van de Vulling </strong>: Past het beeld aan de login het schermachtergrond aan, die het beeld kan vergroten. Gebruik een afbeelding met hoge resolutie (maximaal 2 MB) voor de beste resultaten.</p> <p>Als u deze optie gebruikt, bedekt de Workfront-banner, die niet aanpasbaar is, een deel van de afbeelding.</p> </li> 
-          <li> <p><strong> Tegel </strong>: Tegels uw beeld over het login het achtergrondgebied van het scherm, in zijn originele grootte. Dit is handig als u een patroon wilt maken. Selecteer een blauwe uitlijningsoptie om de verdeling te starten vanuit de linkerbovenhoek, het midden boven of de rechterbovenhoek van het achtergrondgebied.</p> </li> 
-          <li> <p><strong> Positie </strong>: Plaatst uw beeld in zijn originele grootte in de positie u het gebruiken van één van de blauwe groeperingsopties kiest: top-left, top-center, of top-right van het login scherm achtergrondgebied.</p> <p>De achtergrondkleur vult de rest van het achtergrondgebied van het aanmeldingsscherm. Zie de vorige rij in deze tabel voor meer informatie over de achtergrondkleur.</p> </li> 
+          <li> <p><strong>Fill Screen</strong>: Fits the image to the login screen background, which may enlarge the image. Use a high-resolution image (up to 2 MB) for the best results.</p> <p>When you use this option, the Workfront banner, which is not customizable, obscures part your image.</p> </li> 
+          <li> <p><strong>Tile</strong>: Tiles your image across the login screen background area, in its original size. This is useful for creating a pattern. Select a blue alignment option to start the tiling from the top-left corner, top-center, or top-right of the background area.</p> </li> 
+          <li> <p><strong>Position</strong>: Places your image in its original size in the position you choose using one of the blue alignment options: the top-left, top-center, or top-right of the login screen background area.</p> <p>The background color fills the rest of the login screen background area. For more about the background color, see the preceding row in this table.</p> </li> 
          </ul> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Standaardbranding herstellen</td> 
-      <td> <p>Als u de standaardbranding herstelt, verwijdert u alle foto's en afbeeldingen die u hebt geüpload.</p> <p>Klik <strong> terugstellen allen brandend aan de gebreken van Workfront </strong> in de laag-juiste hoek van het scherm, dan klik ja <strong> </strong>.</p> </td> 
+      <td role="rowheader">Reset to the default branding</td> 
+      <td> <p>Resetting to the default branding deletes all photos and images that you have uploaded.</p> <p>Click <strong>Reset all branding to Workfront defaults</strong> in the lower-right corner of the screen, then click <strong>Yes</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie een aangepast SSO-portaal gebruikt.
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.
    >
-   ><!--  or is enabled with Adobe IMS -->
    >
-   >Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
+   >See your network or IT administrator if you need more information.
 
-1. Klik **sparen**.
+1. Click **Save**.
+
+-->

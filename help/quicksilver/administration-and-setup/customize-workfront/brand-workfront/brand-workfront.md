@@ -4,15 +4,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Als Workfront-beheerder kunt u de branding in uw Workfront-exemplaar aanpassen en een aangepaste Help-URL maken.
+description: Als Workfront-beheerder kunt u een aangepaste Help-URL maken.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; merk uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+* [ merk uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
 * [Een aangepaste Help-URL configureren](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

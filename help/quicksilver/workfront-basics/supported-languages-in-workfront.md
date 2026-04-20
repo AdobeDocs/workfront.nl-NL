@@ -8,9 +8,9 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Workfront weergeeft door de taalvoorkeuren aan te passen op uw browser (als uw organisatie niet naar Adobe Admin Console is gemigreerd) of uw voorkeur voor de Adobe Experience Cloud-profieltaal (als deze zich in Adobe Admin Console bevindt) en uw standaard-e-maillandinstelling in Workfront.
 
-Om de taal te veranderen waarin u werkfront toont, zie [&#x200B; de taal &#x200B;](#change-the-language) in dit artikel veranderen.
+Om de taal te veranderen waarin u werkfront toont, zie [ de taal ](#change-the-language) in dit artikel veranderen.
 
 Bij elke Workfront-update wordt de Workfront-terminologie bijgewerkt voor de ondersteunde talen.
 
@@ -40,7 +40,7 @@ De taal die wordt gebruikt om Workfront in uw browser te bekijken wordt gecontro
 
 Als u uitgaande e-mailberichten in een van de ondersteunde talen wilt weergeven, wijzigt u de instellingen voor de landinstelling van de e-mail van de gebruiker of voor klantgegevens in Workfront.\
 U moet een Workfront-beheerder zijn om de instellingen voor klantgegevens te wijzigen.\
-Voor meer informatie over het veranderen van de Plaats van Info van de Klant en van de E-mail van de Gebruiker, zie [&#x200B; de Plaatsen van Workfront en van de E-mail van de Gebruiker veranderen &#x200B;](#change-the-workfront-and-user-locales).
+Voor meer informatie over het veranderen van de Plaats van Info van de Klant en van de E-mail van de Gebruiker, zie [ de Plaatsen van Workfront en van de E-mail van de Gebruiker veranderen ](#change-the-workfront-and-user-locales).
 
 U kunt derden contracteren om de Workfront-interface en de uitgaande e-mails van Workfront in andere talen te laten vertalen. Deze vertalingen worden niet ondersteund door Workfront en andere talen dan de hierboven vermelde worden niet ondersteund.
 
@@ -79,12 +79,12 @@ De volgende talen worden niet ondersteund in het proefdrukprogramma:
 
 Uw bedrijf moet een proefdruklicentie aanschaffen om toegang te krijgen tot de webproefdrukviewer.
 
-Voor meer informatie over het proef, zie [&#x200B; het Bewijzen &#x200B;](../review-and-approve-work/proofing/proofing.md).
+Voor meer informatie over het proef, zie [ het Bewijzen ](../review-and-approve-work/proofing/proofing.md).
 
 Als u Workfront weergeeft in een taal die niet wordt ondersteund in het proefdrukprogramma, wordt de webproefdrukviewer weergegeven in het Engels.
 
 Als u Workfront Proof (het standalone proefdrukhulpmiddel) in een taal gebruikt die niet in Workfront wordt gesteund, toont de Kijker van het Web het Proofing binnen Workfront in het Engels.\
-Voor meer informatie over de talen die in Workfront Proof worden gesteund, zie [&#x200B; Montages van de Taal in Workfront Proof &#x200B;](../workfront-proof/wp-getstarted/system-information/language-settings.md).
+Voor meer informatie over de talen die in Workfront Proof worden gesteund, zie [ Montages van de Taal in Workfront Proof ](../workfront-proof/wp-getstarted/system-information/language-settings.md).
 
 ## Ondersteunde taal in Adobe Workfront Fusion
 
@@ -94,13 +94,13 @@ Workfront Fusion biedt momenteel alleen ondersteuning voor Engels.
 * Workfront Fusion ondersteunt het gebruik van niet-Engelse teksttekens in door gebruikers ingevoerde velden niet.
 
 Uw bedrijf moet een Workfront Fusion-licentie aanschaffen om toegang te krijgen tot Workfront Fusion.\
-Voor meer informatie over de Fusie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## De taal wijzigen
 
 U kunt de taal wijzigen waarin u Workfront weergeeft en de taal van de uitgaande e-mails door de volgende instellingen te wijzigen:
 
-* De taal op uw browser (voor gebruikers niet op de Adobe Admin Console)
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * De primaire en secundaire taal van uw AEM-profiel (voor gebruikers op de Adobe Admin-console)
 * De landinstellingen voor klantgegevens en e-maillandinstellingen voor gebruikers in uw Workfront-account.
 
@@ -110,21 +110,25 @@ Als u wilt bepalen of uw organisatie naar de Adobe Admin Console is gemigreerd, 
 
 | URL | Adobe-ervaring | Taalcontrole |
 |---|---|---|
-| (Bedrijfsnaam).my.workfront.com | Niet gemigreerd naar Adobe Admin Console | [&#x200B; Verandering de browser taal &#x200B;](#change-the-browser-language) |
-| experience.adobe.com | Gegigreerd naar Adobe Admin Console | [&#x200B; Verandering de taal van Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) |
+| (Bedrijfsnaam).my.workfront.com | Niet gemigreerd naar Adobe Admin Console | [ Verandering de browser taal ](#change-the-browser-language) |
+| experience.adobe.com | Gegigreerd naar Adobe Admin Console | [ Verandering de taal van Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) |
 
 * [De browsertaal wijzigen](#change-the-browser-language)
 * [De Adobe Experience Cloud-taal wijzigen](#change-the-adobe-experience-cloud-language)
 * [De landinstellingen van Workfront en de gebruikersmail wijzigen](#change-the-workfront-and-user-locales)
 
-### De browsertaal wijzigen {#change-the-browser-language}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-Als uw organisatie niet naar de Adobe Admin Console is gemigreerd en u de browsertaal wijzigt, wordt uw Workfront-interface in die taal weergegeven.\
-Voor meer informatie over welke talen door Workfront worden gesteund, zie [&#x200B; Gesteunde talen in Adobe Workfront &#x200B;](#supported-languages).
+<!--
 
-De browsertaal moet op individuele gebruikersbasis worden gewijzigd.
+### Change the browser language {#change-the-browser-language}
 
-Zie het menu &quot;Help&quot; voor uw browser voor specifieke informatie over het wijzigen van de taal van uw browser.
+If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
+
+The browser language must be changed on an individual user basis.
+
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### De Adobe Experience Cloud-taal wijzigen
 
@@ -138,7 +142,7 @@ Als uw organisatie is gemigreerd naar de Adobe Admin Console, bepaalt uw Adobe E
 
 ### De landinstellingen van Workfront en de gebruikersmail wijzigen {#change-the-workfront-and-user-locales}
 
-* [&#x200B; verander de standaardWorkfront E-maillandinstelling &#x200B;](#change-the-workfront-locale)
+* [ verander de standaardWorkfront E-maillandinstelling ](#change-the-workfront-locale)
 * [De landinstelling van de e-mail van de gebruiker wijzigen](#change-the-user-locale)
 
 ### De standaard Workfront-e-maillandinstelling wijzigen {#change-the-workfront-locale}
@@ -159,20 +163,23 @@ De standaard Workfront-e-maillandinstelling wijzigen:
 
 ### De landinstelling van de e-mail van de gebruiker wijzigen {#change-the-user-locale}
 
-Wanneer u de landinstelling van uw e-mailadres voor gebruikers wijzigt, wijzigt u de taal, datum en getalnotatie die in uw uitgaande berichten worden gebruikt. Deze instellingen overschrijven de systeeminstellingen die zijn geselecteerd in het gedeelte Klantgegevens van Setup.
+<!--
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->Als uw organisatie zich op de Adobe Unified Experience bevindt, worden taalvoorkeuren opgeslagen in uw Adobe-profiel en wordt de e-maillandinstelling niet gebruikt. Zie [&#x200B; Verandering de taal van Adobe Experience Cloud &#x200B;](#change-the-adobe-experience-cloud-language) in dit artikel.
+>Taalvoorkeuren worden opgeslagen in uw Adobe-profiel en de e-maillandinstelling wordt niet gebruikt. Zie [ Verandering de taal van Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) in dit artikel.
 
-Zo wijzigt u de landinstelling van uw e-mailadres:
+<!--To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
-1. Klik op de afbeelding van het gebruikersprofiel.
+1. Click your user profile picture.
 
-1. Klik het Meer menu ![](assets/more-icon.png), dan klik **uitgeven**.
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 
-1. In de **sectie van de Voorkeur**, klik de **E-mailPlaats** drop-down lijst om de taal te selecteren die u de e-mails van Workfront binnen wilt tonen.
+1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. Klik **sparen Veranderingen**.
+1. Click **Save Changes**.-->

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Met SSO (Single Sign-On) kunt u kenmerken van de Active Directory van uw identit
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,76 +61,7 @@ Houd rekening met het volgende wanneer u kenmerken toewijst:
 
 ## Gebruikerskenmerken toewijzen aan uw organisatie
 
-De procedure voor het toewijzen van kenmerken hangt af van het feit of uw organisatie zich op de verenigde ervaring van Adobe bevindt.
-
-Om te bepalen of uw organisatie zich op de verenigde ervaring van Adobe bevindt, onderzoek URL die u gebruikt om tot Workfront toegang te hebben.
-
-| URL | Adobe-ervaring |
-|---|---|
-| (Bedrijfsnaam).my.workfront.com | Klassieke ervaring |
-| experience.adobe.com | Adobe Unified Experience |
-
-* [Gebruikerskenmerken toewijzen in de klassieke ervaring](#map-user-attributes-in-the-classic-experience)
-* [Gebruikerskenmerken toewijzen in Adobe Unified Experience](#map-user-attributes-in-the-adobe-unified-experience)
-
-### Gebruikerskenmerken toewijzen in de klassieke ervaring
-
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
-
-1. Klik **Systeem** > **Enige Sign-On (SSO)**.
-
-1. In het **Type** drop-down, klik **SAML 2.0**.
-
-1. Klik **de Attributen van de Gebruiker van de Kaart**.
-
-   ![&#x200B; de gebruikersattributen van de Kaart &#x200B;](assets/map-user-attributes.png)
-
-1. Wijs in de rij met opties die wordt weergegeven de kenmerken toe die u voor uw Workfront-gebruikers nodig hebt.
-
-   U kunt kenmerken toewijzen, zoals Adres, Manager, Taakrol, Thuisgroep, enzovoort.
-
-   Kenmerktoewijzingen werken op een :1 verhouding. U kunt bijvoorbeeld niet elke groep instellen waartoe een gebruiker behoort; u kunt slechts één groep per gebruiker instellen.
-
-   >[!IMPORTANT]
-   >
-   >We raden u niet aan om toegangsniveaus toe te wijzen in de toewijzingen van kenmerken. Als u dit doet, moet u voorzichtig zijn wanneer u de standaardwaarde instelt om ervoor te zorgen dat u Admin Access niet per ongeluk verwijdert.
-
-   In de volgende tabel worden de velden uitgelegd die u kunt gebruiken om kenmerken toe te wijzen:
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront-gebruikerskenmerk</td> 
-      <td>Kies de naam van het kenmerk dat u wilt toewijzen</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Directory-kenmerk</td> 
-      <td>Typ het kenmerk Sso dat u wilt gebruiken.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standaardwaarde</td> 
-      <td> <p>Nadat u een Workfront-gebruikerskenmerk hebt gekozen en de waarde tijdens de verbinding NULL is, vult dit veld in met de bijbehorende standaardwaarde in het systeem. Typ hier alleen een waarde als u regels voor kenmerktoewijzing wilt toepassen (zie stap 7). De standaardwaarde fungeert als een uitzondering op deze regels.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Facultatief) klik **Regels** om een regel aan de attributen toe te voegen.
-
-   1. Kies in de vervolgkeuzelijst de kenmerkoptie die u wilt gebruiken.
-   1. Typ in de twee velden rechts de waarde van het directorykenmerk en de waarde die u wilt vervangen.
-
-      ![&#x200B; de gebieden van de Regel &#x200B;](assets/rule-fields.png)
-
-   U kunt **klikken voegt Regel** toe om meer regels aan de attributen toe te voegen.
-
-1. (Facultatief) om meer gebruikersattributen in kaart te brengen, klik **Toewijzing** toevoegen en stappen 6-7 herhalen.
-1. Klik **sparen**.
-
-### Gebruikerskenmerken toewijzen in Adobe Unified Experience
-
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de upper-left hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-left.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de upper-left hoek van Adobe Workfront, dan klik ](assets/main-menu-left.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 

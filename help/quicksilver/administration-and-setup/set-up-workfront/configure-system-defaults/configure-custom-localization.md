@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
 
 # Aangepaste lokalisatie configureren
 
-Met aangepaste lokalisatie kunt u aangepaste termen en woordgroepen definiëren in verschillende talen. Workfront geeft deze termen vervolgens weer in de taal die is ingesteld in de Adobe Identity Management (IMS)-instellingen van de gebruiker. Als de gebruiker zich niet op Adobe IMS bevindt, worden de termen weergegeven in de taalset in de browserinstellingen van de gebruiker.
+Met aangepaste lokalisatie kunt u aangepaste termen en woordgroepen definiëren in verschillende talen. Workfront geeft deze termen vervolgens weer in de taal die is ingesteld in de Adobe Identity Management (IMS)-instellingen van de gebruiker.
 
 U kunt bijvoorbeeld het label &#39;Doelpubliek&#39; instellen om het Duitse woord &#39;Zielgruppe&#39; te vertalen. Elke gebruiker met Duits als hoofdtaal van zijn browser geselecteerd ziet het woord &quot;Zielgruppe&quot; als een label voor alle velden met het label &quot;Doelpubliek&quot; in het Engels.
 
@@ -56,7 +56,7 @@ U kunt vertalingen in meerdere talen configureren. Tot de huidige beschikbare ta
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,13 +68,13 @@ Houd rekening met het volgende wanneer u lokalisatie configureert:
 * Lokalisatie is van toepassing op aangepaste veldlabels (inclusief als kolomkop) en knopinfo.
 * De localisatie van de douane kan op berichten van BedrijfsRegels van toepassing zijn, maar moet in de BedrijfsRegel worden toegelaten.
 
-  Voor instructies, zie [&#x200B; localisatie in een BedrijfsRegel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules) in artikel toelaten en bedrijfsregels uitgeven.
+  Voor instructies, zie [ localisatie in een BedrijfsRegel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules) in artikel toelaten en bedrijfsregels uitgeven.
 
 ## Vertalingen configureren
 
 De vertalingen worden gevormd in het gebied van de Opstelling.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. In het gebied van de Opstelling, klik **Localization** in het linkernavigatievenster.
 1. Om een nieuwe vertaling toe te voegen, klik **Nieuwe rij**.
 1. In de **Engelse** kolom, ga de Engelse termijn in die zou moeten worden vertaald.

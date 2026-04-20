@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,17 @@ De volgende vragen worden vaak gesteld over de bevordering van het milieu:
 
 De bevordering van een omgeving tussen domeinen wordt momenteel niet ondersteund. U moet de toepassing bevorderen tussen omgevingen in hetzelfde domein.
 
-## Is het Adobe Business Platform/IMS een voorwaarde voor milieubevordering?
-
-### Antwoord
-
-Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als niet-IMS Workfront instanties.
-
 ## Hoe kunnen we erachter komen of ons Workfront-exemplaar op een Prime- of Ultimate-licentie staat?
 
 ### Antwoord
 
 * Een Workfront-beheerder kan de licentie van uw organisatie vinden.
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+   1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
    1. Klik **Systeem** in het linkerpaneel
    1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
 Uw plan wordt in de rechterbovenhoek van de pagina weergegeven.
-      ![&#x200B; plaats plan &#x200B;](assets/locate-plan.png)
+      ![ plaats plan ](assets/locate-plan.png)
 
   of
 * Neem contact op met uw Workfront-accountvertegenwoordiger.

@@ -7,7 +7,7 @@ description: Adobe  [!DNL Workfront]  heeft met een paar Mobiele platforms van h
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Zie de Help-documentatie van [!DNL MobileIron] voor het installeren van de mobie
 * iOS
 * Android
 
-Voor informatie bij het vormen [!DNL Workfront] voor [!DNL MobileIron], zie [&#x200B;  [!DNL Adobe Workfront]  voor  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
+Voor informatie bij het vormen [!DNL Workfront] voor [!DNL MobileIron], zie [  [!DNL Adobe Workfront]  voor  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
 
 ## Intune
 
@@ -35,3 +35,5 @@ De mobiele app Workfront is nu beschikbaar in de App Store van [!DNL Microsoft I
 * Android
 
 Uw Workfront-exemplaar moet zich op Adobe Identity Management System (IMS) bevinden.
+
+<!--remove this note October 2026-->

@@ -6,18 +6,14 @@ description: Wanneer een gebruiker meerdere browsertabbladen heeft geopend, kan 
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 # Door meerdere browsertabbladen kan Workfront zich afmelden
-
->[!IMPORTANT]
->
->Dit probleem is alleen aanwezig voor organisaties die aan Adobe IMS zijn aangemeld.
 
 ## Probleem
 
