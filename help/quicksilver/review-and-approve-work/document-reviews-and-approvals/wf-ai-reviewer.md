@@ -34,7 +34,7 @@ Elke gebruiker kan de Content Reviewer toevoegen aan een revisie- en goedkeuring
 * Uw organisatie moet GenStudio Foundation hebben.
    * Content Reviewer in Workfront biedt de functionaliteit die in GenStudio Foundation beschikbaar is voor workflows voor het beoordelen en goedkeuren van bedrijfsmiddelen. U hoeft GenStudio Foundation niet rechtstreeks te openen om uw werk te voltooien. Je toegang tot GenStudio Foundation-functionaliteit via Content Reviewer valt onder de voorwaarden van je Workfront-contract.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 * Content Reviewer is niet beschikbaar in Sandbox-omgevingen.
 
 
@@ -64,7 +64,7 @@ De Workfront Content Reviewer gebruikt de merkrichtlijnen bij het beoordelen van
 Systeembeheerders moeten de volgende merkrichtlijnen instellen:
 
 1. [Toegang tot merkrechten verlenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
-1. [ creeer en beheer merken voor de Recensent van de Inhoud ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+1. [&#x200B; creeer en beheer merken voor de Recensent van de Inhoud &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## Content Reviewers maken
@@ -77,7 +77,7 @@ Als ten minste één merk is ingesteld, kunnen Workfront-beheerders beginnen met
 
 De revisoren van de inhoud kunnen vervolgens worden toegewezen aan goedkeuringssjablonen en individuele revisie- en goedkeuringsaanvragen.
 
-Voor meer informatie, zie [ AI Medewerkers ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md) vormen.
+Voor meer informatie, zie [&#x200B; AI Medewerkers &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md) vormen.
 
 ## Inhoudsrevisoren toevoegen aan revisie- en goedkeuringsverzoeken
 
@@ -91,18 +91,18 @@ Gebruikers kunnen Content Reviewers toevoegen aan goedkeuringssjablonen om autom
 
 Zodra gecreeerd, kunnen de goedkeuringsmalplaatjes op activa in het gebied van Documenten van een project, een taak, of een kwestie worden toegepast.
 
-Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
-![ malplaatjelijst die AI recensenten ](assets/ai-review-templates.png) toont
+![&#x200B; malplaatjelijst die AI recensenten &#x200B;](assets/ai-review-templates.png) toont
 
 ### Individuele beoordeling en goedkeuringsaanvraag
 
 Wanneer gebruikers individuele revisie- en goedkeuringsverzoeken maken, kunnen ze een Content Reviewer toevoegen met andere deelnemers of kunnen ze één aanvraag maken met alleen de Content Reviewer om te controleren of de producten voldoen aan de merken.
 
-Voor meer informatie, zie [ een werkschema van de documentgoedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
+Voor meer informatie, zie [&#x200B; een werkschema van de documentgoedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 
-![ de recensent van de Inhoud die aan individueel goedkeuringsverzoek wordt toegevoegd ](assets/new-stage.png)
+![&#x200B; de recensent van de Inhoud die aan individueel goedkeuringsverzoek wordt toegevoegd &#x200B;](assets/new-stage.png)
 
 ## score en feedback van Content Reviewer weergeven
 
@@ -114,5 +114,5 @@ De Content Reviewer is niet ontworpen als besluitvormer in de revisie- en goedke
 
 Als het middel niet voldoet aan de richtlijnen voor het merk, kan de ontwerper een nieuwe versie uploaden en kan de eigenaar van de goedkeuring een tweede revisie- en goedkeuringsaanvraag maken met de Content Reviewer.
 
-Voor meer informatie bij het bekijken van scores en koppel terug, zie [ de score en terugkoppelen van de Recensent van de Inhoud van de Mening ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
+Voor meer informatie bij het bekijken van scores en koppel terug, zie [&#x200B; de score en terugkoppelen van de Recensent van de Inhoud van de Mening &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
