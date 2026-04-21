@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ De bedrijfsregels zijn van toepassing op het creëren van, het uitgeven van, en 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,13 +76,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 De indeling van een validatie van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, kan de gebruiker de actie op het object niet uitvoeren en wordt het bericht weergegeven.&quot;
 
-De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [&#x200B; berekende gebieden met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-Voor informatie over IF- verklaringen, zie [&#x200B; &quot;IF&quot;verklaringenoverzicht &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [&#x200B; de exploitanten van de Voorwaarde in berekende douanevelden &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Voor informatie over IF- verklaringen, zie [ &quot;IF&quot;verklaringenoverzicht ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [ de exploitanten van de Voorwaarde in berekende douanevelden ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Voor informatie over op gebruiker-gebaseerde vervangingen, zie [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over op gebruiker-gebaseerde vervangingen, zie [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
-Voor informatie over op datum-gebaseerde vervangingen, zie [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over op datum-gebaseerde vervangingen, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 Een API-jokerteken is ook beschikbaar in bedrijfsregels. Gebruik `$$ISAPI` om de regel alleen in de API te activeren. Gebruik `!$$ISAPI` om de regel alleen in de gebruikersinterface af te dwingen en gebruikers toe te staan de regel via de API te omzeilen.
 
@@ -147,7 +147,7 @@ Het bericht wordt weergegeven in de gelokaliseerde taal.
 
 >[!ENDSHADEBOX]
 
-Voor informatie over douanelokalisatie, zie [&#x200B; douanelokalisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
+Voor informatie over douanelokalisatie, zie [ douanelokalisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md) vormen.
 
 ## Scenario&#39;s voor bedrijfsregelautomatisering
 
@@ -171,7 +171,7 @@ Om een project te delen slechts als dat project is goedgekeurd, gebruik een form
 IF({status} = "APR", true)
 ```
 
-U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de sectie [&#x200B; Scenario&#39;s voor de bevestiging van de bedrijfsregel &#x200B;](#scenarios-for-business-rule-validation) worden beschreven.
+U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de sectie [ Scenario&#39;s voor de bevestiging van de bedrijfsregel ](#scenarios-for-business-rule-validation) worden beschreven.
 
 
 ## Voeg een nieuwe bedrijfsregel toe
@@ -191,7 +191,7 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
 
 1. Selecteer het objecttype waaraan u de bedrijfsregel wilt toewijzen.
 
-   ![&#x200B; Uitgezocht een voorwerp &#x200B;](assets/object-for-business-rule4.png)
+   ![ Uitgezocht een voorwerp ](assets/object-for-business-rule4.png)
 
    U kunt bedrijfsregels toepassen op de volgende objecten:
 
@@ -224,14 +224,9 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
    * Personeelsformatie
    * Sjabloon
    * Personeelsformatie
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. Typ de **Naam** voor de bedrijfsregel op de dialoog van de regelbouwer.
-1. Op **is Actief** gebied, selecteer of de regel actief zou moeten zijn wanneer u het bewaart.
-
-   Als u **Nr** selecteert, wordt de regel bewaard als inactief, en u kunt het later activeren.
+   -->
 
 1. Selecteer a **Trekker** voor de bedrijfsregel. De opties zijn:
 
@@ -254,11 +249,11 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
 
      In dit voorbeeld wordt &quot;Meer informatie&quot; gekoppeld aan de URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt de volledige URL weergeven en het wordt een klikbare koppeling.
 
-   ![&#x200B; voeg bedrijfsregeldialoog &#x200B;](assets/add-business-rule-new.png) toe
+   ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-new.png) toe
 
    Dit voorbeeld is een bedrijfsregel voor projecten. Als de huidige maand November is, dan worden de gebruikers toegelaten om geen nieuwe projecten tot stand te brengen, en het bericht verklaart dit.
 
-   Voor meer voorbeelden van bedrijfsregels, zie [&#x200B; Scenario&#39;s voor bedrijfsregels &#x200B;](#scenarios-for-business-rules) in dit artikel.
+   Voor meer voorbeelden van bedrijfsregels, zie [ Scenario&#39;s voor bedrijfsregels ](#scenarios-for-business-rules) in dit artikel.
 
 1. (Facultatief) gebruik de formule **Uitdrukkingen** en **Gebieden** in het juiste paneel om bij de bouw van de regel bij te wonen.
 
@@ -272,7 +267,7 @@ U kunt vervangingen in de acties van de bedrijfsregel gebruiken, zoals die in de
 
 1. (Voorwaardelijk) Als u een andere handeling wilt automatiseren, selecteert u de handeling.
 
-   Voor details op deze acties, zie de sectie [&#x200B; opties van de de regelautomatisering &#x200B;](#business-rule-automation-options) in dit artikel.
+   Voor details op deze acties, zie de sectie [ opties van de de regelautomatisering ](#business-rule-automation-options) in dit artikel.
 
    >[!NOTE]
    >
@@ -306,4 +301,3 @@ Een bedrijfsregel activeren:
 1. Selecteer de bedrijfsregel in de lijst van regels en klik het Edit pictogram.
 1. Selecteer **ja** voor **is Actief** in de dialoog van de bedrijfsregel.
 1. Klik **sparen**.
-

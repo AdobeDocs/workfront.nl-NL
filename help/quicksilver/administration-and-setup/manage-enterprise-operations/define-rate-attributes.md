@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 0%
@@ -86,7 +86,8 @@ Snelheidskenmerken worden ondersteund op alle gebieden waar snelheden bestaan in
 
 <!--
 BULLET POINT Staffing plan resources
-BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.
+-->
 
 <!--Non-labor resource categories and -->Taakrollen ondersteunen tariefkenmerken niet rechtstreeks op objectniveau. Ze zijn verbonden met tariefkenmerken via de op deze kenmerken gedefinieerde snelheden.
 
@@ -119,7 +120,7 @@ Wanneer u plaatsaanduidingstoewijzingen kunt maken die zijn gekoppeld aan de jui
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,11 +136,11 @@ Filters bepalen hoe kenmerkwaarden worden voorgesteld en gevalideerd bij het def
 
    >[!NOTE]
    >
-   >U kunt tot vijf attributen in het diagram hebben. De volgorde van boven naar beneden definieert de hiërarchie van de manier waarop de kenmerken worden toegepast. Klik **roteren** pictogram ![&#x200B; roteer pictogram &#x200B;](assets/rotate-attribute-view-icon.png) om het diagram van links naar rechts te tonen. U kunt ook in- of uitzoomen en het diagram aan het scherm aanpassen.
+   >U kunt tot vijf attributen in het diagram hebben. De volgorde van boven naar beneden definieert de hiërarchie van de manier waarop de kenmerken worden toegepast. Klik **roteren** pictogram ![ roteer pictogram ](assets/rotate-attribute-view-icon.png) om het diagram van links naar rechts te tonen. U kunt ook in- of uitzoomen en het diagram aan het scherm aanpassen.
 
 1. Selecteer een kenmerk om het configuratievenster rechts van het scherm te openen.
 
-   ![&#x200B; vorm tariefattributen &#x200B;](assets/configure-rate-attributes.png)
+   ![ vorm tariefattributen ](assets/configure-rate-attributes.png)
 
 1. Wijzig de naam van de objecten (Groep, Bedrijf, Locatie) in de termen die nodig zijn voor uw bedrijf (zoals Bureau, Locatie, Kostenplaats).
 1. Klik **sparen** op elk attribuut om uw noemende overeenkomst te bewaren.
