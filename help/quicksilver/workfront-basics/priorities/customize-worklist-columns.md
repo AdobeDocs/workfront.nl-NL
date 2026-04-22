@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
 # De kolommen in de werklijst Prioriteiten aanpassen
 
-<span class="preview"> de informatie die op deze pagina wordt benadrukt verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--I think this article can point to the Enhanced lists article for managing the view-->
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 U kunt de kolommen in de werklijst Prioriteiten aanpassen om de manier te steunen u werkt.
@@ -60,7 +64,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
-   ![&#x200B; Kolommen &#x200B;](assets/columns-new.png)
+   ![ Kolommen ](assets/columns-new.png)
 1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
 
 ### De kolommen opnieuw ordenen
@@ -80,13 +84,11 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
 1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
-   ![&#x200B; reorder kolommen &#x200B;](assets/reorder-columns-new.png)
+   ![ reorder kolommen ](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >De kolom Naam is vast en kan niet worden verplaatst.
-
-<div class="preview">
 
 ### De rijhoogte wijzigen in de prioriteitenlijst
 
@@ -102,5 +104,3 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    * Lang
 
    De lijst wordt meteen bijgewerkt.
-
-</div>

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,16 @@ ht-degree: 0%
 
 # Werkruimten verwijderen
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
 
-In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 U kunt werkruimten verwijderen die niet meer relevant zijn.
 
@@ -66,7 +68,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -148,20 +150,20 @@ Old:
 1. (Facultatief) ClicK **toon minder** om het aantal werkruimten te beperken die op het scherm tonen.
 1. Voer een van de volgende handelingen uit om een werkruimte te verwijderen:
 
-   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart
+   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart
 of
-   * Klik het **pictogram van het 1&rbrace; onderzoek** pictogram van het Onderzoek ![&#x200B; in de hoger-juiste hoek van de pagina van Werkruimten aan onderzoek naar een werkruimte door naam en klik een werkruimtekaart om de werkruimte te openen, dan klik het &#x200B;](assets/search-icon.png) Meer **menu** Meer menu ![&#x200B; aan het recht van de werkruimtenaam.](assets/more-menu.png)
+   * Klik het **pictogram van het 1} onderzoek** pictogram van het Onderzoek ![ in de hoger-juiste hoek van de pagina van Werkruimten aan onderzoek naar een werkruimte door naam en klik een werkruimtekaart om de werkruimte te openen, dan klik het ](assets/search-icon.png) Meer **menu** Meer menu ![ aan het recht van de werkruimtenaam.](assets/more-menu.png)
 
    >[!TIP]
    >
-   ><span class="preview"> u kunt de volgende toetsenbordcombinatie gebruiken om het globale onderzoeksvakje van om het even welke pagina van de Planning van Workfront en onderzoek naar werkruimten te openen:</span>
+   >U kunt de volgende toetsenbordcombinatie gebruiken om het globale onderzoeksvakje van om het even welke pagina van de Planning van Workfront te openen en naar werkruimten te zoeken:
    >
-   >* <span class="preview"> CTRL+K voor Vensters </span>
-   >* <span class="preview">⌘+K voor Mac </span>
+   >* CTRL+K voor Windows
+   >* ⌘+K voor Mac
 
 1. Klik **Schrapping**.
 
-   ![&#x200B; permanent schrapt werkruimtebevestiging &#x200B;](assets/permanently-delete-workspace-confirmation.png)
+   ![ permanent schrapt werkruimtebevestiging ](assets/permanently-delete-workspace-confirmation.png)
 
 1. Het type &quot;**schrapt**&quot;in de verstrekte ruimte, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 

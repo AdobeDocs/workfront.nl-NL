@@ -8,24 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
 # Overzicht van hiërarchie en broodkruimel
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Als werkruimtemanager, kunt u flexibele maar gestructureerde hiërarchieën tussen verbonden verslagtypes en andere objecten types in de Planning van Adobe Workfront bepalen.
 
 Hiërarchieën zijn verbindingen tussen recordtypen, of tussen recordtypen en een Workfront-project.
 
-Voor informatie over het creëren van hiërarchieën, zie [&#x200B; werkruimtescheidingen &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+Voor informatie over het creëren van hiërarchieën, zie [ werkruimtescheidingen ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten:
 
@@ -80,18 +82,18 @@ Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten
 
 Wanneer u hiërarchieën tussen recordtypes creeert, produceren zij broodkruimels voor verslagen die tot die verslagtypes behoren.
 
-Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics, dan met Activiteiten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst. Als het verslag in veelvoudige werkruimten toont, kunt u de wegen in elke werkruimte <span class="preview"> bekijken die met de werkruimtenaam in breadcrumb beginnen.</span>
+Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics, dan met Activiteiten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst. Als de record in meerdere werkruimten wordt weergegeven, kunt u de paden in elke werkruimte weergeven, te beginnen met de naam van de werkruimte in de breadcrumb.
 
-![&#x200B; Breadcrumb &#x200B;](assets/breadcrumbs-on-activities-planning-only.png)
+![ Breadcrumb ](assets/breadcrumbs-on-activities-planning-only.png)
 
 Overweeg het volgende:
 
-* Breadcrubs worden weergegeven in het voorvertoningsgebied van een record en op de pagina met recorddetails.
+* Breadcrubs worden weergegeven in het voorvertoningsgebied van een record en op de detailpagina van de records.
 * Als een recordtype deel van veelvoudige hiërarchieën uitmaakt, kunt u tussen hiërarchieën van de broodkruimel van het verslag op de pagina van het verslag schakelen.
 * Als het recordtype in een hiërarchie meerdere records heeft, kunt u records uit de breadcrumb selecteren.
 * Broodkruimels werken in Workfront en Planning.
 
   Wanneer u bijvoorbeeld een project bekijkt dat is verbonden met planningscampagnes en tactieken, maar ook met Workfront-portfolio&#39;s en -programma&#39;s, kunt u schakelen tussen de objecttypen Planning en Workfront vanuit de breadcrumb.
 
-  Voor meer informatie, zie [&#x200B; de hiërarchieën van de werkruimte &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+  Voor meer informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 * Wanneer u een record bewerkt, zijn de wijzigingen zichtbaar vanuit alle werkruimten en alle hiërarchieën waarin de record deel uitmaakt.

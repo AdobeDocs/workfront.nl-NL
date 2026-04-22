@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,19 @@ ht-degree: 0%
 
 # Recordtypen verwijderen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 U kunt recordtypen verwijderen wanneer deze niet meer relevant zijn.
 
-Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [&#x200B; Overwegingen wanneer het schrappen van verslagtypes &#x200B;](#considerations-when-deleting-record-types) sectie in dit artikel.
+Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [ Overwegingen wanneer het schrappen van verslagtypes ](#considerations-when-deleting-record-types) sectie in dit artikel.
 
-Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -75,7 +77,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -155,7 +157,7 @@ Old:
 
 * U kunt geen algemeen recordtype verwijderen dat aan andere werkruimten is toegevoegd.
 
-  Voor meer informatie, zie de sectie [&#x200B; globale verslagtypes van de Schrapping &#x200B;](#delete-global-record-types) in dit artikel.
+  Voor meer informatie, zie de sectie [ globale verslagtypes van de Schrapping ](#delete-global-record-types) in dit artikel.
 
 ## Recordtypen verwijderen
 
@@ -169,22 +171,22 @@ Old:
 
    >[!TIP]
    >
-   ><span class="preview"> u kunt de volgende toetsenbordcombinatie gebruiken om het globale onderzoeksvakje van om het even welke pagina van de Planning van Workfront en onderzoek naar werkruimten te openen:</span>
+   >U kunt de volgende toetsenbordcombinatie gebruiken om het globale onderzoeksvakje van om het even welke pagina van de Planning van Workfront te openen en naar werkruimten te zoeken:
    >
-   >* <span class="preview"> CTRL+K voor Vensters </span>
-   >* <span class="preview">⌘+K voor Mac </span>
+   >* CTRL+K voor Windows
+   >* ⌘+K voor Mac
 
    De werkruimte wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
    * Beweeg over de kaart van het verslagtype, klik **Meer** menu, toen **Schrapping**.
-   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
+   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
 
      >[!TIP]
      >
      >U kunt geen globaal recordtype verwijderen uit de secundaire werkruimte waar het is toegevoegd van de pagina met recordtypen. U kunt deze alleen verwijderen van de kaart met recordtypen in de werkruimte.
 
-     ![&#x200B; permanent schrapt verslagtype bevestiging &#x200B;](assets/permanently-delete-record-type-confirmation.png)
+     ![ permanent schrapt verslagtype bevestiging ](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Het type **schrapt** in de bevestigingsdoos, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
@@ -209,12 +211,12 @@ Alle records en velden worden ook verwijderd en kunnen niet worden hersteld.
 
 1. (Voorwaardelijk) doe één van het volgende, afhankelijk van of het globale verslagtype aan secundaire werkruimten is toegevoegd:
 
-   * Als het verslagtype niet aan een secundaire werkruimte werd toegevoegd, klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+   * Als het verslagtype niet aan een secundaire werkruimte werd toegevoegd, klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
    * Als het recordtype aan minstens één andere secundaire werkruimte werd toegevoegd, eerst, ga naar de secundaire werkruimte en schrap het globale verslag van die ruimte.
 
-     Voor informatie, zie de sectie [&#x200B; een globaal verslagtype van een secundaire werkruimte &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace) in dit artikel schrappen.
+     Voor informatie, zie de sectie [ een globaal verslagtype van een secundaire werkruimte ](#delete-a-global-record-type-from-a-secondary-workspace) in dit artikel schrappen.
 
-1. (Voorwaardelijk) blijven het schrappen van het verslagtype, zoals die in de sectie [&#x200B; wordt beschreven de verslagtypes van Schrapping &#x200B;](#delete-record-types-1) in dit artikel.
+1. (Voorwaardelijk) blijven het schrappen van het verslagtype, zoals die in de sectie [ wordt beschreven de verslagtypes van Schrapping ](#delete-record-types-1) in dit artikel.
 
    De volgende dingen doen zich voor:
 
@@ -245,10 +247,10 @@ Een algemeen recordtype uit een secundaire werkruimte verwijderen:
 
 1. Ga naar het algemene recordtype in de secundaire werkruimte.
 
-1. (Facultatief) klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, dan klik **Schrapping**.
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, dan klik **Schrapping**.
 1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
-   ![&#x200B; Schrap secundaire globale doos van de verslagtype bevestiging &#x200B;](assets/delete-secondary-global-record-type.png)
+   ![ Schrap secundaire globale doos van de verslagtype bevestiging ](assets/delete-secondary-global-record-type.png)
 
    De volgende dingen doen zich voor:
 

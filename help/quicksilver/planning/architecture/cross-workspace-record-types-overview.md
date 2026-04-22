@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # Overzicht van recordtypen voor verschillende werkruimten
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -48,7 +50,7 @@ U kunt mogelijkheden voor de verschillende werkruimten inschakelen voor een reco
 >* Willekeurige workflow en planningpakket voor Prime of Ultimate
 >
 >Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger.
->Voor informatie, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+>Voor informatie, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 
 Hieronder vindt u de mogelijkheden van recordtypen tussen werkruimten:
 
@@ -56,7 +58,7 @@ Hieronder vindt u de mogelijkheden van recordtypen tussen werkruimten:
 
 * **Verbonden verslagtypes**: De gebruikers kunnen met dit verslagtype van andere werkruimten verbinden.
 
-In dit artikel vindt u een overzicht van recordtypen tussen werkruimten. Voor informatie over het bepalen van de mogelijkheden van de dwars-werkruimte van een verslagtype, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+In dit artikel vindt u een overzicht van recordtypen tussen werkruimten. Voor informatie over het bepalen van de mogelijkheden van de dwars-werkruimte van een verslagtype, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 ## Overzicht van algemene recordtypen
 
@@ -76,7 +78,7 @@ Ga als volgt te werk om algemene recordtypen te gebruiken:
 
    Het oorspronkelijke recordtype bestaat in de oorspronkelijke werkruimte, maar wordt in andere werkruimten weergegeven.
 
-   Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+   Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 1. Voeg een recordtype aan een secundaire werkruimte van bestaande toe die als globaal verslagtype is gevormd.
 
    Het recordtype bestaat in de volgende werkruimten:
@@ -84,7 +86,7 @@ Ga als volgt te werk om algemene recordtypen te gebruiken:
    * Zijn originele werkruimte waar het als globaal verslagtype werd aangewezen.
    * Een secundaire werkruimte.
 
-   Voor informatie, zie [&#x200B; bestaande verslagtypes van een andere werkruimte &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
+   Voor informatie, zie [ bestaande verslagtypes van een andere werkruimte ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
 
    De volgende secties beschrijven overwegingen over globale verslagtypes en hoe zij in of hun originele of secundaire werkruimten functioneren.
 
@@ -106,7 +108,7 @@ Het recordtype dat globaal wordt geconfigureerd, heeft de volgende eigenschappen
 
      U kunt een globaal recordtype van zijn originele werkruimte slechts schrappen nadat u alle instanties van als van alle secundaire werkruimten schrapt waar het werd toegevoegd.
 
-     Voor meer informatie, zie [&#x200B; verslagtypes van de Schrapping &#x200B;](/help/quicksilver/planning/architecture/delete-record-types.md).
+     Voor meer informatie, zie [ verslagtypes van de Schrapping ](/help/quicksilver/planning/architecture/delete-record-types.md).
    * Maakt het van andere werkruimten aansluit
    * Aanvraagformulieren maken en beheren
    * Automatisering maken en beheren
@@ -154,7 +156,7 @@ Het recordtype dat globaal wordt geconfigureerd, heeft de volgende eigenschappen
 
      Als u het recordtype uit een secundaire werkruimte verwijdert, wordt dit alleen verwijderd uit de secundaire werkruimte. De records en velden die er vanuit de secundaire werkruimte aan worden toegevoegd, worden ook verwijderd uit de secundaire ruimte. De records die in de secundaire ruimte worden toegevoegd, blijven in de primaire werkruimte. Hierdoor wordt het recordtype niet verwijderd uit de oorspronkelijke werkruimte of uit andere secundaire werkruimten waar het is toegevoegd.
 
-     Voor meer informatie, zie [&#x200B; verslagtypes van de Schrapping &#x200B;](/help/quicksilver/planning/architecture/delete-record-types.md).
+     Voor meer informatie, zie [ verslagtypes van de Schrapping ](/help/quicksilver/planning/architecture/delete-record-types.md).
 
    * Delen
 
@@ -166,7 +168,7 @@ Het recordtype dat globaal wordt geconfigureerd, heeft de volgende eigenschappen
 
      U kunt een mening niet openbaar van een globaal verslagtype in een secundaire werkruimte delen. U kunt weergaven alleen intern delen vanuit een secundaire werkruimte. U kunt een weergave intern en openbaar delen voor een algemeen recordtype in de oorspronkelijke werkruimte.
 
-     Voor informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
+     Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 
 <!--
@@ -234,9 +236,9 @@ Ga als volgt te werk om verbindingbare recordtypen te gebruiken:
 
    >[!TIP]
    >
-   ><span class="preview"> slechts kunnen de Beheerders van het Systeem een verslagtype aanwijzen om van alle werkruimten in het systeem te worden aangesloten. Alle andere werkruimtemanagers kunnen specifieke werkruimten aanwijzen waarvan om met het verslagtype te verbinden. </span>
+   >Alleen systeembeheerders kunnen een recordtype aanwijzen dat vanuit alle werkruimten in het systeem kan worden aangesloten. Alle andere werkruimtemanagers kunnen specifieke werkruimten aanwijzen waarvan om met het verslagtype te verbinden.
    >
-   >Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+   >Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 1. Verbind met een verslagtype dat als aansluit van een andere werkruimte wordt aangewezen u beheert.
 
-   Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
