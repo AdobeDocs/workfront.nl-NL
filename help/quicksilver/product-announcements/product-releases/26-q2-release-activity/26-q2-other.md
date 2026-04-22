@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
 ## Nieuwe mogelijkheid om rijhoogte te verhogen voor verbeterde lijsten
 
@@ -28,7 +28,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 We hebben een nieuwe instelling toegevoegd om de rijhoogte aan te passen in uitgebreide lijsten.
 
-Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Aangepaste namen voor filters toegevoegd aan uitgebreide lijsten
 
@@ -50,7 +50,7 @@ Wij hebben de volgende gepersonaliseerde namen voor een team, een groep, een bed
 
 De filteropties zijn alleen zichtbaar als de velden aanwezig zijn op objecten die in de weergave worden weergegeven.
 
-Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Pas voorwaardelijke het formatteren op de voorgelegde verzoeklijsten op het gebied van Verzoeken en Mijn Verzoeken widget toe
 
@@ -62,7 +62,7 @@ Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workf
 
 U kunt nu voorwaardelijke opmaak toepassen op aanvraaglijsten in het gebied Verzoeken en op de widget Mijn verzoeken in Home. Deze functionaliteit bestond niet in de lijstmening vóór deze verbetering.
 
-Voor informatie, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
+Voor informatie, zie [&#x200B; meningen in het gebied van Verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
 
 ## Vooraf gedefinieerde weergaven die zijn toegevoegd aan de lijst met aanvragen in het gebied Verzoeken en de widget Mijn verzoeken
 
@@ -82,7 +82,7 @@ Om u te helpen uw verzoeklijst beter organiseren, hebben wij de volgende vooraf 
 
 Een Workfront-beheerder kan de weergaven toevoegen aan of verwijderen uit een lay-outsjabloon. U kunt de weergaven niet bewerken, verwijderen of delen. U kunt deze kopiëren en bijwerken of een kopie delen.
 
-Voor informatie, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
+Voor informatie, zie [&#x200B; meningen in het gebied van Verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
 
 ## Groepen maken in de lijst Verzoeken en de widget Mijn verzoeken
 
@@ -94,7 +94,7 @@ Voor informatie, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/
 
 Om het voor u gemakkelijker te maken om de verzoeken te vinden u nodig hebt, hebben wij groeperingen aan de lijst van Verzoeken en de Mijn widget van Verzoeken toegevoegd. Nu, kunt u verzoeken door om het even welke kolom op de lijst groeperen. Deze groepen maken deel uit van de weergave die u gebruikt wanneer u de groep maakt.
 
-Voor meer informatie bij het creëren van meningen voor de lijst van het Verzoek en Mijn widget van Verzoeken, met inbegrip van het toevoegen van groeperingen, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie bij het creëren van meningen voor de lijst van het Verzoek en Mijn widget van Verzoeken, met inbegrip van het toevoegen van groeperingen, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties
 
@@ -114,6 +114,6 @@ De Adobe Unified Experience omvat:
 
 Uw beheerder van Workfront zal een bericht van het Centrum van de Aankondiging betreffende de datum ontvangen waarop uw organisatie naar de Adobe Verenigde Ervaring zal bewegen.
 
-Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
