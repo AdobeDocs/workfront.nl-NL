@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ U kunt zien hoe vaak de gebruikers zich bij Adobe Workfront aanmelden, evenals d
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,16 +63,11 @@ Aanmelden bij Workfront op een van de volgende manieren telt als aanmelding bij 
 * De Workfront Mobile-apps (iOS- of Android-apparaten)
 * Elke ondersteunde Workfront-integratie met een andere toepassing van derden (zoals Slack)
 * Elke aangepaste integratie tussen Workfront en een andere toepassing van derden.
-* De Workfront API
-
-  >[!NOTE]
-  >
-  >Aanmelden bij Workfront via de Workfront API is alleen beschikbaar voor organisaties die nog niet zijn aangemeld bij het Adobe Business Platform.
 
 ## Gebruiksgegevens weergeven in een gebruikerslijst of rapport
 
 U kunt het Aantal Login en de Laatste gebieden van de Datum van Aanmelding in de mening van een lijst van gebruikers, of in een rapport voor gebruikers tonen.\
-Voor meer informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Gebruiksinformatie weergeven in de weergave van een lijst met gebruikers:
 

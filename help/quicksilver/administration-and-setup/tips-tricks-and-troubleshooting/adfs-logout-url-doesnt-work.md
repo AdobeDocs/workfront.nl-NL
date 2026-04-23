@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,15 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->De procedure die op deze pagina wordt beschreven, is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!UICONTROL Adobe Admin Console] .
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!UICONTROL Adobe Admin Console] .
 >
->Als uw organisatie aan [!UICONTROL Adobe Admin Console] is bezet, zie [&#x200B; Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) &#x200B;](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Omdat alle organisaties nu aan boord zijn gegaan naar de Adobe Admin Console, wordt dit artikel in de nabije toekomst verwijderd.
+>
+>Als uw organisatie aan [!UICONTROL Adobe Admin Console] is bezet, zie [ Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Probleem
 
@@ -57,7 +61,7 @@ Als het probleem voortduurt, contacteer de beheerder van deze plaats en verstrek
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
