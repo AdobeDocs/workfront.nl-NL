@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ U kunt een aanvraag voor Workfront-planning vanuit de volgende gebieden indienen
 
 * Vanuit het gebied Verzoeken van Workfront of vanuit de widget Mijn verzoeken in Home.
 * Vanuit een directe koppeling naar het gedeelde aanvraagformulier.
-* Wanneer u een nieuwe record toevoegt door een aanvraag in te dienen, gaat u vanaf de pagina met recordtypen. Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+* Wanneer u een nieuwe record toevoegt door een aanvraag in te dienen, gaat u vanaf de pagina met recordtypen. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 In dit artikel wordt beschreven hoe u een verzoek kunt indienen om nieuwe records toe te voegen aan een recordtype vanuit het gebied Verzoeken van Workfront of via een gedeelde koppeling.
 
 Workspace-managers kunnen aanvraagformulieren maken die u als gebruiker of externe persoon kunt gebruiken om aanvragen in te dienen bij de planning van recordtypen. Met de aanvragen worden records gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld.
 
-Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand brengen en het met een verslagtype associeert, zie [&#x200B; een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) creëren en beheren.
+Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand brengen en het met een verslagtype associeert, zie [ een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md) creëren en beheren.
 
 ## Toegangsvereisten
 
@@ -71,7 +71,7 @@ Voor informatie over hoe een werkruimtemanager een verzoekvorm kan tot stand bre
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +85,7 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
    * Een recordtype
    * Een aanvraagformulier dat is gekoppeld aan een recordtype.
 
-     Voor informatie, zie [&#x200B; een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) creëren.
+     Voor informatie, zie [ een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md) creëren.
 
 * Het aanvraagformulier moet zo worden gedeeld dat u er toegang toe hebt. De volgende scenario&#39;s bestaan:
 
@@ -105,7 +105,7 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 * Elk ingediend verzoek maakt een record voor het recordtype dat is gekoppeld aan het formulier dat u gebruikt, als het formulier niet aan een goedkeuring is gekoppeld of als de goedkeuring door alle fiatteurs is verleend.
 * Records die zijn gemaakt door aanvraagformulieren in te dienen, zijn identiek aan records die via een andere methode in Workfront Planning zijn toegevoegd.
 
-  Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+  Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 * Records die zijn gemaakt door het verzenden van aanvraagformulieren, worden verbonden met de oorspronkelijke aanvraag. Deze verbinding kan niet worden verwijderd.
 * U kunt zowel de gemaakte records als de aanvragen die zijn gebruikt om deze te maken, weergeven op de volgende gebieden:
    * Verzoeken in Workfront.
@@ -118,10 +118,10 @@ U moet het volgende opgeven voordat u een aanvraag kunt indienen bij een Workfro
 
 * De ingediende planningsverzoeken zijn zichtbaar slechts in de nieuwe het vragen ervaring. U kunt de verzoeken van de Planning niet in de ervaring van het erfenisverzoek zien.
 
-  Voor informatie, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 * Er zijn beperkingen in de manier waarop bepaalde veldtypen worden weergegeven in een aanvraagformulier, of de pagina met aanvraagdetails nadat een formulier is verzonden.
 
-  Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+  Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
@@ -137,7 +137,6 @@ Het aanzetten van dit het plaatsen maakt de het verzoekvormen van de Planning va
 
    >[!TIP]
    >
-   >Deze instelling is alleen beschikbaar wanneer uw Workfront-instantie is aangemeld bij de Adobe Unified Experience.
    >
    >Als u Workfront-planningsaanvragen op dit gebied wilt indienen, moet u aan de volgende voorwaarden voldoen:
    >
@@ -165,12 +164,12 @@ Het aanzetten van dit het plaatsen maakt de het verzoekvormen van de Planning va
 1. (Voorwaardelijk) als uw organisatie **Vulling van de Vorm** toestaat die door AI wordt aangedreven, kunt u documenten als herinneringen uploaden. AI gebruikt deze documenten om het formulier in te vullen en u kunt de AI-suggesties accepteren of negeren voordat u de aanvraag verzendt.
 
 
-   Voor instructies, zie [&#x200B; Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+   Voor instructies, zie [ Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Klik **voorleggen**.
 
    De verzoekvorm sluit en u keert aan het **gebied van Verzoeken** terug.
 
-   Uw formulier wordt verzonden en de volgende dingen gebeuren:
+   Your form is submitted and the following things occur:
 
    * Als het aanvraagformulier niet aan een goedkeuring is gekoppeld, wordt het verzoek toegevoegd aan de lijst Verzoeken in het gebied Workfront Requests en de widget Mijn verzoeken in Home, en wordt een nieuwe record toegevoegd aan het recordtype dat aan het formulier is gekoppeld.
 
@@ -185,18 +184,14 @@ Het aanzetten van dit het plaatsen maakt de het verzoekvormen van de Planning va
 
    * Als de verzoekvorm met een goedkeuring werd geassocieerd, wordt het verzoek toegevoegd aan de lijst van Verzoeken in het gebied van Verzoeken van Workfront en Mijn widget van Verzoeken met een status van **In afwachting van overzicht**. Een nieuwe record wordt pas aan de recordtypepagina toegevoegd nadat de fiatteurs de record hebben goedgekeurd.
 
-     Voor informatie, zie [&#x200B; een goedkeuring aan een verzoekvorm &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+     Voor informatie, zie [ een goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
-   * U kunt het **Originele verzoek** verbindingsgebied aan een verslagtype in Planning toevoegen om de naam van het originele verzoek te tonen dat tot een verslag leidde. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * U kunt het **Originele verzoek** verbindingsgebied aan een verslagtype in Planning toevoegen om de naam van het originele verzoek te tonen dat tot een verslag leidde. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    * Het verzoek is alleen zichtbaar voor de eigenaar, fiatteur en de personen die minstens weergavemachtigingen hebben voor de werkruimte. Workfront-beheerders kunnen alle aanvragen weergeven die naar elke werkruimte in het systeem worden verzonden.
    * U ontvangt een melding in de app en een e-mail dat de aanvraag met succes is verzonden of ter controle is verzonden.
    * Als het aanvraagformulier aan een goedkeuring is gekoppeld, ontvangen de fiatteurs een in-app en een e-mailmelding om de aanvraag te beoordelen en goed te keuren.
 
-     >[!NOTE]
-     >
-     >Het e-mailbericht en de meldingen in de app zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
-     >
-     >Er is een koppeling naar het verzoek in het bevestigingsbericht of goedkeuringsbericht van de e-mail.
+     Er is een koppeling naar het verzoek in het bevestigingsbericht of goedkeuringsbericht van de e-mail.
 
 1. (Facultatief) klik **Mening uw verzoek** in het bevestigingsbericht, om het verzoek te openen, of het **X** pictogram te klikken om de bevestiging te sluiten.
 1. (Optioneel) Als u de manier wilt beheren waarop de informatie in de lijst met aanvragen wordt weergegeven, werkt u de volgende weergaveelementen voor de lijst bij:
@@ -208,7 +203,7 @@ Het aanzetten van dit het plaatsen maakt de het verzoekvormen van de Planning va
    * Cellen opmaken
    * Rijhoogte
 
-   Voor informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   Voor informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    <!-- 
    Removing this as this is covered at a higher level in the Use enhanced lists article: 
@@ -236,7 +231,7 @@ Het aanzetten van dit het plaatsen maakt de het verzoekvormen van de Planning va
 
    De pagina met aanvraagdetails wordt geopend.
 
-   ![&#x200B; pagina van het Verzoek met commentaar &#x200B;](assets/new-request-page-with-comment.png)
+   ![ pagina van het Verzoek met commentaar ](assets/new-request-page-with-comment.png)
 
 1. (Facultatief) ga een commentaar op het **gebied van Commentaren** in.
 1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **Gemaakt objecten** gebied.
@@ -281,7 +276,7 @@ De externe mensen hebben geen toegang tot interne gebieden van Workfront, zoals 
 
    * Als het aanvraagformulier aan een goedkeuring is gekoppeld, wordt het verzoek toegevoegd aan de lijst Verzoeken in het gebied Workfront Requests en de widget Mijn verzoeken met de status In behandeling. Een nieuwe record wordt pas aan de recordtypepagina toegevoegd nadat alle fiatteurs de record hebben goedgekeurd. Deze optie is alleen beschikbaar wanneer u zich aanmeldt bij Workfront.
 
-     Voor informatie, zie [&#x200B; een goedkeuring aan een verzoekvorm &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+     Voor informatie, zie [ een goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
      >[!IMPORTANT]
      >
@@ -290,21 +285,17 @@ De externe mensen hebben geen toegang tot interne gebieden van Workfront, zoals 
    * U ontvangt een melding in de app en een e-mail dat de aanvraag met succes is verzonden of ter controle is verzonden.
    * Als het aanvraagformulier aan een goedkeuring is gekoppeld, ontvangen de fiatteurs een in-app en een e-mailmelding om de aanvraag te beoordelen en goed te keuren.
 
-     >[!NOTE]
-     >
-     >Het e-mailbericht en de meldingen in de app zijn alleen zichtbaar wanneer het exemplaar van Workfront van uw organisatie is aangemeld bij de Adobe Unified Experience.
-
      Nadat het verzoek is goedgekeurd en de record is gemaakt, wordt in de datumvelden Goedgekeurd door en Goedgekeurd informatie over de goedkeuring in de record weergegeven.
 
 1. (Facultatief) klik **Mening uw verzoek** om het verzoek in Workfront te openen.
 
 of
 
-Klik [&#x200B; voorleggen een ander verzoek &#x200B;](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) om de verzoekvorm te openen en een nieuw verzoek toe te voegen.
+Klik [ voorleggen een ander verzoek ](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) om de verzoekvorm te openen en een nieuw verzoek toe te voegen.
 
 De pagina met aanvraagdetails wordt geopend.
 
-![&#x200B; pagina van het Verzoek met commentaar &#x200B;](assets/new-request-page-with-comment.png)
+![ pagina van het Verzoek met commentaar ](assets/new-request-page-with-comment.png)
 
 1. (Facultatief) ga een commentaar op het **gebied van Commentaren** in.
 1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **Gemaakt objecten** gebied.
@@ -329,7 +320,7 @@ Dit is alleen beschikbaar in de nieuwe ervaring die u opvraagt.
 
 Het kopiëren van een bestaand planningsverzoek en het indienen ervan als een nieuw verzoek is vergelijkbaar met het kopiëren van een bestaand Workfront-verzoek.
 
-Voor meer informatie, zie [&#x200B; Exemplaar en leg verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) voor.
+Voor meer informatie, zie [ Exemplaar en leg verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) voor.
 
 ## Concepten en verzoeken maken op basis van bestaande concepten
 
@@ -337,7 +328,7 @@ U kunt een concept van een verzoek maken, vervolgens terugkeren naar het concept
 
 Dit is alleen beschikbaar in de nieuwe ervaring die u opvraagt. Concepten en verzoeken maken op basis van bestaande concepten in Workfront Planning is hetzelfde als deze maken op basis van Adobe Workfront.
 
-Voor meer informatie, zie [&#x200B; verzoeken van concepten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+Voor meer informatie, zie [ verzoeken van concepten ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
 ## Concepten of ingediende verzoeken verwijderen
 
@@ -351,7 +342,7 @@ Wanneer u een planningsverzoek schrapt, komen de volgende dingen voor:
 
 Het verwijderen van planningsverzoeken komt overeen met het verwijderen van Workfront-verzoeken.
 
-Voor informatie, zie [&#x200B; een voorgelegd verzoek of verzoekontwerp &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) schrappen.
+Voor informatie, zie [ een voorgelegd verzoek of verzoekontwerp ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
 
 

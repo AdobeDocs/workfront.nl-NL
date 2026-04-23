@@ -10,9 +10,9 @@ role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 
 <!--Audited: 03/2026-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Voor rapportagedoeleinden kunt u aangepaste kwartalen maken als de kwartalen van uw organisatie zijn gebaseerd op andere criteria dan kalenderdatums (zoals werkdagen of winkeldagen).
 
@@ -56,7 +58,7 @@ Afhankelijk van welke producten uw bedrijf heeft gekocht, kunt u het volgende aa
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,36 +66,33 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{step-1-to-setup}}
 
-1. (Voorwaardelijk) Afhankelijk van welke omgeving u tot de Kwarten van de Douane toegang hebt, doe één van het volgende:
-
-   * Klik in de productieomgeving op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
-   * <span class="preview"> in het milieu van de Voorproef, klik **[!UICONTROL Custom Quarters]**.</span>
+1. Klik op **[!UICONTROL Custom Quarters]**.
 
 1. Selecteer **[!UICONTROL Enable Custom Quarters]**.
 
 1. Typ een naam voor het aangepaste kwartaal, bijvoorbeeld &quot;Fiscaal Q1 2021&quot;.
 1. Selecteer de begin- en einddatum voor het aangepaste kwartaal.
 
-   ![&#x200B; Aangepaste kwarten &#x200B;](assets/custom-quarters-nwe.png)
+   ![ Aangepaste kwarten ](assets/custom-quarters-nwe.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Add Custom Quarter]** om extra aangepaste vierkanten aan het systeem toe te voegen.
 
    >[!IMPORTANT]
    >
    > Als uw bedrijf [!DNL Workfront Planning] heeft aangeschaft, kunt u uw aangepaste kwartalen niet opslaan als er tussenruimten of overlappingen zijn tussen de kwartalen.
-   >![&#x200B; de kwarten van de Douane met overlappende waarschuwing &#x200B;](assets/custom-quarters-with-overlap-warning.png)
+   >![ de kwarten van de Douane met overlappende waarschuwing ](assets/custom-quarters-with-overlap-warning.png)
    >Tussenruimten en overlappingen tussen de kwartalen zijn alleen toegestaan voor [!DNL Workfront] -klanten.
 
 1. (Optioneel en voorwaardelijk) Als uw bedrijf alleen [!DNL Workfront] zonder [!DNL Workfront Planning] heeft aangeschaft, maakt u een rapporteringselement dat naar de fiscale kwartalen verwijst.
 
    **Voorbeeld:** creeer een filter voor een [!UICONTROL project] lijst en omvat de Geplande Datum van de Voltooiing van een project dat van de douanekwartalen van verwijzingen voorziet.
 
-   ![&#x200B; filter van het Project met douanekwartalen &#x200B;](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ filter van het Project met douanekwartalen ](assets/example-of-project-filter-with-custom-quarters.png)
 
    De verwijzingen naar &quot;Dit Kwartaal&quot;, &quot;Volgende Kwartaal&quot; en &quot;Laatste Kwartaal&quot; worden vervangen door nieuwe verwijzingen naar de aangepaste kwartalen.
 
-   Voor informatie over het melden van elementen, zie [&#x200B; Rapporterende elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Voor informatie over het melden van elementen, zie [ Rapporterende elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   Voor informatie over het creëren van filters, zie [&#x200B; filters in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   Voor informatie over het creëren van filters, zie [ filters in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 1. (Optioneel en voorwaardelijk) Als uw bedrijf Workfront Planning heeft aangeschaft en u toegang hebt tot [!DNL Workfront Planning] , gaat u naar een pagina met recordtypen en opent u een tijdlijnweergave. In de weergave worden de nieuwe aangepaste kwartalen weergegeven.
-Voor informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.

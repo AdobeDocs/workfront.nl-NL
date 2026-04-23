@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2177'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle proj
 
 >[!NOTE]
 >
->Deze voorkeuren zijn standaard vergrendeld en groepsbeheerders kunnen deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie [&#x200B; het Slot of ontgrendelt projectvoorkeur voor alle groepen in het systeem &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+>Deze voorkeuren zijn standaard vergrendeld en groepsbeheerders kunnen deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie [ het Slot of ontgrendelt projectvoorkeur voor alle groepen in het systeem ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle proj
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,14 +68,14 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]** .
 
-1. Op de **pagina van de Voorkeur van het Project**, ga met één van de 4 hieronder vermelde secties verder om voorkeur voor [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], en [!UICONTROL Life after Death] te vormen.
-1. Als u alle groepen door de organisatie wilt om de zelfde projectvoorkeur te gebruiken, zorg ervoor dat elke voorkeur gesloten ![&#x200B; knevel van het Slot &#x200B;](assets/lock-toggle-button.png) is (dit is het gebrek).
+1. On the **Project Preferences** page, continue with one of the 4 sections listed below to configure preferences for [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], and [!UICONTROL Life after Death].
+1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![Lock toggle](assets/lock-toggle-button.png) (this is the default).
 
    >[!IMPORTANT]
    >
    >Als een projectvoorkeur is vergrendeld, worden alle wijzigingen die u in die voorkeur aanbrengt, overgeërfd door alle groepen in het systeem. Het is belangrijk om met de gebruikers en de groepen door uw organisatie te communiceren om ervoor te zorgen dat alle behoeften rekenschap worden gegeven in de manier u projectvoorkeur vormt.
 
-   Voor informatie over het ontgrendelen van een voorkeur zodat alle groepen het op hun kunnen vormen en beheren, zie [&#x200B; Vergrendelen of projectvoorkeur voor alle groepen in het systeem &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md) ontgrendelen.
+   Voor informatie over het ontgrendelen van een voorkeur zodat alle groepen het op hun kunnen vormen en beheren, zie [ Vergrendelen of projectvoorkeur voor alle groepen in het systeem ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md) ontgrendelen.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -97,13 +97,13 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td>  <p>Deze voorkeur staat gebruikers toe om projecten tot stand te brengen zonder een malplaatje te gebruiken wanneer het creëren van een project van de volgende gebieden: </p>
       <ul>
         <li>
-        <p>De optie [!UICONTROL New Project] gebruiken in een lijst met projecten</p>
+        <p>Use the [!UICONTROL New Project] option in a list of projects</p>
         </li>
           <li>
           <p>Een uitgave converteren naar een project vanaf de pagina van de uitgave</p>
           </li>
          </ul>
-        <p>Deze voorkeur is standaard ingeschakeld. </p> 
+        <p>This preference is enabled by default. </p> 
         <p><b>OPMERKING</b></p>
         <p> Een groepsbeheerder kan deze voorkeur voor een groep wijzigen. Wanneer een gebruiker tot veelvoudige groepen met verschillende voorkeur behoort, kan de gebruiker een project zonder een malplaatje tot stand brengen als hun Groep van het Huis deze toegelaten voorkeur heeft.</p> 
         </td> 
@@ -124,7 +124,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Workfront berekent het percentage voltooide van een project of oudertaak gebruikend het percentage voltooide van elke taak in het project en of de Duur of de Geplande Uren van elke taak.</p><p>Het percentage voltooide van elke taak wordt manueel geplaatst door taaktoewijzing.</p><p>U kunt hier selecteren of Workfront de Duur of de Geplande Uren van taken zal gebruiken om het percentage te berekenen voltooide projecten.</p> <p>Als u [!UICONTROL Duration] selecteert, bepaalt de Duur van elke taak in een project het algemene percentage volledig voor het project, en de Duur van elke subtaak bepaalt het algemene percentage volledig voor zijn oudertaak.</p> <p>Als u [!UICONTROL Duration] selecteert, moet u de secties [!UICONTROL Typical hours per work day] en [!UICONTROL Typical work days per week] opgeven in de sectie [!UICONTROL Timelines] . [!DNL Workfront] gebruikt deze informatie wanneer het berekenen van het voltooide van een taak die op Duur wordt gebaseerd. </p> <p>Als u [!UICONTROL Planned Hours] selecteert, moet u ervoor zorgen dat voor alle taken in elk project de hoeveelheid [!UICONTROL Planned Hours] is gedefinieerd en dat de hoeveelheid niet nul is.</p><p>Voor meer informatie, zie <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md"> Volledige overzicht van de Percentage van het Project </a>.</p></td> 
+   <td> <p>Workfront calculates the percent complete of a project or parent task using the percent complete of each task in the project and either the Duration or the Planned Hours of each task.</p><p>The percent complete of each task is manually set by task assignees.</p><p>U kunt hier selecteren of Workfront de Duur of de Geplande Uren van taken zal gebruiken om het percentage te berekenen voltooide projecten.</p> <p>Als u [!UICONTROL Duration] selecteert, bepaalt de Duur van elke taak in een project het algemene percentage volledig voor het project, en de Duur van elke subtaak bepaalt het algemene percentage volledig voor zijn oudertaak.</p> <p>Als u [!UICONTROL Duration] selecteert, moet u de secties [!UICONTROL Typical hours per work day] en [!UICONTROL Typical work days per week] opgeven in de sectie [!UICONTROL Timelines] . [!DNL Workfront] gebruikt deze informatie wanneer het berekenen van het voltooide van een taak die op Duur wordt gebaseerd. </p> <p>Als u [!UICONTROL Planned Hours] selecteert, moet u ervoor zorgen dat voor alle taken in elk project de hoeveelheid [!UICONTROL Planned Hours] is gedefinieerd en dat de hoeveelheid niet nul is.</p><p>Voor meer informatie, zie <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md"> Volledige overzicht van de Percentage van het Project </a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
@@ -139,12 +139,12 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td> <p>De methode van de Index van Prestaties (PIM) voor het project controleert de methode [!DNL Workfront] gebruikt om de Vereiste metriek van de Waarde zoals [!UICONTROL Cost Performance Index] (CPI) en [!UICONTROL Estimate At Completion] (EAC) te berekenen. Voor meer informatie, zie <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override=""> [!UICONTROL Cost Performance Index] berekenen (CPI) </a> en <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Calculate Estimate At Completion] (EAC) </a></p> 
     <ul> 
      <li><strong>[!UICONTROL Hour-based]</strong>: [!DNL Workfront] gebruikt [!UICONTROL Planned Hours] om prestatiemetriek zoals EAC en CPI te berekenen. Wanneer de PIM wordt berekend op basis van uren, wordt de EAC weergegeven als een aantal uren. Zorg ervoor dat u een andere waarde voor [!UICONTROL Planned Hours] hebt dan nul.</li> 
-     <li> <p><strong>[!UICONTROL Cost-based]</strong>: [!DNL Workfront] gebruikt [!UICONTROL Planned Labor Cost] om prestatiemetriek zoals EAC en CPI te berekenen. Zorg ervoor dat uw taakrollen of gebruikers zijn gekoppeld aan kosten per uur. Wanneer de PIM wordt berekend op basis van kosten, wordt de EAC weergegeven als een valutawaarde.</p> <p>De projectmanager kan deze instelling op projectniveau wijzigen met behulp van het [!UICONTROL Finance] -gebied in [!UICONTROL Project Details] . Voor meer informatie, zie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override=""> informatie in het project [!UICONTROL Finance] gebied </a> beheren.</p> </li> 
+     <li> <p><strong>[!UICONTROL Cost-based]</strong>: [!DNL Workfront] gebruikt [!UICONTROL Planned Labor Cost] om prestatiemetriek zoals EAC en CPI te berekenen. Zorg ervoor dat uw taakrollen of gebruikers zijn gekoppeld aan kosten per uur. Wanneer de PIM wordt berekend op basis van kosten, wordt de EAC weergegeven als een valutawaarde.</p> <p>De projectmanager kan deze instelling op projectniveau wijzigen met behulp van het [!UICONTROL Finance] -gebied in [!UICONTROL Project Details] . For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project [!UICONTROL Finance] area</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
-   <td> <p>Bepaal welke gegevens [!DNL Workfront] gebruikt om [!UICONTROL Estimate at Completion] (EAC) te berekenen die de geprojecteerde totale kosten van een project vertegenwoordigt.</p> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
+   <td> <p>Determine which data [!DNL Workfront] uses to calculate the [!UICONTROL Estimate at Completion] (EAC) which represents the projected total cost of a project.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC voor de bovenliggende taak en het bovenliggende project worden bepaald door [!UICONTROL Actual Hours] of [!UICONTROL Actual Labor Cost] in te voeren in de EAC-indelingen. Deze berekening bevat [!UICONTROL Actual Hours] of [!UICONTROL Costs and Expenses] die rechtstreeks aan de bovenliggende taak of het bovenliggende project zijn toegevoegd.</li> 
      <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>: EAC voor de oudertaak en het project worden bepaald door EAC voor elke kindtaak samen te vatten. Deze berekening sluit [!UICONTROL Actual Hours] of [!UICONTROL Actual Costs and Expenses] uit die rechtstreeks aan de bovenliggende taak of het bovenliggende project worden toegevoegd.</p> <p>De projectmanager kan dit het plaatsen op het projectniveau wijzigen, gebruikend het [!UICONTROL Finance] gebied in [!UICONTROL Project Details].Voor meer informatie, zie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override=""> informatie in het project [!UICONTROL Finance] gebied </a> leiden.</p> </li> 
@@ -180,8 +180,8 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
      <li>Wanneer u deze instelling wijzigt, nemen alleen de projecten en sjablonen die na de wijziging zijn gemaakt de bijgewerkte instelling over. </li> 
      <li> <p>De waarde van de Beperking van de Taak van de taak bepaalt welke geplande taakdata om aan te passen: </p> 
       <ul> 
-       <li>De geplande begindatum</li> 
-       <li>De geplande afsluitdatum</li> 
+       <li>The Planned Start Date</li> 
+       <li>The Planned Completion Date</li> 
        <li>Beide datums</li> 
        <li>Geen van beide datums. </li> 
       </ul> <p>Als een taak bijvoorbeeld een beperking [!UICONTROL Fixed Dates] heeft, worden de datums niet aangepast wanneer de primaire ontvanger de tijd uit heeft, zelfs als de optie [!UICONTROL Consider user time off in task duration] is geselecteerd. Voor informatie over taakbeperkingen, zie <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override=""> Overzicht van de Beperking van de Taak </a>.</p> </li> 
@@ -191,9 +191,9 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
    <td> <p>Bepaal wanneer de tijdlijn van een project opnieuw wordt berekend. Voor informatie over het opnieuw berekenen van de projectchronologie, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override=""> projectchronologie </a> opnieuw berekenen.</p> <p>De volgende opties zijn standaard ingeschakeld. U kunt een of meer van de volgende instellingen selecteren:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Every night]</strong>: Selecteer deze optie om de projecttijdlijnen elke avond opnieuw te berekenen. Wijzigingen die u aanbrengt in het project en die van invloed kunnen zijn op de tijdlijn, worden niet direct weergegeven. [!DNL Workfront​​​] herberekent tijdlijnen 's nachts alleen voor projecten waarbij aan beide volgende voorwaarden is voldaan:</p> <p> 
+     <li> <p><strong>[!UICONTROL Every night]</strong>: Select this to recalculate project timelines every night. Wijzigingen die u aanbrengt in het project en die van invloed kunnen zijn op de tijdlijn, worden niet direct weergegeven. [!DNL Workfront​​​] recalculates timelines at night only for projects where both of the following conditions are met:</p> <p> 
        <ul> 
-        <li>een status hebben van [!UICONTROL Current]</li> 
+        <li>Have a status of [!UICONTROL Current]</li> 
         <li>Heeft in de afgelopen drie maanden een update</li> 
         <li>hebben een updatetype van één van het volgende gehad:</li>
         <ul>
@@ -210,18 +210,18 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
    <td role="rowheader"> <p>[!UICONTROL When multiple users are assigned to a task use the schedule of the]</p> </td> 
    <td> <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, [!DNL Workfront] gebruikt het systeem standaardprogramma om de chronologie van de taken te berekenen.</p> <p>Als u veelvoudige gebruikers aan de zelfde taak in een project toewijst en het project een toegewezen programma heeft en de gebruikers die aan de taken worden toegewezen ook een programma hebben dat aan hen wordt toegewezen, [!UICONTROL Workfront] gebruikt de volgende programma's:</p> 
     <ul> 
-     <li><strong>[!UICONTROL Primary Assignment]</strong>: [!DNL Workfront] gebruikt het schema van de primaire toewijzing voor de taak om tijdlijnen te berekenen.</li> 
+     <li><strong>[!UICONTROL Primary Assignment]</strong>: [!DNL Workfront] uses the schedule of the Primary Assignment on the task to calculate timelines.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] gebruikt het schema van het project om de tijdlijn van elke taak te berekenen.</li> 
     </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p> </td> 
   </tr>
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p>Wanneer één gebruiker aan een taak wordt toegewezen, gebruik het programma van..</p> </td> 
+   <td role="rowheader"> <p>When one user is assigned to a task, use the schedule of the...</p> </td> 
    <td> 
 <p>Als een project geen toegewezen programma heeft of als de gebruikers die aan zijn taken worden toegewezen geen Programma hebben dat aan hen wordt toegewezen, [!DNL Workfront] gebruikt het systeem standaardprogramma om de chronologie van de taken te berekenen.</p>
 
-<p>Als u één gebruiker aan een taak in een project toewijst en zowel het project als de gebruiker die aan de taken wordt toegewezen hebben programma's verbonden aan hen, [!UICONTROL Workfront] gebruikt de volgende programma's:</p> 
+<p>If you assign one user to a task in a project and both the project and the user assigned to the tasks have schedules associated with them, [!UICONTROL Workfront] uses the following schedules:</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] gebruikt het schema van de toegewezen gebruiker op de taak om tijdlijnen te berekenen.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] gebruikt het schema van het project om de tijdlijn van de taak te berekenen.</li> 
@@ -237,22 +237,24 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
     </ul> 
     <ul> 
      <li><strong>[!UICONTROL Typical work days per week]</strong>: Stel de standaardwerkweek in voor de gebruikers die aan projecten werken. De standaardwaarde is 5 dagen.</li> 
-    </ul> <p>Deze twee opties zetten dagen om in uren, of weken in dagen.</p> <p>Als u bijvoorbeeld een taak hebt met 8 geplande uren en de duur wordt berekend op basis van de geplande uren, zet [!DNL Workfront] die uren om in dagen om de Duur weer te geven als dagen.</p> <p>In het veld [!UICONTROL work days per week] Normaal berekent [!DNL Workfront] de waarde FTE (Full Time Equivalent) voor uw systeem. Dit is wat [!DNL Workfront] gebruikt bij het berekenen van toewijzingen voor gebruikers.</p> <p>Deze waarden worden gebruikt wanneer u projectchronologie, het in de begroting opnemen voor middelen, of het registreren tijd tegen projecten plant. </p> <p>Zij worden niet gebruikt wanneer u timesheets voor gebruikers in het systeem, zoals die in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] timesheet en uurvoorkeur </a> wordt beschreven.</p> <p><b> NOTA </b>:</p> <p>[!DNL Workfront] beheerders kunnen [!UICONTROL Timeline Calculations] -voorkeuren niet ontgrendelen.</p> </td> 
+    </ul> <p>Deze twee opties zetten dagen om in uren, of weken in dagen.</p> <p>Als u bijvoorbeeld een taak hebt met 8 geplande uren en de duur wordt berekend op basis van de geplande uren, zet [!DNL Workfront] die uren om in dagen om de Duur weer te geven als dagen.</p> <p>In het veld [!UICONTROL work days per week] Normaal berekent [!DNL Workfront] de waarde FTE (Full Time Equivalent) voor uw systeem. Dit is wat [!DNL Workfront] gebruikt bij het berekenen van toewijzingen voor gebruikers.</p> <p>Deze waarden worden gebruikt wanneer u projectchronologie, het in de begroting opnemen voor middelen, of het registreren tijd tegen projecten plant. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] timesheet and hour preferences</a>.</p> <p><b>NOTE</b>:</p> <p>[!DNL Workfront] beheerders kunnen [!UICONTROL Timeline Calculations] -voorkeuren niet ontgrendelen.</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <span class="preview"> het gebied van de Kwarten van de Douane is verwijderd uit de sectie van de Voorkeur van het Project in het milieu van de Voorproef.</span> 
-   <span class="preview"> voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p></span>
-   <p>In de omgeving van de Productie, vorm douane jaarlijkse kwartalen voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen.   <p><b> NOTA </b>: </p><p>[!DNL Workfront] beheerders kunnen [!UICONTROL Custom Quarters] -voorkeuren niet ontgrendelen en groepsbeheerders kunnen deze instellingen niet op groepsniveau bewerken.</p> </td> 
+   <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
+   <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
+   <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
 ### [!UICONTROL Business Cases] {#business-cases}
 
-U kunt een BedrijfsGeval voor pas gecreëerde projecten door het systeem tot stand brengen om projectverzoeken voor te leggen. U kunt voorkeuren definiëren om te bepalen welke gebieden zichtbaar zijn op het **[!UICONTROL Business Case]** -formulier. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals de [!UICONTROL Portfolio Optimizer] , correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [&#x200B; een BedrijfsGeval bepalen: artikelindex &#x200B;](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+U kunt een BedrijfsGeval voor pas gecreëerde projecten door het systeem tot stand brengen om projectverzoeken voor te leggen. U kunt voorkeuren definiëren om te bepalen welke gebieden zichtbaar zijn op het **[!UICONTROL Business Case]** -formulier. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals de [!UICONTROL Portfolio Optimizer] , correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [ een BedrijfsGeval bepalen: artikelindex ](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-Nadat de [!DNL Workfront] beheerder de secties op [!UICONTROL Business Case] toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau tot stand brengen. Voor informatie over het creëren van een BedrijfsGeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Nadat de [!DNL Workfront] beheerder de secties op [!UICONTROL Business Case] toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau tot stand brengen. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ### [!UICONTROL Life After Death]  {#life-after-death}
 
@@ -286,7 +288,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
        <li>Voeg uitgaven aan een project toe nadat het project [!UICONTROL Complete] of [!UICONTROL Dead] is gemerkt. (U kunt geen uitgaven aan een project toevoegen dat [!UICONTROL Pending Approval] is.)</li>
       </ul></li> 
      <li> <p><strong>[!UICONTROL Add documents to the project and to its tasks and issues]</strong>: Hiermee kunnen gebruikers documenten toevoegen aan een project (of documenten toevoegen aan taken en problemen binnen het project) nadat het project is gemarkeerd als [!UICONTROL Complete] of [!UICONTROL Dead] .</p> <p>Deze optie is niet van toepassing op projecten die in afwachting zijn van goedkeuring.</p> </li> 
-     <li> <p><strong>[!UICONTROL Attach templates]</strong>: Hiermee kunnen gebruikers sjablonen aan een project koppelen nadat het project is gemarkeerd als [!UICONTROL Complete] of [!UICONTROL Dead] .</p> <p>Deze optie is niet van toepassing op projecten die in afwachting zijn van goedkeuring.</p> </li> 
+     <li> <p><strong>[!UICONTROL Attach templates]</strong>: Allows users to attach templates to a project after the project has been marked [!UICONTROL Complete] or [!UICONTROL Dead].</p> <p>Deze optie is niet van toepassing op projecten die in afwachting zijn van goedkeuring.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

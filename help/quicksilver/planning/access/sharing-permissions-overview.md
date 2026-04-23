@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 U kunt machtigingen delen of verwijderen voor een Adobe Workfront-werkruimte, recordtype of weergave.
 
-U kunt ook aanvraagformulieren voor planning delen. Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+U kunt ook aanvraagformulieren voor planning delen. Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 In dit artikel worden de machtigingsniveaus voor Workfront Planning-werkruimten, recordtypen, records, velden en weergaven beschreven.
 
@@ -50,7 +50,7 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
    * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
    * Als u een werkruimte deelt, worden de weergaven niet gedeeld. Weergaven worden afzonderlijk gedeeld.
 
-  Voor meer informatie, zie [&#x200B; werkruimten van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-workspaces.md)
+  Voor meer informatie, zie [ werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md)
 
 * Recordtypen
 
@@ -58,7 +58,7 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
    * Het niveau van toestemmingen die voor de werkruimte worden verleend toont als Geërfte toestemmingen voor het verslagtype.
    * U kunt een recordtype niet delen met een hoger machtigingsniveau dan de gebruiker in de werkruimte heeft.
 
-  Voor meer informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+  Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 
 
 * Weergaven
@@ -68,13 +68,13 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
    * Wanneer u een weergave deelt, worden de records die zichtbaar zijn in de weergave niet gedeeld. Records moeten worden gedeeld door werkruimten te delen.
    * U kunt een mening openbaar delen, met mensen buiten uw organisatie wanneer u een openbare verbinding voor een mening produceert.De mensen die tot de verslagpagina van een openbare verbinding toegang hebben kunnen alle verslagen en hun gebieden, met inbegrip van verbonden verslagen en gebieden bekijken.
 
-  Voor meer informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
+  Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 ## Overwegingen bij het delen van objecten in Adobe Workfront Planning
 
 * Uw Adobe Workfront-licentietype werkt in combinatie met uw Workfront-planningsmachtigingen en geeft u toegang tot de werkruimten en de bijbehorende objecten, en tot het weergeven, bijdragen of beheren van deze werkruimten.
 
-  Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront beïnvloeden, zie [&#x200B; het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/license-type-overview.md).
+  Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 * Systeembeheerders kunnen alle werkruimten in het systeem beheren, inclusief de werkruimten die ze niet hebben gemaakt.
 * Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld. Systeembeheerders kunnen alleen machtigingen krijgen om een weergave te beheren.
 
@@ -82,7 +82,7 @@ U kunt de volgende objecten handmatig delen in Workfront Planning:
 
   >[!IMPORTANT]
   >
-  >Als de instantie van uw organisatie van Workfront aan de Adobe Verenigde Ervaring is genegeerd, moeten de gebruikers u de voorwerpen van de Planning met wilt delen aan Adobe Admin Console worden toegevoegd. U kunt planningsobjecten niet delen met Workfront-gebruikers die niet aan de Adobe Admin Console zijn toegevoegd.
+  >De gebruikers u de voorwerpen van de Planning met wilt delen moeten aan Adobe Admin Console worden toegevoegd. U kunt planningsobjecten niet delen met Workfront-gebruikers die niet aan de Adobe Admin Console zijn toegevoegd.
 
 * U kunt de voorwerpen van de Planning op de volgende manieren delen:
 
@@ -114,7 +114,7 @@ De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt select
 > 
 >Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor werkruimten en weergaven.
 >
->Voor informatie, zie [&#x200B; het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/license-type-overview.md).
+>Voor informatie, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Machtigingen voor werkruimten

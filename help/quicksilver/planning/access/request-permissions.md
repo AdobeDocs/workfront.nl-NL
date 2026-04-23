@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,13 @@ ht-degree: 0%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+<!-- no longer needed: 
 >[!IMPORTANT]
 >
->De functionaliteit die in dit artikel wordt beschreven is beschikbaar slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring is genegeerd.
+>The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
 >
->Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
+>For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+-->
 
 U kunt machtigingen aanvragen voor een weergave of werkruimte wanneer iemand een koppeling deelt met u naar de weergave of werkruimte waartoe u geen toegang hebt.
 
@@ -89,7 +90,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -176,7 +177,7 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    A **u hebt geen toegang** paginagtoningen om u mee te delen dat u geen toegang tot de mening of de werkruimte hebt.
 
-   ![&#x200B; toegang van het Verzoek tot mening &#x200B;](assets/request-access-to-view.png)
+   ![ toegang van het Verzoek tot mening ](assets/request-access-to-view.png)
 
 1. (Voorwaardelijk) als de gedeelde verbinding voor een mening voor een werkruimte is waar u toegang hebt, klik **Open met bestaande mening**. Als u toegang hebt tot de werkruimte, wordt de pagina met recordtypen geopend in de standaardweergave.
 
@@ -184,8 +185,8 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen de volgende meldingen voor de toegangsaanvraag:
    * Een melding in de app
-     ![&#x200B; In-app bericht voor toegangsverzoek &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-     ![&#x200B; E-mailbericht voor toegangsverzoek &#x200B;](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 
 1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->

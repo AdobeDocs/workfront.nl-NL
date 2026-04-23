@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Als werkruimtemanager, kunt u flexibele maar gestructureerde hiërarchieën tuss
 
 Hiërarchieën zijn verbindingen tussen recordtypen, of tussen recordtypen en een Workfront-project.
 
-Voor informatie over het creëren van hiërarchieën, zie [&#x200B; werkruimtescheidingen &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+Voor informatie over het creëren van hiërarchieën, zie [ werkruimtescheidingen ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten:
 
@@ -46,7 +46,7 @@ Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten
 * U kunt de volgende objecttypen niet toevoegen in een hiërarchie:
    * De types van verslag van andere werkruimten, zelfs wanneer zij als verbindbare of globale verslagtypes worden geplaatst. U kunt algemene recordtypen alleen aan hiërarchieën toevoegen wanneer ze zijn toegevoegd aan de werkruimte waaruit u de hiërarchie maakt.
    * Alle andere Workfront-objecten.
-   * AEM Assets of Content Fragments.
+   * Adobe Experience Manager Assets of Content Fragments.
 * De hiërarchieën kunnen zowel de types van het Verslag van de Planning als de projecten van Workfront tezelfdertijd omvatten.
 
   U kunt bijvoorbeeld een type Campagne-record hebben met Planning Tactics en Workfront Projecten als de onderliggende elementen in dezelfde werkruimtehiërarchie.
@@ -84,7 +84,7 @@ Wanneer u hiërarchieën tussen recordtypes creeert, produceren zij broodkruimel
 
 Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics, dan met Activiteiten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst. Als de record in meerdere werkruimten wordt weergegeven, kunt u de paden in elke werkruimte weergeven, te beginnen met de naam van de werkruimte in de breadcrumb.
 
-![&#x200B; Breadcrumb &#x200B;](assets/breadcrumbs-on-activities-planning-only.png)
+![ Breadcrumb ](assets/breadcrumbs-on-activities-planning-only.png)
 
 Overweeg het volgende:
 
@@ -95,5 +95,5 @@ Overweeg het volgende:
 
   Wanneer u bijvoorbeeld een project bekijkt dat is verbonden met planningscampagnes en tactieken, maar ook met Workfront-portfolio&#39;s en -programma&#39;s, kunt u schakelen tussen de objecttypen Planning en Workfront vanuit de breadcrumb.
 
-  Voor meer informatie, zie [&#x200B; de hiërarchieën van de werkruimte &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+  Voor meer informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 * Wanneer u een record bewerkt, zijn de wijzigingen zichtbaar vanuit alle werkruimten en alle hiërarchieën waarin de record deel uitmaakt.

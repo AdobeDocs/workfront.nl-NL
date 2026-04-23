@@ -10,9 +10,9 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Door projecten aan doelstellingen te verbinden kunt u de strategische planning (
 
 >[!IMPORTANT]
 >
->Projectniveaudoelstellingen die in het gebied Bedrijfs van het Geval van een project worden gecreeerd worden niet verbonden met strategische doelstellingen die in de Doelen van Workfront worden gecreeerd. Voor informatie over de doelstellingen van het BedrijfsGeval project, zie [&#x200B; BedrijfsGevallendoelstellingen &#x200B;](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
+>Projectniveaudoelstellingen die in het gebied Bedrijfs van het Geval van een project worden gecreeerd worden niet verbonden met strategische doelstellingen die in de Doelen van Workfront worden gecreeerd. Voor informatie over de doelstellingen van het BedrijfsGeval project, zie [ BedrijfsGevallendoelstellingen ](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
 
 
 ## Toegangsvereisten
@@ -79,7 +79,7 @@ Door projecten aan doelstellingen te verbinden kunt u de strategische planning (
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -175,19 +175,19 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Projecten toevoegen aan doelen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) (ontwerp dit voor Shell: of klik de **Belangrijkste lijnen van het Menu** ![&#x200B; HoofdMenu &#x200B;](assets/three-line-main-menu-icon.png) in de upper-left hoek, als het beschikbaar is.), toen **Doelen**.
+1. Klik het **** Belangrijkste pictogram van het Menu ![ Belangrijkste ](assets/lines-main-menu.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 1. Van de **Nieuwe voortgangsindicator** drop-down menu, klik **toevoegen bestaand project**.
 
    De Add projecten aan de vertoningen van het doelvakje.
 1. (Facultatief) werk de **Mening** bij, **Filter**, of **Groepering** door de respectieve pictogrammen in de hoger-juiste hoek van de lijst te klikken om de manier te wijzigen de lijst van projectvertoningen.
-1. (Facultatief) klik het **pictogram van het Onderzoek** pictogram van het Onderzoek ![&#x200B; en begin de naam van een project te typen om het in de lijst snel te vinden.](assets/search-icon.png)
+1. (Facultatief) klik het **pictogram van het Onderzoek** pictogram van het Onderzoek ![ en begin de naam van een project te typen om het in de lijst snel te vinden.](assets/search-icon.png)
 1. Selecteer de projecten die u aan het doel wilt toevoegen, dan klik **toevoegen**.
 
-   De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **&#x200B;**&#x200B;groepering van het Project.
+   De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **** groepering van het Project.
 
-   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer de voortgang van een project wordt bijgewerkt. Voor informatie over het activeren van een doel, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../goal-management/activate-goals.md) activeren.
+   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer de voortgang van een project wordt bijgewerkt. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/activate-goals.md) activeren.
 
 ## Projectinformatie zoeken over doelen
 
