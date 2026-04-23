@@ -71,7 +71,7 @@ Met activiteiten wordt de voortgang van een doel gemeten. Zonder resultaten, act
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -198,14 +198,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klik het **** Belangrijkste pictogram van het Menu ![ Belangrijkste ](assets/lines-main-menu.png), toen **Doelen**.
+1. Klik het **&#x200B;**&#x200B;Belangrijkste pictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/lines-main-menu.png), toen **Doelen**.
 1. From the Goal List, click the name of a goal to open the goal&#39;s page.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 1. Van het Nieuwe drop-down menu van de vooruitgangsindicator, klik **creeer activiteit**.
 
    Het vak Nieuwe activiteit wordt geopend.
 
-   ![ Nieuwe activiteitendoos ](assets/new-activity-box-unshimmed.png)
+   ![&#x200B; Nieuwe activiteitendoos &#x200B;](assets/new-activity-box-unshimmed.png)
 
 1. Typ een naam voor de activiteit in het veld Naam activiteit. Dit is een verplicht veld.
 1. (Optional) Remove your name from the **Activity owner** field if you want to assign the activity to another user. By default, you are the owner of an activity you create.

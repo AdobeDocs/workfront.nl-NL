@@ -90,7 +90,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -177,7 +177,7 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    A **u hebt geen toegang** paginagtoningen om u mee te delen dat u geen toegang tot de mening of de werkruimte hebt.
 
-   ![ toegang van het Verzoek tot mening ](assets/request-access-to-view.png)
+   ![&#x200B; toegang van het Verzoek tot mening &#x200B;](assets/request-access-to-view.png)
 
 1. (Voorwaardelijk) als de gedeelde verbinding voor een mening voor een werkruimte is waar u toegang hebt, klik **Open met bestaande mening**. Als u toegang hebt tot de werkruimte, wordt de pagina met recordtypen geopend in de standaardweergave.
 
@@ -185,8 +185,8 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen de volgende meldingen voor de toegangsaanvraag:
    * Een melding in de app
-     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
+     ![&#x200B; In-app bericht voor toegangsverzoek &#x200B;](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
+     ![&#x200B; E-mailbericht voor toegangsverzoek &#x200B;](assets/email-notification-for-access-request.png)
 
 1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->
