@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Omdat alle organisaties nu aan boord zijn gegaan naar de Adobe Admin Console, wordt dit artikel in de nabije toekomst verwijderd.
 >
->Als uw organisatie aan [!UICONTROL Adobe Admin Console] is bezet, zie [ Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Als uw organisatie aan [!UICONTROL Adobe Admin Console] is bezet, zie [&#x200B; Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) &#x200B;](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Probleem
 
@@ -61,7 +61,7 @@ Als het probleem voortduurt, contacteer de beheerder van deze plaats en verstrek
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
