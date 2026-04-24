@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Omdat alle organisaties nu aan Adobe Admin Console zijn bezet, **is het niet mogelijk om uw domein van Workfront** te veranderen.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ verschillen van het Beleid tussen Adobe Workfront en Adobe Bedrijfs Platform ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; verschillen van het Beleid tussen Adobe Workfront en Adobe Bedrijfs Platform &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >Dit artikel wordt in de nabije toekomst verwijderd.
 
@@ -52,7 +52,7 @@ Als Adobe Workfront-beheerder en geautoriseerde contactpersoon voor Workfront-on
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

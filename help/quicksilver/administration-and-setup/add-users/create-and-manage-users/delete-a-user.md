@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >**omdat alle organisaties nu aan Adobe Admin Console zijn ingezien, zal de informatie over deze pagina in de nabije toekomst worden verwijderd.**
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [ verschillen van het Beleid tussen Adobe Workfront en Adobe Bedrijfs Platform ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [&#x200B; verschillen van het Beleid tussen Adobe Workfront en Adobe Bedrijfs Platform &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Wanneer een gebruiker uw organisatie verlaat, kunt u die gebruiker uit Adobe Workfront verwijderen.
 
 >[!IMPORTANT]
 >
->Als u een gebruiker uit het systeem verwijdert, wordt ook de informatie verwijderd die is gekoppeld aan de gebruiker die u mogelijk wilt behouden. We raden u aan gebruikers te deactiveren in plaats van ze te verwijderen. Voor meer informatie, zie [ een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
+>Als u een gebruiker uit het systeem verwijdert, wordt ook de informatie verwijderd die is gekoppeld aan de gebruiker die u mogelijk wilt behouden. We raden u aan gebruikers te deactiveren in plaats van ze te verwijderen. Voor meer informatie, zie [&#x200B; een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
@@ -70,7 +70,7 @@ Wanneer een gebruiker uw organisatie verlaat, kunt u die gebruiker uit Adobe Wor
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Als u een gebruiker deactiveert, gebeurt het volgende:
 
-* Hiermee verwijdert u de gebruikerslicenties voor zowel Workfront als Workfront Proof als de Workfront Proof-component aan uw Workfront-account is gekoppeld. Voor meer informatie over Workfront Proof, zie [ Workfront Proof: artikelindex ](../../../workfront-proof/workfront-proof.md).
+* Hiermee verwijdert u de gebruikerslicenties voor zowel Workfront als Workfront Proof als de Workfront Proof-component aan uw Workfront-account is gekoppeld. Voor meer informatie over Workfront Proof, zie [&#x200B; Workfront Proof: artikelindex &#x200B;](../../../workfront-proof/workfront-proof.md).
 * Aan de gebruiker kan geen werk meer worden toegewezen.
 * De gebruiker kan niet meer aan updates worden toegevoegd.
 * De gebruiker kan niet meer aan teams of groepen worden toegevoegd.
@@ -91,17 +91,17 @@ Als u een gebruiker deactiveert, gebeurt het volgende:
      >[!NOTE]
      >
      >Als u een gebruiker deactiveert en niet meer de rapporten of dashboards kan bekijken verbonden aan een gebruiker, kunt u **dit rapport met de Rechten van de Toegang van moeten bijwerken:** gebied.\
-     >Om meer te leren, zie [ waarom geen tot een rapport kan toegang hebben dat door een gedeactiveerde gebruiker wordt bezeten?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) sectie van het [ artikel van Veelgestelde vragen van Rapporten ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >Om meer te leren, zie [&#x200B; waarom geen tot een rapport kan toegang hebben dat door een gedeactiveerde gebruiker wordt bezeten?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) sectie van het [&#x200B; artikel van Veelgestelde vragen van Rapporten &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documenten
    * Updates
    * Uren
 
-* Als de gebruiker uitgecheckte documenten heeft, blijven de documenten uitgecheckt wanneer u ze deactiveert. Alleen een Workfront-beheerder kan ze weer inchecken. Voor meer informatie over het controleren van documenten, zie [ Controle uit documenten ](../../../documents/managing-documents/check-out-documents.md).
+* Als de gebruiker uitgecheckte documenten heeft, blijven de documenten uitgecheckt wanneer u ze deactiveert. Alleen een Workfront-beheerder kan ze weer inchecken. Voor meer informatie over het controleren van documenten, zie [&#x200B; Controle uit documenten &#x200B;](../../../documents/managing-documents/check-out-documents.md).
 
 Wanneer u een gebruiker verwijdert, gebeurt het volgende:
 
-* Verwijdert de gebruikerslicenties voor zowel Workfront als Workfront Proof als de Workfront Proof-component aan uw Workfront-account is gekoppeld. Voor meer informatie over Workfront Proof, zie [ Workfront Proof: artikelindex ](../../../workfront-proof/workfront-proof.md).
+* Verwijdert de gebruikerslicenties voor zowel Workfront als Workfront Proof als de Workfront Proof-component aan uw Workfront-account is gekoppeld. Voor meer informatie over Workfront Proof, zie [&#x200B; Workfront Proof: artikelindex &#x200B;](../../../workfront-proof/workfront-proof.md).
 * Aan de gebruiker kan geen werk meer worden toegewezen.
 * De gebruiker kan niet meer aan updates worden toegevoegd.
 * De gebruiker kan niet meer aan teams of groepen worden toegevoegd.
@@ -129,9 +129,9 @@ Wanneer u een gebruiker verwijdert, gebeurt het volgende:
      >Deze objecten blijven in Workfront staan, maar de eigenaar van het object is nu leeg.
 
 * Als de gebruiker documenten heeft geüpload onder het gebied Documenten in de algemene navigatiebalk, worden de documenten ook verwijderd.
-* Als de gebruiker documenten heeft uitgecheckt die hij of zij bezit en de documenten in het belangrijkste gebied van Documenten (betreden van het Belangrijkste Menu) worden geupload, worden de documenten geschrapt met de gebruiker. Voor meer informatie over het controleren van documenten, zie [ Controle uit documenten ](../../../documents/managing-documents/check-out-documents.md).
+* Als de gebruiker documenten heeft uitgecheckt die hij of zij bezit en de documenten in het belangrijkste gebied van Documenten (betreden van het Belangrijkste Menu) worden geupload, worden de documenten geschrapt met de gebruiker. Voor meer informatie over het controleren van documenten, zie [&#x200B; Controle uit documenten &#x200B;](../../../documents/managing-documents/check-out-documents.md).
 
-Voor meer informatie over het deactiveren van gebruikers, zie [ een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
+Voor meer informatie over het deactiveren van gebruikers, zie [&#x200B; een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
 U kunt gebruikers een voor een permanent verwijderen of u kunt meerdere gebruikers tegelijk permanent verwijderen. Wanneer u afzonderlijke gebruikers verwijdert, moet u wachten tot het verwijderingsproces is voltooid voordat u verdergaat met andere activiteiten in Workfront. Het verwijderen van meerdere gebruikers wordt tegelijkertijd als een achtergrondproces uitgevoerd, zodat u Workfront kunt blijven gebruiken terwijl de gebruikers worden verwijderd.
 
@@ -139,7 +139,7 @@ U kunt gebruikers een voor een permanent verwijderen of u kunt meerdere gebruike
 
 {{step-1-to-users}}
 
-1. Selecteer minstens één gebruiker die u wilt schrappen, het Meer menu ![ Meer pictogram ](assets/more-icon.png) klikken, dan **Schrapping** klikken.
+1. Selecteer minstens één gebruiker die u wilt schrappen, het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) klikken, dan **Schrapping** klikken.
 1. In de doos die verschijnt, klik **Schrapping** om de schrapping te bevestigen.
 
    Het verwijderen van gebruikers wordt als een achtergrondproces uitgevoerd, zodat u Workfront kunt blijven gebruiken terwijl de gebruiker of gebruikers worden verwijderd.

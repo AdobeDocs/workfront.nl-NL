@@ -32,11 +32,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 >* Serververificatie met JWT
 >* Gebruikersverificatie met OAuth2
 >
->Voor instructies bij vestiging deze authentificatiemethodes, zie [ tot toepassingen OAuth2 voor de integratie van Workfront leiden ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>Voor instructies bij vestiging deze authentificatiemethodes, zie [&#x200B; tot toepassingen OAuth2 voor de integratie van Workfront leiden &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [ vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
 >
->Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Adobe Workfront-beheerders kunnen de API-sleutels beheren die worden gebruikt om toepassingen in staat te stellen om namens een gebruiker toegang te krijgen tot Workfront, om zo kwetsbaarheden op het gebied van API-beveiliging tot een minimum te beperken.
 
@@ -74,7 +74,7 @@ Voorbeelden van toepassingen die gebruikmaken van de Workfront API zijn:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -163,7 +163,7 @@ U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wan
 
    Deze optie is standaard niet ingeschakeld.
 
-   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [ de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [&#x200B; de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 1. Klik **sparen**.
 
