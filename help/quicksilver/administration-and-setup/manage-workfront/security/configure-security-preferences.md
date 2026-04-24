@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ We raden u aan uw systeemvoorkeuren tijdens de Workfront-implementatie te config
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standaard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -59,7 +59,7 @@ We raden u aan uw systeemvoorkeuren tijdens de Workfront-implementatie te config
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +93,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
      </tr> 
      <tr> 
       <td role="rowheader">Laat mensen Workfront mobiele toepassingen gebruiken</td> 
-      <td> <p>Hiermee hebben gebruikers toegang tot mobiele apps (Workfront View for iPad en apps voor mobiele telefoons)</p> <p>Deze optie is standaard ingeschakeld. </p> <p>Voor informatie over de Mening van Workfront, zie {de Mening van Adobe Workfront van 0} Gebruik <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">. </a> Voor meer informatie over mobiele apps, zie <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref"> Gebruik mobiele app van Adobe Workfront: artikelindex </a>.</p> </td> 
+      <td> <p>Hiermee hebben gebruikers toegang tot mobiele apps (Workfront View for iPad en apps voor mobiele telefoons)</p> <p>Deze optie is standaard ingeschakeld. </p> <p>Voor informatie over de Mening van Workfront, zie {de Mening van Adobe Workfront van 0} Gebruik </a>. <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Voor meer informatie over mobiele apps, zie <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref"> Gebruik mobiele app van Adobe Workfront: artikelindex </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Samenwerking met personen zonder Workfront-accounts met e-mailadressen</p> </td> 
@@ -126,6 +126,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
      <tr> 
       <td role="rowheader">De werklijst Prioriteiten inschakelen </td> 
       <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. Gebruikers zien nog steeds de Prioriteitspictogrammen in Workfront, maar ze hebben geen toegang tot de functionaliteit. Voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
+     </tr>
+      <tr> 
+      <td role="rowheader">Adobe Enterprise-opslag inschakelen </td> 
+      <td>Hiermee kunt u ervoor kiezen om Adobe Enterprise Storage in of uit te schakelen voor uw gehele organisatie of voor specifieke groepen. Voor meer informatie over de Opslag van de Onderneming van Adobe, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md"> de ondernemingsopslag van Adobe voor uw organisatie </a> toelaten.</td> 
      </tr>
      <tr> 
       <td role="rowheader">AI inschakelen </td> 
