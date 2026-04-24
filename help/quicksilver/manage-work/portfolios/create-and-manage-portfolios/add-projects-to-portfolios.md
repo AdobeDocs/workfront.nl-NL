@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,22 @@ We raden u aan projecten aan portfolio&#39;s toe te voegen wanneer u deze initia
 
 Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
-* Hoewel een portfolio een onbeperkt aantal projecten kan bevatten, kunt u slechts één portfolio aan een project koppelen.
+* U kunt slechts één portfolio aan een project koppelen.
 * Een project blijft in een portfolio totdat het wordt verwijderd of gekoppeld aan een ander portfolio.
+* Een portfolio kan een onbeperkt aantal projecten bevatten.
+
+>[!CAUTION]
+>
+>   Overerfde machtigingen worden mogelijk niet correct toegepast wanneer deze worden gebruikt voor een groot aantal onderliggende objecten.
+>   
+>   We raden het volgende aan om problemen met overgeërfde machtigingen te helpen voorkomen:
+>
+>   * Beperk het aantal onderliggende objecten (projecten) onder één bovenliggende map (portfolio of programma). We raden maximaal 10.000 projecten per portfolio of programma aan.
+>   * Verminder overervingsdiepte door machtigingen toe te passen op een object op een lager niveau.
+>
+>     Bijvoorbeeld, pas direct toestemmingen op het projectniveau eerder dan op de toestemmingen toe die van de portefeuille aan het programma worden geërft, en dan op het project worden geërft.
+>   * Splits programma&#39;s om minder projecten te bevatten, wat toestemmingsingewikkeldheid vermindert.
+
 
 ## Toegangsvereisten
 
@@ -47,7 +61,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Standard</p> 
+   <td><p>Standaard</p> 
    <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +75,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,7 +112,7 @@ Old:
 
 1. Ga naar een portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 
-   ![&#x200B; Portfolio met projecten &#x200B;](assets/qs-portfolio-with-projects-350x90.png)
+   ![ Portfolio met projecten ](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klik op **[!UICONTROL New Project]** en selecteer een methode om een project toe te voegen.
 
@@ -135,11 +149,11 @@ Old:
     </tbody> 
    </table>
 
-   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, **voegt de doos van Projecten** toe opent. <!--check this after UI changes-->
 
-   ![&#x200B; voeg bestaand project &#x200B;](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
+   ![ voeg bestaand project ](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
 
 1. Typ de naam van een project in het veld **[!UICONTROL Add Projects to this Portfolio]** en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.  <!--check this after UI changes-->
 
