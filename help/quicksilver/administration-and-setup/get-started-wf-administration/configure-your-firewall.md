@@ -25,7 +25,7 @@ ht-degree: 10%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Aangezien alle organisaties nu aan boord zijn gegaan van de Adobe Admin Console, moet u deze actie uitvoeren via de Adobe Admin Console.
 >
->Om uw lijst van gewenste personen te vormen nadat uw organisatie aan Adobe Admin Console is bezet, zie [&#x200B; Domeinen worden toegestaan voor de Apps en de Diensten van Adobe &#x200B;](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Om uw lijst van gewenste personen te vormen nadat uw organisatie aan Adobe Admin Console is bezet, zie [&#x200B; Domeinen worden toegestaan voor de Apps en de Diensten van Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/kb/network-endpoints.html).
 >
 >Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; verschillen van het Beleid tussen Adobe Workfront en Adobe Bedrijfs Platform &#x200B;](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
