@@ -6,9 +6,9 @@ description: Je kunt objecten die aan Workfront zijn gekoppeld vanuit Adobe Expe
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.
 
 Je kunt objecten die aan Workfront zijn gekoppeld vanuit Adobe Experience Manager Assets ontkoppelen of verwijderen.
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.
 
 ## Een gekoppeld document of een gekoppelde map in Workfront verwijderen
 
@@ -30,8 +34,8 @@ Wanneer u een gekoppeld document of een gekoppelde map in Workfront verwijdert, 
 
 Wanneer u een gekoppeld document of een gekoppelde map uit de externe toepassing verwijdert, blijft het document of de map in het Workfront-systeem totdat u het document of de map ook uit Workfront verwijdert.
 
-* Om activa van Adobe Experience Manager as a Cloud Service te schrappen, zie [&#x200B; activa van de Schrapping &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in de documentatie van Adobe Experience Manager as a Cloud Service.
-* Om activa van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te schrappen, zie [&#x200B; activa of omslagen van de Schrapping &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in de documentatie van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe.
+* Om activa van Adobe Experience Manager as a Cloud Service te schrappen, zie [ activa van de Schrapping ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in de documentatie van Adobe Experience Manager as a Cloud Service.
+* Om activa van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe te schrappen, zie [ activa of omslagen van de Schrapping ](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in de documentatie van de Hoofdzaak van de Activa van de Manager van de Ervaring van Adobe.
 
 
 

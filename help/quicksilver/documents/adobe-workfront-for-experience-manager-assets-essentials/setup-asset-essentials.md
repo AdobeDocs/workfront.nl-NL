@@ -6,9 +6,9 @@ description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,8 @@ Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials &#x200B;:
 
 >[!NOTE]
 >
->U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
+>U kunt ook verschillende Experience Manager Assets-opslagruimten verbinden met één Workfront-omgeving of met verschillende Workfront-omgevingen met één Experience Manager Assets-opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.<br>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.
 
 ## Toegangsvereisten
 
@@ -40,7 +41,7 @@ Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials &#x200B;:
    <td><strong> de vergunningen van Adobe Workfront </strong>
    </td>
    <td>
-   <p>Standard</p>
+   <p>Standaard</p>
    <p>Plan</p>
    </td>
   </tr>
@@ -64,7 +65,9 @@ Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials &#x200B;:
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 +++
 
@@ -72,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. Selecteer **Documenten** ![&#x200B; documentenpictogram &#x200B;](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van Experience Manager**.
+1. Selecteer **Documenten** ![ documentenpictogram ](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van Experience Manager**.
 1. Selecteer **toevoegen de Integratie van Experience Manager**.
 1. Geef het volgende op:
 
@@ -99,7 +102,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    </tr>
    </table>
 
-1. Klik **sparen** of beweging op de [&#x200B; Opgestelde meta-gegevens (facultatief) &#x200B;](#set-up-metadata-optional) sectie in dit artikel.
+1. Klik **sparen** of beweging op de [ Opgestelde meta-gegevens (facultatief) ](#set-up-metadata-optional) sectie in dit artikel.
 
 
 ## Metagegevens instellen (optioneel)
@@ -111,8 +114,8 @@ Wijs Workfront-objectgegevens toe aan middelenmediavelden in Experience Manager 
 
 Voordat u begint, moet u
 
-* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [&#x200B; wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
-* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Ondersteunde velden voor Workfront en Experience Manager Assets
 
@@ -126,7 +129,7 @@ Als u meerdere tekstvelden met één regel wilt toewijzen aan trefwoorden, voert
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=nl-NL).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
@@ -145,8 +148,8 @@ Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfro
    Als u een Workfront-veld wilt toewijzen aan een Experience Manager Assets-tag, selecteert u `xcm:keywords` .
 
 1. Herhaal stap 1 en 2 zo nodig.
-   ![&#x200B; laat meta-gegevens &#x200B;](assets/metadata-assets-essentials.png) toe
-1. Klik **sparen** of beweging op de [&#x200B; Opstelling verbonden omslagen (facultatief) &#x200B;](#set-up-linked-folders-optional) sectie in dit artikel.
+   ![ laat meta-gegevens ](assets/metadata-assets-essentials.png) toe
+1. Klik **sparen** of beweging op de [ Opstelling verbonden omslagen (facultatief) ](#set-up-linked-folders-optional) sectie in dit artikel.
 
 
 ## Gekoppelde mappen instellen (optioneel)

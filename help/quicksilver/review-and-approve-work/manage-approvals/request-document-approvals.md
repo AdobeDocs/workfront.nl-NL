@@ -1,21 +1,27 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Documentgoedkeuring aanvragen
+title: Goedkeuring van oudere documenten aanvragen
 description: U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt ook om documentgoedkeuring verzoeken van mensen zonder Workfront-accounts als uw Workfront-beheerder deze mogelijkheid heeft ingeschakeld, zoals beschreven in de voorkeuren voor systeembeveiliging configureren.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
-# Documentgoedkeuring aanvragen
+# Goedkeuring van oudere documenten aanvragen
 
-U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt documentgoedkeuringen van mensen zonder de rekeningen van Workfront ook verzoeken als uw beheerder van Workfront dit vermogen heeft toegelaten, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt documentgoedkeuringen van mensen zonder de rekeningen van Workfront ook verzoeken als uw beheerder van Workfront dit vermogen heeft toegelaten, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+>[!NOTE]
+>
+>De informatie in dit artikel verwijst naar goedkeuringen van oudere documenten. <br>
+>Voor informatie over nieuwe Verenigde Overzicht en Goedkeuring, zie [ Verenigd overzicht van overzicht en goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 
 ## Toegangsvereisten
 
@@ -48,7 +54,7 @@ U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +65,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, en begint typend in **voegt Approver** tekstvakje toe. U kunt Workfront-gebruikers toevoegen op naam of via e-mail.
 
-1. Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
+1. Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
 
    U kunt geen goedkeuring aanvragen bij teams of groepen.
 
@@ -74,7 +80,7 @@ Goedkeuringsbeslissingen voor documenten worden niet automatisch opnieuw ingeste
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, klikt het Meer pictogram, dan klikt opnieuw voorlegt.
 
-   ![&#x200B; hervat goedkeuring &#x200B;](assets/nwe-resubmit-approval-350x149.png)
+   ![ hervat goedkeuring ](assets/nwe-resubmit-approval-350x149.png)
 
 ## Een aanvraag voor documentgoedkeuring verwijderen
 

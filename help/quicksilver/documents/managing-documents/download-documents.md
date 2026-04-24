@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ U kunt documenten van Adobe Workfront afzonderlijk of bulksgewijs downloaden. Do
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Workfront-pakket voor het beheer van documenten met behulp van verouderde Workfront-opslag</p>
+<p>Elk workflowpakket voor het beheer van documenten met behulp van Adobe Enterprise Storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -48,22 +49,22 @@ U kunt documenten van Adobe Workfront afzonderlijk of bulksgewijs downloaden. Do
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Documenten downloaden in het gebied met verouderde documenten
 
-Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [&#x200B; Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Een afzonderlijk document downloaden in het gebied met verouderde documenten
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Geselecteerde** pictogram van de Download ![&#x200B; Download Geselecteerd pictogram &#x200B;](assets/download-icon.png).
+1. Klik het **Geselecteerde** pictogram van de Download ![ Download Geselecteerd pictogram ](assets/download-icon.png).
 
-![&#x200B; download een individueel document &#x200B;](assets/legacy-doc-download.png)
+![ download een individueel document ](assets/legacy-doc-download.png)
 
 ### Meerdere documenten tegelijk downloaden in het gebied met verouderde documenten
 
@@ -77,15 +78,15 @@ U kunt meerdere documenten tegelijk downloaden.
    >Documenten die zijn gekoppeld aan Workfront vanuit Box, Dropbox, Google Drive, enzovoort, kunnen niet bulksgewijs worden gedownload.
 
 1. (Optioneel) Selecteer de mappen met de documenten die u wilt downloaden in de lijst met mappen.
-1. Klik het Geselecteerde pictogram van de Download ![&#x200B; Download Geselecteerde pictogram &#x200B;](assets/download-icon.png).
+1. Klik het Geselecteerde pictogram van de Download ![ Download Geselecteerde pictogram ](assets/download-icon.png).
 
    Mappen worden gedownload als ZIP-bestanden en zijn beperkt tot 4 GB.
 
 ## Documenten downloaden in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten** in het linkerpaneel.
 1. Vind de documenten u nodig hebt, dan klik **Download**.
 
-![&#x200B; document van de Download &#x200B;](assets/download-new-doc.png)
+![ document van de Download ](assets/download-new-doc.png)

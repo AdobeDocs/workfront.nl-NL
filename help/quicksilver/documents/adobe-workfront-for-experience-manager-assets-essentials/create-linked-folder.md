@@ -7,9 +7,9 @@ description: U kunt in Workfront een map maken die is gekoppeld met Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 0%
 U kunt in Workfront een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials. Omdat de map is gekoppeld, worden alle aan de map toegevoegde middelen automatisch weergegeven in zowel Workfront als Experience Manager. U hoeft het middel niet handmatig te verzenden als het zich in een gekoppelde map bevindt.
 
 Als een element wordt verwijderd of verplaatst uit een gekoppelde map in Experience Manager Assets of Assets Essentials, behoudt Workfront een kopie van het element in het gebied Project > Documenten.
+
+>[!NOTE]
+>
+>Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Vanaf dat punt kunt u elementen van Experience Manager Assets of Elementen toevoegen, maar u kunt geen gekoppelde map maken.
 
 ## Toegangsvereisten
 
@@ -35,7 +40,7 @@ Als een element wordt verwijderd of verplaatst uit een gekoppelde map in Experie
    <td><strong> de vergunningen van Adobe Workfront </strong>
    </td>
    <td>
-   <p>Standard</p>
+   <p>Standaard</p>
    <p>Plan</p>
    </td>
   </tr>
@@ -59,7 +64,7 @@ Als een element wordt verwijderd of verplaatst uit een gekoppelde map in Experie
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +72,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Een gekoppelde map maken
@@ -91,4 +96,4 @@ Een gekoppelde map maken:
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials wordt niet specifiek genoemd.
 
 1. Selecteer **creeer verbonden omslag**. Het systeem maakt automatisch een map in Experience Manager op basis van de locatie die is opgegeven bij het instellen van de integratie.
-   ![&#x200B; creeer een verbonden omslag &#x200B;](assets/linked-folder.png)
+   ![ creeer een verbonden omslag ](assets/linked-folder.png)

@@ -5,9 +5,10 @@ title: Elementen en mappen koppelen vanuit Experience Manager Assets Essentials
 description: U kunt een middel of een omslag van de Hoofdzaak van Experience Manager Assets aan om het even welk voorwerp van Adobe Workfront verbinden dat documenten steunt. Assets die vanuit Assets Essentials wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Assets Essentials zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,9 @@ ht-degree: 0%
 
 U kunt een middel of een omslag van de Hoofdzaak van Experience Manager Assets aan om het even welk voorwerp van Adobe Workfront verbinden dat documenten steunt.
 
-Om activa en omslagen van Experience Manager Assets te verbinden gebruikend de Adviseur van de Inhoud, zie [&#x200B; activa en omslagen van de Verbinding met de Adviseur van de Inhoud die door Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md) wordt aangedreven.
+Om activa en omslagen van Experience Manager Assets te verbinden gebruikend de Adviseur van de Inhoud, zie [ activa en omslagen van de Verbinding met de Adviseur van de Inhoud die door Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md) wordt aangedreven.
+
+Als u op ondernemingsopslag bent, zie [ Gebruik Adobe Experience Manager met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Toegangsvereisten
@@ -56,7 +59,7 @@ Om activa en omslagen van Experience Manager Assets te verbinden gebruikend de A
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +67,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint:
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md) vormen.
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md) vormen.
 
 ## Middelen van Experience Manager Assets Essentials koppelen
 
@@ -77,7 +80,7 @@ Voordat u begint:
 
 1. Selecteer de gewenste elementen.
 
-   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 
@@ -112,13 +115,13 @@ Machtigingen om afzonderlijke elementen in een map weer te geven, zijn afhankeli
 
 1. Selecteer de gewenste mappen.
 
-   ![&#x200B; selecteer een omslag &#x200B;](assets/select-a-folder.png)
+   ![ selecteer een omslag ](assets/select-a-folder.png)
 
 1. Klik **Uitgezocht**.
 
 ## Overwegingen
 
-* De functionaliteit van de Adviseur van de inhoud is niet beschikbaar voor de Hoofdzaak van Activa. Om activa en omslagen te verbinden die de Adviseur van de Inhoud gebruiken, zie [&#x200B; activa en omslagen van de Verbinding met de Adviseur van de Inhoud die door Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md) wordt aangedreven.
+* De functionaliteit van de Adviseur van de inhoud is niet beschikbaar voor de Hoofdzaak van Activa. Om activa en omslagen te verbinden die de Adviseur van de Inhoud gebruiken, zie [ activa en omslagen van de Verbinding met de Adviseur van de Inhoud die door Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md) wordt aangedreven.
 
 * Assets die vanuit Assets Essentials wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Assets Essentials zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
 

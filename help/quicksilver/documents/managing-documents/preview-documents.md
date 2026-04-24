@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,8 @@ U kunt een document voorvertonen vanuit het gebied Documenten. Dit is vooral han
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p> Alle</p> </td> 
+   <td> <p>Elk Workfront-pakket voor het beheer van documenten met behulp van verouderde Workfront-opslag</p>
+<p>Elk workflowpakket voor het beheer van documenten met behulp van Adobe Enterprise Storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
@@ -48,13 +49,13 @@ U kunt een document voorvertonen vanuit het gebied Documenten. Dit is vooral han
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een voorvertoning van een document weergeven in het gebied Oudere documenten
 
-Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [&#x200B; Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een voorbeeld van een document bekijken:
 
@@ -76,7 +77,7 @@ Een voorbeeld van een document bekijken:
 
 ## Een voorvertoning van een document weergeven in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Voor sommige bestandsindelingen kan geen voorbeeld worden weergegeven.
 
@@ -154,6 +155,6 @@ Een voorbeeld van een document bekijken:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten** in het linkerpaneel.
 1. Zoek het gewenste document en klik op de naam van het document.
-   ![&#x200B; voorproef van het Document &#x200B;](assets/preview-new-doc.png)
+   ![ voorproef van het Document ](assets/preview-new-doc.png)
 
 
