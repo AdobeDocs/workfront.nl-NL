@@ -5,9 +5,9 @@ description: De hoogste navigatiebar — die bij de bovenkant van uw scherm in  
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -18,73 +18,33 @@ ht-degree: 0%
 
 Met de bovenste navigatiebalk, die boven aan het scherm in [!DNL Adobe Workfront] wordt weergegeven, kunt u gemakkelijk andere delen van het platform zoeken en naar deze gebieden navigeren.
 
-![&#x200B; Hoogste navigatiebar &#x200B;](assets/global-navigation-bar.png)
+![ Hoogste navigatiebar ](assets/wf-top-navigation-2026.png)
 
 ## [!UICONTROL Home] pictogram
 
 Met het pictogram **[!UICONTROL Home]** ![](assets/home-icon.png) gaat u naar de pagina [!UICONTROL Home] , de standaardbestemmingspagina.
 
-Standaard wordt met het pictogram Startpagina het gebied Home geopend. Voor meer informatie over Huis, zie [&#x200B; Gebruik het [!UICONTROL Home] gebied &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Standaard wordt met het pictogram Startpagina het gebied Home geopend. Voor meer informatie over Huis, zie [ Gebruik het [!UICONTROL Home] gebied ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-Uw Workfront-beheerder kan het Home-pictogram aanpassen om een andere pagina te openen door een lay-outsjabloon te maken en deze aan u toe te wijzen. Voor meer informatie, zie [&#x200B; de het landen pagina aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
-## Vastgezette pagina&#39;s
-
-U kunt pagina&#39;s die u vaak bezoekt vastzetten, zodat deze worden weergegeven in de bovenste navigatiebalk. Meer over vastgezette pagina&#39;s leren, zie [&#x200B; Vastzetten pagina&#39;s om uw werkruimte &#x200B;](../../workfront-basics/the-new-workfront-experience/pin-pages.md) aan te passen.
-
-<!--
-## [!UICONTROL Help] menu
-
-The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
-
-To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
--->
-
-## [!UICONTROL Notifications] menu
-
-Met het blauwe vak ![](assets/notifications-icon.png) rechtsboven in het scherm wordt een lijst met meldingen geopend.
-
-U hebt toegang tot het volgende via het menu Meldingen:
-
-* **Meldingen**: Dit zijn alarm dat door Workfront wordt geproduceerd wanneer bepaalde voorwaarden worden voldaan om u van informatie te laten weten die uw aandacht zou kunnen vergen.
-
-* **Mededelingen**: Mededelingen die door uw beheerder van Workfront over belangrijke onderwerpen worden verzonden.
-
-Meer over berichten en aankondigingen leren, zie [&#x200B; Mening en beheer in-app berichten &#x200B;](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-
-## [!UICONTROL Favorites] menu
-
-Het **[!UICONTROL Favorites]** pictogram ![&#x200B; Favorieten &#x200B;](assets/favorites-icon-62x55.png) opent een lijst van pagina&#39;s in het systeem dat u als favorieten hebt gemerkt. U kunt de pagina toevoegen waarop u momenteel in dit menu werkt.
-
-Meer over favorieten leren, zie [&#x200B; Mening en beheer favorieten &#x200B;](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
-
-## [!UICONTROL Recents] menu
-
-Met het pictogram **[!UICONTROL Recents]** ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) wordt een lijst geopend met pagina&#39;s die u onlangs hebt bezocht.
-
-Meer over recenten leren, zie [&#x200B; Recente punten van de Mening &#x200B;](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
-
-## [!UICONTROL Search] menu
-
-Met het **[!UICONTROL Search]** pictogram ![](assets/search-icon.png) in de rechterbovenhoek van [!DNL Workfront] kunt u een basiszoekopdracht uitvoeren, de zoekopdracht beperken tot een specifiek object of met [!UICONTROL Advanced Search] een trefwoord zoeken voor een specifiek object en uw zoekopdracht beperken tot specifieke velden.
-
-Meer over onderzoek leren, zie [&#x200B; Onderzoek  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Uw Workfront-beheerder kan het Home-pictogram aanpassen om een andere pagina te openen door een lay-outsjabloon te maken en deze aan u toe te wijzen. Voor meer informatie, zie [ de het landen pagina aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## [!UICONTROL Main Menu]
 
+<!--
 >[!IMPORTANT]
 >
->Het hoofdmenu dat op deze pagina wordt beschreven, is alleen van toepassing op organisaties die nog niet zijn aangemeld bij [!DNL Adobe Experience Cloud] .
+>The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
 >
-> Als uw organisatie aan [!DNL Adobe Experience Cloud] is bezet, zie [[!DNL Adobe Unified Experience]  voor  [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
 
-Het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) opent [!UICONTROL Main Menu], van waar u aan een verschillend gebied van Workfront kunt navigeren.
+Het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon-left-nav.png) opent [!UICONTROL Main Menu], van waar u aan een verschillend gebied van Workfront kunt navigeren.
 
 De opties die beschikbaar zijn in de [!UICONTROL Main Menu] zijn afhankelijk van:
 
-* **de malplaatjeconfiguraties van de Lay-out**: Om te leren hoe een [!DNL Workfront] beheerder [!UICONTROL Main Menu] van een lay-outmalplaatje kan wijzigen, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **de malplaatjeconfiguraties van de Lay-out**: Om te leren hoe een [!DNL Workfront] beheerder [!UICONTROL Main Menu] van een lay-outmalplaatje kan wijzigen, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **het type van Vergunning**: Om de standaardconfiguraties voor verschillende vergunningstypes te leren, zie [&#x200B; de navigatie voor een licht-vergunning gebruiker &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) of [&#x200B; begrijpen de navigatie voor a [!UICONTROL Work] - vergunning gebruiker &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **het type van Vergunning**: Om de standaardconfiguraties voor verschillende vergunningstypes te leren, zie [ de navigatie voor een licht-vergunning gebruiker ](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) of [ begrijpen de navigatie voor a [!UICONTROL Work] - vergunning gebruiker ](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Met elk pictogram gaat u naar een ander gebied van Workfront.
 
@@ -114,6 +74,9 @@ Zie voor meer informatie over elk gebied:
      <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref"> Timesheets: artikelindex </a></li> 
      <li>[!UICONTROL Documents]: <a href="../../documents/documents-overview.md" class="MCXref xref"> Documenten </a></li> 
      <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref"> creeer en beheer projectmalplaatjes: artikelindex </a></li> 
+     <li>[!UICONTROL Boards]: <a href="/help/quicksilver/agile/boards-overview.md"> Boards overzicht </a></li>
+     <li>[!UICONTROL Blueprints]: <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md"> Overzicht van Vervagen </a></li>
+     <li>[!UICONTROL Priorities]: <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md"> wordt begonnen met Prioriteiten </a></li>
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview </a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref"> het overzicht van de Planner van het Scenario </a></li> 
      <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proef: artikelindex </a></li> 
@@ -136,11 +99,54 @@ In het onderste gedeelte van het hoofdmenu hebt u toegang tot:
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 
    <td> <p>Als u op <b>[!UICONTROL Help]</b> klikt, gaat u naar [!DNL Adobe Experience League] waar u Help-artikelen kunt openen, trainingen kunt vinden, een ondersteuningsticket kunt verzenden, enzovoort.</p> <p>Voor meer informatie over [!DNL Experience League] of andere methodes om hulp te krijgen, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref"> Uw snelle gids aan het vinden van hulp in Adobe Workfront </a>.</p> </td> 
   </tr>
-
-<tr> 
+  <!--
+  <tr> 
    <td> <p class="bold">[!UICONTROL Logout]</p> </td> 
-   <td>Als u op <b>[!UICONTROL Logout]</b> klikt, wordt u uitgelogd uit [!DNL Workfront] .</td> 
-  </tr> 
+   <td>Clicking <b>[!UICONTROL Logout]</b> logs you out of [!DNL Workfront].</td> 
+  </tr>
+  -->
  </tbody> 
 </table>
+
+## Vastgezette pagina&#39;s
+
+U kunt pagina&#39;s die u vaak bezoekt vastzetten, zodat deze worden weergegeven in de bovenste navigatiebalk. Meer over vastgezette pagina&#39;s leren, zie [ Vastzetten pagina&#39;s om uw werkruimte ](../../workfront-basics/the-new-workfront-experience/pin-pages.md) aan te passen.
+
+<!--
+## [!UICONTROL Help] menu
+
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
+
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
+
+## [!UICONTROL Notifications] menu
+
+Met het blauwe vak ![](assets/notifications-icon.png) rechtsboven in het scherm wordt een lijst met meldingen geopend.
+
+U hebt toegang tot het volgende via het menu Meldingen:
+
+* **Meldingen**: Dit zijn alarm dat door Workfront wordt geproduceerd wanneer bepaalde voorwaarden worden voldaan om u van informatie te laten weten die uw aandacht zou kunnen vergen.
+
+* **Mededelingen**: Mededelingen die door uw beheerder van Workfront over belangrijke onderwerpen worden verzonden.
+
+Meer over berichten en aankondigingen leren, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+
+## [!UICONTROL Favorites] menu
+
+Het **[!UICONTROL Favorites]** pictogram ![ Favorieten ](assets/favorites-icon-62x55.png) opent een lijst van pagina&#39;s in het systeem dat u als favorieten hebt gemerkt. U kunt de pagina toevoegen waarop u momenteel in dit menu werkt.
+
+Meer over favorieten leren, zie [ Mening en beheer favorieten ](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+
+## [!UICONTROL Recents] menu
+
+Met het pictogram **[!UICONTROL Recents]** ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) wordt een lijst geopend met pagina&#39;s die u onlangs hebt bezocht.
+
+Meer over recenten leren, zie [ Recente punten van de Mening ](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
+
+## [!UICONTROL Search] menu
+
+Met het **[!UICONTROL Search]** pictogram ![](assets/search-icon.png) in de rechterbovenhoek van [!DNL Workfront] kunt u een basiszoekopdracht uitvoeren, de zoekopdracht beperken tot een specifiek object of met [!UICONTROL Advanced Search] een trefwoord zoeken voor een specifiek object en uw zoekopdracht beperken tot specifieke velden.
+
+Meer over onderzoek leren, zie [ Onderzoek  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
