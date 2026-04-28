@@ -6,7 +6,7 @@ description: Nadat u middelen van de Hoofdzaak van Experience Manager Assets heb
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -19,8 +19,8 @@ Nadat u middelen van de Hoofdzaak van Experience Manager Assets hebt verbonden, 
 
 >[!NOTE]
 >
->Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
->Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Vanaf dat punt kunt u elementen van Experience Manager Assets toevoegen en deze bekijken en goedkeuren met de Frame.io-viewer. Voor meer informatie, zie [&#x200B; Gebruik Adobe Experience Manager met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Deze functionaliteit is niet beschikbaar in het nieuwe gebied Documenten.<br>
+>Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Vanaf dat punt kunt u elementen van Experience Manager Assets toevoegen en deze bekijken en goedkeuren met de Frame.io-viewer. Voor meer informatie, zie [ Gebruik Adobe Experience Manager met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ Nadat u middelen van de Hoofdzaak van Experience Manager Assets hebt verbonden, 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint:
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Een proefafdruk maken
 
@@ -110,7 +110,7 @@ Nadat u een proefdruk hebt gemaakt, kunt u het volgende doen:
 * Revisoren en deadlines bijwerken
 * De workflow bewerken
 
-Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [&#x200B; proef binnen Adobe Workfront beheren: artikelindex &#x200B;](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
+Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [ proef binnen Adobe Workfront beheren: artikelindex ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) .
 
 ## Een proefafdruk controleren
 
@@ -121,4 +121,4 @@ Toegewezen revisoren kunnen het volgende doen:
 * Versies vergelijken
 * Het bewijs goedkeuren of afwijzen
 
-Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) .

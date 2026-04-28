@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -21,7 +21,7 @@ U kunt extra fiatteurs of revisoren toevoegen aan een workflow voor documentgoed
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U kunt extra fiatteurs of revisoren toevoegen aan een workflow voor documentgoed
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## Extra fiatteurs of revisoren toevoegen uit het documentoverzicht in het gebied met oudere documenten
 
-Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [&#x200B; Opslag van Workfront vs. de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [ Opslag van Workfront vs. de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 Extra fiatteurs of revisoren toevoegen uit het documentoverzicht:
 
@@ -73,29 +73,29 @@ Extra fiatteurs of revisoren toevoegen uit het documentoverzicht:
 
 1. De rol neer aan de **goedkeurt** sectie, dan klikt **werkschema** uitgeeft.
 
-   ![&#x200B; geef goedkeuringswerkschema &#x200B;](assets/edit-approval-in-legacy.png) uit
+   ![ geef goedkeuringswerkschema ](assets/edit-approval-in-legacy.png) uit
 
 1. Zoek het werkgebied waaraan u fiatteurs of revisoren wilt toevoegen en voeg vervolgens de naam of het e-mailbericht van de gebruiker toe in het tekstvak. Indien nodig kunt u ook een volledig team toevoegen.
 
 1. Nadat de naam is toegevoegd, kiest u of het een fiatteur of revisor is.
 
-   ![&#x200B; fiatteur of reviewer drop-down &#x200B;](assets/choose-approver-or-reviewer.png)
+   ![ fiatteur of reviewer drop-down ](assets/choose-approver-or-reviewer.png)
 
 1. Herhaal stap 5-6 om extra fiatteurs of revisoren toe te voegen.
 Nadat u het document hebt opgeslagen, ontvangen de toegevoegde deelnemers een e-mailbericht dat hun goedkeuring of revisie nodig is voor het document.
 
 
 
-## Extra fiatteurs of revisoren toevoegen uit het documentoverzicht in het nieuwe documentgebied
+## Extra fiatteurs of revisoren toevoegen uit het documentoverzicht in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; de opslagoverzicht van de Onderneming &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [ de opslagoverzicht van de Onderneming ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten** in het linkerpaneel.
 
 1. Klik op het document, dan klik het **goedkeurt** pictogram op de rechterkant van de pagina.
 
-   ![&#x200B; voegt fiatteurs in documentsamenvatting &#x200B;](assets/approvals-icon-new.png) toe
+   ![ voegt fiatteurs in documentsamenvatting ](assets/approvals-icon-new.png) toe
 
 
 1. Klik **uitgeven werkschema**.
@@ -104,7 +104,7 @@ Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied z
 
 1. Nadat de naam is toegevoegd, kiest u of het een fiatteur of revisor is.
 
-   ![&#x200B; fiatteur of reviewer drop-down &#x200B;](assets/choose-approver-or-reviewer.png)
+   ![ fiatteur of reviewer drop-down ](assets/choose-approver-or-reviewer.png)
 
 1. Herhaal stap 5-6 om extra fiatteurs of revisoren toe te voegen.
 Nadat u het document hebt opgeslagen, ontvangen de toegevoegde deelnemers een e-mailbericht dat hun goedkeuring of revisie nodig is voor het document.

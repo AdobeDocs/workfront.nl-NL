@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ Met deze opslagoptie wordt ook de weg vrijgemaakt voor toekomstige integratie va
 
 ## Belangrijkste kenmerken
 
-* **Verenigde opslaglaag**: De ondernemingsopslag van Adobe doet dienst als gedeeld opslagsteun voor Workfront, Frame.io, Document Cloud, en Creative Cloud. Dit maakt naadloze samenwerking en beheer van bedrijfsmiddelen op deze platforms mogelijk.
+* **Verenigde opslaglaag**: Adobe Enterprise Storage fungeert als een back-end voor gedeelde opslag voor Workfront, Frame.io, Document Cloud en Creative Cloud. Dit maakt naadloze samenwerking en beheer van bedrijfsmiddelen op deze platforms mogelijk.
 
-* **Inschakelen van supply chain van de Inhoud**: De ondernemingsopslag van Adobe is een basiscomponent voor de visie van Supply chain van de Inhoud van Adobe, toestaand teams om werk-in-vooruitgang activa zonder de behoefte aan handmatige downloads of herupload in diverse toepassingen van Adobe te beheren.
+* **Inzet supply chain van de Inhoud**: Adobe Enterprise storage is een basisonderdeel voor Adobe Content Supply chain vision, waardoor teams hun bedrijfsmiddelen in uitvoering kunnen beheren zonder dat handmatige downloads of heruploads in verschillende Adobe-toepassingen nodig zijn.
 
-* **Gecentraliseerde toestemmingen en toegang**: De ondernemingsopslag van Adobe steunt onderneming-vlakke toegangscontroles, die met het Systeem van Adobe IMS (Identity Management) voor veilige en scalable gebruikerstoestemmingen integreren.
+* **gecentraliseerde toestemmingen en toegang**: Adobe Enterprise Storage ondersteunt toegangsbeheer op bedrijfsniveau, integratie met Adobe IMS (Identity Management System) voor veilige en schaalbare gebruikersrechten.
 
-* **Van begin tot eind middelenzicht**: Assets die in de ondernemingsopslag van Adobe wordt opgeslagen kan in Workfront, Frame.io, en Creative Cloud apps worden gevestigd en worden beheerd, die verenigbare meta-gegevens, versioning, en controletrails verstrekken.
+* **Van begin tot eind middelenzicht**: Assets dat is opgeslagen in Adobe Enterprise Storage kan direct worden opgezocht en beheerd in Workfront-, Frame.io- en Creative Cloud-apps, zodat u consistente metagegevens, versieringen en audittrails krijgt.
 
-* **Integratie met overzicht en goedkeuringswerkschema&#39;s**: De ondernemingsopslag van Adobe laat creatieve overzicht en goedkeuringswerkschema&#39;s toe door als bron van waarheid voor alle activa te dienen, die ervoor zorgen dat terugkoppelt en goedkeuringen centraal worden gevolgd.
+* **Integratie met overzicht en goedkeuringswerkschema&#39;s**: De bedrijfsopslag van Adobe maakt creatieve revisie en goedkeuringswerkschema&#39;s mogelijk door als bron van waarheid voor alle activa te dienen, die ervoor zorgen dat terugkoppelen en goedkeuringen centraal worden gevolgd.
 
-* **Schaalbare opslag en quotabeheer**: De ondernemingsopslag van Adobe biedt scalable opslagopties en verenigde quota het volgen over de producten van Adobe aan.
+* **Schaalbare opslag en quotabeheer**: Adobe Enterprise Storage biedt schaalbare opslagopties en uniforme quota&#39;s voor alle Adobe-producten.
 
 ## Integratie met workflows voor evaluatie en goedkeuring
 
 De integratie van Workfront en Frame.io maakt gebruik van Adobe Enterprise Storage om een uniforme evaluatie- en goedkeuringservaring te bieden. Dankzij deze integratie kunnen projectcoördinatoren projecten beheren en werken plannen in Workfront, terwijl creatieve personen, marketers en belanghebbenden hun middelen in Frame.io kunnen beoordelen en goedkeuren. Dit zorgt ervoor dat alle belanghebbenden toegang hebben tot de meest recente versies van middelen en feedback op één locatie wordt gecentraliseerd.
 
-Voor meer informatie over de integratie van Workfront en Frame.io, zie [&#x200B; Verenigd overzicht van overzicht en goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Voor meer informatie over de integratie van Workfront en Frame.io, zie [ Verenigd overzicht van overzicht en goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Verschillen tussen Adobe Enterprise-opslag en oudere Workfront-opslag
 
@@ -55,11 +55,11 @@ Als u eenmaal Adobe Enterprise Storage in uw omgeving hebt ingeschakeld, kunt u 
 
 ### Documenten
 
-#### Nieuw documentgebied
+#### Nieuw gebied Documenten
 
-Het nieuwe documentengebied is een uniform documentgebied dat opnieuw is ontworpen voor Adobe Enterprise Storage.
+Het nieuwe gebied van Documenten is een verenigd documentengebied dat voor de opslag van de onderneming van Adobe wordt herontworpen.
 
-Deze bijgewerkte interface vereenvoudigt navigatie, verbetert duidelijkheid, en maakt het voor teams gemakkelijker om overzichten en goedkeuringen in één verenigde milieu te beheren. Voor meer informatie, zie het [&#x200B; het gebiedsoverzicht van Documenten &#x200B;](/help/quicksilver/documents/managing-documents/documents-area.md).
+Deze bijgewerkte interface vereenvoudigt navigatie, verbetert duidelijkheid, en maakt het voor teams gemakkelijker om overzichten en goedkeuringen in één verenigde milieu te beheren. Voor meer informatie, zie het [ het gebiedsoverzicht van Documenten ](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 #### Nieuw machtigingsmodel document
 
@@ -69,13 +69,13 @@ Deze bijgewerkte interface vereenvoudigt navigatie, verbetert duidelijkheid, en 
 
 Documenten kunnen niet afzonderlijk worden gedeeld. In plaats daarvan genereert het systeem automatisch een map voor elke taak of uitgave en neemt het de machtigingen over van de taak of uitgave. Alle documenten die naar de taak of uitgave zijn geüpload, worden in die gegenereerde map opgeslagen.
 
-Voor meer informatie over het nieuwe model van de documenttoestemming, zie &lbrace;de toestemmingen van Objecten en overzicht van het toegangsniveau voor het model van de ondernemingsopslag van Adobe [.](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+Voor meer informatie over het nieuwe model van de documenttoestemming, zie {de toestemmingen van Objecten en overzicht van het toegangsniveau voor het model van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).[
 
 ##### Gekoppelde objecten op mappen
 
 Op projectniveau, tonen de systeem-geproduceerde omslagen een verbonden voorwerp. De map krijgt automatisch dezelfde naam als de taak of uitgave waartoe deze behoort. Met gekoppelde mappen weet het systeem op welke taak of welke uitgave de map moet worden weergegeven.
 
-Voor meer informatie, zie [&#x200B; hoe de toestemmingen van het document &#x200B;](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work) werken.
+Voor meer informatie, zie [ hoe de toestemmingen van het document ](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work) werken.
 
 ## Workfront-objecten
 
@@ -95,7 +95,7 @@ Deze acties zijn beschikbaar in het menu Meer voor een taak of kwestie. Elke act
 
 ## Opslag in Adobe Enterprise
 
-Bestaande klanten kunnen Adobe Enterprise Storage in hun omgeving inschakelen bij contractvernieuwing. Voor meer informatie over het toelaten van de ondernemingsopslag van Adobe, zie [&#x200B; de ondernemingsopslag van Adobe voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) toelaten.
+Bestaande klanten kunnen Adobe Enterprise Storage in hun omgeving inschakelen bij contractvernieuwing. Voor meer informatie over het toelaten van de ondernemingsopslag van Adobe, zie [ de ondernemingsopslag van Adobe voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) toelaten.
 
 >[!NOTE]
 >

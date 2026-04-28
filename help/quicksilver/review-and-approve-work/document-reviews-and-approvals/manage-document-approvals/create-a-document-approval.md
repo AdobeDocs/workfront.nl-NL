@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -21,7 +21,7 @@ U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -55,13 +55,13 @@ U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een goedkeuringswerkstroom maken vanuit het deelvenster Samenvatting in het gebied met oudere documenten
 
-Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [&#x200B; Opslag van Workfront vs. de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [ Opslag van Workfront vs. de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 Een goedkeuringswerkstroom maken:
 
@@ -101,12 +101,12 @@ Een goedkeuringswerkstroom maken:
    >
    >Als u meerdere fasen toevoegt, gaat de goedkeuringswerkstroom verder in de volgorde waarin de fasen worden weergegeven. Wanneer alle vereiste beslissingen worden genomen, begint de volgende fase en wordt de vorige fase vergrendeld.
 
-   ![&#x200B; de details van het Document &#x200B;](assets/new-stage.png)
+   ![ de details van het Document ](assets/new-stage.png)
 
 
-## Een goedkeuringswerkstroom maken vanuit het deelvenster Samenvatting in het nieuwe documentgebied
+## Een goedkeuringswerkstroom maken vanuit het deelvenster Samenvatting in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; de opslagoverzicht van de Onderneming &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [ de opslagoverzicht van de Onderneming ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een goedkeuringswerkstroom maken:
 
@@ -114,7 +114,7 @@ Een goedkeuringswerkstroom maken:
 
 1. Klik op het document en klik vervolgens op het pictogram Goedkeuringen rechts op de pagina.
 
-   ![&#x200B; voegt fiatteurs in documentsamenvatting &#x200B;](assets/approvals-icon-new.png) toe
+   ![ voegt fiatteurs in documentsamenvatting ](assets/approvals-icon-new.png) toe
 
 1. Klik **creeer werkschema**, dan vul de volgende details in:
 
@@ -143,7 +143,7 @@ Een goedkeuringswerkstroom maken:
    >
    >Als u meerdere fasen toevoegt, gaat de goedkeuringswerkstroom verder in de volgorde waarin de fasen worden weergegeven. Wanneer alle vereiste beslissingen worden genomen, begint de volgende fase en wordt de vorige fase vergrendeld.
 
-   ![&#x200B; de details van het Document &#x200B;](assets/new-stage.png)
+   ![ de details van het Document ](assets/new-stage.png)
 
 
 

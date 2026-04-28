@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Enterprise Storage is een centrale opslagoplossing voor alle Adobe-product
 
 Adobe Enterprise storage is standaard ingeschakeld voor nieuwe klanten en kan voor bestaande klanten worden ingeschakeld bij contractvernieuwing.
 
-Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer informatie over de ondernemingsopslag van Adobe, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -34,12 +34,12 @@ Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzic
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-pakket</td> 
-   <td><p>Alle</p></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Willekeurig workflowpakket</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standaard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -48,7 +48,7 @@ Voor meer informatie over de ondernemingsopslag van Adobe, zie [&#x200B; overzic
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,11 +67,15 @@ Adobe Enterprise-opslag voor uw organisatie inschakelen:
    >
    >Als u deze optie inschakelt, kunnen gebruikers de opslagprovider selecteren wanneer ze een nieuw project maken. de opslag van de onderneming wordt geëtiketteerd als &quot;Nieuw project&quot;aangezien het de standaardopslagleverancier is. Legacy Workfront Storage heet &quot;Legacy project&quot;.
    >
-   >![&#x200B; nieuw project en erfenisprojectopties &#x200B;](assets/new-esm-project.png)
+   >![ nieuw project en erfenisprojectopties ](assets/new-esm-project.png)
 
 1. Kies een van de volgende opties in het vervolgkeuzemenu Toepassen op:
 
-   - **Volledige organisatie**: Deze optie past de standaard opslagleverancier op uw volledig milieu van Workfront toe. Telkens wanneer een gebruiker een nieuw project maakt, wordt de standaard opslagprovider gebruikt.
-   - **Specifieke groepen**: Deze optie past de standaardopslagleverancier slechts op specifieke groepen binnen uw organisatie toe. Wanneer een gebruiker in de opgegeven groepen een nieuw project maakt, wordt de standaardopslagprovider gebruikt
+   - **Volledige organisatie**: Met deze optie past u de standaard opslagprovider toe op de volledige Workfront-omgeving. Telkens wanneer een gebruiker een nieuw project maakt, wordt de standaard opslagprovider gebruikt.
+   - **Specifieke groepen**: Met deze optie wordt de standaard opslagprovider alleen toegepast op specifieke groepen binnen uw organisatie. Wanneer een gebruiker in de opgegeven groepen een nieuw project maakt, wordt de standaardopslagprovider gebruikt
 
 1. Klik **sparen**.
+
+   >[!NOTE]
+   >
+   >Bestaande projecten behouden het opslagmodel waarmee ze zijn gemaakt. Projecten die bijvoorbeeld gebruikmaken van Adobe Enterprise Storage, blijven gebruikmaken van Adobe Enterprise Storage nadat u de standaard opslagvoorkeur hebt gewijzigd.

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -57,21 +57,21 @@ Wanneer u een document verplaatst, worden ook de volgende elementen verplaatst m
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een document verplaatsen in het gebied met verouderde documenten
 
-Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [&#x200B; Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [ Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Een document verplaatsen:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **pictogram van de Beweging ![&#x200B; van de Beweging** &#x200B;](assets/move-document--25x19.png) pictogram.
-   ![&#x200B; het pictogramplaats van de Beweging op pagina &#x200B;](assets/move-doc-legacy.png)
+1. Klik het **pictogram van de Beweging ![ van de Beweging** ](assets/move-document--25x19.png) pictogram.
+   ![ het pictogramplaats van de Beweging op pagina ](assets/move-doc-legacy.png)
 
 1. Van het drop-down menu in de doos die verschijnt, klik **Uitgeven**, **Project** of **Taak** om op het type van voorwerp te wijzen waar u het document wilt bewegen. 
 
@@ -85,9 +85,9 @@ Een document verplaatsen:
 
 U kunt een document ook verplaatsen vanaf de pagina Documentdetails.
 
-## Een document verplaatsen in het gebied voor nieuwe documenten
+## Een document verplaatsen in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een document verplaatsen:
 
@@ -95,7 +95,7 @@ Een document verplaatsen:
 1. Zoek het document dat u nodig hebt.
 1. Klik **Beweging** bij de bodem van de pagina.
 
-![&#x200B; het pictogramplaats van de Beweging op pagina &#x200B;](assets/move-new-doc.png)
+![ het pictogramplaats van de Beweging op pagina ](assets/move-new-doc.png)
 
 1. Van het drop-down menu in de doos die verschijnt, klik **Uitgeven**, **Project** of **Taak** om op het type van voorwerp te wijzen waar u het document wilt bewegen.
 
