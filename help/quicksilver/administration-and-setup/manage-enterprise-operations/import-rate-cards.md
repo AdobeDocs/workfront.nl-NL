@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 U kunt een sjabloonbestand gebruiken om uw tariefkaarten te maken in Excel en deze te importeren in Adobe Workfront, in plaats van alle functies en tarieven handmatig toe te voegen.
 
-Om de kaarten van het voorbeeldtarief te zien die in dit artikel worden beschreven, download het [&#x200B; steekproefdossier &#x200B;](assets/rate-cards-sample.zip).
+Om de kaarten van het voorbeeldtarief te zien die in dit artikel worden beschreven, download het [ steekproefdossier ](assets/rate-cards-sample.zip).
 
-Voor meer informatie over tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Belangrijke regels voor het werken met het sjabloonbestand
 
@@ -28,7 +28,7 @@ Voor meer informatie over tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x
 * De reeks van de Kaart van het Tarief op het lusje RATE_RTCRD moet de orde van kaarten op het RTCRD lusje (1 voor eerste, 2 voor tweede, enz.) aanpassen.
 * De begindatum en einddatum moeten de toegestane notaties volgen.
 * Snelheidskaarten kunnen zonder snelheden worden geïmporteerd en later worden bijgewerkt.
-* Aangepaste kenmerken (Bureau, Kostenplaats, enz.) kunnen variëren. Neem contact op met de systeembeheerder voor de exacte vereisten.
+* Aangepaste kenmerken (Bureau, Kostenplaats, enz.) kan variëren. Neem contact op met de systeembeheerder voor de exacte vereisten.
 * Rijen die in de sjabloon zijn verwijderd, verwijderen de bestaande records in het systeem niet.
 
 ## Toegangsvereisten
@@ -54,7 +54,7 @@ Voor meer informatie over tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Maak en maak een lijst van alle tariefkaarten op dit tabblad. Elke rij vertegenwoordigt één tariefkaart.
 
-![&#x200B; RTCRD lusje op het dossier van het de invoermalplaatje van de tariefkaart &#x200B;](assets/rate-card-import-template-tab1.png)
+![ RTCRD lusje op het dossier van het de invoermalplaatje van de tariefkaart ](assets/rate-card-import-template-tab1.png)
 
 1. Voer de gegevens voor een tariefkaart op elke rij in:
 
@@ -112,7 +112,7 @@ Elke rij op het tabblad definieert één specifieke snelheid. U kunt veelvoudige
 
 Zorg ervoor dat datums elkaar niet overlappen, tenzij dat de bedoeling is.
 
-![&#x200B; RATE_RTCRD lusje op het dossier van het de invoermalplaatje van de tariefkaart &#x200B;](assets/rate-card-import-template-tab2.png)
+![ RATE_RTCRD lusje op het dossier van het de invoermalplaatje van de tariefkaart ](assets/rate-card-import-template-tab2.png)
 
 1. Voer de gegevens in voor een frequentie op elke rij:
 
@@ -142,13 +142,13 @@ Zorg ervoor dat datums elkaar niet overlappen, tenzij dat de bedoeling is.
 
      Voorbeeld: 01-01-2025
 
-     Voor meer informatie, zie [&#x200B; het formatteren van de Datum vereisten &#x200B;](#date-formatting-requirements), hieronder.
+     Voor meer informatie, zie [ het formatteren van de Datum vereisten ](#date-formatting-requirements), hieronder.
 
    * **Datum van het Eind** (facultatief): De datum wanneer het tarief ophoudt effectief te zijn.
 
      Deze datum moet dezelfde ondersteunde notaties hebben als de begindatum.
 
-     Voor meer informatie, zie [&#x200B; het formatteren van de Datum vereisten &#x200B;](#date-formatting-requirements), hieronder.
+     Voor meer informatie, zie [ het formatteren van de Datum vereisten ](#date-formatting-requirements), hieronder.
 
    * **Waarde** (facultatief): De numerieke tariefwaarde, bijvoorbeeld 150. De standaardwaarde is 0.
    * **Valuta** (facultatief): De munt voor het tarief, bijvoorbeeld USD, EUR, GBP. De standaardwaarde is de systeemvaluta.
@@ -165,7 +165,7 @@ Wanneer de tariefkaart aan een project in bijlage is, verschijnt de alias op inf
 
 Er wordt een alias toegevoegd aan het systeem, maar er wordt geen verbinding gemaakt met een taakrol op basis van de informatie op dit tabblad.
 
-![&#x200B; RSALS lusje op het dossier van het de invoermalplaatje van de tariefkaart &#x200B;](assets/rsals-tab-rate-card-import.png)
+![ RSALS lusje op het dossier van het de invoermalplaatje van de tariefkaart ](assets/rsals-tab-rate-card-import.png)
 
 1. Voer de naam van een alias in elke rij in.
 
@@ -175,7 +175,7 @@ Er wordt een alias toegevoegd aan het systeem, maar er wordt geen verbinding gem
 
 Op dit tabblad kunt u de verbindingen tussen bronnen en aliassen voor een specifieke tariefkaart definiëren.
 
-![&#x200B; RCRMET_RTCRD_RSALS lusje op het dossier van het de invoermalplaatje van de tariefkaart &#x200B;](assets/rcrmet-tab-rate-card-import.png)
+![ RCRMET_RTCRD_RSALS lusje op het dossier van het de invoermalplaatje van de tariefkaart ](assets/rcrmet-tab-rate-card-import.png)
 
 1. Voer de gegevens op elke rij in:
 
@@ -231,6 +231,16 @@ Met deze stappen voorkomt u onnodige problemen en zorgt u voor een soepele en na
 ## Bestaande tariefkaarten bijwerken
 
 U kunt de tarieven in uw bestaande tariefkaarten bijwerken gebruikend het zelfde malplaatje van Excel en die veranderingen uploaden in Workfront.
+
+Alleen het tabblad RATE_RTCRD (Rates Setup) is vereist voor het bijwerken van bestaande snelheden.
+
+>[!NOTE]
+>
+>Het uploaden van tarieven voor een bestaande tariefkaart overschrijft alle huidige baanrollen en tarieven op de tariefkaart.
+>
+>Bijvoorbeeld, als u 5 baanrollen met tarieven op de bestaande tariefkaart hebt en het dossier van Excel 1 baanrol heeft, dan zal de tariefkaart 1 baanrol hebben nadat u uploadt. Om de andere 5 baanrollen en hun tarieven op de tariefkaart te houden, moet u hen in het dossier van Excel omvatten.
+
+Bestaande tariefkaarten bijwerken:
 
 {{step-1-to-setup}}
 
