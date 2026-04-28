@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront
 
-Workfront heeft momenteel twee versies van het gebied Documenten: het gebied voor oudere documenten en het gebied voor nieuwe documenten. De versie die uw organisatie gebruikt, hangt af van het feit of uw organisatie op verouderde Workfront-opslag of bedrijfsopslag werkt. Voor meer informatie over deze opslagtypes, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront heeft momenteel twee versies van het gebied Documenten: het gebied voor oudere documenten en het gebied voor nieuwe documenten. De versie die uw organisatie gebruikt, hangt af van het feit of uw organisatie op verouderde Workfront-opslag of bedrijfsopslag werkt. Voor meer informatie over deze opslagtypes, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Het toevoegen van documenten aan Workfront is afhankelijk van de versie van het documentgebied dat uw organisatie gebruikt.
 
@@ -54,13 +54,13 @@ Het toevoegen van documenten aan Workfront is afhankelijk van de versie van het 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Documenten van uw bestandssysteem toevoegen in het gebied met verouderde documenten
 
-Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [ Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [&#x200B; Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 In Adobe Workfront kunt u documenten toevoegen aan de volgende gebieden:
 
@@ -68,11 +68,11 @@ In Adobe Workfront kunt u documenten toevoegen aan de volgende gebieden:
 * Het gebied Documenten voor een Workfront-object (project, taak, uitgave, sjabloon, portfolio, programma)
 * Een aangesloten kaart op een Workfront-kaart
 
-U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen aan documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden. Voor informatie over het toevoegen van documenten van derdewolkenverkopers, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen aan documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden. Voor informatie over het toevoegen van documenten van derdewolkenverkopers, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Er gelden geen beperkingen voor de bestandstypen en -grootten die u kunt uploaden naar Workfront. De upload kan echter alleen worden voltooid als deze binnen vijf minuten is voltooid en u over voldoende opslagruimte beschikt.
 
-Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 
 ### Documenten toevoegen aan Workfront in het gebied met verouderde documenten
@@ -90,7 +90,7 @@ Een document toevoegen:
 1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
 1. Klik het **lusje van Documenten**, dan klik **voeg Nieuw** drop-down menu toe.
 
-   ![ voeg nieuw document ](assets/add-new-doc.png) toe
+   ![&#x200B; voeg nieuw document &#x200B;](assets/add-new-doc.png) toe
 
 1. Voer afhankelijk van het type document dat u wilt toevoegen een van de volgende handelingen uit:
 
@@ -132,7 +132,7 @@ Een document toevoegen:
 
 ## Documenten toevoegen aan Workfront in het gebied Nieuwe documenten
 
-U kunt documenten aan voorwerpen toevoegen gebruikend het model van de ondernemingsopslag. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+U kunt documenten aan voorwerpen toevoegen gebruikend het model van de ondernemingsopslag. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Momenteel wordt functionaliteit niet ondersteund in het gebied nieuwe documenten:
 
@@ -147,7 +147,7 @@ Momenteel wordt functionaliteit niet ondersteund in het gebied nieuwe documenten
 
 ### Documenten toevoegen aan Workfront in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een document toevoegen:
 
@@ -155,9 +155,9 @@ Een document toevoegen:
 1. Klik de **Documenten** in het linkerpaneel.
 1. Klik **Nieuw** op de rechterkant van de pagina of sleep en laat vallen het dossier in de dalingsstreek die verschijnt. U kunt meerdere documenten tegelijk toevoegen.
 
-   ![ voeg een nieuw document ](assets/add-new-doc-new-doc.png) toe
+   ![&#x200B; voeg een nieuw document &#x200B;](assets/add-new-doc-new-doc.png) toe
 
-Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 ## Documentbeveiliging voor bedrijfsopslag
 

@@ -22,7 +22,7 @@ U kunt een afbeeldingsbestand toevoegen aan Adobe Workfront door het te kopiëre
 >[!NOTE]
 >
 >Deze functionaliteit is niet beschikbaar in het nieuwe gebied Documenten.<br>
->Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Als uw organisatie bedrijfsopslag gebruikt, ziet u het nieuwe gebied Documenten wanneer u documenten in Workfront opent. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Browservereisten voor plakken vanaf het Klembord
 
@@ -64,7 +64,7 @@ Deze functie is browserspecifiek, als volgt:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
