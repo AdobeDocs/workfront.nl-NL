@@ -20,7 +20,7 @@ Bij het reviseren of bewerken van inhoud:
 1. Het doelbestand lezen
 2. Pas de onderstaande regels toe — los problemen rechtstreeks op of markeer ze
 3. De intentie en technische nauwkeurigheid van de auteur behouden
-4. Voor gedetailleerde terminologie, leestekens, en procedureregels, zie [ reference.md ](reference.md)
+4. Voor gedetailleerde terminologie, leestekens, en procedureregels, zie [&#x200B; reference.md &#x200B;](reference.md)
 
 ## Stem en standpunt
 
@@ -80,8 +80,8 @@ Gebruik deze exacte patronen:
 |-----------|--------|
 | Koppeling na het geven van informatie | &quot;Voor meer informatie, zie [ de naam van het Artikel ].&quot; |
 | Koppeling zonder voorafgaande informatie | &quot;Voor informatie, zie [ de naam van het Artikel ].&quot; |
-| Koppeling maken naar een sectie in een ander artikel | &quot;Voor meer informatie, zie ] de naam van de Sectie 0} {in [ naam van het Artikel ].&quot;[ |
-| Koppeling maken naar een sectie in hetzelfde artikel | &quot;Voor meer informatie, zie {de naam van de Sectie 0} ] in dit artikel.&quot;[ |
+| Koppeling maken naar een sectie in een ander artikel | &quot;Voor meer informatie, zie &rbrack; de naam van de Sectie 0&rbrace; &lbrace;in [ naam van het Artikel ].&quot;&lbrack; |
+| Koppeling maken naar een sectie in hetzelfde artikel | &quot;Voor meer informatie, zie {de naam van de Sectie 0} &rbrack; in dit artikel.&quot;&lbrack; |
 
 - In een alinea: inline met de tekst
 - In een procedurestap: op een nieuwe regel na de stap
@@ -144,7 +144,7 @@ Maak spaarzaam gebruik — overmatig gebruik maakt ze onzichtbaar voor lezers.
 | Em-streepjes met mate | De zin indien mogelijk herstructureren |
 | Perioden in bestandsextensies | &quot;Een PDF-bestand uploaden&quot; |
 
-Voor volledige leestekens en terminologieregels, zie [ reference.md ](reference.md).
+Voor volledige leestekens en terminologieregels, zie [&#x200B; reference.md &#x200B;](reference.md).
 
 ## Volledigheid (DQTI)
 

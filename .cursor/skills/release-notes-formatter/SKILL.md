@@ -19,10 +19,10 @@ Identificeer het paginatype van dossierweg en inhoud:
 
 | Paginatype | Bestandspatroon | Sjabloon |
 |-----------|-------------|----------|
-| **Overzicht** | `{YY}-q{N}-release-overview.md` | [ reference.md#overview ](reference.md#overview-page-template) |
-| **Gebied van het Product** | `{YY}-q{N}-{area}.md` | [ reference.md#product-area ](reference.md#product-area-page-template) |
+| **Overzicht** | `{YY}-q{N}-release-overview.md` | [&#x200B; reference.md#overview &#x200B;](reference.md#overview-page-template) |
+| **Gebied van het Product** | `{YY}-q{N}-{area}.md` | [&#x200B; reference.md#product-area &#x200B;](reference.md#product-area-page-template) |
 | **Planning** | `planning-release-activity-{YY}-q{N}.md` | Vergelijkbaar met productgebied |
-| **kijken en voelen** | `look-and-feel-updates-{YY}-q{N}.md` | [ reference.md#look-and-feel ](reference.md#look-and-feel-page-template) |
+| **kijken en voelen** | `look-and-feel-updates-{YY}-q{N}.md` | [&#x200B; reference.md#look-and-feel &#x200B;](reference.md#look-and-feel-page-template) |
 
 ## Opmaakworkflow
 
@@ -73,7 +73,7 @@ Regels:
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Lichaam**: Functiebeschrijving en koppeling naar Help-documentatie
+&#x200B;5. **Lichaam**: Functiebeschrijving en koppeling naar Help-documentatie
 
 #### Overzichtspagina&#39;s
 
@@ -90,10 +90,10 @@ Regels:
 * [Document enhancements](#document-enhancements)
 ```
 
-5. **H3 per productgebied** met de eigenschaplijst van HTML (zie [ reference.md ](reference.md#overview-feature-table))
+&#x200B;5. **H3 per productgebied** met de eigenschaplijst van HTML (zie [&#x200B; reference.md &#x200B;](reference.md#overview-feature-table))
    - Binnen elke lijst, **nieuwste eigenschappen eerst** - de meest recente rij verschijnt bij de bovenkant van de lijst (na de kopbalrij)
 
-6. **het slepen secties** (H2): Opmerkingen bij de release voor andere gebieden, updates van viewer voor desktopproefdrukken, aankondigingen, API-versie, onderhoudsupdates, trainingsupdates
+&#x200B;6. **het slepen secties** (H2): Opmerkingen bij de release voor andere gebieden, updates van viewer voor desktopproefdrukken, aankondigingen, API-versie, onderhoudsupdates, trainingsupdates
 
 ### Stap 3: Koppelingen valideren
 
@@ -162,4 +162,4 @@ Controleer bij het bekijken van een bestand met releaseopmerkingen:
 
 ## Aanvullende bronnen
 
-- Voor volledige HTML malplaatjes en voorbeelden, zie [ reference.md ](reference.md)
+- Voor volledige HTML malplaatjes en voorbeelden, zie [&#x200B; reference.md &#x200B;](reference.md)

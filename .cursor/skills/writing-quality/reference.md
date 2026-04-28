@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Gedetailleerde regels voor de `writing-quality` vaardigheid. Het bestand SKILL.md behandelt de meest voorkomende regels. dit bestand bevat een volledige naslaggids voor leestekens, terminologie, voorbeelden van hoofdletters en opmaak van procedures.
 
----
+&#x200B;---
 
 ## Leestekens
 
@@ -85,7 +85,7 @@ Maak spaarzaam gebruik. Overweeg in plaats daarvan de zin te herstructureren.
 - Gebruik voor combinaties: aan/uit-schakelaar
 - Gebruiken voor internetadressen en breuken
 
----
+&#x200B;---
 
 ## Voorbeelden van hoofdletters
 
@@ -95,7 +95,7 @@ Maak spaarzaam gebruik. Overweeg in plaats daarvan de zin te herstructureren.
 |------|---------------------|----------------------|
 | Geplande afsluitdatum | &quot;Voltooi het **Geplande gebied van de Datum van de Voltooiing**.&quot; | &quot;Elke taak moet een geplande einddatum hebben.&quot; |
 | Lay-outsjabloon | &quot;In Opstelling, ga naar **Malplaatjes van de Lay-out**.&quot; | &quot;Wijs een lay-outsjabloon toe aan elke gebruiker.&quot; |
-| Groepsbeheerder | &quot;Bepaal de plaats van het **gebied van de Beheerder van de Groep 0}.&quot;** | &quot;Neem contact op met de groepsbeheerder.&quot; |
+| Groepsbeheerder | &quot;Bepaal de plaats van het **gebied van de Beheerder van de Groep 0&rbrace;.&quot;** | &quot;Neem contact op met de groepsbeheerder.&quot; |
 | Aangepast formulier | &quot;Maak de **Vorm van de Douane** aan het project vast.&quot; | &quot;U kunt een aangepast formulier maken voor elk object.&quot; |
 
 ### Algemene Workfront-termen (hoofdlettergebruik bij verwijzing naar gebruikersinterface)
@@ -117,7 +117,7 @@ Maak spaarzaam gebruik. Overweeg in plaats daarvan de zin te herstructureren.
 - UI-hoofdlettergebruik volgen
 - Als de knoop in UI allen-caps is, schrijf het in zincase in plaats daarvan
 
----
+&#x200B;---
 
 ## Terminologie
 
@@ -147,7 +147,7 @@ Dit zijn verschillende woorden met verschillende betekenissen — gebruik de jui
 
 Altijd de bestandsextensie gebruiken, niet het acroniem: &quot;Upload een .pdf-bestand&quot; (niet &quot;Upload een PDF&quot;).
 
----
+&#x200B;---
 
 ## Opmaak procedure
 
@@ -210,7 +210,7 @@ Documenteer eerst de meest eenvoudige manier:
 - Ruimte rondom haakjes
 - Niet gebruiken voor hoofdmenu — gebruik het hoofdmenusfragment
 
----
+&#x200B;---
 
 ## Verwijzing vet en cursief
 
@@ -230,7 +230,7 @@ Documenteer eerst de meest eenvoudige manier:
 - Tekst die de gebruiker moet typen: &quot;Type *my.workfront.com* in het vakje URL&quot;
 - Nooit voor accentuering — de zin in plaats daarvan herstructureren
 
----
+&#x200B;---
 
 ## Opmerkingen, tips, waarschuwingen — Gedetailleerde aanwijzingen
 
@@ -258,15 +258,15 @@ Documenteer eerst de meest eenvoudige manier:
 - Verwante notities combineren tot één notitie met een lijst met opsommingstekens
 - Gebruik geen notities om nieuwe functies aan te kondigen — wijzig de artikeltekst
 
----
+&#x200B;---
 
 ## Kruisverwijzingspatronen
 
 | Situatie | Patroon |
 |-----------|---------|
-| Na het geven van informatie | &quot;Voor meer informatie, zie [ de naam van het Artikel ](link).&quot; |
-| Zonder voorafgaande informatie | &quot;Voor informatie, zie [ de naam van het Artikel ](link).&quot; |
-| Naar een sectie in een ander artikel | &quot;Voor meer informatie, zie [ Sectie ] in [ naam van het Artikel ](link).&quot; |
+| Na het geven van informatie | &quot;Voor meer informatie, zie [ de naam van het Artikel ] (link).&quot; |
+| Zonder voorafgaande informatie | &quot;Voor informatie, zie [ de naam van het Artikel ] (link).&quot; |
+| Naar een sectie in een ander artikel | &quot;Voor meer informatie, zie [ Sectie ] in [ naam van het Artikel ] (link).&quot; |
 | Naar een sectie in hetzelfde artikel | &quot;Voor meer informatie, zie [ Sectie ] in dit artikel.&quot; |
 
 Plaatsing:
@@ -274,7 +274,7 @@ Plaatsing:
 - In procedurestappen: nieuwe regel na de stap
 - Meerdere verwijzingen: lijst met opsommingstekens
 
----
+&#x200B;---
 
 ## DQTI-kwaliteitskenmerken
 
@@ -302,7 +302,7 @@ Plaatsing:
 | Ophaalbaarheid | Kan een lezer koppen scannen en de inhoud begrijpen? Worden koppelingen verschaft? |
 | Visuele doeltreffendheid | Lijsten voor 3+ items? Tabellen voor vergelijkingen? Geen wand-of-text alinea&#39;s? |
 
----
+&#x200B;---
 
 ## Algemene correcties
 
