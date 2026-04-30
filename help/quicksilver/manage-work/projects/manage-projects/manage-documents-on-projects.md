@@ -37,7 +37,7 @@ De Workfront-beheerder kan het volgende doen:
    * Portfolio&#39;s
    * Sjablonen
 
-Voor informatie over het plaatsen van opslagvoorkeur voor Workfront, zie [ de ondernemingsopslag van Adobe voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) toelaten.
+Voor informatie over het plaatsen van opslagvoorkeur voor Workfront, zie [&#x200B; de ondernemingsopslag van Adobe voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) toelaten.
 
 In dit artikel wordt beschreven hoe u documenten voor projecten, portfolio&#39;s, programma&#39;s, taken, uitgaven, sjablonen en sjabloontaken kunt beheren.
 
@@ -122,7 +122,7 @@ Klanten hebben mogelijk toegang tot een van de volgende opslagmogelijkheden voor
 
 Documenten die zijn opgeslagen op objecten in Workfront-opslag, worden anders beheerd dan opslagruimten in Adobe Enterprise Storage.
 
-Voor meer informatie, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer informatie, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 In de volgende secties wordt beschreven hoe documentopslag werkt voor Workfront-objecten wanneer zowel Workfront- als Adobe-opslagopties voor ondernemingen zijn ingesteld.
 
