@@ -23,10 +23,10 @@ Hoewel er geen beperkingen gelden voor de typen en formaten van afzonderlijke be
 
 De manier waarop opslag wordt weergegeven, hangt af van het feit of uw organisatie oude Workfront-opslag of Adobe Enterprise-opslag gebruikt:
 
-* Als u de opslag van erfenisWorkfront gebruikt, zie {de opslag van Workfront van de Verouderde ](#legacy-workfront-storage) in dit artikel.[
-* Als u de ondernemingsopslag van Adobe gebruikt, zie [ de ondernemingsopslag van Adobe ](#adobe-enterprise-storage) in dit artikel.
+* Als u de opslag van erfenisWorkfront gebruikt, zie &lbrace;de opslag van Workfront van de Verouderde [&#128279;](#legacy-workfront-storage) in dit artikel.
+* Als u de ondernemingsopslag van Adobe gebruikt, zie [&#x200B; de ondernemingsopslag van Adobe &#x200B;](#adobe-enterprise-storage) in dit artikel.
 
-  Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ De manier waarop opslag wordt weergegeven, hangt af van het feit of uw organisat
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,7 +87,7 @@ Adobe Enterprise-documentopslag controleren:
 1. Bekijk het gebruik voor Adobe Enterprise Storage.
    <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
 
-![ het gebruik van de ondernemingsopslag van Adobe op Info van de Klant ](assets/storage-usage.png)
+![&#x200B; het gebruik van de ondernemingsopslag van Adobe op Info van de Klant &#x200B;](assets/storage-usage.png)
 
 De cijfers van het gebruik verfrissen zich regelmatig zodat ziet u een bijgewerkt aantal.
 

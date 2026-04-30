@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die in Documenten zijn aangebracht met de release Derde kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2026 versiecyclus, zie [ Derde Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2026 versiecyclus, zie [&#x200B; Derde Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
 ## Opslaggebruik voor Adobe-bedrijven weergeven
 
@@ -27,4 +27,4 @@ De pagina Klantgegevens in Setup bevat nu een nieuwe sectie Opslagoverzicht met 
 
 Workfront-beheerders ontvangen automatisch e-mailmeldingen wanneer het opslaggebruik 75%, 85% en 100% van het quotum bereikt.
 
-Voor meer informatie, zie [ de grenzen van de documentopslag van de Controle ](/help/quicksilver/documents/managing-documents/check-document-storage.md).
+Voor meer informatie, zie [&#x200B; de grenzen van de documentopslag van de Controle &#x200B;](/help/quicksilver/documents/managing-documents/check-document-storage.md).
