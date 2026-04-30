@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt een sjabloontaak van een sjabloon naar een andere sjabloon kopiëren of d
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standard</p>
+   <td> <p>Standaard</p>
    <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ U kunt een sjabloontaak van een sjabloon naar een andere sjabloon kopiëren of d
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,6 +108,10 @@ Houd rekening met het volgende wanneer u sjabloontaken verplaatst:
 
    * Mijlpalen.
 
+* U kunt een sjabloontaak niet kopiëren of verplaatsen van een Workfront-opslagsjabloon naar een Adobe-opslagsjabloon. Het omgekeerde geldt ook. Niet alle klanten hebben beide soorten opslag.
+
+  Voor informatie, zie [ het beheeroverzicht van het Document voor projecten en verwante voorwerpen ](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Sjabloontaken kopiëren
 
 U kunt één sjabloontaak kopiëren of meerdere sjabloontaken bulksgewijs kopiëren.
@@ -117,9 +121,9 @@ U kunt één sjabloontaak kopiëren of meerdere sjabloontaken bulksgewijs kopië
 1. Voer een van de volgende handelingen uit:
    * Klik op de naam van een sjabloontaak om deze te openen.
    * Selecteer een of meerdere sjabloontaken in de lijst.
-1. (Voorwaardelijk) klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Exemplaar aan** of **Exemplaar**, afhankelijk van waar u tot de optie van het Exemplaar toegang hebt.
+1. (Voorwaardelijk) klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Exemplaar aan** of **Exemplaar**, afhankelijk van waar u tot de optie van het Exemplaar toegang hebt.
 Het vak Sjabloontaak kopiëren wordt geopend.
-   ![&#x200B; de taakdoos van het malplaatje van het Exemplaar &#x200B;](assets/copy-template-task-box-unshimmed.png)
+   ![ de taakdoos van het malplaatje van het Exemplaar ](assets/copy-template-task-box-unshimmed.png)
 1. (Facultatief) noem de malplaatjetaak op het **gebied van de Naam van de Taak van het Malplaatje**.
 
    >[!TIP]
@@ -128,11 +132,18 @@ Het vak Sjabloontaak kopiëren wordt geopend.
 
 1. Begin typend de naam van het **Malplaatje van de Bestemming** waar u de malplaatjetaak in het **Uitgezochte Malplaatje van de Bestemming** gebied wilt kopiëren, dan het selecteren wanneer het in de lijst toont.
 
+   >[!TIP]
+   >
+   >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
+
    De huidige sjabloonnaam wordt standaard weergegeven. Als u de sjabloontaak binnen dezelfde sjabloon wilt kopiëren, laat u dit veld ongewijzigd.
 
    >[!TIP]
    >
-   >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
+   >U moet een sjabloon kiezen met een vergelijkbaar type documentopslag. U kunt sjabloontaken niet kopiëren naar een sjabloon met een ander opslagtype dan de oorspronkelijke sjabloon. Niet alle klanten hebben toegang tot meerdere opslagtypen voor documenten.
+   >
+   >Voor informatie, zie [ het beheeroverzicht van het Document voor projecten en verwante voorwerpen ](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Voorwaardelijk) klik **verzoektoegang** om toegang tot het bestemmingsmalplaatje te verzoeken, als u geen toegang tot het geselecteerde malplaatje hebt.
 1. (Voorwaardelijk) blijf de malplaatjetaak aan het geselecteerde bestemmingsmalplaatje kopiëren zonder toegang te vragen als u toegang hebt om malplaatjetaken aan één van de malplaatjetaken op het bestemmingsmalplaatje toe te voegen.
@@ -218,7 +229,7 @@ Het vak Sjabloontaak kopiëren wordt geopend.
    Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
    * In de lijst van de malplaatjetaak, selecteer één van de ouders in het malplaatjeplan.
-   * Klik het pictogram van het onderzoekspictogram ![&#x200B; Onderzoek &#x200B;](assets/search-icon.png) en onderzoek naar een taak van het oudermalplaatje door naam.
+   * Klik het pictogram van het onderzoekspictogram ![ Onderzoek ](assets/search-icon.png) en onderzoek naar een taak van het oudermalplaatje door naam.
 
    De sjabloontaak moet in de lijst worden weergegeven.
 
@@ -240,9 +251,9 @@ U kunt een sjabloontaak verplaatsen naar een andere sjabloontaak in dezelfde sja
 1. Voer een van de volgende handelingen uit:
    * Klik op de naam van een sjabloontaak om deze te openen.
    * Selecteer een of meerdere sjabloontaken in de lijst.
-1. (Voorwaardelijk) klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Beweging aan** of **Beweging**, afhankelijk van waar u tot de optie van de Beweging toegang hebt.
+1. (Voorwaardelijk) klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) bij de bovenkant van de lijst van de malplaatjetaak of rechts van de naam van de malplaatjetaak als u de taak opende, dan klik **Beweging aan** of **Beweging**, afhankelijk van waar u tot de optie van de Beweging toegang hebt.
 Het vak Sjabloontaak verplaatsen wordt geopend.
-   ![&#x200B; de taakdoos van het malplaatje van de Beweging &#x200B;](assets/move-template-task-box-unshimmed.png)
+   ![ de taakdoos van het malplaatje van de Beweging ](assets/move-template-task-box-unshimmed.png)
 
 1. (Facultatief) noem de malplaatjetaak op het **gebied van de Naam van de Taak van het Malplaatje**.
 
@@ -254,7 +265,11 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
 
    >[!TIP]
    >
-   >U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
+   >* U kunt ook het referentienummer typen of de id van de sjabloon invoeren. Hierdoor kunt u beter onderscheid maken tussen sjablonen met identieke namen.
+   >
+   >* U moet een sjabloon kiezen met een vergelijkbaar type documentopslag. U kunt sjabloontaken niet kopiëren naar een sjabloon met een ander opslagtype dan de oorspronkelijke sjabloon. Niet alle klanten hebben toegang tot meerdere opslagtypen voor documenten.
+   >
+   >Voor informatie, zie [ het beheeroverzicht van het Document voor projecten en verwante voorwerpen ](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Voorwaardelijk) klik **verzoektoegang** om toegang tot het malplaatje te verzoeken, als u geen toegang tot het bestemmingsmalplaatje hebt.
 1. (Voorwaardelijk) blijf de malplaatjetaak aan het geselecteerde bestemmingsmalplaatje verplaatsen zonder toegang te vragen als u toegang hebt om malplaatjetaken aan één van de malplaatjetaken op het bestemmingsmalplaatje toe te voegen.
@@ -291,7 +306,6 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
       <li> Niet eerder starten dan</li>
       <li> Niet later starten dan</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -341,7 +355,6 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
     </tbody> 
    </table>
 
-
 1. (Facultatief) klik **Uitgezochte Ouder** in het linkerpaneel, dan selecteer de malplaatjetaak in het bestemmingsmalplaatje dat u de ouder van de verplaatste malplaatjetaak wilt worden.
 
    >[!TIP]
@@ -351,7 +364,7 @@ Het vak Sjabloontaak verplaatsen wordt geopend.
    Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
    * In de lijst van de malplaatjetaak, selecteer één van de ouders in het malplaatjeplan.
-   * Klik het pictogram van het onderzoekspictogram ![&#x200B; Onderzoek &#x200B;](assets/search-icon.png) en onderzoek naar een taak van het oudermalplaatje door naam.
+   * Klik het pictogram van het onderzoekspictogram ![ Onderzoek ](assets/search-icon.png) en onderzoek naar een taak van het oudermalplaatje door naam.
 
    De sjabloontaak moet in de lijst worden weergegeven.
 

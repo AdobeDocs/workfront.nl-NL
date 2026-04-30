@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Projecten vormen een groot deel van het werk dat in Adobe Workfront moet worden 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standard</p>
+   <td> <p>Standaard</p>
         <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Projecten vormen een groot deel van het werk dat in Adobe Workfront moet worden 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,33 +97,33 @@ U kunt een project in Workfront tot stand brengen gebruikend één van de volgen
 * Een geheel nieuw project maken zonder een sjabloon te gebruiken. In dit artikel wordt beschreven hoe u een geheel nieuw project kunt maken.
 
 * Een bestaand project kopiëren.\
-  Voor meer informatie over het kopiëren van project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
+  Voor meer informatie over het kopiëren van project, zie [ een project ](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
 * Gebruik een sjabloon.\
-  Voor meer informatie over het gebruiken van een malplaatje om een nieuw project tot stand te brengen, zie [&#x200B; een project creëren gebruikend een malplaatje &#x200B;](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  Voor meer informatie over het gebruiken van een malplaatje om een nieuw project tot stand te brengen, zie [ een project creëren gebruikend een malplaatje ](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 * Een project importeren uit Microsoft Project.\
-  Voor meer informatie over het invoeren van een project van het Project van MS, zie [&#x200B; een project van het Project van Microsoft invoeren &#x200B;](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Voor meer informatie over het invoeren van een project van het Project van MS, zie [ een project van het Project van Microsoft invoeren ](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Importeer een project met de functie voor het starten van een project.
 
   Als beheerder van Workfront, kunt u projecten invoeren gebruikend een schop-begin.
 
-  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Voor informatie over het invoeren van projecten die schoppen-begin gebruiken, zie [&#x200B; Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Voor informatie over het invoeren van projecten die schopstart gebruiken, zie [ Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 * Publiceer een initiatief van een scenario in de Planner van het Scenario van Adobe Workfront.
 
-  Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
+  Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
 
-  Voor informatie over het creëren van projecten van het publiceren initiatieven, zie [&#x200B; Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren &#x200B;](../../../scenario-planner/publish-scenarios-update-projects.md).
+  Voor informatie over het creëren van projecten van het publiceren initiatieven, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * Voeg projecten toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt.
 
-  Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Overzicht van de Toegang &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+  Voor informatie over toegang tot de Planning van Workfront, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md).
 
-  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;projecten creëren wanneer het verbinden van hen met verslagen van de Planning van Workfront&quot;in het artikel [&#x200B; creeer de voorwerpen van Workfront van Workfront Planning aangezien u hen met verslagen &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
+  Voor informatie over het creëren van projecten door hen aan verslagen toe te voegen, zie de sectie &quot;projecten creëren wanneer het verbinden van hen met verslagen van de Planning van Workfront&quot;in het artikel [ creeer de voorwerpen van Workfront van Workfront Planning aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
 
 ## Vereisten
 
@@ -131,7 +131,7 @@ Voordat u begint, moet u ervoor zorgen dat:
 
 * Uw systeem of groepsbeheerder liet &quot;toestaan gebruikers toe om projecten tot stand te brengen zonder een malplaatje&quot;voorkeur in het gebied van de Opstelling te gebruiken.
 
-  Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+  Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Nieuwe standaardinstellingen voor project
 
@@ -147,7 +147,7 @@ Overweeg het volgende:
   >
   >Wij adviseren dat de standaardstatus voor een nieuw project Planning is. Aangezien u veranderingen in het nieuwe project aanbrengt, zorgt dit ervoor dat de berichten niet worden verzonden naar de gebruikers die aan het project worden toegewezen.
   >
-  >Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen of [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
+  >Voor meer informatie over vestiging de standaardstatus en andere standaardmontages voor een nieuw project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen of [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
 
 * De volgende scenario&#39;s bestaan voor hoe Workfront de Groep en Status van een nieuw project bepaalt:
 
@@ -167,25 +167,61 @@ Overweeg het volgende:
 
      Als u een malplaatje gebruikt wanneer u het project door de kwestie creeert om te zetten, verwijs naar het tweede scenario hierboven om te begrijpen welke Groep en welke Status Workfront op het nieuwe project van toepassing is.
 
+* Waar de documenten op een project en zijn kindvoorwerpen (taken en kwesties) worden opgeslagen hangt af van wat uw beheerder van Workfront als gebrek voor de Voorkeur van de Opslag in het gebied van de Voorkeur van het Systeem van Opstelling kiest. Afhankelijk van de locatie waar u documenten opslaat in uw Workfront-instantie, kunt u de volgende typen projecten maken:
+
+   * Legacy Workfront-opslagprojecten
+   * Adobe Enterprise Storage-projecten.
+
+  Voor meer informatie, zie [ de ondernemingsopslag van Adobe voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) toelaten.
+
+* Wanneer u een onderneming-opslag project creeert, wordt een documentomslag met de zelfde naam van het project gecreeerd voor in de **1} sectie van Documenten {van het project.** Nadat u taken aan het project toevoegt, worden de omslagen met de naam van de taak toegevoegd aan de **sectie van Documenten** van elke taak.
+
+Voor meer informatie, zie [ het beheeroverzicht van het Document voor projecten en verwante voorwerpen ](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Een geheel nieuw project maken
 
 >[!NOTE]
 >
->Als u een project gebruikend een malplaatje creeert, adviseren wij dat u ook het artikel [&#x200B; ziet creeert een project gebruikend een malplaatje &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+>Als u een project gebruikend een malplaatje creeert, adviseren wij dat u ook het artikel [ ziet creeert een project gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, of het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, als beschikbaar, dan klik **Projecten** en breid **Nieuw Project** uit.
+   * Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Projecten** en breid **Nieuw Project** uit.
    * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
    * Ga naar een programma, dan breid **Nieuw Project** uit.
-   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![&#x200B; Nieuw menu van het Project &#x200B;](assets/new-project-dropdown-nwe-350x358.png)
+   ![ Nieuw menu van het Project ](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. Klik **Nieuw Project** in het menu om een project van kras tot stand te brengen.
-1. Typ een naam voor het project. Druk op Enter om de naam op te slaan.
+1. (Voorwaardelijk) Afhankelijk van de documentopslag die uw organisatie gebruikt, klikt u op een van de volgende opties:
 
-   ![&#x200B; ga een naam voor het project &#x200B;](assets/rename-untitled-project.png) in
+   * **Nieuw project**, wanneer de beheerder van Workfront of **Onderneming van Adobe**, of **Verouderde Workfront** kiest, en zij deden of selecteerden niet **toestaan gebruiker om opslagleverancier** het plaatsen te selecteren.
+   * **Nieuw project (de opslag van de Oudheid)**, wanneer de beheerder van Workfront of **Onderneming van Adobe**, of **Verouderde Workfront** kiest, en zij selecteerden ook **toestaan gebruiker om opslagleverancier** het plaatsen te selecteren.
+
+     Deze optie toont slechts wanneer **gebruiker toestaat om opslagleverancier** te selecteren het plaatsen wordt geselecteerd in het gebied van de Opstelling.
+
+     Voor meer informatie, zie [ de ondernemingsopslag van Adobe voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md) toelaten.
+
+     >[!NOTE]
+     >
+     >Wanneer u een project voor bedrijfsopslag maakt op basis van een Workfront-opslagportfolio of -programma, worden het portfolio of programma ook geconverteerd naar Enterprise-storage-objecten. Alle andere Workfront-opslagprojecten in hetzelfde portfolio of programma blijven ongewijzigd.
+
+     Een project wordt gecreeerd en zijn standaardnaam volgt de volgende patronen, afhankelijk van welke opslag Workfront voor documenten gebruikt:
+
+      * **Naamloos Project** voor een Workfront-opslagproject.
+
+        Een Workfront-opslagproject toont a **pictogram ![ van de de opslagplaats van Workfront van de Verouderde** Verouderde ](assets/legacy-storage-project-icon.png) naast zijn naam.
+
+      * **Naamloos Project - &lt; Maand dag, jaar uur.minute.second >** voor een Adobe-opslagproject
+
+        >[!IMPORTANT]
+        >
+        >Projecten die gebruikmaken van Adobe Enterprise Storage moeten unieke namen hebben.
+
+
+1. Werk in de koptekst van het project de naam van het project bij. Druk op Enter om de naam op te slaan.
+
+   ![ ga een naam voor het project ](assets/rename-untitled-project.png) in
 
    De kopbal van de projectpagina toont een snel overzicht van de huidige gezondheid en de vooruitgang van een project. De informatie in de projectkopbal verandert aangezien de projectinformatie wordt bijgewerkt.
 
@@ -195,15 +231,15 @@ Overweeg het volgende:
 
    Klik **Nieuwe Taak** om taken aan het project toe te voegen en middelen aan hen toe te wijzen.
 
-   Voor meer informatie over het toevoegen van taken aan een project, zie [&#x200B; tot taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
+   Voor meer informatie over het toevoegen van taken aan een project, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
-1. Bewerk de projectdetails door het **Meer** menu rechts van de projectnaam, in de kopbal te klikken, dan **geef** ![&#x200B; uit pictogram &#x200B;](assets/qs-edit-icon.png) naast de naam van het project uit.
+1. Bewerk de projectdetails door het **Meer** menu rechts van de projectnaam, in de kopbal te klikken, dan **geef** ![ uit pictogram ](assets/qs-edit-icon.png) naast de naam van het project uit.
 
    Het **geeft de doos van het Project** uit opent.
 
 1. Voeg informatie over het project toe.
 
-   Voor meer informatie over het uitgeven van een project, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   Voor meer informatie over het uitgeven van een project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
    >[!TIP]
    >
@@ -215,4 +251,4 @@ Overweeg het volgende:
 
    Dit wijst erop dat het project nu klaar is te beginnen en de gebruikers die aan de taken worden toegewezen kunnen nu beginnen aan het werken aan hen.
 
-   Voor meer informatie over projectstatussen, zie [&#x200B; Toegang tot de lijst van de statussen van het systeemproject &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   Voor meer informatie over projectstatussen, zie [ Toegang tot de lijst van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).

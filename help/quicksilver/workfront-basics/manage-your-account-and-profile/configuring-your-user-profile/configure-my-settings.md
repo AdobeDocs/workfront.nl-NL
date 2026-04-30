@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2969'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Afhankelijk van het toegangsniveau dat u in [!DNL Workfront] hebt, kunt u sommig
 
 Afhankelijk van het toegangsniveau dat u hebt, kunt u secties in uw [!UICONTROL My Settings] -gebied al dan niet bewerken.
 
-Sommige gebieden in editable secties kunnen niet worden uitgegeven, afhankelijk van andere montages die al dan niet in uw toegangsniveau zouden kunnen worden gevormd. Voor meer informatie over extra toegang nodig voor het uitgeven van sommige gebieden u in [!UICONTROL My Settings] vindt, zie de secties in [&#x200B; het Vormen van het [!UICONTROL My Settings] gebied &#x200B;](#configuring-the-my-settings-area).
+Sommige gebieden in editable secties kunnen niet worden uitgegeven, afhankelijk van andere montages die al dan niet in uw toegangsniveau zouden kunnen worden gevormd. Voor meer informatie over extra toegang nodig voor het uitgeven van sommige gebieden u in [!UICONTROL My Settings] vindt, zie de secties in [ het Vormen van het [!UICONTROL My Settings] gebied ](#configuring-the-my-settings-area).
 
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk toegangsniveau u hebt.
 
@@ -202,7 +202,7 @@ In het volgende raster ziet u welke secties in het [!UICONTROL My Settings] -geb
 
 {{step1-click-profile-pic}}
 
-1. Klik het **[!UICONTROL More]** menu naast uw naam ![&#x200B; Meer menu &#x200B;](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
+1. Klik het **[!UICONTROL More]** menu naast uw naam ![ Meer menu ](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
 
 1. Afhankelijk van uw toegangsniveau, kunt u de volgende secties bijwerken:
 
@@ -215,7 +215,7 @@ In het volgende raster ziet u welke secties in het [!UICONTROL My Settings] -geb
    * [Aangepaste Forms](#custom-form)
    * [Opmerking](#comment)
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
 ### [!UICONTROL Personal Info]
 
@@ -256,8 +256,8 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld, wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
+   <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen van [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -357,7 +357,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
 
 ### [!UICONTROL Notifications]
 
-Geef op welke meldingen u wilt ontvangen van [!DNL Workfront] . Voor meer informatie over het vormen van berichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Geef op welke meldingen u wilt ontvangen van [!DNL Workfront] . Voor meer informatie over het vormen van berichten, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 
@@ -383,16 +383,16 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td role="rowheader"><strong>[!UICONTROL Layout Template]</strong> </td> 
    <td>Dit veld is zichtbaar voor gebruikers met een toegangsniveau [!UICONTROL Standard] , [!UICONTROL Plan] of [!UICONTROL [!DNL Workfront] administrator] en kan alleen worden bewerkt voor [!UICONTROL [!DNL Workfront] beheerders] of gebruikers met een [!UICONTROL Standard] - of [!UICONTROL Plan] -licentie die ook toegang hebben tot een beheerder. Selecteer hier een lay-outsjabloon om de vormgeving en het veld van uw Workfront-interface bij te werken. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref"> gebruikers' toegang vormen om gebruikers uit te geven gebruikend een niveau van de douanetoegang </a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.<br> voor meer informatie over lay-outmalplaatjes en hoe zij uw interface beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref"> lay-outmalplaatjes </a> creëren en beheren</td> 
   </tr>
-  <!--
+  &lt;!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
-      </p> </td> 
-   </tr>
-  --> 
+    <td role="rowheader"><strong> Login als </strong> </td> 
+    <td> <p><strong> voegt toegang </strong> voor een beheerder van Workfront of groepsbeheerder (verbonden aan een groep toe u binnen bent) aan login aangezien u bent. Selecteer een <strong> vervaldatum van de Toegang </strong> voor login. </p> <p>U kunt dit herhalen om login toegang tot veelvoudige beheerders te verlenen.</p> <p>De instellingen die u in deze sectie kiest, zijn alleen voor u zichtbaar.
+
+    &lt;span class=&quot;PinkDraftNote&quot;>Voeg een opmerking over het feit dat dit alleen voor het Enterprise-pakket geldt toe als ze dat op die manier doen. Functionaliteit die in een latere sprint kan komen: Als u op de hoogte wilt worden gesteld wanneer de beheerder zich aanmeldt zoals u, selecteert u Een e-mail ontvangen wanneer deze gebruiker zich aanmeldt.&lt;/span>
+    
+    &lt;/p> &lt;/td>
+</tr>
+  --&gt; 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
    <td>Dit veld is alleen beschikbaar als uw bedrijf een verouderd [!DNL Workfront] -pakket gebruikt en de [!DNL Workfront Proof] -component heeft aangeschaft. Als deze optie is geselecteerd, wordt u ingeschakeld als proefgebruiker. Ook wordt het aantal proeflicenties dat in uw systeem wordt gebruikt weergegeven van het totale aantal aangeschafte bewijslicenties. Dit veld is alleen zichtbaar en bewerkbaar voor gebruikers die ook [!DNL Workfront] beheerders zijn. Voor meer informatie over de planopties voor het proef binnen [!DNL Workfront], zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md"> Toegang tot het proef functionaliteit in [!DNL Workfront]</a>.</td>
@@ -440,7 +440,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Home Group]</strong> </td> 
-   <td> <p>Selecteer een <strong>[!UICONTROL Home Group]</strong> in de keuzelijst.</p> <p>Opmerking: dit is een verplicht veld. Er kan geen gebruiker aan een groep zijn gekoppeld.<br></p> <p>Dit veld is zichtbaar voor gebruikers met een niveau [!UICONTROL Standard] , [!UICONTROL Plan] of [!UICONTROL System Administrator] . Voor meer informatie over wie het <strong>[!UICONTROL Home Group]</strong> gebied kan uitgeven, zie <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref"> het profiel van een gebruiker </a> uitgeven. Uw <strong>[!UICONTROL Home Group]</strong> is de standaardgroep voor alle projecten en de standaardwaarde <strong>[!UICONTROL Home Group]</strong> voor alle nieuwe gebruikers die u maakt. Aangepaste formulieren die u maakt, worden standaard gedeeld met de <strong>[!UICONTROL Home Group]</strong> .</p> <p>Voor meer informatie over groepen, zie <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref"> Overzicht van Groepen </a>.</p> </td> 
+   <td> <p>Selecteer een <strong>[!UICONTROL Home Group]</strong> in de keuzelijst.</p> <p>Opmerking:  Dit is een verplicht veld. Er kan geen gebruiker aan een groep zijn gekoppeld.<br></p> <p>Dit veld is zichtbaar voor gebruikers met een niveau [!UICONTROL Standard] , [!UICONTROL Plan] of [!UICONTROL System Administrator] . Voor meer informatie over wie het <strong>[!UICONTROL Home Group]</strong> gebied kan uitgeven, zie <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref"> het profiel van een gebruiker </a> uitgeven. Uw <strong>[!UICONTROL Home Group]</strong> is de standaardgroep voor alle projecten en de standaardwaarde <strong>[!UICONTROL Home Group]</strong> voor alle nieuwe gebruikers die u maakt. Aangepaste formulieren die u maakt, worden standaard gedeeld met de <strong>[!UICONTROL Home Group]</strong> .</p> <p>Voor meer informatie over groepen, zie <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref"> Overzicht van Groepen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Other Groups]</strong> </td> 
@@ -505,7 +505,7 @@ Voer in deze sectie een van de volgende handelingen uit:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Cost per Hour]</strong> </td> 
-   <td>Geef de hoeveelheid kosten per uur voor de gebruiker op. Voor meer informatie over het volgen van kosten in [!DNL Workfront], zie {de kosten van het 1} Spoor <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">. </a> U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op toegangsniveau of als u een [!DNL Workfront] beheerder bent. Voor meer informatie over financiële toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> Toegang van de Verlening tot financiële gegevens </a>.</td> 
+   <td>Geef de hoeveelheid kosten per uur voor de gebruiker op. Voor meer informatie over het volgen van kosten in [!DNL Workfront], zie {de kosten van het 1} Spoor </a>. <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">U kunt deze informatie alleen bijwerken als u toegang hebt tot financiële gegevens op toegangsniveau of als u een [!DNL Workfront] beheerder bent. Voor meer informatie over financiële toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> Toegang van de Verlening tot financiële gegevens </a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Billing per Hour]</strong> </td> 
@@ -525,7 +525,7 @@ U moet over een van de volgende toegangsrechten of machtigingen beschikken om ee
 
 Alle gebruikers kunnen aangepaste formulieren zien die zijn gekoppeld aan hun profielen.
 
-Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### [!UICONTROL Comment]
 
