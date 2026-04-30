@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: Maak en valideer de opmerkingen bij de Workfront-release voor consistentie, correcte structuur en juiste koppelingen. Alleen gebruiken voor releaseopmerkingenbestanden in directory's met productreleases of wanneer de gebruiker opmerkingen bij de release, productreleases of driemaandelijkse releases vermeldt. Niet toepassen op artikelen of algemene documentatie.
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,10 @@ Identificeer het paginatype van dossierweg en inhoud:
 
 | Paginatype | Bestandspatroon | Sjabloon |
 |-----------|-------------|----------|
-| **Overzicht** | `{YY}-q{N}-release-overview.md` | [&#x200B; reference.md#overview &#x200B;](reference.md#overview-page-template) |
-| **Gebied van het Product** | `{YY}-q{N}-{area}.md` | [&#x200B; reference.md#product-area &#x200B;](reference.md#product-area-page-template) |
+| **Overzicht** | `{YY}-q{N}-release-overview.md` | [ reference.md#overview ](reference.md#overview-page-template) |
+| **Gebied van het Product** | `{YY}-q{N}-{area}.md` | [ reference.md#product-area ](reference.md#product-area-page-template) |
 | **Planning** | `planning-release-activity-{YY}-q{N}.md` | Vergelijkbaar met productgebied |
-| **kijken en voelen** | `look-and-feel-updates-{YY}-q{N}.md` | [&#x200B; reference.md#look-and-feel &#x200B;](reference.md#look-and-feel-page-template) |
+| **kijken en voelen** | `look-and-feel-updates-{YY}-q{N}.md` | [ reference.md#look-and-feel ](reference.md#look-and-feel-page-template) |
 
 ## Opmaakworkflow
 
@@ -73,7 +73,7 @@ Regels:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Lichaam**: Functiebeschrijving en koppeling naar Help-documentatie
+5. **Lichaam**: Functiebeschrijving en koppeling naar Help-documentatie
 
 #### Overzichtspagina&#39;s
 
@@ -90,10 +90,10 @@ Regels:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 per productgebied** met de eigenschaplijst van HTML (zie [&#x200B; reference.md &#x200B;](reference.md#overview-feature-table))
+5. **H3 per productgebied** met de eigenschaplijst van HTML (zie [ reference.md ](reference.md#overview-feature-table))
    - Binnen elke lijst, **nieuwste eigenschappen eerst** - de meest recente rij verschijnt bij de bovenkant van de lijst (na de kopbalrij)
 
-&#x200B;6. **het slepen secties** (H2): Opmerkingen bij de release voor andere gebieden, updates van viewer voor desktopproefdrukken, aankondigingen, API-versie, onderhoudsupdates, trainingsupdates
+6. **het slepen secties** (H2): Opmerkingen bij de release voor andere gebieden, updates van viewer voor desktopproefdrukken, aankondigingen, API-versie, onderhoudsupdates, trainingsupdates
 
 ### Stap 3: Koppelingen valideren
 
@@ -124,6 +124,32 @@ Deze correcties toepassen bij het opmaken:
 | Extra spaties in bijschriftlijnen | Navolgende witruimte bijsnijden |
 | HTML in productgebiedpagina&#39;s | Als markering behouden (HTML is alleen voor overzichtstabellen) |
 | Ontbrekend `exl-id` | Laat het weg — genereren er geen |
+
+### Stap 6: De inhoudsopgave bijwerken
+
+Wanneer u a **nieuwe** versie-nota pagina (overzicht of productgebied) creeert, voeg het aan `help/quicksilver/TOC.md` in de zelfde verandering toe. Een pagina die niet in TOC is zal niet in de gepubliceerde navigatie verschijnen, zelfs als de verbindingen in de overzichtstabel aan het richten.
+
+Waar moet het worden toegevoegd:
+
+- De inhoudsopgave heeft een sectie per kwartaal onder een kop als `* 2026 Q3 Release {#release-26-q3}` . Als de kop voor het kwartaal nog niet bestaat (eerste pagina van een nieuw kwartaal), voegt u deze kop dan boven het vorige kwartaal toe, zodat het nieuwste kwartaal bovenaan staat.
+- Vermeld onder die kop de pagina&#39;s in de volgende volgorde:
+   1. **Overzicht** eerst (`Third Quarter 2026 release overview`).
+   2. **product-gebied pagina&#39;s** alfabetisch door gebiedsnaam (Beheerder, Documenten, de Verrichtingen van de Onderneming, Projecten, het Rapporteren, het Aanvragen).
+   3. **Andere verhogingen** laatste (altijd na de alfabetische productgebieden).
+
+Elk inhoudsopgave-item is een markeringskoppeling met de paginatitel en het absolute repopad:
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+De inspringing (zes ruimten) van de gelijke aan de omringende ingangen. Gebruik pagina H1 letterlijk als koppelingstekst — bijvoorbeeld `Documents enhancements`, `Requesting enhancements` (not `Requests` ) — zodat labels voor inhoudsopgave overeenkomen met eerdere kwartalen.
+
+Algemene fouten om te voorkomen:
+
+- Een pagina voor productgebieden maken zonder deze aan de inhoudsopgave toe te voegen.
+- Koppelen aan een ander kwartaaloverzicht van de nieuwe productpagina (stap 3).
+- Een nieuw kwartaal invoegen onder de kop van het vorige kwartaal.
 
 ## Naamgevingsconventies voor bestanden
 
@@ -159,7 +185,8 @@ Controleer bij het bekijken van een bestand met releaseopmerkingen:
 - [ ] Geen verbroken interne koppelingen
 - [ ] Ankerkoppelingen in overzicht komen overeen met ID&#39;s van H3-sectie
 - [ ] Functies worden als nieuwste geordend (zowel pagina&#39;s voor productgebieden als overzichtstabellen)
+- [ ] Nieuwe pagina&#39;s met opmerkingen bij de release worden weergegeven in `help/quicksilver/TOC.md` onder het juiste kwartaal, waarbij het overzicht eerst verschijnt en de productgebieden in alfabetische volgorde (Overige laatste)
 
 ## Aanvullende bronnen
 
-- Voor volledige HTML malplaatjes en voorbeelden, zie [&#x200B; reference.md &#x200B;](reference.md)
+- Voor volledige HTML malplaatjes en voorbeelden, zie [ reference.md ](reference.md)
