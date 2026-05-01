@@ -6,20 +6,36 @@ description: U kunt uw  [!DNL Adobe Workfront]  wachtwoord terugstellen. Als bel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # Wachtwoord opnieuw instellen
 
+>[!NOTE]
+>
+>Als u het wachtwoord wijzigt, geldt dit voor alle [!DNL Adobe CX Enterprise] -toepassingen.
+
+Uw wachtwoord wordt niet beheerd in [!DNL Workfront] .
+
+Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te beheren, zult u uw wachtwoord door die leverancier veranderen.
+
+Als uw wachtwoord wordt beheerd door [!DNL Adobe] , kunt u het wachtwoord wijzigen in uw Adobe-account.
+
+[Zie dit artikel voor het wijzigen van je Adobe-wachtwoord.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
+
+<!--
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is verwijderd omdat deze alleen van toepassing was op organisaties die nog niet aan boord waren van de Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Alle Workfront-organisaties zijn nu aan boord van de Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
