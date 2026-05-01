@@ -34,4 +34,4 @@ In deze eerste versie is het goedkeuringsproces gestroomlijnd voor zowel het mak
 
 De optie Delen is uit het menu Meer gehaald voor projecten, taken en problemen om delen intuïtiever te maken. De nieuwe knop Delen wordt nu weergegeven naast de naam van een object vlak voor het menu Meer. Het delen van documenten, portfolio&#39;s en programma&#39;s blijft ongewijzigd.
 
-Voor meer informatie bij het delen van voorwerpen, zie [&#x200B; een voorwerp &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object) delen.
+Voor meer informatie bij het delen van voorwerpen, zie [&#x200B; een voorwerp &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/basics/grant-request-object-permissions/share-an-object) delen.
