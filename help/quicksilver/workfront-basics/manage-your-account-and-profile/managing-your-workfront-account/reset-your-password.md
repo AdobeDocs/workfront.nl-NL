@@ -25,7 +25,7 @@ Als uw organisatie een afzonderlijke toepassing gebruikt om wachtwoorden te behe
 
 Als uw wachtwoord wordt beheerd door [!DNL Adobe] , kunt u het wachtwoord wijzigen in uw Adobe-account.
 
-[Zie dit artikel voor het wijzigen van je Adobe-wachtwoord.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Zie dit artikel voor het wijzigen van je Adobe-wachtwoord.](https://helpx.adobe.com/nl/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Neem contact op met de beheerder voor meer informatie over het wijzigen van het wachtwoord.
 
