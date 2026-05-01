@@ -39,7 +39,7 @@ Als u [!DNL Workfront] tot en met [!DNL Adobe CX Enterprise] opent, hebt u een n
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,22 +47,22 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 De instantie van [!DNL Workfront] van uw organisatie moet aan [!DNL Adobe Business Platform] of [!DNL Adobe Admin Console] worden genegeerd.
 
-Als u vragen over het aan boord gaan aan [!DNL Adobe Admin Console] hebt, zie [[!DNL Adobe Unified Experience]  FAQ ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Als u vragen over het aan boord gaan aan [!DNL Adobe Admin Console] hebt, zie [[!DNL Adobe Unified Experience]  FAQ &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
 ## Adobe Identity Management System (IMS)
 
 Als deel van de beweging aan de Adobe Verenigde Ervaring, gebruikt uw organisatie nu Adobe Identity Management System om gebruikers voor authentiek te verklaren. Dit betekent dat u zich via Adobe aanmeldt bij Workfront in plaats van rechtstreeks bij Workfront. Adobe IMS vereist ook dat Workfront-beheerders gebruikersbeheer in de Adobe Admin Console in plaats van in Workfront uitvoeren.
 
-Voor informatie bij het aanmelden bij Workfront in de Adobe Verenigde Ervaring, zie [ Login aan de Onderneming van Adobe CX ](#log-in-to-adobe-cx-enterprise) in dit artikel.
+Voor informatie bij het aanmelden bij Workfront in de Adobe Verenigde Ervaring, zie [&#x200B; Login aan de Onderneming van Adobe CX &#x200B;](#log-in-to-adobe-cx-enterprise) in dit artikel.
 
-Voor informatie over gebruikersbeheer in Adobe Admin Console, zie artikel [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+Voor informatie over gebruikersbeheer in Adobe Admin Console, zie artikel [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 ## Aanmelden bij [!DNL Adobe CX Enterprise]
 
 1. Open een browservenster en ga naar <https://experience.adobe.com> .
 1. Voor het [!UICONTROL **Teken binnen**] scherm, typ uw e-mailadres en klik **[!UICONTROL Continue]**.
 
-   ![ Aanmelden bij [!DNL Adobe CX Enterprise]](assets/aec-login-page.png)
+   ![&#x200B; Aanmelden bij [!DNL Adobe CX Enterprise]](assets/aec-login-page.png)
 
 >[!NOTE]
 >
@@ -72,30 +72,30 @@ Voor informatie over gebruikersbeheer in Adobe Admin Console, zie artikel [ gebr
 
 Nadat u zich hebt aangemeld bij [!DNL Adobe CX Enterprise] , kunt u alle [!DNL Workfront] -organisaties en -omgevingen waartoe u toegang hebt, weergeven door op de organisatieschakelaar in het bovenste navigatiegebied te klikken. Selecteer de [!DNL Workfront] -organisatie of -omgeving waarin u wilt werken. Omgevingen kunnen [!UICONTROL Preview] en [!UICONTROL Sandbox] bevatten als uw organisatie deze gebruikt.
 
-![ de organisaties en de milieu&#39;s van de Mening [!DNL Workfront] ](assets/wf-org-instance-switcher-2026.png)
+![&#x200B; de organisaties en de milieu&#39;s van de Mening [!DNL Workfront] &#x200B;](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
 >De eerste keer dat u zich aanmeldt bij [!DNL Adobe CX Enterprise] , wordt de organisatie standaard ingesteld op de eerste in de alfabetische lijst. De volgende keer dat u zich aanmeldt, wordt de organisatie standaard ingesteld op de laatste bezochte organisatie.
 
-[!DNL Workfront] wordt weergegeven in de lijst met [!DNL Adobe CX Enterprise] -producten waartoe u toegang hebt. U kunt [!DNL Workfront] in het snelle toegangsmenu op de [!DNL CX Enterprise] homepage kiezen, of de productschakelaar ![ van het Product schakelaar ](assets/main-menu-icon.png) gebruiken om toepassingen op elk ogenblik te veranderen.
+[!DNL Workfront] wordt weergegeven in de lijst met [!DNL Adobe CX Enterprise] -producten waartoe u toegang hebt. U kunt [!DNL Workfront] in het snelle toegangsmenu op de [!DNL CX Enterprise] homepage kiezen, of de productschakelaar ![&#x200B; van het Product schakelaar &#x200B;](assets/main-menu-icon.png) gebruiken om toepassingen op elk ogenblik te veranderen.
 
-![ Uitgezocht [!DNL Workfront] om tot de toepassing ](assets/cx-enterprise-home-2026.png) toegang te hebben
+![&#x200B; Uitgezocht [!DNL Workfront] om tot de toepassing &#x200B;](assets/cx-enterprise-home-2026.png) toegang te hebben
 
 ## Navigeren [!DNL Workfront]
 
-Gebruik het [!UICONTROL Main Menu] pictogram van het pictogram ![ Belangrijkste Menu ](assets/main-menu-icon-left-nav.png) op de linkerzijde van de [!DNL Workfront] navigatiebar om aan om het even welke pagina&#39;s te navigeren die u toegang tot hebt. De opties die beschikbaar zijn in de [!UICONTROL Main Menu] zijn afhankelijk van:
+Gebruik het [!UICONTROL Main Menu] pictogram van het pictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon-left-nav.png) op de linkerzijde van de [!DNL Workfront] navigatiebar om aan om het even welke pagina&#39;s te navigeren die u toegang tot hebt. De opties die beschikbaar zijn in de [!UICONTROL Main Menu] zijn afhankelijk van:
 
-* **de malplaatjeconfiguraties van de Lay-out**: Leren hoe een [!DNL Workfront] beheerder [!UICONTROL Main Menu] van een lay-outmalplaatje kan wijzigen, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **het type van Vergunning**: Om de standaardconfiguraties voor verschillende vergunningstypes te leren, zie [ de navigatie voor a [!UICONTROL Light] - vergunning gebruiker ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) begrijpen of [ de navigatie voor a [!UICONTROL Work] - vergunning gebruiker ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md) begrijpen.
+* **de malplaatjeconfiguraties van de Lay-out**: Leren hoe een [!DNL Workfront] beheerder [!UICONTROL Main Menu] van een lay-outmalplaatje kan wijzigen, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **het type van Vergunning**: Om de standaardconfiguraties voor verschillende vergunningstypes te leren, zie [&#x200B; de navigatie voor a [!UICONTROL Light] - vergunning gebruiker &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) begrijpen of [&#x200B; de navigatie voor a [!UICONTROL Work] - vergunning gebruiker &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md) begrijpen.
 
-![ Belangrijkste menu ](assets/main-menu-options-left-nav.png)
+![&#x200B; Belangrijkste menu &#x200B;](assets/main-menu-options-left-nav.png)
 
 ## Uw profiel en voorkeuren openen
 
 U hebt toegang tot uw profiel- en voorkeursopties door in het bovenste navigatiegebied op het menu Adobe-account (uw profielafbeelding) te klikken.
 
-![ het menu van het Profiel ](assets/unified-shell-profile-menu-2026.png)
+![&#x200B; het menu van het Profiel &#x200B;](assets/unified-shell-profile-menu-2026.png)
 
 In dit menu kunt u:
 
@@ -106,7 +106,7 @@ In dit menu kunt u:
   >
   >De datuminstellingen zijn gebaseerd op de instellingen voor de primaire taal. Bijvoorbeeld, het selecteren van **Engels (Verenigde Staten)** toont data in formaat MM/DD/JJJJ, terwijl het selecteren van **Engels (Verenigd Koninkrijk)** toont data in formaat DD/MM/JJJJ.
 
-* Open uw **[!UICONTROL [!DNL Workfront] Profile]**. Zodra u op het profiel bent, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) en selecteer **[!UICONTROL Edit]**. Voor meer informatie over het profiel, zie [ Mijn Montages ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+* Open uw **[!UICONTROL [!DNL Workfront] Profile]**. Zodra u op het profiel bent, klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) en selecteer **[!UICONTROL Edit]**. Voor meer informatie over het profiel, zie [&#x200B; Mijn Montages &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 * **[!UICONTROL Sign out]** van [!DNL Adobe CX Enterprise] .
 
 ## Uw wachtwoord beheren
